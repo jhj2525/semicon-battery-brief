@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-07-30 17:00 KST",
+  "updated_at": "2026-07-30 20:44 KST",
   "items": [
+    {
+      "id": "21973cd5b427",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "강진에 멈춰선 구마모토 TSMC…“반도체 장비 미세 진동에도 취약, 재개에 시일 걸려” [르포] - joongang.co.kr",
+      "source": "joongang.co.kr",
+      "published": "2026-07-30 18:36",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Cek95ZjJnRm0ySy1fSmtiVU5wWTRCYUxrNjBuakhEcVFyb2NiVHRmd3d5VE5HSEpSZDFhY3RMMGVYSUlyanE0N0NGVHoySktRQTBrWFZR?oc=5",
+      "summary": "TSMC 구마모토 공장이 강진의 영향으로 가동을 멈췄습니다. 반도체 제조 장비는 미세 진동에도 매우 취약하여, 공장 재가동까지 상당한 시일이 소요될 것으로 보입니다.",
+      "insight": "반도체 공정 장비의 정밀도 유지 및 외부 환경에 의한 진동 제어 기술의 중요성이 강조됩니다."
+    },
     {
       "id": "c725927e47a9",
       "sector": "semiconductor",
@@ -10,32 +22,20 @@
       "source": "Chosunbiz",
       "published": "2026-07-30 08:35",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPN1hPWFZId3pvOVY0RnNvZHBISWNpLTNvSzFtTWVBeU91Mi1WajdxVzh6cS1SYUotdEZDbFpzTGtWQ2ZxWngxbXQ4eE4yTThFZ054T2c1LW9BSEs3TFZ1bGgybGw0eVZsYTJaWFRWRVc3cGFsWjd5XzBNamU2Qi1QUlpR0gGWAUFVX3lxTE5qTU1sWGx6LTNGSlpYVEUwYnZSNk1EbENkcGFqdzBQaTZDeGFCQzFiNG1TWFp2ZG9tb3k4SDJmenZXN295NXpsa09feGNSeHpUX002ZUVTR2pMSUN2LVBzYU5uYzNNVmkwdGUyM0V3UEtIQUhyMHBjZUZMTlRRMnJNbTNUa3lmYnJmSEdDaXpyOHNZX1o1Zw?oc=5",
-      "summary": "중국이 DUV 노광 장비 기술 자립에는 성공했으나, 14나노 이하 미세 공정 구현에는 여전히 기술적 한계에 직면해 있다. 이는 중국 반도체 산업의 고도화가 제약받고 있음을 시사한다.",
-      "insight": "미세 공정 진입 장벽에 따른 노광 및 패터닝 공정 기술의 중요성과 한계를 이해할 필요가 있다."
+      "summary": "중국이 DUV(심자외선) 노광 장비 기술 자립에는 성공했으나, 14나노 이하의 미세 공정을 구현하는 데에는 여전히 기술적 한계에 부딪힌 상태입니다.",
+      "insight": "고도화된 미세 공정 구현을 위한 노광 및 증착 기술 장벽을 확인하고 공정 난이도를 파악해야 합니다."
     },
     {
-      "id": "0700d1713a26",
+      "id": "ec4778fb1476",
       "sector": "semiconductor",
       "region": "domestic",
       "category": "기술·공정",
-      "title": "\"3D D램 시대 열린다…비아트론, 반도체 장비사 리레이팅 기대\" - 더스탁(The Stock)",
-      "source": "더스탁(The Stock)",
-      "published": "2026-07-30 09:56",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBCcGdycEN0a0hLazF1eHhkSVM3c2VESW1TM240dWtHYnp0LUpHdkdOMFd3NjEyYkFwTWhRTlB3R2VJeDZDeVdQUGtzZnZad1llWnlyc0xfTTBJMVlLWl9ETl96SDlwNHcwbXc?oc=5",
-      "summary": "3D D램 도입 본격화에 따라 반도체 장비 시장의 변화와 관련 장비사의 가치 재평가가 기대된다. 새로운 메모리 구조 변화가 장비 업체에 기회로 작용할 전망이다.",
-      "insight": "3D D램 전환에 따른 새로운 적층 및 식각 공정 장비 수요와 기술적 요구사항을 파악해야 한다."
-    },
-    {
-      "id": "28641310ab30",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "미래산업, 中에 반도체 검사 장비 2종 공급...100억 규모 - thelec.kr",
-      "source": "thelec.kr",
-      "published": "2026-07-30 07:49",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9CWFFSWGZaMTJYSXZBOGROZVlSVEhRbWkyOUhxWEl0Yl9GSmF5QUtYMWZqaVhZd0NzdExPMTM1NEk3bHFncmdkV05iQWxheEJCMUVqcEZib25tUDhmbkpHYmlPWUl2Zw?oc=5",
-      "summary": "미래산업이 중국 기업을 대상으로 100억 원 규모의 반도체 검사 장비 2종을 공급한다. 이번 계약은 중국 내 반도체 검사 및 품질 관리 시장 수요에 대응하는 성과다.",
-      "insight": "반도체 수율 향상을 위한 검사 공정 장비의 시장 수요와 공정 기술의 연관성을 확인해야 한다."
+      "title": "롯데정밀화학, 2분기 영업익 619억원…스페셜티 소재가 실적 견인 - 스트레이트뉴스",
+      "source": "스트레이트뉴스",
+      "published": "2026-07-30 17:21",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8wWU5jR252SGZ1MU0yQmNMNDVmU3VPVWh2VHNaQVItdlRHNlRQUmpCcmEzcW9JQVlKTmZyczVFQnMwTUtPaGd1SldiRGdTeHd2R3FmYXczTXFNTHZGc3V4TXVmR29WT0ktU0JCakxNZi1UNTVuVldR0gF3QVVfeXFMTzBZTmNHbnZIZnUxTTJCY0w0NWZTdU9VaHZUc1pBUi12VEc2VFBSakJyYTNxb0lBWUpOZnJzNUVCczBNS09oZ3VKV2JEZ1N4d3ZHcWZhdzNNcU1MdkZzdXhNdWZHb1ZPSS1TQkJqTE1mLVQ1NW5WV1E?oc=5",
+      "summary": "롯데정밀화학이 2분기 619억 원의 영업이익을 달성하며 실적 개선세를 보였습니다. 이러한 실적 회복은 스페셜티 소재 분야가 주도한 것으로 분석됩니다.",
+      "insight": "공정기술 영향은 원문 확인 필요."
     },
     {
       "id": "5e42ca7e3441",
@@ -46,20 +46,20 @@
       "source": "Yole Group",
       "published": "2026-07-30 00:59",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPV0tBaF93M0UwMWFOUFRLRlJUNFplQWtiQjhBelFZTkJ3QWlKNE9vNWtvZUJyc3F0cG9OZXczal91RmFYcGUwT0hyeWlZSVl6d0lFLUp5alVueUNfUFNyM0xaQ2hXdE5QckxGUzVrdUdUZmItUWhlb281WUM3dnZ1cWJySmlfS2xQV3JlM2JDcWdoNDQ?oc=5",
-      "summary": "웨이퍼 팹 장비 시장이 향후 급격한 성장세를 보일 것으로 전망된다. 시장 확대에 따라 반도체 제조 설비 전반의 수요가 증가하고 있다.",
-      "insight": "공정기술 영향은 원문 확인 필요"
+      "summary": "웨이퍼 팹(Wafer fab) 장비 시장이 향후 크게 성장할 것으로 전망됩니다. 시장 규모가 폭발적으로 확대될 준비를 갖추고 있습니다.",
+      "insight": "반도체 장비 산업의 성장세에 따른 신규 설비 도입 및 공정 최적화 역량이 중요해질 것입니다."
     },
     {
-      "id": "305be877af19",
+      "id": "665ed41bca51",
       "sector": "semiconductor",
       "region": "global",
       "category": "정책",
-      "title": "Scaling semiconductor manufacturing through NPI, yield ramp and high-volume production - Electronics Weekly",
-      "source": "Electronics Weekly",
-      "published": "2026-07-29 19:09",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNN0xsekFSSHZHZlBGR05tbDRYN0lJbE94eUo1THc2WUhaazh6azRUclU4dmVBRW91a2duWWcwby13Q1J2RUJKQ0VRQk5DUUNFOVk4MjI2ak81MWdYVmp2Tkphc3Y4LWxXOFFRbHQwZ2hhTi1yazJiTENzS2d2eHJIT1ZzZXdHb1pZWkRSR0hJellqNE9NNTIxT1o2LU5QMVlIUkNPY3NBNElLZ1o2czlRclFrZjZ1TE44c2Z5MlBiRHE3OXlzdjVsbEgtZXpVX1ZaZmM3dGpRZFNydw?oc=5",
-      "summary": "반도체 제조 효율을 높이기 위해 신제품 도입(NPI), 수율 개선(Yield ramp), 양산 체제 강화가 핵심 과제로 부각되고 있다. 공정 최적화를 통한 제조 경쟁력 확보가 중요하다.",
-      "insight": "양산 수율 확보를 위한 공정 제어 및 양산 전환 단계별 기술적 요소에 대한 이해가 필수적이다."
+      "title": "MetaOptics and Elsoft partner to scale next-generation semiconductor optics manufacturing equipment - The Manila Times",
+      "source": "The Manila Times",
+      "published": "2026-07-30 19:41",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQZkxrMWkwUVpuZEQyd0NwMXF0M2lEMGNZZ1FxRFVGSE9EcWxuN0JUVXpuM1VzWHZ3SVQtYnBUY0laWXRsbWY5SHlaV1NxYjR4VUpaeEcwN2tETHFaTE9fX0lvXzZJRnhLblczR2hHcXBsQjQ1MWZKQk03TmFiZjBYbUplSTl4Q1F4LTZXYWEzS0JOS1FEQjV3YjctWktMOUFDaE40alAzWDF4S1VHN2x5WXVRMDRpM0M1WU1XZXVjQWNjekZtWEYxQWQtUGV5QnhwTk01V1podk1QZkxmU1pEOHdoNWRSWDI1aHhqNFM5NDh2NUdGd3ZUc0JuUS1nZTFl0gGGAkFVX3lxTFA3RU9xbEFwbURQUGJ0cktXLThwb1dPbFdJU1VYR3ZwYkRrSm5YOFRXYVVMLXkxRWluQXNpbEdoMmNGMVVYTVUzbkdoVy1qT1drQkNRY0JZRThiSjd5U0hlaTNieElrUVlRbERVOUZkeUtuR0dWc0dzQ1NRQ1ZEYjNlOXR4WE02RHR0a0kzSmJQdjI3RVQ4Q3NRWUNoMi1MclpqNkl6M1Z2U1h4YkplZ0IwVTJzd3d2ZkV0XzgzS1c3ZWhEa0NnY2RXNGtqMVVWbDJ0M09GVUh4Z1hkQkpqdHotUnVIZVlqVkp2dnU0eWxwcEY2X1NvQVlMWk96a1Jmajhyc21SQXc?oc=5",
+      "summary": "메타옵틱스(MetaOptics)와 엘소프트(Elsoft)가 차세대 반도체 광학 제조 장비 생산 규모를 확대하기 위해 협력하기로 했습니다.",
+      "insight": "차세대 광학 공정 장비의 국산화 및 대량 생산을 위한 장비 엔지니어링 역량이 핵심이 될 것입니다."
     },
     {
       "id": "3f7939a6f762",
@@ -70,8 +70,8 @@
       "source": "뉴스투데이",
       "published": "2026-07-30 14:13",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4wMmtWSHVGM1RJUW1RZlp3QXpIZy1MN3E1SUZXNHF1VTBQc1laNThpVnc4am95MFJDVHVwdk4yeVVEQWxSQzJwX2tlQUEwS3Z6SjhlSy1wLWdJTkJDTHc?oc=5",
-      "summary": "포스코퓨처엠이 배터리 소재 사업의 회복세를 보이며 연내 LFP 양극재 양산을 목표로 하고 있다. 전기차 시장의 수요 변화에 대응하여 포트폴리오를 다변화하고 있다.",
-      "insight": "LFP 양극재 도입에 따른 양극 공정의 변화와 품질 관리 핵심 요소를 파악해야 한다."
+      "summary": "포스코퓨처엠의 배터리 소재 사업이 회복세에 접어들었습니다. 특히 LFP(리튬인산철) 양극재의 연내 양산을 목표로 사업을 추진 중입니다.",
+      "insight": "LFP 양극재의 상용화를 위한 양산 공정 안정화 기술의 중요도가 매우 높아지고 있습니다."
     },
     {
       "id": "d10bfad3dbc8",
@@ -82,20 +82,20 @@
       "source": "한국경제",
       "published": "2026-07-30 15:45",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oaHlfWFh6T3h4YmlaSko0NkhjT09JZWxCeU9xR01uWjdOaEpkOE9XaUxHUVNXUlY3eVhBbWtCMDRfcUFvQkI5bW1JTE15YnZFVjZFeHQ3M1dXQQ?oc=5",
-      "summary": "PCB 장비 제조 기업이 AI와 2차전지 소재 사업으로 영역을 확장하며 매출 성장을 노린다. 기존 장비 기술력을 바탕으로 새로운 배터리 소재 공정에 진입하려는 전략이다.",
-      "insight": "공정기술 영향은 원문 확인 필요"
+      "summary": "기존 PCB(인쇄회로기판) 장비 제조사가 AI 및 2차전지 소재 시장으로 사업 영역을 확장하며 매출 급성장을 도모하고 있습니다.",
+      "insight": "공정기술 영향은 원문 확인 필요."
     },
     {
-      "id": "0ceb9be9b392",
+      "id": "d04d6c9961df",
       "sector": "battery",
       "region": "domestic",
       "category": "기술·공정",
-      "title": "팩토리얼·SK온, 전고체 배터리 대량 양산 협력… 상용화 난제 정면 돌파 - 글로벌이코노믹",
-      "source": "글로벌이코노믹",
-      "published": "2026-07-30 10:46",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOelBCMW92ZTBKWkJRU2xlS3J0cGo4Vmx4WTBGdWtiRmNkcDlzRzJVOFhIOEJRcUNuRFhndk9peklVQ1ljOS1wZWZ4UG9GZUVRUm1RYVhlemJSbnhnT1VVLU9HTkxWTXdOdUtmblBjM0tPWFppQmY5QUUtQmt3WDlPQWQ2cldUa3hI?oc=5",
-      "summary": "팩토리얼과 SK온이 전고체 배터리 대량 양산을 위해 협력하기로 했다. 상용화의 걸림돌이었던 제조 공정 난제를 해결하여 전고체 배터리 시장을 선점하려는 전략이다.",
-      "insight": "전고체 배터리 대량 양산을 위한 공정 최적화 및 신규 제조 설비 기술의 변화를 이해해야 한다."
+      "title": "포스코퓨처엠, 2분기 흑자전환…배터리소재 수익성 회복 - 테크월드",
+      "source": "테크월드",
+      "published": "2026-07-30 17:50",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9JaWNvTVpIM1Y5WEx1a3d6UmZTMVgwUUdqRWs1aW80eWpxdWRwQllXN2lmbTBLd0xLMkEtUUFRRjVrWm1uY2FSUnFwSGpGTXMwVTQ3Wl9pWUxoR3BaZ3pBaldzRGVtRjJ3?oc=5",
+      "summary": "포스코퓨처엠이 2분기 흑자 전환에 성공했습니다. 배터리 소재 부문의 전반적인 수익성이 개선된 결과로 풀이됩니다.",
+      "insight": "공정기술 영향은 원문 확인 필요."
     },
     {
       "id": "ab67521cb21f",
@@ -106,8 +106,8 @@
       "source": "thelec.net",
       "published": "2026-07-30 07:28",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JVVBKb1dZYXJIbktDMldEcUg3eEpwTmNMdVlEQjJBQVNvUmpRVFpFdzNwOEhXa3VkMjdsb2FUenU2aFNmS2ktWTAtQVNfa05wajhqT3JuTzYxV2RFSW84XzZMd3lHc1E?oc=5",
-      "summary": "유진테크놀로지가 BEI의 무음극재 배터리 연구개발(R&D)을 위한 조립 장비를 공급한다. 차세대 배터리 기술 확보를 위한 공정 장비 지원이 활발히 이루어지고 있다.",
-      "insight": "무음극재 기술 구현을 위한 조립 및 공정 장비의 정밀 제어 기술적 요소를 확인해야 한다."
+      "summary": "유진테크놀로지가 BEI의 무음극(Anode-Free) 배터리 연구개발을 지원하기 위해 배터리 조립 장비를 공급합니다.",
+      "insight": "차세대 배터리인 무음극 배터리 조립 공정을 위한 특수 장비 설계 역량이 중요합니다."
     },
     {
       "id": "193b958cafdb",
@@ -118,8 +118,8 @@
       "source": "finance.biggo.com",
       "published": "2026-07-29 19:55",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5MXdMV3AySVhIb3Jfd0pnRXZVRUNoRXVfejJ2eXllcHBtLUlUaHVWd2I5WnRLdFNmQUZtOWRRSG9TWFViQlVfcUxWb0U4ejRFT0R0enJMTkdfTnI3MXdHTXEzOGFCTEx3cFVhWXJUcGVhUHVRV3c?oc=5",
-      "summary": "엘앤에프가 미국 코어셸에 LFP 양극재를 공급하며 비중국 공급망을 확대하고 있다. 이는 국방 분야를 포함한 전략적 공급망 구축의 일환으로 풀이된다.",
-      "insight": "공정기술 영향은 원문 확인 필요"
+      "summary": "엘앤에프(L&F)가 미국 코어쉘(Coreshell)에 LFP 양극재를 공급합니다. 이를 통해 중국을 배제한 국방 분야 등 비중국 공급망을 확대하고 있습니다.",
+      "insight": "공정기술 영향은 원문 확인 필요."
     }
   ]
 }
