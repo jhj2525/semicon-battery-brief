@@ -44,7 +44,8 @@ function buildRow(item) {
   fragment.querySelector(".headline").textContent = item.title;
   fragment.querySelector(".keywords").textContent = (item.keywords || []).slice(0, 3).join(" · ");
   fragment.querySelector(".source").textContent = item.source;
-  fragment.querySelector(".overview").textContent = item.overview;
+  fragment.querySelector(".overview").textContent =
+    item.overview || "이 항목은 제목과 원문 링크만 보관했습니다.";
   fillList(fragment.querySelector(".key-points"), item.key_points);
   fillList(fragment.querySelector(".numbers"), item.numbers);
   fragment.querySelector(".numbers-wrap").hidden = !(item.numbers || []).length;
@@ -56,6 +57,10 @@ function buildRow(item) {
   fragment.querySelector(".original-link").href = item.link;
 
   button.addEventListener("click", () => {
+    if (item.summary_status === "link_only") {
+      window.open(item.link, "_blank", "noopener,noreferrer");
+      return;
+    }
     const opening = detail.hidden;
     detail.hidden = !opening;
     button.setAttribute("aria-expanded", String(opening));
@@ -69,7 +74,8 @@ function render() {
   const region = regionFilter.value;
   const category = categoryFilter.value;
   const visible = items.filter(item =>
-    item.verified_source === true &&
+    (item.verified_source === true ||
+      (item.sector === "semi_market" && item.summary_status === "link_only")) &&
     item.sector === sector &&
     (region === "all" || item.region === region) &&
     (category === "all" || item.category === category) &&
@@ -94,16 +100,17 @@ tabs.forEach(tab => tab.addEventListener("click", () => {
 fetch("data/news.json", { cache: "no-store" })
   .then(response => response.json())
   .then(data => {
-    items = data.items || [];
+    items = [...(data.items || []), ...(data.market_items || [])];
     updated.textContent = `최근 업데이트 ${data.updated_at || "-"}`;
     document.querySelector("#semiCount").textContent =
       items.filter(x => x.sector === "semiconductor" && x.verified_source).length;
     document.querySelector("#batteryCount").textContent =
       items.filter(x => x.sector === "battery" && x.verified_source).length;
+    document.querySelector("#marketCount").textContent =
+      items.filter(x => x.sector === "semi_market").length;
     render();
   })
   .catch(() => {
     updated.textContent = "데이터 로드 실패";
     empty.hidden = false;
   });
-
