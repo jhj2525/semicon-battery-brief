@@ -1,125 +1,272 @@
 {
-  "updated_at": "2026-07-30 20:44 KST",
+  "updated_at": "2026-07-30 21:14 KST",
+  "today_verified_count": 8,
   "items": [
     {
-      "id": "21973cd5b427",
-      "sector": "semiconductor",
+      "id": "ffdbc606b58f",
+      "sector": "battery",
       "region": "domestic",
-      "category": "기술·공정",
-      "title": "강진에 멈춰선 구마모토 TSMC…“반도체 장비 미세 진동에도 취약, 재개에 시일 걸려” [르포] - joongang.co.kr",
-      "source": "joongang.co.kr",
-      "published": "2026-07-30 18:36",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Cek95ZjJnRm0ySy1fSmtiVU5wWTRCYUxrNjBuakhEcVFyb2NiVHRmd3d5VE5HSEpSZDFhY3RMMGVYSUlyanE0N0NGVHoySktRQTBrWFZR?oc=5",
-      "summary": "TSMC 구마모토 공장이 강진의 영향으로 가동을 멈췄습니다. 반도체 제조 장비는 미세 진동에도 매우 취약하여, 공장 재가동까지 상당한 시일이 소요될 것으로 보입니다.",
-      "insight": "반도체 공정 장비의 정밀도 유지 및 외부 환경에 의한 진동 제어 기술의 중요성이 강조됩니다."
+      "category": "투자·양산",
+      "title": "SK이노베이션, 2026년 2분기 실적발표 컨퍼런스콜 전문",
+      "source": "디일렉",
+      "published": "2026-07-31 02:33",
+      "collected": "2026-07-30",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=60342",
+      "verified_source": true,
+      "overview": "SK이노베이션의 2026년 2분기 경영 실적 발표 컨퍼런스콜 내용을 담고 있다. SK이노베이션은 매출 29조 1572억 원, 영업이익 3조 4873억 원을 기록했다. 윤활유 사업의 실적 호조와 SK온의 영업 흑자 전환이 주요 성과로 언급되었다. 포드와의 합작법인 블루오벌SK 종료 및 단독 공장 체제 전환 등 사업 포트폴리오 리밸런싱을 추진했다.",
+      "key_points": [
+        "SK이노베이션은 윤활유 및 배터리 사업의 이익 증대에 힘입어 영업이익 3조 4873억 원을 달성했다.",
+        "SK온은 포드와의 블루오벌SK 합작법인 종료 후 테네시 공장을 단독 공장으로 출범하며 고정비 절감 효과를 기대하고 있다.",
+        "SK엔무브는 글로벌 생산 거점과 그룹3 기유 제품 경쟁력을 바탕으로 견조한 실적을 기록했다.",
+        "올해 ESS 20GWh 수주 목표를 유지하며 전기차 및 ESS 수요에 대응할 계획이다."
+      ],
+      "numbers": [
+        "2026년 2분기 매출 29조 1572억 원",
+        "2026년 2분기 영업이익 3조 4873억 원",
+        "SK온 영업이익 8218억 원",
+        "SK온 연간 3000억 원 감가상각비 및 2000억 원 이자 비용 절감 예상",
+        "올해 ESS 20GWh 수주 목표"
+      ],
+      "keywords": [
+        "SK이노베이션",
+        "SK온",
+        "SK엔무브",
+        "실적발표",
+        "포트폴리오 리밸런싱",
+        "ESS"
+      ],
+      "stated_outlook": "SK온은 포트폴리오 리밸런싱을 지속하며 수익성 강화를 추진하고, ESS 시장 수주 확대 및 EV 라인의 ESS 라인 전환 등을 검토한다. SK엔무브는 경쟁사 공급 차질 해소 시 스프레드가 점진적으로 하락할 수 있음을 전망했다. 에너지 사업 전반에서는 중동 리스크에 따른 유가 및 정제 마진의 불확실성에 대비해 탄력적인 운영을 계획하고 있다."
     },
     {
-      "id": "c725927e47a9",
-      "sector": "semiconductor",
+      "id": "67714616eeda",
+      "sector": "battery",
       "region": "domestic",
-      "category": "기술·공정",
-      "title": "[비즈톡톡] 中, DUV 기술 자립 성공했지만… 14나노 이하 공정은 여전히 ‘벽’ - 조선비즈 - Chosunbiz",
-      "source": "Chosunbiz",
-      "published": "2026-07-30 08:35",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPN1hPWFZId3pvOVY0RnNvZHBISWNpLTNvSzFtTWVBeU91Mi1WajdxVzh6cS1SYUotdEZDbFpzTGtWQ2ZxWngxbXQ4eE4yTThFZ054T2c1LW9BSEs3TFZ1bGgybGw0eVZsYTJaWFRWRVc3cGFsWjd5XzBNamU2Qi1QUlpR0gGWAUFVX3lxTE5qTU1sWGx6LTNGSlpYVEUwYnZSNk1EbENkcGFqdzBQaTZDeGFCQzFiNG1TWFp2ZG9tb3k4SDJmenZXN295NXpsa09feGNSeHpUX002ZUVTR2pMSUN2LVBzYU5uYzNNVmkwdGUyM0V3UEtIQUhyMHBjZUZMTlRRMnJNbTNUa3lmYnJmSEdDaXpyOHNZX1o1Zw?oc=5",
-      "summary": "중국이 DUV(심자외선) 노광 장비 기술 자립에는 성공했으나, 14나노 이하의 미세 공정을 구현하는 데에는 여전히 기술적 한계에 부딪힌 상태입니다.",
-      "insight": "고도화된 미세 공정 구현을 위한 노광 및 증착 기술 장벽을 확인하고 공정 난이도를 파악해야 합니다."
+      "category": "산업",
+      "title": "SK온, 분사 후 최대 흑자…2분기 영업익 8218억원",
+      "source": "디일렉",
+      "published": "2026-07-31 01:36",
+      "collected": "2026-07-30",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=60338",
+      "verified_source": true,
+      "overview": "SK온이 2021년 분사 이후 분기 기준 최대 영업이익인 8218억원을 달성하며 흑자 전환했다. 이는 윤활유 사업 호조와 배터리 수익성 개선, 일회성 이익 반영 등이 주요 요인이다. SK온은 하반기에 생산거점 재편과 고정비 절감 효과를 기대하며 사업 구조 개편을 지속할 방침이다.",
+      "key_points": [
+        "SK온의 2분기 매출은 2조 9460억원, 영업이익은 8218억원을 기록했다.",
+        "이번 흑자는 2024년 3분기 이후 7분기 만이며, 분사 후 최대 실적이다.",
+        "실적 개선에는 고객사 보상금 등 일회성 이익, 아시아 지역 판매 확대, 원가 절감, IRA에 따른 AMPC 증가가 기여했다.",
+        "미국 합작법인 블루오벌SK 종료 절차를 마쳤으며, 테네시 공장은 SK온 단독 운영 체제로 전환했다."
+      ],
+      "numbers": [
+        "2026.07.30",
+        "2조9460억원",
+        "8218억원",
+        "64%",
+        "40%",
+        "3492억원"
+      ],
+      "keywords": [
+        "SK온",
+        "실적",
+        "영업이익",
+        "배터리",
+        "흑자전환",
+        "전기차"
+      ],
+      "stated_outlook": "하반기에는 제품과 생산거점 재편에 따른 고정비 절감 효과가 반영될 전망이며, 전기차용 배터리 판매 확대와 더불어 AI 데이터센터 운영사 및 전력회사를 중심으로 ESS 고객사를 확보하여 사업 구조를 다변화할 계획이다."
     },
     {
-      "id": "ec4778fb1476",
-      "sector": "semiconductor",
+      "id": "6b6248a509c0",
+      "sector": "battery",
       "region": "domestic",
-      "category": "기술·공정",
-      "title": "롯데정밀화학, 2분기 영업익 619억원…스페셜티 소재가 실적 견인 - 스트레이트뉴스",
-      "source": "스트레이트뉴스",
-      "published": "2026-07-30 17:21",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8wWU5jR252SGZ1MU0yQmNMNDVmU3VPVWh2VHNaQVItdlRHNlRQUmpCcmEzcW9JQVlKTmZyczVFQnMwTUtPaGd1SldiRGdTeHd2R3FmYXczTXFNTHZGc3V4TXVmR29WT0ktU0JCakxNZi1UNTVuVldR0gF3QVVfeXFMTzBZTmNHbnZIZnUxTTJCY0w0NWZTdU9VaHZUc1pBUi12VEc2VFBSakJyYTNxb0lBWUpOZnJzNUVCczBNS09oZ3VKV2JEZ1N4d3ZHcWZhdzNNcU1MdkZzdXhNdWZHb1ZPSS1TQkJqTE1mLVQ1NW5WV1E?oc=5",
-      "summary": "롯데정밀화학이 2분기 619억 원의 영업이익을 달성하며 실적 개선세를 보였습니다. 이러한 실적 회복은 스페셜티 소재 분야가 주도한 것으로 분석됩니다.",
-      "insight": "공정기술 영향은 원문 확인 필요."
+      "category": "정책",
+      "title": "삼성SDI, 2분기 영업익 2038억…7분기 만에 흑자전환",
+      "source": "디일렉",
+      "published": "2026-07-30 23:55",
+      "collected": "2026-07-30",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=60321",
+      "verified_source": true,
+      "overview": "삼성SDI가 올해 2분기 연결기준 매출 3조 7688억 원, 영업이익 2038억 원을 기록하며 7분기 만에 흑자로 전환했다. 미국 첨단제조생산세액공제(AMPC) 보조금을 제외하고도 961억 원의 영업이익을 달성하며 수익성을 증명했다. 이는 AI 데이터센터용 배터리와 유럽 전기차용 배터리 등 판매 증가에 힘입은 결과다.",
+      "key_points": [
+        "삼성SDI가 2024년 3분기 이후 7분기 만에 흑자 전환에 성공했다.",
+        "2분기 영업이익 중 미국 AMPC 보조금은 1077억 원이며, 이를 제외한 영업이익은 961억 원이다.",
+        "배터리 부문은 UPS, BBU, 전동공구용 배터리 및 유럽 전기차용 배터리 판매 호조로 흑자를 기록했다.",
+        "전자재료 부문은 반도체 소재와 폴더블 스마트폰용 필름 소재 판매 확대에 힘입어 전년 동기 대비 영업이익이 34.8% 증가했다."
+      ],
+      "numbers": [
+        "2026년 2분기",
+        "3조 7688억 원",
+        "2038억 원",
+        "18.5%",
+        "5.4%",
+        "482억 원"
+      ],
+      "keywords": [
+        "삼성SDI",
+        "배터리",
+        "흑자전환",
+        "AMPC",
+        "전기차",
+        "ESS"
+      ],
+      "stated_outlook": "하반기에는 미국 각형 리튬인산철(LFP) 배터리 양산 준비, AI 데이터센터 대응을 위한 UPS 및 BBU 생산능력 확대, 나트륨이온 배터리 개발 및 양산 계획 구체화, 반도체 패키징 소재와 디스플레이 필름 판매 확대를 추진할 방침이다."
     },
     {
-      "id": "5e42ca7e3441",
+      "id": "b39690c62808",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "기술·공정",
+      "title": "2D P-Type Semiconductors with Oxide N-Channel Transistors For Complementary BEOL CMOS (Stanford, Hanyang)",
+      "source": "Semiconductor Engineering",
+      "published": "2026-07-30 07:45",
+      "collected": "2026-07-30",
+      "link": "https://semiengineering.com/2d-p-type-semiconductors-with-oxide-n-channel-transistors-for-complementary-beol-cmos-stanford-hanyang/",
+      "verified_source": true,
+      "overview": "스탠퍼드 대학교와 한양대학교 연구진이 산화물 전자소자의 p형 반도체 공백을 2차원 반도체로 해결하기 위한 기술적 검토 내용을 발표했다. 이 연구는 고성능 2차원 p채널 트랜지스터를 위한 제조 공정 중심의 경로를 평가한다. 특히, 저온 성장, van der Waals 접점, p도핑 및 결정화 조절 등을 다루며, BEOL(Back-End-of-Line) 공정을 위한 실용적인 접근법을 제시한다. 이러한 기술은 향후 제조 가능하고 밀도가 높으며 저전력인 모놀리식 3D 칩 구현을 목표로 한다.",
+      "key_points": [
+        "스탠퍼드 대학교와 한양대학교 연구진이 산화물 전자소자의 p형 반도체 한계를 2차원 반도체로 극복하는 방안을 제시했다.",
+        "연구에서는 transfer-free 저온 성장, clean van der Waals 접점, 정교한 p도핑 등을 포함한 제조 중심의 경로를 검토했다.",
+        "결정화, 휘발성, 층간 확산 문제를 완화하는 방법론을 다루었으며, 모놀리식 3D 칩을 위한 실용적인 전망을 담고 있다."
+      ],
+      "numbers": [
+        "2026년 7월 29일"
+      ],
+      "keywords": [
+        "2차원 반도체",
+        "p형 반도체",
+        "BEOL CMOS",
+        "산화물 트랜지스터",
+        "모놀리식 3D 칩"
+      ],
+      "stated_outlook": "제조 가능하고 밀도가 높으며 저전력인 모놀리식 3D 칩을 위한 실용적인 경로를 제시하고 있다."
+    },
+    {
+      "id": "fe7756c2d4e5",
       "sector": "semiconductor",
       "region": "global",
       "category": "투자·양산",
-      "title": "Wafer fab equipment: a market on track to explode - Yole Group",
-      "source": "Yole Group",
-      "published": "2026-07-30 00:59",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPV0tBaF93M0UwMWFOUFRLRlJUNFplQWtiQjhBelFZTkJ3QWlKNE9vNWtvZUJyc3F0cG9OZXczal91RmFYcGUwT0hyeWlZSVl6d0lFLUp5alVueUNfUFNyM0xaQ2hXdE5QckxGUzVrdUdUZmItUWhlb281WUM3dnZ1cWJySmlfS2xQV3JlM2JDcWdoNDQ?oc=5",
-      "summary": "웨이퍼 팹(Wafer fab) 장비 시장이 향후 크게 성장할 것으로 전망됩니다. 시장 규모가 폭발적으로 확대될 준비를 갖추고 있습니다.",
-      "insight": "반도체 장비 산업의 성장세에 따른 신규 설비 도입 및 공정 최적화 역량이 중요해질 것입니다."
+      "title": "Deployable 3D Structures from Wafer-Fabricated Precursors (U. of Houston, Toyota, Imperial College London)",
+      "source": "Semiconductor Engineering",
+      "published": "2026-07-30 07:32",
+      "collected": "2026-07-30",
+      "link": "https://semiengineering.com/deployable-3d-structures-from-wafer-fabricated-precursors-u-of-houston-toyota-imperial-college-london/",
+      "verified_source": true,
+      "overview": "휴스턴 대학교(University of Houston), 도요타(Toyota), 임페리얼 칼리지 런던(Imperial College London)의 연구진이 '웨이퍼 제작 전구체로부터의 배포 가능한 3D 구조(Deployable 3D architectures from wafer-fabricated precursors)'라는 기술 논문을 발표했다. 해당 연구는 표준 웨이퍼 제작 공정을 통해 가우시안 곡률이 지정된 독립형의 기계적으로 안정적인 3D 구조를 생산할 수 있음을 보여준다. 이는 기존 반도체 제조 방식으로는 달성하기 어려웠던 기능이다. 본 연구는 실현 가능한 3D 반도체 소자의 가능성을 제시한다.",
+      "key_points": [
+        "표준 웨이퍼 제조 공정을 사용하여 독립형의 기계적으로 안정적인 3D 구조물을 제작했다.",
+        "제작된 구조물은 지정된 가우시안 곡률을 가지고 있다.",
+        "이번 성과는 실현 가능한 3D 반도체 소자로 이어질 수 있는 제조 기술을 다룬다."
+      ],
+      "numbers": [
+        "2026-07-29",
+        "2026-06",
+        "2026",
+        "101"
+      ],
+      "keywords": [
+        "3D 반도체 소자",
+        "웨이퍼 제작",
+        "가우시안 곡률",
+        "배포 가능한 3D 구조",
+        "반도체 제조"
+      ],
+      "stated_outlook": "이 연구는 실현 가능한 3D 반도체 소자의 개발을 지향한다."
     },
     {
-      "id": "665ed41bca51",
+      "id": "15126064f437",
       "sector": "semiconductor",
-      "region": "global",
-      "category": "정책",
-      "title": "MetaOptics and Elsoft partner to scale next-generation semiconductor optics manufacturing equipment - The Manila Times",
-      "source": "The Manila Times",
-      "published": "2026-07-30 19:41",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQZkxrMWkwUVpuZEQyd0NwMXF0M2lEMGNZZ1FxRFVGSE9EcWxuN0JUVXpuM1VzWHZ3SVQtYnBUY0laWXRsbWY5SHlaV1NxYjR4VUpaeEcwN2tETHFaTE9fX0lvXzZJRnhLblczR2hHcXBsQjQ1MWZKQk03TmFiZjBYbUplSTl4Q1F4LTZXYWEzS0JOS1FEQjV3YjctWktMOUFDaE40alAzWDF4S1VHN2x5WXVRMDRpM0M1WU1XZXVjQWNjekZtWEYxQWQtUGV5QnhwTk01V1podk1QZkxmU1pEOHdoNWRSWDI1aHhqNFM5NDh2NUdGd3ZUc0JuUS1nZTFl0gGGAkFVX3lxTFA3RU9xbEFwbURQUGJ0cktXLThwb1dPbFdJU1VYR3ZwYkRrSm5YOFRXYVVMLXkxRWluQXNpbEdoMmNGMVVYTVUzbkdoVy1qT1drQkNRY0JZRThiSjd5U0hlaTNieElrUVlRbERVOUZkeUtuR0dWc0dzQ1NRQ1ZEYjNlOXR4WE02RHR0a0kzSmJQdjI3RVQ4Q3NRWUNoMi1MclpqNkl6M1Z2U1h4YkplZ0IwVTJzd3d2ZkV0XzgzS1c3ZWhEa0NnY2RXNGtqMVVWbDJ0M09GVUh4Z1hkQkpqdHotUnVIZVlqVkp2dnU0eWxwcEY2X1NvQVlMWk96a1Jmajhyc21SQXc?oc=5",
-      "summary": "메타옵틱스(MetaOptics)와 엘소프트(Elsoft)가 차세대 반도체 광학 제조 장비 생산 규모를 확대하기 위해 협력하기로 했습니다.",
-      "insight": "차세대 광학 공정 장비의 국산화 및 대량 생산을 위한 장비 엔지니어링 역량이 핵심이 될 것입니다."
-    },
-    {
-      "id": "3f7939a6f762",
-      "sector": "battery",
       "region": "domestic",
       "category": "기술·공정",
-      "title": "포스코퓨처엠, 배터리소재 회복세…LFP 양극재 연내 양산(종합) - 뉴스투데이",
-      "source": "뉴스투데이",
-      "published": "2026-07-30 14:13",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4wMmtWSHVGM1RJUW1RZlp3QXpIZy1MN3E1SUZXNHF1VTBQc1laNThpVnc4am95MFJDVHVwdk4yeVVEQWxSQzJwX2tlQUEwS3Z6SjhlSy1wLWdJTkJDTHc?oc=5",
-      "summary": "포스코퓨처엠의 배터리 소재 사업이 회복세에 접어들었습니다. 특히 LFP(리튬인산철) 양극재의 연내 양산을 목표로 사업을 추진 중입니다.",
-      "insight": "LFP 양극재의 상용화를 위한 양산 공정 안정화 기술의 중요도가 매우 높아지고 있습니다."
+      "title": "예스티, 중국 업체에 유리기판 FO-PLP 큐어링 장비 공급",
+      "source": "디일렉 소재·장비",
+      "published": "2026-07-29 01:43",
+      "collected": "2026-07-30",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=60164",
+      "verified_source": true,
+      "overview": "예스티가 해외 첨단 패키징 업체인 중국 기업에 유리기판용 팬-아웃 패널 레벨 패키지(FO-PLP) 큐어링 장비를 공급한다고 밝혔다. 이번에 수주한 장비는 진공 큐어링 오븐으로, AI 가속기의 2.5D 패키징 공정에서 유리기판의 절연막을 경화하는 용도로 사용된다. 예스티는 이번 공급을 통해 정밀 유리기판 후공정 장비 시장에서 기술적 우위를 입증했다고 설명했다.",
+      "key_points": [
+        "예스티가 중국 패키징 업체에 유리기판 FO-PLP 큐어링 장비를 수주함",
+        "공급 장비는 310mm×310mm 규격 패널에 대응 가능한 진공 큐어링 오븐임",
+        "해당 장비는 AI 가속기의 2.5D 패키징 공정 중 유리기판 절연막 경화에 사용될 예정임",
+        "예스티는 중화권 및 국내 주요 OSAT 업체의 생산 라인에 감광성 폴리이미드(PSPI) 큐어링 오븐을 납품하고 있음"
+      ],
+      "numbers": [
+        "310mm×310mm",
+        "2026.07.28"
+      ],
+      "keywords": [
+        "예스티",
+        "유리기판",
+        "FO-PLP",
+        "큐어링",
+        "AI 가속기",
+        "패키징"
+      ],
+      "stated_outlook": "완성된 AI 가속기는 주요 빅테크 기업에 납품될 예정임."
     },
     {
-      "id": "d10bfad3dbc8",
-      "sector": "battery",
+      "id": "1860ab1701b9",
+      "sector": "semiconductor",
       "region": "domestic",
       "category": "기술·공정",
-      "title": "PCB 장비 만들다…AI·2차전지 소재로 매출 '퀀텀점프' 노린다 - 한국경제",
-      "source": "한국경제",
-      "published": "2026-07-30 15:45",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oaHlfWFh6T3h4YmlaSko0NkhjT09JZWxCeU9xR01uWjdOaEpkOE9XaUxHUVNXUlY3eVhBbWtCMDRfcUFvQkI5bW1JTE15YnZFVjZFeHQ3M1dXQQ?oc=5",
-      "summary": "기존 PCB(인쇄회로기판) 장비 제조사가 AI 및 2차전지 소재 시장으로 사업 영역을 확장하며 매출 급성장을 도모하고 있습니다.",
-      "insight": "공정기술 영향은 원문 확인 필요."
+      "title": "삼성전기, 솔브레인과 유리기판 소재 개발…식각 이어 도금·연마까지",
+      "source": "디일렉",
+      "published": "2026-07-29 01:32",
+      "collected": "2026-07-30",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=60177",
+      "verified_source": true,
+      "overview": "삼성전기가 유리기판 제조에 필요한 핵심 화학소재 개발을 위해 솔브레인과의 협력 범위를 확대하고 있다. 기존의 식각액 공동 연구를 넘어 구리 도금액과 화학기계연마(CMP) 슬러리까지 공동 개발하며 성능 평가를 진행 중이다. 삼성전기는 이를 통해 유리기판 양산을 위한 공급망 구축에 속도를 내고 있다.",
+      "key_points": [
+        "삼성전기는 솔브레인과 식각액, 구리 도금액, CMP 슬러리 등 유리기판 핵심 소재 3종을 공동 개발하고 있다.",
+        "식각액은 유리 관통전극(TGV) 형성, 도금액은 상하부 회로 연결, CMP 슬러리는 표면 평탄화 공정에 사용된다.",
+        "양사는 삼성전기의 유리기판 공정 조건에 맞춰 소재 조성을 최적화하는 작업을 진행 중이다.",
+        "삼성전기는 동우화인켐과의 합작법인 '글라셈'을 통해 2027년 하반기 유리기판 양산을 목표로 하고 있다."
+      ],
+      "numbers": [
+        "2027년 하반기"
+      ],
+      "keywords": [
+        "삼성전기",
+        "솔브레인",
+        "유리기판",
+        "식각액",
+        "구리 도금액",
+        "CMP 슬러리"
+      ],
+      "stated_outlook": "삼성전기는 2027년 하반기 유리기판 양산을 목표로 하고 있으며, 현재 진행 중인 소재 평가는 향후 공급망 결정에 중요한 역할을 할 것으로 보인다."
     },
     {
-      "id": "d04d6c9961df",
-      "sector": "battery",
+      "id": "6e4b990d3fcd",
+      "sector": "semiconductor",
       "region": "domestic",
       "category": "기술·공정",
-      "title": "포스코퓨처엠, 2분기 흑자전환…배터리소재 수익성 회복 - 테크월드",
-      "source": "테크월드",
-      "published": "2026-07-30 17:50",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9JaWNvTVpIM1Y5WEx1a3d6UmZTMVgwUUdqRWs1aW80eWpxdWRwQllXN2lmbTBLd0xLMkEtUUFRRjVrWm1uY2FSUnFwSGpGTXMwVTQ3Wl9pWUxoR3BaZ3pBaldzRGVtRjJ3?oc=5",
-      "summary": "포스코퓨처엠이 2분기 흑자 전환에 성공했습니다. 배터리 소재 부문의 전반적인 수익성이 개선된 결과로 풀이됩니다.",
-      "insight": "공정기술 영향은 원문 확인 필요."
-    },
-    {
-      "id": "ab67521cb21f",
-      "sector": "battery",
-      "region": "global",
-      "category": "기술·공정",
-      "title": "Yujin Technology to Supply Battery Assembly Equipment for BEI's Anode-Free Battery R&D - thelec.net",
-      "source": "thelec.net",
-      "published": "2026-07-30 07:28",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JVVBKb1dZYXJIbktDMldEcUg3eEpwTmNMdVlEQjJBQVNvUmpRVFpFdzNwOEhXa3VkMjdsb2FUenU2aFNmS2ktWTAtQVNfa05wajhqT3JuTzYxV2RFSW84XzZMd3lHc1E?oc=5",
-      "summary": "유진테크놀로지가 BEI의 무음극(Anode-Free) 배터리 연구개발을 지원하기 위해 배터리 조립 장비를 공급합니다.",
-      "insight": "차세대 배터리인 무음극 배터리 조립 공정을 위한 특수 장비 설계 역량이 중요합니다."
-    },
-    {
-      "id": "193b958cafdb",
-      "sector": "battery",
-      "region": "global",
-      "category": "기술·공정",
-      "title": "L&F to Supply LFP Cathode Materials to U.S.'s Coreshell, Expanding Non-China Supply Chain into Defense Sector - finance.biggo.com",
-      "source": "finance.biggo.com",
-      "published": "2026-07-29 19:55",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5MXdMV3AySVhIb3Jfd0pnRXZVRUNoRXVfejJ2eXllcHBtLUlUaHVWd2I5WnRLdFNmQUZtOWRRSG9TWFViQlVfcUxWb0U4ejRFT0R0enJMTkdfTnI3MXdHTXEzOGFCTEx3cFVhWXJUcGVhUHVRV3c?oc=5",
-      "summary": "엘앤에프(L&F)가 미국 코어쉘(Coreshell)에 LFP 양극재를 공급합니다. 이를 통해 중국을 배제한 국방 분야 등 비중국 공급망을 확대하고 있습니다.",
-      "insight": "공정기술 영향은 원문 확인 필요."
+      "title": "제엠제코, 엔비디아향 수요 증가에 신규 팹 짓는다",
+      "source": "디일렉",
+      "published": "2026-07-28 03:42",
+      "collected": "2026-07-30",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=60090",
+      "verified_source": true,
+      "overview": "제엠제코가 전력반도체 소재 수요 증가에 대응하기 위해 신규 팹을 증축한다. 올해 말부터 약 2178평 규모의 추가 팹을 건설하며, 내년 2분기부터 양산을 시작할 예정이다. 이와 함께 기존 팹과 신규 팹에 총 100여 대의 장비를 추가 투입하여 생산 능력을 확대한다.",
+      "key_points": [
+        "제엠제코는 올해 말부터 연건평 2178평 규모의 신규 팹을 건설하며 내년 2분기 가동을 목표로 한다.",
+        "기존 팹과 신규 팹에 장비 100여 대를 추가 투입하여 총 130여 대의 장비를 확보할 계획이다.",
+        "제엠제코는 텍사스인스트루먼츠(TI)와 르네사스를 통해 엔비디아에 서버용 전력 반도체 웰딩 소재를 공급한다.",
+        "고객사들은 제엠제코에 내년 소재 수요 예상치로 최대 1000억원을 제시했다."
+      ],
+      "numbers": [
+        "2178평",
+        "2026년 2분기",
+        "1553평",
+        "65평",
+        "1000평",
+        "4층"
+      ],
+      "keywords": [
+        "제엠제코",
+        "전력반도체",
+        "엔비디아",
+        "웰딩 소재",
+        "팹 증축"
+      ],
+      "stated_outlook": "고객사들은 제엠제코에게 내년 소재 수요 예상치로 최대 1000억원을 제시했다. 또한 전력반도체 업체들은 모바일 등에 집중된 매출 비중이 서버 등으로 분산될 것으로 보고 있다."
     }
   ]
 }
