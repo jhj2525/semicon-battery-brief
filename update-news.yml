@@ -1,0 +1,56 @@
+name: Daily news update
+
+on:
+  schedule:
+    - cron: "17 22 * * *"
+    - cron: "17 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-news-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Skip backup if today already ran
+        id: guard
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, os
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+          today = datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d")
+          try:
+              updated = json.loads(Path("data/news.json").read_text(encoding="utf-8")).get("updated_at", "")
+          except Exception:
+              updated = ""
+          scheduled = os.getenv("GITHUB_EVENT_NAME") == "schedule"
+          skip = scheduled and updated.startswith(today)
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(f"skip={'true' if skip else 'false'}\n")
+          print(f"today={today}, updated_at={updated}, skip={skip}")
+          PY
+      - name: Collect and summarize news
+        if: steps.guard.outputs.skip != 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-3.1-flash-lite
+        run: python scripts/update_news_v10.py
+      - name: Save updated data
+        if: steps.guard.outputs.skip != 'true'
+        run: |
+          git config user.name "news-brief-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/news.json
+          git diff --cached --quiet || git commit -m "chore: update daily news"
+          git push

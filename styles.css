@@ -50,13 +50,21 @@ main { width: min(1320px, calc(100% - 40px)); margin: auto; }
 .dot.semi { background: var(--blue); }
 .dot.battery { background: var(--green); }
 .dot.market { background: #9a63c7; }
+.dot.archive { background: #7a828c; }
+.view-note {
+  margin: -2px 0 12px; color: var(--muted); font-size: 12px;
+}
 .controls { display: flex; gap: 8px; margin-bottom: 12px; }
 .search {
   flex: 1; display: flex; align-items: center; gap: 8px;
   border: 1px solid var(--line); background: white; border-radius: 8px; padding: 0 12px;
 }
 .search input { width: 100%; height: 40px; border: 0; outline: 0; font: inherit; }
-select { border: 1px solid var(--line); background: white; border-radius: 8px; padding: 0 12px; }
+select, input[type="date"] {
+  min-height: 42px; border: 1px solid var(--line); background: white;
+  border-radius: 8px; padding: 0 12px; color: var(--ink);
+}
+.archive-controls { display: contents; }
 .database { overflow: hidden; background: white; border: 1px solid var(--line); border-radius: 10px; }
 .table-head, .row-summary {
   display: grid;
@@ -110,6 +118,8 @@ footer { padding: 25px; border-top: 1px solid var(--line); text-align: center; c
   main { width: min(100% - 24px, 1320px); }
   .controls { flex-wrap: wrap; }
   .search { flex-basis: 100%; }
+  .archive-controls { display: flex; gap: 8px; width: 100%; }
+  .archive-controls > * { flex: 1; }
   .database { overflow-x: auto; }
   .row-detail { grid-template-columns: 1fr; }
   .row-detail aside { width: min(100%, 340px); }

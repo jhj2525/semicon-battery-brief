@@ -4,16 +4,18 @@ const updated = document.querySelector("#updated");
 const searchInput = document.querySelector("#searchInput");
 const regionFilter = document.querySelector("#regionFilter");
 const categoryFilter = document.querySelector("#categoryFilter");
+const archiveSector = document.querySelector("#archiveSector");
+const archiveDate = document.querySelector("#archiveDate");
+const archiveControls = document.querySelector("#archiveControls");
+const viewNote = document.querySelector("#viewNote");
 const template = document.querySelector("#rowTemplate");
 const tabs = [...document.querySelectorAll(".sector-tab")];
 
-let items = [];
-let sector = "semiconductor";
+let currentItems = [];
+let archiveItems = [];
+let view = "semiconductor";
 
-const labels = {
-  domestic: "국내",
-  global: "해외",
-};
+const labels = { domestic: "국내", global: "해외" };
 
 function searchable(item) {
   return [
@@ -44,8 +46,7 @@ function buildRow(item) {
   fragment.querySelector(".headline").textContent = item.title;
   fragment.querySelector(".keywords").textContent = (item.keywords || []).slice(0, 3).join(" · ");
   fragment.querySelector(".source").textContent = item.source;
-  fragment.querySelector(".overview").textContent =
-    item.overview || "이 항목은 제목과 원문 링크만 보관했습니다.";
+  fragment.querySelector(".overview").textContent = item.overview || "요약 정보가 없습니다.";
   fillList(fragment.querySelector(".key-points"), item.key_points);
   fillList(fragment.querySelector(".numbers"), item.numbers);
   fragment.querySelector(".numbers-wrap").hidden = !(item.numbers || []).length;
@@ -57,10 +58,6 @@ function buildRow(item) {
   fragment.querySelector(".original-link").href = item.link;
 
   button.addEventListener("click", () => {
-    if (item.summary_status === "link_only") {
-      window.open(item.link, "_blank", "noopener,noreferrer");
-      return;
-    }
     const opening = detail.hidden;
     detail.hidden = !opening;
     button.setAttribute("aria-expanded", String(opening));
@@ -69,14 +66,22 @@ function buildRow(item) {
   return fragment;
 }
 
+function activeItems() {
+  if (view === "archive") {
+    return archiveItems.filter(item =>
+      (archiveSector.value === "all" || item.sector === archiveSector.value) &&
+      (!archiveDate.value || (item.published || "").slice(0, 10) === archiveDate.value)
+    );
+  }
+  return currentItems.filter(item => item.sector === view);
+}
+
 function render() {
   const query = searchInput.value.trim().toLowerCase();
   const region = regionFilter.value;
   const category = categoryFilter.value;
-  const visible = items.filter(item =>
-    (item.verified_source === true ||
-      (item.sector === "semi_market" && item.summary_status === "link_only")) &&
-    item.sector === sector &&
+  const visible = activeItems().filter(item =>
+    item.verified_source === true &&
     (region === "all" || item.region === region) &&
     (category === "all" || item.category === category) &&
     (!query || searchable(item).includes(query))
@@ -85,29 +90,51 @@ function render() {
   rows.innerHTML = "";
   visible.forEach(item => rows.appendChild(buildRow(item)));
   empty.hidden = visible.length !== 0;
+  empty.textContent = view === "archive"
+    ? "조건에 맞는 아카이브 기사가 없습니다."
+    : "최근 3일 안에 조건을 통과한 기사가 없습니다.";
 }
 
 tabs.forEach(tab => tab.addEventListener("click", () => {
   tabs.forEach(item => item.classList.remove("active"));
   tab.classList.add("active");
-  sector = tab.dataset.sector;
+  view = tab.dataset.view;
+  archiveControls.hidden = view !== "archive";
+  viewNote.textContent = view === "archive"
+    ? "과거 검증 기사 · 날짜와 분야로 검색"
+    : "오늘 기사 우선 · 부족하면 최대 3일 이내 기사로 구성";
   render();
 }));
-[searchInput, regionFilter, categoryFilter].forEach(control =>
+
+[searchInput, regionFilter, categoryFilter, archiveSector, archiveDate].forEach(control =>
   control.addEventListener("input", render)
 );
 
 fetch("data/news.json", { cache: "no-store" })
   .then(response => response.json())
   .then(data => {
-    items = [...(data.items || []), ...(data.market_items || [])];
+    if (Array.isArray(data.current_items)) {
+      currentItems = data.current_items;
+      archiveItems = data.archive_items || [];
+    } else {
+      // Legacy fallback before the first v10 run: show only fixed-size current
+      // lists and place every remaining verified article in the archive.
+      const legacy = (data.items || []).filter(x => x.verified_source === true);
+      const sorted = [...legacy].sort((a, b) => (b.published || "").localeCompare(a.published || ""));
+      currentItems = [
+        ...sorted.filter(x => x.sector === "semiconductor").slice(0, 6),
+        ...sorted.filter(x => x.sector === "battery").slice(0, 8)
+      ];
+      const currentIds = new Set(currentItems.map(x => x.id));
+      archiveItems = sorted.filter(x => !currentIds.has(x.id));
+    }
+
     updated.textContent = `최근 업데이트 ${data.updated_at || "-"}`;
     document.querySelector("#semiCount").textContent =
-      items.filter(x => x.sector === "semiconductor" && x.verified_source).length;
+      currentItems.filter(x => x.sector === "semiconductor").length;
     document.querySelector("#batteryCount").textContent =
-      items.filter(x => x.sector === "battery" && x.verified_source).length;
-    document.querySelector("#marketCount").textContent =
-      items.filter(x => x.sector === "semi_market").length;
+      currentItems.filter(x => x.sector === "battery").length;
+    document.querySelector("#archiveCount").textContent = archiveItems.length;
     render();
   })
   .catch(() => {
