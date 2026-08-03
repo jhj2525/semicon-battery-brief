@@ -13,6 +13,7 @@ const tabs = [...document.querySelectorAll(".sector-tab")];
 
 let currentItems = [];
 let archiveItems = [];
+let semiItems = [];
 let view = "semiconductor";
 
 const labels = { domestic: "국내", global: "해외" };
@@ -46,6 +47,8 @@ function buildRow(item) {
   fragment.querySelector(".headline").textContent = item.title;
   fragment.querySelector(".keywords").textContent = (item.keywords || []).slice(0, 3).join(" · ");
   fragment.querySelector(".source").textContent = item.source;
+  fragment.querySelector(".source-type").textContent =
+    item.source_type || (item.official_source ? "공식 자료" : "언론 보도");
   fragment.querySelector(".overview").textContent = item.overview || "요약 정보가 없습니다.";
   fillList(fragment.querySelector(".key-points"), item.key_points);
   fillList(fragment.querySelector(".numbers"), item.numbers);
@@ -73,6 +76,7 @@ function activeItems() {
       (!archiveDate.value || (item.published || "").slice(0, 10) === archiveDate.value)
     );
   }
+  if (view === "semi_market") return semiItems;
   return currentItems.filter(item => item.sector === view);
 }
 
@@ -92,7 +96,9 @@ function render() {
   empty.hidden = visible.length !== 0;
   empty.textContent = view === "archive"
     ? "조건에 맞는 아카이브 기사가 없습니다."
-    : "최근 3일 안에 조건을 통과한 기사가 없습니다.";
+    : view === "semi_market"
+      ? "SEMI 블로그 원문 링크를 확인한 기사가 아직 없습니다."
+      : "최근 3일 안에 조건을 통과한 기사가 없습니다.";
 }
 
 tabs.forEach(tab => tab.addEventListener("click", () => {
@@ -102,7 +108,9 @@ tabs.forEach(tab => tab.addEventListener("click", () => {
   archiveControls.hidden = view !== "archive";
   viewNote.textContent = view === "archive"
     ? "과거 검증 기사 · 날짜와 분야로 검색"
-    : "오늘 기사 우선 · 부족하면 최대 3일 이내 기사로 구성";
+    : view === "semi_market"
+      ? "SEMI Korea 블로그의 시장동향·회원사 동향 최신 10건"
+      : "오늘 기사 우선 · 부족하면 최대 3일 이내 기사로 구성";
   render();
 }));
 
@@ -115,7 +123,11 @@ fetch("data/news.json", { cache: "no-store" })
   .then(data => {
     if (Array.isArray(data.current_items)) {
       currentItems = data.current_items;
-      archiveItems = data.archive_items || [];
+      semiItems = data.semi_items || [];
+      archiveItems = [
+        ...(data.archive_items || []),
+        ...(data.semi_archive_items || [])
+      ];
     } else {
       // Legacy fallback before the first v10 run: show only fixed-size current
       // lists and place every remaining verified article in the archive.
@@ -125,6 +137,9 @@ fetch("data/news.json", { cache: "no-store" })
         ...sorted.filter(x => x.sector === "semiconductor").slice(0, 6),
         ...sorted.filter(x => x.sector === "battery").slice(0, 8)
       ];
+      semiItems = (data.market_items || [])
+        .filter(x => x.verified_source === true)
+        .slice(0, 10);
       const currentIds = new Set(currentItems.map(x => x.id));
       archiveItems = sorted.filter(x => !currentIds.has(x.id));
     }
@@ -134,6 +149,7 @@ fetch("data/news.json", { cache: "no-store" })
       currentItems.filter(x => x.sector === "semiconductor").length;
     document.querySelector("#batteryCount").textContent =
       currentItems.filter(x => x.sector === "battery").length;
+    document.querySelector("#marketCount").textContent = semiItems.length;
     document.querySelector("#archiveCount").textContent = archiveItems.length;
     render();
   })

@@ -83,6 +83,9 @@ select, input[type="date"] {
 }
 .row-summary:hover, .news-row.open .row-summary { background: #fafbf9; }
 .published, .source, .keywords { color: var(--muted); font-size: 12px; }
+.source-cell { display: grid; gap: 3px; min-width: 0; }
+.source { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.source-type { color: #8b929a; font-size: 10px; font-weight: 700; }
 .headline { padding-right: 18px; font-weight: 700; line-height: 1.45; }
 .keywords { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 .badge { justify-self: start; padding: 4px 7px; border-radius: 5px; background: #f0f0ed; font-size: 11px; }

@@ -27,6 +27,9 @@
       <button class="sector-tab" data-view="battery">
         <span class="dot battery"></span>배터리 <b id="batteryCount">0</b>
       </button>
+      <button class="sector-tab" data-view="semi_market">
+        <span class="dot market"></span>SEMI 동향 <b id="marketCount">0</b>
+      </button>
       <button class="sector-tab" data-view="archive">
         <span class="dot archive"></span>아카이브 <b id="archiveCount">0</b>
       </button>
@@ -58,6 +61,7 @@
           <option value="all">반도체 + 배터리</option>
           <option value="semiconductor">반도체</option>
           <option value="battery">배터리</option>
+          <option value="semi_market">SEMI 동향</option>
         </select>
         <input id="archiveDate" type="date" aria-label="아카이브 발행일">
       </div>
@@ -88,7 +92,7 @@
         <span class="category badge"></span>
         <span class="headline"></span>
         <span class="keywords"></span>
-        <span class="source"></span>
+        <span class="source-cell"><span class="source"></span><small class="source-type"></small></span>
       </button>
       <div class="row-detail" hidden>
         <div class="detail-main">
