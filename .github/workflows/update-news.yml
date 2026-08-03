@@ -18,6 +18,19 @@ on:
         options:
           - semiconductor
           - battery
+          - semi_market
+      delete_article_id:
+        description: "아카이브에서 삭제할 기사 ID · 일반 실행에서는 비우기"
+        required: false
+        type: string
+      edit_article_id:
+        description: "제목을 수정할 수동 기사 ID · 일반 실행에서는 비우기"
+        required: false
+        type: string
+      edit_article_title:
+        description: "수정할 기사 제목"
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -70,7 +83,10 @@ jobs:
           GEMINI_MODEL: gemini-3.1-flash-lite
           MANUAL_ARTICLE_URL: ${{ inputs.article_url }}
           MANUAL_ARTICLE_SECTOR: ${{ inputs.article_sector }}
-        run: python scripts/update_news_v12.py
+          DELETE_ARTICLE_ID: ${{ inputs.delete_article_id }}
+          EDIT_ARTICLE_ID: ${{ inputs.edit_article_id }}
+          EDIT_ARTICLE_TITLE: ${{ inputs.edit_article_title }}
+        run: python scripts/update_news_final.py
       - name: Save updated data
         if: steps.guard.outputs.skip != 'true'
         run: |
