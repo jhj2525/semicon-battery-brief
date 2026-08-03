@@ -33,6 +33,9 @@
       <button class="sector-tab" data-view="archive">
         <span class="dot archive"></span>아카이브 <b id="archiveCount">0</b>
       </button>
+      <button class="sector-tab" data-view="manual_add">
+        <span class="dot manual"></span>직접 선택 <b id="manualCount">0</b>
+      </button>
     </nav>
 
     <div id="viewNote" class="view-note">오늘 기사 우선 · 부족하면 최대 3일 이내 기사로 구성</div>
@@ -75,9 +78,31 @@
       <div id="empty" class="empty" hidden></div>
     </section>
 
+    <section id="manualPanel" class="manual-panel" hidden>
+      <div>
+        <p class="eyebrow">MANUAL ARTICLE</p>
+        <h2>기사 링크로 요약 추가</h2>
+        <p>기사 주소와 분야를 선택하면 원문 확인·요약 후 최신뉴스에 추가됩니다. 밀린 기사는 아카이브로 이동합니다.</p>
+      </div>
+      <form id="manualForm">
+        <label>기사 URL · 한 줄에 하나씩<textarea id="manualUrl" required placeholder="https://...&#10;https://..."></textarea></label>
+        <label>분야<select id="manualSector"><option value="semiconductor">반도체</option><option value="battery">배터리</option></select></label>
+        <label>관리 비밀번호<input id="manualPassword" type="password" required autocomplete="current-password"></label>
+        <button type="submit">요약 후 추가</button>
+        <p id="manualStatus" role="status"></p>
+      </form>
+      <div class="manual-library">
+        <h3>직접 선택한 기사</h3>
+        <p>직접 추가한 반도체·배터리 기사가 계속 누적됩니다.</p>
+        <div id="manualNewsRows"></div>
+        <div id="manualEmpty" class="empty">아직 직접 추가한 기사가 없습니다.</div>
+      </div>
+    </section>
+
     <section class="verification-note">
       <strong>요약 기준</strong>
-      <span>URL 원문 접근 성공 기사만 수록</span>
+      <span>공식·통신사·허용 언론 출처만 수록</span>
+      <span>접근 제한 시 제목·원문 링크 표시</span>
       <span>원문 사실만 한국어로 정리</span>
       <span>중복 보도 제거</span>
       <span>반도체·배터리 별도 선정</span>
@@ -97,6 +122,7 @@
       <div class="row-detail" hidden>
         <div class="detail-main">
           <section><h3>기사 요약</h3><p class="overview"></p></section>
+          <section class="industry-context-wrap"><h3>기업·기술·공급망 배경 · AI 보충 설명</h3><p class="industry-context"></p></section>
           <section><h3>핵심 사실</h3><ul class="key-points"></ul></section>
           <section class="numbers-wrap"><h3>주요 수치·일정</h3><ul class="numbers"></ul></section>
           <section class="outlook-wrap"><h3>원문에 명시된 계획·영향</h3><p class="outlook"></p></section>
@@ -106,8 +132,10 @@
             <div><dt>수집일</dt><dd class="collected"></dd></div>
             <div><dt>발행일</dt><dd class="published-full"></dd></div>
             <div><dt>출처</dt><dd class="source-full"></dd></div>
+            <div class="original-source-row" hidden><dt>원문 매체</dt><dd class="original-source"></dd></div>
           </dl>
           <a class="original-link" target="_blank" rel="noopener noreferrer">기사 원문 보기 ↗</a>
+          <a class="semi-post-link" target="_blank" rel="noopener noreferrer" hidden>SEMI 게시물 보기 ↗</a>
           <p>AI 요약은 원문을 대체하지 않습니다.</p>
         </aside>
       </div>
@@ -115,6 +143,7 @@
   </template>
 
   <footer>Original-source summaries only · 자동 업데이트</footer>
+  <script src="config.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
