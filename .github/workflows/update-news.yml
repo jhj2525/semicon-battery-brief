@@ -70,7 +70,7 @@ jobs:
           GEMINI_MODEL: gemini-3.1-flash-lite
           MANUAL_ARTICLE_URL: ${{ inputs.article_url }}
           MANUAL_ARTICLE_SECTOR: ${{ inputs.article_sector }}
-        run: python scripts/update_news_v10.py
+        run: python scripts/update_news_v11.py
       - name: Save updated data
         if: steps.guard.outputs.skip != 'true'
         run: |
