@@ -1,11 +1,32 @@
 {
-  "updated_at": "2026-08-03 22:46 KST",
+  "updated_at": "2026-08-03 23:01 KST",
   "publication_window": {
     "from": "2026-08-01",
     "to": "2026-08-03"
   },
-  "today_verified_count": 1,
+  "today_verified_count": 0,
   "current_items": [
+    {
+      "id": "60582a8de26b",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\"",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-03 19:46",
+      "collected": "2026-08-03",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kcVpzMU9UZ3NIWTBTU0RSTzJ0c2FBaDlDelV4OFZnT0xKd1BMcDZacERPR3E4VE9YWU1wSExETkdKUUNGUmVZZUdOU2hoS2s1Qlc1d1REZGJsYk5tOThXMdIBYEFVX3lxTE5kcVpzMU9UZ3NIWTBTU0RSTzJ0c2FBaDlDelV4OFZnT0xKd1BMcDZacERPR3E4VE9YWU1wSExETkdKUUNGUmVZZUdOU2hoS2s1Qlc1d1REZGJsYk5tOThXMQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 3
+    },
     {
       "id": "d1c70af29688",
       "sector": "semiconductor",
@@ -109,26 +130,6 @@
       "keywords": [],
       "stated_outlook": "",
       "source_rank": 2
-    },
-    {
-      "id": "b76d33f3ea08",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "산업",
-      "title": "두산, 2.3조 승부수…웨이퍼 품고 ‘반도체 공룡’ 도약",
-      "source": "서울경제",
-      "source_type": "경제지 보도",
-      "published": "2026-08-03 18:38",
-      "collected": "2026-08-03",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52cnp3ZkZpS0IzamZMQ2w1WkRrTXIzZ203VmlqUnJyVGhhTXBkS3NuaDZwOUtnT1o3enZrSm15alNMdGl5c3ZOb2NZdVB4eWx1djVIRnllNk9zTS1yWDQ0S3NiQ2k?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
     },
     {
       "id": "a87be6eed3eb",
@@ -235,6 +236,86 @@
       "source_rank": 3
     },
     {
+      "id": "b3601b444c9d",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "자비스, '꿈의 배터리' 전고체전지 국책과제 참여… 78억 규모 과제서 검사 전 분야 담당",
+      "source": "전자신문",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-03 15:31",
+      "collected": "2026-08-03",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9MVld4Rk82NlBNdExfRzdZeXAwemRkZmlBbmhKTUo5Ri1iYTFHeVh6eWxfSG40ZHYwdHJiYkt0QlRGWDdzNlc1ZVNQYXdQQQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 2
+    }
+  ],
+  "archive_items": [
+    {
+      "id": "e008f0041629",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "한국디스플레이산업협회, 유튜버 '컬러스케일'과 협업한 유리기판 홍보영상 공개",
+      "source": "KIPOST",
+      "published": "2026-08-03 19:00",
+      "collected": "2026-08-03",
+      "link": "https://www.kipost.net/news/articleView.html?idxno=340334",
+      "rss_description": "한국디스플레이산업협회(회장 이청)는 차세대 디스플레이와 AI 반도체의 핵심 소재로 주목받고 있는 '유리 기판 관련 기술'을 대중의 눈높이에서소개하는 홍보 영상을 3일 유튜브 'ColorScale' 채널을 통해 정식 공개한다.해당 영상은 ‘K-Display 2026’을 통해 먼저 소개됐으며, 협회 공식 유튜브 채널 '한국디스플레이산업협회'에서도 함께 만나볼 수 있다.이번 영상은 협회가 디스플레이 전문 유튜버 'ColorScale'과 협업하고, 필옵틱스, AP시스템 등 국내 소부장 기업의 후원을 받아 제작됐다.영상은 \"여러분의 스마트폰",
+      "score": 2,
+      "source_type": "산업 전문언론",
+      "source_rank": 2,
+      "verified_source": true,
+      "overview": "한국디스플레이산업협회가 차세대 디스플레이 및 AI 반도체 핵심 소재인 유리 기판 기술을 대중에게 알리기 위한 홍보 영상을 공개했다. 해당 영상은 디스플레이 전문 유튜버 '컬러스케일'과 협업하고 국내 소부장 기업들의 후원을 받아 제작되었다. 영상에서는 베젤을 없애는 TGV 기술을 통해 구현될 차세대 폼팩터 청사진과 유리 기판의 산업적 가치를 조명한다.",
+      "key_points": [
+        "한국디스플레이산업협회가 유튜버 '컬러스케일'과 협업해 유리 기판 홍보 영상을 제작 및 공개했다.",
+        "영상 제작에는 필옵틱스, AP시스템 등 국내 소부장 기업이 후원했다.",
+        "TGV 기술을 활용해 베젤 없는 스마트폰, 대형 OLED TV 등 차세대 디스플레이 미래상을 제시했다.",
+        "유리 기판이 디스플레이를 넘어 반도체 패키징 분야로 확장될 가능성을 언급했다."
+      ],
+      "numbers": [
+        "2026-08-03",
+        "130인치"
+      ],
+      "keywords": [
+        "한국디스플레이산업협회",
+        "유리기판",
+        "TGV",
+        "컬러스케일",
+        "소부장",
+        "차세대폼팩터"
+      ],
+      "stated_outlook": "세계 최고 디스플레이 기술과 메모리·비메모리 반도체 제조 역량의 협력을 통해 대한민국이 '무어의 법칙 2.0'을 떠받치는 거대한 축이 될 수 있다고 전망했다."
+    },
+    {
+      "id": "b76d33f3ea08",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "두산, 2.3조 승부수…웨이퍼 품고 ‘반도체 공룡’ 도약",
+      "source": "서울경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-03 18:38",
+      "collected": "2026-08-03",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52cnp3ZkZpS0IzamZMQ2w1WkRrTXIzZ203VmlqUnJyVGhhTXBkS3NuaDZwOUtnT1o3enZrSm15alNMdGl5c3ZOb2NZdVB4eWx1djVIRnllNk9zTS1yWDQ0S3NiQ2k?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 2
+    },
+    {
       "id": "6ed20da4ea37",
       "sector": "battery",
       "region": "domestic",
@@ -273,86 +354,6 @@
         "CT"
       ],
       "stated_outlook": "과제 종료 후 실제 양산 환경에서 검증이 완료되면 곧바로 매출로 이어질 것으로 전망하며, 검사 기술 표준을 선점함으로써 향후 양산 라인 수주에 유리한 위치를 확보하고자 함."
-    }
-  ],
-  "archive_items": [
-    {
-      "id": "60582a8de26b",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "투자·양산",
-      "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\"",
-      "source": "연합뉴스",
-      "source_type": "통신사 보도",
-      "published": "2026-08-03 19:46",
-      "collected": "2026-08-03",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kcVpzMU9UZ3NIWTBTU0RSTzJ0c2FBaDlDelV4OFZnT0xKd1BMcDZacERPR3E4VE9YWU1wSExETkdKUUNGUmVZZUdOU2hoS2s1Qlc1d1REZGJsYk5tOThXMdIBYEFVX3lxTE5kcVpzMU9UZ3NIWTBTU0RSTzJ0c2FBaDlDelV4OFZnT0xKd1BMcDZacERPR3E4VE9YWU1wSExETkdKUUNGUmVZZUdOU2hoS2s1Qlc1d1REZGJsYk5tOThXMQ?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": "",
-      "source_rank": 3
-    },
-    {
-      "id": "e008f0041629",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "한국디스플레이산업협회, 유튜버 '컬러스케일'과 협업한 유리기판 홍보영상 공개",
-      "source": "KIPOST",
-      "published": "2026-08-03 19:00",
-      "collected": "2026-08-03",
-      "link": "https://www.kipost.net/news/articleView.html?idxno=340334",
-      "rss_description": "한국디스플레이산업협회(회장 이청)는 차세대 디스플레이와 AI 반도체의 핵심 소재로 주목받고 있는 '유리 기판 관련 기술'을 대중의 눈높이에서소개하는 홍보 영상을 3일 유튜브 'ColorScale' 채널을 통해 정식 공개한다.해당 영상은 ‘K-Display 2026’을 통해 먼저 소개됐으며, 협회 공식 유튜브 채널 '한국디스플레이산업협회'에서도 함께 만나볼 수 있다.이번 영상은 협회가 디스플레이 전문 유튜버 'ColorScale'과 협업하고, 필옵틱스, AP시스템 등 국내 소부장 기업의 후원을 받아 제작됐다.영상은 \"여러분의 스마트폰",
-      "score": 2,
-      "source_type": "산업 전문언론",
-      "source_rank": 2,
-      "verified_source": true,
-      "overview": "한국디스플레이산업협회가 차세대 디스플레이 및 AI 반도체 핵심 소재인 유리 기판 기술을 대중에게 알리기 위한 홍보 영상을 공개했다. 해당 영상은 디스플레이 전문 유튜버 '컬러스케일'과 협업하고 국내 소부장 기업들의 후원을 받아 제작되었다. 영상에서는 베젤을 없애는 TGV 기술을 통해 구현될 차세대 폼팩터 청사진과 유리 기판의 산업적 가치를 조명한다.",
-      "key_points": [
-        "한국디스플레이산업협회가 유튜버 '컬러스케일'과 협업해 유리 기판 홍보 영상을 제작 및 공개했다.",
-        "영상 제작에는 필옵틱스, AP시스템 등 국내 소부장 기업이 후원했다.",
-        "TGV 기술을 활용해 베젤 없는 스마트폰, 대형 OLED TV 등 차세대 디스플레이 미래상을 제시했다.",
-        "유리 기판이 디스플레이를 넘어 반도체 패키징 분야로 확장될 가능성을 언급했다."
-      ],
-      "numbers": [
-        "2026-08-03",
-        "130인치"
-      ],
-      "keywords": [
-        "한국디스플레이산업협회",
-        "유리기판",
-        "TGV",
-        "컬러스케일",
-        "소부장",
-        "차세대폼팩터"
-      ],
-      "stated_outlook": "세계 최고 디스플레이 기술과 메모리·비메모리 반도체 제조 역량의 협력을 통해 대한민국이 '무어의 법칙 2.0'을 떠받치는 거대한 축이 될 수 있다고 전망했다."
-    },
-    {
-      "id": "b3601b444c9d",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "산업",
-      "title": "자비스, '꿈의 배터리' 전고체전지 국책과제 참여… 78억 규모 과제서 검사 전 분야 담당",
-      "source": "전자신문",
-      "source_type": "산업 전문언론",
-      "published": "2026-08-03 15:31",
-      "collected": "2026-08-03",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9MVld4Rk82NlBNdExfRzdZeXAwemRkZmlBbmhKTUo5Ri1iYTFHeVh6eWxfSG40ZHYwdHJiYkt0QlRGWDdzNlc1ZVNQYXdQQQ?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": "",
-      "source_rank": 2
     },
     {
       "id": "7a15dff14516",
@@ -1513,6 +1514,30 @@
   ],
   "semi_items": [
     {
+      "id": "45cce4af5d47",
+      "sector": "semi_market",
+      "region": "domestic",
+      "category": "시장·실적",
+      "title": "SEMI, “2026년 2분기 전 세계 실리콘 웨이퍼 출하량 전년 동기 대비 7.4% 증가”",
+      "source": "SEMI Korea 블로그",
+      "source_type": "반도체업계 뉴스 · SEMI 뉴스",
+      "original_source": "scv-blog.io.naver.com",
+      "published": "2026-07-30 11:31",
+      "collected": "2026-08-03",
+      "link": "https://scv-blog.io.naver.com/jackpotlog/v1/logs",
+      "semi_post_link": "https://blog.naver.com/semi_blog/224362622236?fromRss=true&trackingCode=rss",
+      "discovered_via": "SEMI Korea 블로그 · 반도체업계 뉴스 > SEMI 뉴스",
+      "summary_status": "link_only",
+      "verified_source": false,
+      "overview": "자동요약에 실패해 제목과 원문 링크만 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    }
+  ],
+  "semi_archive_items": [
+    {
       "id": "1210adf70a15",
       "sector": "semi_market",
       "region": "domestic",
@@ -1533,9 +1558,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": ""
-    }
-  ],
-  "semi_archive_items": [
+    },
     {
       "id": "78a91bf0d7ab",
       "sector": "semi_market",
