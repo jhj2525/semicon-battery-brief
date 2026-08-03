@@ -1,11 +1,31 @@
 {
-  "updated_at": "2026-08-03 12:46 KST",
+  "updated_at": "2026-08-03 15:58 KST",
   "publication_window": {
     "from": "2026-08-01",
     "to": "2026-08-03"
   },
-  "today_verified_count": 7,
+  "today_verified_count": 8,
   "current_items": [
+    {
+      "id": "692f4ddb26a2",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "비씨엔씨 \"반도체용 폴리실리콘 풀 키츠 양산 공급 개시\"",
+      "source": "뉴시스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-03 10:39",
+      "collected": "2026-08-03",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vcXNaY1dsVi16MVhXTmxWWVFRbU15eWxKQ3FGeG4xejBiRUs1b21tUTlKTGVjOGVPSjJXS3FONEI5SkJRbEFYRTBRelhjX3BtTHl6Y2w1VlRiTC1SaWUwbNIBeEFVX3lxTE0tckZQc2FtUFRYVWhlMXRDcGNUS0ZOdzJvVHhBZVFRS2JvMGo2U3M4Uk5sSHZhbm9JWHVtX1lqeldZaHVCeVhqM0habFFnXy12YUFwX0hTUnRnUFoydzMzZDBiczcyOE53a1JIR2x1ZWQ5SXAxaUl1Sg?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
     {
       "id": "b6d465e0ef8f",
       "sector": "semiconductor",
@@ -46,6 +66,263 @@
         "AI"
       ],
       "stated_outlook": "키오시아는 PCIe 6.0 기반 eSSD를 상용화하고 UFS 5.0을 올해 말 양산할 계획이며, 삼성전자는 올 4분기 UFS 5.0 양산 돌입 및 이달부터 V10 낸드 양산을 시작할 예정이다."
+    },
+    {
+      "id": "47bcb09d8104",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "\"웨이퍼 원료조달 능력이 AI 산업 경쟁력 좌우\"",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-03 07:46",
+      "collected": "2026-08-03",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vS3FFZk01ZjRoUTRHcmtkdmNoZzFaUkRTWmsxd0Z6YkMtMFZDcThFbWpWUW1JRG9QR1lBM1NmTmhfMkxRUDNiU1JYTzVzV0pGUHJob21RVGMyZw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "66a0ccfc1b82",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "반도체 넘어 소부장까지…'뉴노멀' 된 장기공급계약",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-01 06:01",
+      "collected": "2026-08-03",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCQlcwajNyRzI2SGZZWEJTWmVlc2VndmNVRU1lOWh6VnU5SkNwUWRwbkJtNml1WENCT3J5UjFBYW5IdXYxQzNQdzZ1YlR3RXotSmllX2p4ZWxsaW_SAWBBVV95cUxOM283dlBfY3NoVE9XVEZSeTdNV3RmWWl1NmQtalFJZkc5Z0N0NG1HUXBYaU5nbUdJSnNnUGFFUWZwRDZoczZRczZRelpKdmdvMVMtVUtINWJrUjBXQ0gtRTk?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "53e5c72b3e51",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "[알림] GPU·HBM 다음 병목은? 반도체 '패키지&테스트'의 세계로 초대합니다",
+      "source": "디일렉",
+      "published": "2026-08-01 00:41",
+      "collected": "2026-08-02",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=60398",
+      "verified_source": true,
+      "overview": "인공지능(AI) 기술 확산으로 고성능 반도체 수요가 급증하는 가운데 패키징과 테스트 과정에서 병목현상이 발생하고 있다. 이에 따라 반도체 업계는 생산성 향상을 위한 기술 개발에 집중하고 있다. 디일렉은 이러한 반도체 후공정 산업의 현주소를 조명하기 위해 'AI 반도체 테스트 & 소켓 테크 콘퍼런스 2026'을 개최한다.",
+      "key_points": [
+        "GPU, HBM 등 AI 반도체 수요 증가로 인해 패키징 및 테스트 과정에서의 병목현상이 주요 과제로 부상했다.",
+        "일본 OSAT 기업 아드반테스트의 2026회계연도 1분기 영업이익률은 51.7%를 기록했으며, 전 세계 테스트 장비 시장 규모 전망치는 역대 최대인 130억~145억달러로 상향 조정되었다.",
+        "티에스이(TSE)는 기존 256개 대비 2배 생산성을 높인 512개 다이 검사가 가능한 적층형 반도체용 테스트 핸들러를 개발 중이다.",
+        "HBM의 TSV 구조와 복잡해진 시스템 레벨 테스트(SLT)로 인해 프로빙 테스트 및 검증 작업의 난이도와 시간이 증가하고 있다."
+      ],
+      "numbers": [
+        "2026.07.31",
+        "3675억엔",
+        "1900억엔",
+        "39.3%",
+        "53.3%",
+        "51.7%"
+      ],
+      "keywords": [
+        "반도체",
+        "패키징",
+        "테스트",
+        "OSAT",
+        "AI 반도체",
+        "HBM"
+      ],
+      "stated_outlook": "디일렉은 이번 콘퍼런스를 통해 반도체 생산성과 OSAT 업계의 미래를 살펴보고 병목현상 속 성장의 기회를 모색할 계획이다.",
+      "source_type": "산업 전문언론",
+      "source_rank": 2
+    },
+    {
+      "id": "a87be6eed3eb",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "글로벌 ESS 상반기 461GWh, 71% 성장… EV 캐즘 건너온 K배터리에 열린 창",
+      "source": "SNE리서치",
+      "source_type": "시장조사기관",
+      "official_source": true,
+      "published": "2026-08-03 00:00",
+      "collected": "2026-08-03",
+      "link": "https://www.sneresearch.com/kr/insight/release_view/702/page/0",
+      "rss_description": "lass=\"reset-btn\"> Reset Battery, EV, Energy Storage System NEW 글로벌 ESS 상반기 461GWh, 71% 성장… EV 캐즘 건너온 K배터리에 열린 창 2026.08.03 Battery, Battery Materials 2026년 1~5월 글로벌 전기차용 배터리 전해액 적재량 591K ton, 전년 동기 대비 19.3% 성장 2026.07.14",
+      "score": 18,
+      "source_rank": 4,
+      "verified_source": true,
+      "overview": "2026년 상반기 글로벌 리튬이온 배터리 ESS 출하량이 전년 동기 대비 71% 증가한 461.3GWh를 기록했다. 중국이 최대 시장 지위를 유지했으나 기타 지역의 비중이 확대되며 시장 성장을 견인하고 있다. 전기차 캐즘 여파로 국내 업체들은 생산 라인을 ESS용으로 전환하며 LFP 양산에 집중하고 있다. 북미와 유럽의 관세 및 공급망 규제가 강화됨에 따라 현지 생산 역량이 주요 경쟁력으로 부상했다.",
+      "key_points": [
+        "2026년 상반기 글로벌 LiB ESS 출하량은 461.3GWh로 전년 동기 대비 71% 성장했다.",
+        "용도별로는 전력망용(Grid)이 347.0GWh로 전체의 75%를 차지하며 시장을 주도했다.",
+        "LG에너지솔루션은 전년 동기 대비 357% 성장하며 점유율이 2.6%로 확대되었고, 삼성SDI는 6.4GWh를 출하했으나 점유율은 1.4%로 낮아졌다.",
+        "중국 시장의 점유율은 50.5%에서 43.9%로 감소한 반면, 북미와 유럽을 포함한 기타 지역의 성장이 두드러졌다."
+      ],
+      "numbers": [
+        "2026년 상반기",
+        "461.3GWh",
+        "71%",
+        "269.7GWh",
+        "12.0GWh",
+        "357%"
+      ],
+      "keywords": [
+        "ESS",
+        "리튬이온배터리",
+        "SNE Research",
+        "LG에너지솔루션",
+        "삼성SDI",
+        "LFP"
+      ],
+      "stated_outlook": "북미와 유럽의 관세 및 공급망 규제 강화로 인해 가격 경쟁력뿐만 아니라 안정적인 공급망과 현지 생산 역량이 공급업체 선정의 주요 기준으로 부상함."
+    },
+    {
+      "id": "395397cb41a2",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "엘앤에프플러스, 국내 최초 LFP양극재 양산라인 시제품 출하",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-03 09:26",
+      "collected": "2026-08-03",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zYkhDMUJXNldONG16UW1rRlRtdnFxcHc2Q05mTzh5bkJsRnFyMVRDNFRZUXBKVFA5OGREeWR6c3J0NmU5UkdZdHctbVBCMzdMOHVUTkNHYV91cllqdkZFNtIBYEFVX3lxTE5zYkhDMUJXNldONG16UW1rRlRtdnFxcHc2Q05mTzh5bkJsRnFyMVRDNFRZUXBKVFA5OGREeWR6c3J0NmU5UkdZdHctbVBCMzdMOHVUTkNHYV91cllqdkZFNg?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "322d63ed9531",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "코윈테크, 200억 규모 글로벌 배터리업체향 AMR 수주",
+      "source": "뉴시스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-03 14:13",
+      "collected": "2026-08-03",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5HMUhLTVFYWnBGcklFSk1Sb0huWTFpMkF0Wk9OdDFma2hHQV93TVBSM0cycUM4X1dDLXJhcjYxUHh2ZW1MUGVHR2xZcXp2QlNVb1E5WkFhazlFc3U3eHNxbnluci1qTk5sZnR0RWdjTEZXYWZMWnBWNtIBeEFVX3lxTE5HMUhLTVFYWnBGcklFSk1Sb0huWTFpMkF0Wk9OdDFma2hHQV93TVBSM0cycUM4X1dDLXJhcjYxUHh2ZW1MUGVHR2xZcXp2QlNVb1E5WkFhazlFc3U3eHNxbnluci1qTk5sZnR0RWdjTEZXYWZMWnBWNg?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "6ed20da4ea37",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "자비스, '꿈의 배터리' 전고체전지 국책과제 참여… 78억 규모 과제서 검사 전 분야 담당",
+      "source": "전자신문 경제",
+      "published": "2026-08-03 15:31",
+      "collected": "2026-08-03",
+      "link": "https://www.etnews.com/20260803000339",
+      "rss_description": "X-ray 검사장비 선도기업 자비스(대표이사 김형철)가 '꿈의 배터리'로 불리는 전고체전지 시장 선점에 나선다. 자비스는 총 78억7,000만원 규모의 국책 연구개발 과제에 참여해, 이 가운데 약 24억7,000만원 규모의 검사 분야 전체를 단독으로 맡는다. 이번 과제는 산업통상부의 '2026년도 전자부품산업기술개발사업(주력산업IT융합)'으로, 자비스는 국내 대표 배터리 기업과 글로벌 전자 대기업, 배터리 제조장비 전문기업과 함께 컨소시엄을 구",
+      "score": 8,
+      "source_type": "산업 전문언론",
+      "source_rank": 2,
+      "verified_source": true,
+      "overview": "X-ray 검사장비 전문기업 자비스가 78억 7,000만 원 규모의 전고체전지 국책 연구개발 과제에 참여한다. 자비스는 이 과제에서 검사 분야 전체를 단독으로 담당하며, 국내 최대 배터리 기업 등과 컨소시엄을 구성해 개발을 진행한다. 과제 기간은 2026년 4월부터 2028년 12월까지로, 최종연도에는 전고체전지 전용 CT 검사장비를 제작하여 실제 양산 라인에서 성능을 검증할 계획이다.",
+      "key_points": [
+        "자비스가 산업통상부의 2026년도 전자부품산업기술개발사업 과제에 참여함",
+        "자비스는 전체 78억 7,000만 원 규모 과제 중 검사 분야 약 24억 7,000만 원을 단독 수행함",
+        "전고체전지 전용 CT 검사장비 개발을 통해 주요 불량을 95% 정확도로 검출하는 것을 목표로 함",
+        "수요기업으로 참여하는 국내 최대 배터리 기업의 양산 라인에서 개발 결과를 검증할 예정임"
+      ],
+      "numbers": [
+        "78억 7,000만 원",
+        "24억 7,000만 원",
+        "2026년 4월",
+        "2028년 12월",
+        "95%",
+        "50ms"
+      ],
+      "keywords": [
+        "자비스",
+        "전고체전지",
+        "국책과제",
+        "X-ray",
+        "검사장비",
+        "CT"
+      ],
+      "stated_outlook": "과제 종료 후 실제 양산 환경에서 검증이 완료되면 곧바로 매출로 이어질 것으로 전망하며, 검사 기술 표준을 선점함으로써 향후 양산 라인 수주에 유리한 위치를 확보하고자 함."
+    },
+    {
+      "id": "9ff4d1a5256d",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "배터리사업 구조 다시 짠다...ESS·재생에너지 연계 강화",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-03 06:00",
+      "collected": "2026-08-03",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE92VVZfak82eE5ObndMNVFVTkVtLV94OXdJc1I2d1RTamxJY1dWNS03VEc2cHdrcXlib1NIZmE4LTl2WFRuU1VUMmtrU3RpY0s1Tm1IRk9vUmhhZw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    }
+  ],
+  "archive_items": [
+    {
+      "id": "e008f0041629",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "한국디스플레이산업협회, 유튜버 '컬러스케일'과 협업한 유리기판 홍보영상 공개",
+      "source": "KIPOST",
+      "published": "2026-08-03 19:00",
+      "collected": "2026-08-03",
+      "link": "https://www.kipost.net/news/articleView.html?idxno=340334",
+      "rss_description": "한국디스플레이산업협회(회장 이청)는 차세대 디스플레이와 AI 반도체의 핵심 소재로 주목받고 있는 '유리 기판 관련 기술'을 대중의 눈높이에서소개하는 홍보 영상을 3일 유튜브 'ColorScale' 채널을 통해 정식 공개한다.해당 영상은 ‘K-Display 2026’을 통해 먼저 소개됐으며, 협회 공식 유튜브 채널 '한국디스플레이산업협회'에서도 함께 만나볼 수 있다.이번 영상은 협회가 디스플레이 전문 유튜버 'ColorScale'과 협업하고, 필옵틱스, AP시스템 등 국내 소부장 기업의 후원을 받아 제작됐다.영상은 \"여러분의 스마트폰",
+      "score": 2,
+      "source_type": "산업 전문언론",
+      "source_rank": 2,
+      "verified_source": true,
+      "overview": "한국디스플레이산업협회가 차세대 디스플레이 및 AI 반도체 핵심 소재인 유리 기판 기술을 대중에게 알리기 위한 홍보 영상을 공개했다. 해당 영상은 디스플레이 전문 유튜버 '컬러스케일'과 협업하고 국내 소부장 기업들의 후원을 받아 제작되었다. 영상에서는 베젤을 없애는 TGV 기술을 통해 구현될 차세대 폼팩터 청사진과 유리 기판의 산업적 가치를 조명한다.",
+      "key_points": [
+        "한국디스플레이산업협회가 유튜버 '컬러스케일'과 협업해 유리 기판 홍보 영상을 제작 및 공개했다.",
+        "영상 제작에는 필옵틱스, AP시스템 등 국내 소부장 기업이 후원했다.",
+        "TGV 기술을 활용해 베젤 없는 스마트폰, 대형 OLED TV 등 차세대 디스플레이 미래상을 제시했다.",
+        "유리 기판이 디스플레이를 넘어 반도체 패키징 분야로 확장될 가능성을 언급했다."
+      ],
+      "numbers": [
+        "2026-08-03",
+        "130인치"
+      ],
+      "keywords": [
+        "한국디스플레이산업협회",
+        "유리기판",
+        "TGV",
+        "컬러스케일",
+        "소부장",
+        "차세대폼팩터"
+      ],
+      "stated_outlook": "세계 최고 디스플레이 기술과 메모리·비메모리 반도체 제조 역량의 협력을 통해 대한민국이 '무어의 법칙 2.0'을 떠받치는 거대한 축이 될 수 있다고 전망했다."
     },
     {
       "id": "7a15dff14516",
@@ -120,113 +397,6 @@
       "stated_outlook": "호남 메가특구법이 통과될 경우 헌법재판소에서 위헌 판단을 받을 가능성이 있다."
     },
     {
-      "id": "e008f0041629",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "한국디스플레이산업협회, 유튜버 '컬러스케일'과 협업한 유리기판 홍보영상 공개",
-      "source": "KIPOST",
-      "published": "2026-08-03 19:00",
-      "collected": "2026-08-03",
-      "link": "https://www.kipost.net/news/articleView.html?idxno=340334",
-      "rss_description": "한국디스플레이산업협회(회장 이청)는 차세대 디스플레이와 AI 반도체의 핵심 소재로 주목받고 있는 '유리 기판 관련 기술'을 대중의 눈높이에서소개하는 홍보 영상을 3일 유튜브 'ColorScale' 채널을 통해 정식 공개한다.해당 영상은 ‘K-Display 2026’을 통해 먼저 소개됐으며, 협회 공식 유튜브 채널 '한국디스플레이산업협회'에서도 함께 만나볼 수 있다.이번 영상은 협회가 디스플레이 전문 유튜버 'ColorScale'과 협업하고, 필옵틱스, AP시스템 등 국내 소부장 기업의 후원을 받아 제작됐다.영상은 \"여러분의 스마트폰",
-      "score": 2,
-      "source_type": "산업 전문언론",
-      "source_rank": 2,
-      "verified_source": true,
-      "overview": "한국디스플레이산업협회가 차세대 디스플레이 및 AI 반도체 핵심 소재인 유리 기판 기술을 대중에게 알리기 위한 홍보 영상을 공개했다. 해당 영상은 디스플레이 전문 유튜버 '컬러스케일'과 협업하고 국내 소부장 기업들의 후원을 받아 제작되었다. 영상에서는 베젤을 없애는 TGV 기술을 통해 구현될 차세대 폼팩터 청사진과 유리 기판의 산업적 가치를 조명한다.",
-      "key_points": [
-        "한국디스플레이산업협회가 유튜버 '컬러스케일'과 협업해 유리 기판 홍보 영상을 제작 및 공개했다.",
-        "영상 제작에는 필옵틱스, AP시스템 등 국내 소부장 기업이 후원했다.",
-        "TGV 기술을 활용해 베젤 없는 스마트폰, 대형 OLED TV 등 차세대 디스플레이 미래상을 제시했다.",
-        "유리 기판이 디스플레이를 넘어 반도체 패키징 분야로 확장될 가능성을 언급했다."
-      ],
-      "numbers": [
-        "2026-08-03",
-        "130인치"
-      ],
-      "keywords": [
-        "한국디스플레이산업협회",
-        "유리기판",
-        "TGV",
-        "컬러스케일",
-        "소부장",
-        "차세대폼팩터"
-      ],
-      "stated_outlook": "세계 최고 디스플레이 기술과 메모리·비메모리 반도체 제조 역량의 협력을 통해 대한민국이 '무어의 법칙 2.0'을 떠받치는 거대한 축이 될 수 있다고 전망했다."
-    },
-    {
-      "id": "2954ef2669f9",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "산업",
-      "title": "[안테나] '반도체, 공포의 7월'은 25살 천재 때문이었나",
-      "source": "KIPOST",
-      "published": "2026-08-02 18:57",
-      "collected": "2026-08-03",
-      "link": "https://www.kipost.net/news/articleView.html?idxno=340327",
-      "rss_description": "한 주간의 테크이슈를 정리해드리는 안석현의 테크나들이, 오늘은 아래 3개 소식을 준비했습니다. 많은 시청 바랍니다.='반도체, 공포의 7월'은 25살 천재 때문이었나=SK하이닉스가 SK온 처지가 될 수 있다는 찝찝함, 혹은 공포=TSMC, EMIB와 비슷한 패키지 기술 개발",
-      "score": 16,
-      "source_type": "산업 전문언론",
-      "source_rank": 2,
-      "verified_source": true,
-      "overview": "키포스트의 영상 뉴스 프로그램인 '안석현의 테크나들이'를 통해 한 주간의 주요 테크 이슈를 정리했다. 주요 주제로는 반도체 시장의 7월 상황과 관련한 인물 언급, SK하이닉스의 경영 우려, TSMC의 새로운 패키징 기술 개발 소식을 다뤘다. 각 이슈에 대한 요약 정보를 통해 최근 반도체 업계의 흐름을 짚어보고 있다.",
-      "key_points": [
-        "반도체 시장의 7월 상황에 영향을 준 인물에 대한 분석을 다룸",
-        "SK하이닉스가 SK온과 유사한 경영 상황에 처할 수 있다는 시장의 우려 제기",
-        "TSMC가 EMIB와 유사한 형태의 새로운 패키징 기술을 개발 중이라는 소식 공유"
-      ],
-      "numbers": [
-        "2026.08.02"
-      ],
-      "keywords": [
-        "반도체",
-        "SK하이닉스",
-        "TSMC",
-        "패키징 기술",
-        "테크나들이"
-      ],
-      "stated_outlook": ""
-    },
-    {
-      "id": "53e5c72b3e51",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "투자·양산",
-      "title": "[알림] GPU·HBM 다음 병목은? 반도체 '패키지&테스트'의 세계로 초대합니다",
-      "source": "디일렉",
-      "published": "2026-08-01 00:41",
-      "collected": "2026-08-02",
-      "link": "https://www.thelec.kr/news/articleView.html?idxno=60398",
-      "verified_source": true,
-      "overview": "인공지능(AI) 기술 확산으로 고성능 반도체 수요가 급증하는 가운데 패키징과 테스트 과정에서 병목현상이 발생하고 있다. 이에 따라 반도체 업계는 생산성 향상을 위한 기술 개발에 집중하고 있다. 디일렉은 이러한 반도체 후공정 산업의 현주소를 조명하기 위해 'AI 반도체 테스트 & 소켓 테크 콘퍼런스 2026'을 개최한다.",
-      "key_points": [
-        "GPU, HBM 등 AI 반도체 수요 증가로 인해 패키징 및 테스트 과정에서의 병목현상이 주요 과제로 부상했다.",
-        "일본 OSAT 기업 아드반테스트의 2026회계연도 1분기 영업이익률은 51.7%를 기록했으며, 전 세계 테스트 장비 시장 규모 전망치는 역대 최대인 130억~145억달러로 상향 조정되었다.",
-        "티에스이(TSE)는 기존 256개 대비 2배 생산성을 높인 512개 다이 검사가 가능한 적층형 반도체용 테스트 핸들러를 개발 중이다.",
-        "HBM의 TSV 구조와 복잡해진 시스템 레벨 테스트(SLT)로 인해 프로빙 테스트 및 검증 작업의 난이도와 시간이 증가하고 있다."
-      ],
-      "numbers": [
-        "2026.07.31",
-        "3675억엔",
-        "1900억엔",
-        "39.3%",
-        "53.3%",
-        "51.7%"
-      ],
-      "keywords": [
-        "반도체",
-        "패키징",
-        "테스트",
-        "OSAT",
-        "AI 반도체",
-        "HBM"
-      ],
-      "stated_outlook": "디일렉은 이번 콘퍼런스를 통해 반도체 생산성과 OSAT 업계의 미래를 살펴보고 병목현상 속 성장의 기회를 모색할 계획이다.",
-      "source_type": "산업 전문언론",
-      "source_rank": 2
-    },
-    {
       "id": "fd9a00c612de",
       "sector": "battery",
       "region": "domestic",
@@ -267,45 +437,38 @@
       "stated_outlook": "3분기 말 연간 3만 톤 규모의 양산을 개시하고, 이후 북미 ESS 시장 및 고객사 수요에 맞춰 내년 상반기까지 연산 6만 톤 규모로 생산 능력을 확대할 계획임. 또한 전력망용 ESS, AI 데이터센터용 ESS, 보급형 전기차 등으로 적용 범위를 넓혀갈 방침임."
     },
     {
-      "id": "70b6ec101cad",
-      "sector": "battery",
+      "id": "2954ef2669f9",
+      "sector": "semiconductor",
       "region": "domestic",
-      "category": "정책",
-      "title": "[Weekly 신기술 및 정책소식] 전기차 충전 더 빨라진다…켄텍, 대형 배터리 발열 해결",
+      "category": "산업",
+      "title": "[안테나] '반도체, 공포의 7월'은 25살 천재 때문이었나",
       "source": "KIPOST",
-      "published": "2026-08-01 05:15",
+      "published": "2026-08-02 18:57",
       "collected": "2026-08-03",
-      "link": "https://www.kipost.net/news/articleView.html?idxno=340286",
-      "rss_description": "◇ 한양대, 차세대 배터리 수명 저하 원인 규명한양대는 방진호 ERICA 에너지바이오학과 교수팀이 ‘리튬·망간 과잉 양극재’에서 입자 내부의 ‘적층 결함’이 배터리 수명을 좌우하는 근본 원인임을 최초로 규명했다고 31일 밝혔다. 리튬 과잉 양극재(LMR)는 기존 양극재보다 높은 용량을 구현할 수 있어 차세대 배터리 소재로 주목받고 있다. 전이금속뿐 아니라 산소의 산화·환원 반응인 ‘음이온 산화환원’을 활용해 추가 용량을 확보할 수 있어서다. 문제는 충·방전을 반복하면 산소 반응이 비가역적으로 발생하면서 산소가 방출되고 전압·용량이",
-      "score": 14,
+      "link": "https://www.kipost.net/news/articleView.html?idxno=340327",
+      "rss_description": "한 주간의 테크이슈를 정리해드리는 안석현의 테크나들이, 오늘은 아래 3개 소식을 준비했습니다. 많은 시청 바랍니다.='반도체, 공포의 7월'은 25살 천재 때문이었나=SK하이닉스가 SK온 처지가 될 수 있다는 찝찝함, 혹은 공포=TSMC, EMIB와 비슷한 패키지 기술 개발",
+      "score": 16,
       "source_type": "산업 전문언론",
       "source_rank": 2,
       "verified_source": true,
-      "overview": "본 기사는 켄텍 에너지공학부 송주현 교수 연구팀이 개발한 튜브형 배터리 기술을 소개한다. 이 기술은 셀 중심부에 냉각 채널을 적용해 내부 발열을 효과적으로 제어한다. 연구 결과, 46㎜ 규격 배터리 급속 충전 시 기존보다 발열이 13.6도 낮아지는 냉각 효과를 확인했다. 이를 통해 대형 원통형 배터리의 충전 속도, 내구성, 경제성이 개선될 것으로 기대된다.",
+      "overview": "키포스트의 영상 뉴스 프로그램인 '안석현의 테크나들이'를 통해 한 주간의 주요 테크 이슈를 정리했다. 주요 주제로는 반도체 시장의 7월 상황과 관련한 인물 언급, SK하이닉스의 경영 우려, TSMC의 새로운 패키징 기술 개발 소식을 다뤘다. 각 이슈에 대한 요약 정보를 통해 최근 반도체 업계의 흐름을 짚어보고 있다.",
       "key_points": [
-        "켄텍 송주현 교수팀이 셀 중심부에 냉각 채널을 배치한 튜브형 배터리를 개발함",
-        "배터리 셀 내부와 외부에서 동시에 열을 방출하여 열 전달 거리를 절반으로 단축함",
-        "46㎜ 배터리를 6C 조건으로 급속 충전했을 때 최고 온도가 44.5도를 기록함",
-        "기존 배터리(58.1도) 대비 발열을 13.6도 낮추는 냉각 효과를 입증함"
+        "반도체 시장의 7월 상황에 영향을 준 인물에 대한 분석을 다룸",
+        "SK하이닉스가 SK온과 유사한 경영 상황에 처할 수 있다는 시장의 우려 제기",
+        "TSMC가 EMIB와 유사한 형태의 새로운 패키징 기술을 개발 중이라는 소식 공유"
       ],
       "numbers": [
-        "46㎜",
-        "6C",
-        "58.1도",
-        "44.5도",
-        "13.6도"
+        "2026.08.02"
       ],
       "keywords": [
-        "켄텍",
-        "튜브형 배터리",
-        "급속충전",
-        "냉각 채널",
-        "발열 제어"
+        "반도체",
+        "SK하이닉스",
+        "TSMC",
+        "패키징 기술",
+        "테크나들이"
       ],
-      "stated_outlook": "대형 원통형 배터리의 발열을 크게 줄이면서 충전 속도와 내구성, 경제성까지 개선할 수 있을 것으로 평가된다."
-    }
-  ],
-  "archive_items": [
+      "stated_outlook": ""
+    },
     {
       "id": "7880d8e731a3",
       "sector": "semiconductor",
@@ -372,6 +535,44 @@
       "stated_outlook": "재정비를 통해 용인시의 미래 발전 방향과 실천 방안을 구체화하여 도시 경쟁력을 높일 방침이다.",
       "source_type": "산업 전문언론",
       "source_rank": 2
+    },
+    {
+      "id": "70b6ec101cad",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "정책",
+      "title": "[Weekly 신기술 및 정책소식] 전기차 충전 더 빨라진다…켄텍, 대형 배터리 발열 해결",
+      "source": "KIPOST",
+      "published": "2026-08-01 05:15",
+      "collected": "2026-08-03",
+      "link": "https://www.kipost.net/news/articleView.html?idxno=340286",
+      "rss_description": "◇ 한양대, 차세대 배터리 수명 저하 원인 규명한양대는 방진호 ERICA 에너지바이오학과 교수팀이 ‘리튬·망간 과잉 양극재’에서 입자 내부의 ‘적층 결함’이 배터리 수명을 좌우하는 근본 원인임을 최초로 규명했다고 31일 밝혔다. 리튬 과잉 양극재(LMR)는 기존 양극재보다 높은 용량을 구현할 수 있어 차세대 배터리 소재로 주목받고 있다. 전이금속뿐 아니라 산소의 산화·환원 반응인 ‘음이온 산화환원’을 활용해 추가 용량을 확보할 수 있어서다. 문제는 충·방전을 반복하면 산소 반응이 비가역적으로 발생하면서 산소가 방출되고 전압·용량이",
+      "score": 14,
+      "source_type": "산업 전문언론",
+      "source_rank": 2,
+      "verified_source": true,
+      "overview": "본 기사는 켄텍 에너지공학부 송주현 교수 연구팀이 개발한 튜브형 배터리 기술을 소개한다. 이 기술은 셀 중심부에 냉각 채널을 적용해 내부 발열을 효과적으로 제어한다. 연구 결과, 46㎜ 규격 배터리 급속 충전 시 기존보다 발열이 13.6도 낮아지는 냉각 효과를 확인했다. 이를 통해 대형 원통형 배터리의 충전 속도, 내구성, 경제성이 개선될 것으로 기대된다.",
+      "key_points": [
+        "켄텍 송주현 교수팀이 셀 중심부에 냉각 채널을 배치한 튜브형 배터리를 개발함",
+        "배터리 셀 내부와 외부에서 동시에 열을 방출하여 열 전달 거리를 절반으로 단축함",
+        "46㎜ 배터리를 6C 조건으로 급속 충전했을 때 최고 온도가 44.5도를 기록함",
+        "기존 배터리(58.1도) 대비 발열을 13.6도 낮추는 냉각 효과를 입증함"
+      ],
+      "numbers": [
+        "46㎜",
+        "6C",
+        "58.1도",
+        "44.5도",
+        "13.6도"
+      ],
+      "keywords": [
+        "켄텍",
+        "튜브형 배터리",
+        "급속충전",
+        "냉각 채널",
+        "발열 제어"
+      ],
+      "stated_outlook": "대형 원통형 배터리의 발열을 크게 줄이면서 충전 속도와 내구성, 경제성까지 개선할 수 있을 것으로 평가된다."
     },
     {
       "id": "4f26ce4fe34b",
@@ -1186,13 +1387,13 @@
       "region": "domestic",
       "category": "산업동향",
       "title": "인텔 파운드리, 포티넷과 차세대 보안 칩 만든다",
-      "source": "디일렉",
-      "source_type": "SEMI 큐레이션",
+      "source": "SEMI Korea 블로그",
+      "source_type": "반도체업계 뉴스 · 시장동향 뉴스",
       "published": "2026-07-23 09:14",
       "collected": "2026-08-03",
       "link": "https://www.thelec.kr/news/articleView.html?idxno=59913",
       "rss_description": "인텔 파운드리, 포티넷과 차세대 보안 칩 만든다",
-      "discovered_via": "SEMI Korea 블로그 · 시장동향 뉴스",
+      "discovered_via": "SEMI Korea 블로그 · 반도체업계 뉴스 > 시장동향 뉴스",
       "summary_status": "summarized",
       "score": 0,
       "verified_source": true,
@@ -1216,8 +1417,12 @@
         "ASIC",
         "인텔4"
       ],
-      "stated_outlook": "포티넷은 인텔 기술과 공급망을 활용해 자사의 주문형 반도체(ASIC) 전략을 가속할 계획이다."
-    },
+      "stated_outlook": "포티넷은 인텔 기술과 공급망을 활용해 자사의 주문형 반도체(ASIC) 전략을 가속할 계획이다.",
+      "original_source": "디일렉",
+      "semi_post_link": "https://blog.naver.com/semi_blog/224355128793?fromRss=true&trackingCode=rss"
+    }
+  ],
+  "semi_archive_items": [
     {
       "id": "4403c37cc091",
       "sector": "semi_market",
@@ -1417,5 +1622,5 @@
       "stated_outlook": "올해 말 샘플을 공급하고 내년 하반기에 양산할 계획이다."
     }
   ],
-  "semi_archive_items": []
+  "manual_items": []
 }
