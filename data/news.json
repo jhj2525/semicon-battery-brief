@@ -1,11 +1,51 @@
 {
-  "updated_at": "2026-08-03 15:58 KST",
+  "updated_at": "2026-08-03 22:23 KST",
   "publication_window": {
     "from": "2026-08-01",
     "to": "2026-08-03"
   },
-  "today_verified_count": 8,
+  "today_verified_count": 5,
   "current_items": [
+    {
+      "id": "60582a8de26b",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\"",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-03 19:46",
+      "collected": "2026-08-03",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kcVpzMU9UZ3NIWTBTU0RSTzJ0c2FBaDlDelV4OFZnT0xKd1BMcDZacERPR3E4VE9YWU1wSExETkdKUUNGUmVZZUdOU2hoS2s1Qlc1d1REZGJsYk5tOThXMdIBYEFVX3lxTE5kcVpzMU9UZ3NIWTBTU0RSTzJ0c2FBaDlDelV4OFZnT0xKd1BMcDZacERPR3E4VE9YWU1wSExETkdKUUNGUmVZZUdOU2hoS2s1Qlc1d1REZGJsYk5tOThXMQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "d1c70af29688",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "반도체 소부장도 중국 맹추격…\"미래기술 선점 관건\"",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-03 17:14",
+      "collected": "2026-08-03",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kXzlFWVdMckEwQmtMclBleDY0azJTWUlDeEpYbm5aSXlZM2JXZVoxV0c5UzRUSlVuOTVyemtPTHBGdTBxVEtKSlBIeEthZ3RmMEswUno1eTVKUXFkTTU4cmJTU0FGbDlpSURzMFBUcjJYaVEz?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
     {
       "id": "692f4ddb26a2",
       "sector": "semiconductor",
@@ -24,7 +64,8 @@
       "key_points": [],
       "numbers": [],
       "keywords": [],
-      "stated_outlook": ""
+      "stated_outlook": "",
+      "source_rank": 3
     },
     {
       "id": "b6d465e0ef8f",
@@ -68,16 +109,16 @@
       "stated_outlook": "키오시아는 PCIe 6.0 기반 eSSD를 상용화하고 UFS 5.0을 올해 말 양산할 계획이며, 삼성전자는 올 4분기 UFS 5.0 양산 돌입 및 이달부터 V10 낸드 양산을 시작할 예정이다."
     },
     {
-      "id": "47bcb09d8104",
+      "id": "cef8e1e4e1a7",
       "sector": "semiconductor",
       "region": "domestic",
       "category": "산업",
-      "title": "\"웨이퍼 원료조달 능력이 AI 산업 경쟁력 좌우\"",
-      "source": "한국경제",
+      "title": "7월 D램·낸드 가격 '역대 최고'…\"3분기 PC용 D램 20%↑\"",
+      "source": "매일경제",
       "source_type": "경제지 보도",
-      "published": "2026-08-03 07:46",
+      "published": "2026-08-03 14:52",
       "collected": "2026-08-03",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vS3FFZk01ZjRoUTRHcmtkdmNoZzFaUkRTWmsxd0Z6YkMtMFZDcThFbWpWUW1JRG9QR1lBM1NmTmhfMkxRUDNiU1JYTzVzV0pGUHJob21RVGMyZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5WemY3STVoVk1rVzVGZVktUDJpWXlTNHdkd0NKc2tkenRub3o2RGRRNFlGWjhCM1VyRWdpMjlRZHJGSzNzbjFFcFBEaUMxbklPZjA5YXEyLU9KdGpGLU45dE5LQ1lmTE1m?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
@@ -86,64 +127,6 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": ""
-    },
-    {
-      "id": "66a0ccfc1b82",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "산업",
-      "title": "반도체 넘어 소부장까지…'뉴노멀' 된 장기공급계약",
-      "source": "연합뉴스",
-      "source_type": "통신사 보도",
-      "published": "2026-08-01 06:01",
-      "collected": "2026-08-03",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCQlcwajNyRzI2SGZZWEJTWmVlc2VndmNVRU1lOWh6VnU5SkNwUWRwbkJtNml1WENCT3J5UjFBYW5IdXYxQzNQdzZ1YlR3RXotSmllX2p4ZWxsaW_SAWBBVV95cUxOM283dlBfY3NoVE9XVEZSeTdNV3RmWWl1NmQtalFJZkc5Z0N0NG1HUXBYaU5nbUdJSnNnUGFFUWZwRDZoczZRczZRelpKdmdvMVMtVUtINWJrUjBXQ0gtRTk?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
-      "id": "53e5c72b3e51",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "투자·양산",
-      "title": "[알림] GPU·HBM 다음 병목은? 반도체 '패키지&테스트'의 세계로 초대합니다",
-      "source": "디일렉",
-      "published": "2026-08-01 00:41",
-      "collected": "2026-08-02",
-      "link": "https://www.thelec.kr/news/articleView.html?idxno=60398",
-      "verified_source": true,
-      "overview": "인공지능(AI) 기술 확산으로 고성능 반도체 수요가 급증하는 가운데 패키징과 테스트 과정에서 병목현상이 발생하고 있다. 이에 따라 반도체 업계는 생산성 향상을 위한 기술 개발에 집중하고 있다. 디일렉은 이러한 반도체 후공정 산업의 현주소를 조명하기 위해 'AI 반도체 테스트 & 소켓 테크 콘퍼런스 2026'을 개최한다.",
-      "key_points": [
-        "GPU, HBM 등 AI 반도체 수요 증가로 인해 패키징 및 테스트 과정에서의 병목현상이 주요 과제로 부상했다.",
-        "일본 OSAT 기업 아드반테스트의 2026회계연도 1분기 영업이익률은 51.7%를 기록했으며, 전 세계 테스트 장비 시장 규모 전망치는 역대 최대인 130억~145억달러로 상향 조정되었다.",
-        "티에스이(TSE)는 기존 256개 대비 2배 생산성을 높인 512개 다이 검사가 가능한 적층형 반도체용 테스트 핸들러를 개발 중이다.",
-        "HBM의 TSV 구조와 복잡해진 시스템 레벨 테스트(SLT)로 인해 프로빙 테스트 및 검증 작업의 난이도와 시간이 증가하고 있다."
-      ],
-      "numbers": [
-        "2026.07.31",
-        "3675억엔",
-        "1900억엔",
-        "39.3%",
-        "53.3%",
-        "51.7%"
-      ],
-      "keywords": [
-        "반도체",
-        "패키징",
-        "테스트",
-        "OSAT",
-        "AI 반도체",
-        "HBM"
-      ],
-      "stated_outlook": "디일렉은 이번 콘퍼런스를 통해 반도체 생산성과 OSAT 업계의 미래를 살펴보고 병목현상 속 성장의 기회를 모색할 계획이다.",
-      "source_type": "산업 전문언론",
-      "source_rank": 2
     },
     {
       "id": "a87be6eed3eb",
@@ -204,6 +187,27 @@
       "key_points": [],
       "numbers": [],
       "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 3
+    },
+    {
+      "id": "d755d9b85989",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "\"상반기 전세계 ESS 출하량 71%↑…북미서 K-배터리 입지 확대\"",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-03 17:36",
+      "collected": "2026-08-03",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9acmxyTnJGaUtoTjk3cEdPeFZDU3FxUksxcDdBRmVCNGhpYm53ajA1WGJlemNIQVdPLVlKTlI5a1gzS3VaR3R1S1l3dkFwUFpwTGdtUmFTNEg2NTlpeFlkZdIBYEFVX3lxTE9acmxyTnJGaUtoTjk3cEdPeFZDU3FxUksxcDdBRmVCNGhpYm53ajA1WGJlemNIQVdPLVlKTlI5a1gzS3VaR3R1S1l3dkFwUFpwTGdtUmFTNEg2NTlpeFlkZQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
       "stated_outlook": ""
     },
     {
@@ -224,59 +228,20 @@
       "key_points": [],
       "numbers": [],
       "keywords": [],
-      "stated_outlook": ""
+      "stated_outlook": "",
+      "source_rank": 3
     },
     {
-      "id": "6ed20da4ea37",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "자비스, '꿈의 배터리' 전고체전지 국책과제 참여… 78억 규모 과제서 검사 전 분야 담당",
-      "source": "전자신문 경제",
-      "published": "2026-08-03 15:31",
-      "collected": "2026-08-03",
-      "link": "https://www.etnews.com/20260803000339",
-      "rss_description": "X-ray 검사장비 선도기업 자비스(대표이사 김형철)가 '꿈의 배터리'로 불리는 전고체전지 시장 선점에 나선다. 자비스는 총 78억7,000만원 규모의 국책 연구개발 과제에 참여해, 이 가운데 약 24억7,000만원 규모의 검사 분야 전체를 단독으로 맡는다. 이번 과제는 산업통상부의 '2026년도 전자부품산업기술개발사업(주력산업IT융합)'으로, 자비스는 국내 대표 배터리 기업과 글로벌 전자 대기업, 배터리 제조장비 전문기업과 함께 컨소시엄을 구",
-      "score": 8,
-      "source_type": "산업 전문언론",
-      "source_rank": 2,
-      "verified_source": true,
-      "overview": "X-ray 검사장비 전문기업 자비스가 78억 7,000만 원 규모의 전고체전지 국책 연구개발 과제에 참여한다. 자비스는 이 과제에서 검사 분야 전체를 단독으로 담당하며, 국내 최대 배터리 기업 등과 컨소시엄을 구성해 개발을 진행한다. 과제 기간은 2026년 4월부터 2028년 12월까지로, 최종연도에는 전고체전지 전용 CT 검사장비를 제작하여 실제 양산 라인에서 성능을 검증할 계획이다.",
-      "key_points": [
-        "자비스가 산업통상부의 2026년도 전자부품산업기술개발사업 과제에 참여함",
-        "자비스는 전체 78억 7,000만 원 규모 과제 중 검사 분야 약 24억 7,000만 원을 단독 수행함",
-        "전고체전지 전용 CT 검사장비 개발을 통해 주요 불량을 95% 정확도로 검출하는 것을 목표로 함",
-        "수요기업으로 참여하는 국내 최대 배터리 기업의 양산 라인에서 개발 결과를 검증할 예정임"
-      ],
-      "numbers": [
-        "78억 7,000만 원",
-        "24억 7,000만 원",
-        "2026년 4월",
-        "2028년 12월",
-        "95%",
-        "50ms"
-      ],
-      "keywords": [
-        "자비스",
-        "전고체전지",
-        "국책과제",
-        "X-ray",
-        "검사장비",
-        "CT"
-      ],
-      "stated_outlook": "과제 종료 후 실제 양산 환경에서 검증이 완료되면 곧바로 매출로 이어질 것으로 전망하며, 검사 기술 표준을 선점함으로써 향후 양산 라인 수주에 유리한 위치를 확보하고자 함."
-    },
-    {
-      "id": "9ff4d1a5256d",
+      "id": "b3601b444c9d",
       "sector": "battery",
       "region": "domestic",
       "category": "산업",
-      "title": "배터리사업 구조 다시 짠다...ESS·재생에너지 연계 강화",
-      "source": "한국경제",
-      "source_type": "경제지 보도",
-      "published": "2026-08-03 06:00",
+      "title": "자비스, '꿈의 배터리' 전고체전지 국책과제 참여… 78억 규모 과제서 검사 전 분야 담당",
+      "source": "전자신문",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-03 15:31",
       "collected": "2026-08-03",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE92VVZfak82eE5ObndMNVFVTkVtLV94OXdJc1I2d1RTamxJY1dWNS03VEc2cHdrcXlib1NIZmE4LTl2WFRuU1VUMmtrU3RpY0s1Tm1IRk9vUmhhZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9MVld4Rk82NlBNdExfRzdZeXAwemRkZmlBbmhKTUo5Ri1iYTFHeVh6eWxfSG40ZHYwdHJiYkt0QlRGWDdzNlc1ZVNQYXdQQQ?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
@@ -323,6 +288,46 @@
         "차세대폼팩터"
       ],
       "stated_outlook": "세계 최고 디스플레이 기술과 메모리·비메모리 반도체 제조 역량의 협력을 통해 대한민국이 '무어의 법칙 2.0'을 떠받치는 거대한 축이 될 수 있다고 전망했다."
+    },
+    {
+      "id": "6ed20da4ea37",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "자비스, '꿈의 배터리' 전고체전지 국책과제 참여… 78억 규모 과제서 검사 전 분야 담당",
+      "source": "전자신문 경제",
+      "published": "2026-08-03 15:31",
+      "collected": "2026-08-03",
+      "link": "https://www.etnews.com/20260803000339",
+      "rss_description": "X-ray 검사장비 선도기업 자비스(대표이사 김형철)가 '꿈의 배터리'로 불리는 전고체전지 시장 선점에 나선다. 자비스는 총 78억7,000만원 규모의 국책 연구개발 과제에 참여해, 이 가운데 약 24억7,000만원 규모의 검사 분야 전체를 단독으로 맡는다. 이번 과제는 산업통상부의 '2026년도 전자부품산업기술개발사업(주력산업IT융합)'으로, 자비스는 국내 대표 배터리 기업과 글로벌 전자 대기업, 배터리 제조장비 전문기업과 함께 컨소시엄을 구",
+      "score": 8,
+      "source_type": "산업 전문언론",
+      "source_rank": 2,
+      "verified_source": true,
+      "overview": "X-ray 검사장비 전문기업 자비스가 78억 7,000만 원 규모의 전고체전지 국책 연구개발 과제에 참여한다. 자비스는 이 과제에서 검사 분야 전체를 단독으로 담당하며, 국내 최대 배터리 기업 등과 컨소시엄을 구성해 개발을 진행한다. 과제 기간은 2026년 4월부터 2028년 12월까지로, 최종연도에는 전고체전지 전용 CT 검사장비를 제작하여 실제 양산 라인에서 성능을 검증할 계획이다.",
+      "key_points": [
+        "자비스가 산업통상부의 2026년도 전자부품산업기술개발사업 과제에 참여함",
+        "자비스는 전체 78억 7,000만 원 규모 과제 중 검사 분야 약 24억 7,000만 원을 단독 수행함",
+        "전고체전지 전용 CT 검사장비 개발을 통해 주요 불량을 95% 정확도로 검출하는 것을 목표로 함",
+        "수요기업으로 참여하는 국내 최대 배터리 기업의 양산 라인에서 개발 결과를 검증할 예정임"
+      ],
+      "numbers": [
+        "78억 7,000만 원",
+        "24억 7,000만 원",
+        "2026년 4월",
+        "2028년 12월",
+        "95%",
+        "50ms"
+      ],
+      "keywords": [
+        "자비스",
+        "전고체전지",
+        "국책과제",
+        "X-ray",
+        "검사장비",
+        "CT"
+      ],
+      "stated_outlook": "과제 종료 후 실제 양산 환경에서 검증이 완료되면 곧바로 매출로 이어질 것으로 전망하며, 검사 기술 표준을 선점함으로써 향후 양산 라인 수주에 유리한 위치를 확보하고자 함."
     },
     {
       "id": "7a15dff14516",
@@ -395,6 +400,48 @@
         "반도체특별법"
       ],
       "stated_outlook": "호남 메가특구법이 통과될 경우 헌법재판소에서 위헌 판단을 받을 가능성이 있다."
+    },
+    {
+      "id": "47bcb09d8104",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "\"웨이퍼 원료조달 능력이 AI 산업 경쟁력 좌우\"",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-03 07:46",
+      "collected": "2026-08-03",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vS3FFZk01ZjRoUTRHcmtkdmNoZzFaUkRTWmsxd0Z6YkMtMFZDcThFbWpWUW1JRG9QR1lBM1NmTmhfMkxRUDNiU1JYTzVzV0pGUHJob21RVGMyZw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 2
+    },
+    {
+      "id": "9ff4d1a5256d",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "배터리사업 구조 다시 짠다...ESS·재생에너지 연계 강화",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-03 06:00",
+      "collected": "2026-08-03",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE92VVZfak82eE5ObndMNVFVTkVtLV94OXdJc1I2d1RTamxJY1dWNS03VEc2cHdrcXlib1NIZmE4LTl2WFRuU1VUMmtrU3RpY0s1Tm1IRk9vUmhhZw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 2
     },
     {
       "id": "fd9a00c612de",
@@ -537,6 +584,27 @@
       "source_rank": 2
     },
     {
+      "id": "66a0ccfc1b82",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "반도체 넘어 소부장까지…'뉴노멀' 된 장기공급계약",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-01 06:01",
+      "collected": "2026-08-03",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCQlcwajNyRzI2SGZZWEJTWmVlc2VndmNVRU1lOWh6VnU5SkNwUWRwbkJtNml1WENCT3J5UjFBYW5IdXYxQzNQdzZ1YlR3RXotSmllX2p4ZWxsaW_SAWBBVV95cUxOM283dlBfY3NoVE9XVEZSeTdNV3RmWWl1NmQtalFJZkc5Z0N0NG1HUXBYaU5nbUdJSnNnUGFFUWZwRDZoczZRczZRelpKdmdvMVMtVUtINWJrUjBXQ0gtRTk?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 3
+    },
+    {
       "id": "70b6ec101cad",
       "sector": "battery",
       "region": "domestic",
@@ -573,6 +641,44 @@
         "발열 제어"
       ],
       "stated_outlook": "대형 원통형 배터리의 발열을 크게 줄이면서 충전 속도와 내구성, 경제성까지 개선할 수 있을 것으로 평가된다."
+    },
+    {
+      "id": "53e5c72b3e51",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "[알림] GPU·HBM 다음 병목은? 반도체 '패키지&테스트'의 세계로 초대합니다",
+      "source": "디일렉",
+      "published": "2026-08-01 00:41",
+      "collected": "2026-08-02",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=60398",
+      "verified_source": true,
+      "overview": "인공지능(AI) 기술 확산으로 고성능 반도체 수요가 급증하는 가운데 패키징과 테스트 과정에서 병목현상이 발생하고 있다. 이에 따라 반도체 업계는 생산성 향상을 위한 기술 개발에 집중하고 있다. 디일렉은 이러한 반도체 후공정 산업의 현주소를 조명하기 위해 'AI 반도체 테스트 & 소켓 테크 콘퍼런스 2026'을 개최한다.",
+      "key_points": [
+        "GPU, HBM 등 AI 반도체 수요 증가로 인해 패키징 및 테스트 과정에서의 병목현상이 주요 과제로 부상했다.",
+        "일본 OSAT 기업 아드반테스트의 2026회계연도 1분기 영업이익률은 51.7%를 기록했으며, 전 세계 테스트 장비 시장 규모 전망치는 역대 최대인 130억~145억달러로 상향 조정되었다.",
+        "티에스이(TSE)는 기존 256개 대비 2배 생산성을 높인 512개 다이 검사가 가능한 적층형 반도체용 테스트 핸들러를 개발 중이다.",
+        "HBM의 TSV 구조와 복잡해진 시스템 레벨 테스트(SLT)로 인해 프로빙 테스트 및 검증 작업의 난이도와 시간이 증가하고 있다."
+      ],
+      "numbers": [
+        "2026.07.31",
+        "3675억엔",
+        "1900억엔",
+        "39.3%",
+        "53.3%",
+        "51.7%"
+      ],
+      "keywords": [
+        "반도체",
+        "패키징",
+        "테스트",
+        "OSAT",
+        "AI 반도체",
+        "HBM"
+      ],
+      "stated_outlook": "디일렉은 이번 콘퍼런스를 통해 반도체 생산성과 OSAT 업계의 미래를 살펴보고 병목현상 속 성장의 기회를 모색할 계획이다.",
+      "source_type": "산업 전문언론",
+      "source_rank": 2
     },
     {
       "id": "4f26ce4fe34b",
@@ -1622,5 +1728,122 @@
       "stated_outlook": "올해 말 샘플을 공급하고 내년 하반기에 양산할 계획이다."
     }
   ],
-  "manual_items": []
+  "manual_items": [
+    {
+      "id": "3e27511e7fb7",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "낱개로 팔던 부품, 이젠 '세트'로…글로벌 기업이 먼저 찾았다",
+      "source": "hankyung.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-03 23:15",
+      "collected": "2026-08-03",
+      "link": "https://www.hankyung.com/article/202608031743i",
+      "requested_link": "https://www.hankyung.com/article/202608031743i",
+      "rss_description": "낱개로 팔던 부품, 이젠 '세트'로…글로벌 기업이 먼저 찾았다",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "비씨엔씨가 북미 글로벌 반도체 기업 I사의 최첨단 공정에 실리콘 부품을 세트 형태로 묶은 '실리콘 풀 키트'를 양산 공급하기 시작했습니다. 기존에 개별 부품 단위로 납품하던 방식에서 벗어나, 반도체 제조 장비 내 필요한 여러 부품을 일괄 공급하는 체계를 갖춘 것입니다. 이는 자체 개발한 고순도 폴리실리콘 소재인 SD9+P의 품질 경쟁력이 입증된 결과로 평가받습니다. 이번 공급 확대를 통해 비씨엔씨는 부품 사업의 본격적인 성장 기틀을 마련했습니다. 향후 기존 주력 제품인 합성 쿼츠 부품과 결합해 장비 부품을 통합 공급하는 전략으로 시장 입지를 강화할 계획입니다.",
+      "industry_context": "비씨엔씨는 대한민국의 반도체 부품 및 소재 전문 기업입니다. 반도체 식각 공정에 필수적인 소모품을 생산하며, 자체 소재 기술력과 생산 역량을 내재화하여 글로벌 공급망에서 영향력을 확대하고 있습니다.",
+      "key_points": [
+        "비씨엔씨가 북미 I사에 반도체 제조 장비용 '실리콘 풀 키트' 공급 개시",
+        "고순도 폴리실리콘 소재 SD9+P를 적용해 품질 및 생산 경쟁력 확보",
+        "글로벌 반도체용 폴리실리콘 부품 시장은 연평균 15% 안팎의 성장세 전망"
+      ],
+      "numbers": [
+        "3조원",
+        "15%",
+        "200억원",
+        "2024년"
+      ],
+      "keywords": [
+        "비씨엔씨",
+        "실리콘 풀 키트",
+        "반도체 소재",
+        "폴리실리콘",
+        "SD9+P",
+        "식각 공정"
+      ],
+      "stated_outlook": "실리콘 풀 키트 공급을 계기로 실리콘 부품과 합성 쿼츠 소재 부품을 묶은 일괄 공급 체계를 구축하고, 향후 국내 고객사로 공급을 확대하여 중장기 성장동력으로 육성할 계획이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "4862d4f5eacc",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "수동 추가 기사 · microchip.com",
+      "source": "microchip.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-03 22:23",
+      "collected": "2026-08-03",
+      "link": "https://www.microchip.com/en-us/about/events-info/future-of-memory-and-storage",
+      "requested_link": "https://www.microchip.com/en-us/about/events-info/future-of-memory-and-storage",
+      "rss_description": "",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "데이터 센터의 성능과 확장성을 극대화하기 위해 차세대 저장 장치 및 메모리 기술이 변화하고 있습니다. 마이크로칩 테크놀로지는 AI 워크로드를 지원하기 위해 PCIe Gen6 스위치와 리타이머를 포함한 고성능 스토리지 솔루션을 제시하며 인프라 혁신을 주도하고 있습니다. 특히 데이터 센터 컨트롤러와 NVMe 기술을 통해 데이터 처리 속도를 높이고 전력 소비를 줄이는 효율적인 플랫폼 구축을 지원합니다. 이번 변화는 AI 데이터 센터의 급격한 수요 증가에 대응하여 더 빠르고 안전하며 안정적인 데이터 전송 환경을 제공하는 데 중점을 둡니다. 이를 통해 엔터프라이즈 및 클라우드 설계자는 성능 요구 사항을 충족하면서 미래 지향적인 인프라를 설계할 수 있게 됩니다.",
+      "industry_context": "마이크로칩 테크놀로지는 미국 애리조나주 챈들러에 본사를 둔 세계적인 반도체 기업입니다. 데이터 센터 솔루션(DCS) 그룹을 통해 PCIe 스위치, 리타이머, NVMe 컨트롤러 등 고성능 데이터 센터 인프라 핵심 기술을 공급하고 있습니다.",
+      "key_points": [
+        "마이크로칩은 'Future of Memory and Storage(FMS) 2026' 행사에 참여하여 최신 데이터 센터 스토리지 솔루션을 선보임",
+        "AI/ML 워크로드를 위한 End-to-End PCIe Fabric 및 Gen6 스위치·리타이머 기술 발표",
+        "NVMe 5016 A2 ASIC을 활용하여 GPU와 SSD 간의 직접 접근 성능과 전력 효율 최적화 방안 제시"
+      ],
+      "numbers": [
+        "2026년 8월 4일–6일",
+        "부스 415",
+        "NVMe 5016 A2"
+      ],
+      "keywords": [
+        "데이터 센터",
+        "PCIe Gen6",
+        "AI 워크로드",
+        "NVMe",
+        "스토리지 솔루션",
+        "마이크로칩"
+      ],
+      "stated_outlook": "엔터프라이즈 및 클라우드 데이터 센터 플랫폼이 일관된 성능을 유지하고 미래의 데이터 증가 요구에 맞게 원활하게 확장할 수 있도록 차세대 기술을 지속적으로 지원할 계획입니다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "ee84fb014e22",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "Doosan",
+      "source": "digitimes.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-03 18:11",
+      "collected": "2026-08-03",
+      "link": "https://www.digitimes.com/news/a20260803VL201/doosan-sk-siltron-acquisition-wafer-materials.html",
+      "requested_link": "https://www.digitimes.com/news/a20260803VL201/doosan-sk-siltron-acquisition-wafer-materials.html",
+      "rss_description": "Doosan",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "두산그룹이 SK실트론의 경영권 지분을 2조 3,000억 원(미화 16억 달러)에 인수하기로 합의하며 반도체 공급망에 큰 변화가 예고되었습니다. 이번 인수를 통해 두산은 기존의 반도체 소재 및 테스트 사업 영역을 웨이퍼 제조 분야까지 성공적으로 확장하게 됩니다. 반면 SK그룹은 이번 매각을 통해 확보한 자원을 AI 분야 육성에 집중적으로 투입할 계획입니다. 이는 한국 반도체 생태계 내 주요 기업들의 포트폴리오 재편을 의미합니다. 이번 거래는 반도체 소재 및 제조 부문의 역량을 통합하여 시장 내 영향력을 강화하려는 전략적 결정으로 평가됩니다.",
+      "industry_context": "두산그룹은 다양한 산업군을 보유한 한국의 대기업으로 최근 반도체 소재와 테스트 공정으로 사업을 다각화해 왔습니다. SK실트론은 SK그룹 산하의 반도체 웨이퍼 제조 기업으로, 글로벌 반도체 공급망에서 핵심 웨이퍼 공급 업체로서의 위치를 점하고 있습니다.",
+      "key_points": [
+        "두산그룹이 SK실트론 경영권 지분 인수 합의",
+        "인수 금액은 2조 3,000억 원(미화 16억 달러)",
+        "두산은 웨이퍼 제조까지 반도체 사업 범위 확대",
+        "SK그룹은 확보 자금을 AI 분야에 투자할 예정"
+      ],
+      "numbers": [
+        "2조 3,000억 원",
+        "미화 16억 달러",
+        "2026년 8월 3일"
+      ],
+      "keywords": [
+        "두산그룹",
+        "SK실트론",
+        "웨이퍼",
+        "반도체",
+        "인수합병",
+        "AI"
+      ],
+      "stated_outlook": "SK그룹은 이번 인수를 통해 확보한 자원을 AI 분야 육성을 위한 추가 자원으로 활용할 계획입니다.",
+      "summary_status": "summarized"
+    }
+  ]
 }
