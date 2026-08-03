@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-03 23:01 KST",
+  "updated_at": "2026-08-03 23:29 KST",
   "publication_window": {
     "from": "2026-08-01",
     "to": "2026-08-03"
   },
-  "today_verified_count": 0,
+  "today_verified_count": 1,
   "current_items": [
     {
-      "id": "60582a8de26b",
+      "id": "82955dde7655",
       "sector": "semiconductor",
       "region": "domestic",
-      "category": "투자·양산",
-      "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\"",
+      "category": "산업",
+      "title": "[2026세법] AI로봇·반도체 생산 촉진…6대 성장동력에 소득·법인세 특례",
       "source": "연합뉴스",
       "source_type": "통신사 보도",
-      "published": "2026-08-03 19:46",
+      "published": "2026-08-03 18:00",
       "collected": "2026-08-03",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kcVpzMU9UZ3NIWTBTU0RSTzJ0c2FBaDlDelV4OFZnT0xKd1BMcDZacERPR3E4VE9YWU1wSExETkdKUUNGUmVZZUdOU2hoS2s1Qlc1d1REZGJsYk5tOThXMdIBYEFVX3lxTE5kcVpzMU9UZ3NIWTBTU0RSTzJ0c2FBaDlDelV4OFZnT0xKd1BMcDZacERPR3E4VE9YWU1wSExETkdKUUNGUmVZZUdOU2hoS2s1Qlc1d1REZGJsYk5tOThXMQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vaDNZYTBVbUhodHowMXZLVncteDBlUkdWQUZCYWo1Nl9NQkZBbXkzRUhmY2VfMXQ1QUdncHI4al9QV0E0WFZNQTMxV3JZWUFxNm1wV2VuUkwzRGfSAWBBVV95cUxNMlV0Rk54RVAwRzJ3a1dxNDVOSHdETFBTUHJfNEFVR0ZJZGctRF94S216Qk1lc0JHdkc5LTFxWWZ6ZGZyWW84T21WVG9rTnBYVWtsNXRRWm9ldlJ5b3BiSm0?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
@@ -24,8 +24,7 @@
       "key_points": [],
       "numbers": [],
       "keywords": [],
-      "stated_outlook": "",
-      "source_rank": 3
+      "stated_outlook": ""
     },
     {
       "id": "d1c70af29688",
@@ -258,6 +257,27 @@
     }
   ],
   "archive_items": [
+    {
+      "id": "60582a8de26b",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "\"중국 CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진\"",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-03 19:46",
+      "collected": "2026-08-03",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kcVpzMU9UZ3NIWTBTU0RSTzJ0c2FBaDlDelV4OFZnT0xKd1BMcDZacERPR3E4VE9YWU1wSExETkdKUUNGUmVZZUdOU2hoS2s1Qlc1d1REZGJsYk5tOThXMdIBYEFVX3lxTE5kcVpzMU9UZ3NIWTBTU0RSTzJ0c2FBaDlDelV4OFZnT0xKd1BMcDZacERPR3E4VE9YWU1wSExETkdKUUNGUmVZZUdOU2hoS2s1Qlc1d1REZGJsYk5tOThXMQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 3
+    },
     {
       "id": "e008f0041629",
       "sector": "semiconductor",
@@ -1512,7 +1532,8 @@
       "source_rank": 2
     }
   ],
-  "semi_items": [
+  "semi_items": [],
+  "semi_archive_items": [
     {
       "id": "45cce4af5d47",
       "sector": "semi_market",
@@ -1534,9 +1555,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": ""
-    }
-  ],
-  "semi_archive_items": [
+    },
     {
       "id": "1210adf70a15",
       "sector": "semi_market",
