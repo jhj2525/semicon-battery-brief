@@ -17,14 +17,33 @@ const manualForm = document.querySelector("#manualForm");
 const manualStatus = document.querySelector("#manualStatus");
 const manualNewsRows = document.querySelector("#manualNewsRows");
 const manualEmpty = document.querySelector("#manualEmpty");
+const semiPanel = document.querySelector("#semiPanel");
+const manualArchivePanel = document.querySelector("#manualArchivePanel");
+const manualArchiveRows = document.querySelector("#manualArchiveRows");
+const manualArchiveEmpty = document.querySelector("#manualArchiveEmpty");
+const manualCurrentSearch = document.querySelector("#manualCurrentSearch");
+const manualCurrentSector = document.querySelector("#manualCurrentSector");
+const manualArchiveSearch = document.querySelector("#manualArchiveSearch");
+const manualArchiveSector = document.querySelector("#manualArchiveSector");
+const manualArchiveDate = document.querySelector("#manualArchiveDate");
 
 let currentItems = [];
 let archiveItems = [];
 let semiItems = [];
 let manualItems = [];
 let view = "semiconductor";
+let dataToday = "";
 
 const labels = { domestic: "국내", global: "해외" };
+const sectorLabels = { semiconductor: "반도체", battery: "배터리", semi_market: "SEMI" };
+
+function koreaToday() {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit"
+  }).formatToParts(new Date());
+  const values = Object.fromEntries(parts.map(part => [part.type, part.value]));
+  return `${values.year}-${values.month}-${values.day}`;
+}
 
 function searchable(item) {
   return [
@@ -42,11 +61,66 @@ function fillList(element, values) {
   });
 }
 
-function buildRow(item) {
+async function requestDelete(item, button) {
+  if (!confirm(`이 기사를 삭제할까요?\n\n${item.title}`)) return;
+  const password = prompt("관리 비밀번호를 입력해 주세요.");
+  if (!password) return;
+  const endpoint = (window.PROCESS_BRIEF_CONFIG || {}).workerUrl || "";
+  if (!endpoint || endpoint.includes("YOUR-WORKER")) {
+    alert("Worker 주소가 설정되지 않았습니다.");
+    return;
+  }
+  button.disabled = true;
+  button.textContent = "삭제 요청 중…";
+  try {
+    const response = await fetch(endpoint, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ action: "delete", itemId: item.id, password }),
+    });
+    const result = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(result.error || "삭제 요청에 실패했습니다.");
+    button.textContent = "삭제 요청 완료";
+    alert("삭제 요청을 접수했습니다. GitHub 실행이 끝난 뒤 새로고침하면 사라집니다.");
+  } catch (error) {
+    button.disabled = false;
+    button.textContent = "이 기사 삭제";
+    alert(error.message || "삭제 요청에 실패했습니다.");
+  }
+}
+
+async function requestTitleEdit(item, button) {
+  const title = prompt("수정할 기사 제목을 입력해 주세요.", item.title || "");
+  if (!title || title.trim() === (item.title || "").trim()) return;
+  const password = prompt("관리 비밀번호를 입력해 주세요.");
+  if (!password) return;
+  const endpoint = (window.PROCESS_BRIEF_CONFIG || {}).workerUrl || "";
+  button.disabled = true;
+  button.textContent = "수정 요청 중…";
+  try {
+    const response = await fetch(endpoint, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ action: "edit_title", itemId: item.id, title: title.trim(), password }),
+    });
+    const result = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(result.error || "제목 수정 요청에 실패했습니다.");
+    button.textContent = "수정 요청 완료";
+    alert("제목 수정 요청을 접수했습니다. GitHub 실행이 끝난 뒤 새로고침하면 반영됩니다.");
+  } catch (error) {
+    button.disabled = false;
+    button.textContent = "제목 수정";
+    alert(error.message || "제목 수정 요청에 실패했습니다.");
+  }
+}
+
+function buildRow(item, { deletable = false, editable = false } = {}) {
   const fragment = template.content.cloneNode(true);
   const article = fragment.querySelector(".news-row");
   const button = fragment.querySelector(".row-summary");
   const detail = fragment.querySelector(".row-detail");
+  const linkOnly = item.summary_status === "link_only";
+  article.classList.toggle("link-only", linkOnly);
 
   fragment.querySelector(".published").textContent = (item.published || "").slice(0, 10);
   fragment.querySelector(".region").textContent = labels[item.region] || item.region;
@@ -79,6 +153,16 @@ function buildRow(item) {
     semiPostLink.href = item.semi_post_link;
     semiPostLink.hidden = false;
   }
+  const deleteButton = fragment.querySelector(".delete-item");
+  if (deletable && item.id) {
+    deleteButton.hidden = false;
+    deleteButton.addEventListener("click", () => requestDelete(item, deleteButton));
+  }
+  const editButton = fragment.querySelector(".edit-title");
+  if (editable && item.id) {
+    editButton.hidden = false;
+    editButton.addEventListener("click", () => requestTitleEdit(item, editButton));
+  }
 
   button.addEventListener("click", () => {
     const opening = detail.hidden;
@@ -90,21 +174,17 @@ function buildRow(item) {
 }
 
 function activeItems() {
-  if (view === "archive") {
+  if (view === "auto_archive") {
     return archiveItems.filter(item =>
       (archiveSector.value === "all" || item.sector === archiveSector.value) &&
       (!archiveDate.value || (item.published || "").slice(0, 10) === archiveDate.value)
     );
   }
-  if (view === "semi_market") return semiItems;
-  return [
-    ...manualItems.filter(item => item.sector === view),
-    ...currentItems.filter(item => item.sector === view),
-  ];
+  return currentItems.filter(item => item.sector === view);
 }
 
 function render() {
-  if (view === "manual_add") return;
+  if (["manual_add", "manual_archive", "semi_market"].includes(view)) return;
   const query = searchInput.value.trim().toLowerCase();
   const region = regionFilter.value;
   const category = categoryFilter.value;
@@ -116,22 +196,43 @@ function render() {
   );
 
   rows.innerHTML = "";
-  visible.forEach(item => rows.appendChild(buildRow(item)));
+  visible.forEach(item => rows.appendChild(buildRow(item, { deletable: view === "auto_archive" })));
   empty.hidden = visible.length !== 0;
-  empty.textContent = view === "archive"
+  empty.textContent = view === "auto_archive"
     ? "조건에 맞는 아카이브 기사가 없습니다."
-    : view === "semi_market"
-      ? "SEMI 블로그 원문 링크를 확인한 기사가 아직 없습니다."
-      : "최근 3일 안에 조건을 통과한 기사가 없습니다.";
+    : "최근 3일 안에 조건을 통과한 기사가 없습니다.";
 }
 
 function renderManual() {
   manualNewsRows.innerHTML = "";
-  const ordered = [...manualItems].sort((a, b) =>
+  const query = manualCurrentSearch.value.trim().toLowerCase();
+  const sector = manualCurrentSector.value;
+  const ordered = manualItems.filter(item =>
+    (item.collected || "") === dataToday &&
+    (sector === "all" || item.sector === sector) &&
+    (!query || searchable(item).includes(query))
+  ).sort((a, b) =>
     `${b.collected || ""}${b.published || ""}`.localeCompare(`${a.collected || ""}${a.published || ""}`)
   );
-  ordered.forEach(item => manualNewsRows.appendChild(buildRow(item)));
+  ordered.forEach(item => manualNewsRows.appendChild(buildRow(item, { editable: true })));
   manualEmpty.hidden = ordered.length !== 0;
+}
+
+function renderManualArchive() {
+  manualArchiveRows.innerHTML = "";
+  const query = manualArchiveSearch.value.trim().toLowerCase();
+  const sector = manualArchiveSector.value;
+  const date = manualArchiveDate.value;
+  const ordered = manualItems.filter(item =>
+    (item.collected || "") !== dataToday &&
+    (sector === "all" || item.sector === sector) &&
+    (!date || (item.collected || "") === date) &&
+    (!query || searchable(item).includes(query))
+  ).sort((a, b) =>
+    `${b.collected || ""}${b.published || ""}`.localeCompare(`${a.collected || ""}${a.published || ""}`)
+  );
+  ordered.forEach(item => manualArchiveRows.appendChild(buildRow(item, { deletable: true, editable: true })));
+  manualArchiveEmpty.hidden = ordered.length !== 0;
 }
 
 tabs.forEach(tab => tab.addEventListener("click", () => {
@@ -139,17 +240,20 @@ tabs.forEach(tab => tab.addEventListener("click", () => {
   tab.classList.add("active");
   view = tab.dataset.view;
   const manualMode = view === "manual_add";
+  const manualArchiveMode = view === "manual_archive";
+  const semiMode = view === "semi_market";
   manualPanel.hidden = !manualMode;
-  database.hidden = manualMode;
-  controls.hidden = manualMode;
-  viewNote.hidden = manualMode;
-  archiveControls.hidden = view !== "archive";
-  viewNote.textContent = view === "archive"
+  manualArchivePanel.hidden = !manualArchiveMode;
+  semiPanel.hidden = !semiMode;
+  database.hidden = manualMode || manualArchiveMode || semiMode;
+  controls.hidden = manualMode || manualArchiveMode || semiMode;
+  viewNote.hidden = manualMode || manualArchiveMode || semiMode;
+  archiveControls.hidden = view !== "auto_archive";
+  viewNote.textContent = view === "auto_archive"
     ? "과거 검증 기사 · 날짜와 분야로 검색"
-    : view === "semi_market"
-      ? "SEMI Korea 블로그 · 반도체업계 뉴스의 최신 게시일 글 전체"
-      : "오늘 기사 우선 · 부족하면 최대 3일 이내 기사로 구성";
+    : "오늘 기사 우선 · 부족하면 최대 3일 이내 기사로 구성";
   if (manualMode) renderManual();
+  if (manualArchiveMode) renderManualArchive();
   render();
 }));
 
@@ -174,6 +278,7 @@ manualForm.addEventListener("submit", async event => {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
+        action: "add",
         urls,
         sector: document.querySelector("#manualSector").value,
         password: document.querySelector("#manualPassword").value,
@@ -197,6 +302,7 @@ manualForm.addEventListener("submit", async event => {
         reflected = true;
         manualItems = current;
         renderManual();
+        renderManualArchive();
         linkOnlyCount = current.filter(item =>
           (expected.has((item.link || "").replace(/\/$/, ""))
             || expected.has((item.requested_link || "").replace(/\/$/, "")))
@@ -221,10 +327,17 @@ manualForm.addEventListener("submit", async event => {
 [searchInput, regionFilter, categoryFilter, archiveSector, archiveDate].forEach(control =>
   control.addEventListener("input", render)
 );
+[manualCurrentSearch, manualCurrentSector].forEach(control =>
+  control.addEventListener("input", renderManual)
+);
+[manualArchiveSearch, manualArchiveSector, manualArchiveDate].forEach(control =>
+  control.addEventListener("input", renderManualArchive)
+);
 
 fetch("data/news.json", { cache: "no-store" })
   .then(response => response.json())
   .then(data => {
+    dataToday = koreaToday();
     if (Array.isArray(data.current_items)) {
       currentItems = data.current_items;
       semiItems = data.semi_items || [];
@@ -250,15 +363,16 @@ fetch("data/news.json", { cache: "no-store" })
 
     updated.textContent = `최근 업데이트 ${data.updated_at || "-"}`;
     document.querySelector("#semiCount").textContent =
-      currentItems.filter(x => x.sector === "semiconductor").length
-      + manualItems.filter(x => x.sector === "semiconductor").length;
+      currentItems.filter(x => x.sector === "semiconductor").length;
     document.querySelector("#batteryCount").textContent =
-      currentItems.filter(x => x.sector === "battery").length
-      + manualItems.filter(x => x.sector === "battery").length;
-    document.querySelector("#marketCount").textContent = semiItems.length;
+      currentItems.filter(x => x.sector === "battery").length;
     document.querySelector("#archiveCount").textContent = archiveItems.length;
-    document.querySelector("#manualCount").textContent = manualItems.length;
+    document.querySelector("#manualCount").textContent =
+      manualItems.filter(x => (x.collected || "") === dataToday).length;
+    document.querySelector("#manualArchiveCount").textContent =
+      manualItems.filter(x => (x.collected || "") !== dataToday).length;
     renderManual();
+    renderManualArchive();
     render();
   })
   .catch(() => {
