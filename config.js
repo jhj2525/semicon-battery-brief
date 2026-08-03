@@ -1,3 +1,3 @@
 window.PROCESS_BRIEF_CONFIG = {
-  workerUrl: "https://YOUR-WORKER.YOUR-SUBDOMAIN.workers.dev"
+  workerUrl: "https://process-brief-manual-add.cjsjhj2525.workers.dev"
 };
