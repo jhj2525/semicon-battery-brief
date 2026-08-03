@@ -16,6 +16,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -31,14 +32,23 @@ jobs:
           from pathlib import Path
           today = datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d")
           try:
-              updated = json.loads(Path("data/news.json").read_text(encoding="utf-8")).get("updated_at", "")
+              data = json.loads(Path("data/news.json").read_text(encoding="utf-8"))
+              updated = data.get("updated_at", "")
+              current = data.get("current_items", [])
           except Exception:
               updated = ""
+              current = []
+          semi_count = sum(x.get("sector") == "semiconductor" for x in current)
+          battery_count = sum(x.get("sector") == "battery" for x in current)
           scheduled = os.getenv("GITHUB_EVENT_NAME") == "schedule"
-          skip = scheduled and updated.startswith(today)
+          complete = semi_count >= 6 and battery_count >= 8
+          skip = scheduled and updated.startswith(today) and complete
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
               output.write(f"skip={'true' if skip else 'false'}\n")
-          print(f"today={today}, updated_at={updated}, skip={skip}")
+          print(
+              f"today={today}, updated_at={updated}, "
+              f"current={semi_count}/6 + {battery_count}/8, skip={skip}"
+          )
           PY
       - name: Collect and summarize news
         if: steps.guard.outputs.skip != 'true'
