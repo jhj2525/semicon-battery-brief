@@ -185,6 +185,12 @@ footer { padding: 25px; border-top: 1px solid var(--line); text-align: center; c
   display: inline-block; margin-top: 10px; padding: 13px 18px; border-radius: 8px;
   background: var(--ink); color: white; text-decoration: none; font-size: 13px; font-weight: 800;
 }
+.semi-manual-library { margin-top: 30px; padding-top: 24px; border-top: 1px solid var(--line); }
+.semi-manual-library h3 { margin: 0 0 14px; }
+#semiManualRows .news-row {
+  min-width: 0; margin-bottom: 8px; overflow: hidden; border: 1px solid var(--line); border-radius: 8px;
+}
+#semiManualRows .row-summary { grid-template-columns: 100px 65px 90px minmax(240px, 1fr) 180px 150px; }
 @media (max-width: 900px) {
   main { width: min(100% - 24px, 1320px); }
   .controls { flex-wrap: wrap; }

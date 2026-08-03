@@ -28,13 +28,13 @@
         <span class="dot battery"></span>배터리 <b id="batteryCount">0</b>
       </button>
       <button class="sector-tab" data-view="semi_market">
-        <span class="dot market"></span>SEMI <b id="marketCount">↗</b>
+        <span class="dot market"></span>SEMI <b id="marketCount">0</b>
       </button>
       <button class="sector-tab" data-view="auto_archive">
         <span class="dot archive"></span>자동 아카이브 <b id="archiveCount">0</b>
       </button>
       <button class="sector-tab" data-view="manual_add">
-        <span class="dot manual"></span>직접 선택 <b id="manualCount">0</b>
+        <span class="dot manual"></span>직접 선택
       </button>
       <button class="sector-tab" data-view="manual_archive">
         <span class="dot manual-archive"></span>수동 아카이브 <b id="manualArchiveCount">0</b>
@@ -78,6 +78,11 @@
       <h2>SEMI 반도체업계 뉴스</h2>
       <p>네이버 블로그의 시장동향 뉴스와 회원사 동향을 확인한 뒤, 요약할 기사는 직접 선택에서 SEMI 분야로 추가하세요.</p>
       <a href="https://blog.naver.com/semi_blog" target="_blank" rel="noopener noreferrer">SEMI Korea 블로그 바로가기 ↗</a>
+      <div class="semi-manual-library">
+        <h3>오늘 직접 선택한 SEMI 기사</h3>
+        <div id="semiManualRows"></div>
+        <div id="semiManualEmpty" class="empty">오늘 직접 추가한 SEMI 기사가 없습니다.</div>
+      </div>
     </section>
 
     <section class="database">
@@ -101,15 +106,6 @@
         <button type="submit">요약 후 추가</button>
         <p id="manualStatus" role="status"></p>
       </form>
-      <div class="manual-library">
-        <h3>오늘 직접 선택한 기사</h3>
-        <div class="manual-controls">
-          <input id="manualCurrentSearch" type="search" placeholder="제목·기업·기술·키워드 검색">
-          <select id="manualCurrentSector"><option value="all">반도체 + 배터리 + SEMI</option><option value="semiconductor">반도체</option><option value="battery">배터리</option><option value="semi_market">SEMI</option></select>
-        </div>
-        <div id="manualNewsRows"></div>
-        <div id="manualEmpty" class="empty">오늘 직접 추가한 기사가 없습니다.</div>
-      </div>
     </section>
 
     <section id="manualArchivePanel" class="manual-panel" hidden>

@@ -15,14 +15,12 @@ const controls = document.querySelector(".controls");
 const manualPanel = document.querySelector("#manualPanel");
 const manualForm = document.querySelector("#manualForm");
 const manualStatus = document.querySelector("#manualStatus");
-const manualNewsRows = document.querySelector("#manualNewsRows");
-const manualEmpty = document.querySelector("#manualEmpty");
 const semiPanel = document.querySelector("#semiPanel");
+const semiManualRows = document.querySelector("#semiManualRows");
+const semiManualEmpty = document.querySelector("#semiManualEmpty");
 const manualArchivePanel = document.querySelector("#manualArchivePanel");
 const manualArchiveRows = document.querySelector("#manualArchiveRows");
 const manualArchiveEmpty = document.querySelector("#manualArchiveEmpty");
-const manualCurrentSearch = document.querySelector("#manualCurrentSearch");
-const manualCurrentSector = document.querySelector("#manualCurrentSector");
 const manualArchiveSearch = document.querySelector("#manualArchiveSearch");
 const manualArchiveSector = document.querySelector("#manualArchiveSector");
 const manualArchiveDate = document.querySelector("#manualArchiveDate");
@@ -180,7 +178,10 @@ function activeItems() {
       (!archiveDate.value || (item.published || "").slice(0, 10) === archiveDate.value)
     );
   }
-  return currentItems.filter(item => item.sector === view);
+  return [
+    ...manualItems.filter(item => item.sector === view && (item.collected || "") === dataToday),
+    ...currentItems.filter(item => item.sector === view),
+  ];
 }
 
 function render() {
@@ -203,19 +204,15 @@ function render() {
     : "최근 3일 안에 조건을 통과한 기사가 없습니다.";
 }
 
-function renderManual() {
-  manualNewsRows.innerHTML = "";
-  const query = manualCurrentSearch.value.trim().toLowerCase();
-  const sector = manualCurrentSector.value;
+function renderSemiManual() {
+  semiManualRows.innerHTML = "";
   const ordered = manualItems.filter(item =>
-    (item.collected || "") === dataToday &&
-    (sector === "all" || item.sector === sector) &&
-    (!query || searchable(item).includes(query))
+    item.sector === "semi_market" && (item.collected || "") === dataToday
   ).sort((a, b) =>
     `${b.collected || ""}${b.published || ""}`.localeCompare(`${a.collected || ""}${a.published || ""}`)
   );
-  ordered.forEach(item => manualNewsRows.appendChild(buildRow(item, { editable: true })));
-  manualEmpty.hidden = ordered.length !== 0;
+  ordered.forEach(item => semiManualRows.appendChild(buildRow(item, { editable: true })));
+  semiManualEmpty.hidden = ordered.length !== 0;
 }
 
 function renderManualArchive() {
@@ -252,7 +249,7 @@ tabs.forEach(tab => tab.addEventListener("click", () => {
   viewNote.textContent = view === "auto_archive"
     ? "과거 검증 기사 · 날짜와 분야로 검색"
     : "오늘 기사 우선 · 부족하면 최대 3일 이내 기사로 구성";
-  if (manualMode) renderManual();
+  if (semiMode) renderSemiManual();
   if (manualArchiveMode) renderManualArchive();
   render();
 }));
@@ -301,7 +298,7 @@ manualForm.addEventListener("submit", async event => {
       if ([...expected].every(url => links.has(url))) {
         reflected = true;
         manualItems = current;
-        renderManual();
+        renderSemiManual();
         renderManualArchive();
         linkOnlyCount = current.filter(item =>
           (expected.has((item.link || "").replace(/\/$/, ""))
@@ -326,9 +323,6 @@ manualForm.addEventListener("submit", async event => {
 
 [searchInput, regionFilter, categoryFilter, archiveSector, archiveDate].forEach(control =>
   control.addEventListener("input", render)
-);
-[manualCurrentSearch, manualCurrentSector].forEach(control =>
-  control.addEventListener("input", renderManual)
 );
 [manualArchiveSearch, manualArchiveSector, manualArchiveDate].forEach(control =>
   control.addEventListener("input", renderManualArchive)
@@ -363,15 +357,17 @@ fetch("data/news.json", { cache: "no-store" })
 
     updated.textContent = `최근 업데이트 ${data.updated_at || "-"}`;
     document.querySelector("#semiCount").textContent =
-      currentItems.filter(x => x.sector === "semiconductor").length;
+      currentItems.filter(x => x.sector === "semiconductor").length
+      + manualItems.filter(x => x.sector === "semiconductor" && (x.collected || "") === dataToday).length;
     document.querySelector("#batteryCount").textContent =
-      currentItems.filter(x => x.sector === "battery").length;
+      currentItems.filter(x => x.sector === "battery").length
+      + manualItems.filter(x => x.sector === "battery" && (x.collected || "") === dataToday).length;
+    document.querySelector("#marketCount").textContent =
+      manualItems.filter(x => x.sector === "semi_market" && (x.collected || "") === dataToday).length;
     document.querySelector("#archiveCount").textContent = archiveItems.length;
-    document.querySelector("#manualCount").textContent =
-      manualItems.filter(x => (x.collected || "") === dataToday).length;
     document.querySelector("#manualArchiveCount").textContent =
       manualItems.filter(x => (x.collected || "") !== dataToday).length;
-    renderManual();
+    renderSemiManual();
     renderManualArchive();
     render();
   })
