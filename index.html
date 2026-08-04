@@ -73,6 +73,7 @@
           <option value="semi_market">SEMI 동향</option>
         </select>
         <input id="archiveDate" type="date" aria-label="아카이브 발행일">
+        <button id="deleteSelectedAuto" class="batch-delete" type="button">선택 삭제</button>
       </div>
     </section>
 
@@ -121,6 +122,7 @@
         <input id="manualArchiveSearch" type="search" placeholder="제목·기업·기술·키워드 검색">
         <select id="manualArchiveSector"><option value="all">반도체 + 배터리 + SEMI</option><option value="semiconductor">반도체</option><option value="battery">배터리</option><option value="semi_market">SEMI</option></select>
         <input id="manualArchiveDate" type="date" aria-label="수동 아카이브 수집일">
+        <button id="deleteSelectedManual" class="batch-delete" type="button">선택 삭제</button>
       </div>
       <div id="manualArchiveRows"></div>
       <div id="manualArchiveEmpty" class="empty">수동 아카이브가 비어 있습니다.</div>
@@ -149,6 +151,7 @@
 
   <template id="rowTemplate">
     <article class="news-row">
+      <label class="batch-select" hidden><input type="checkbox"> 선택</label>
       <button class="row-summary" type="button" aria-expanded="false">
         <span class="published"></span>
         <span class="region badge"></span>

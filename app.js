@@ -30,6 +30,8 @@ const favoriteEmpty = document.querySelector("#favoriteEmpty");
 const favoriteSearch = document.querySelector("#favoriteSearch");
 const favoriteSector = document.querySelector("#favoriteSector");
 const favoriteDate = document.querySelector("#favoriteDate");
+const deleteSelectedAuto = document.querySelector("#deleteSelectedAuto");
+const deleteSelectedManual = document.querySelector("#deleteSelectedManual");
 
 let currentItems = [];
 let archiveItems = [];
@@ -37,6 +39,7 @@ let semiItems = [];
 let manualItems = [];
 let favoriteItems = [];
 let favoriteIds = new Set();
+const selectedDeleteIds = new Set();
 let view = "semiconductor";
 let dataToday = "";
 
@@ -67,8 +70,15 @@ function fillList(element, values) {
   });
 }
 
-async function requestDelete(item, button) {
-  if (!confirm(`이 기사를 삭제할까요?\n\n${item.title}`)) return;
+async function requestDeleteItems(items, button) {
+  if (!items.length) {
+    alert("삭제할 기사를 먼저 선택해 주세요.");
+    return;
+  }
+  const message = items.length === 1
+    ? `이 기사를 삭제할까요?\n\n${items[0].title}`
+    : `선택한 기사 ${items.length}개를 삭제할까요?`;
+  if (!confirm(message)) return;
   const password = prompt("관리 비밀번호를 입력해 주세요.");
   if (!password) return;
   const endpoint = (window.PROCESS_BRIEF_CONFIG || {}).workerUrl || "";
@@ -82,17 +92,21 @@ async function requestDelete(item, button) {
     const response = await fetch(endpoint, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ action: "delete", itemId: item.id, password }),
+      body: JSON.stringify({ action: "delete", itemIds: items.map(item => item.id), password }),
     });
     const result = await response.json().catch(() => ({}));
     if (!response.ok) throw new Error(result.error || "삭제 요청에 실패했습니다.");
     button.textContent = "삭제 요청 완료";
-    alert("삭제 요청을 접수했습니다. GitHub 실행이 끝난 뒤 새로고침하면 사라집니다.");
+    alert(`${items.length}개 삭제 요청을 접수했습니다. GitHub 실행이 끝난 뒤 새로고침하면 사라집니다.`);
   } catch (error) {
     button.disabled = false;
     button.textContent = "이 기사 삭제";
     alert(error.message || "삭제 요청에 실패했습니다.");
   }
+}
+
+function requestDelete(item, button) {
+  return requestDeleteItems([item], button);
 }
 
 async function requestTitleEdit(item, button) {
@@ -182,6 +196,15 @@ function buildRow(item, { deletable = false, editable = false } = {}) {
   fragment.querySelector(".original-link").href = item.link;
   const deleteButton = fragment.querySelector(".delete-item");
   if (deletable && item.id) {
+    article.classList.add("deletable");
+    const selector = fragment.querySelector(".batch-select");
+    const checkbox = selector.querySelector("input");
+    selector.hidden = false;
+    checkbox.checked = selectedDeleteIds.has(item.id);
+    checkbox.addEventListener("change", () => {
+      if (checkbox.checked) selectedDeleteIds.add(item.id);
+      else selectedDeleteIds.delete(item.id);
+    });
     deleteButton.hidden = false;
     deleteButton.addEventListener("click", () => requestDelete(item, deleteButton));
   }
@@ -284,6 +307,10 @@ function renderFavorites() {
   favoriteEmpty.hidden = ordered.length !== 0;
 }
 
+function selectedItemsFor(source) {
+  return source.filter(item => selectedDeleteIds.has(item.id));
+}
+
 tabs.forEach(tab => tab.addEventListener("click", () => {
   tabs.forEach(item => item.classList.remove("active"));
   tab.classList.add("active");
@@ -384,6 +411,12 @@ manualForm.addEventListener("submit", async event => {
 );
 [favoriteSearch, favoriteSector, favoriteDate].forEach(control =>
   control.addEventListener("input", renderFavorites)
+);
+deleteSelectedAuto.addEventListener("click", () =>
+  requestDeleteItems(selectedItemsFor(archiveItems), deleteSelectedAuto)
+);
+deleteSelectedManual.addEventListener("click", () =>
+  requestDeleteItems(selectedItemsFor(manualItems), deleteSelectedManual)
 );
 
 fetch("data/news.json", { cache: "no-store" })

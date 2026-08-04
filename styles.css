@@ -80,6 +80,13 @@ select, input[type="date"] {
   border-bottom: 1px solid var(--line); color: var(--muted); font-size: 11px; font-weight: 700;
 }
 .news-row { min-width: 940px; border-bottom: 1px solid var(--line); }
+.news-row.deletable { position: relative; }
+.news-row.deletable .row-summary { padding-right: 105px; }
+.batch-select {
+  position: absolute; top: 17px; right: 18px; z-index: 2; display: flex; align-items: center;
+  gap: 5px; color: #59636f; font-size: 11px; font-weight: 700; cursor: pointer;
+}
+.batch-select input { width: 16px; height: 16px; accent-color: #9a3d2c; }
 .news-row:last-child { border-bottom: 0; }
 .row-summary {
   width: 100%; padding: 13px 14px; border: 0; background: white;
@@ -168,11 +175,20 @@ footer { padding: 25px; border-top: 1px solid var(--line); text-align: center; c
   margin: 14px 0;
 }
 .archive-manual-controls { grid-column: 1 / -1; grid-template-columns: minmax(240px, 1fr) 220px 180px; }
+.archive-manual-controls { grid-template-columns: minmax(240px, 1fr) 220px 180px 110px; }
+.archive-controls .batch-delete, .manual-panel .batch-delete {
+  min-height: 42px; padding: 0 14px; border: 1px solid #e2b7ad; border-radius: 8px;
+  background: #fff7f5; color: #9a3d2c; font-weight: 800; cursor: pointer;
+}
 #manualArchiveRows, #favoriteRows { grid-column: 1 / -1; }
 #manualArchiveRows .news-row, #favoriteRows .news-row {
   min-width: 0; margin-bottom: 8px; overflow: hidden; border: 1px solid var(--line); border-radius: 8px;
 }
 #manualArchiveRows .row-summary, #favoriteRows .row-summary { grid-template-columns: 100px 65px 90px minmax(240px, 1fr) 180px 150px; }
+#manualArchiveRows .row-summary { background: #fff; color: var(--ink); }
+#manualArchiveRows .row-summary:hover, #manualArchiveRows .news-row.open .row-summary { background: #fafbf9; }
+#manualArchiveRows .headline { color: var(--ink); }
+#manualArchiveRows .published, #manualArchiveRows .keywords, #manualArchiveRows .source-cell { color: var(--muted); }
 #manualArchiveEmpty, #favoriteEmpty { grid-column: 1 / -1; }
 .semi-panel {
   padding: 42px; border: 1px solid var(--line); border-radius: 10px; background: white;
