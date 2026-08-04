@@ -56,7 +56,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Skip backup if today already ran
+      - name: Decide whether scheduled backup is needed
         id: guard
         shell: bash
         run: |
@@ -64,24 +64,40 @@ jobs:
           import json, os
           from datetime import datetime, timezone, timedelta
           from pathlib import Path
-          today = datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d")
+          now = datetime.now(timezone(timedelta(hours=9)))
           try:
               data = json.loads(Path("data/news.json").read_text(encoding="utf-8"))
-              updated = data.get("updated_at", "")
+              started = (
+                  data.get("automatic_cycle_started_at")
+                  or data.get("last_automatic_update_at")
+                  or data.get("updated_at", "")
+              )
               current = data.get("current_items", [])
+              locked = data.get("automatic_locked_vacancies", {})
           except Exception:
-              updated = ""
+              started = ""
               current = []
+              locked = {}
           semi_count = sum(x.get("sector") == "semiconductor" for x in current)
           battery_count = sum(x.get("sector") == "battery" for x in current)
           scheduled = os.getenv("GITHUB_EVENT_NAME") == "schedule"
-          complete = semi_count >= 5 and battery_count >= 5
-          skip = scheduled and updated.startswith(today) and complete
+          try:
+              cycle_start = datetime.strptime(started[:16], "%Y-%m-%d %H:%M").replace(
+                  tzinfo=timezone(timedelta(hours=9))
+              )
+          except (TypeError, ValueError):
+              cycle_start = None
+          cycle_open = cycle_start is not None and now - cycle_start < timedelta(hours=24)
+          semi_target = max(0, 5 - int(locked.get("semiconductor", 0)))
+          battery_target = max(0, 5 - int(locked.get("battery", 0)))
+          complete = semi_count >= semi_target and battery_count >= battery_target
+          skip = scheduled and cycle_open and complete
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
               output.write(f"skip={'true' if skip else 'false'}\n")
           print(
-              f"today={today}, updated_at={updated}, "
-              f"current={semi_count}/5 + {battery_count}/5, skip={skip}"
+              f"cycle_started_at={started}, cycle_open={cycle_open}, "
+              f"current={semi_count}/{semi_target} + {battery_count}/{battery_target}, "
+              f"skip={skip}"
           )
           PY
       - name: Collect and summarize news
