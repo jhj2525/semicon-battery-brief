@@ -1,11 +1,67 @@
 {
-  "updated_at": "2026-08-04 10:16 KST",
+  "updated_at": "2026-08-04 10:59 KST",
+  "last_automatic_update_at": "2026-08-04 10:59 KST",
   "publication_window": {
-    "from": "2026-08-02",
-    "to": "2026-08-04"
+    "from": "2026-08-03T10:59:55.863041+09:00",
+    "to": "2026-08-04T10:59:55.863041+09:00"
   },
-  "today_verified_count": 6,
+  "today_verified_count": 3,
   "current_items": [
+    {
+      "id": "b1a9749d065c",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "‘상장 대박’ CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진",
+      "source": "서울경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-03 20:42",
+      "collected": "2026-08-04",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51dWZTcTRUbHJpQmV5b2RBT2pQc3F6cjFMdUtvam91RjBUWjNRd215WjNMYjZqV3htOXpyZDJ0TW9rLS0zdEhzM2xldWFobldFTmfSAVNBVV95cUxQeVJ2bjVWVktLcWlCOGp2VDBzdkVreldSWUQ3MWJLempHelpYSW9KeHczLWxhb0JzRVFyaUc5Yk9fNGszejJlN3Z6YnJWS01ZeGxRRQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "dcc1918da850",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "LB세미콘, 퀄컴 양산 승인 획득...이달 양산 돌입",
+      "source": "디일렉",
+      "published": "2026-08-04 03:54",
+      "collected": "2026-08-04",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=60492",
+      "rss_description": "반도체 후공정 외주(OSAT) 업체 LB세미콘이 이달부터 퀄컴의 전력 관리 반도체(PMIC) 제품을 양산한다고 3일 밝혔다.LB세미콘은 퀄컴의 인공지능(AI) 데이터센터와 차량용 반도체용 PMIC의 범핑과 테스트, 백엔드까지 포함한 후공정을 맡았다. 반도체 회로 형성이 끝난 소자(디바이스) 웨이퍼의 후공정을 한 번에 처리하는 일괄 서비스(턴키) 방식이다.범핑은 반도체 칩 표면에 금속 돌기(범프)를 형성하는 것이다. 돌기는 칩-기판을 전기적으로 연결한다. 테스트는 칩의 전기적 특성 검사를 뜻한다. 백엔드는 웨이퍼를 개별 칩 단위로 절",
+      "score": 9,
+      "source_type": "산업 전문언론",
+      "source_rank": 2,
+      "verified_source": true,
+      "overview": "반도체 후공정 외주(OSAT) 업체인 LB세미콘이 퀄컴의 전력 관리 반도체(PMIC)에 대한 양산 승인을 획득했다. LB세미콘은 퀄컴의 AI 데이터센터 및 차량용 반도체 PMIC에 대해 범핑, 테스트, 백엔드를 포함한 일괄 서비스(턴키) 후공정을 담당한다. 이달부터 본격적인 양산에 돌입하며, 회사는 이를 계기로 기존 디스플레이 구동칩(DDI) 중심 사업에서 비(非) DDI 사업으로 전환을 기대하고 있다.",
+      "key_points": [
+        "LB세미콘이 퀄컴의 전력 관리 반도체(PMIC) 양산 승인을 획득하여 이달부터 양산을 시작한다.",
+        "LB세미콘은 퀄컴의 AI 데이터센터 및 차량용 반도체 PMIC에 대한 턴키 후공정 서비스를 제공한다.",
+        "양산 물량 확대에 대비하여 유상증자를 통해 범프 및 백엔드 신규 설비 투자를 진행한다."
+      ],
+      "numbers": [
+        "2026.08.03",
+        "7월"
+      ],
+      "keywords": [
+        "LB세미콘",
+        "퀄컴",
+        "PMIC",
+        "OSAT",
+        "후공정",
+        "턴키"
+      ],
+      "stated_outlook": "하반기 긍정적인 실적 흐름을 기대하며, 내년 하반기부터 본격화될 물량 확대에 대비해 선제적으로 생산능력을 확충하고 고부가가치 후공정 시장 고객사를 확대할 계획이다."
+    },
     {
       "id": "7e6fb2f50c5b",
       "sector": "semiconductor",
@@ -24,7 +80,8 @@
       "key_points": [],
       "numbers": [],
       "keywords": [],
-      "stated_outlook": ""
+      "stated_outlook": "",
+      "source_rank": 3
     },
     {
       "id": "5a528fd63a17",
@@ -102,16 +159,16 @@
       "stated_outlook": "HBM 시장 성장과 함께 확대되는 사업으로, 이번 사업을 시작으로 반도체 소재 사업을 지속적으로 확대할 계획이다."
     },
     {
-      "id": "27580e0ffff9",
-      "sector": "semiconductor",
+      "id": "2f36090d2a54",
+      "sector": "battery",
       "region": "domestic",
       "category": "투자·양산",
-      "title": "TSMC 일본 구마모토 1공장 정상화…반도체 업계 생산 재개",
-      "source": "한국경제",
-      "source_type": "경제지 보도",
-      "published": "2026-08-04 08:53",
+      "title": "엘앤에프플러스, 국내 첫 LFP 양극재 양산라인 시생산품 첫 출하",
+      "source": "전자신문",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-03 11:34",
       "collected": "2026-08-04",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1pYkt4UC1scDE3OGpSS0M3Z2lTTWVsZDdTOGFNZmVPa3NrQlpKTjc4NDFIbXZWT0xnMy11Z2VoSk1JeV9iMnJrUkJOakhYc1Q0cUVTcENqeS1BUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5HM1k0UmRqSElPb2t0WUNxUUxiWl9GZDNXeUZWN1dlbm5Jc1RTMXNkUm84MktERW93YWswV1BOMjMwY2pOWEsxblBmQXhxUQ?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
@@ -120,88 +177,6 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": ""
-    },
-    {
-      "id": "66b374e2f833",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "산업",
-      "title": "7월 D램·낸드 가격 역대 최고…\"3분기 PC용 D램값 최대 20%↑\"",
-      "source": "연합뉴스",
-      "source_type": "통신사 보도",
-      "published": "2026-08-03 14:21",
-      "collected": "2026-08-04",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IajZrcTVHcENUWlN3M1o4bDJPNXJPdmZMQmtHaHlaTFVFTmY5RW9yMWRiN3U2a1k2ZDFkNGlQSjJ0YzkxQl9QX2Vkbmhzdks1MXRQZHJwcEtZdkXSAWBBVV95cUxNV0wyS21UMnZGbGlZRy1VRWdtaVNFWm9Uc21XNFRwSkY1ajZSVzdOVmltUGJEUTBYNFpQZHNKamsxMy1IQ3hSQ0hxbDVWMi10a1B2N0txVVQ0ck9teTJGOVA?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
-      "id": "a87be6eed3eb",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "글로벌 ESS 상반기 461GWh, 71% 성장… EV 캐즘 건너온 K배터리에 열린 창",
-      "source": "SNE리서치",
-      "source_type": "시장조사기관",
-      "official_source": true,
-      "published": "2026-08-03 00:00",
-      "collected": "2026-08-03",
-      "link": "https://www.sneresearch.com/kr/insight/release_view/702/page/0",
-      "rss_description": "lass=\"reset-btn\"> Reset Battery, EV, Energy Storage System NEW 글로벌 ESS 상반기 461GWh, 71% 성장… EV 캐즘 건너온 K배터리에 열린 창 2026.08.03 Battery, Battery Materials 2026년 1~5월 글로벌 전기차용 배터리 전해액 적재량 591K ton, 전년 동기 대비 19.3% 성장 2026.07.14",
-      "score": 18,
-      "source_rank": 4,
-      "verified_source": true,
-      "overview": "2026년 상반기 글로벌 리튬이온 배터리 ESS 출하량이 전년 동기 대비 71% 증가한 461.3GWh를 기록했다. 중국이 최대 시장 지위를 유지했으나 기타 지역의 비중이 확대되며 시장 성장을 견인하고 있다. 전기차 캐즘 여파로 국내 업체들은 생산 라인을 ESS용으로 전환하며 LFP 양산에 집중하고 있다. 북미와 유럽의 관세 및 공급망 규제가 강화됨에 따라 현지 생산 역량이 주요 경쟁력으로 부상했다.",
-      "key_points": [
-        "2026년 상반기 글로벌 LiB ESS 출하량은 461.3GWh로 전년 동기 대비 71% 성장했다.",
-        "용도별로는 전력망용(Grid)이 347.0GWh로 전체의 75%를 차지하며 시장을 주도했다.",
-        "LG에너지솔루션은 전년 동기 대비 357% 성장하며 점유율이 2.6%로 확대되었고, 삼성SDI는 6.4GWh를 출하했으나 점유율은 1.4%로 낮아졌다.",
-        "중국 시장의 점유율은 50.5%에서 43.9%로 감소한 반면, 북미와 유럽을 포함한 기타 지역의 성장이 두드러졌다."
-      ],
-      "numbers": [
-        "2026년 상반기",
-        "461.3GWh",
-        "71%",
-        "269.7GWh",
-        "12.0GWh",
-        "357%"
-      ],
-      "keywords": [
-        "ESS",
-        "리튬이온배터리",
-        "SNE Research",
-        "LG에너지솔루션",
-        "삼성SDI",
-        "LFP"
-      ],
-      "stated_outlook": "북미와 유럽의 관세 및 공급망 규제 강화로 인해 가격 경쟁력뿐만 아니라 안정적인 공급망과 현지 생산 역량이 공급업체 선정의 주요 기준으로 부상함."
-    },
-    {
-      "id": "395397cb41a2",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "투자·양산",
-      "title": "엘앤에프플러스, 국내 최초 LFP양극재 양산라인 시제품 출하",
-      "source": "연합뉴스",
-      "source_type": "통신사 보도",
-      "published": "2026-08-03 09:26",
-      "collected": "2026-08-03",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zYkhDMUJXNldONG16UW1rRlRtdnFxcHc2Q05mTzh5bkJsRnFyMVRDNFRZUXBKVFA5OGREeWR6c3J0NmU5UkdZdHctbVBCMzdMOHVUTkNHYV91cllqdkZFNtIBYEFVX3lxTE5zYkhDMUJXNldONG16UW1rRlRtdnFxcHc2Q05mTzh5bkJsRnFyMVRDNFRZUXBKVFA5OGREeWR6c3J0NmU5UkdZdHctbVBCMzdMOHVUTkNHYV91cllqdkZFNg?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": "",
-      "source_rank": 3
     },
     {
       "id": "d755d9b85989",
@@ -263,10 +238,32 @@
       "key_points": [],
       "numbers": [],
       "keywords": [],
-      "stated_outlook": ""
+      "stated_outlook": "",
+      "source_rank": 2
     }
   ],
   "archive_items": [
+    {
+      "id": "27580e0ffff9",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "TSMC 일본 구마모토 1공장 정상화…반도체 업계 생산 재개",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-04 08:53",
+      "collected": "2026-08-04",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1pYkt4UC1scDE3OGpSS0M3Z2lTTWVsZDdTOGFNZmVPa3NrQlpKTjc4NDFIbXZWT0xnMy11Z2VoSk1JeV9iMnJrUkJOakhYc1Q0cUVTcENqeS1BUQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 2
+    },
     {
       "id": "60582a8de26b",
       "sector": "semiconductor",
@@ -449,6 +446,27 @@
       "source_rank": 2
     },
     {
+      "id": "66b374e2f833",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "7월 D램·낸드 가격 역대 최고…\"3분기 PC용 D램값 최대 20%↑\"",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-03 14:21",
+      "collected": "2026-08-04",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IajZrcTVHcENUWlN3M1o4bDJPNXJPdmZMQmtHaHlaTFVFTmY5RW9yMWRiN3U2a1k2ZDFkNGlQSjJ0YzkxQl9QX2Vkbmhzdks1MXRQZHJwcEtZdkXSAWBBVV95cUxNV0wyS21UMnZGbGlZRy1VRWdtaVNFWm9Uc21XNFRwSkY1ajZSVzdOVmltUGJEUTBYNFpQZHNKamsxMy1IQ3hSQ0hxbDVWMi10a1B2N0txVVQ0ck9teTJGOVA?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 3
+    },
+    {
       "id": "7a15dff14516",
       "sector": "semiconductor",
       "region": "domestic",
@@ -542,6 +560,27 @@
       "source_rank": 3
     },
     {
+      "id": "395397cb41a2",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "엘앤에프플러스, 국내 최초 LFP양극재 양산라인 시제품 출하",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-03 09:26",
+      "collected": "2026-08-03",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zYkhDMUJXNldONG16UW1rRlRtdnFxcHc2Q05mTzh5bkJsRnFyMVRDNFRZUXBKVFA5OGREeWR6c3J0NmU5UkdZdHctbVBCMzdMOHVUTkNHYV91cllqdkZFNtIBYEFVX3lxTE5zYkhDMUJXNldONG16UW1rRlRtdnFxcHc2Q05mTzh5bkJsRnFyMVRDNFRZUXBKVFA5OGREeWR6c3J0NmU5UkdZdHctbVBCMzdMOHVUTkNHYV91cllqdkZFNg?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 3
+    },
+    {
       "id": "47bcb09d8104",
       "sector": "semiconductor",
       "region": "domestic",
@@ -582,6 +621,47 @@
       "keywords": [],
       "stated_outlook": "",
       "source_rank": 2
+    },
+    {
+      "id": "a87be6eed3eb",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "글로벌 ESS 상반기 461GWh, 71% 성장… EV 캐즘 건너온 K배터리에 열린 창",
+      "source": "SNE리서치",
+      "source_type": "시장조사기관",
+      "official_source": true,
+      "published": "2026-08-03 00:00",
+      "collected": "2026-08-03",
+      "link": "https://www.sneresearch.com/kr/insight/release_view/702/page/0",
+      "rss_description": "lass=\"reset-btn\"> Reset Battery, EV, Energy Storage System NEW 글로벌 ESS 상반기 461GWh, 71% 성장… EV 캐즘 건너온 K배터리에 열린 창 2026.08.03 Battery, Battery Materials 2026년 1~5월 글로벌 전기차용 배터리 전해액 적재량 591K ton, 전년 동기 대비 19.3% 성장 2026.07.14",
+      "score": 18,
+      "source_rank": 4,
+      "verified_source": true,
+      "overview": "2026년 상반기 글로벌 리튬이온 배터리 ESS 출하량이 전년 동기 대비 71% 증가한 461.3GWh를 기록했다. 중국이 최대 시장 지위를 유지했으나 기타 지역의 비중이 확대되며 시장 성장을 견인하고 있다. 전기차 캐즘 여파로 국내 업체들은 생산 라인을 ESS용으로 전환하며 LFP 양산에 집중하고 있다. 북미와 유럽의 관세 및 공급망 규제가 강화됨에 따라 현지 생산 역량이 주요 경쟁력으로 부상했다.",
+      "key_points": [
+        "2026년 상반기 글로벌 LiB ESS 출하량은 461.3GWh로 전년 동기 대비 71% 성장했다.",
+        "용도별로는 전력망용(Grid)이 347.0GWh로 전체의 75%를 차지하며 시장을 주도했다.",
+        "LG에너지솔루션은 전년 동기 대비 357% 성장하며 점유율이 2.6%로 확대되었고, 삼성SDI는 6.4GWh를 출하했으나 점유율은 1.4%로 낮아졌다.",
+        "중국 시장의 점유율은 50.5%에서 43.9%로 감소한 반면, 북미와 유럽을 포함한 기타 지역의 성장이 두드러졌다."
+      ],
+      "numbers": [
+        "2026년 상반기",
+        "461.3GWh",
+        "71%",
+        "269.7GWh",
+        "12.0GWh",
+        "357%"
+      ],
+      "keywords": [
+        "ESS",
+        "리튬이온배터리",
+        "SNE Research",
+        "LG에너지솔루션",
+        "삼성SDI",
+        "LFP"
+      ],
+      "stated_outlook": "북미와 유럽의 관세 및 공급망 규제 강화로 인해 가격 경쟁력뿐만 아니라 안정적인 공급망과 현지 생산 역량이 공급업체 선정의 주요 기준으로 부상함."
     },
     {
       "id": "b6d465e0ef8f",
@@ -2069,5 +2149,6 @@
       "stated_outlook": "SK그룹은 이번 인수로 확보한 자원을 AI 사업에 집중적으로 투자할 계획입니다.",
       "summary_status": "summarized"
     }
-  ]
+  ],
+  "favorite_items": []
 }
