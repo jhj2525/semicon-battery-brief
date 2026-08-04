@@ -1156,10 +1156,10 @@ def merge_manual_items(old_items, new_items):
     )[:MANUAL_LIMIT]
 
 
-def without_deleted(items, delete_id):
-    if not delete_id:
+def without_deleted(items, delete_ids):
+    if not delete_ids:
         return list(items)
-    return [item for item in items if str(item.get("id", "")) != delete_id]
+    return [item for item in items if str(item.get("id", "")) not in delete_ids]
 
 
 def with_edited_title(items, edit_id, edit_title):
@@ -1200,7 +1200,11 @@ def main():
         raise RuntimeError("GEMINI_API_KEY is required")
 
     old = v3.read_old()
-    delete_id = os.getenv("DELETE_ARTICLE_ID", "").strip()
+    delete_ids = {
+        value for value in re.split(r"[\s,]+", os.getenv("DELETE_ARTICLE_ID", "").strip())
+        if value
+    }
+    deleted_article_ids = set(old.get("deleted_article_ids", [])) | delete_ids
     edit_id = os.getenv("EDIT_ARTICLE_ID", "").strip()
     edit_title = os.getenv("EDIT_ARTICLE_TITLE", "").strip()
     favorite_id = os.getenv("FAVORITE_ARTICLE_ID", "").strip()
@@ -1208,22 +1212,22 @@ def main():
     legacy = old.get("items", [])
     old_current = old.get("current_items", [])
     old_archive = old.get("archive_items", [])
-    legacy = without_deleted(legacy, delete_id)
-    old_current = without_deleted(old_current, delete_id)
-    old_archive = without_deleted(old_archive, delete_id)
+    legacy = without_deleted(legacy, deleted_article_ids)
+    old_current = without_deleted(old_current, deleted_article_ids)
+    old_archive = without_deleted(old_archive, deleted_article_ids)
     all_existing = [tag_source(item) for item in old_current + old_archive + legacy]
     old_semi_current = old.get("semi_items", [])
     old_semi_archive = old.get("semi_archive_items", [])
     legacy_market = old.get("market_items", [])
-    old_semi_current = without_deleted(old_semi_current, delete_id)
-    old_semi_archive = without_deleted(old_semi_archive, delete_id)
-    legacy_market = without_deleted(legacy_market, delete_id)
+    old_semi_current = without_deleted(old_semi_current, deleted_article_ids)
+    old_semi_archive = without_deleted(old_semi_archive, deleted_article_ids)
+    legacy_market = without_deleted(legacy_market, deleted_article_ids)
     all_existing_semi = old_semi_current + old_semi_archive + legacy_market
     old_manual_items = old.get("manual_items", [])
-    old_manual_items = without_deleted(old_manual_items, delete_id)
+    old_manual_items = without_deleted(old_manual_items, deleted_article_ids)
     old_manual_items = with_edited_title(old_manual_items, edit_id, edit_title)
-    if delete_id:
-        print(f"deleted stored article id: {delete_id}")
+    if delete_ids:
+        print(f"deleted stored article ids: {len(delete_ids)}")
     if edit_id and edit_title:
         print(f"edited manual article title: {edit_id}")
 
@@ -1232,7 +1236,7 @@ def main():
         old.get("last_automatic_update_at") or old.get("updated_at")
     )
     window_start = automatic_window_start(now, previous_update)
-    fetched = collect_all_candidates()
+    fetched = without_deleted(collect_all_candidates(), deleted_article_ids)
     # Keep already verified articles inside the active time window as reusable
     # candidates even if a feed is temporarily unavailable on this run.
     reusable_candidates = []
@@ -1317,6 +1321,7 @@ def main():
         "semi_archive_items": semi_archive,
         "manual_items": manual_items,
         "favorite_items": favorite_items,
+        "deleted_article_ids": sorted(deleted_article_ids)[-10000:],
     }
     base.OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     base.OUTPUT.write_text(
