@@ -31,6 +31,14 @@ on:
         description: "수정할 기사 제목"
         required: false
         type: string
+      favorite_article_id:
+        description: "즐겨찾기 변경 기사 ID · 일반 실행에서는 비우기"
+        required: false
+        type: string
+      favorite_state:
+        description: "즐겨찾기 추가 true / 해제 false"
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -86,6 +94,8 @@ jobs:
           DELETE_ARTICLE_ID: ${{ inputs.delete_article_id }}
           EDIT_ARTICLE_ID: ${{ inputs.edit_article_id }}
           EDIT_ARTICLE_TITLE: ${{ inputs.edit_article_title }}
+          FAVORITE_ARTICLE_ID: ${{ inputs.favorite_article_id }}
+          FAVORITE_STATE: ${{ inputs.favorite_state }}
         run: python scripts/update_news_final.py
       - name: Save updated data
         if: steps.guard.outputs.skip != 'true'
