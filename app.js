@@ -24,11 +24,19 @@ const manualArchiveEmpty = document.querySelector("#manualArchiveEmpty");
 const manualArchiveSearch = document.querySelector("#manualArchiveSearch");
 const manualArchiveSector = document.querySelector("#manualArchiveSector");
 const manualArchiveDate = document.querySelector("#manualArchiveDate");
+const favoritePanel = document.querySelector("#favoritePanel");
+const favoriteRows = document.querySelector("#favoriteRows");
+const favoriteEmpty = document.querySelector("#favoriteEmpty");
+const favoriteSearch = document.querySelector("#favoriteSearch");
+const favoriteSector = document.querySelector("#favoriteSector");
+const favoriteDate = document.querySelector("#favoriteDate");
 
 let currentItems = [];
 let archiveItems = [];
 let semiItems = [];
 let manualItems = [];
+let favoriteItems = [];
+let favoriteIds = new Set();
 let view = "semiconductor";
 let dataToday = "";
 
@@ -112,6 +120,32 @@ async function requestTitleEdit(item, button) {
   }
 }
 
+async function requestFavorite(item, button) {
+  const adding = !favoriteIds.has(item.id);
+  const password = prompt("관리 비밀번호를 입력해 주세요.");
+  if (!password) return;
+  const endpoint = (window.PROCESS_BRIEF_CONFIG || {}).workerUrl || "";
+  if (!endpoint || endpoint.includes("YOUR-WORKER")) {
+    alert("Worker 주소가 설정되지 않았습니다.");
+    return;
+  }
+  button.disabled = true;
+  try {
+    const response = await fetch(endpoint, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ action: "favorite", itemId: item.id, favorite: adding, password }),
+    });
+    const result = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(result.error || "즐겨찾기 요청에 실패했습니다.");
+    button.textContent = adding ? "★ 추가 요청 완료" : "☆ 해제 요청 완료";
+    alert(`즐겨찾기 ${adding ? "추가" : "해제"} 요청을 접수했습니다. GitHub 실행 후 반영됩니다.`);
+  } catch (error) {
+    button.disabled = false;
+    alert(error.message || "즐겨찾기 요청에 실패했습니다.");
+  }
+}
+
 function buildRow(item, { deletable = false, editable = false } = {}) {
   const fragment = template.content.cloneNode(true);
   const article = fragment.querySelector(".news-row");
@@ -161,6 +195,15 @@ function buildRow(item, { deletable = false, editable = false } = {}) {
     editButton.hidden = false;
     editButton.addEventListener("click", () => requestTitleEdit(item, editButton));
   }
+  const favoriteButton = fragment.querySelector(".favorite-item");
+  if (item.id) {
+    const starred = favoriteIds.has(item.id);
+    favoriteButton.textContent = starred ? "★ 즐겨찾기 해제" : "☆ 즐겨찾기";
+    favoriteButton.classList.toggle("starred", starred);
+    favoriteButton.addEventListener("click", () => requestFavorite(item, favoriteButton));
+  } else {
+    favoriteButton.hidden = true;
+  }
 
   button.addEventListener("click", () => {
     const opening = detail.hidden;
@@ -185,7 +228,7 @@ function activeItems() {
 }
 
 function render() {
-  if (["manual_add", "manual_archive", "semi_market"].includes(view)) return;
+  if (["manual_add", "manual_archive", "semi_market", "favorites"].includes(view)) return;
   const query = searchInput.value.trim().toLowerCase();
   const region = regionFilter.value;
   const category = categoryFilter.value;
@@ -201,7 +244,7 @@ function render() {
   empty.hidden = visible.length !== 0;
   empty.textContent = view === "auto_archive"
     ? "조건에 맞는 아카이브 기사가 없습니다."
-    : "최근 3일 안에 조건을 통과한 기사가 없습니다.";
+    : "최근 수집 범위 안에 조건을 통과한 기사가 없습니다.";
 }
 
 function renderSemiManual() {
@@ -232,6 +275,20 @@ function renderManualArchive() {
   manualArchiveEmpty.hidden = ordered.length !== 0;
 }
 
+function renderFavorites() {
+  favoriteRows.innerHTML = "";
+  const query = favoriteSearch.value.trim().toLowerCase();
+  const sector = favoriteSector.value;
+  const date = favoriteDate.value;
+  const ordered = favoriteItems.filter(item =>
+    (sector === "all" || item.sector === sector) &&
+    (!date || (item.published || "").slice(0, 10) === date) &&
+    (!query || searchable(item).includes(query))
+  ).sort((a, b) => `${b.published || ""}`.localeCompare(`${a.published || ""}`));
+  ordered.forEach(item => favoriteRows.appendChild(buildRow(item)));
+  favoriteEmpty.hidden = ordered.length !== 0;
+}
+
 tabs.forEach(tab => tab.addEventListener("click", () => {
   tabs.forEach(item => item.classList.remove("active"));
   tab.classList.add("active");
@@ -239,18 +296,21 @@ tabs.forEach(tab => tab.addEventListener("click", () => {
   const manualMode = view === "manual_add";
   const manualArchiveMode = view === "manual_archive";
   const semiMode = view === "semi_market";
+  const favoriteMode = view === "favorites";
   manualPanel.hidden = !manualMode;
   manualArchivePanel.hidden = !manualArchiveMode;
   semiPanel.hidden = !semiMode;
-  database.hidden = manualMode || manualArchiveMode || semiMode;
-  controls.hidden = manualMode || manualArchiveMode || semiMode;
-  viewNote.hidden = manualMode || manualArchiveMode || semiMode;
+  favoritePanel.hidden = !favoriteMode;
+  database.hidden = manualMode || manualArchiveMode || semiMode || favoriteMode;
+  controls.hidden = manualMode || manualArchiveMode || semiMode || favoriteMode;
+  viewNote.hidden = manualMode || manualArchiveMode || semiMode || favoriteMode;
   archiveControls.hidden = view !== "auto_archive";
   viewNote.textContent = view === "auto_archive"
     ? "과거 검증 기사 · 날짜와 분야로 검색"
-    : "오늘 기사 우선 · 부족하면 최대 3일 이내 기사로 구성";
+    : "최근 24시간 · 실행 지연 시 최대 36시간 내 누락 방지";
   if (semiMode) renderSemiManual();
   if (manualArchiveMode) renderManualArchive();
+  if (favoriteMode) renderFavorites();
   render();
 }));
 
@@ -327,6 +387,9 @@ manualForm.addEventListener("submit", async event => {
 [manualArchiveSearch, manualArchiveSector, manualArchiveDate].forEach(control =>
   control.addEventListener("input", renderManualArchive)
 );
+[favoriteSearch, favoriteSector, favoriteDate].forEach(control =>
+  control.addEventListener("input", renderFavorites)
+);
 
 fetch("data/news.json", { cache: "no-store" })
   .then(response => response.json())
@@ -336,6 +399,8 @@ fetch("data/news.json", { cache: "no-store" })
       currentItems = data.current_items;
       semiItems = data.semi_items || [];
       manualItems = data.manual_items || [];
+      favoriteItems = data.favorite_items || [];
+      favoriteIds = new Set(favoriteItems.map(item => item.id));
       archiveItems = [
         ...(data.archive_items || []),
         ...(data.semi_archive_items || [])
@@ -367,8 +432,10 @@ fetch("data/news.json", { cache: "no-store" })
     document.querySelector("#archiveCount").textContent = archiveItems.length;
     document.querySelector("#manualArchiveCount").textContent =
       manualItems.filter(x => (x.collected || "") !== dataToday).length;
+    document.querySelector("#favoriteCount").textContent = favoriteItems.length;
     renderSemiManual();
     renderManualArchive();
+    renderFavorites();
     render();
   })
   .catch(() => {
