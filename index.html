@@ -17,7 +17,7 @@
     <section class="intro">
       <p class="eyebrow">VERIFIED DAILY BRIEF</p>
       <h1>반도체·배터리 뉴스 브리핑</h1>
-      <p>최근 24시간 기사를 우선하며, 예약 실행이 늦어진 경우에만 최대 36시간 범위에서 누락을 보완합니다. 과거 검증 기사는 아카이브에서 확인할 수 있습니다.</p>
+      <p>정기 실행에서 만든 반도체·배터리 자동 뉴스 묶음을 24시간 고정합니다. 직접 선택한 기사는 자동 뉴스 개수와 별도로 표시됩니다.</p>
     </section>
 
     <nav class="sector-tabs" aria-label="뉴스 보기">
@@ -44,7 +44,7 @@
       </button>
     </nav>
 
-    <div id="viewNote" class="view-note">최근 24시간 · 실행 지연 시 최대 36시간 내 누락 방지</div>
+    <div id="viewNote" class="view-note">자동 뉴스 분야별 최대 5개 · 생성 후 24시간 고정</div>
 
     <section class="controls">
       <label class="search">
@@ -65,6 +65,7 @@
         <option value="시장·실적">시장·실적</option>
         <option value="산업동향">산업동향</option>
       </select>
+      <button id="deleteSelectedCurrent" class="batch-delete" type="button">선택 삭제</button>
       <div id="archiveControls" class="archive-controls" hidden>
         <select id="archiveSector" aria-label="아카이브 분야">
           <option value="all">반도체 + 배터리</option>
@@ -84,6 +85,7 @@
       <a href="https://blog.naver.com/semi_blog" target="_blank" rel="noopener noreferrer">SEMI Korea 블로그 바로가기 ↗</a>
       <div class="semi-manual-library">
         <h3>오늘 직접 선택한 SEMI 기사</h3>
+        <button id="deleteSelectedSemi" class="batch-delete" type="button">선택 삭제</button>
         <div id="semiManualRows"></div>
         <div id="semiManualEmpty" class="empty">오늘 직접 추가한 SEMI 기사가 없습니다.</div>
       </div>
@@ -101,14 +103,13 @@
       <div>
         <p class="eyebrow">MANUAL ARTICLE</p>
         <h2>기사 링크로 요약 추가</h2>
-        <p>기사 주소와 분야를 선택하면 원문 확인·요약 후 오늘의 직접 선택에 추가됩니다. 다음 날부터 수동 아카이브에서 확인할 수 있습니다.</p>
+        <p>기사 주소와 분야를 선택하면 원문 확인·요약 후 직접 선택에 추가됩니다. 최소 24시간 표시한 뒤 다음 정기 실행에서 수동 아카이브로 이동합니다.</p>
       </div>
       <form id="manualForm">
         <label>기사 URL · 한 줄에 하나씩<textarea id="manualUrl" required placeholder="https://...&#10;https://..."></textarea></label>
         <label>분야<select id="manualSector"><option value="semiconductor">반도체</option><option value="battery">배터리</option><option value="semi_market">SEMI</option></select></label>
-        <label>관리 비밀번호<input id="manualPassword" type="password" required autocomplete="current-password"></label>
         <button type="submit">요약 후 추가</button>
-        <p id="manualStatus" role="status"></p>
+        <p id="manualStatus" role="status">관리 작업을 처음 실행할 때 한 번 인증합니다.</p>
       </form>
     </section>
 

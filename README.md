@@ -4,7 +4,9 @@
 
 ## 주요 기능
 
-- 반도체 최대 5건, 배터리 최대 5건 선정
+- 반도체 최대 5건, 배터리 최대 5건을 생성 시점부터 24시간 고정
+- 같은 주기의 예비 실행은 최초 수집 부족분만 보충
+- 사용자가 삭제한 자동 뉴스의 빈자리는 다음 주기까지 유지
 - 기본 구성: 국내 3건 + 해외 2건(후보 부족 시 유동 조정)
 - 기술·공정·장비·소재 뉴스 우선
 - 주가 전망·종목 추천 제외
@@ -16,6 +18,7 @@
 - 반도체/배터리 탭, 국내/해외 및 주제 필터, 검색, 상세 펼치기
 - 검증된 과거 기사를 누적 보관
 - 매일 오전 7시(KST) GitHub Actions 자동 실행
+- 직접 선택·삭제·제목 수정·즐겨찾기는 자동 뉴스 묶음을 변경하지 않음
 
 ## 처음 설정
 
@@ -27,6 +30,17 @@
 4. `Actions` 탭에서 `Daily news update`를 선택하고 `Run workflow`로 최초 실행합니다.
 
 API 키가 없으면 원문 검증 요약을 실행할 수 없으므로 자동화가 중단됩니다.
+
+## Cloudflare Worker 설정
+
+`cloudflare-worker.js`를 현재 Worker 코드로 배포합니다. 기존 환경변수와 Secret은 유지하고,
+토큰 서명용 Secret `ADMIN_TOKEN_SECRET`을 새로 추가합니다. 충분히 긴 임의 문자열을 사용하며
+GitHub이나 `config.js`에 값을 기록하지 않습니다.
+
+- `ADMIN_PASSWORD`: 관리 화면에서 처음 한 번 입력할 비밀번호
+- `ADMIN_TOKEN_SECRET`: 8시간 관리 토큰 서명용 Secret
+- `ALLOWED_ORIGIN`: `https://jhj2525.github.io`
+- `GITHUB_OWNER`, `GITHUB_REPO`, `GITHUB_BRANCH`, `GITHUB_TOKEN`: 기존 값 유지
 
 ## 공개 사이트 전환
 

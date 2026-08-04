@@ -176,7 +176,7 @@ footer { padding: 25px; border-top: 1px solid var(--line); text-align: center; c
 }
 .archive-manual-controls { grid-column: 1 / -1; grid-template-columns: minmax(240px, 1fr) 220px 180px; }
 .archive-manual-controls { grid-template-columns: minmax(240px, 1fr) 220px 180px 110px; }
-.archive-controls .batch-delete, .manual-panel .batch-delete {
+.batch-delete {
   min-height: 42px; padding: 0 14px; border: 1px solid #e2b7ad; border-radius: 8px;
   background: #fff7f5; color: #9a3d2c; font-weight: 800; cursor: pointer;
 }

@@ -32,6 +32,8 @@ const favoriteSector = document.querySelector("#favoriteSector");
 const favoriteDate = document.querySelector("#favoriteDate");
 const deleteSelectedAuto = document.querySelector("#deleteSelectedAuto");
 const deleteSelectedManual = document.querySelector("#deleteSelectedManual");
+const deleteSelectedCurrent = document.querySelector("#deleteSelectedCurrent");
+const deleteSelectedSemi = document.querySelector("#deleteSelectedSemi");
 
 let currentItems = [];
 let archiveItems = [];
@@ -40,6 +42,79 @@ let manualItems = [];
 let favoriteItems = [];
 let favoriteIds = new Set();
 const selectedDeleteIds = new Set();
+const pendingDeleteKey = "processBriefPendingDeletes";
+const adminTokenKey = "processBriefAdminToken";
+let pendingDeletes = (() => {
+  try { return JSON.parse(localStorage.getItem(pendingDeleteKey) || "{}"); }
+  catch { return {}; }
+})();
+
+function savePendingDeletes() {
+  localStorage.setItem(pendingDeleteKey, JSON.stringify(pendingDeletes));
+}
+
+function workerEndpoint() {
+  const endpoint = (window.PROCESS_BRIEF_CONFIG || {}).workerUrl || "";
+  if (!endpoint || endpoint.includes("YOUR-WORKER")) {
+    throw new Error("Worker 주소가 설정되지 않았습니다.");
+  }
+  return endpoint;
+}
+
+async function loginForAdmin(endpoint) {
+  const password = prompt("관리 비밀번호를 입력해 주세요.");
+  if (!password) throw new Error("관리 인증이 취소되었습니다.");
+  const response = await fetch(endpoint, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ action: "login", password }),
+  });
+  const result = await response.json().catch(() => ({}));
+  if (!response.ok || !result.token) {
+    throw new Error(result.error || "관리 인증에 실패했습니다.");
+  }
+  sessionStorage.setItem(adminTokenKey, result.token);
+  return result.token;
+}
+
+async function authorizedPost(payload) {
+  const endpoint = workerEndpoint();
+  let token = sessionStorage.getItem(adminTokenKey) || "";
+  for (let attempt = 0; attempt < 2; attempt += 1) {
+    if (!token) token = await loginForAdmin(endpoint);
+    const response = await fetch(endpoint, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${token}`,
+      },
+      body: JSON.stringify(payload),
+    });
+    const result = await response.json().catch(() => ({}));
+    if (response.status === 401 && attempt === 0) {
+      sessionStorage.removeItem(adminTokenKey);
+      token = "";
+      continue;
+    }
+    if (!response.ok) throw new Error(result.error || "관리 요청에 실패했습니다.");
+    return result;
+  }
+  throw new Error("관리 인증에 실패했습니다.");
+}
+
+function hidePendingDeletedItems(ids) {
+  const hidden = new Set(ids);
+  currentItems = currentItems.filter(item => !hidden.has(item.id));
+  archiveItems = archiveItems.filter(item => !hidden.has(item.id));
+  manualItems = manualItems.filter(item => !hidden.has(item.id));
+  favoriteItems = favoriteItems.filter(item => !hidden.has(item.id));
+  hidden.forEach(id => favoriteIds.delete(id));
+  hidden.forEach(id => selectedDeleteIds.delete(id));
+  render();
+  renderManualArchive();
+  renderSemiManual();
+  renderFavorites();
+}
 let view = "semiconductor";
 let dataToday = "";
 
@@ -70,6 +145,12 @@ function fillList(element, values) {
   });
 }
 
+function manualIsActive(item) {
+  return typeof item.manual_active === "boolean"
+    ? item.manual_active
+    : (item.collected || "") === dataToday;
+}
+
 async function requestDeleteItems(items, button) {
   if (!items.length) {
     alert("삭제할 기사를 먼저 선택해 주세요.");
@@ -79,28 +160,51 @@ async function requestDeleteItems(items, button) {
     ? `이 기사를 삭제할까요?\n\n${items[0].title}`
     : `선택한 기사 ${items.length}개를 삭제할까요?`;
   if (!confirm(message)) return;
-  const password = prompt("관리 비밀번호를 입력해 주세요.");
-  if (!password) return;
-  const endpoint = (window.PROCESS_BRIEF_CONFIG || {}).workerUrl || "";
-  if (!endpoint || endpoint.includes("YOUR-WORKER")) {
-    alert("Worker 주소가 설정되지 않았습니다.");
-    return;
-  }
   button.disabled = true;
   button.textContent = "삭제 요청 중…";
   try {
-    const response = await fetch(endpoint, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ action: "delete", itemIds: items.map(item => item.id), password }),
-    });
-    const result = await response.json().catch(() => ({}));
-    if (!response.ok) throw new Error(result.error || "삭제 요청에 실패했습니다.");
-    button.textContent = "삭제 요청 완료";
-    alert(`${items.length}개 삭제 요청을 접수했습니다. GitHub 실행이 끝난 뒤 새로고침하면 사라집니다.`);
+    await authorizedPost({ action: "delete", itemIds: items.map(item => item.id) });
+    const deletingIds = new Set(items.map(item => item.id));
+    deletingIds.forEach(id => { pendingDeletes[id] = Date.now(); });
+    savePendingDeletes();
+    hidePendingDeletedItems(deletingIds);
+    alert(`${items.length}개 기사를 화면에서 삭제했습니다. 영구 저장은 뒤에서 처리되며 보통 1~3분 걸립니다.`);
+    let reflected = false;
+    for (let attempt = 0; attempt < 18; attempt += 1) {
+      await new Promise(resolve => setTimeout(resolve, 10000));
+      const news = await fetch(`data/news.json?t=${Date.now()}`, { cache: "no-store" })
+        .then(result => result.json()).catch(() => null);
+      if (!news) continue;
+      const stored = [
+        ...(news.current_items || []), ...(news.archive_items || []),
+        ...(news.manual_items || []), ...(news.semi_archive_items || []),
+        ...(news.favorite_items || [])
+      ];
+      if (stored.every(item => !deletingIds.has(item.id))) {
+        reflected = true;
+        currentItems = news.current_items || [];
+        archiveItems = [...(news.archive_items || []), ...(news.semi_archive_items || [])];
+        manualItems = news.manual_items || [];
+        favoriteItems = news.favorite_items || [];
+        favoriteIds = new Set(favoriteItems.map(item => item.id));
+        deletingIds.forEach(id => {
+          selectedDeleteIds.delete(id);
+          delete pendingDeletes[id];
+        });
+        savePendingDeletes();
+        render();
+        renderManualArchive();
+        renderSemiManual();
+        renderFavorites();
+        break;
+      }
+    }
+    if (!reflected) console.warn("삭제 영구 저장 확인이 지연되고 있습니다.");
+    button.disabled = false;
+    button.textContent = button.classList.contains("batch-delete") ? "선택 삭제" : "이 기사 삭제";
   } catch (error) {
     button.disabled = false;
-    button.textContent = "이 기사 삭제";
+    button.textContent = button.classList.contains("batch-delete") ? "선택 삭제" : "이 기사 삭제";
     alert(error.message || "삭제 요청에 실패했습니다.");
   }
 }
@@ -112,19 +216,10 @@ function requestDelete(item, button) {
 async function requestTitleEdit(item, button) {
   const title = prompt("수정할 기사 제목을 입력해 주세요.", item.title || "");
   if (!title || title.trim() === (item.title || "").trim()) return;
-  const password = prompt("관리 비밀번호를 입력해 주세요.");
-  if (!password) return;
-  const endpoint = (window.PROCESS_BRIEF_CONFIG || {}).workerUrl || "";
   button.disabled = true;
   button.textContent = "수정 요청 중…";
   try {
-    const response = await fetch(endpoint, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ action: "edit_title", itemId: item.id, title: title.trim(), password }),
-    });
-    const result = await response.json().catch(() => ({}));
-    if (!response.ok) throw new Error(result.error || "제목 수정 요청에 실패했습니다.");
+    await authorizedPost({ action: "edit_title", itemId: item.id, title: title.trim() });
     button.textContent = "수정 요청 완료";
     alert("제목 수정 요청을 접수했습니다. GitHub 실행이 끝난 뒤 새로고침하면 반영됩니다.");
   } catch (error) {
@@ -136,22 +231,9 @@ async function requestTitleEdit(item, button) {
 
 async function requestFavorite(item, button) {
   const adding = !favoriteIds.has(item.id);
-  const password = prompt("관리 비밀번호를 입력해 주세요.");
-  if (!password) return;
-  const endpoint = (window.PROCESS_BRIEF_CONFIG || {}).workerUrl || "";
-  if (!endpoint || endpoint.includes("YOUR-WORKER")) {
-    alert("Worker 주소가 설정되지 않았습니다.");
-    return;
-  }
   button.disabled = true;
   try {
-    const response = await fetch(endpoint, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ action: "favorite", itemId: item.id, favorite: adding, password }),
-    });
-    const result = await response.json().catch(() => ({}));
-    if (!response.ok) throw new Error(result.error || "즐겨찾기 요청에 실패했습니다.");
+    await authorizedPost({ action: "favorite", itemId: item.id, favorite: adding });
     button.textContent = adding ? "★ 추가 요청 완료" : "☆ 해제 요청 완료";
     alert(`즐겨찾기 ${adding ? "추가" : "해제"} 요청을 접수했습니다. GitHub 실행 후 반영됩니다.`);
   } catch (error) {
@@ -240,7 +322,7 @@ function activeItems() {
     );
   }
   return [
-    ...manualItems.filter(item => item.sector === view && (item.collected || "") === dataToday),
+    ...manualItems.filter(item => item.sector === view && manualIsActive(item)),
     ...currentItems.filter(item => item.sector === view),
   ];
 }
@@ -258,7 +340,7 @@ function render() {
   );
 
   rows.innerHTML = "";
-  visible.forEach(item => rows.appendChild(buildRow(item, { deletable: view === "auto_archive" })));
+  visible.forEach(item => rows.appendChild(buildRow(item, { deletable: true, editable: item.manual_added === true })));
   empty.hidden = visible.length !== 0;
   empty.textContent = view === "auto_archive"
     ? "조건에 맞는 아카이브 기사가 없습니다."
@@ -268,11 +350,11 @@ function render() {
 function renderSemiManual() {
   semiManualRows.innerHTML = "";
   const ordered = manualItems.filter(item =>
-    item.sector === "semi_market" && (item.collected || "") === dataToday
+    item.sector === "semi_market" && manualIsActive(item)
   ).sort((a, b) =>
     `${b.collected || ""}${b.published || ""}`.localeCompare(`${a.collected || ""}${a.published || ""}`)
   );
-  ordered.forEach(item => semiManualRows.appendChild(buildRow(item, { editable: true })));
+  ordered.forEach(item => semiManualRows.appendChild(buildRow(item, { deletable: true, editable: true })));
   semiManualEmpty.hidden = ordered.length !== 0;
 }
 
@@ -282,7 +364,7 @@ function renderManualArchive() {
   const sector = manualArchiveSector.value;
   const date = manualArchiveDate.value;
   const ordered = manualItems.filter(item =>
-    (item.collected || "") !== dataToday &&
+    !manualIsActive(item) &&
     (sector === "all" || item.sector === sector) &&
     (!date || (item.collected || "") === date) &&
     (!query || searchable(item).includes(query))
@@ -327,9 +409,10 @@ tabs.forEach(tab => tab.addEventListener("click", () => {
   controls.hidden = manualMode || manualArchiveMode || semiMode || favoriteMode;
   viewNote.hidden = manualMode || manualArchiveMode || semiMode || favoriteMode;
   archiveControls.hidden = view !== "auto_archive";
+  deleteSelectedCurrent.hidden = view === "auto_archive";
   viewNote.textContent = view === "auto_archive"
     ? "과거 검증 기사 · 날짜와 분야로 검색"
-    : "최근 24시간 · 실행 지연 시 최대 36시간 내 누락 방지";
+    : "자동 뉴스 분야별 최대 5개 · 생성 후 24시간 고정";
   if (semiMode) renderSemiManual();
   if (manualArchiveMode) renderManualArchive();
   if (favoriteMode) renderFavorites();
@@ -338,11 +421,6 @@ tabs.forEach(tab => tab.addEventListener("click", () => {
 
 manualForm.addEventListener("submit", async event => {
   event.preventDefault();
-  const endpoint = (window.PROCESS_BRIEF_CONFIG || {}).workerUrl || "";
-  if (!endpoint || endpoint.includes("YOUR-WORKER")) {
-    manualStatus.textContent = "관리자 설정이 아직 완료되지 않았습니다. config.js에 Worker 주소를 등록해 주세요.";
-    return;
-  }
   const submit = manualForm.querySelector("button[type='submit']");
   const urls = document.querySelector("#manualUrl").value
     .split(/\r?\n/).map(value => value.trim()).filter(Boolean);
@@ -353,18 +431,11 @@ manualForm.addEventListener("submit", async event => {
   submit.disabled = true;
   manualStatus.textContent = "추가 요청을 보내는 중입니다…";
   try {
-    const response = await fetch(endpoint, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        action: "add",
-        urls,
-        sector: document.querySelector("#manualSector").value,
-        password: document.querySelector("#manualPassword").value,
-      }),
+    await authorizedPost({
+      action: "add",
+      urls,
+      sector: document.querySelector("#manualSector").value,
     });
-    const result = await response.json().catch(() => ({}));
-    if (!response.ok) throw new Error(result.error || "추가 요청에 실패했습니다.");
     manualStatus.textContent = "요청 완료. 실제 반영을 확인하는 중입니다…";
     const expected = new Set(urls.map(value => value.replace(/\/$/, "")));
     let reflected = false;
@@ -416,7 +487,21 @@ deleteSelectedAuto.addEventListener("click", () =>
   requestDeleteItems(selectedItemsFor(archiveItems), deleteSelectedAuto)
 );
 deleteSelectedManual.addEventListener("click", () =>
-  requestDeleteItems(selectedItemsFor(manualItems), deleteSelectedManual)
+  requestDeleteItems(
+    selectedItemsFor(manualItems.filter(item => !manualIsActive(item))),
+    deleteSelectedManual
+  )
+);
+deleteSelectedCurrent.addEventListener("click", () =>
+  requestDeleteItems(selectedItemsFor(activeItems()), deleteSelectedCurrent)
+);
+deleteSelectedSemi.addEventListener("click", () =>
+  requestDeleteItems(
+    selectedItemsFor(manualItems.filter(item =>
+      item.sector === "semi_market" && manualIsActive(item)
+    )),
+    deleteSelectedSemi
+  )
 );
 
 fetch("data/news.json", { cache: "no-store" })
@@ -448,18 +533,36 @@ fetch("data/news.json", { cache: "no-store" })
       archiveItems = sorted.filter(x => !currentIds.has(x.id));
     }
 
-    updated.textContent = `최근 업데이트 ${data.updated_at || "-"}`;
+    const allStoredIds = new Set([
+      ...currentItems, ...archiveItems, ...manualItems
+    ].map(item => item.id));
+    const serverDeleted = new Set(data.deleted_article_ids || []);
+    const nowMs = Date.now();
+    Object.entries(pendingDeletes).forEach(([id, requestedAt]) => {
+      if (serverDeleted.has(id) || !allStoredIds.has(id) || nowMs - requestedAt > 30 * 60 * 1000) {
+        delete pendingDeletes[id];
+      }
+    });
+    savePendingDeletes();
+    const pendingIds = new Set(Object.keys(pendingDeletes));
+    currentItems = currentItems.filter(item => !pendingIds.has(item.id));
+    archiveItems = archiveItems.filter(item => !pendingIds.has(item.id));
+    manualItems = manualItems.filter(item => !pendingIds.has(item.id));
+    favoriteItems = favoriteItems.filter(item => !pendingIds.has(item.id));
+    favoriteIds = new Set(favoriteItems.map(item => item.id));
+
+    updated.textContent = `자동 묶음 생성 ${data.automatic_cycle_started_at || data.last_automatic_update_at || "-"}`;
     document.querySelector("#semiCount").textContent =
       currentItems.filter(x => x.sector === "semiconductor").length
-      + manualItems.filter(x => x.sector === "semiconductor" && (x.collected || "") === dataToday).length;
+      + manualItems.filter(x => x.sector === "semiconductor" && manualIsActive(x)).length;
     document.querySelector("#batteryCount").textContent =
       currentItems.filter(x => x.sector === "battery").length
-      + manualItems.filter(x => x.sector === "battery" && (x.collected || "") === dataToday).length;
+      + manualItems.filter(x => x.sector === "battery" && manualIsActive(x)).length;
     document.querySelector("#marketCount").textContent =
-      manualItems.filter(x => x.sector === "semi_market" && (x.collected || "") === dataToday).length;
+      manualItems.filter(x => x.sector === "semi_market" && manualIsActive(x)).length;
     document.querySelector("#archiveCount").textContent = archiveItems.length;
     document.querySelector("#manualArchiveCount").textContent =
-      manualItems.filter(x => (x.collected || "") !== dataToday).length;
+      manualItems.filter(x => !manualIsActive(x)).length;
     document.querySelector("#favoriteCount").textContent = favoriteItems.length;
     renderSemiManual();
     renderManualArchive();

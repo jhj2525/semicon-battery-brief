@@ -302,6 +302,18 @@ def within_automatic_window(item, start, end):
     return published is not None and start <= published <= end
 
 
+def begins_new_daily_cycle(now, cycle_started_at, maintenance_request, event_name):
+    """Only a scheduled run may replace the 24-hour automatic bundle."""
+    return (
+        event_name == "schedule"
+        and not maintenance_request
+        and (
+            cycle_started_at is None
+            or now - cycle_started_at >= timedelta(hours=24)
+        )
+    )
+
+
 def unique_rows(rows):
     # Run title-similarity deduplication separately per sector so one field can
     # never remove candidates belonging to the other field.
@@ -568,13 +580,22 @@ def same_story(left, right):
         right_text = right_text.replace(old, new)
     left_tokens = set(re.findall(r"[가-힣A-Za-z0-9]{2,}", left_text))
     right_tokens = set(re.findall(r"[가-힣A-Za-z0-9]{2,}", right_text))
+    noise = {
+        "단독", "속보", "종합", "전망", "주목", "기대", "본격화", "확대",
+        "추진", "나서", "관련", "대해", "위해", "올해", "내년", "한국",
+    }
+    left_tokens -= noise
+    right_tokens -= noise
     overlap = len(left_tokens & right_tokens) / max(1, len(left_tokens | right_tokens))
-    if overlap >= 0.32:
+    containment = len(left_tokens & right_tokens) / max(
+        1, min(len(left_tokens), len(right_tokens))
+    )
+    if overlap >= 0.28 or containment >= 0.55:
         return True
     companies = (
         "삼성전자", "sk하이닉스", "tsmc", "마이크론", "엘앤에프",
         "lg에너지솔루션", "삼성sdi", "sk온", "에코프로", "포스코퓨처엠",
-        "catl",
+        "catl", "cxmt", "창신메모리", "두산", "lb세미콘", "퀄컴",
     )
     products = (
         "hbm", "d램", "낸드", "파운드리", "lfp", "ess",
@@ -597,14 +618,17 @@ def same_story(left, right):
         and any(word in right_text for word in group)
         for group in event_groups
     )
-    if shared_event and (shared_products or (shared_companies and overlap >= 0.20)):
+    if shared_event and (
+        shared_products
+        or (shared_companies and (overlap >= 0.16 or containment >= 0.42))
+    ):
         return True
     left_numbers = set(re.findall(r"\d+(?:\.\d+)?%?", left_text))
     right_numbers = set(re.findall(r"\d+(?:\.\d+)?%?", right_text))
     return bool(left_numbers & right_numbers) and overlap >= 0.22
 
 
-def select_sector(rows, sector, existing_items, api_key):
+def select_sector(rows, sector, existing_items, api_key, allow_reuse=False):
     target = TARGETS[sector]
     by_id, by_url = existing_lookup(existing_items)
     current, newly_verified = [], []
@@ -632,6 +656,8 @@ def select_sector(rows, sector, existing_items, api_key):
         old = by_id.get(candidate.get("id")) or by_url.get(
             canonical_url(candidate.get("link"))
         )
+        if old and not allow_reuse:
+            continue
         if old:
             current.append(old)
             reused += 1
@@ -689,9 +715,27 @@ def merge_archive(all_existing, newly_verified, current):
             continue
         merged[canonical_url(item["link"])] = item
     current_urls = {canonical_url(item.get("link")) for item in current}
-    archive = [item for url, item in merged.items() if url not in current_urls]
+    archive = sorted(
+        [item for url, item in merged.items() if url not in current_urls],
+        key=lambda item: (item.get("published", ""), item.get("collected", "")),
+        reverse=True,
+    )
+    deduped = []
+    seen_titles = set()
+    for item in archive:
+        title_key = re.sub(r"[^가-힣a-z0-9]", "", item.get("title", "").lower())
+        if title_key and title_key in seen_titles:
+            continue
+        if any(
+            item.get("sector") == kept.get("sector") and same_story(item, kept)
+            for kept in deduped[-200:]
+        ):
+            continue
+        deduped.append(item)
+        if title_key:
+            seen_titles.add(title_key)
     return sorted(
-        archive,
+        deduped,
         key=lambda item: (item.get("published", ""), item.get("collected", "")),
         reverse=True,
     )[:ARCHIVE_LIMIT]
@@ -1209,10 +1253,19 @@ def main():
     edit_title = os.getenv("EDIT_ARTICLE_TITLE", "").strip()
     favorite_id = os.getenv("FAVORITE_ARTICLE_ID", "").strip()
     favorite_state = os.getenv("FAVORITE_STATE", "").strip().lower()
+    manual_url = os.getenv("MANUAL_ARTICLE_URL", "").strip()
+    manual_sector = os.getenv("MANUAL_ARTICLE_SECTOR", "").strip()
+    maintenance_request = bool(
+        delete_ids or edit_id or favorite_id or manual_url
+    )
     legacy = old.get("items", [])
     old_current = old.get("current_items", [])
     old_archive = old.get("archive_items", [])
     legacy = without_deleted(legacy, deleted_article_ids)
+    deleted_current = [
+        item for item in old_current
+        if str(item.get("id", "")) in delete_ids
+    ]
     old_current = without_deleted(old_current, deleted_article_ids)
     old_archive = without_deleted(old_archive, deleted_article_ids)
     all_existing = [tag_source(item) for item in old_current + old_archive + legacy]
@@ -1232,48 +1285,127 @@ def main():
         print(f"edited manual article title: {edit_id}")
 
     now = datetime.now(base.KST)
+    event_name = os.getenv("GITHUB_EVENT_NAME", "").strip()
     previous_update = parse_update_datetime(
         old.get("last_automatic_update_at") or old.get("updated_at")
     )
+    cycle_started_at = parse_update_datetime(
+        old.get("automatic_cycle_started_at")
+        or old.get("last_automatic_update_at")
+        or old.get("updated_at")
+    )
+    new_daily_cycle = begins_new_daily_cycle(
+        now, cycle_started_at, maintenance_request, event_name
+    )
+    locked_vacancies = {
+        sector: max(0, min(TARGETS[sector], int(
+            (old.get("automatic_locked_vacancies") or {}).get(sector, 0)
+        )))
+        for sector in TARGETS
+    }
+    if new_daily_cycle:
+        locked_vacancies = {sector: 0 for sector in TARGETS}
+    else:
+        for item in deleted_current:
+            sector = item.get("sector")
+            if sector in locked_vacancies:
+                locked_vacancies[sector] = min(
+                    TARGETS[sector], locked_vacancies[sector] + 1
+                )
     window_start = automatic_window_start(now, previous_update)
-    fetched = without_deleted(collect_all_candidates(), deleted_article_ids)
-    # Keep already verified articles inside the active time window as reusable
-    # candidates even if a feed is temporarily unavailable on this run.
-    reusable_candidates = []
-    for item in all_existing:
-        if item.get("verified_source") is not True and item.get("summary_status") != "link_only":
-            continue
-        candidate = dict(item)
-        candidate.setdefault("score", 0)
-        candidate.setdefault("rss_description", candidate.get("overview", ""))
-        reusable_candidates.append(candidate)
-    collected = unique_rows(fetched + reusable_candidates)
-    eligible = [
-        item for item in collected
-        if within_automatic_window(item, window_start, now)
-        and (item.get("manual_added") is True or useful_candidate(item))
-    ]
-    print(
-        f"publication window: {window_start.isoformat()} to {now.isoformat()}; "
-        f"collected {len(collected)}, eligible {len(eligible)}"
-    )
-    print(
-        "eligible by sector: "
-        f"semiconductor {sum(x.get('sector') == 'semiconductor' for x in eligible)}, "
-        f"battery {sum(x.get('sector') == 'battery' for x in eligible)}"
-    )
-
-    current, new_items = [], []
-    for sector in ("semiconductor", "battery"):
-        sector_rows = [item for item in eligible if item.get("sector") == sector]
-        selected, fresh = select_sector(
-            sector_rows, sector, all_existing + new_items, api_key
+    if maintenance_request or event_name != "schedule":
+        current = old_current
+        new_items = []
+        print("non-scheduled request: automatic daily brief preserved")
+    else:
+        fetched = without_deleted(collect_all_candidates(), deleted_article_ids)
+        reusable_candidates = []
+        for item in all_existing:
+            if item.get("verified_source") is not True and item.get("summary_status") != "link_only":
+                continue
+            candidate = dict(item)
+            candidate.setdefault("score", 0)
+            candidate.setdefault("rss_description", candidate.get("overview", ""))
+            reusable_candidates.append(candidate)
+        collected = unique_rows(fetched + reusable_candidates)
+        eligible = [
+            item for item in collected
+            if within_automatic_window(item, window_start, now)
+            and (item.get("manual_added") is True or useful_candidate(item))
+        ]
+        print(
+            f"publication window: {window_start.isoformat()} to {now.isoformat()}; "
+            f"collected {len(collected)}, eligible {len(eligible)}"
         )
-        current.extend(selected)
-        new_items.extend(fresh)
+        print(
+            "eligible by sector: "
+            f"semiconductor {sum(x.get('sector') == 'semiconductor' for x in eligible)}, "
+            f"battery {sum(x.get('sector') == 'battery' for x in eligible)}"
+        )
+        current = [] if new_daily_cycle else list(old_current)
+        new_items = []
+        stored_urls = {
+            canonical_url(item.get("link")) for item in all_existing
+            if item.get("link")
+        }
+        recent_story_items = [
+            item for item in all_existing
+            if published_datetime(item) is not None
+            and published_datetime(item) >= now - timedelta(days=7)
+        ]
+        for sector in ("semiconductor", "battery"):
+            comparison_items = recent_story_items + new_items + current
+            sector_rows = [
+                item for item in eligible
+                if item.get("sector") == sector
+                and canonical_url(item.get("link")) not in stored_urls
+                and not any(
+                    same_story(item, stored)
+                    for stored in comparison_items
+                    if stored.get("sector") == sector
+                )
+            ]
+            selected, fresh = select_sector(
+                sector_rows, sector, comparison_items, api_key,
+                allow_reuse=False,
+            )
+            if new_daily_cycle:
+                current.extend(selected)
+                new_items.extend(fresh)
+            else:
+                existing_sector = [item for item in current if item.get("sector") == sector]
+                effective_target = max(
+                    0, TARGETS[sector] - locked_vacancies[sector]
+                )
+                needed = max(0, effective_target - len(existing_sector))
+                additions = [
+                    item for item in selected
+                    if canonical_url(item.get("link")) not in {
+                        canonical_url(old_item.get("link")) for old_item in existing_sector
+                    }
+                    and not any(same_story(item, old_item) for old_item in existing_sector)
+                ][:needed]
+                current.extend(additions)
+                fresh_ids = {item.get("id") for item in fresh}
+                new_items.extend(item for item in additions if item.get("id") in fresh_ids)
+        print("daily cycle: new" if new_daily_cycle else "daily cycle: same-day vacancy fill")
 
-    manual_url = os.getenv("MANUAL_ARTICLE_URL", "").strip()
-    manual_sector = os.getenv("MANUAL_ARTICLE_SECTOR", "").strip()
+    normalized_manual = []
+    for item in old_manual_items:
+        item = dict(item)
+        item.setdefault("manual_active", item.get("collected") == now.strftime("%Y-%m-%d"))
+        if new_daily_cycle and item.get("manual_active"):
+            added_value = item.get("manual_added_at")
+            try:
+                added_at = datetime.fromisoformat(added_value) if added_value else None
+                if added_at and added_at.tzinfo is None:
+                    added_at = added_at.replace(tzinfo=base.KST)
+            except (TypeError, ValueError):
+                added_at = None
+            if added_at is None or now - added_at >= timedelta(hours=24):
+                item["manual_active"] = False
+        normalized_manual.append(item)
+    old_manual_items = normalized_manual
     new_manual_items = []
     if manual_url:
         requested_urls = list(dict.fromkeys(
@@ -1285,6 +1417,8 @@ def main():
         ]
         for item in new_manual_items:
             item["source_type"] = "직접 선택"
+            item["manual_active"] = True
+            item["manual_added_at"] = now.isoformat()
         print(f"manual articles added: {manual_sector} · {len(new_manual_items)}")
     manual_items = merge_manual_items(old_manual_items, new_manual_items)
 
@@ -1302,14 +1436,29 @@ def main():
         + legacy_market + old_manual_items + current + archive + manual_items
     )
     favorite_items = toggle_favorite(
-        old.get("favorite_items", []), favorite_source, favorite_id, favorite_state
+        without_deleted(old.get("favorite_items", []), deleted_article_ids),
+        favorite_source, favorite_id, favorite_state
     )
     if favorite_id and favorite_state in {"true", "false"}:
         print(f"favorite updated: {favorite_id} -> {favorite_state}")
 
+    last_automatic_update_at = (
+        now.strftime("%Y-%m-%d %H:%M KST")
+        if new_daily_cycle
+        else old.get("last_automatic_update_at") or old.get("updated_at")
+    )
+    automatic_cycle_started_at = (
+        now.strftime("%Y-%m-%d %H:%M KST")
+        if new_daily_cycle
+        else old.get("automatic_cycle_started_at")
+        or old.get("last_automatic_update_at")
+        or old.get("updated_at")
+    )
     payload = {
         "updated_at": now.strftime("%Y-%m-%d %H:%M KST"),
-        "last_automatic_update_at": now.strftime("%Y-%m-%d %H:%M KST"),
+        "last_automatic_update_at": last_automatic_update_at,
+        "automatic_cycle_started_at": automatic_cycle_started_at,
+        "automatic_locked_vacancies": locked_vacancies,
         "publication_window": {
             "from": window_start.isoformat(),
             "to": now.isoformat(),
