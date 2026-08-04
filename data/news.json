@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-04 10:59 KST",
-  "last_automatic_update_at": "2026-08-04 10:59 KST",
+  "updated_at": "2026-08-04 12:49 KST",
+  "last_automatic_update_at": "2026-08-04 12:49 KST",
   "publication_window": {
-    "from": "2026-08-03T10:59:55.863041+09:00",
-    "to": "2026-08-04T10:59:55.863041+09:00"
+    "from": "2026-08-03T12:49:10.828986+09:00",
+    "to": "2026-08-04T12:49:10.828986+09:00"
   },
-  "today_verified_count": 3,
+  "today_verified_count": 4,
   "current_items": [
     {
-      "id": "b1a9749d065c",
+      "id": "1973b4601c48",
       "sector": "semiconductor",
       "region": "domestic",
       "category": "투자·양산",
-      "title": "‘상장 대박’ CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진",
-      "source": "서울경제",
-      "source_type": "경제지 보도",
-      "published": "2026-08-03 20:42",
+      "title": "中 CXMT, 베이징 제2공장 추진…D램 생산 두 배로",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-04 09:27",
       "collected": "2026-08-04",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51dWZTcTRUbHJpQmV5b2RBT2pQc3F6cjFMdUtvam91RjBUWjNRd215WjNMYjZqV3htOXpyZDJ0TW9rLS0zdEhzM2xldWFobldFTmfSAVNBVV95cUxQeVJ2bjVWVktLcWlCOGp2VDBzdkVreldSWUQ3MWJLempHelpYSW9KeHczLWxhb0JzRVFyaUc5Yk9fNGszejJlN3Z6YnJWS01ZeGxRRQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40R3Zkc2taWUNwTE5nazVEdHFnSEFIWGYta3BpdE9WekdfUll3c2U3Y3FSY0FhZ0FnMlViVGlabDk3Y096QzA4a29yeWh1RUFHc0dsRjVNZmh0UjJkaG5VcHpHT3RhMnM?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
@@ -28,39 +28,64 @@
       "stated_outlook": ""
     },
     {
-      "id": "dcc1918da850",
+      "id": "6117a297b534",
       "sector": "semiconductor",
       "region": "domestic",
-      "category": "기술·공정",
-      "title": "LB세미콘, 퀄컴 양산 승인 획득...이달 양산 돌입",
-      "source": "디일렉",
-      "published": "2026-08-04 03:54",
+      "category": "산업",
+      "title": "“그때 노트북 그냥 살걸, 30만원 오를 줄은”…7월 D램·낸드 가격 또 ‘역대 최고’",
+      "source": "서울경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-04 09:32",
       "collected": "2026-08-04",
-      "link": "https://www.thelec.kr/news/articleView.html?idxno=60492",
-      "rss_description": "반도체 후공정 외주(OSAT) 업체 LB세미콘이 이달부터 퀄컴의 전력 관리 반도체(PMIC) 제품을 양산한다고 3일 밝혔다.LB세미콘은 퀄컴의 인공지능(AI) 데이터센터와 차량용 반도체용 PMIC의 범핑과 테스트, 백엔드까지 포함한 후공정을 맡았다. 반도체 회로 형성이 끝난 소자(디바이스) 웨이퍼의 후공정을 한 번에 처리하는 일괄 서비스(턴키) 방식이다.범핑은 반도체 칩 표면에 금속 돌기(범프)를 형성하는 것이다. 돌기는 칩-기판을 전기적으로 연결한다. 테스트는 칩의 전기적 특성 검사를 뜻한다. 백엔드는 웨이퍼를 개별 칩 단위로 절",
-      "score": 9,
-      "source_type": "산업 전문언론",
-      "source_rank": 2,
-      "verified_source": true,
-      "overview": "반도체 후공정 외주(OSAT) 업체인 LB세미콘이 퀄컴의 전력 관리 반도체(PMIC)에 대한 양산 승인을 획득했다. LB세미콘은 퀄컴의 AI 데이터센터 및 차량용 반도체 PMIC에 대해 범핑, 테스트, 백엔드를 포함한 일괄 서비스(턴키) 후공정을 담당한다. 이달부터 본격적인 양산에 돌입하며, 회사는 이를 계기로 기존 디스플레이 구동칩(DDI) 중심 사업에서 비(非) DDI 사업으로 전환을 기대하고 있다.",
-      "key_points": [
-        "LB세미콘이 퀄컴의 전력 관리 반도체(PMIC) 양산 승인을 획득하여 이달부터 양산을 시작한다.",
-        "LB세미콘은 퀄컴의 AI 데이터센터 및 차량용 반도체 PMIC에 대한 턴키 후공정 서비스를 제공한다.",
-        "양산 물량 확대에 대비하여 유상증자를 통해 범프 및 백엔드 신규 설비 투자를 진행한다."
-      ],
-      "numbers": [
-        "2026.08.03",
-        "7월"
-      ],
-      "keywords": [
-        "LB세미콘",
-        "퀄컴",
-        "PMIC",
-        "OSAT",
-        "후공정",
-        "턴키"
-      ],
-      "stated_outlook": "하반기 긍정적인 실적 흐름을 기대하며, 내년 하반기부터 본격화될 물량 확대에 대비해 선제적으로 생산능력을 확충하고 고부가가치 후공정 시장 고객사를 확대할 계획이다."
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1nRzNqdlcyZnNBSkVRNGZIbjVkalNhMDZaY3gxTUVPaEZrRzlKMXc3Z3pOY0l2QnljRVNBdG40Q0k2cV9ONklzRkNpLURZT0N2WkHSAVNBVV95cUxQdHFacm9OU0dZUGFVQS1wT1duOFFMLVZTc1VGRUMyTzk5Y2lJVGpFajg5NnowcjVqUmppbnVoTjQ4cTE5cU5paEo0a0x3amt5UjhaNA?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "5b2c13a35a8b",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "TSMC, '고객사 이탈 막자' 인텔 EMIB 유사 패키징기술 개발 나서",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-03 14:37",
+      "collected": "2026-08-04",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE43elUtdWYyS3FqaWI2RnVOWENXTm84MHgwNEtEOXQ5Q2xzcU5ZYnZJX05pRngzc0otVkpSYWFDdGJRdzBjYXVXY1Jvdm9PVnBFbDg0VkE0V0lfVG_SAWBBVV95cUxQdnFLTk1OazVLU3FnN0ZFR2lhSVAtano4ZlVTR2s2bnVEeTlpNDdRdXBYSktwSU1LVXNHaklGZmRENjFYMERXRUpWcTUxZTFHTmdzdENOSzd4dmVUTWc2S1Q?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "c7ba815b0966",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "반도체 소부장도 중국 맹추격…\"미래기술 선점 관건\"",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-03 17:14",
+      "collected": "2026-08-04",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsSmc2MFVXcS1ubUtmQ3N5VWUzNHYxT21Lb3dFQ3RfRXNmcEpSakdHa0pzTWZwSGRRdjJQbjRfUE5Sck55T3BYenBobW1SS05WcENvTWhjRnhRQ1NBR1ZBctIBYEFVX3lxTFBsSmc2MFVXcS1ubUtmQ3N5VWUzNHYxT21Lb3dFQ3RfRXNmcEpSakdHa0pzTWZwSGRRdjJQbjRfUE5Sck55T3BYenBobW1SS05WcENvTWhjRnhRQ1NBR1ZBcg?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
     },
     {
       "id": "7e6fb2f50c5b",
@@ -82,101 +107,6 @@
       "keywords": [],
       "stated_outlook": "",
       "source_rank": 3
-    },
-    {
-      "id": "5a528fd63a17",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "산업",
-      "title": "범용 D램, 7월도 최고가 갱신...3분기 20% 뛴다",
-      "source": "디일렉",
-      "published": "2026-08-04 01:04",
-      "collected": "2026-08-04",
-      "link": "https://www.thelec.kr/news/articleView.html?idxno=60443",
-      "rss_description": "7월 범용 D램과 낸드플래시 메모리 가격이 최고가를 기록했다.3일 시장조사업체 D램익스체인지에 따르면 PC용 범용 제품 DDR4 8Gb의 7월 평균 가격은 24달러로, 전월(21달러) 대비 14.29% 증가했다. 2016년 6월 집계 이래 최고가다.메모리카드와 USB향 범용 낸드 멀티레벨셀(MLC) 128Gb 7월 평균가는 30.05달러로 집계됐다. 30달러를 돌파한 것은 2015년 8월 집계 이래 최초다.3분기 가격도 오름세가 지속될 전망이다.시장조사업체 트렌드포스에 따르면 일부 DDR4 공급 업체는 PC 제조사와 지난달 말 계약",
-      "score": 21,
-      "source_type": "산업 전문언론",
-      "source_rank": 2,
-      "verified_source": true,
-      "overview": "7월 범용 D램(DDR4 8Gb)과 범용 낸드플래시(MLC 128Gb)의 평균 가격이 각각 최고가를 기록했다. 트렌드포스는 3분기 DDR4 공급가가 전분기 대비 15~20% 상승할 것으로 예상했다. 다만, 낸드의 경우 상승세는 지속되나 상승폭은 크게 둔화될 것으로 보인다.",
-      "key_points": [
-        "PC용 범용 DDR4 8Gb의 7월 평균 가격은 24달러로 전월 대비 14.29% 증가하며 2016년 6월 이후 최고가를 기록했다.",
-        "범용 낸드 MLC 128Gb의 7월 평균가는 30.05달러로 집계되어 2015년 8월 이후 처음으로 30달러를 돌파했다.",
-        "트렌드포스는 3분기 DDR4 공급가가 전분기 대비 15~20% 상승할 것으로 전망했으나, 이는 2분기 상승폭(45~50%)보다는 낮은 수준이다.",
-        "7월 범용 낸드 가격은 전월 대비 4.26% 상승했으며, 시장은 높은 MLC 가격에 대한 반발로 인해 상승폭이 크게 둔화될 것으로 분석된다."
-      ],
-      "numbers": [
-        "7월",
-        "24달러",
-        "21달러",
-        "14.29%",
-        "2016년 6월",
-        "30.05달러"
-      ],
-      "keywords": [
-        "D램",
-        "낸드플래시",
-        "트렌드포스",
-        "DDR4",
-        "MLC",
-        "가격"
-      ],
-      "stated_outlook": "트렌드포스는 3분기 DDR4 공급가가 전분기 대비 15~20% 상승할 것으로 예상했으며, 낸드 가격은 상승세가 이어지나 그 폭은 크게 둔화될 것으로 내다봤다."
-    },
-    {
-      "id": "5fe40f9e2bff",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "투자·양산",
-      "title": "OCI, 日 기업과 패키징 웨이퍼 재생사업 진출",
-      "source": "디일렉",
-      "published": "2026-08-04 00:53",
-      "collected": "2026-08-04",
-      "link": "https://www.thelec.kr/news/articleView.html?idxno=60440",
-      "rss_description": "OCI가 일본 전문기업과 손잡고 반도체 패키징용 웨이퍼 재생(리클레임) 사업에 진출한다. 이를 위해 기존 태양광 소재 생산기지였던 OCI스페셜티 공주 공장을 반도체 소재 거점으로 전환한다.3일 복수의 업계 관계자에 따르면 OCI는 일본 업체와 웨이퍼 재생 사업 협력을 추진하고 있다. OCI스페셜티가 웨이퍼 재생 사업 경험이 없는 만큼 초기 공정 구축과 고객사 대응을 위해 외부 기술을 도입하는 것으로 풀이된다. 일본 협력사는 공개되지 않았다.한 업계 관계자는 \"OCI가 일본 업체와 제휴해 패키징용 웨이퍼 재생사업을 준비하고 있다\"며",
-      "score": 16,
-      "source_type": "산업 전문언론",
-      "source_rank": 2,
-      "verified_source": true,
-      "overview": "OCI가 반도체 패키징용 웨이퍼 재생(리클레임) 사업에 진출한다. 이를 위해 OCI스페셜티 공주 공장을 반도체 소재 거점으로 전환하며, 일본 기업과의 협력을 통해 기술을 도입할 예정이다. OCI는 해당 공장에 약 254억원을 투자하여 2027년 10월부터 상업 생산을 시작할 계획이다.",
-      "key_points": [
-        "OCI가 HBM 제조에 사용되는 캐리어 웨이퍼 리클레임 사업에 진출한다.",
-        "OCI스페셜티 공주 공장을 반도체 소재 생산 기지로 전환한다.",
-        "초기 공정 구축 및 고객사 대응을 위해 일본 기업과 기술 협력을 추진 중이다."
-      ],
-      "numbers": [
-        "254억원",
-        "2027년 10월"
-      ],
-      "keywords": [
-        "OCI",
-        "OCI스페셜티",
-        "웨이퍼 재생",
-        "캐리어 웨이퍼",
-        "HBM",
-        "리클레임"
-      ],
-      "stated_outlook": "HBM 시장 성장과 함께 확대되는 사업으로, 이번 사업을 시작으로 반도체 소재 사업을 지속적으로 확대할 계획이다."
-    },
-    {
-      "id": "2f36090d2a54",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "투자·양산",
-      "title": "엘앤에프플러스, 국내 첫 LFP 양극재 양산라인 시생산품 첫 출하",
-      "source": "전자신문",
-      "source_type": "산업 전문언론",
-      "published": "2026-08-03 11:34",
-      "collected": "2026-08-04",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5HM1k0UmRqSElPb2t0WUNxUUxiWl9GZDNXeUZWN1dlbm5Jc1RTMXNkUm84MktERW93YWswV1BOMjMwY2pOWEsxblBmQXhxUQ?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
     },
     {
       "id": "d755d9b85989",
@@ -254,6 +184,137 @@
       "published": "2026-08-04 08:53",
       "collected": "2026-08-04",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1pYkt4UC1scDE3OGpSS0M3Z2lTTWVsZDdTOGFNZmVPa3NrQlpKTjc4NDFIbXZWT0xnMy11Z2VoSk1JeV9iMnJrUkJOakhYc1Q0cUVTcENqeS1BUQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 2
+    },
+    {
+      "id": "dcc1918da850",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "LB세미콘, 퀄컴 양산 승인 획득...이달 양산 돌입",
+      "source": "디일렉",
+      "published": "2026-08-04 03:54",
+      "collected": "2026-08-04",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=60492",
+      "rss_description": "반도체 후공정 외주(OSAT) 업체 LB세미콘이 이달부터 퀄컴의 전력 관리 반도체(PMIC) 제품을 양산한다고 3일 밝혔다.LB세미콘은 퀄컴의 인공지능(AI) 데이터센터와 차량용 반도체용 PMIC의 범핑과 테스트, 백엔드까지 포함한 후공정을 맡았다. 반도체 회로 형성이 끝난 소자(디바이스) 웨이퍼의 후공정을 한 번에 처리하는 일괄 서비스(턴키) 방식이다.범핑은 반도체 칩 표면에 금속 돌기(범프)를 형성하는 것이다. 돌기는 칩-기판을 전기적으로 연결한다. 테스트는 칩의 전기적 특성 검사를 뜻한다. 백엔드는 웨이퍼를 개별 칩 단위로 절",
+      "score": 9,
+      "source_type": "산업 전문언론",
+      "source_rank": 2,
+      "verified_source": true,
+      "overview": "반도체 후공정 외주(OSAT) 업체인 LB세미콘이 퀄컴의 전력 관리 반도체(PMIC)에 대한 양산 승인을 획득했다. LB세미콘은 퀄컴의 AI 데이터센터 및 차량용 반도체 PMIC에 대해 범핑, 테스트, 백엔드를 포함한 일괄 서비스(턴키) 후공정을 담당한다. 이달부터 본격적인 양산에 돌입하며, 회사는 이를 계기로 기존 디스플레이 구동칩(DDI) 중심 사업에서 비(非) DDI 사업으로 전환을 기대하고 있다.",
+      "key_points": [
+        "LB세미콘이 퀄컴의 전력 관리 반도체(PMIC) 양산 승인을 획득하여 이달부터 양산을 시작한다.",
+        "LB세미콘은 퀄컴의 AI 데이터센터 및 차량용 반도체 PMIC에 대한 턴키 후공정 서비스를 제공한다.",
+        "양산 물량 확대에 대비하여 유상증자를 통해 범프 및 백엔드 신규 설비 투자를 진행한다."
+      ],
+      "numbers": [
+        "2026.08.03",
+        "7월"
+      ],
+      "keywords": [
+        "LB세미콘",
+        "퀄컴",
+        "PMIC",
+        "OSAT",
+        "후공정",
+        "턴키"
+      ],
+      "stated_outlook": "하반기 긍정적인 실적 흐름을 기대하며, 내년 하반기부터 본격화될 물량 확대에 대비해 선제적으로 생산능력을 확충하고 고부가가치 후공정 시장 고객사를 확대할 계획이다."
+    },
+    {
+      "id": "5a528fd63a17",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "범용 D램, 7월도 최고가 갱신...3분기 20% 뛴다",
+      "source": "디일렉",
+      "published": "2026-08-04 01:04",
+      "collected": "2026-08-04",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=60443",
+      "rss_description": "7월 범용 D램과 낸드플래시 메모리 가격이 최고가를 기록했다.3일 시장조사업체 D램익스체인지에 따르면 PC용 범용 제품 DDR4 8Gb의 7월 평균 가격은 24달러로, 전월(21달러) 대비 14.29% 증가했다. 2016년 6월 집계 이래 최고가다.메모리카드와 USB향 범용 낸드 멀티레벨셀(MLC) 128Gb 7월 평균가는 30.05달러로 집계됐다. 30달러를 돌파한 것은 2015년 8월 집계 이래 최초다.3분기 가격도 오름세가 지속될 전망이다.시장조사업체 트렌드포스에 따르면 일부 DDR4 공급 업체는 PC 제조사와 지난달 말 계약",
+      "score": 21,
+      "source_type": "산업 전문언론",
+      "source_rank": 2,
+      "verified_source": true,
+      "overview": "7월 범용 D램(DDR4 8Gb)과 범용 낸드플래시(MLC 128Gb)의 평균 가격이 각각 최고가를 기록했다. 트렌드포스는 3분기 DDR4 공급가가 전분기 대비 15~20% 상승할 것으로 예상했다. 다만, 낸드의 경우 상승세는 지속되나 상승폭은 크게 둔화될 것으로 보인다.",
+      "key_points": [
+        "PC용 범용 DDR4 8Gb의 7월 평균 가격은 24달러로 전월 대비 14.29% 증가하며 2016년 6월 이후 최고가를 기록했다.",
+        "범용 낸드 MLC 128Gb의 7월 평균가는 30.05달러로 집계되어 2015년 8월 이후 처음으로 30달러를 돌파했다.",
+        "트렌드포스는 3분기 DDR4 공급가가 전분기 대비 15~20% 상승할 것으로 전망했으나, 이는 2분기 상승폭(45~50%)보다는 낮은 수준이다.",
+        "7월 범용 낸드 가격은 전월 대비 4.26% 상승했으며, 시장은 높은 MLC 가격에 대한 반발로 인해 상승폭이 크게 둔화될 것으로 분석된다."
+      ],
+      "numbers": [
+        "7월",
+        "24달러",
+        "21달러",
+        "14.29%",
+        "2016년 6월",
+        "30.05달러"
+      ],
+      "keywords": [
+        "D램",
+        "낸드플래시",
+        "트렌드포스",
+        "DDR4",
+        "MLC",
+        "가격"
+      ],
+      "stated_outlook": "트렌드포스는 3분기 DDR4 공급가가 전분기 대비 15~20% 상승할 것으로 예상했으며, 낸드 가격은 상승세가 이어지나 그 폭은 크게 둔화될 것으로 내다봤다."
+    },
+    {
+      "id": "5fe40f9e2bff",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "OCI, 日 기업과 패키징 웨이퍼 재생사업 진출",
+      "source": "디일렉",
+      "published": "2026-08-04 00:53",
+      "collected": "2026-08-04",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=60440",
+      "rss_description": "OCI가 일본 전문기업과 손잡고 반도체 패키징용 웨이퍼 재생(리클레임) 사업에 진출한다. 이를 위해 기존 태양광 소재 생산기지였던 OCI스페셜티 공주 공장을 반도체 소재 거점으로 전환한다.3일 복수의 업계 관계자에 따르면 OCI는 일본 업체와 웨이퍼 재생 사업 협력을 추진하고 있다. OCI스페셜티가 웨이퍼 재생 사업 경험이 없는 만큼 초기 공정 구축과 고객사 대응을 위해 외부 기술을 도입하는 것으로 풀이된다. 일본 협력사는 공개되지 않았다.한 업계 관계자는 \"OCI가 일본 업체와 제휴해 패키징용 웨이퍼 재생사업을 준비하고 있다\"며",
+      "score": 16,
+      "source_type": "산업 전문언론",
+      "source_rank": 2,
+      "verified_source": true,
+      "overview": "OCI가 반도체 패키징용 웨이퍼 재생(리클레임) 사업에 진출한다. 이를 위해 OCI스페셜티 공주 공장을 반도체 소재 거점으로 전환하며, 일본 기업과의 협력을 통해 기술을 도입할 예정이다. OCI는 해당 공장에 약 254억원을 투자하여 2027년 10월부터 상업 생산을 시작할 계획이다.",
+      "key_points": [
+        "OCI가 HBM 제조에 사용되는 캐리어 웨이퍼 리클레임 사업에 진출한다.",
+        "OCI스페셜티 공주 공장을 반도체 소재 생산 기지로 전환한다.",
+        "초기 공정 구축 및 고객사 대응을 위해 일본 기업과 기술 협력을 추진 중이다."
+      ],
+      "numbers": [
+        "254억원",
+        "2027년 10월"
+      ],
+      "keywords": [
+        "OCI",
+        "OCI스페셜티",
+        "웨이퍼 재생",
+        "캐리어 웨이퍼",
+        "HBM",
+        "리클레임"
+      ],
+      "stated_outlook": "HBM 시장 성장과 함께 확대되는 사업으로, 이번 사업을 시작으로 반도체 소재 사업을 지속적으로 확대할 계획이다."
+    },
+    {
+      "id": "b1a9749d065c",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "‘상장 대박’ CXMT, 베이징에 메모리 반도체 공장 추가 건설 추진",
+      "source": "서울경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-03 20:42",
+      "collected": "2026-08-04",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51dWZTcTRUbHJpQmV5b2RBT2pQc3F6cjFMdUtvam91RjBUWjNRd215WjNMYjZqV3htOXpyZDJ0TW9rLS0zdEhzM2xldWFobldFTmfSAVNBVV95cUxQeVJ2bjVWVktLcWlCOGp2VDBzdkVreldSWUQ3MWJLempHelpYSW9KeHczLWxhb0JzRVFyaUc5Yk9fNGszejJlN3Z6YnJWS01ZeGxRRQ?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
@@ -465,6 +526,27 @@
       "keywords": [],
       "stated_outlook": "",
       "source_rank": 3
+    },
+    {
+      "id": "2f36090d2a54",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "엘앤에프플러스, 국내 첫 LFP 양극재 양산라인 시생산품 첫 출하",
+      "source": "전자신문",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-03 11:34",
+      "collected": "2026-08-04",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5HM1k0UmRqSElPb2t0WUNxUUxiWl9GZDNXeUZWN1dlbm5Jc1RTMXNkUm84MktERW93YWswV1BOMjMwY2pOWEsxblBmQXhxUQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 2
     },
     {
       "id": "7a15dff14516",
@@ -1991,45 +2073,6 @@
         "패키징"
       ],
       "stated_outlook": "삼성전자는 2029년 1.4나노 양산과 2030년 1.4+ 공정 양산을 목표로 하며, 2나노 공정은 2, 2P, 2P+, 2X 순으로 진화할 계획이다."
-    },
-    {
-      "id": "45a124798687",
-      "sector": "semi_market",
-      "region": "domestic",
-      "category": "산업동향",
-      "title": "\"온보드 한계 넘는다\" AMD, 연산 칩·D램 통합 MoP 구조 최적화",
-      "source": "디일렉",
-      "source_type": "SEMI 큐레이션",
-      "published": "2026-07-03 09:30",
-      "collected": "2026-08-03",
-      "link": "https://www.thelec.kr/news/articleView.html?idxno=59003",
-      "rss_description": "\"온보드 한계 넘는다\" AMD, 연산 칩·D램 통합 MoP 구조 최적화",
-      "discovered_via": "SEMI Korea 블로그 · 시장동향 뉴스",
-      "summary_status": "summarized",
-      "score": 0,
-      "verified_source": true,
-      "overview": "AMD가 저전력 D램(LPDDR)을 연산 칩과 단일 기판에 패키징하는 메모리 온 패키지(MoP) 구조의 2세대 버설 프리미엄 적응형 시스템 온 칩(SoC)을 공개했다. 이 기술은 온보드 방식 대비 보드 면적을 60% 축소하고 성능을 13% 향상시킨다. AMD는 올해 말 샘플 공급을 거쳐 내년 하반기에 양산할 계획이다.",
-      "key_points": [
-        "2세대 버설 프리미엄은 32GB LPDDR5X 메모리를 지원하며 초당 307GB의 전송 대역폭을 구현한다.",
-        "MoP 구조는 복잡한 메모리 배선 설계를 불필요하게 만들어 개발 기간을 단축하고 설계 오류를 줄인다.",
-        "이 제품은 초당 64기가비트 속도의 CXL 3.1과 PCIe 6.0 인터페이스를 통합했으며 영하 40도에서 영상 110도 환경에서 작동 가능하다."
-      ],
-      "numbers": [
-        "2026.07.02",
-        "32GB",
-        "307GB",
-        "60%",
-        "13%",
-        "64기가비트"
-      ],
-      "keywords": [
-        "AMD",
-        "버설",
-        "MoP",
-        "LPDDR5X",
-        "패키징"
-      ],
-      "stated_outlook": "올해 말 샘플을 공급하고 내년 하반기에 양산할 계획이다."
     }
   ],
   "manual_items": [
