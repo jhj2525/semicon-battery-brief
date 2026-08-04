@@ -1,9 +1,8 @@
 """Process Brief final manual-first edition.
 
-Builds a fixed-size current brief and a separate on-site archive.
-Candidate dates are limited to today, yesterday, and the day before yesterday
-in Korea time. Existing verified summaries are reused and never summarized
-again.
+Builds a fresh current brief and separate on-site archives. Automatic news is
+limited to the latest 24 hours, extended up to 36 hours only when a delayed
+scheduled run would otherwise leave a collection gap.
 """
 
 import json
@@ -26,7 +25,7 @@ DOMESTIC_TARGETS = {"semiconductor": 4, "battery": 4}
 MAX_ATTEMPTS = {"semiconductor": 12, "battery": 15}
 ARCHIVE_LIMIT = 3000
 SEMI_ARCHIVE_LIMIT = 1000
-MANUAL_LIMIT = 10000
+MANUAL_LIMIT = 2500
 MANUAL_SECTORS = {"semiconductor", "battery", "semi_market"}
 
 # KIPOST and TheElec remain visible in the historical archive, but are no
@@ -272,9 +271,35 @@ def published_date(item):
         return None
 
 
-def within_three_calendar_days(item, today):
-    date = published_date(item)
-    return date is not None and today - timedelta(days=2) <= date <= today
+def published_datetime(item):
+    value = str(item.get("published", "")).strip()
+    for pattern in ("%Y-%m-%d %H:%M", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(value[:16] if "%H" in pattern else value[:10], pattern).replace(
+                tzinfo=base.KST
+            )
+        except (TypeError, ValueError):
+            continue
+    return None
+
+
+def parse_update_datetime(value):
+    try:
+        return datetime.strptime(str(value)[:16], "%Y-%m-%d %H:%M").replace(tzinfo=base.KST)
+    except (TypeError, ValueError):
+        return None
+
+
+def automatic_window_start(now, previous_update):
+    normal_start = now - timedelta(hours=24)
+    if previous_update and previous_update < normal_start:
+        return max(now - timedelta(hours=36), previous_update)
+    return normal_start
+
+
+def within_automatic_window(item, start, end):
+    published = published_datetime(item)
+    return published is not None and start <= published <= end
 
 
 def unique_rows(rows):
@@ -530,22 +555,53 @@ def existing_lookup(items):
 
 
 def same_story(left, right):
+    replacements = {
+        "디램": "d램", "dram": "d램", "낸드플래시": "낸드",
+        "엘지에너지솔루션": "lg에너지솔루션", "삼성 에스디아이": "삼성sdi",
+        "에스케이온": "sk온", "급등": "상승", "껑충": "상승",
+        "사상 최고": "최고", "역대 최고": "최고",
+    }
     left_text = left.get("title", "").lower()
     right_text = right.get("title", "").lower()
+    for old, new in replacements.items():
+        left_text = left_text.replace(old, new)
+        right_text = right_text.replace(old, new)
     left_tokens = set(re.findall(r"[가-힣A-Za-z0-9]{2,}", left_text))
     right_tokens = set(re.findall(r"[가-힣A-Za-z0-9]{2,}", right_text))
     overlap = len(left_tokens & right_tokens) / max(1, len(left_tokens | right_tokens))
-    if overlap >= 0.35:
+    if overlap >= 0.32:
         return True
-    markers = (
+    companies = (
         "삼성전자", "sk하이닉스", "tsmc", "마이크론", "엘앤에프",
         "lg에너지솔루션", "삼성sdi", "sk온", "에코프로", "포스코퓨처엠",
-        "catl", "hbm", "d램", "낸드", "파운드리", "lfp", "ess",
-        "양극재", "음극재", "전고체", "출하", "수주", "증설", "양산",
+        "catl",
     )
-    left_markers = {word for word in markers if word in left_text}
-    right_markers = {word for word in markers if word in right_text}
-    return len(left_markers & right_markers) >= 3
+    products = (
+        "hbm", "d램", "낸드", "파운드리", "lfp", "ess",
+        "양극재", "음극재", "전고체", "웨이퍼", "euv", "패키징",
+    )
+    event_groups = (
+        ("가격", "상승", "최고", "고정거래가격"),
+        ("실적", "매출", "영업이익", "흑자", "적자"),
+        ("투자", "증설", "공장", "팹", "생산능력"),
+        ("수주", "공급계약", "장기계약", "납품"),
+        ("양산", "출하", "생산", "가동", "재가동"),
+        ("규제", "관세", "보조금", "수출통제", "정책"),
+        ("인수", "합병", "합작", "지분"),
+        ("개발", "공개", "출시", "인증"),
+    )
+    shared_companies = {word for word in companies if word in left_text and word in right_text}
+    shared_products = {word for word in products if word in left_text and word in right_text}
+    shared_event = any(
+        any(word in left_text for word in group)
+        and any(word in right_text for word in group)
+        for group in event_groups
+    )
+    if shared_event and (shared_products or (shared_companies and overlap >= 0.20)):
+        return True
+    left_numbers = set(re.findall(r"\d+(?:\.\d+)?%?", left_text))
+    right_numbers = set(re.findall(r"\d+(?:\.\d+)?%?", right_text))
+    return bool(left_numbers & right_numbers) and overlap >= 0.22
 
 
 def select_sector(rows, sector, existing_items, api_key):
@@ -554,16 +610,18 @@ def select_sector(rows, sector, existing_items, api_key):
     current, newly_verified = [], []
     attempts = reused = 0
 
-    manual_rows = sorted(
-        [item for item in rows if item.get("manual_added")],
-        key=priority_key,
-        reverse=True,
-    )
-    manual_ids = {item.get("id") for item in manual_rows}
-    candidates = manual_rows + [
+    ordered = [
         item for item in ordered_sector_candidates(rows, sector)
-        if item.get("id") not in manual_ids
     ]
+    # A previously summarized article is cheap to reuse, but it must never
+    # occupy all five slots before genuinely new candidates are inspected.
+    fresh_candidates, reusable_candidates = [], []
+    for candidate in ordered:
+        old = by_id.get(candidate.get("id")) or by_url.get(
+            canonical_url(candidate.get("link"))
+        )
+        (reusable_candidates if old else fresh_candidates).append(candidate)
+    candidates = fresh_candidates + reusable_candidates
     for candidate in candidates:
         if len(current) >= target:
             break
@@ -579,7 +637,9 @@ def select_sector(rows, sector, existing_items, api_key):
             reused += 1
             continue
         if attempts >= MAX_ATTEMPTS[sector]:
-            break
+            # Continue walking so reusable verified reserves can still fill
+            # the brief after the new-article verification budget is spent.
+            continue
         attempts += 1
         try:
             verified = base.enrich_one(candidate, api_key)
@@ -1114,6 +1174,26 @@ def with_edited_title(items, edit_id, edit_title):
     return result
 
 
+def toggle_favorite(favorites, source_items, item_id, state):
+    """Keep full article snapshots so archive trimming never deletes stars."""
+    by_id = {str(item.get("id", "")): dict(item) for item in favorites if item.get("id")}
+    if not item_id:
+        return list(by_id.values())
+    if state == "false":
+        by_id.pop(item_id, None)
+    elif state == "true":
+        match = next((item for item in source_items if str(item.get("id", "")) == item_id), None)
+        if match:
+            by_id[item_id] = dict(match)
+        else:
+            print(f"favorite article not found: {item_id}")
+    return sorted(
+        by_id.values(),
+        key=lambda item: (item.get("collected", ""), item.get("published", "")),
+        reverse=True,
+    )
+
+
 def main():
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
@@ -1123,6 +1203,8 @@ def main():
     delete_id = os.getenv("DELETE_ARTICLE_ID", "").strip()
     edit_id = os.getenv("EDIT_ARTICLE_ID", "").strip()
     edit_title = os.getenv("EDIT_ARTICLE_TITLE", "").strip()
+    favorite_id = os.getenv("FAVORITE_ARTICLE_ID", "").strip()
+    favorite_state = os.getenv("FAVORITE_STATE", "").strip().lower()
     legacy = old.get("items", [])
     old_current = old.get("current_items", [])
     old_archive = old.get("archive_items", [])
@@ -1145,9 +1227,13 @@ def main():
     if edit_id and edit_title:
         print(f"edited manual article title: {edit_id}")
 
-    today = datetime.now(base.KST).date()
+    now = datetime.now(base.KST)
+    previous_update = parse_update_datetime(
+        old.get("last_automatic_update_at") or old.get("updated_at")
+    )
+    window_start = automatic_window_start(now, previous_update)
     fetched = collect_all_candidates()
-    # Keep already verified articles inside the three-day window as reusable
+    # Keep already verified articles inside the active time window as reusable
     # candidates even if a feed is temporarily unavailable on this run.
     reusable_candidates = []
     for item in all_existing:
@@ -1160,11 +1246,11 @@ def main():
     collected = unique_rows(fetched + reusable_candidates)
     eligible = [
         item for item in collected
-        if within_three_calendar_days(item, today)
+        if within_automatic_window(item, window_start, now)
         and (item.get("manual_added") is True or useful_candidate(item))
     ]
     print(
-        f"publication window: {today - timedelta(days=2)} to {today}; "
+        f"publication window: {window_start.isoformat()} to {now.isoformat()}; "
         f"collected {len(collected)}, eligible {len(eligible)}"
     )
     print(
@@ -1207,11 +1293,22 @@ def main():
     new_semi = []
     semi_archive = merge_semi_archive(all_existing_semi, [], [])
 
+    favorite_source = (
+        old_current + old_archive + legacy + old_semi_current + old_semi_archive
+        + legacy_market + old_manual_items + current + archive + manual_items
+    )
+    favorite_items = toggle_favorite(
+        old.get("favorite_items", []), favorite_source, favorite_id, favorite_state
+    )
+    if favorite_id and favorite_state in {"true", "false"}:
+        print(f"favorite updated: {favorite_id} -> {favorite_state}")
+
     payload = {
-        "updated_at": datetime.now(base.KST).strftime("%Y-%m-%d %H:%M KST"),
+        "updated_at": now.strftime("%Y-%m-%d %H:%M KST"),
+        "last_automatic_update_at": now.strftime("%Y-%m-%d %H:%M KST"),
         "publication_window": {
-            "from": (today - timedelta(days=2)).isoformat(),
-            "to": today.isoformat(),
+            "from": window_start.isoformat(),
+            "to": now.isoformat(),
         },
         "today_verified_count": len(new_items),
         "current_items": current,
@@ -1219,6 +1316,7 @@ def main():
         "semi_items": semi_current,
         "semi_archive_items": semi_archive,
         "manual_items": manual_items,
+        "favorite_items": favorite_items,
     }
     base.OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     base.OUTPUT.write_text(
