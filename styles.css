@@ -10,6 +10,7 @@
   --green-soft: #e7f4ec;
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 body {
   margin: 0;
   background: var(--paper);
@@ -109,16 +110,9 @@ dl { margin: 0 0 18px; }
 dl div { margin-bottom: 12px; }
 dt { color: var(--muted); font-size: 10px; font-weight: 700; }
 dd { margin: 3px 0 0; font-size: 12px; }
-.original-link,
-.semi-post-link {
+.original-link {
   display: block; padding: 11px; border-radius: 7px; text-align: center;
   background: var(--ink); color: white; text-decoration: none; font-size: 12px; font-weight: 800;
-}
-
-.semi-post-link {
-  margin-top: 8px;
-  background: #f3f6fa;
-  color: #34445a;
 }
 .row-detail aside > p { color: var(--muted); font-size: 10px; text-align: center; }
 .news-row.link-only .detail-main { display: none; }

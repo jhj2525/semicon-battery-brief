@@ -180,11 +180,6 @@ function buildRow(item, { deletable = false, editable = false } = {}) {
     originalSourceRow.hidden = false;
   }
   fragment.querySelector(".original-link").href = item.link;
-  const semiPostLink = fragment.querySelector(".semi-post-link");
-  if (item.semi_post_link) {
-    semiPostLink.href = item.semi_post_link;
-    semiPostLink.hidden = false;
-  }
   const deleteButton = fragment.querySelector(".delete-item");
   if (deletable && item.id) {
     deleteButton.hidden = false;
