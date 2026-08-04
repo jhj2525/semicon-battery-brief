@@ -1,21 +1,65 @@
 {
-  "updated_at": "2026-08-04 20:42 KST",
-  "last_automatic_update_at": "",
-  "automatic_cycle_started_at": "",
+  "updated_at": "2026-08-04 20:47 KST",
+  "last_automatic_update_at": "2026-08-04 20:42 KST",
+  "automatic_cycle_started_at": "2026-08-04 20:42 KST",
   "automatic_locked_vacancies": {
     "semiconductor": 0,
     "battery": 0
   },
   "publication_window": {
-    "from": "2026-08-03T20:42:54.828745+09:00",
-    "to": "2026-08-04T20:42:54.828745+09:00"
+    "from": "2026-08-03T20:47:33.094246+09:00",
+    "to": "2026-08-04T20:47:33.094246+09:00"
   },
   "today_verified_count": 0,
   "current_items": [],
   "archive_items": [],
   "semi_items": [],
   "semi_archive_items": [],
-  "manual_items": [],
+  "manual_items": [
+    {
+      "id": "30ba6d98e162",
+      "sector": "semi_market",
+      "region": "global",
+      "category": "투자·양산",
+      "title": "“설비 투자 늘려도 생산까지 3~5년… 메모리 초호황 2030년까지 갈수도”",
+      "source": "chosun.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-03 13:06",
+      "collected": "2026-08-04",
+      "link": "https://www.chosun.com/economy/tech_it/2026/08/04/NWJ777KIYJHGDJR63M33G7IDT4",
+      "requested_link": "https://www.chosun.com/economy/tech_it/2026/08/04/NWJ777KIYJHGDJR63M33G7IDT4",
+      "rss_description": "“설비 투자 늘려도 생산까지 3~5년… 메모리 초호황 2030년까지 갈수도”",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "인공지능(AI) 데이터센터 수요 급증으로 메모리 반도체 초호황기가 당초 예상된 2028년을 넘어 2030년까지 장기화될 것이라는 분석이 나왔습니다. 삼성전자와 SK하이닉스 등 주요 메모리 기업들이 대규모 설비 투자를 단행하고 있으나, 실제 생산 능력 확충까지는 3~5년의 시차가 존재합니다. 반면 하이퍼스케일러의 메모리 구매 비중은 폭발적으로 늘고 있어 단기간 내 공급 부족 해소는 어려울 전망입니다. 이로 인해 메모리 가격의 구조적 상승과 공급 난항이 향후 수년간 지속될 것으로 보입니다.",
+      "industry_context": "삼성전자와 SK하이닉스는 한국을 대표하는 글로벌 메모리 반도체 제조 기업으로, D램과 낸드플래시 등 주력 제품을 통해 전 세계 공급망의 핵심 위치를 차지하고 있습니다. 미국 마이크론 테크놀로지 또한 글로벌 메모리 시장의 주요 플레이어로서 공격적인 투자를 진행 중입니다. 반도체 분석 기관 세미애널리시스와 컨설팅 업체 딜로이트는 이들 기업의 생산 속도보다 AI 데이터센터를 구축하는 빅테크 기업들의 수요 증가세가 훨씬 가파르다고 분석하고 있습니다.",
+      "key_points": [
+        "반도체 3사의 내년 설비 투자액이 3년 전의 3.4배 수준인 1460억달러로 급증할 전망임",
+        "내년 하이퍼스케일러 전체 자본 지출 중 메모리 구매가 차지하는 비중이 36%까지 상승 예상",
+        "고대역폭 메모리(HBM)의 구조적 공급 부족 현상이 2027년까지 지속될 전망"
+      ],
+      "numbers": [
+        "2030년",
+        "3~5년",
+        "1460억달러",
+        "430억달러",
+        "4100억달러",
+        "2027년"
+      ],
+      "keywords": [
+        "메모리 반도체",
+        "수퍼 사이클",
+        "AI 데이터센터",
+        "설비 투자",
+        "공급 부족",
+        "HBM"
+      ],
+      "stated_outlook": "메모리 반도체 초호황이 2030년 이후까지 지속될 가능성이 있으며, 특히 HBM은 2027년까지 구조적인 공급 부족이 계속될 것으로 전망됨.",
+      "summary_status": "summarized",
+      "manual_active": true,
+      "manual_added_at": "2026-08-04T20:47:33.094246+09:00"
+    }
+  ],
   "favorite_items": [],
   "deleted_article_ids": [
     "66b374e2f833",
