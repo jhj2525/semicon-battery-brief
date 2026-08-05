@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05 10:04 KST",
+  "updated_at": "2026-08-05 10:18 KST",
   "last_automatic_update_at": "2026-08-04 20:42 KST",
   "automatic_cycle_started_at": "2026-08-04 20:42 KST",
   "automatic_locked_vacancies": {
@@ -7,8 +7,8 @@
     "battery": 0
   },
   "publication_window": {
-    "from": "2026-08-04T10:04:07.172391+09:00",
-    "to": "2026-08-05T10:04:07.172391+09:00"
+    "from": "2026-08-04T10:18:53.989140+09:00",
+    "to": "2026-08-05T10:18:53.989140+09:00"
   },
   "today_verified_count": 0,
   "current_items": [],
@@ -16,6 +16,29 @@
   "semi_items": [],
   "semi_archive_items": [],
   "manual_items": [
+    {
+      "id": "6ae0c31a841d",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "\"韓, 2031년까지 '메모리 최강' 유지…엔비디아, HBM 독점 완화\" | 연합뉴스",
+      "source": "연합뉴스",
+      "source_type": "직접 선택",
+      "published": "2026-08-05 13:09",
+      "collected": "2026-08-05",
+      "link": "https://www.yna.co.kr/view/AKR20260805003600091?input=1195m",
+      "requested_link": "https://www.yna.co.kr/view/AKR20260805003600091?input=1195m",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "연합뉴스 이용 조건에 따라 제목과 원문 링크만 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "manual_active": true,
+      "manual_added_at": "2026-08-05T10:18:53.989140+09:00"
+    },
     {
       "id": "3ef7b56bd11e",
       "sector": "semiconductor",
