@@ -242,6 +242,37 @@ async function requestFavorite(item, button) {
   }
 }
 
+async function requestPastedSummary(item, button) {
+  const articleText = prompt(
+    "기사 본문 전체를 붙여넣어 주세요.\n붙여넣은 전문은 저장하지 않고 요약 결과만 보관합니다."
+  );
+  if (articleText === null) return;
+  const trimmed = articleText.trim();
+  if (trimmed.length < 200) {
+    alert("기사 본문을 200자 이상 붙여넣어 주세요.");
+    return;
+  }
+  if (trimmed.length > 30000) {
+    alert("기사 본문은 30,000자 이하로 붙여넣어 주세요.");
+    return;
+  }
+  button.disabled = true;
+  button.textContent = "요약 요청 중…";
+  try {
+    await authorizedPost({
+      action: "summarize_text",
+      itemId: item.id,
+      articleText: trimmed,
+    });
+    button.textContent = "요약 처리 중";
+    alert("본문 요약 요청을 접수했습니다. 이제 창을 닫아도 되며, 잠시 후 새로고침하면 요약본으로 바뀝니다.");
+  } catch (error) {
+    button.disabled = false;
+    button.textContent = "본문 붙여넣어 요약";
+    alert(error.message || "본문 요약 요청에 실패했습니다.");
+  }
+}
+
 function buildRow(item, { deletable = false, editable = false } = {}) {
   const fragment = template.content.cloneNode(true);
   const article = fragment.querySelector(".news-row");
@@ -276,6 +307,13 @@ function buildRow(item, { deletable = false, editable = false } = {}) {
     originalSourceRow.hidden = false;
   }
   fragment.querySelector(".original-link").href = item.link;
+  const pasteSummaryButton = fragment.querySelector(".paste-summary");
+  if (linkOnly && item.id) {
+    pasteSummaryButton.hidden = false;
+    pasteSummaryButton.addEventListener("click", () =>
+      requestPastedSummary(item, pasteSummaryButton)
+    );
+  }
   const deleteButton = fragment.querySelector(".delete-item");
   if (deletable && item.id) {
     article.classList.add("deletable");
