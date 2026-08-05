@@ -7,8 +7,8 @@
     "battery": 0
   },
   "publication_window": {
-    "from": "2026-08-04T11:17:09.789543+09:00",
-    "to": "2026-08-05T11:17:09.789543+09:00"
+    "from": "2026-08-04T11:17:22.764460+09:00",
+    "to": "2026-08-05T11:17:22.764460+09:00"
   },
   "today_verified_count": 0,
   "current_items": [],
@@ -290,15 +290,35 @@
       "link": "https://www.yna.co.kr/view/AKR20260804100200003",
       "requested_link": "https://www.yna.co.kr/view/AKR20260804100200003",
       "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "연합뉴스 이용 조건에 따라 제목과 원문 링크만 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": "",
+      "verified_source": true,
+      "summary_status": "pasted_text_summary",
+      "overview": "2026년 2분기 전 세계 D램 시장에서 삼성전자가 매출 기준 점유율 39%로 1위를 유지했다. 반면 SK하이닉스는 전년 동기 대비 매출이 214% 증가했음에도 점유율은 39%에서 26%로 하락했다. 이는 HBM 평균 가격 하락과 경쟁사 대비 일찍 체결된 장기공급계약의 영향으로 분석된다. 시장 3위인 마이크론은 호실적을 기록하며 점유율 25%를 달성해 SK하이닉스와의 격차를 1%포인트로 좁혔다. 중국의 CXMT는 내수 수요와 생산 능력 확장을 통해 전년 대비 716% 성장하며 점유율 7%를 기록했다.",
+      "key_points": [
+        "삼성전자, 2026년 2분기 D램 시장 점유율 39%로 1위 수성",
+        "SK하이닉스 점유율 26%로 하락, 마이크론이 25%로 바짝 추격",
+        "중국 CXMT, 전년 대비 716%의 높은 성장률 기록하며 점유율 7% 달성"
+      ],
+      "numbers": [
+        "2026년 2분기",
+        "삼성전자 39%",
+        "SK하이닉스 26%",
+        "마이크론 25%",
+        "CXMT 7%",
+        "CXMT 매출 전년 대비 716% 증가"
+      ],
+      "keywords": [
+        "삼성전자",
+        "SK하이닉스",
+        "마이크론",
+        "CXMT",
+        "D램",
+        "HBM"
+      ],
+      "stated_outlook": "2026년 3분기부터 HBM4 출하가 본격화되어 HBM 가격 하락세가 둔화될 전망이며, 내년에는 범용 D램 가격 상승과 함께 HBM 가격도 가파르게 오를 것으로 보인다.",
       "manual_active": true,
-      "manual_added_at": "2026-08-05T10:04:07.172391+09:00"
+      "manual_added_at": "2026-08-05T10:04:07.172391+09:00",
+      "summary_source": "user_pasted_text",
+      "industry_context": "D램 시장은 범용 제품 가격 상승과 HBM 수요 변화에 큰 영향을 받고 있다. HBM4 출하가 본격화됨에 따라 제품 믹스 개선을 통한 가격 흐름 변화가 예상된다."
     },
     {
       "id": "92f2341343aa",
