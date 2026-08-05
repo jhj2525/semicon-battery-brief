@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05 15:23 KST",
+  "updated_at": "2026-08-05 15:24 KST",
   "last_automatic_update_at": "2026-08-04 20:42 KST",
   "automatic_cycle_started_at": "2026-08-04 20:42 KST",
   "automatic_locked_vacancies": {
@@ -7,8 +7,8 @@
     "battery": 1
   },
   "publication_window": {
-    "from": "2026-08-04T15:23:59.344467+09:00",
-    "to": "2026-08-05T15:23:59.344467+09:00"
+    "from": "2026-08-04T15:24:22.578978+09:00",
+    "to": "2026-08-05T15:24:22.578978+09:00"
   },
   "today_verified_count": 0,
   "current_items": [
@@ -764,7 +764,7 @@
       "sector": "battery",
       "region": "domestic",
       "category": "산업",
-      "title": "에코프로,",
+      "title": "에코프로, '반도체 소재' 순항…전구체 공급 확대 기대",
       "source": "ZDNet Korea",
       "source_type": "직접 선택",
       "published": "2026-08-05 02:48",
