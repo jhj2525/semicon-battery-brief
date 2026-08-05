@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05 10:18 KST",
+  "updated_at": "2026-08-05 10:20 KST",
   "last_automatic_update_at": "2026-08-04 20:42 KST",
   "automatic_cycle_started_at": "2026-08-04 20:42 KST",
   "automatic_locked_vacancies": {
@@ -7,8 +7,8 @@
     "battery": 0
   },
   "publication_window": {
-    "from": "2026-08-04T10:18:53.989140+09:00",
-    "to": "2026-08-05T10:18:53.989140+09:00"
+    "from": "2026-08-04T10:20:00.585705+09:00",
+    "to": "2026-08-05T10:20:00.585705+09:00"
   },
   "today_verified_count": 0,
   "current_items": [],
@@ -128,6 +128,71 @@
       "manual_added_at": "2026-08-05T10:04:07.172391+09:00"
     },
     {
+      "id": "801b066f8ff4",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "에코프로,",
+      "source": "ZDNet Korea",
+      "source_type": "직접 선택",
+      "published": "2026-08-05 02:48",
+      "collected": "2026-08-05",
+      "link": "https://zdnet.co.kr/view?no=20260804164711",
+      "requested_link": "https://zdnet.co.kr/view?no=20260804164711",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "manual_active": true,
+      "manual_added_at": "2026-08-05T10:20:00.585705+09:00"
+    },
+    {
+      "id": "fe226815563c",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "삼성SDI ESS 수요 급증에 북미 증설 타진, 최주선 스텔란티스·GM 합작공장 건설 재추진하나",
+      "source": "m.businesspost.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-08-05 00:49",
+      "collected": "2026-08-05",
+      "link": "https://m.businesspost.co.kr/BP?num=443909&command=mobile_view",
+      "requested_link": "https://m.businesspost.co.kr/BP?num=443909&command=mobile_view",
+      "rss_description": "삼성SDI ESS 수요 급증에 북미 증설 타진, 최주선 스텔란티스·GM 합작공장 건설 재추진하나",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "삼성SDI가 북미 지역의 에너지저장장치(ESS) 배터리 수요 급증에 대응하기 위해 신규 생산공장 건설을 적극적으로 검토하고 있다. 기존에 추진하다가 전기차 수요 정체로 중단했던 스텔란티스 및 GM과의 합작공장 건설 재추진이 유력한 대안으로 거론된다. ESS 시장의 수주 물량이 2029년 생산 예정분까지 모두 채워진 상황에서 생산능력 확대가 필수적인 상황이다. 이를 위해 삼성SDI는 보유 중인 삼성디스플레이 지분 매각을 통해 최대 10조 원 규모의 투자 재원을 마련할 계획이다.",
+      "industry_context": "삼성SDI는 대한민국의 주요 배터리 제조사로, 전기차 및 ESS용 리튬이온 배터리를 주력으로 생산한다. 미국 인디애나주 코코모시에 위치한 스텔란티스와의 합작법인 '스타플러스에너지(SPE)1'을 통해 북미 생산 거점을 운영하고 있으며, 인디애나주 뉴칼라일에는 GM과의 합작공장 '시너지셀즈' 건설을 추진해 왔다.",
+      "key_points": [
+        "북미 AI 데이터센터 관련 ESS용 배터리 수요가 급증함에 따라 추가 생산능력 확보가 필요해짐",
+        "삼성SDI는 2028년부터의 ESS 배터리 수요를 감당하기 위해 기존 합작공장 건설 재개를 고려 중",
+        "투자 자금 조달을 위해 삼성디스플레이 지분 매각을 다각도로 검토하고 있음"
+      ],
+      "numbers": [
+        "2028년",
+        "2029년",
+        "10조 원",
+        "30GWh",
+        "15.2%"
+      ],
+      "keywords": [
+        "삼성SDI",
+        "ESS",
+        "배터리",
+        "북미 증설",
+        "스텔란티스",
+        "GM"
+      ],
+      "stated_outlook": "2024년 하반기 ESS 중심으로 실적 개선이 기대되며, 4분기부터 미국 내 LFP 배터리 생산을 시작으로 가파른 성장세가 예상됨.",
+      "summary_status": "summarized",
+      "manual_active": true,
+      "manual_added_at": "2026-08-05T10:20:00.585705+09:00"
+    },
+    {
       "id": "33604144a555",
       "sector": "semiconductor",
       "region": "global",
@@ -191,6 +256,47 @@
       "stated_outlook": "",
       "manual_active": true,
       "manual_added_at": "2026-08-05T10:04:07.172391+09:00"
+    },
+    {
+      "id": "92f2341343aa",
+      "sector": "battery",
+      "region": "global",
+      "category": "산업",
+      "title": "포드 이어 GM도 ESS 본격화…韓 배터리사에 위협될까",
+      "source": "hankyung.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-03 15:00",
+      "collected": "2026-08-05",
+      "link": "https://www.hankyung.com/article/202607157567G",
+      "requested_link": "https://www.hankyung.com/article/202607157567G",
+      "rss_description": "포드 이어 GM도 ESS 본격화…韓 배터리사에 위협될까",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "미국 완성차 업체인 포드와 GM이 AI 시대의 전력 수요 급증에 대응하기 위해 에너지저장장치(ESS) 시장에 본격적으로 진출하고 있다. 포드는 중국 CATL과의 협력을 통해 LFP 배터리 양산 체제를 구축하고 있으며, GM은 스타트업 피크에너지와 함께 나트륨이온 배터리 개발 등 차세대 기술 확보에 나섰다. 이러한 완성차 업계의 진출은 기존 미국 ESS 시장에서 과점적 지위를 누리던 한국 배터리 기업들에게 경쟁 심화라는 위협 요인으로 작용할 전망이다. 이에 대응해 LG에너지솔루션 등 국내 업체들은 기존 전기차 생산 인프라를 ESS용으로 빠르게 전환하며 시장 선점에 속도를 높이고 있다.",
+      "industry_context": "포드와 GM은 미국의 대표적인 완성차 제조사로, 최근 전기차 수요 부진을 극복하기 위해 ESS 시장을 차세대 성장 동력으로 삼고 있다. 한국의 배터리 제조사들은 우수한 기술력과 미국 현지 대규모 생산 거점을 바탕으로 글로벌 공급망의 핵심 위치를 차지하고 있으나, 중국 기업의 기술 유입과 완성차 업체의 직접 진출이라는 새로운 도전 과제에 직면해 있다.",
+      "key_points": [
+        "포드는 CATL의 기술 지원을 받아 미국 내 LFP 배터리 생산을 본격화함",
+        "GM은 ESS 사업 진출을 선언하고 미국 스타트업 피크에너지와 나트륨이온 배터리 개발을 추진 중",
+        "LG에너지솔루션은 기존 전기차 배터리 생산 라인을 ESS용으로 전환하여 미국 내 점유율을 방어하고 있음"
+      ],
+      "numbers": [
+        "20억 달러(3조 원): 포드의 ESS 사업 투자 규모",
+        "20GWh: 포드의 연간 ESS 전력 생산 목표",
+        "50GWh: LG에너지솔루션의 연말 북미 ESS 생산 역량 확보 계획",
+        "100GWh: 2030년 미국 그리드용 배터리 수요 예측치"
+      ],
+      "keywords": [
+        "ESS",
+        "포드",
+        "GM",
+        "LG에너지솔루션",
+        "LFP배터리",
+        "나트륨이온배터리"
+      ],
+      "stated_outlook": "포드는 내년 말 첫 고객 인도를 목표로 하고 있으며, GM은 2028년경 나트륨이온 배터리 양산을 계획하고 있다. 블룸버그 NEF는 미국 그리드용 배터리 수요가 2030년까지 현재의 두 배 수준으로 성장할 것으로 전망했다.",
+      "summary_status": "summarized",
+      "manual_active": true,
+      "manual_added_at": "2026-08-05T10:20:00.585705+09:00"
     },
     {
       "id": "30ba6d98e162",
