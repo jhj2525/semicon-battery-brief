@@ -7,8 +7,8 @@
     "battery": 0
   },
   "publication_window": {
-    "from": "2026-08-04T15:23:29.717174+09:00",
-    "to": "2026-08-05T15:23:29.717174+09:00"
+    "from": "2026-08-04T15:23:48.990300+09:00",
+    "to": "2026-08-05T15:23:48.990300+09:00"
   },
   "today_verified_count": 0,
   "current_items": [
@@ -302,13 +302,32 @@
       "collected": "2026-08-05",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TY0ZrZ3NwYlNib2dXczZyRUlGcGluY3k2NmJpc1QxbnF1OGZOdTdDb1BVcThlRVZpQnJvcWpPUnU4eHdyeVRobFN1ZHBuUmhiOWNUaVQxVGlaMjR6bTVr0gFTQVVfeXFMTXY0NmZmTWllZkpoNm03T0ZWX3drNm9fVk5mNzR1LXlxSGtWQWhuc2NNVFU4aklnS3VXY3k3OWtIUlpMTmw2ZUVPUjR5Z29XTVdSZzA?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "pasted_text_summary",
+      "overview": "정부가 발표한 '2026 세법개정안'에 배터리 및 2차전지 품목에 대한 국내생산세액공제가 포함되었습니다. 한국 국적 기업이 국내에서 생산과 판매를 모두 할 경우 적격생산비용의 최소 50%를 공제받는 혜택이 주어집니다. 배터리 업계는 이번 조치가 산업 경쟁력 강화에 기여할 것으로 기대하며 환영 의사를 밝혔습니다. 다만 직접 보조금 지원의 부재와 흑자 기업에 한정된 세액공제 방식의 실효성에 대해 업계의 우려가 제기됩니다. 또한 전기차가 지원 대상에서 제외됨에 따라 배터리 밸류체인 전반에 대한 포괄적 지원이 필요하다는 지적이 나오고 있습니다.",
+      "key_points": [
+        "2026 세법개정안에 배터리 및 2차전지 국내생산세액공제 신설",
+        "국내 생산·판매 시 적격생산비용의 최소 50%를 세액공제",
+        "전기차 등 밸류체인 전반이 지원 대상에서 제외되어 업계 아쉬움 표명",
+        "국내 등록 전기차 중 중국산 비중이 34%까지 급증"
+      ],
+      "numbers": [
+        "2026-08-05",
+        "적격생산비용 최소 50%",
+        "국내 신규 등록 전기차 22만 177대",
+        "중국산 전기차 비중 34%(7만 4728대)",
+        "2022년 중국산 전기차 비중 4.7%"
+      ],
+      "keywords": [
+        "국내생산세액공제",
+        "배터리",
+        "2차전지",
+        "전기차",
+        "밸류체인"
+      ],
+      "stated_outlook": "중국산 전기차의 비중이 빠르게 늘어남에 따라 국내 업체의 입지가 더 좁아질 것으로 전망됩니다.",
+      "summary_source": "user_pasted_text",
+      "industry_context": "배터리 산업은 원료부터 최종 제품인 전기차까지 포괄적인 밸류체인을 형성하고 있으나, 이번 개정안에서는 최종 사용처인 전기차가 지원 대상에서 빠지며 완성차 업계의 우려가 커지고 있습니다. 국내 전기차 시장에서 중국산 비중이 4년 만에 30%를 넘어서는 등 가격 경쟁력을 앞세운 중국산 전기차의 공세가 심화되는 상황입니다."
     },
     {
       "id": "512cc76cdf8e",
