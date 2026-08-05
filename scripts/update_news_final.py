@@ -302,10 +302,10 @@ def within_automatic_window(item, start, end):
     return published is not None and start <= published <= end
 
 
-def begins_new_daily_cycle(now, cycle_started_at, maintenance_request, event_name):
+def begins_new_daily_cycle(now, cycle_started_at, maintenance_request, automatic_run):
     """Only a scheduled run may replace the 24-hour automatic bundle."""
     return (
-        event_name == "schedule"
+        automatic_run
         and not maintenance_request
         and (
             cycle_started_at is None
@@ -1238,6 +1238,91 @@ def toggle_favorite(favorites, source_items, item_id, state):
     )
 
 
+def summarize_pasted_article(item, article_text, api_key):
+    """Summarize user-supplied article text without storing the full text."""
+    article_text = str(article_text or "").strip()
+    if len(article_text) < 200 or len(article_text) > 30000:
+        raise ValueError("pasted article text must be between 200 and 30000 characters")
+    prompt = f"""
+아래는 사용자가 원문 사이트에서 직접 복사한 기사 본문이다.
+반드시 붙여넣은 본문에 명시된 사실만 이용해 한국어 산업 뉴스 브리핑으로 정리하라.
+기사 제목: {item.get('title', '')}
+기사 분야: {item.get('sector', '')}
+
+[기사 본문]
+{article_text}
+[/기사 본문]
+
+규칙:
+1. 첫 문단은 무엇이 바뀌었는지와 기업·제품·공정·시장 영향을 4~6문장으로 설명한다.
+2. 숫자·날짜·기업명·기술명은 본문에 있을 때만 쓴다.
+3. 본문 밖의 최신 실적·점유율·전망을 추가하지 않는다.
+4. 광고·메뉴·기자 정보·관련기사 목록은 제외한다.
+
+JSON 객체 하나만 반환:
+{{
+  "overview": "기사 요약 4~6문장",
+  "industry_context": "본문에 명시된 기업·기술·공급망 배경 1~3문장. 없으면 빈 문자열",
+  "key_points": ["핵심 사실 1", "핵심 사실 2", "핵심 사실 3"],
+  "numbers": ["핵심 수치·날짜"] 또는 [],
+  "keywords": ["핵심 키워드 3~6개"],
+  "stated_outlook": "본문에 직접 언급된 계획·전망. 없으면 빈 문자열"
+}}
+"""
+    endpoint = (
+        "https://generativelanguage.googleapis.com/v1beta/models/"
+        f"{base.MODEL}:generateContent?{urlencode({'key': api_key})}"
+    )
+    body = json.dumps({
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {"responseMimeType": "application/json"},
+    }).encode("utf-8")
+    request = Request(
+        endpoint,
+        data=body,
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    with base.urlopen(request, timeout=120) as response:
+        raw = json.loads(response.read().decode("utf-8"))
+    result = base.parse_model_json(raw["candidates"][0]["content"]["parts"][0]["text"])
+    overview = base.clean(result.get("overview", ""))
+    key_points = [
+        base.clean(value) for value in result.get("key_points", [])
+        if base.clean(value)
+    ][:5]
+    if not overview or len(key_points) < 2:
+        raise ValueError("pasted article summary was incomplete")
+    updated = dict(item)
+    updated.update({
+        "verified_source": True,
+        "summary_status": "pasted_text_summary",
+        "summary_source": "user_pasted_text",
+        "overview": overview,
+        "industry_context": base.clean(result.get("industry_context", "")),
+        "key_points": key_points,
+        "numbers": [
+            base.clean(value) for value in result.get("numbers", [])
+            if base.clean(value)
+        ][:6],
+        "keywords": [
+            base.clean(value) for value in result.get("keywords", [])
+            if base.clean(value)
+        ][:6],
+        "stated_outlook": base.clean(result.get("stated_outlook", "")),
+    })
+    return updated
+
+
+def replace_article(items, item_id, replacement):
+    if not item_id or replacement is None:
+        return list(items)
+    return [
+        dict(replacement) if str(item.get("id", "")) == item_id else item
+        for item in items
+    ]
+
+
 def main():
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
@@ -1255,8 +1340,11 @@ def main():
     favorite_state = os.getenv("FAVORITE_STATE", "").strip().lower()
     manual_url = os.getenv("MANUAL_ARTICLE_URL", "").strip()
     manual_sector = os.getenv("MANUAL_ARTICLE_SECTOR", "").strip()
+    pasted_article_id = os.getenv("PASTED_ARTICLE_ID", "").strip()
+    pasted_article_text = os.getenv("PASTED_ARTICLE_TEXT", "").strip()
     maintenance_request = bool(
         delete_ids or edit_id or favorite_id or manual_url
+        or pasted_article_id or pasted_article_text
     )
     legacy = old.get("items", [])
     old_current = old.get("current_items", [])
@@ -1279,6 +1367,37 @@ def main():
     old_manual_items = old.get("manual_items", [])
     old_manual_items = without_deleted(old_manual_items, deleted_article_ids)
     old_manual_items = with_edited_title(old_manual_items, edit_id, edit_title)
+    old_favorite_items = without_deleted(
+        old.get("favorite_items", []), deleted_article_ids
+    )
+    if bool(pasted_article_id) != bool(pasted_article_text):
+        raise ValueError("pasted article ID and text must be provided together")
+    if pasted_article_id:
+        if not re.fullmatch(r"[a-f0-9]{12}", pasted_article_id, re.IGNORECASE):
+            raise ValueError("pasted article ID is invalid")
+        pasted_source = next((
+            item for item in (
+                old_current + old_archive + legacy + old_semi_current
+                + old_semi_archive + legacy_market + old_manual_items
+            )
+            if str(item.get("id", "")) == pasted_article_id
+        ), None)
+        if pasted_source is None:
+            raise ValueError("article for pasted text was not found")
+        pasted_replacement = summarize_pasted_article(
+            pasted_source, pasted_article_text, api_key
+        )
+        old_current = replace_article(old_current, pasted_article_id, pasted_replacement)
+        old_archive = replace_article(old_archive, pasted_article_id, pasted_replacement)
+        legacy = replace_article(legacy, pasted_article_id, pasted_replacement)
+        old_semi_current = replace_article(old_semi_current, pasted_article_id, pasted_replacement)
+        old_semi_archive = replace_article(old_semi_archive, pasted_article_id, pasted_replacement)
+        legacy_market = replace_article(legacy_market, pasted_article_id, pasted_replacement)
+        old_manual_items = replace_article(old_manual_items, pasted_article_id, pasted_replacement)
+        old_favorite_items = replace_article(old_favorite_items, pasted_article_id, pasted_replacement)
+        print(f"pasted article summarized: {pasted_article_id}")
+    all_existing = [tag_source(item) for item in old_current + old_archive + legacy]
+    all_existing_semi = old_semi_current + old_semi_archive + legacy_market
     if delete_ids:
         print(f"deleted stored article ids: {len(delete_ids)}")
     if edit_id and edit_title:
@@ -1286,6 +1405,8 @@ def main():
 
     now = datetime.now(base.KST)
     event_name = os.getenv("GITHUB_EVENT_NAME", "").strip()
+    bootstrap_requested = os.getenv("AUTOMATIC_BOOTSTRAP", "").strip().lower() == "true"
+    automatic_run = event_name == "schedule" or bootstrap_requested
     previous_update = parse_update_datetime(
         old.get("last_automatic_update_at") or old.get("updated_at")
     )
@@ -1295,7 +1416,7 @@ def main():
         or old.get("updated_at")
     )
     new_daily_cycle = begins_new_daily_cycle(
-        now, cycle_started_at, maintenance_request, event_name
+        now, cycle_started_at, maintenance_request, automatic_run
     )
     locked_vacancies = {
         sector: max(0, min(TARGETS[sector], int(
@@ -1313,7 +1434,7 @@ def main():
                     TARGETS[sector], locked_vacancies[sector] + 1
                 )
     window_start = automatic_window_start(now, previous_update)
-    if maintenance_request or event_name != "schedule":
+    if maintenance_request or not automatic_run:
         current = old_current
         new_items = []
         print("non-scheduled request: automatic daily brief preserved")
@@ -1436,7 +1557,7 @@ def main():
         + legacy_market + old_manual_items + current + archive + manual_items
     )
     favorite_items = toggle_favorite(
-        without_deleted(old.get("favorite_items", []), deleted_article_ids),
+        old_favorite_items,
         favorite_source, favorite_id, favorite_state
     )
     if favorite_id and favorite_state in {"true", "false"}:
