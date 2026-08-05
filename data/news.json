@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05 14:33 KST",
+  "updated_at": "2026-08-05 15:23 KST",
   "last_automatic_update_at": "2026-08-04 20:42 KST",
   "automatic_cycle_started_at": "2026-08-04 20:42 KST",
   "automatic_locked_vacancies": {
@@ -7,8 +7,8 @@
     "battery": 0
   },
   "publication_window": {
-    "from": "2026-08-04T14:33:32.663642+09:00",
-    "to": "2026-08-05T14:33:32.663642+09:00"
+    "from": "2026-08-04T15:23:29.717174+09:00",
+    "to": "2026-08-05T15:23:29.717174+09:00"
   },
   "today_verified_count": 0,
   "current_items": [
@@ -322,13 +322,29 @@
       "collected": "2026-08-05",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5EeFJXMl9ZSV9XcEI5QW1xak1TYkR5dm1uSHFwZEFQWU1xZXd1TVJTNThJak91bWZTZjlFSGxEZ0llUGlUeEthQnBmc2d3QW9kY2930gFTQVVfeXFMTkR4UlcyX1lJX1dwQjlBbXFqTVNiRHl2bW5IcXBkQVBZTXFld3VNUlM1OElqT3VtZlNmOUVIbERnSWVQaVR4S2FCcGZzZ3dBb2Rjb3c?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "pasted_text_summary",
+      "overview": "미국 내 재생에너지 확대와 데이터센터 전력 수요 급증으로 에너지저장장치(ESS) 시장이 빠르게 성장하고 있다. 이에 따라 전력망 접속 지연을 해소하고 독립 전력망을 구축하려는 수요가 ESS 설치로 이어지며 한국 기업들에 새로운 진출 기회가 열렸다. 특히 미국의 대중국 관세 인상과 공급망 규제가 강화되면서 가격 경쟁력을 넘어 종합 역량을 요구하는 시장으로 재편되고 있다. 코트라는 한국 기업이 배터리 모듈 부품부터 전력변환장치, 안전설비, 운영관리 솔루션 분야에서 기회를 잡을 수 있다고 분석했다. 현지 진출을 위해 기술 검증과 공동 개발, 생산 체계 구축 등의 전략이 요구되는 상황이다.",
+      "key_points": [
+        "재생에너지 비중 확대와 데이터센터 전력 수요 급증으로 미국 내 ESS 수요 증가",
+        "대중국 규제 강화 및 공급망 재편으로 한국 기업의 시장 진입 여건 개선",
+        "배터리 모듈 부품, 전력변환장치, 에너지관리시스템, 안전설비 등이 유망 진출 분야로 제시됨"
+      ],
+      "numbers": [
+        "태양광·풍력 비중 2027년 약 21% 전망",
+        "데이터센터 전력 수요 2030년 115GW 예상",
+        "중국산 리튬이온 배터리 추가관세 25% 인상"
+      ],
+      "keywords": [
+        "ESS",
+        "공급망 재편",
+        "데이터센터",
+        "Section 48E",
+        "코트라"
+      ],
+      "stated_outlook": "코트라는 품목별 기술 검증, 고객사 공동개발, 현지 생산·기술지원 체계 구축을 통해 국내 기업의 미국 ESS 공급망 진입을 적극적으로 도울 계획이다.",
+      "summary_source": "user_pasted_text",
+      "industry_context": "미국은 청정 전력 투자세액공제인 'Section 48E'를 통해 ESS 투자를 지원하는 한편, 금지외국단체(PFE) 공급망 제한 및 중국산 리튬이온 배터리 관세 인상(7.5%에서 25%로)을 통해 중국산 배터리 의존도를 낮추고 있다."
     },
     {
       "id": "6121e95918f0",
