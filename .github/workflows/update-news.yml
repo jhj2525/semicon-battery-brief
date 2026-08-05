@@ -2,10 +2,17 @@ name: Daily news update
 
 on:
   schedule:
-    - cron: "17 22 * * *"
-    - cron: "17 23 * * *"
+    - cron: "7 22 * * *"
+    - cron: "37 22 * * *"
+    - cron: "7 23 * * *"
+    - cron: "37 23 * * *"
   workflow_dispatch:
     inputs:
+      automatic_bootstrap:
+        description: "자동 뉴스가 비었을 때 지금 최대 5+5 생성"
+        required: false
+        default: false
+        type: boolean
       article_url:
         description: "수동 추가할 기사 URL · 여러 개는 줄바꿈 (자동 업데이트만 할 때는 비우기)"
         required: false
@@ -37,6 +44,14 @@ on:
         type: string
       favorite_state:
         description: "즐겨찾기 추가 true / 해제 false"
+        required: false
+        type: string
+      pasted_article_id:
+        description: "붙여넣은 본문으로 다시 요약할 기사 ID"
+        required: false
+        type: string
+      pasted_article_text:
+        description: "사용자가 붙여넣은 기사 본문"
         required: false
         type: string
 
@@ -112,6 +127,9 @@ jobs:
           EDIT_ARTICLE_TITLE: ${{ inputs.edit_article_title }}
           FAVORITE_ARTICLE_ID: ${{ inputs.favorite_article_id }}
           FAVORITE_STATE: ${{ inputs.favorite_state }}
+          AUTOMATIC_BOOTSTRAP: ${{ inputs.automatic_bootstrap }}
+          PASTED_ARTICLE_ID: ${{ inputs.pasted_article_id }}
+          PASTED_ARTICLE_TEXT: ${{ inputs.pasted_article_text }}
         run: python scripts/update_news_final.py
       - name: Save updated data
         if: steps.guard.outputs.skip != 'true'
