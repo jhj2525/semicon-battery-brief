@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05 14:27 KST",
+  "updated_at": "2026-08-05 14:28 KST",
   "last_automatic_update_at": "2026-08-04 20:42 KST",
   "automatic_cycle_started_at": "2026-08-04 20:42 KST",
   "automatic_locked_vacancies": {
@@ -7,8 +7,8 @@
     "battery": 0
   },
   "publication_window": {
-    "from": "2026-08-04T14:27:05.535920+09:00",
-    "to": "2026-08-05T14:27:05.535920+09:00"
+    "from": "2026-08-04T14:28:44.811699+09:00",
+    "to": "2026-08-05T14:28:44.811699+09:00"
   },
   "today_verified_count": 0,
   "current_items": [
@@ -747,7 +747,53 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "favorite_items": [],
+  "favorite_items": [
+    {
+      "id": "7f2d960a02ea",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "SK하이닉스, 샌디스크와 HBF 첫 표준 공개…AI 메모리 병목 푼다",
+      "source": "n.news.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-05 10:04",
+      "collected": "2026-08-05",
+      "link": "https://n.news.naver.com/mnews/article/003/0014106279?sid=101&lfrom=blog",
+      "requested_link": "https://n.news.naver.com/mnews/article/003/0014106279?sid=101&lfrom=blog",
+      "manual_added": true,
+      "verified_source": true,
+      "summary_status": "pasted_text_summary",
+      "overview": "SK하이닉스가 샌디스크와 협력하여 차세대 스토리지 기술인 고대역폭플래시(HBF)의 첫 표준 규격을 공개했다. HBF는 고대역폭메모리(HBM)와 솔리드스테이트드라이브(SSD) 사이에 위치하는 새로운 메모리 계층으로, 인공지능(AI) 시대의 데이터 처리 병목 현상을 해소할 핵심 기술로 주목받는다. 이번 표준 규격은 미국에서 열린 'FMS 2026' 행사에서 발표되었으며, 업계 전반의 채택 확대를 위해 OCP를 통해 공개되었다. SK하이닉스는 이번 표준화를 통해 AI 스토리지 시장에서의 기술 주도권을 강화하고 관련 생태계 조성을 본격화할 계획이다.",
+      "key_points": [
+        "SK하이닉스와 샌디스크가 HBF 표준 규격을 공개하고 OCP를 통해 이를 배포했다.",
+        "HBF는 HBM의 속도와 낸드 기반의 대용량 확장성을 동시에 제공하는 새로운 메모리 계층이다.",
+        "HBF 표준은 최대 512GB 용량과 0.4TB/s에서 3.0TB/s까지의 대역폭 등급을 정의한다.",
+        "SK하이닉스는 내년 초 375단 4D 낸드 기반 eSSD 양산을 시작할 예정이다.",
+        "현재 HBF 컨소시엄에는 구글과 텐스토렌트가 참여하여 생태계를 구축 중이다."
+      ],
+      "numbers": [
+        "2026.08.04",
+        "512GB",
+        "0.4TB/s",
+        "3.0TB/s",
+        "375단",
+        "2.5배"
+      ],
+      "keywords": [
+        "SK하이닉스",
+        "HBF",
+        "AI 메모리",
+        "낸드 플래시",
+        "FMS 2026",
+        "UCIe"
+      ],
+      "stated_outlook": "SK하이닉스는 HBF 채택을 확대하여 관련 생태계를 조성하고, 내년 초 375단 4D 낸드 기반의 고성능·고용량 eSSD 양산에 착수할 계획이다.",
+      "manual_active": true,
+      "manual_added_at": "2026-08-05T10:04:07.172391+09:00",
+      "summary_source": "user_pasted_text",
+      "industry_context": "AI 기술 확산으로 데이터 처리량이 급증함에 따라 대역폭과 용량 확장성을 동시에 확보하기 위한 메모리 구조 재설계가 요구되고 있다. 이에 따라 HBF 컨소시엄은 업계 표준인 UCIe 인터페이스를 채택하여 프로세서와의 연결 유연성을 확보하고 생태계 확장에 나서고 있다."
+    }
+  ],
   "deleted_article_ids": [
     "66b374e2f833",
     "b1a9749d065c",
