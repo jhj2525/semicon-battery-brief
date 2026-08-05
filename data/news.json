@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05 14:29 KST",
+  "updated_at": "2026-08-05 14:30 KST",
   "last_automatic_update_at": "2026-08-04 20:42 KST",
   "automatic_cycle_started_at": "2026-08-04 20:42 KST",
   "automatic_locked_vacancies": {
@@ -7,8 +7,8 @@
     "battery": 0
   },
   "publication_window": {
-    "from": "2026-08-04T14:29:46.457560+09:00",
-    "to": "2026-08-05T14:29:46.457560+09:00"
+    "from": "2026-08-04T14:30:13.808058+09:00",
+    "to": "2026-08-05T14:30:13.808058+09:00"
   },
   "today_verified_count": 0,
   "current_items": [
@@ -184,13 +184,32 @@
       "collected": "2026-08-05",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBXU2R1YVNFMXN1UW5sbWJpeExhYzFpZEQ0Mm5LVmd3LXQyR1J2aFhoX0p2cklCZHNYSEJuX3M3SFNzTzhXWmlNS09xY2xLZWJINFE?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "pasted_text_summary",
+      "overview": "미국 트럼프 행정부가 태양광 패널과 반도체 핵심 소재인 폴리실리콘에 대해 가격하한제 도입과 관세 부과를 검토 중이다. 이번 조치는 미국 내 폴리실리콘 공장을 보호하고 공급망 부문에서 중국을 견제하기 위한 목적을 가지고 있다. 결정은 8월 내로 내려질 것으로 예상되며, 최저 수입 가격 설정과 추가 관세를 결합한 혼합식 제재가 유력하다. 다만, 미국 내 생산 확대 전까지는 한국 OCI홀딩스와 말레이시아·독일 등 비중국 생산업체로부터의 수입이 불가피하다는 관측이 나오고 있다.",
+      "key_points": [
+        "미국 행정부가 폴리실리콘 가격하한제 및 관세 부과 방안을 8월 내 결정할 예정임",
+        "중국의 보조금 및 과잉생산 견제와 미국 내 생산업체 보호가 정책의 주된 목적임",
+        "이미 무역법 제301조를 통해 중국산 폴리실리콘 및 태양광 웨이퍼 관세율을 25%에서 50%로 인상한 바 있음"
+      ],
+      "numbers": [
+        "2026.08.05",
+        "8월 내",
+        "25%",
+        "50%",
+        "85~90%",
+        "2.4%"
+      ],
+      "keywords": [
+        "폴리실리콘",
+        "가격하한제",
+        "관세",
+        "트럼프 행정부",
+        "공급망 견제"
+      ],
+      "stated_outlook": "미국 내 폴리실리콘, 웨이퍼, 셀 생산 능력이 확대될 때까지 비중국 생산업체로부터의 수입이 지속될 것으로 보이며, 정부는 미국 내 생산업체 지원과 태양광·반도체 패널의 비용 상승 부작용 사이에서 균형을 맞춰야 하는 상황이다.",
+      "summary_source": "user_pasted_text",
+      "industry_context": "폴리실리콘은 반도체와 태양광 공급망의 시작 지점으로, 미국은 1962년 무역확장법 제232조를 근거로 수입이 국가안보에 미치는 영향에 대한 조사를 진행해 왔다. 현재 미국 내에서는 헴록 반도체와 바커 케미가 공장을 운영하고 있다."
     },
     {
       "id": "12fc79f786b5",
