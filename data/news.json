@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05 15:24 KST",
+  "updated_at": "2026-08-06 09:49 KST",
   "last_automatic_update_at": "2026-08-04 20:42 KST",
   "automatic_cycle_started_at": "2026-08-04 20:42 KST",
   "automatic_locked_vacancies": {
@@ -7,8 +7,8 @@
     "battery": 1
   },
   "publication_window": {
-    "from": "2026-08-04T15:24:22.578978+09:00",
-    "to": "2026-08-05T15:24:22.578978+09:00"
+    "from": "2026-08-04T21:49:42.032206+09:00",
+    "to": "2026-08-06T09:49:42.032206+09:00"
   },
   "today_verified_count": 0,
   "current_items": [
@@ -352,6 +352,71 @@
   "semi_items": [],
   "semi_archive_items": [],
   "manual_items": [
+    {
+      "id": "a110c7a33521",
+      "sector": "battery",
+      "region": "global",
+      "category": "기술·공정",
+      "title": "유럽 셀 제조사 양산 차질에…K배터리 3사, EU 현지 수요 노린다 [배터리레이다]",
+      "source": "n.news.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-06 09:49",
+      "collected": "2026-08-06",
+      "link": "https://n.news.naver.com/article/138/0002236782",
+      "requested_link": "https://n.news.naver.com/article/138/0002236782",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "manual_active": true,
+      "manual_added_at": "2026-08-06T09:49:42.032206+09:00"
+    },
+    {
+      "id": "acecc95c3b14",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "글로벌 ESS 71% 급성장, LG에너지솔루션 출하량 357% 증가",
+      "source": "autodaily.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-08-04 09:00",
+      "collected": "2026-08-06",
+      "link": "https://www.autodaily.co.kr/news/articleViewAmp.html?idxno=546402",
+      "requested_link": "https://share.google/m5eu7JEf7nx6uwTIP",
+      "rss_description": "글로벌 ESS 71% 급성장, LG에너지솔루션 출하량 357% 증가 |",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "글로벌 에너지저장장치(ESS) 시장이 전기차 배터리를 대체할 새로운 성장 동력으로 급부상하고 있습니다. AI 데이터센터 확충과 재생에너지 발전시설 증가에 따라 전력망용 ESS 수요가 시장 성장을 주도하는 추세입니다. 특히 북미와 유럽 등 비중국 시장의 수요가 중국을 앞지르며 국내 배터리 기업들에 기회가 열렸습니다. LG에너지솔루션은 북미 전력망 시장을 중심으로 출하량이 크게 늘며 점유율을 확대했고, 삼성SDI는 AI 데이터센터용 공급처를 확보하며 대응하고 있습니다. 향후 시장 지배력을 높이기 위해서는 리튬인산철(LFP) 배터리의 가격 경쟁력과 현지 생산 공급망 강화가 핵심 과제로 지목됩니다.",
+      "industry_context": "LG에너지솔루션과 삼성SDI는 한국을 대표하는 글로벌 배터리 제조사로, 전기차 및 ESS용 리튬이온 배터리를 주력으로 생산합니다. 두 기업 모두 북미 등 해외 현지 생산 기반을 확충하며 공급망 다변화와 시장 대응력을 높이는 전략을 취하고 있습니다.",
+      "key_points": [
+        "2026년 상반기 글로벌 ESS 배터리 출하량은 461.3GWh로 전년 동기 대비 71% 성장함",
+        "북미와 유럽 등 비중국 지역의 ESS 출하량이 사상 처음으로 중국을 넘어섬",
+        "LG에너지솔루션은 북미 시장 중심의 공격적인 공급으로 ESS 출하량이 357% 급증함"
+      ],
+      "numbers": [
+        "2026년 상반기",
+        "461.3GWh",
+        "357%",
+        "12.0GWh",
+        "1.6GWh"
+      ],
+      "keywords": [
+        "ESS",
+        "LG에너지솔루션",
+        "삼성SDI",
+        "배터리",
+        "북미시장",
+        "전력망"
+      ],
+      "stated_outlook": "현지 생산과 LFP 가격 경쟁력, 대형 프로젝트 수주를 실제 출하와 수익으로 연결하는 능력이 향후 점유율 확대를 결정할 전망임.",
+      "summary_status": "summarized",
+      "manual_active": true,
+      "manual_added_at": "2026-08-06T09:49:42.032206+09:00"
+    },
     {
       "id": "be25f64fe0d7",
       "sector": "semi_market",
