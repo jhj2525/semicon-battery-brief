@@ -1,9 +1,10 @@
 name: Daily news update
-
 on:
   schedule:
-    - cron: "17 22 * * *"
-    - cron: "17 23 * * *"
+    # Run once each hour. The guard below skips the job while the 24-hour
+    # bundle is still valid, so this acts as a resilient retry mechanism if
+    # GitHub misses or delays a scheduled trigger.
+    - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
       automatic_bootstrap:
@@ -52,14 +53,12 @@ on:
         description: "사용자가 붙여넣은 기사 본문"
         required: false
         type: string
-
 permissions:
   contents: write
 
 concurrency:
   group: daily-news-update
   cancel-in-progress: false
-
 jobs:
   update:
     runs-on: ubuntu-latest
