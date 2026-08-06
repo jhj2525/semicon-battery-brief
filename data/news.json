@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06 15:00 KST",
+  "updated_at": "2026-08-06 15:01 KST",
   "last_automatic_update_at": "2026-08-06 11:11 KST",
   "automatic_cycle_started_at": "2026-08-06 11:11 KST",
   "automatic_locked_vacancies": {
@@ -7,8 +7,8 @@
     "battery": 0
   },
   "publication_window": {
-    "from": "2026-08-05T15:00:48.643584+09:00",
-    "to": "2026-08-06T15:00:48.643584+09:00"
+    "from": "2026-08-05T15:01:23.739449+09:00",
+    "to": "2026-08-06T15:01:23.739449+09:00"
   },
   "today_verified_count": 0,
   "current_items": [
@@ -556,15 +556,32 @@
       "link": "https://n.news.naver.com/article/138/0002236782",
       "requested_link": "https://n.news.naver.com/article/138/0002236782",
       "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": "",
+      "verified_source": true,
+      "summary_status": "pasted_text_summary",
+      "overview": "유럽 주요 배터리 셀 제조사들이 양산 차질과 수율 문제를 겪으면서 국내 배터리 3사의 대체 공급 기회가 확대되고 있다. ACC, 베르코어, 파워코 등 현지 업체들은 생산 확대 지연과 공정 최적화에 어려움을 겪고 있다. 반면 삼성SDI, LG에너지솔루션, SK온은 유럽 내 기구축된 생산거점을 바탕으로 수주 경쟁력을 강화하고 있다. EU의 산업가속화법(IAA)에 따라 역내 생산 역량이 중요해진 점도 국내 기업에 유리하게 작용 중이다. 유럽 완성차 업체들은 납기 대응이 가능한 국내 업체들과 추가적인 협력 가능성을 모색하고 있다.",
+      "key_points": [
+        "ACC는 프랑스 두브랭 공장 생산 지연과 독일·이탈리아 공장 건설 계획 백지화를 겪고 있다.",
+        "베르코어는 전극 공정 수율 확보에 어려움을 겪으며 양산 확대가 지연되고 있다.",
+        "삼성SDI는 4월 ACC를 대신해 메르세데스-벤츠의 차세대 전기차용 배터리 프로젝트를 수주했다.",
+        "EU의 IAA 초안에 따라 역내 생산 요건이 강화되면서 헝가리와 폴란드에 공장을 둔 국내 기업이 유리한 상황이다."
+      ],
+      "numbers": [
+        "2026년 8월 6일",
+        "2월",
+        "4월"
+      ],
+      "keywords": [
+        "K배터리",
+        "유럽 배터리 셀 제조사",
+        "수율 문제",
+        "산업가속화법",
+        "전극 공정"
+      ],
+      "stated_outlook": "올해 하반기 폭스바겐의 SSP 및 MEB플러스 프로젝트와 르노 등을 중심으로 국내 배터리 제조사의 추가 수주 기회가 열려 있으며, 이는 유럽 내 생산라인 가동률 상승으로 이어질 전망이다.",
       "manual_active": true,
-      "manual_added_at": "2026-08-06T09:49:42.032206+09:00"
+      "manual_added_at": "2026-08-06T09:49:42.032206+09:00",
+      "summary_source": "user_pasted_text",
+      "industry_context": "배터리 산업은 전극 공정 등 생산 환경에 민감한 공정 특성상 높은 진입장벽을 가진다. 현지 업체들은 숙련 인력 부족과 공정 노하우 미흡으로 양산 안정화에 한계를 보이고 있다."
     },
     {
       "id": "621ba716191a",
