@@ -7,8 +7,8 @@
     "battery": 0
   },
   "publication_window": {
-    "from": "2026-08-05T11:22:00.489080+09:00",
-    "to": "2026-08-06T11:22:00.489080+09:00"
+    "from": "2026-08-05T11:22:29.905944+09:00",
+    "to": "2026-08-06T11:22:29.905944+09:00"
   },
   "today_verified_count": 0,
   "current_items": [
@@ -473,93 +473,6 @@
       "manual_added_at": "2026-08-06T09:51:54.648756+09:00",
       "summary_source": "user_pasted_text",
       "industry_context": "AI 가속기의 연산 속도가 비약적으로 발전함에 따라 기존 D램 대역폭이 이를 따라가지 못하는 메모리 병목 현상이 발생하고 있다. SK하이닉스는 메모리 계층 구조를 기존 6단계에서 3D 적층 D램과 HBF를 추가한 8단계로 세분화하여 시스템 효율을 개선하고자 한다."
-    },
-    {
-      "id": "292811692a3c",
-      "sector": "semiconductor",
-      "region": "global",
-      "category": "산업",
-      "title": "삼성전자,",
-      "source": "n.news.naver.com",
-      "source_type": "직접 선택",
-      "published": "2026-08-06 09:52",
-      "collected": "2026-08-06",
-      "link": "https://n.news.naver.com/mnews/article/003/0014108584?sid=101&lfrom=blog",
-      "requested_link": "https://n.news.naver.com/mnews/article/003/0014108584?sid=101&lfrom=blog",
-      "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": "",
-      "manual_active": true,
-      "manual_added_at": "2026-08-06T09:51:54.648756+09:00"
-    },
-    {
-      "id": "acbf395a706a",
-      "sector": "semiconductor",
-      "region": "global",
-      "category": "산업",
-      "title": "수동 추가 기사 · reuters.com",
-      "source": "reuters.com",
-      "source_type": "직접 선택",
-      "published": "2026-08-06 09:51",
-      "collected": "2026-08-06",
-      "link": "https://www.reuters.com/world/china/samsung-sk-hynix-test-chinese-chip-tools-hedge-against-us-risks-2026-08-05",
-      "requested_link": "https://www.reuters.com/world/china/samsung-sk-hynix-test-chinese-chip-tools-hedge-against-us-risks-2026-08-05",
-      "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": "",
-      "manual_active": true,
-      "manual_added_at": "2026-08-06T09:51:54.648756+09:00"
-    },
-    {
-      "id": "6d1e5019b31a",
-      "sector": "semiconductor",
-      "region": "global",
-      "category": "산업",
-      "title": "Kioxia Announces KIOXIA GP1 Series Super High IOPS SSDs for AI Applications",
-      "source": "kioxia.com",
-      "source_type": "직접 선택",
-      "published": "2026-08-06 09:51",
-      "collected": "2026-08-06",
-      "link": "https://www.kioxia.com/en-jp/business/news/2026/20260804-1.html",
-      "requested_link": "https://www.kioxia.com/en-jp/business/news/2026/20260804-1.html",
-      "rss_description": "Kioxia Announces KIOXIA GP1 Series Super High IOPS SSDs for AI Applications | KIOXIA - Japan (English)",
-      "manual_added": true,
-      "verified_source": true,
-      "overview": "키옥시아(Kioxia)는 AI 인프라의 성능 요구 사항을 해결하기 위해 GPU 직접 액세스에 최적화된 'KIOXIA GP1 시리즈' PCIe 6.0 NVMe SSD를 발표했다. 이 제품은 2세대 XL-FLASH 기술을 기반으로 최대 1,000만 IOPS의 읽기 성능을 구현하여 AI 시스템의 메모리 확장을 지원한다. 기존 HBM(고대역폭 메모리) 대비 더 큰 데이터 세트를 더 낮은 비용으로 처리할 수 있어 GPU 활용도를 크게 개선할 전망이다. 향후 키옥시아는 기술 확장을 통해 최대 1억 IOPS까지 성능을 높이는 것을 목표로 하고 있다.",
-      "industry_context": "일본에 본사를 둔 키옥시아는 세계적인 낸드 플래시 메모리 및 SSD 제조사로, 메모리 반도체 시장에서 중요한 공급망 위치를 차지하고 있다. 이 회사는 데이터 센터 및 엔터프라이즈 환경을 위한 고성능 저장 장치와 3D 플래시 메모리 기술에 주력하며, 인공지능 시대를 맞아 차세대 스토리지 아키텍처 개발을 선도하고 있다.",
-      "key_points": [
-        "KIOXIA GP1 시리즈는 PCIe 6.0 및 NVMe 2.2 규격을 지원하는 초고성능 SSD임",
-        "2세대 XL-FLASH 기술을 적용하여 1,000만 읽기 IOPS 달성",
-        "AI 인프라에서 HBM의 보조적인 고속 플래시 메모리 계층으로 활용 가능"
-      ],
-      "numbers": [
-        "2026년 8월 4일",
-        "1,000만 IOPS",
-        "최대 1억 IOPS 목표",
-        "최대 50 DWPD"
-      ],
-      "keywords": [
-        "키옥시아",
-        "GP1 시리즈",
-        "PCIe 6.0",
-        "XL-FLASH",
-        "AI 인프라",
-        "IOPS"
-      ],
-      "stated_outlook": "2026년 말까지 일부 고객에게 평가용 샘플을 제공할 예정이며, 미래 세대 제품을 통해 최대 1억 IOPS의 성능을 달성하는 것을 목표로 함.",
-      "summary_status": "summarized",
-      "manual_active": true,
-      "manual_added_at": "2026-08-06T09:51:54.648756+09:00"
     },
     {
       "id": "a110c7a33521",
@@ -1741,9 +1654,12 @@
     }
   ],
   "deleted_article_ids": [
+    "292811692a3c",
     "3d212e9a15ea",
     "66b374e2f833",
+    "6d1e5019b31a",
     "9f9ad3566019",
+    "acbf395a706a",
     "b1a9749d065c",
     "c7ba815b0966"
   ]
