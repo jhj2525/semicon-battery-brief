@@ -305,8 +305,7 @@ def within_automatic_window(item, start, end):
 def begins_new_daily_cycle(now, cycle_started_at, maintenance_request, automatic_run):
     """Start a new 24-hour cycle when the previous cycle has expired."""
     return (
-        automatic_run
-        and not maintenance_request
+        not maintenance_request
         and (
             cycle_started_at is None
             or now - cycle_started_at >= timedelta(hours=24)
