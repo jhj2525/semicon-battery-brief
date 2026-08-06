@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06 13:44 KST",
+  "updated_at": "2026-08-06 14:58 KST",
   "last_automatic_update_at": "2026-08-06 11:11 KST",
   "automatic_cycle_started_at": "2026-08-06 11:11 KST",
   "automatic_locked_vacancies": {
@@ -7,8 +7,8 @@
     "battery": 0
   },
   "publication_window": {
-    "from": "2026-08-05T13:44:40.680405+09:00",
-    "to": "2026-08-06T13:44:40.680405+09:00"
+    "from": "2026-08-05T14:58:55.752260+09:00",
+    "to": "2026-08-06T14:58:55.752260+09:00"
   },
   "today_verified_count": 0,
   "current_items": [
@@ -411,6 +411,75 @@
       "summary_status": "summarized",
       "manual_active": true,
       "manual_added_at": "2026-08-06T11:03:43.542875+09:00"
+    },
+    {
+      "id": "ebf0a1284e74",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "대만 실리콘 웨이퍼 제조업체 \"반도체 중장기 전망 긍정적\"",
+      "source": "n.news.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-06 14:59",
+      "collected": "2026-08-06",
+      "link": "https://n.news.naver.com/mnews/article/001/0016234883?sid=104&lfrom=blog",
+      "requested_link": "https://n.news.naver.com/mnews/article/001/0016234883?sid=104&lfrom=blog",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "manual_active": true,
+      "manual_added_at": "2026-08-06T14:58:55.752260+09:00"
+    },
+    {
+      "id": "624ea445b51b",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "삼성 파운드리, 4나노 풀캐파에 5나노 주문 늘어…AI·서버로 영역 확대",
+      "source": "n.news.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-06 14:58",
+      "collected": "2026-08-06",
+      "link": "https://n.news.naver.com/mnews/article/092/0002433108?sid=105&lfrom=blog",
+      "requested_link": "https://n.news.naver.com/mnews/article/092/0002433108?sid=105&lfrom=blog",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "manual_active": true,
+      "manual_added_at": "2026-08-06T14:58:55.752260+09:00"
+    },
+    {
+      "id": "3ac33b1e0fac",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "'반도체기판 1위' 日이비덴, 연매출 전망치 10% 상향",
+      "source": "n.news.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-06 14:58",
+      "collected": "2026-08-06",
+      "link": "https://n.news.naver.com/mnews/article/092/0002433004?sid=105&lfrom=blog",
+      "requested_link": "https://n.news.naver.com/mnews/article/092/0002433004?sid=105&lfrom=blog",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "manual_active": true,
+      "manual_added_at": "2026-08-06T14:58:55.752260+09:00"
     },
     {
       "id": "6a448b1582d0",
@@ -967,6 +1036,47 @@
       "summary_status": "summarized",
       "manual_active": true,
       "manual_added_at": "2026-08-06T09:51:54.648756+09:00"
+    },
+    {
+      "id": "e271ad673bc3",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "Netlist Announces Strategic Alliance with Samsung For Advanced Memory Technology",
+      "source": "prnewswire.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-05 15:00",
+      "collected": "2026-08-06",
+      "link": "https://www.prnewswire.com/news-releases/netlist-announces-strategic-alliance-with-samsung-for-advanced-memory-technology-302843325.html",
+      "requested_link": "https://www.prnewswire.com/news-releases/netlist-announces-strategic-alliance-with-samsung-for-advanced-memory-technology-302843325.html",
+      "rss_description": "Netlist Announces Strategic Alliance with Samsung For Advanced Memory Technology",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "넷리스트(Netlist)와 삼성전자가 특허 포트폴리오 교차 라이선스, 메모리 제품 공급, 기술 협력을 포함한 5년 기간의 전략적 제휴를 체결했다. 이번 협약으로 삼성전자는 넷리스트의 서버 DIMM 및 고대역폭 메모리(HBM) 관련 기술을 포함한 전체 특허 포트폴리오에 접근할 수 있게 된다. 또한, 넷리스트는 삼성전자로부터 DRAM 및 NAND 제품을 공급받으며 양사 간 계류 중인 모든 법적 분쟁을 종결하기로 합의했다. 삼성전자는 메모리 제품 공급 계약의 일환으로 넷리스트의 보통주 천만 주를 매입할 예정이다. 이번 제휴는 AI 메모리 분야의 혁신을 가속화하고 넷리스트의 지식재산권 가치를 확인하는 계기가 될 것으로 평가된다.",
+      "industry_context": "넷리스트는 미국 어바인에 본사를 둔 고성능 메모리 및 저장 솔루션 전문 기업으로, AI 컴퓨팅에 필수적인 특허 기술을 보유하고 있다. 삼성전자는 대한민국에 본사를 둔 세계적인 반도체 제조 기업으로, 메모리 반도체 시장에서 강력한 제조 공급망과 기술력을 갖추고 있다.",
+      "key_points": [
+        "넷리스트와 삼성전자가 5년 기간의 전략적 제휴를 통해 기술 협력 및 제품 공급 체계 구축",
+        "삼성전자는 넷리스트의 전체 특허 포트폴리오(서버 DIMM, HBM 등)에 대한 접근 권한 확보",
+        "양사 간 계류 중이던 모든 법적 소송을 종결하고 상호 합의에 도달",
+        "삼성전자가 넷리스트 보통주 천만 주를 매입하며 파트너십 강화"
+      ],
+      "numbers": [
+        "5년(계약 기간)",
+        "천만 주(삼성전자가 매입할 넷리스트 보통주 규모)",
+        "2026년 8월 5일(발표 날짜)"
+      ],
+      "keywords": [
+        "넷리스트",
+        "삼성전자",
+        "전략적 제휴",
+        "반도체 특허",
+        "AI 메모리",
+        "HBM"
+      ],
+      "stated_outlook": "이번 제휴를 통해 양사는 AI 메모리 분야에서의 혁신을 도모하고, 다음 세대 메모리 제품 시장에서 입지를 강화할 계획이다.",
+      "summary_status": "summarized",
+      "manual_active": true,
+      "manual_added_at": "2026-08-06T14:58:55.752260+09:00"
     },
     {
       "id": "acecc95c3b14",
