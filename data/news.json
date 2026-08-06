@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06 15:01 KST",
+  "updated_at": "2026-08-06 15:02 KST",
   "last_automatic_update_at": "2026-08-06 11:11 KST",
   "automatic_cycle_started_at": "2026-08-06 11:11 KST",
   "automatic_locked_vacancies": {
@@ -7,8 +7,8 @@
     "battery": 0
   },
   "publication_window": {
-    "from": "2026-08-05T15:01:23.739449+09:00",
-    "to": "2026-08-06T15:01:23.739449+09:00"
+    "from": "2026-08-05T15:02:00.421868+09:00",
+    "to": "2026-08-06T15:02:00.421868+09:00"
   },
   "today_verified_count": 0,
   "current_items": [
@@ -448,15 +448,32 @@
       "link": "https://n.news.naver.com/mnews/article/092/0002433108?sid=105&lfrom=blog",
       "requested_link": "https://n.news.naver.com/mnews/article/092/0002433108?sid=105&lfrom=blog",
       "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": "",
+      "verified_source": true,
+      "summary_status": "pasted_text_summary",
+      "overview": "삼성전자 파운드리는 HBM4 및 엔비디아의 LPU 주문이 폭증하며 4나노 공정 가동률이 내년까지 최대치에 도달할 것으로 관측된다. 이에 따라 삼성전자는 4나노를 찾는 고객에게 수율이 검증된 5나노 공정을 실속형 대체재로 적극 제안하고 있다. 5나노 공정은 기존의 차량용 반도체뿐만 아니라 서버 및 고성능 AI, NPU 칩 등으로 활용 범위가 확대되고 있다. TSMC의 선단 공정 과부하와 글로벌 지정학적 상황으로 인해 중국 및 인도계 팹리스 고객들의 수요가 삼성 5나노 라인으로 유입되는 추세다. 삼성 파운드리는 선단 공정급 성능이 필요한 고객들에게 현실적인 대안을 제시하며 5나노 공정에서의 반사이익을 기대하고 있다.",
+      "key_points": [
+        "삼성전자 4나노 파운드리 공정은 HBM4 및 엔비디아 그록3 물량으로 인해 내년까지 풀캐파 예상",
+        "삼성전자는 4나노 대신 수율과 성능이 검증된 5나노 공정을 팹리스 고객에게 적극 제안",
+        "5나노 공정은 차량용 칩을 넘어 서버 및 고성능 AI, NPU 칩으로 영역 확장 중",
+        "TSMC의 미세공정 수급난과 지정학적 요인으로 중국·인도계 팹리스 고객 유입 증가"
+      ],
+      "numbers": [
+        "2026.08.05",
+        "2030년"
+      ],
+      "keywords": [
+        "삼성 파운드리",
+        "4나노",
+        "5나노",
+        "HBM4",
+        "팹리스",
+        "공급망"
+      ],
+      "stated_outlook": "삼성전자는 5나노 중심의 영업을 강화하는 한편, 2나노 공정에 대해서도 글로벌 고객사의 물량 타진을 받고 있으며 수율 확보에 집중하고 있다.",
       "manual_active": true,
-      "manual_added_at": "2026-08-06T14:58:55.752260+09:00"
+      "manual_added_at": "2026-08-06T14:58:55.752260+09:00",
+      "summary_source": "user_pasted_text",
+      "industry_context": "삼성전자의 4나노 라인은 HBM4 주문량 급증과 엔비디아의 추론용 LPU '그록3' 물량 증가로 인해 풀캐파 상황을 맞이했다. 대만 TSMC의 미세공정 수급이 타이트해짐에 따라 중국과 인도계 팹리스 기업들이 제재 회피 및 수요 충족을 위해 삼성 파운드리의 5나노 공정을 대안으로 선택하고 있다."
     },
     {
       "id": "3ac33b1e0fac",
