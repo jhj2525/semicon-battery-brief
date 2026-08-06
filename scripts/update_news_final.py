@@ -1,8 +1,9 @@
 """Process Brief final manual-first edition.
 
-Builds a fresh current brief and separate on-site archives. Automatic news is
-limited to the latest 24 hours, extended up to 36 hours only when a delayed
-scheduled run would otherwise leave a collection gap.
+The automatic bundle is controlled only by GitHub scheduled runs. Manual runs
+and manual article operations never reset or roll the automatic 24-hour clock.
+At rollover, the previous automatic bundle is archived and a fresh brief is
+built from articles published within the latest 24 hours.
 """
 
 import json
@@ -291,10 +292,9 @@ def parse_update_datetime(value):
 
 
 def automatic_window_start(now, previous_update):
-    normal_start = now - timedelta(hours=24)
-    if previous_update and previous_update < normal_start:
-        return max(now - timedelta(hours=36), previous_update)
-    return normal_start
+    # The automatic brief is always rebuilt from the most recent 24 hours.
+    # A delayed/missed GitHub run must not widen the article window.
+    return now - timedelta(hours=24)
 
 
 def within_automatic_window(item, start, end):
@@ -302,10 +302,10 @@ def within_automatic_window(item, start, end):
     return published is not None and start <= published <= end
 
 
-def begins_new_daily_cycle(now, cycle_started_at, maintenance_request, automatic_run):
-    """Start a new 24-hour cycle when the previous cycle has expired."""
+def begins_new_daily_cycle(now, cycle_started_at, scheduled_run):
+    """Only a GitHub scheduled run may roll the automatic 24-hour bundle."""
     return (
-        not maintenance_request
+        scheduled_run
         and (
             cycle_started_at is None
             or now - cycle_started_at >= timedelta(hours=24)
@@ -1405,11 +1405,10 @@ def main():
     now = datetime.now(base.KST)
     event_name = os.getenv("GITHUB_EVENT_NAME", "").strip()
     bootstrap_requested = os.getenv("AUTOMATIC_BOOTSTRAP", "").strip().lower() == "true"
-    automatic_run = (
-        event_name == "schedule"
-        or bootstrap_requested
-        or (event_name == "workflow_dispatch" and not maintenance_request)
-    )
+    scheduled_run = event_name == "schedule"
+    # Manual workflow_dispatch operations may add/edit/delete articles or fill
+    # empty automatic slots, but they must never roll/reset the 24-hour clock.
+    refresh_run = scheduled_run or bootstrap_requested
     previous_update = parse_update_datetime(
         old.get("last_automatic_update_at") or old.get("updated_at")
     )
@@ -1419,7 +1418,7 @@ def main():
         or old.get("updated_at")
     )
     new_daily_cycle = begins_new_daily_cycle(
-        now, cycle_started_at, maintenance_request, automatic_run
+        now, cycle_started_at, scheduled_run
     )
     locked_vacancies = {
         sector: max(0, min(TARGETS[sector], int(
@@ -1437,10 +1436,10 @@ def main():
                     TARGETS[sector], locked_vacancies[sector] + 1
                 )
     window_start = automatic_window_start(now, previous_update)
-    if maintenance_request or not automatic_run:
+    if maintenance_request or not refresh_run:
         current = old_current
         new_items = []
-        print("non-scheduled request: automatic daily brief preserved")
+        print("manual request: automatic 24-hour bundle and clock preserved")
     else:
         fetched = without_deleted(collect_all_candidates(), deleted_article_ids)
         reusable_candidates = []
@@ -1478,20 +1477,13 @@ def main():
             and published_datetime(item) >= now - timedelta(days=7)
         ]
         for sector in ("semiconductor", "battery"):
-            # During a new cycle, yesterday's archive must not block every
-            # candidate. Fresh candidates are still preferred by select_sector,
-            # while a recent verified/link-only item may be reused only as a
-            # quota fallback when the live sources do not provide enough rows.
-            comparison_items = (new_items + current) if new_daily_cycle else (
-                recent_story_items + new_items + current
-            )
+            # A new cycle must contain genuinely new URLs/stories. Every item
+            # from the previous current bundle is allowed to fall into archive.
+            comparison_items = recent_story_items + new_items + current
             sector_rows = [
                 item for item in eligible
                 if item.get("sector") == sector
-                and (
-                    new_daily_cycle
-                    or canonical_url(item.get("link")) not in stored_urls
-                )
+                and canonical_url(item.get("link")) not in stored_urls
                 and not any(
                     same_story(item, stored)
                     for stored in comparison_items
@@ -1500,7 +1492,7 @@ def main():
             ]
             selected, fresh = select_sector(
                 sector_rows, sector, comparison_items, api_key,
-                allow_reuse=new_daily_cycle,
+                allow_reuse=False,
             )
             if new_daily_cycle:
                 current.extend(selected)
