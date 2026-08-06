@@ -7,8 +7,8 @@
     "battery": 0
   },
   "publication_window": {
-    "from": "2026-08-05T15:00:12.235817+09:00",
-    "to": "2026-08-06T15:00:12.235817+09:00"
+    "from": "2026-08-05T15:00:48.643584+09:00",
+    "to": "2026-08-06T15:00:48.643584+09:00"
   },
   "today_verified_count": 0,
   "current_items": [
@@ -1167,29 +1167,6 @@
       "manual_added_at": "2026-08-05T14:33:32.663642+09:00"
     },
     {
-      "id": "3a2018624ffb",
-      "sector": "semi_market",
-      "region": "global",
-      "category": "산업",
-      "title": "인텔, 美 스타트업에",
-      "source": "n.news.naver.com",
-      "source_type": "직접 선택",
-      "published": "2026-08-05 14:33",
-      "collected": "2026-08-05",
-      "link": "https://n.news.naver.com/mnews/article/092/0002432982?sid=105&lfrom=blog",
-      "requested_link": "https://n.news.naver.com/mnews/article/092/0002432982?sid=105&lfrom=blog",
-      "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": "",
-      "manual_active": true,
-      "manual_added_at": "2026-08-05T14:33:32.663642+09:00"
-    },
-    {
       "id": "3133a526b76d",
       "sector": "semi_market",
       "region": "global",
@@ -1804,6 +1781,7 @@
   ],
   "deleted_article_ids": [
     "292811692a3c",
+    "3a2018624ffb",
     "3d212e9a15ea",
     "66b374e2f833",
     "6d1e5019b31a",
