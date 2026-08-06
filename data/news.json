@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06 11:11 KST",
+  "updated_at": "2026-08-06 11:15 KST",
   "last_automatic_update_at": "2026-08-06 11:11 KST",
   "automatic_cycle_started_at": "2026-08-06 11:11 KST",
   "automatic_locked_vacancies": {
@@ -7,10 +7,10 @@
     "battery": 0
   },
   "publication_window": {
-    "from": "2026-08-04T23:11:07.031818+09:00",
-    "to": "2026-08-06T11:11:07.031818+09:00"
+    "from": "2026-08-05T11:15:44.461116+09:00",
+    "to": "2026-08-06T11:15:44.461116+09:00"
   },
-  "today_verified_count": 0,
+  "today_verified_count": 1,
   "current_items": [
     {
       "id": "cccd7b81c2da",
@@ -338,6 +338,26 @@
       "published": "2026-08-04 14:41",
       "collected": "2026-08-05",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02bFhTUlRjRFpQNjBYZVRvUVkwN2s5eXdVeVBSajVONnFULURLblFmQ21NWlFhVU9XNjNSMmZmaWtGeDV6VFJzUDI2al9rNUhpMERBdDdWTElnOGlKQUVXOWVFeFVyZGJpNHU0UHRBWWhQd2R0dnpDX9IBeEFVX3lxTE02bFhTUlRjRFpQNjBYZVRvUVkwN2s5eXdVeVBSajVONnFULURLblFmQ21NWlFhVU9XNjNSMmZmaWtGeDV6VFJzUDI2al9rNUhpMERBdDdWTElnOGlKQUVXOWVFeFVyZGJpNHU0UHRBWWhQd2R0dnpDXw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "76f79b1419ad",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "LS일렉트릭, 천안 공장서 차세대 ESS PCS 첫 출하",
+      "source": "ZDNet Korea",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-06 09:42",
+      "collected": "2026-08-06",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93STJOeThMSmxuUXpFWF9LUVdvUU5PcGhXdUZHbkc1NU5BNzcwSGhjeDkwWGhFZDJNSEQ4R1FMbHlOZzVVbVRWc3UyT2EzTHpwdzRVWGtR?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
