@@ -707,10 +707,10 @@ def select_sector(rows, sector, existing_items, api_key, allow_reuse=False):
 def merge_archive(all_existing, newly_verified, current):
     merged = {}
     for item in all_existing + newly_verified:
-        if (
-            item.get("verified_source") is not True
-            and item.get("summary_status") != "link_only"
-        ) or not item.get("link"):
+        # Anything that was actually shown/stored as automatic news must survive
+        # the cycle rollover. Verification status controls admission to the daily
+        # brief, not whether a previously displayed item disappears from history.
+        if not item.get("link"):
             continue
         merged[canonical_url(item["link"])] = item
     current_urls = {canonical_url(item.get("link")) for item in current}
@@ -1405,7 +1405,11 @@ def main():
     now = datetime.now(base.KST)
     event_name = os.getenv("GITHUB_EVENT_NAME", "").strip()
     bootstrap_requested = os.getenv("AUTOMATIC_BOOTSTRAP", "").strip().lower() == "true"
-    automatic_run = event_name == "schedule" or bootstrap_requested
+    automatic_run = (
+        event_name == "schedule"
+        or bootstrap_requested
+        or (event_name == "workflow_dispatch" and not maintenance_request)
+    )
     previous_update = parse_update_datetime(
         old.get("last_automatic_update_at") or old.get("updated_at")
     )
@@ -1474,11 +1478,20 @@ def main():
             and published_datetime(item) >= now - timedelta(days=7)
         ]
         for sector in ("semiconductor", "battery"):
-            comparison_items = recent_story_items + new_items + current
+            # During a new cycle, yesterday's archive must not block every
+            # candidate. Fresh candidates are still preferred by select_sector,
+            # while a recent verified/link-only item may be reused only as a
+            # quota fallback when the live sources do not provide enough rows.
+            comparison_items = (new_items + current) if new_daily_cycle else (
+                recent_story_items + new_items + current
+            )
             sector_rows = [
                 item for item in eligible
                 if item.get("sector") == sector
-                and canonical_url(item.get("link")) not in stored_urls
+                and (
+                    new_daily_cycle
+                    or canonical_url(item.get("link")) not in stored_urls
+                )
                 and not any(
                     same_story(item, stored)
                     for stored in comparison_items
@@ -1487,7 +1500,7 @@ def main():
             ]
             selected, fresh = select_sector(
                 sector_rows, sector, comparison_items, api_key,
-                allow_reuse=False,
+                allow_reuse=new_daily_cycle,
             )
             if new_daily_cycle:
                 current.extend(selected)
@@ -1514,16 +1527,11 @@ def main():
     for item in old_manual_items:
         item = dict(item)
         item.setdefault("manual_active", item.get("collected") == now.strftime("%Y-%m-%d"))
+        # Manual articles belong to the same fixed daily bundle as automatic
+        # articles. At the next daily-cycle rollover they all leave the current
+        # view together, regardless of the exact hour they were manually added.
         if new_daily_cycle and item.get("manual_active"):
-            added_value = item.get("manual_added_at")
-            try:
-                added_at = datetime.fromisoformat(added_value) if added_value else None
-                if added_at and added_at.tzinfo is None:
-                    added_at = added_at.replace(tzinfo=base.KST)
-            except (TypeError, ValueError):
-                added_at = None
-            if added_at is None or now - added_at >= timedelta(hours=24):
-                item["manual_active"] = False
+            item["manual_active"] = False
         normalized_manual.append(item)
     old_manual_items = normalized_manual
     new_manual_items = []
