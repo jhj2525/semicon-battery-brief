@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06 14:59 KST",
+  "updated_at": "2026-08-06 15:00 KST",
   "last_automatic_update_at": "2026-08-06 11:11 KST",
   "automatic_cycle_started_at": "2026-08-06 11:11 KST",
   "automatic_locked_vacancies": {
@@ -7,8 +7,8 @@
     "battery": 0
   },
   "publication_window": {
-    "from": "2026-08-05T14:59:58.688543+09:00",
-    "to": "2026-08-06T14:59:58.688543+09:00"
+    "from": "2026-08-05T15:00:12.235817+09:00",
+    "to": "2026-08-06T15:00:12.235817+09:00"
   },
   "today_verified_count": 0,
   "current_items": [
@@ -1245,15 +1245,34 @@
       "link": "https://n.news.naver.com/mnews/article/003/0014108602?sid=101&lfrom=blog",
       "requested_link": "https://n.news.naver.com/mnews/article/003/0014108602?sid=101&lfrom=blog",
       "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": "",
+      "verified_source": true,
+      "summary_status": "pasted_text_summary",
+      "overview": "TSMC가 급증하는 AI 반도체 수요에 대응하기 위해 3나노 및 2나노 공정의 생산능력을 대규모로 확대하고 있다. TSMC의 3나노 생산능력은 올해 4분기 초 월 18만장, 2나노는 연말 기준 월 10만장 수준에 도달할 것으로 전망된다. 이에 맞서 삼성전자 역시 2세대 2나노 공정의 양산을 본격화하며 고객사 확보에 총력을 기울이고 있다. 삼성전자는 하반기 모바일 제품 양산을 시작으로 AI 및 고성능 컴퓨팅 고객 수주를 늘려갈 계획이다. 파운드리 시장 경쟁이 공급력과 첨단공정 생산능력 확보 중심으로 재편되면서 양사의 기술 경쟁이 더욱 치열해지고 있다.",
+      "key_points": [
+        "TSMC의 3나노 월 생산능력은 올 상반기 15만장에서 4분기 초 18만장으로 확대될 전망",
+        "TSMC의 2나노 생산능력은 상반기 월 5~6만장에서 연말 월 10만장 수준으로 증가 예상",
+        "삼성전자는 올 하반기 2세대 2나노 모바일 제품 양산을 본격화하고 미국 테일러 공장 가동을 준비 중",
+        "삼성전자는 테슬라와 165억달러 규모의 위탁생산 계약을 체결한 바 있음"
+      ],
+      "numbers": [
+        "TSMC 3나노 18만장",
+        "TSMC 2나노 10만장",
+        "테슬라 계약 165억달러",
+        "2026년 4분기"
+      ],
+      "keywords": [
+        "TSMC",
+        "삼성전자",
+        "파운드리",
+        "2나노",
+        "3나노",
+        "AI반도체"
+      ],
+      "stated_outlook": "삼성전자는 미국과 중국의 수요 증가에 대응해 하반기 두 자릿수 매출 성장을 추진하며, 선단공정과 AI·고성능컴퓨팅 수주 확대를 통해 중장기 성장 기반을 마련할 방침이다.",
       "manual_active": true,
-      "manual_added_at": "2026-08-05T14:33:32.663642+09:00"
+      "manual_added_at": "2026-08-05T14:33:32.663642+09:00",
+      "summary_source": "user_pasted_text",
+      "industry_context": "AI 가속기, HBM 베이스다이, 스마트폰용 AP 수요가 급증함에 따라 TSMC와 삼성전자 모두 첨단 공정 투자를 강화하고 있다. 삼성전자는 메모리, 파운드리, 첨단 패키징을 일괄 제공하는 경쟁력을 앞세워 글로벌 빅테크 고객사와 2나노 수주를 협의 중이다."
     },
     {
       "id": "75850d066a24",
