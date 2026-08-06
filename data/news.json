@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-06 11:09 KST",
-  "last_automatic_update_at": "2026-08-04 20:42 KST",
-  "automatic_cycle_started_at": "2026-08-04 20:42 KST",
+  "updated_at": "2026-08-06 11:11 KST",
+  "last_automatic_update_at": "2026-08-06 11:11 KST",
+  "automatic_cycle_started_at": "2026-08-06 11:11 KST",
   "automatic_locked_vacancies": {
     "semiconductor": 0,
-    "battery": 1
+    "battery": 0
   },
   "publication_window": {
-    "from": "2026-08-04T23:09:08.952853+09:00",
-    "to": "2026-08-06T11:09:08.952853+09:00"
+    "from": "2026-08-04T23:11:07.031818+09:00",
+    "to": "2026-08-06T11:11:07.031818+09:00"
   },
   "today_verified_count": 0,
   "current_items": [
@@ -1307,7 +1307,7 @@
         "창신메모리"
       ],
       "stated_outlook": "한국 정부가 5년 내 웨이퍼 생산량을 갑절로 늘리겠다는 계획을 수립하고 있으며, 메모리 생산자들은 AI 2.0 환경에 맞춰 신제품 개발 기간을 18개월에서 12개월로 단축해야 하는 압박을 받고 있다.",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-05T10:18:53.989140+09:00",
       "summary_source": "user_pasted_text",
       "industry_context": "메모리 반도체 산업은 AI 2.0 시대를 맞아 개발 속도와 시장 대응 민첩성이 중요해졌으며, 대형 클라우드 기업들이 엔비디아 칩 대신 주문형 반도체(ASIC)를 도입함에 따라 공급망 다변화가 진행 중이다."
@@ -1351,7 +1351,7 @@
       ],
       "stated_outlook": "AMD는 2026년 3분기 매출이 약 130억 달러(±3억 달러)에 이를 것으로 전망하며, 하반기에도 데이터 센터 매출 가속화와 함께 전반적인 수익 성장이 지속될 것으로 기대하고 있습니다.",
       "summary_status": "summarized",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-05T10:04:07.172391+09:00"
     },
     {
@@ -1374,7 +1374,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-05T10:04:07.172391+09:00"
     },
     {
@@ -1417,7 +1417,7 @@
         "UCIe"
       ],
       "stated_outlook": "SK하이닉스는 HBF 채택을 확대하여 관련 생태계를 조성하고, 내년 초 375단 4D 낸드 기반의 고성능·고용량 eSSD 양산에 착수할 계획이다.",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-05T10:04:07.172391+09:00",
       "summary_source": "user_pasted_text",
       "industry_context": "AI 기술 확산으로 데이터 처리량이 급증함에 따라 대역폭과 용량 확장성을 동시에 확보하기 위한 메모리 구조 재설계가 요구되고 있다. 이에 따라 HBF 컨소시엄은 업계 표준인 UCIe 인터페이스를 채택하여 프로세서와의 연결 유연성을 확보하고 생태계 확장에 나서고 있다."
@@ -1460,7 +1460,7 @@
         "실적"
       ],
       "stated_outlook": "반도체 소재는 하반기에도 성장이 지속될 전망이며, 차세대 HBM5 공정용 소재는 2028년 양산을 목표로 하고 있다. 전구체 사업은 제련소 가동률 회복과 신규 고객사 확보를 통해 하반기 실적 개선을 기대하고 있다.",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-05T10:20:00.585705+09:00",
       "summary_source": "user_pasted_text",
       "industry_context": "전기차 수요 부진과 재해로 인한 니켈 제련소 가동률 하락으로 양극재 및 전구체 사업 실적이 전분기 대비 하락했다. 반면 리튬 사업은 광물가 상승이 반영되어 호조를 보였으며, 반도체 전방 시장 성장에 따라 관련 소재 사업이 실적 증대를 견인하고 있다."
@@ -1504,7 +1504,7 @@
       ],
       "stated_outlook": "2024년 하반기 ESS 중심으로 실적 개선이 기대되며, 4분기부터 미국 내 LFP 배터리 생산을 시작으로 가파른 성장세가 예상됨.",
       "summary_status": "summarized",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-05T10:20:00.585705+09:00"
     },
     {
@@ -1546,7 +1546,7 @@
       ],
       "stated_outlook": "Storage-Next 이니셔티브를 통해 GPU 기반 스토리지의 표준을 정립하고, 향후 AI 데이터 처리의 효율성을 극대화하여 더 정확하고 확장 가능한 AI 인텔리전스를 실현할 계획입니다.",
       "summary_status": "summarized",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-05T10:04:07.172391+09:00"
     },
     {
@@ -1587,7 +1587,7 @@
         "HBM"
       ],
       "stated_outlook": "2026년 3분기부터 HBM4 출하가 본격화되어 HBM 가격 하락세가 둔화될 전망이며, 내년에는 범용 D램 가격 상승과 함께 HBM 가격도 가파르게 오를 것으로 보인다.",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-05T10:04:07.172391+09:00",
       "summary_source": "user_pasted_text",
       "industry_context": "D램 시장은 범용 제품 가격 상승과 HBM 수요 변화에 큰 영향을 받고 있다. HBM4 출하가 본격화됨에 따라 제품 믹스 개선을 통한 가격 흐름 변화가 예상된다."
@@ -1630,7 +1630,7 @@
       ],
       "stated_outlook": "포드는 내년 말 첫 고객 인도를 목표로 하고 있으며, GM은 2028년경 나트륨이온 배터리 양산을 계획하고 있다. 블룸버그 NEF는 미국 그리드용 배터리 수요가 2030년까지 현재의 두 배 수준으로 성장할 것으로 전망했다.",
       "summary_status": "summarized",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-05T10:20:00.585705+09:00"
     },
     {
@@ -1653,7 +1653,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
