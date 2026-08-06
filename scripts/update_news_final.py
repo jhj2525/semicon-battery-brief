@@ -303,7 +303,7 @@ def within_automatic_window(item, start, end):
 
 
 def begins_new_daily_cycle(now, cycle_started_at, maintenance_request, automatic_run):
-    """Only a scheduled run may replace the 24-hour automatic bundle."""
+    """Start a new 24-hour cycle when the previous cycle has expired."""
     return (
         automatic_run
         and not maintenance_request
