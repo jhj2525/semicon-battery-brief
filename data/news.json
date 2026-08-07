@@ -1,136 +1,298 @@
 {
-  "updated_at": "2026-08-06 15:02 KST",
-  "last_automatic_update_at": "2026-08-06 11:11 KST",
-  "automatic_cycle_started_at": "2026-08-06 11:11 KST",
+  "updated_at": "2026-08-07 13:31 KST",
+  "last_automatic_update_at": "2026-08-07 13:31 KST",
+  "automatic_cycle_started_at": "2026-08-07 13:31 KST",
   "automatic_locked_vacancies": {
     "semiconductor": 0,
     "battery": 0
   },
   "publication_window": {
-    "from": "2026-08-05T15:02:43.435695+09:00",
-    "to": "2026-08-06T15:02:43.435695+09:00"
+    "from": "2026-08-06T13:31:32.112782+09:00",
+    "to": "2026-08-07T13:31:32.112782+09:00"
   },
-  "today_verified_count": 0,
+  "today_verified_count": 10,
   "current_items": [
     {
-      "id": "cccd7b81c2da",
+      "id": "49622fa6cb90",
       "sector": "semiconductor",
       "region": "domestic",
-      "category": "산업",
-      "title": "2026.08.05 Samsung Unveils Next-Gen 3D-Memory Vision at FMS 2026, Charting the Future of AI Infrastructure new Samsung introduces industry-first concept models of zHBM and zNAND-O,highlighting leadership in next-generation memory architecture for HPC and AI...",
-      "source": "삼성전자 반도체 뉴스룸",
-      "published": "2026-08-05 00:00",
-      "collected": "2026-08-05",
-      "link": "https://news.samsungsemiconductor.com/global/samsung-unveils-next-gen-3d-memory-vision-at-fms-2026-charting-the-future-of-ai-infrastructure/",
-      "rss_description": "2026.08.05 Samsung Unveils Next-Gen 3D-Memory Vision at FMS 2026, Charting the Future of AI Infrastructure new Samsung introduces industry-first concept models of zHBM and zNAND-O,highlighting leadership in next-generation memory architecture for HPC and AI...",
-      "source_type": "기업 공식 발표",
-      "official_source": true,
-      "score": 12,
-      "source_rank": 4,
-      "verified_source": true,
-      "overview": "삼성전자가 FMS 2026에서 차세대 3D 메모리 아키텍처 비전을 제시하며 AI 인프라 혁신을 이끌 기술 포트폴리오를 공개했다. 업계 최초로 zHBM과 zNAND-O 개념 모델을 선보였으며, 400단 이상의 V10 BV-NAND를 최초로 공개했다. 또한 HBM4E, HBM5, LPDDR5X-PIM 등 AI 및 고성능 컴퓨팅을 위한 차세대 메모리 로드맵을 발표했다. 삼성전자는 메모리, 파운드리, 패키징 역량을 통합하여 고객에게 맞춤형 턴키 솔루션을 제공한다는 전략이다.",
-      "key_points": [
-        "zHBM은 AI 가속기 바로 위에 메모리를 수직으로 적층하여 데이터 처리 속도와 에너지 효율을 극대화한 아키텍처임",
-        "업계 최초로 공개된 V10 BV-NAND는 웨이퍼 본딩 기술을 적용해 400단 이상의 층수를 구현하며 이전 세대 대비 메모리 밀도를 약 58% 향상함",
-        "zNAND-O는 V-NAND 기술 기반으로 4단 및 8단 버전으로 제공되며 엣지 AI 환경에 최적화된 고성능 아키텍처임",
-        "삼성전자는 메모리부터 파운드리, 어드밴스드 패키징까지 아우르는 IDM으로서 AI 인프라를 위한 일괄 공정(Turnkey) 솔루션을 제공함"
-      ],
-      "numbers": [
-        "2026.08.05",
-        "400-plus",
-        "eight times",
-        "10 times",
-        "threefold",
-        "13 years"
-      ],
-      "keywords": [
-        "FMS 2026",
-        "zHBM",
-        "zNAND-O",
-        "V10 BV-NAND",
-        "AI 인프라",
-        "차세대 메모리"
-      ],
-      "stated_outlook": "삼성전자는 고객과의 긴밀한 협력을 통해 zHBM을 활용한 AI 프로세서와 메모리의 통합을 최적화하여 AI 시스템 성능을 극대화할 계획이다."
+      "category": "기술·공정",
+      "title": "美, '반도체·태양광 핵심 소재' 파생제품에 15% 추가관세(종합)",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-07 09:41",
+      "collected": "2026-08-07",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9hX2tBbEdob0U2UV9jM29YWFQ3QXdKdEdXdEhnR0pmYkZaRWNJTjZXdkllZWFIR19IMUhNSVozUlhpcVdqMTYyOGJ2QWMzVmQ0ZjZVR0JJa0d0YXfSAWBBVV95cUxNR0Z2ZGwzaUFmQl9HN3dVRVU2T0hjeHluYm9zZ1RYSm92M0tPRjhqSlhzLXpHbVBMN2RvdGxPWjJXaThVVFJHd3c1RVRpYVY4bURyUDc4UGVKT2JBMmVZVnM?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
     },
     {
-      "id": "64027813b1ea",
+      "id": "3c6f1216f66f",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "반도체 장비 부품기업 동원파츠, 코스닥 상장예비심사 청구",
+      "source": "전자신문",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-07 10:31",
+      "collected": "2026-08-07",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE12RlU2cV9sMHg0LTRfTlZBVk0xV3BvZk5Nb2Q4WGJwR2huRTRaLU42dU1laEFRR2JvQ05ETzYzSllpcW1PcE1iRTRKZFE?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "6df6502da7d5",
       "sector": "semiconductor",
       "region": "domestic",
       "category": "산업",
-      "title": "삼성전자, 'HBM 대비 8배 성능' 차세대 zHBM 최초 공개",
-      "source": "뉴시스",
-      "source_type": "통신사 보도",
-      "published": "2026-08-05 04:35",
+      "title": "반도체·이차전지 등 6대 첨단산업 '국내생산세액공제' 신설… 지방 생산 시 혜택",
+      "source": "전자신문",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-07 13:04",
+      "collected": "2026-08-07",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE16Z2FGQ2xpb0pNM2xwM1FXcUF2VGpadVVLX0JwMHkxWnJCcXAtM3lqZWk3Y2xSY2IwTms3WEJGOHdSMlBKQlBSVEJ1NmlCZw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "2cf95895136f",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "아이폰18 프로, 'D램 부족' 직격탄…초기 물량 제한되나",
+      "source": "ZDNet Korea",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-07 12:52",
+      "collected": "2026-08-07",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAzQlZkaG1ydFpMOVVzUl84TFhYb1BoSURIY1E4RHAycVZRZTR6VVdqaWhNaDFZR2Y0aUZHWmI2aGh4V3VpeDl3WXRvMm1MVFJCekUtQnpn?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "44755a6d0c71",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "'재생에너지·배터리·반도체·로봇' 국내 생산 시 세액공제 지원",
+      "source": "ZDNet Korea",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-07 10:22",
+      "collected": "2026-08-07",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4WE1fNEdrU20zNWRGTVl0UHVzS0thYU9qUzRYbllfS0JoME9UUHJoTjBGODlkV2F6d290V1VnSDZKbURpeXM3cmE1YlpCQk9xaHNVdkRn?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "c47185b34ad9",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "'전기차 시장은 크는데'…상반기 K배터리 점유율 30% 아래로",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-07 12:06",
+      "collected": "2026-08-07",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5OF9uOVA5RXBubVVFU3Y5YllXRlFaTmw4b1NoejZmaDAwaW94VlJXMW1yLTBqYUUwT2xUT2VVa0ZabVI3TFRUcE0xSG1tVU5yVFFfS2FRbGJyQQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "094afed3b63f",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "[ET특징주]포스코퓨처엠, 리튬인산철 양극재 장기공급 소식에 상승세",
+      "source": "전자신문",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-07 10:42",
+      "collected": "2026-08-07",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1wNldleW9hOUZOR0JwMDMxWWRnMGhMWFlvcmE4cldMNU9BdkQyYzRpTnlQY1R5dThkMjJnTlhmaldYVlVZSVlnc2dpNXdlZw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "813f83f072ce",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "'재생에너지·배터리·반도체·로봇' 국내 생산 시 세액공제 지원",
+      "source": "ZDNet Korea",
+      "source_type": "산업 전문언론",
+      "official_source": false,
+      "published": "2026-08-07 00:00",
+      "collected": "2026-08-07",
+      "link": "https://zdnet.co.kr/view/?no=20260807101438",
+      "rss_description": "a> '재생에너지·배터리·반도체·로봇' 국내 생산 시 세액공제 지원 <iframe src=\"https://adv.zdnet.co.kr/RealMedia/ads/adstream_sx.ads/zdnet.co",
+      "score": 10,
+      "source_rank": 2,
+      "verified_source": true,
+      "overview": "정부가 2026년 세제개편안을 통해 재생에너지, 배터리, 반도체, 로봇 등 6대 분야의 국내 생산 및 판매분에 대한 세액공제 제도를 신설했다. 이는 국내 생산 기반 확충과 경제 안보를 강화하기 위한 조치로, 내국인이 국내에서 직접 생산 및 판매하는 경우 혜택이 적용된다. 정부는 지방 기업에 더 큰 혜택을 주는 생산지역별계수를 도입하고, 제도의 지속가능성을 위해 공제 기간 말기에는 공제액을 점진적으로 축소할 예정이다. 향후 국회 논의와 후속 법령 준비 과정에서 업종별 단체와 협의하여 세부 내용을 구체화할 계획이다.",
+      "key_points": [
+        "재생에너지, 배터리, 반도체, 핵심소재, AI로봇부품 등 6대 분야에 국내생산세액공제가 적용된다.",
+        "내국인이 국내에서 직접 생산·판매하는 경우 생산량과 기준공제액에 따라 세액공제 규모가 결정된다.",
+        "지방주도 성장을 위해 생산지역별계수를 도입하며, 공제 기간 마지막 3년간은 공제액이 단계적으로 축소된다.",
+        "통합투자세액공제와의 중복 적용은 배제된다."
+      ],
+      "numbers": [
+        "2026년",
+        "2036년 12월 31일",
+        "75%",
+        "50%",
+        "25%"
+      ],
+      "keywords": [
+        "국내생산세액공제",
+        "산업통상부",
+        "세제개편안",
+        "공급망",
+        "경제안보"
+      ],
+      "stated_outlook": "산업통상부와 재경부는 향후 국회 논의 및 후속 법령 준비 과정에서 업종별 협·단체와의 긴밀한 협의를 통해 국내생산세액공제의 지원 대상 품목, 적용 요건, 기준 공제액 등 세부 내용을 구체화할 계획이다."
+    },
+    {
+      "id": "4625b28ffdda",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "정책",
+      "title": "정부, 배터리 거래·이력 플랫폼 구축…폐배터리 재활용 확대",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-07 09:45",
+      "collected": "2026-08-07",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NZ015Qm5sc25lTEFOVTNSZXRMTzFnV0g5TmNueTFxY3JvTWFpZmd3Qlk2ZW5mX2xNSXZhVkVoNVFBVjdpek5BN2k3MUhJb2hRT2VGUE4xSnJndw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "2f020418667e",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "K배터리 밸류체인 '시차'…셀은 웃고 소재는 아직",
+      "source": "전자신문",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-06 20:47",
+      "collected": "2026-08-07",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1oZUx1cUtpdllIaWgta3NVS3N5dlBfVk42UnVwV2Vmb0VtckxHTjFDOUFySUtYUmZ0YnVhZktHZGo5MGVYckVpZDR5YURTdw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    }
+  ],
+  "archive_items": [
+    {
+      "id": "76f79b1419ad",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "LS일렉트릭, 천안 공장서 차세대 ESS PCS 첫 출하",
+      "source": "ZDNet Korea",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-06 09:42",
+      "collected": "2026-08-06",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93STJOeThMSmxuUXpFWF9LUVdvUU5PcGhXdUZHbkc1NU5BNzcwSGhjeDkwWGhFZDJNSEQ4R1FMbHlOZzVVbVRWc3UyT2EzTHpwdzRVWGtR?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 2
+    },
+    {
+      "id": "c50feb86e46b",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "태양광·반도체 소재 '폴리실리콘' 美 가격하한제·관세 준비중",
+      "source": "매일경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-05 09:39",
       "collected": "2026-08-05",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oUGlnR1M4M0NyZjBOQ3FmQ3Ftd29yZmdZejNjM2NIVVd3UzVXMGN1VUl6X0diSTdsWEZPekNoTURPZmZzOFFmNDdqM3NmekZ0RGw1cVQyMVJOWXNkUHNjbFYxbE5XVG9fQmFIeXRlMzNfcEhKRHI1TtIBeEFVX3lxTE9oUGlnR1M4M0NyZjBOQ3FmQ3Ftd29yZmdZejNjM2NIVVd3UzVXMGN1VUl6X0diSTdsWEZPekNoTURPZmZzOFFmNDdqM3NmekZ0RGw1cVQyMVJOWXNkUHNjbFYxbE5XVG9fQmFIeXRlMzNfcEhKRHI1Tg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBXU2R1YVNFMXN1UW5sbWJpeExhYzFpZEQ0Mm5LVmd3LXQyR1J2aFhoX0p2cklCZHNYSEJuX3M3SFNzTzhXWmlNS09xY2xLZWJINFE?oc=5",
       "trusted_headline": true,
       "verified_source": true,
       "summary_status": "pasted_text_summary",
-      "overview": "삼성전자가 미국에서 열린 'FMS 2026'에서 고성능 컴퓨팅 및 AI 인프라 대응을 위한 차세대 메모리 기술을 대거 공개했다. 특히 AI 가속기 상단에 HBM을 수직으로 적층하는 차세대 아키텍처 'zHBM'을 업계 최초로 선보이며 데이터 이동 거리를 최소화했다. zHBM은 기존 HBM5 대비 성능은 8배, 전성비는 3배 향상되었으며 열 저항을 절반 이상 낮춘 것이 특징이다. 또한 업계 최초로 400단 이상의 10세대 V-낸드인 'V10 BV-낸드'를 공개하며 초고적층 기술 경쟁력을 입증했다. 이러한 기술 혁신을 통해 삼성전자는 AI 시스템의 성능과 전력 효율을 극대화하는 솔루션 리더십을 강화할 계획이다.",
+      "overview": "미국 트럼프 행정부가 태양광 패널과 반도체 핵심 소재인 폴리실리콘에 대해 가격하한제 도입과 관세 부과를 검토 중이다. 이번 조치는 미국 내 폴리실리콘 공장을 보호하고 공급망 부문에서 중국을 견제하기 위한 목적을 가지고 있다. 결정은 8월 내로 내려질 것으로 예상되며, 최저 수입 가격 설정과 추가 관세를 결합한 혼합식 제재가 유력하다. 다만, 미국 내 생산 확대 전까지는 한국 OCI홀딩스와 말레이시아·독일 등 비중국 생산업체로부터의 수입이 불가피하다는 관측이 나오고 있다.",
       "key_points": [
-        "AI 가속기 상단에 HBM을 수직 적층하는 차세대 아키텍처 zHBM 최초 공개",
-        "zHBM은 기존 HBM5 대비 성능 8배, 전성비 3배 향상 및 열 저항 절반 이상 감소",
-        "업계 최초 400단 이상 10세대 V-낸드 'V10 BV-낸드' 공개",
-        "FMS 2026에서 zNAND-O, HBM4E, LPDDR5X-PIM 등 차세대 솔루션 전시"
+        "미국 행정부가 폴리실리콘 가격하한제 및 관세 부과 방안을 8월 내 결정할 예정임",
+        "중국의 보조금 및 과잉생산 견제와 미국 내 생산업체 보호가 정책의 주된 목적임",
+        "이미 무역법 제301조를 통해 중국산 폴리실리콘 및 태양광 웨이퍼 관세율을 25%에서 50%로 인상한 바 있음"
       ],
       "numbers": [
-        "2026/08/04",
-        "400단 이상",
-        "8배",
-        "3배"
+        "2026.08.05",
+        "8월 내",
+        "25%",
+        "50%",
+        "85~90%",
+        "2.4%"
       ],
       "keywords": [
-        "삼성전자",
-        "zHBM",
-        "V10 BV-낸드",
-        "FMS 2026",
-        "AI 반도체",
-        "고대역폭메모리"
+        "폴리실리콘",
+        "가격하한제",
+        "관세",
+        "트럼프 행정부",
+        "공급망 견제"
       ],
-      "stated_outlook": "삼성전자는 차세대 메모리 기술 혁신과 메모리, 파운드리, 첨단 패키징을 아우르는 차별화된 솔루션을 통해 AI 시대의 반도체 기술 리더십을 지속 강화해 나갈 계획이다.",
+      "stated_outlook": "미국 내 폴리실리콘, 웨이퍼, 셀 생산 능력이 확대될 때까지 비중국 생산업체로부터의 수입이 지속될 것으로 보이며, 정부는 미국 내 생산업체 지원과 태양광·반도체 패널의 비용 상승 부작용 사이에서 균형을 맞춰야 하는 상황이다.",
       "summary_source": "user_pasted_text",
-      "industry_context": "삼성전자는 메모리, 로직, 파운드리, 패키징을 모두 아우르는 '원스톱 솔루션'을 제공하는 종합반도체 기업으로서, AI 데이터센터와 고성능 컴퓨팅 시장의 수요 증가에 대응하고 있다."
-    },
-    {
-      "id": "851223997603",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "정책",
-      "title": "TSMC, 일본 구마모토현 1공장 가동 재개",
-      "source": "디일렉",
-      "published": "2026-08-05 03:13",
-      "collected": "2026-08-05",
-      "link": "https://www.thelec.kr/news/articleView.html?idxno=60537",
-      "rss_description": "TSMC가 최근 지진 피해를 입은 일본 구마모토현 공장을 재가동한다. 지진 발생 이후 약 6일 만이다.TSMC는 4일 \"일본 구마모토에 위치한 공장 JASM(Japan Advanced Semiconductor Manufacturing)이 완전히 복구 됐다\"고 밝혔다. 이어 \"일본 정부, 지방자치단체, 구마모토에 있는 임직원, 공급망 파트너 노력 덕에 신속하게 복구를 이룰 수 있었다\"고 덧붙였다.TSMC는 가동 재개에 맞춰 지역 사회에 2억5000만엔(약 22억7000만원)을 기부한다. TSMC는 \"지진 피해를 입은 구마모토는 여전히",
-      "score": 29,
-      "source_type": "산업 전문언론",
-      "source_rank": 2,
-      "verified_source": true,
-      "overview": "지난달 28일 발생한 규모 7.1 지진으로 가동을 중단했던 TSMC의 일본 구마모토 1공장이 6일 만에 재가동되었다. TSMC는 용수 공급과 전력, 안전 시스템 등을 점검한 후 공장을 완전히 복구했다고 밝혔다. 또한 구마모토 지역 사회에 2억 5000만 엔을 기부하기로 했다. 건설 중인 2공장은 지진 피해를 입지 않아 앞서 공사를 재개한 상태다.",
-      "key_points": [
-        "TSMC가 지진 피해를 입은 일본 구마모토 1공장의 가동을 재개함",
-        "지진 발생 후 장비 점검, 용수 및 전력 시스템 확인 등을 거쳐 6일 만에 복구 완료",
-        "TSMC는 지역 사회 지원을 위해 2억 5000만 엔을 기부할 예정",
-        "건설 중인 2공장은 지진 피해가 없어 지난달 29일 공사를 재개함"
-      ],
-      "numbers": [
-        "2026.08.04",
-        "2억5000만엔",
-        "22억7000만원",
-        "28일",
-        "7.1",
-        "5"
-      ],
-      "keywords": [
-        "TSMC",
-        "구마모토",
-        "지진",
-        "JASM",
-        "반도체",
-        "복구"
-      ],
-      "stated_outlook": "지진 피해를 입은 구마모토 지역에 지원이 필요한 상황이며, 가장 도움이 필요한 시기에 마음을 전하고자 기부를 결정함"
+      "industry_context": "폴리실리콘은 반도체와 태양광 공급망의 시작 지점으로, 미국은 1962년 무역확장법 제232조를 근거로 수입이 국가안보에 미치는 영향에 대한 조사를 진행해 왔다. 현재 미국 내에서는 헴록 반도체와 바커 케미가 공장을 운영하고 있다.",
+      "source_rank": 2
     },
     {
       "id": "5a9829eb04b7",
@@ -173,43 +335,202 @@
       "stated_outlook": "전남광주통합특별시는 2030년 6월 반도체 양산 달성이 가능할 것으로 전망하며, 정부·기업과 협력하여 반도체 소재·부품·장비 생태계 및 기업형 첨단도시를 조성할 계획이다."
     },
     {
-      "id": "c50feb86e46b",
-      "sector": "semiconductor",
+      "id": "58daf2eaec72",
+      "sector": "battery",
       "region": "domestic",
-      "category": "기술·공정",
-      "title": "태양광·반도체 소재 '폴리실리콘' 美 가격하한제·관세 준비중",
-      "source": "매일경제",
+      "category": "산업",
+      "title": "‘한국판 IRA’ 생산세액공제 받는 K-배터리…“전기차 등 밸류체인 포함해야”",
+      "source": "서울경제",
       "source_type": "경제지 보도",
-      "published": "2026-08-05 09:39",
+      "published": "2026-08-05 06:20",
       "collected": "2026-08-05",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBXU2R1YVNFMXN1UW5sbWJpeExhYzFpZEQ0Mm5LVmd3LXQyR1J2aFhoX0p2cklCZHNYSEJuX3M3SFNzTzhXWmlNS09xY2xLZWJINFE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TY0ZrZ3NwYlNib2dXczZyRUlGcGluY3k2NmJpc1QxbnF1OGZOdTdDb1BVcThlRVZpQnJvcWpPUnU4eHdyeVRobFN1ZHBuUmhiOWNUaVQxVGlaMjR6bTVr0gFTQVVfeXFMTXY0NmZmTWllZkpoNm03T0ZWX3drNm9fVk5mNzR1LXlxSGtWQWhuc2NNVFU4aklnS3VXY3k3OWtIUlpMTmw2ZUVPUjR5Z29XTVdSZzA?oc=5",
       "trusted_headline": true,
       "verified_source": true,
       "summary_status": "pasted_text_summary",
-      "overview": "미국 트럼프 행정부가 태양광 패널과 반도체 핵심 소재인 폴리실리콘에 대해 가격하한제 도입과 관세 부과를 검토 중이다. 이번 조치는 미국 내 폴리실리콘 공장을 보호하고 공급망 부문에서 중국을 견제하기 위한 목적을 가지고 있다. 결정은 8월 내로 내려질 것으로 예상되며, 최저 수입 가격 설정과 추가 관세를 결합한 혼합식 제재가 유력하다. 다만, 미국 내 생산 확대 전까지는 한국 OCI홀딩스와 말레이시아·독일 등 비중국 생산업체로부터의 수입이 불가피하다는 관측이 나오고 있다.",
+      "overview": "정부가 발표한 '2026 세법개정안'에 배터리 및 2차전지 품목에 대한 국내생산세액공제가 포함되었습니다. 한국 국적 기업이 국내에서 생산과 판매를 모두 할 경우 적격생산비용의 최소 50%를 공제받는 혜택이 주어집니다. 배터리 업계는 이번 조치가 산업 경쟁력 강화에 기여할 것으로 기대하며 환영 의사를 밝혔습니다. 다만 직접 보조금 지원의 부재와 흑자 기업에 한정된 세액공제 방식의 실효성에 대해 업계의 우려가 제기됩니다. 또한 전기차가 지원 대상에서 제외됨에 따라 배터리 밸류체인 전반에 대한 포괄적 지원이 필요하다는 지적이 나오고 있습니다.",
       "key_points": [
-        "미국 행정부가 폴리실리콘 가격하한제 및 관세 부과 방안을 8월 내 결정할 예정임",
-        "중국의 보조금 및 과잉생산 견제와 미국 내 생산업체 보호가 정책의 주된 목적임",
-        "이미 무역법 제301조를 통해 중국산 폴리실리콘 및 태양광 웨이퍼 관세율을 25%에서 50%로 인상한 바 있음"
+        "2026 세법개정안에 배터리 및 2차전지 국내생산세액공제 신설",
+        "국내 생산·판매 시 적격생산비용의 최소 50%를 세액공제",
+        "전기차 등 밸류체인 전반이 지원 대상에서 제외되어 업계 아쉬움 표명",
+        "국내 등록 전기차 중 중국산 비중이 34%까지 급증"
+      ],
+      "numbers": [
+        "2026-08-05",
+        "적격생산비용 최소 50%",
+        "국내 신규 등록 전기차 22만 177대",
+        "중국산 전기차 비중 34%(7만 4728대)",
+        "2022년 중국산 전기차 비중 4.7%"
+      ],
+      "keywords": [
+        "국내생산세액공제",
+        "배터리",
+        "2차전지",
+        "전기차",
+        "밸류체인"
+      ],
+      "stated_outlook": "중국산 전기차의 비중이 빠르게 늘어남에 따라 국내 업체의 입지가 더 좁아질 것으로 전망됩니다.",
+      "summary_source": "user_pasted_text",
+      "industry_context": "배터리 산업은 원료부터 최종 제품인 전기차까지 포괄적인 밸류체인을 형성하고 있으나, 이번 개정안에서는 최종 사용처인 전기차가 지원 대상에서 빠지며 완성차 업계의 우려가 커지고 있습니다. 국내 전기차 시장에서 중국산 비중이 4년 만에 30%를 넘어서는 등 가격 경쟁력을 앞세운 중국산 전기차의 공세가 심화되는 상황입니다.",
+      "source_rank": 2
+    },
+    {
+      "id": "512cc76cdf8e",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "“美 전력망 핵심 부상 ESS…韓기업 진출 기회 커졌다”",
+      "source": "서울경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-05 06:00",
+      "collected": "2026-08-05",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5EeFJXMl9ZSV9XcEI5QW1xak1TYkR5dm1uSHFwZEFQWU1xZXd1TVJTNThJak91bWZTZjlFSGxEZ0llUGlUeEthQnBmc2d3QW9kY2930gFTQVVfeXFMTkR4UlcyX1lJX1dwQjlBbXFqTVNiRHl2bW5IcXBkQVBZTXFld3VNUlM1OElqT3VtZlNmOUVIbERnSWVQaVR4S2FCcGZzZ3dBb2Rjb3c?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "pasted_text_summary",
+      "overview": "미국 내 재생에너지 확대와 데이터센터 전력 수요 급증으로 에너지저장장치(ESS) 시장이 빠르게 성장하고 있다. 이에 따라 전력망 접속 지연을 해소하고 독립 전력망을 구축하려는 수요가 ESS 설치로 이어지며 한국 기업들에 새로운 진출 기회가 열렸다. 특히 미국의 대중국 관세 인상과 공급망 규제가 강화되면서 가격 경쟁력을 넘어 종합 역량을 요구하는 시장으로 재편되고 있다. 코트라는 한국 기업이 배터리 모듈 부품부터 전력변환장치, 안전설비, 운영관리 솔루션 분야에서 기회를 잡을 수 있다고 분석했다. 현지 진출을 위해 기술 검증과 공동 개발, 생산 체계 구축 등의 전략이 요구되는 상황이다.",
+      "key_points": [
+        "재생에너지 비중 확대와 데이터센터 전력 수요 급증으로 미국 내 ESS 수요 증가",
+        "대중국 규제 강화 및 공급망 재편으로 한국 기업의 시장 진입 여건 개선",
+        "배터리 모듈 부품, 전력변환장치, 에너지관리시스템, 안전설비 등이 유망 진출 분야로 제시됨"
+      ],
+      "numbers": [
+        "태양광·풍력 비중 2027년 약 21% 전망",
+        "데이터센터 전력 수요 2030년 115GW 예상",
+        "중국산 리튬이온 배터리 추가관세 25% 인상"
+      ],
+      "keywords": [
+        "ESS",
+        "공급망 재편",
+        "데이터센터",
+        "Section 48E",
+        "코트라"
+      ],
+      "stated_outlook": "코트라는 품목별 기술 검증, 고객사 공동개발, 현지 생산·기술지원 체계 구축을 통해 국내 기업의 미국 ESS 공급망 진입을 적극적으로 도울 계획이다.",
+      "summary_source": "user_pasted_text",
+      "industry_context": "미국은 청정 전력 투자세액공제인 'Section 48E'를 통해 ESS 투자를 지원하는 한편, 금지외국단체(PFE) 공급망 제한 및 중국산 리튬이온 배터리 관세 인상(7.5%에서 25%로)을 통해 중국산 배터리 의존도를 낮추고 있다.",
+      "source_rank": 2
+    },
+    {
+      "id": "64027813b1ea",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "삼성전자, 'HBM 대비 8배 성능' 차세대 zHBM 최초 공개",
+      "source": "뉴시스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-05 04:35",
+      "collected": "2026-08-05",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oUGlnR1M4M0NyZjBOQ3FmQ3Ftd29yZmdZejNjM2NIVVd3UzVXMGN1VUl6X0diSTdsWEZPekNoTURPZmZzOFFmNDdqM3NmekZ0RGw1cVQyMVJOWXNkUHNjbFYxbE5XVG9fQmFIeXRlMzNfcEhKRHI1TtIBeEFVX3lxTE9oUGlnR1M4M0NyZjBOQ3FmQ3Ftd29yZmdZejNjM2NIVVd3UzVXMGN1VUl6X0diSTdsWEZPekNoTURPZmZzOFFmNDdqM3NmekZ0RGw1cVQyMVJOWXNkUHNjbFYxbE5XVG9fQmFIeXRlMzNfcEhKRHI1Tg?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "pasted_text_summary",
+      "overview": "삼성전자가 미국에서 열린 'FMS 2026'에서 고성능 컴퓨팅 및 AI 인프라 대응을 위한 차세대 메모리 기술을 대거 공개했다. 특히 AI 가속기 상단에 HBM을 수직으로 적층하는 차세대 아키텍처 'zHBM'을 업계 최초로 선보이며 데이터 이동 거리를 최소화했다. zHBM은 기존 HBM5 대비 성능은 8배, 전성비는 3배 향상되었으며 열 저항을 절반 이상 낮춘 것이 특징이다. 또한 업계 최초로 400단 이상의 10세대 V-낸드인 'V10 BV-낸드'를 공개하며 초고적층 기술 경쟁력을 입증했다. 이러한 기술 혁신을 통해 삼성전자는 AI 시스템의 성능과 전력 효율을 극대화하는 솔루션 리더십을 강화할 계획이다.",
+      "key_points": [
+        "AI 가속기 상단에 HBM을 수직 적층하는 차세대 아키텍처 zHBM 최초 공개",
+        "zHBM은 기존 HBM5 대비 성능 8배, 전성비 3배 향상 및 열 저항 절반 이상 감소",
+        "업계 최초 400단 이상 10세대 V-낸드 'V10 BV-낸드' 공개",
+        "FMS 2026에서 zNAND-O, HBM4E, LPDDR5X-PIM 등 차세대 솔루션 전시"
+      ],
+      "numbers": [
+        "2026/08/04",
+        "400단 이상",
+        "8배",
+        "3배"
+      ],
+      "keywords": [
+        "삼성전자",
+        "zHBM",
+        "V10 BV-낸드",
+        "FMS 2026",
+        "AI 반도체",
+        "고대역폭메모리"
+      ],
+      "stated_outlook": "삼성전자는 차세대 메모리 기술 혁신과 메모리, 파운드리, 첨단 패키징을 아우르는 차별화된 솔루션을 통해 AI 시대의 반도체 기술 리더십을 지속 강화해 나갈 계획이다.",
+      "summary_source": "user_pasted_text",
+      "industry_context": "삼성전자는 메모리, 로직, 파운드리, 패키징을 모두 아우르는 '원스톱 솔루션'을 제공하는 종합반도체 기업으로서, AI 데이터센터와 고성능 컴퓨팅 시장의 수요 증가에 대응하고 있다.",
+      "source_rank": 3
+    },
+    {
+      "id": "851223997603",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "정책",
+      "title": "TSMC, 일본 구마모토현 1공장 가동 재개",
+      "source": "디일렉",
+      "published": "2026-08-05 03:13",
+      "collected": "2026-08-05",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=60537",
+      "rss_description": "TSMC가 최근 지진 피해를 입은 일본 구마모토현 공장을 재가동한다. 지진 발생 이후 약 6일 만이다.TSMC는 4일 \"일본 구마모토에 위치한 공장 JASM(Japan Advanced Semiconductor Manufacturing)이 완전히 복구 됐다\"고 밝혔다. 이어 \"일본 정부, 지방자치단체, 구마모토에 있는 임직원, 공급망 파트너 노력 덕에 신속하게 복구를 이룰 수 있었다\"고 덧붙였다.TSMC는 가동 재개에 맞춰 지역 사회에 2억5000만엔(약 22억7000만원)을 기부한다. TSMC는 \"지진 피해를 입은 구마모토는 여전히",
+      "score": 29,
+      "source_type": "산업 전문언론",
+      "source_rank": 2,
+      "verified_source": true,
+      "overview": "지난달 28일 발생한 규모 7.1 지진으로 가동을 중단했던 TSMC의 일본 구마모토 1공장이 6일 만에 재가동되었다. TSMC는 용수 공급과 전력, 안전 시스템 등을 점검한 후 공장을 완전히 복구했다고 밝혔다. 또한 구마모토 지역 사회에 2억 5000만 엔을 기부하기로 했다. 건설 중인 2공장은 지진 피해를 입지 않아 앞서 공사를 재개한 상태다.",
+      "key_points": [
+        "TSMC가 지진 피해를 입은 일본 구마모토 1공장의 가동을 재개함",
+        "지진 발생 후 장비 점검, 용수 및 전력 시스템 확인 등을 거쳐 6일 만에 복구 완료",
+        "TSMC는 지역 사회 지원을 위해 2억 5000만 엔을 기부할 예정",
+        "건설 중인 2공장은 지진 피해가 없어 지난달 29일 공사를 재개함"
+      ],
+      "numbers": [
+        "2026.08.04",
+        "2억5000만엔",
+        "22억7000만원",
+        "28일",
+        "7.1",
+        "5"
+      ],
+      "keywords": [
+        "TSMC",
+        "구마모토",
+        "지진",
+        "JASM",
+        "반도체",
+        "복구"
+      ],
+      "stated_outlook": "지진 피해를 입은 구마모토 지역에 지원이 필요한 상황이며, 가장 도움이 필요한 시기에 마음을 전하고자 기부를 결정함"
+    },
+    {
+      "id": "cccd7b81c2da",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "2026.08.05 Samsung Unveils Next-Gen 3D-Memory Vision at FMS 2026, Charting the Future of AI Infrastructure new Samsung introduces industry-first concept models of zHBM and zNAND-O,highlighting leadership in next-generation memory architecture for HPC and AI...",
+      "source": "삼성전자 반도체 뉴스룸",
+      "published": "2026-08-05 00:00",
+      "collected": "2026-08-05",
+      "link": "https://news.samsungsemiconductor.com/global/samsung-unveils-next-gen-3d-memory-vision-at-fms-2026-charting-the-future-of-ai-infrastructure/",
+      "rss_description": "2026.08.05 Samsung Unveils Next-Gen 3D-Memory Vision at FMS 2026, Charting the Future of AI Infrastructure new Samsung introduces industry-first concept models of zHBM and zNAND-O,highlighting leadership in next-generation memory architecture for HPC and AI...",
+      "source_type": "기업 공식 발표",
+      "official_source": true,
+      "score": 12,
+      "source_rank": 4,
+      "verified_source": true,
+      "overview": "삼성전자가 FMS 2026에서 차세대 3D 메모리 아키텍처 비전을 제시하며 AI 인프라 혁신을 이끌 기술 포트폴리오를 공개했다. 업계 최초로 zHBM과 zNAND-O 개념 모델을 선보였으며, 400단 이상의 V10 BV-NAND를 최초로 공개했다. 또한 HBM4E, HBM5, LPDDR5X-PIM 등 AI 및 고성능 컴퓨팅을 위한 차세대 메모리 로드맵을 발표했다. 삼성전자는 메모리, 파운드리, 패키징 역량을 통합하여 고객에게 맞춤형 턴키 솔루션을 제공한다는 전략이다.",
+      "key_points": [
+        "zHBM은 AI 가속기 바로 위에 메모리를 수직으로 적층하여 데이터 처리 속도와 에너지 효율을 극대화한 아키텍처임",
+        "업계 최초로 공개된 V10 BV-NAND는 웨이퍼 본딩 기술을 적용해 400단 이상의 층수를 구현하며 이전 세대 대비 메모리 밀도를 약 58% 향상함",
+        "zNAND-O는 V-NAND 기술 기반으로 4단 및 8단 버전으로 제공되며 엣지 AI 환경에 최적화된 고성능 아키텍처임",
+        "삼성전자는 메모리부터 파운드리, 어드밴스드 패키징까지 아우르는 IDM으로서 AI 인프라를 위한 일괄 공정(Turnkey) 솔루션을 제공함"
       ],
       "numbers": [
         "2026.08.05",
-        "8월 내",
-        "25%",
-        "50%",
-        "85~90%",
-        "2.4%"
+        "400-plus",
+        "eight times",
+        "10 times",
+        "threefold",
+        "13 years"
       ],
       "keywords": [
-        "폴리실리콘",
-        "가격하한제",
-        "관세",
-        "트럼프 행정부",
-        "공급망 견제"
+        "FMS 2026",
+        "zHBM",
+        "zNAND-O",
+        "V10 BV-NAND",
+        "AI 인프라",
+        "차세대 메모리"
       ],
-      "stated_outlook": "미국 내 폴리실리콘, 웨이퍼, 셀 생산 능력이 확대될 때까지 비중국 생산업체로부터의 수입이 지속될 것으로 보이며, 정부는 미국 내 생산업체 지원과 태양광·반도체 패널의 비용 상승 부작용 사이에서 균형을 맞춰야 하는 상황이다.",
-      "summary_source": "user_pasted_text",
-      "industry_context": "폴리실리콘은 반도체와 태양광 공급망의 시작 지점으로, 미국은 1962년 무역확장법 제232조를 근거로 수입이 국가안보에 미치는 영향에 대한 조사를 진행해 왔다. 현재 미국 내에서는 헴록 반도체와 바커 케미가 공장을 운영하고 있다."
+      "stated_outlook": "삼성전자는 고객과의 긴밀한 협력을 통해 zHBM을 활용한 AI 프로세서와 메모리의 통합을 최적화하여 AI 시스템 성능을 극대화할 계획이다."
     },
     {
       "id": "12fc79f786b5",
@@ -253,81 +574,6 @@
       "stated_outlook": ""
     },
     {
-      "id": "58daf2eaec72",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "산업",
-      "title": "‘한국판 IRA’ 생산세액공제 받는 K-배터리…“전기차 등 밸류체인 포함해야”",
-      "source": "서울경제",
-      "source_type": "경제지 보도",
-      "published": "2026-08-05 06:20",
-      "collected": "2026-08-05",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TY0ZrZ3NwYlNib2dXczZyRUlGcGluY3k2NmJpc1QxbnF1OGZOdTdDb1BVcThlRVZpQnJvcWpPUnU4eHdyeVRobFN1ZHBuUmhiOWNUaVQxVGlaMjR6bTVr0gFTQVVfeXFMTXY0NmZmTWllZkpoNm03T0ZWX3drNm9fVk5mNzR1LXlxSGtWQWhuc2NNVFU4aklnS3VXY3k3OWtIUlpMTmw2ZUVPUjR5Z29XTVdSZzA?oc=5",
-      "trusted_headline": true,
-      "verified_source": true,
-      "summary_status": "pasted_text_summary",
-      "overview": "정부가 발표한 '2026 세법개정안'에 배터리 및 2차전지 품목에 대한 국내생산세액공제가 포함되었습니다. 한국 국적 기업이 국내에서 생산과 판매를 모두 할 경우 적격생산비용의 최소 50%를 공제받는 혜택이 주어집니다. 배터리 업계는 이번 조치가 산업 경쟁력 강화에 기여할 것으로 기대하며 환영 의사를 밝혔습니다. 다만 직접 보조금 지원의 부재와 흑자 기업에 한정된 세액공제 방식의 실효성에 대해 업계의 우려가 제기됩니다. 또한 전기차가 지원 대상에서 제외됨에 따라 배터리 밸류체인 전반에 대한 포괄적 지원이 필요하다는 지적이 나오고 있습니다.",
-      "key_points": [
-        "2026 세법개정안에 배터리 및 2차전지 국내생산세액공제 신설",
-        "국내 생산·판매 시 적격생산비용의 최소 50%를 세액공제",
-        "전기차 등 밸류체인 전반이 지원 대상에서 제외되어 업계 아쉬움 표명",
-        "국내 등록 전기차 중 중국산 비중이 34%까지 급증"
-      ],
-      "numbers": [
-        "2026-08-05",
-        "적격생산비용 최소 50%",
-        "국내 신규 등록 전기차 22만 177대",
-        "중국산 전기차 비중 34%(7만 4728대)",
-        "2022년 중국산 전기차 비중 4.7%"
-      ],
-      "keywords": [
-        "국내생산세액공제",
-        "배터리",
-        "2차전지",
-        "전기차",
-        "밸류체인"
-      ],
-      "stated_outlook": "중국산 전기차의 비중이 빠르게 늘어남에 따라 국내 업체의 입지가 더 좁아질 것으로 전망됩니다.",
-      "summary_source": "user_pasted_text",
-      "industry_context": "배터리 산업은 원료부터 최종 제품인 전기차까지 포괄적인 밸류체인을 형성하고 있으나, 이번 개정안에서는 최종 사용처인 전기차가 지원 대상에서 빠지며 완성차 업계의 우려가 커지고 있습니다. 국내 전기차 시장에서 중국산 비중이 4년 만에 30%를 넘어서는 등 가격 경쟁력을 앞세운 중국산 전기차의 공세가 심화되는 상황입니다."
-    },
-    {
-      "id": "512cc76cdf8e",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "산업",
-      "title": "“美 전력망 핵심 부상 ESS…韓기업 진출 기회 커졌다”",
-      "source": "서울경제",
-      "source_type": "경제지 보도",
-      "published": "2026-08-05 06:00",
-      "collected": "2026-08-05",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5EeFJXMl9ZSV9XcEI5QW1xak1TYkR5dm1uSHFwZEFQWU1xZXd1TVJTNThJak91bWZTZjlFSGxEZ0llUGlUeEthQnBmc2d3QW9kY2930gFTQVVfeXFMTkR4UlcyX1lJX1dwQjlBbXFqTVNiRHl2bW5IcXBkQVBZTXFld3VNUlM1OElqT3VtZlNmOUVIbERnSWVQaVR4S2FCcGZzZ3dBb2Rjb3c?oc=5",
-      "trusted_headline": true,
-      "verified_source": true,
-      "summary_status": "pasted_text_summary",
-      "overview": "미국 내 재생에너지 확대와 데이터센터 전력 수요 급증으로 에너지저장장치(ESS) 시장이 빠르게 성장하고 있다. 이에 따라 전력망 접속 지연을 해소하고 독립 전력망을 구축하려는 수요가 ESS 설치로 이어지며 한국 기업들에 새로운 진출 기회가 열렸다. 특히 미국의 대중국 관세 인상과 공급망 규제가 강화되면서 가격 경쟁력을 넘어 종합 역량을 요구하는 시장으로 재편되고 있다. 코트라는 한국 기업이 배터리 모듈 부품부터 전력변환장치, 안전설비, 운영관리 솔루션 분야에서 기회를 잡을 수 있다고 분석했다. 현지 진출을 위해 기술 검증과 공동 개발, 생산 체계 구축 등의 전략이 요구되는 상황이다.",
-      "key_points": [
-        "재생에너지 비중 확대와 데이터센터 전력 수요 급증으로 미국 내 ESS 수요 증가",
-        "대중국 규제 강화 및 공급망 재편으로 한국 기업의 시장 진입 여건 개선",
-        "배터리 모듈 부품, 전력변환장치, 에너지관리시스템, 안전설비 등이 유망 진출 분야로 제시됨"
-      ],
-      "numbers": [
-        "태양광·풍력 비중 2027년 약 21% 전망",
-        "데이터센터 전력 수요 2030년 115GW 예상",
-        "중국산 리튬이온 배터리 추가관세 25% 인상"
-      ],
-      "keywords": [
-        "ESS",
-        "공급망 재편",
-        "데이터센터",
-        "Section 48E",
-        "코트라"
-      ],
-      "stated_outlook": "코트라는 품목별 기술 검증, 고객사 공동개발, 현지 생산·기술지원 체계 구축을 통해 국내 기업의 미국 ESS 공급망 진입을 적극적으로 도울 계획이다.",
-      "summary_source": "user_pasted_text",
-      "industry_context": "미국은 청정 전력 투자세액공제인 'Section 48E'를 통해 ESS 투자를 지원하는 한편, 금지외국단체(PFE) 공급망 제한 및 중국산 리튬이온 배터리 관세 인상(7.5%에서 25%로)을 통해 중국산 배터리 의존도를 낮추고 있다."
-    },
-    {
       "id": "6121e95918f0",
       "sector": "battery",
       "region": "domestic",
@@ -345,30 +591,10 @@
       "key_points": [],
       "numbers": [],
       "keywords": [],
-      "stated_outlook": ""
-    },
-    {
-      "id": "76f79b1419ad",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "투자·양산",
-      "title": "LS일렉트릭, 천안 공장서 차세대 ESS PCS 첫 출하",
-      "source": "ZDNet Korea",
-      "source_type": "산업 전문언론",
-      "published": "2026-08-06 09:42",
-      "collected": "2026-08-06",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93STJOeThMSmxuUXpFWF9LUVdvUU5PcGhXdUZHbkc1NU5BNzcwSGhjeDkwWGhFZDJNSEQ4R1FMbHlOZzVVbVRWc3UyT2EzTHpwdzRVWGtR?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "stated_outlook": "",
+      "source_rank": 3
     }
   ],
-  "archive_items": [],
   "semi_items": [],
   "semi_archive_items": [],
   "manual_items": [
@@ -408,7 +634,7 @@
       ],
       "stated_outlook": "머크는 실리콘 포토닉스 및 CPO 관련 주요 고객사와 협력을 추진하여 빠르게 성장 궤도에 안착하고, 기존 반도체·디스플레이 소재 분야의 경쟁 우위를 지속할 계획이다.",
       "summary_status": "summarized",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T15:02:43.435695+09:00"
     },
     {
@@ -448,7 +674,7 @@
       ],
       "stated_outlook": "국내 업체들은 고부가 제품 포트폴리오 전환과 ESS 사업 확대를 하반기 핵심 성장 전략으로 삼고 있으며, CATL은 해외 생산기지 확대에 집중할 계획이다.",
       "summary_status": "summarized",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T11:03:43.542875+09:00"
     },
     {
@@ -488,7 +714,7 @@
         "장기공급계약"
       ],
       "stated_outlook": "AI와 고성능컴퓨팅 수요 성장 및 공급망 조정을 통해 내년에는 의미 있는 성장세를 이룰 예정이며, 마이크론 외 추가 고객사와 신규 장기공급계약을 협상 중임.",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T14:58:55.752260+09:00",
       "summary_source": "user_pasted_text",
       "industry_context": "글로벌 실리콘 웨이퍼 시장은 SK실트론, 신에쓰화학, 섬코, 글로벌웨이퍼스, 실트로닉 등 5개 업체가 90% 이상을 점유하고 있는 기술 장벽이 높은 산업이다. 첨단 패키징, 고대역폭메모리, 실리콘 포토닉스 기술의 발전이 웨이퍼 사용을 촉진하는 핵심 동력이 되고 있다."
@@ -528,7 +754,7 @@
         "공급망"
       ],
       "stated_outlook": "삼성전자는 5나노 중심의 영업을 강화하는 한편, 2나노 공정에 대해서도 글로벌 고객사의 물량 타진을 받고 있으며 수율 확보에 집중하고 있다.",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T14:58:55.752260+09:00",
       "summary_source": "user_pasted_text",
       "industry_context": "삼성전자의 4나노 라인은 HBM4 주문량 급증과 엔비디아의 추론용 LPU '그록3' 물량 증가로 인해 풀캐파 상황을 맞이했다. 대만 TSMC의 미세공정 수급이 타이트해짐에 따라 중국과 인도계 팹리스 기업들이 제재 회피 및 수요 충족을 위해 삼성 파운드리의 5나노 공정을 대안으로 선택하고 있다."
@@ -553,7 +779,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T14:58:55.752260+09:00"
     },
     {
@@ -576,7 +802,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T11:09:08.952853+09:00"
     },
     {
@@ -613,7 +839,7 @@
         "샌디스크"
       ],
       "stated_outlook": "SK하이닉스는 HBF 규격을 오픈컴퓨트프로젝트(OCP)를 통해 공개하고 참여 기업을 확대하여 상용 생태계를 구축할 계획이다.",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T09:51:54.648756+09:00",
       "summary_source": "user_pasted_text",
       "industry_context": "AI 가속기의 연산 속도가 비약적으로 발전함에 따라 기존 D램 대역폭이 이를 따라가지 못하는 메모리 병목 현상이 발생하고 있다. SK하이닉스는 메모리 계층 구조를 기존 6단계에서 3D 적층 D램과 HBF를 추가한 8단계로 세분화하여 시스템 효율을 개선하고자 한다."
@@ -653,7 +879,7 @@
         "전극 공정"
       ],
       "stated_outlook": "올해 하반기 폭스바겐의 SSP 및 MEB플러스 프로젝트와 르노 등을 중심으로 국내 배터리 제조사의 추가 수주 기회가 열려 있으며, 이는 유럽 내 생산라인 가동률 상승으로 이어질 전망이다.",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T09:49:42.032206+09:00",
       "summary_source": "user_pasted_text",
       "industry_context": "배터리 산업은 전극 공정 등 생산 환경에 민감한 공정 특성상 높은 진입장벽을 가진다. 현지 업체들은 숙련 인력 부족과 공정 노하우 미흡으로 양산 안정화에 한계를 보이고 있다."
@@ -697,7 +923,7 @@
       ],
       "stated_outlook": "7세대 SSD 컨트롤러의 성능을 전 세대 대비 10배 이상 높이고, 512바이트 임의 읽기 속도를 초당 1억번 입출력 작업수(IOPS)로 높이는 것이 목표다.",
       "summary_status": "summarized",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T09:51:54.648756+09:00"
     },
     {
@@ -738,7 +964,7 @@
       ],
       "stated_outlook": "데이터센터 성능 향상을 위해 스위칭과 스토리지 강점을 결합하여 차세대 AI 플랫폼을 위한 확장 가능한 아키텍처를 보여줄 계획이다.",
       "summary_status": "summarized",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T09:51:54.648756+09:00"
     },
     {
@@ -778,7 +1004,7 @@
       ],
       "stated_outlook": "하반기 연결기준 매출 1조719억원, 영업이익 1631억원을 제시하며 시스템 IC 및 SOCAMM용 제품 판매 확대를 통한 수익성 제고를 전망함.",
       "summary_status": "summarized",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T09:51:54.648756+09:00"
     },
     {
@@ -818,7 +1044,7 @@
       ],
       "stated_outlook": "2027년 하반기부터 웨이퍼 공급 부족이 심화되고 가격 인상이 본격화될 전망이며, 주요 메모리 업체들의 신규 공장 가동 시 웨이퍼 수요가 현재의 2배 수준으로 증가할 것으로 예상된다.",
       "summary_status": "summarized",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T09:51:54.648756+09:00"
     },
     {
@@ -841,7 +1067,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T09:51:54.648756+09:00"
     },
     {
@@ -878,7 +1104,7 @@
       ],
       "stated_outlook": "2026년형 일부 차종을 시작으로 BMW그룹 차량에 탑재될 예정이며, 완성차 업체는 동일 하드웨어 플랫폼에서 발동작 인식, 침입 감지, 자동 충전 등 다양한 기능을 추가할 수 있음",
       "summary_status": "summarized",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T09:51:54.648756+09:00"
     },
     {
@@ -920,7 +1146,7 @@
       ],
       "stated_outlook": "삼성전자는 이달부터 10세대 낸드 초도 물량을 양산할 예정이며, SK하이닉스는 내년 초 10세대 낸드 기반의 고성능·고용량 eSSD 양산에 착수할 계획임. 또한 글로벌 낸드 시장 매출 규모가 올해 3601억 달러로 성장할 것으로 전망됨.",
       "summary_status": "summarized",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T10:07:02.082243+09:00"
     },
     {
@@ -961,7 +1187,7 @@
       ],
       "stated_outlook": "DB월드는 수익성 개선을 위해 합금철부문 영업을 9월 30일까지 정지하기로 결정했으며, 이에 따라 향후 DB하이텍의 연결 매출이 감소할 수 있으나 부채비율 및 현금흐름은 개선될 것으로 전망됨.",
       "summary_status": "summarized",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T09:51:54.648756+09:00"
     },
     {
@@ -1001,7 +1227,7 @@
       ],
       "stated_outlook": "2026년 하반기 개념 검증(POC)을 완료하고, 2027년 상반기 시제품 완성 및 고객사 평가를 진행할 예정이다.",
       "summary_status": "summarized",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T09:51:54.648756+09:00"
     },
     {
@@ -1040,7 +1266,7 @@
       ],
       "stated_outlook": "이번 연구 결과는 향후 양자 컴파일러의 신뢰성을 높이기 위한 방향성을 제시하며, 향후 연구는 자기회귀 드리프트를 완화하고 보다 정확한 이산 회로 최적화 기법을 개발하는 데 집중될 전망입니다.",
       "summary_status": "summarized",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T09:51:54.648756+09:00"
     },
     {
@@ -1063,7 +1289,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T09:51:54.648756+09:00"
     },
     {
@@ -1086,7 +1312,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T09:51:54.648756+09:00"
     },
     {
@@ -1126,7 +1352,7 @@
       ],
       "stated_outlook": "추론 작업이 향후 AI 워크로드의 80% 이상을 차지할 것으로 전망되며, 이에 따라 CPU와 GPU 간의 긴밀한 전력 조정과 데이터 중심의 시스템 효율성 혁신이 지속될 것으로 보입니다.",
       "summary_status": "summarized",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T09:51:54.648756+09:00"
     },
     {
@@ -1167,7 +1393,7 @@
       ],
       "stated_outlook": "이번 제휴를 통해 양사는 AI 메모리 분야에서의 혁신을 도모하고, 다음 세대 메모리 제품 시장에서 입지를 강화할 계획이다.",
       "summary_status": "summarized",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T14:58:55.752260+09:00"
     },
     {
@@ -1209,7 +1435,7 @@
       ],
       "stated_outlook": "현지 생산과 LFP 가격 경쟁력, 대형 프로젝트 수주를 실제 출하와 수익으로 연결하는 능력이 향후 점유율 확대를 결정할 전망임.",
       "summary_status": "summarized",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-06T09:49:42.032206+09:00"
     },
     {
@@ -1232,7 +1458,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-05T14:33:32.663642+09:00"
     },
     {
@@ -1255,7 +1481,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-05T14:33:32.663642+09:00"
     },
     {
@@ -1296,7 +1522,7 @@
         "자율제조"
       ],
       "stated_outlook": "정부는 현재 430만 건인 국가 소재 데이터를 2030년까지 1500만 건 이상으로 확대하고, 이를 통해 핵심 소재 자립과 공급망 안정을 도모할 계획이다. 또한 코맵을 AI 에이전트 및 로봇과 연계해 소재 설계부터 공정 최적화까지 이어지는 선순환 생태계를 구축할 방침이다.",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-05T14:33:32.663642+09:00",
       "summary_source": "user_pasted_text",
       "industry_context": "2019년 일본의 핵심 소재 수출 규제 이후 한국은 소부장 경쟁력 강화를 국가 전략으로 삼았다. 대외 의존도가 높은 핵심 품목의 공급망 안정을 위해 연구개발 방식을 데이터와 AI 중심으로 전환하는 추세이다."
@@ -1338,7 +1564,7 @@
         "AI반도체"
       ],
       "stated_outlook": "삼성전자는 미국과 중국의 수요 증가에 대응해 하반기 두 자릿수 매출 성장을 추진하며, 선단공정과 AI·고성능컴퓨팅 수주 확대를 통해 중장기 성장 기반을 마련할 방침이다.",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-05T14:33:32.663642+09:00",
       "summary_source": "user_pasted_text",
       "industry_context": "AI 가속기, HBM 베이스다이, 스마트폰용 AP 수요가 급증함에 따라 TSMC와 삼성전자 모두 첨단 공정 투자를 강화하고 있다. 삼성전자는 메모리, 파운드리, 첨단 패키징을 일괄 제공하는 경쟁력을 앞세워 글로벌 빅테크 고객사와 2나노 수주를 협의 중이다."
@@ -1363,7 +1589,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-05T14:33:32.663642+09:00"
     },
     {
@@ -1386,7 +1612,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-05T14:33:32.663642+09:00"
     },
     {
@@ -1409,7 +1635,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-05T14:33:32.663642+09:00"
     },
     {
@@ -1432,7 +1658,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "manual_active": true,
+      "manual_active": false,
       "manual_added_at": "2026-08-05T14:33:32.663642+09:00"
     },
     {
