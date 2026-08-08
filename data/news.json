@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08 20:49 KST",
+  "updated_at": "2026-08-08 23:17 KST",
   "last_automatic_update_at": "2026-08-08 13:32 KST",
   "automatic_cycle_started_at": "2026-08-08 13:32 KST",
   "automatic_locked_vacancies": {
@@ -7,10 +7,10 @@
     "battery": 0
   },
   "publication_window": {
-    "from": "2026-08-07T20:49:22.821331+09:00",
-    "to": "2026-08-08T20:49:22.821331+09:00"
+    "from": "2026-08-07T23:17:50.174542+09:00",
+    "to": "2026-08-08T23:17:50.174542+09:00"
   },
-  "today_verified_count": 0,
+  "today_verified_count": 1,
   "current_items": [
     {
       "id": "3dc03ab19e67",
@@ -217,6 +217,26 @@
       "published": "2026-08-08 00:11",
       "collected": "2026-08-08",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Bd3FSYTFUTlk3M2xhSndLc05hZFFfUXU0Mnp0cW5FZmJHREVhNDlBRF9rUDgzMm5jZ3BtQndMNndzOEl3SURXUnd0eDVlQTc0d3c?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "20e3dce7387f",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "＂3조 잭팟 터뜨렸다＂…LFP 양극재 첫 대형 공급 뚫은 한국 기업",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-08 18:24",
+      "collected": "2026-08-08",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByQXVZMTBoVDVqX2tRdE05N0Y2Q1pxRHdGWHRpRmxTX2haaGNBUENVaHVaMy1OSzNZTk8yNU1XNml2YVZhalRLbFpZSnN1RzAyYjhxZDFaQXB0V2Q1YVdKWmJMMG1YelY1TDBHWDhwZ2lxV0VxdndJ?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
