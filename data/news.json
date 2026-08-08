@@ -1,28 +1,68 @@
 {
-  "updated_at": "2026-08-07 13:31 KST",
-  "last_automatic_update_at": "2026-08-07 13:31 KST",
-  "automatic_cycle_started_at": "2026-08-07 13:31 KST",
+  "updated_at": "2026-08-08 13:32 KST",
+  "last_automatic_update_at": "2026-08-08 13:32 KST",
+  "automatic_cycle_started_at": "2026-08-08 13:32 KST",
   "automatic_locked_vacancies": {
     "semiconductor": 0,
     "battery": 0
   },
   "publication_window": {
-    "from": "2026-08-06T13:31:32.112782+09:00",
-    "to": "2026-08-07T13:31:32.112782+09:00"
+    "from": "2026-08-07T13:32:44.652978+09:00",
+    "to": "2026-08-08T13:32:44.652978+09:00"
   },
-  "today_verified_count": 10,
+  "today_verified_count": 8,
   "current_items": [
     {
-      "id": "49622fa6cb90",
+      "id": "3dc03ab19e67",
       "sector": "semiconductor",
       "region": "domestic",
-      "category": "기술·공정",
-      "title": "美, '반도체·태양광 핵심 소재' 파생제품에 15% 추가관세(종합)",
-      "source": "연합뉴스",
-      "source_type": "통신사 보도",
-      "published": "2026-08-07 09:41",
-      "collected": "2026-08-07",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9hX2tBbEdob0U2UV9jM29YWFQ3QXdKdEdXdEhnR0pmYkZaRWNJTjZXdkllZWFIR19IMUhNSVozUlhpcVdqMTYyOGJ2QWMzVmQ0ZjZVR0JJa0d0YXfSAWBBVV95cUxNR0Z2ZGwzaUFmQl9HN3dVRVU2T0hjeHluYm9zZ1RYSm92M0tPRjhqSlhzLXpHbVBMN2RvdGxPWjJXaThVVFJHd3c1RVRpYVY4bURyUDc4UGVKT2JBMmVZVnM?oc=5",
+      "category": "투자·양산",
+      "title": "SK하이닉스, 용인·청주 신규 팹 건설에 54조 투자",
+      "source": "디일렉",
+      "published": "2026-08-08 02:26",
+      "collected": "2026-08-08",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=60694",
+      "rss_description": "SK하이닉스가 총 54조3000억원을 투자해 용인과 청주에 신규 반도체 팹을 건설한다. SK하이닉스는 7일 이사회에서 용인 반도체 클러스터 2번째 팹 'Y2', 청주 신규 팹 'M17' 건설에 각각 35조2000억원, 19조1000억원을 투자하기로 결정했다. SK하이닉스는 지난 6월 중장기 투자 전략을 발표했다. 용인 반도체 클러스터 600조원, 청주 생산기지 확대 100조원을 투입한다. 용인 Y2는 SK하이닉스가 용인 반도체 클러스터에 순차적으로 건설할 총 4개 팹 중 두 번째 팹이다. 연면적 34만1000평 규모로 구축한다. 고",
+      "score": 26,
+      "source_type": "산업 전문언론",
+      "source_rank": 2,
+      "verified_source": true,
+      "overview": "SK하이닉스가 이사회를 통해 용인 반도체 클러스터의 두 번째 팹인 'Y2'와 청주 신규 팹 'M17' 건설에 총 54조 3000억원을 투자하기로 결정했다. 용인 Y2는 HBM과 차세대 D램을 생산하며 2029년 6월 첫 클린룸을 오픈할 예정이다. 청주 M17은 낸드플래시 생산 거점으로 구축되며 2028년 12월 첫 클린룸 오픈을 목표로 한다. 이번 투자는 글로벌 AI 반도체 공급망 안정을 위한 선제적 생산 기반 확보 차원에서 진행된다.",
+      "key_points": [
+        "SK하이닉스가 용인 Y2 팹에 35조 2000억원, 청주 M17 팹에 19조 1000억원을 투자함",
+        "용인 Y2는 2027년 7월 착공하여 2029년 6월 클린룸을 오픈하고 2031년 10월까지 단계적으로 투자함",
+        "청주 M17은 2027년 2월 착공하여 2028년 12월 클린룸을 오픈하고 2031년 4월까지 단계적으로 투자함",
+        "용인 반도체 클러스터의 전체 완공 시점을 당초 2045년에서 2033년으로 12년 앞당김"
+      ],
+      "numbers": [
+        "54조 3000억원",
+        "35조 2000억원",
+        "19조 1000억원",
+        "2027년 7월",
+        "2029년 6월",
+        "2031년 10월"
+      ],
+      "keywords": [
+        "SK하이닉스",
+        "용인 Y2",
+        "청주 M17",
+        "반도체 팹",
+        "HBM",
+        "낸드플래시"
+      ],
+      "stated_outlook": "선제적 생산 기반 확보를 통해 글로벌 AI 반도체 공급망 안정에 기여하는 AI 인프라의 핵심 파트너로 자리매김할 계획이며, 실제 생산능력 확대는 고객 수요에 맞춰 진행할 예정이다."
+    },
+    {
+      "id": "64c23e6b4e7f",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "[소현철의 지정학에서 찾는 투자기회] 메모리 반도체 3대 변수 … ① 美중간선거 ② 칩플레이션 ③ 데이터센터 규제",
+      "source": "매일경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-07 16:53",
+      "collected": "2026-08-08",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNTZ0QTVmYzZGOXVVWFMzWmRKenI1ZzdMZlRBYTdzN0ZEZGhfNlpnSlhscWlFa1ptZEJjMnd5eU9nU1pzbmVPczVIQ3JFOEFKenE3eml0Qk16RzJiNXNoMzZvZnRQT29fNGx2SWpUaG15VFphS0lkUjlSTTM2UVpRLVo3bjJWSTl0?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
@@ -33,16 +73,16 @@
       "stated_outlook": ""
     },
     {
-      "id": "3c6f1216f66f",
+      "id": "a19d3e3d41d2",
       "sector": "semiconductor",
       "region": "domestic",
-      "category": "기술·공정",
-      "title": "반도체 장비 부품기업 동원파츠, 코스닥 상장예비심사 청구",
-      "source": "전자신문",
-      "source_type": "산업 전문언론",
-      "published": "2026-08-07 10:31",
-      "collected": "2026-08-07",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE12RlU2cV9sMHg0LTRfTlZBVk0xV3BvZk5Nb2Q4WGJwR2huRTRaLU42dU1laEFRR2JvQ05ETzYzSllpcW1PcE1iRTRKZFE?oc=5",
+      "category": "산업",
+      "title": "D램 품귀 현상에…엔비디아 HBM 스펙 축소 검토",
+      "source": "매일경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-07 17:52",
+      "collected": "2026-08-08",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9lb3I1RFUwZHB2MExBSk1uT19ZWkJtMDVaY3BGbWhVWUpiYlNRcGZFZnZvUDdSbE5xMmRtdzUxWFlJYUEtd055dlhCbzVVdHphd0ZXM05n?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
@@ -52,6 +92,122 @@
       "keywords": [],
       "stated_outlook": ""
     },
+    {
+      "id": "9a44d225f129",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "\"HBM·D램 등 유기적 연계가 AI 시스템 핵심\"",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-07 17:30",
+      "collected": "2026-08-08",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uVGR5V2dwejFsSE1tN2Qzb3IyZlBlak1yb2pBVGJyVm1RckhCYmlqRGhSbXRMWGV4TDJaMk9ibmpvZjNjQ3dUQVVFa1lEVmd2X0FHd1hHMHpZZw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "a7f080b8a16b",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "정책",
+      "title": "[Weekly 신기술 및 정책소식] 태양광·반도체·이차전지 국내 생산시 2036년까지 세액공제",
+      "source": "KIPOST",
+      "published": "2026-08-08 03:48",
+      "collected": "2026-08-08",
+      "link": "https://www.kipost.net/news/articleView.html?idxno=340437",
+      "rss_description": "◇ 태양광·반도체·이차전지 국내 생산시 2036년까지 세액공제정부가 반도체, 이차전지, 인공지능(AI) 로봇부품 등 전략산업의 국내 생산 기반을 확충하기 위해 국내생산세액공제를 새로 도입한다. 산업통상부는 지난 3일 발표된 2026년 세제개편안에 국내생산세액공제가 신설됐다고 7일 밝혔다.국내생산세액공제는 녹색전환과 경제안보에 전략적으로 중요한 산업 가운데 국내 생산 기반이 취약한 태양광발전, 풍력발전, 이차전지, 반도체, 핵심소재, AI 로봇부품 등 6대 분야에 적용된다.내국인이 국내에서 직접 생산·판매하는 요건을 충족하면 생산량과",
+      "score": 19,
+      "source_type": "산업 전문언론",
+      "source_rank": 2,
+      "verified_source": true,
+      "overview": "정부가 반도체, 이차전지, 태양광 등 6대 전략산업의 국내 생산 기반을 확충하기 위해 국내생산세액공제를 신설했다. 내국인이 국내에서 직접 생산 및 판매하는 요건을 갖출 경우 2036년 말까지 세액공제 혜택을 받을 수 있다. 또한 비수도권 기업에는 생산지역별계수를 도입해 더 큰 혜택을 제공할 예정이다.",
+      "key_points": [
+        "국내생산세액공제 대상은 태양광발전, 풍력발전, 이차전지, 반도체, 핵심소재, AI 로봇부품 등 6대 분야다.",
+        "세액공제는 내국인이 국내에서 직접 생산 및 판매할 경우 적용되며, 2036년 말까지 기한이 설정되었다.",
+        "정부는 비수도권 기업에 더 큰 혜택을 주기 위해 생산지역별계수를 도입한다."
+      ],
+      "numbers": [
+        "2036년",
+        "6대 분야"
+      ],
+      "keywords": [
+        "국내생산세액공제",
+        "전략산업",
+        "산업통상자원부",
+        "세제개편안",
+        "생산지역별계수"
+      ],
+      "stated_outlook": "정부는 국내생산세액공제를 통해 태양광, 반도체, 이차전지 등 전략산업의 국내 생산 기반을 확충하고, 5극 3특 지방 주도 성장을 촉진할 계획이다."
+    },
+    {
+      "id": "f3c83a4d67d5",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "포스코퓨처엠, 3조 LFP 뚫었다…북미 ESS 정조준",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-07 15:44",
+      "collected": "2026-08-08",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBiNDNMamdjcFRhLXIxdjBqdVl3QVp4cFlQWFlxSlFGUEVjMlpxem9IQW51ejRNT1JQQmRTZDFGU200c1luM3puZUp3LXZKRFpVOXU4ZXl3VGVFb1ZkXzhhcWNhclZwQmtFUDJWbTA3bF8zbFF0cnJB?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "825e9f06ccc5",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "포스코퓨처엠, LFP 수주 물꼬…양·음극재 패키지 통할까",
+      "source": "서울경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-07 18:20",
+      "collected": "2026-08-08",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8wemlxanNRR3dkVUlqQXJxTGVYajNiQW53ekh1UWtDNzVKeklMTUlIclRETGowRlpxX0FsUDRSYV9QMnlSdnZ2R3d1Rjl4UHBVeWY1VG5wLUhxeGxxUHB2VXBPSVM?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "1d16395352fd",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "2분기 흑자…ESS가 전기차 캐즘 메웠다",
+      "source": "매일경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-07 14:26",
+      "collected": "2026-08-08",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1rQlg0UnNQTHBkTjhWUGwyM1JMd1MwbHlqZ1FpV04zSmhhc1hub3JFYWpKQ2NmbGNucEJuRGptNW02MVZncTJVVW9VR0ZTNF9ab3FOazlB?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    }
+  ],
+  "archive_items": [
     {
       "id": "6df6502da7d5",
       "sector": "semiconductor",
@@ -70,7 +226,8 @@
       "key_points": [],
       "numbers": [],
       "keywords": [],
-      "stated_outlook": ""
+      "stated_outlook": "",
+      "source_rank": 2
     },
     {
       "id": "2cf95895136f",
@@ -90,27 +247,8 @@
       "key_points": [],
       "numbers": [],
       "keywords": [],
-      "stated_outlook": ""
-    },
-    {
-      "id": "44755a6d0c71",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "산업",
-      "title": "'재생에너지·배터리·반도체·로봇' 국내 생산 시 세액공제 지원",
-      "source": "ZDNet Korea",
-      "source_type": "산업 전문언론",
-      "published": "2026-08-07 10:22",
-      "collected": "2026-08-07",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4WE1fNEdrU20zNWRGTVl0UHVzS0thYU9qUzRYbllfS0JoME9UUHJoTjBGODlkV2F6d290V1VnSDZKbURpeXM3cmE1YlpCQk9xaHNVdkRn?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "stated_outlook": "",
+      "source_rank": 2
     },
     {
       "id": "c47185b34ad9",
@@ -130,7 +268,8 @@
       "key_points": [],
       "numbers": [],
       "keywords": [],
-      "stated_outlook": ""
+      "stated_outlook": "",
+      "source_rank": 2
     },
     {
       "id": "094afed3b63f",
@@ -150,46 +289,50 @@
       "key_points": [],
       "numbers": [],
       "keywords": [],
-      "stated_outlook": ""
+      "stated_outlook": "",
+      "source_rank": 2
     },
     {
-      "id": "813f83f072ce",
-      "sector": "battery",
+      "id": "3c6f1216f66f",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "반도체 장비 부품기업 동원파츠, 코스닥 상장예비심사 청구",
+      "source": "전자신문",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-07 10:31",
+      "collected": "2026-08-07",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE12RlU2cV9sMHg0LTRfTlZBVk0xV3BvZk5Nb2Q4WGJwR2huRTRaLU42dU1laEFRR2JvQ05ETzYzSllpcW1PcE1iRTRKZFE?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 2
+    },
+    {
+      "id": "44755a6d0c71",
+      "sector": "semiconductor",
       "region": "domestic",
       "category": "산업",
       "title": "'재생에너지·배터리·반도체·로봇' 국내 생산 시 세액공제 지원",
       "source": "ZDNet Korea",
       "source_type": "산업 전문언론",
-      "official_source": false,
-      "published": "2026-08-07 00:00",
+      "published": "2026-08-07 10:22",
       "collected": "2026-08-07",
-      "link": "https://zdnet.co.kr/view/?no=20260807101438",
-      "rss_description": "a> '재생에너지·배터리·반도체·로봇' 국내 생산 시 세액공제 지원 <iframe src=\"https://adv.zdnet.co.kr/RealMedia/ads/adstream_sx.ads/zdnet.co",
-      "score": 10,
-      "source_rank": 2,
-      "verified_source": true,
-      "overview": "정부가 2026년 세제개편안을 통해 재생에너지, 배터리, 반도체, 로봇 등 6대 분야의 국내 생산 및 판매분에 대한 세액공제 제도를 신설했다. 이는 국내 생산 기반 확충과 경제 안보를 강화하기 위한 조치로, 내국인이 국내에서 직접 생산 및 판매하는 경우 혜택이 적용된다. 정부는 지방 기업에 더 큰 혜택을 주는 생산지역별계수를 도입하고, 제도의 지속가능성을 위해 공제 기간 말기에는 공제액을 점진적으로 축소할 예정이다. 향후 국회 논의와 후속 법령 준비 과정에서 업종별 단체와 협의하여 세부 내용을 구체화할 계획이다.",
-      "key_points": [
-        "재생에너지, 배터리, 반도체, 핵심소재, AI로봇부품 등 6대 분야에 국내생산세액공제가 적용된다.",
-        "내국인이 국내에서 직접 생산·판매하는 경우 생산량과 기준공제액에 따라 세액공제 규모가 결정된다.",
-        "지방주도 성장을 위해 생산지역별계수를 도입하며, 공제 기간 마지막 3년간은 공제액이 단계적으로 축소된다.",
-        "통합투자세액공제와의 중복 적용은 배제된다."
-      ],
-      "numbers": [
-        "2026년",
-        "2036년 12월 31일",
-        "75%",
-        "50%",
-        "25%"
-      ],
-      "keywords": [
-        "국내생산세액공제",
-        "산업통상부",
-        "세제개편안",
-        "공급망",
-        "경제안보"
-      ],
-      "stated_outlook": "산업통상부와 재경부는 향후 국회 논의 및 후속 법령 준비 과정에서 업종별 협·단체와의 긴밀한 협의를 통해 국내생산세액공제의 지원 대상 품목, 적용 요건, 기준 공제액 등 세부 내용을 구체화할 계획이다."
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4WE1fNEdrU20zNWRGTVl0UHVzS0thYU9qUzRYbllfS0JoME9UUHJoTjBGODlkV2F6d290V1VnSDZKbURpeXM3cmE1YlpCQk9xaHNVdkRn?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 2
     },
     {
       "id": "4625b28ffdda",
@@ -209,7 +352,29 @@
       "key_points": [],
       "numbers": [],
       "keywords": [],
-      "stated_outlook": ""
+      "stated_outlook": "",
+      "source_rank": 2
+    },
+    {
+      "id": "49622fa6cb90",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "美, '반도체·태양광 핵심 소재' 파생제품에 15% 추가관세(종합)",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-07 09:41",
+      "collected": "2026-08-07",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9hX2tBbEdob0U2UV9jM29YWFQ3QXdKdEdXdEhnR0pmYkZaRWNJTjZXdkllZWFIR19IMUhNSVozUlhpcVdqMTYyOGJ2QWMzVmQ0ZjZVR0JJa0d0YXfSAWBBVV95cUxNR0Z2ZGwzaUFmQl9HN3dVRVU2T0hjeHluYm9zZ1RYSm92M0tPRjhqSlhzLXpHbVBMN2RvdGxPWjJXaThVVFJHd3c1RVRpYVY4bURyUDc4UGVKT2JBMmVZVnM?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 3
     },
     {
       "id": "2f020418667e",
@@ -229,10 +394,9 @@
       "key_points": [],
       "numbers": [],
       "keywords": [],
-      "stated_outlook": ""
-    }
-  ],
-  "archive_items": [
+      "stated_outlook": "",
+      "source_rank": 2
+    },
     {
       "id": "76f79b1419ad",
       "sector": "battery",
