@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08 13:32 KST",
+  "updated_at": "2026-08-08 17:01 KST",
   "last_automatic_update_at": "2026-08-08 13:32 KST",
   "automatic_cycle_started_at": "2026-08-08 13:32 KST",
   "automatic_locked_vacancies": {
@@ -7,10 +7,10 @@
     "battery": 0
   },
   "publication_window": {
-    "from": "2026-08-07T13:32:44.652978+09:00",
-    "to": "2026-08-08T13:32:44.652978+09:00"
+    "from": "2026-08-07T17:01:10.710769+09:00",
+    "to": "2026-08-08T17:01:10.710769+09:00"
   },
-  "today_verified_count": 8,
+  "today_verified_count": 1,
   "current_items": [
     {
       "id": "3dc03ab19e67",
@@ -197,6 +197,26 @@
       "published": "2026-08-07 14:26",
       "collected": "2026-08-08",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1rQlg0UnNQTHBkTjhWUGwyM1JMd1MwbHlqZ1FpV04zSmhhc1hub3JFYWpKQ2NmbGNucEJuRGptNW02MVZncTJVVW9VR0ZTNF9ab3FOazlB?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "acd95747c104",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "MKS인스트루먼트, 2분기 매출 28% 급증…AI·반도체 수요 타고 강세",
+      "source": "매일경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-08 00:11",
+      "collected": "2026-08-08",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Bd3FSYTFUTlk3M2xhSndLc05hZFFfUXU0Mnp0cW5FZmJHREVhNDlBRF9rUDgzMm5jZ3BtQndMNndzOEl3SURXUnd0eDVlQTc0d3c?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
