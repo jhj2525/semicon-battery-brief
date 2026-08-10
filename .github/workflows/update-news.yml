@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       article_url:
-        description: "수동 추가할 기사 URL · 여러 개는 줄바꿈 (자동 업데이트만 할 때는 비우기)"
+        description: "수동 추가할 기사 URL"
         required: false
         type: string
       article_sector:
@@ -19,34 +19,30 @@ on:
           - semiconductor
           - battery
           - semi_market
-              pasted_article_id:
+      pasted_article_id:
         description: "본문을 직접 입력할 기사 ID"
         required: false
         type: string
       pasted_article_text:
         description: "사용자가 직접 입력한 기사 본문"
         required: false
-        type: string  
+        type: string
       delete_article_id:
-        description: "아카이브에서 삭제할 기사 ID · 일반 실행에서는 비우기"
         required: false
         type: string
       edit_article_id:
-        description: "제목을 수정할 수동 기사 ID · 일반 실행에서는 비우기"
         required: false
         type: string
       edit_article_title:
-        description: "수정할 기사 제목"
         required: false
         type: string
       favorite_article_id:
-        description: "즐겨찾기 변경 기사 ID · 일반 실행에서는 비우기"
         required: false
         type: string
       favorite_state:
-        description: "즐겨찾기 추가 true / 해제 false"
         required: false
         type: string
+
 
 permissions:
   contents: write
