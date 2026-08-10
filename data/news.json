@@ -1,61 +1,23 @@
 {
-  "updated_at": "2026-08-10 19:46 KST",
+  "updated_at": "2026-08-10 23:13 KST",
   "publication_window": {
-    "from": "2026-08-09 19:45 KST",
-    "to": "2026-08-10 19:45 KST"
+    "from": "2026-08-09 23:10 KST",
+    "to": "2026-08-10 23:10 KST"
   },
-  "today_verified_count": 8,
-  "current_items": [
+  "today_verified_count": 0,
+  "current_items": [],
+  "archive_items": [
     {
-      "id": "409aef994fd9",
+      "id": "02f40ccdbc21",
       "sector": "semiconductor",
       "region": "domestic",
       "category": "투자·양산",
-      "title": "SK하이닉스, EUV 공정 고도화…신소재 'PSM' 도입 시작",
-      "source": "ZDNet Korea",
-      "source_type": "산업 전문언론",
-      "official_source": false,
-      "published": "2026-08-10 00:00",
+      "title": "4.3조 쏟아붓는 대만… 무산됐던 TSMC 1.4나노 공장 ‘3개 동’ 짓는다",
+      "source": "헤럴드경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-10 19:00",
       "collected": "2026-08-10",
-      "link": "https://zdnet.co.kr/view/?no=20260810112930",
-      "rss_description": "이시각 헤드라인 SK하이닉스, EUV 공정 고도화…신소재 'PSM' 도입 시작 영국, 가짜 할인·구독 함정 손본다…내년부터 해지 쉽게",
-      "score": 36,
-      "source_rank": 2,
-      "verified_source": true,
-      "overview": "SK하이닉스가 차세대 D램 양산을 위해 극자외선(EUV) 공정 고도화에 집중하고 있으며, 이를 위해 신규 소재인 위상변위 마스크(PSM)를 도입했다고 밝혔다. 지난해 하반기 High-NA EUV 장비를 도입한 이후 올해부터 본격적인 연구개발을 시작했다. 박사로한 SK하이닉스 부사장은 학술대회 NGL 2026에서 EUV 성능 향상을 위해 PSM 채용과 High-NA EUV 도입 방안을 적극 검토 중임을 시사했다.",
-      "key_points": [
-        "SK하이닉스가 EUV 공정의 성능 향상을 위해 위상변위 마스크(PSM)를 본격적으로 도입하기 시작했다.",
-        "지난해 하반기 양산용 High-NA EUV 장비를 처음 도입하여 올해부터 연구개발에 착수했다.",
-        "PSM은 빛의 위상 차이를 이용해 미세한 회로에서도 명확한 명암비를 구현하여 해상도를 높이는 역할을 한다.",
-        "SK하이닉스는 극한의 미세공정 양산을 위해 EUV 멀티 패터닝과 High-NA 싱글 패터닝 도입 등을 고민하고 있다."
-      ],
-      "numbers": [
-        "2026",
-        "13.5나노미터",
-        "0.33",
-        "0.55"
-      ],
-      "keywords": [
-        "SK하이닉스",
-        "EUV",
-        "PSM",
-        "High-NA EUV",
-        "NGL 2026",
-        "패터닝"
-      ],
-      "stated_outlook": "향후 High-NA EUV 측면에서도 PSM이 어떻게 발전할 수 있을지에 대해 고민하고 연구하고 있다."
-    },
-    {
-      "id": "3d8f8ae9c040",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "투자·양산",
-      "title": "TSMC·소니, 구마모토에 8.9조원 투자…차세대 이미지센서 양산(종합)",
-      "source": "뉴시스",
-      "source_type": "통신사 보도",
-      "published": "2026-08-10 16:43",
-      "collected": "2026-08-10",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE54WDY1aHVRenNTSkFkTEdRVG15bUtjMnAzanlYUElydVJLXzMtSVdhUktQSHp5amd2aWdLMjczeEtZVG5FcWw2MXNjYWtvSFpYYmpLYmhWdFI3bnozMnRkZtIBeEFVX3lxTE9ZYmx1NDhOVWpyM1pPa2puQ1U2blEwOFdGRjh1U3JQYWpuVWdILVh0Ym5weVNiRFpMdUdlYVNiUFY0aG5DTzRSWG1yMC1Eck42bkFNbDRKaVRqaVQtbmQxZklOSHFXQVFMX3RqLWZuYnF5RVdkeXB2bw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE91ZklwdG1GMFdWbElNTVNJSVYyTjJUTjRIUnZRRTVWRnp6LWFsM1B4TFBmOVV5dS02RUZEWkpYaGdZcEdINHZrWkEwWXhYNk9HVEkxQW93?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
@@ -63,7 +25,8 @@
       "key_points": [],
       "numbers": [],
       "keywords": [],
-      "stated_outlook": ""
+      "stated_outlook": "",
+      "source_rank": 2
     },
     {
       "id": "2e538f96cbfd",
@@ -83,27 +46,8 @@
       "key_points": [],
       "numbers": [],
       "keywords": [],
-      "stated_outlook": ""
-    },
-    {
-      "id": "02f40ccdbc21",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "투자·양산",
-      "title": "4.3조 쏟아붓는 대만… 무산됐던 TSMC 1.4나노 공장 ‘3개 동’ 짓는다",
-      "source": "헤럴드경제",
-      "source_type": "경제지 보도",
-      "published": "2026-08-10 19:00",
-      "collected": "2026-08-10",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE91ZklwdG1GMFdWbElNTVNJSVYyTjJUTjRIUnZRRTVWRnp6LWFsM1B4TFBmOVV5dS02RUZEWkpYaGdZcEdINHZrWkEwWXhYNk9HVEkxQW93?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "stated_outlook": "",
+      "source_rank": 2
     },
     {
       "id": "bf6db5050efb",
@@ -123,58 +67,20 @@
       "key_points": [],
       "numbers": [],
       "keywords": [],
-      "stated_outlook": ""
+      "stated_outlook": "",
+      "source_rank": 2
     },
     {
-      "id": "ac49b0ac145e",
-      "sector": "battery",
+      "id": "3d8f8ae9c040",
+      "sector": "semiconductor",
       "region": "domestic",
       "category": "투자·양산",
-      "title": "유진테크놀로지 \"북미·울산 배터리 공장 장비 생산 앞둬\"",
-      "source": "ZDNet Korea",
-      "source_type": "산업 전문언론",
-      "official_source": false,
-      "published": "2026-08-10 00:00",
+      "title": "TSMC·소니, 구마모토에 8.9조원 투자…차세대 이미지센서 양산(종합)",
+      "source": "뉴시스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-10 16:43",
       "collected": "2026-08-10",
-      "link": "https://zdnet.co.kr/view/?no=20260810155102",
-      "rss_description": "장비 생산 앞둬\" 배터리 유진테크놀로지 \"북미·울산 배터리 공장 장비 생산 앞둬\" 신규 발주 수령·수주 확정…실적 지속 개선 기대 김윤희 기자 이노티카, 전원 끊김없는 모듈 인터페이스 개발",
-      "score": 34,
-      "source_rank": 2,
-      "verified_source": true,
-      "overview": "유진테크놀로지가 북미 배터리 생산라인용 PET 세정 설비 신규 발주를 수령하고 울산사업장향 리튬인산철(LFP) 기반 ESS용 일체형 금형 1차분 수주를 확정했다. 회사는 기존 금형 및 부품 중심에서 세정 설비 등 부대장치로 공급 범위를 확장하고 시장 거점도 확대하고 있다. 이러한 수주 성과를 바탕으로 올해 실적 성장과 흑자 전환을 목표로 하고 있다.",
-      "key_points": [
-        "유진테크놀로지, 북미 배터리 생산라인에 공급할 PET 세정 설비 신규 발주 수령",
-        "국내 주요 배터리사의 울산사업장향 LFP 기반 ESS용 일체형 금형 1차분 수주 확정",
-        "올해 상반기 연결기준 매출 177억원 기록, 전년 동기 대비 53.6% 성장",
-        "금형 및 정밀 부품 중심에서 PET 세정 설비 등 부대장치 파이프라인으로 공급 범위 확장"
-      ],
-      "numbers": [
-        "2026/08/10",
-        "177억원",
-        "53.6%",
-        "99억원",
-        "40%"
-      ],
-      "keywords": [
-        "유진테크놀로지",
-        "배터리 장비",
-        "LFP",
-        "ESS",
-        "PET 세정 설비"
-      ],
-      "stated_outlook": "소모품 중심의 안정적 재구매 구조와 북미 각형·LFP 라인 정밀 노칭 장비 및 세정기 등 고부가가치 장비 수주 확대를 통해 올해 확실한 흑자 전환과 실적 성장을 이뤄낼 계획임."
-    },
-    {
-      "id": "751ca551259a",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "구호 넘어 실체화되는 삼성SDI 전고체…2027년 양산 판도 읽기",
-      "source": "디지털데일리",
-      "source_type": "산업 전문언론",
-      "published": "2026-08-10 15:40",
-      "collected": "2026-08-10",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Mc296bVpmaHVZYzV4QlBTVnVaRzdQV3ZvdktMRzJXX0wyQmMxa3JpQWxHQi1WU05yd2l0MlpIWDJxbDYyQlA5VlJqQWV4cTZTV1FtM191UkpWcTlKMXBPSnFSaTY?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE54WDY1aHVRenNTSkFkTEdRVG15bUtjMnAzanlYUElydVJLXzMtSVdhUktQSHp5amd2aWdLMjczeEtZVG5FcWw2MXNjYWtvSFpYYmpLYmhWdFI3bnozMnRkZtIBeEFVX3lxTE9ZYmx1NDhOVWpyM1pPa2puQ1U2blEwOFdGRjh1U3JQYWpuVWdILVh0Ym5weVNiRFpMdUdlYVNiUFY0aG5DTzRSWG1yMC1Eck42bkFNbDRKaVRqaVQtbmQxZklOSHFXQVFMX3RqLWZuYnF5RVdkeXB2bw?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
@@ -182,7 +88,8 @@
       "key_points": [],
       "numbers": [],
       "keywords": [],
-      "stated_outlook": ""
+      "stated_outlook": "",
+      "source_rank": 3
     },
     {
       "id": "85ec5d1c25c0",
@@ -202,10 +109,30 @@
       "key_points": [],
       "numbers": [],
       "keywords": [],
-      "stated_outlook": ""
-    }
-  ],
-  "archive_items": [
+      "stated_outlook": "",
+      "source_rank": 3
+    },
+    {
+      "id": "751ca551259a",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "구호 넘어 실체화되는 삼성SDI 전고체…2027년 양산 판도 읽기",
+      "source": "디지털데일리",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-10 15:40",
+      "collected": "2026-08-10",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Mc296bVpmaHVZYzV4QlBTVnVaRzdQV3ZvdktMRzJXX0wyQmMxa3JpQWxHQi1WU05yd2l0MlpIWDJxbDYyQlA5VlJqQWV4cTZTV1FtM191UkpWcTlKMXBPSnFSaTY?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 2
+    },
     {
       "id": "6f9b5d9715d8",
       "sector": "semiconductor",
@@ -782,6 +709,84 @@
         "공공데이터"
       ],
       "stated_outlook": "경기도의회 국민의힘은 향후 도내 AI·반도체 기업의 규제 개선과 데이터 공유 정책을 추진할 방침이며, 경제부지사를 중심으로 민관 협업 체계를 마련해 가이드라인을 제시할 계획이다."
+    },
+    {
+      "id": "409aef994fd9",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "SK하이닉스, EUV 공정 고도화…신소재 'PSM' 도입 시작",
+      "source": "ZDNet Korea",
+      "source_type": "산업 전문언론",
+      "official_source": false,
+      "published": "2026-08-10 00:00",
+      "collected": "2026-08-10",
+      "link": "https://zdnet.co.kr/view/?no=20260810112930",
+      "rss_description": "이시각 헤드라인 SK하이닉스, EUV 공정 고도화…신소재 'PSM' 도입 시작 영국, 가짜 할인·구독 함정 손본다…내년부터 해지 쉽게",
+      "score": 36,
+      "source_rank": 2,
+      "verified_source": true,
+      "overview": "SK하이닉스가 차세대 D램 양산을 위해 극자외선(EUV) 공정 고도화에 집중하고 있으며, 이를 위해 신규 소재인 위상변위 마스크(PSM)를 도입했다고 밝혔다. 지난해 하반기 High-NA EUV 장비를 도입한 이후 올해부터 본격적인 연구개발을 시작했다. 박사로한 SK하이닉스 부사장은 학술대회 NGL 2026에서 EUV 성능 향상을 위해 PSM 채용과 High-NA EUV 도입 방안을 적극 검토 중임을 시사했다.",
+      "key_points": [
+        "SK하이닉스가 EUV 공정의 성능 향상을 위해 위상변위 마스크(PSM)를 본격적으로 도입하기 시작했다.",
+        "지난해 하반기 양산용 High-NA EUV 장비를 처음 도입하여 올해부터 연구개발에 착수했다.",
+        "PSM은 빛의 위상 차이를 이용해 미세한 회로에서도 명확한 명암비를 구현하여 해상도를 높이는 역할을 한다.",
+        "SK하이닉스는 극한의 미세공정 양산을 위해 EUV 멀티 패터닝과 High-NA 싱글 패터닝 도입 등을 고민하고 있다."
+      ],
+      "numbers": [
+        "2026",
+        "13.5나노미터",
+        "0.33",
+        "0.55"
+      ],
+      "keywords": [
+        "SK하이닉스",
+        "EUV",
+        "PSM",
+        "High-NA EUV",
+        "NGL 2026",
+        "패터닝"
+      ],
+      "stated_outlook": "향후 High-NA EUV 측면에서도 PSM이 어떻게 발전할 수 있을지에 대해 고민하고 연구하고 있다."
+    },
+    {
+      "id": "ac49b0ac145e",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "유진테크놀로지 \"북미·울산 배터리 공장 장비 생산 앞둬\"",
+      "source": "ZDNet Korea",
+      "source_type": "산업 전문언론",
+      "official_source": false,
+      "published": "2026-08-10 00:00",
+      "collected": "2026-08-10",
+      "link": "https://zdnet.co.kr/view/?no=20260810155102",
+      "rss_description": "장비 생산 앞둬\" 배터리 유진테크놀로지 \"북미·울산 배터리 공장 장비 생산 앞둬\" 신규 발주 수령·수주 확정…실적 지속 개선 기대 김윤희 기자 이노티카, 전원 끊김없는 모듈 인터페이스 개발",
+      "score": 34,
+      "source_rank": 2,
+      "verified_source": true,
+      "overview": "유진테크놀로지가 북미 배터리 생산라인용 PET 세정 설비 신규 발주를 수령하고 울산사업장향 리튬인산철(LFP) 기반 ESS용 일체형 금형 1차분 수주를 확정했다. 회사는 기존 금형 및 부품 중심에서 세정 설비 등 부대장치로 공급 범위를 확장하고 시장 거점도 확대하고 있다. 이러한 수주 성과를 바탕으로 올해 실적 성장과 흑자 전환을 목표로 하고 있다.",
+      "key_points": [
+        "유진테크놀로지, 북미 배터리 생산라인에 공급할 PET 세정 설비 신규 발주 수령",
+        "국내 주요 배터리사의 울산사업장향 LFP 기반 ESS용 일체형 금형 1차분 수주 확정",
+        "올해 상반기 연결기준 매출 177억원 기록, 전년 동기 대비 53.6% 성장",
+        "금형 및 정밀 부품 중심에서 PET 세정 설비 등 부대장치 파이프라인으로 공급 범위 확장"
+      ],
+      "numbers": [
+        "2026/08/10",
+        "177억원",
+        "53.6%",
+        "99억원",
+        "40%"
+      ],
+      "keywords": [
+        "유진테크놀로지",
+        "배터리 장비",
+        "LFP",
+        "ESS",
+        "PET 세정 설비"
+      ],
+      "stated_outlook": "소모품 중심의 안정적 재구매 구조와 북미 각형·LFP 라인 정밀 노칭 장비 및 세정기 등 고부가가치 장비 수주 확대를 통해 올해 확실한 흑자 전환과 실적 성장을 이뤄낼 계획임."
     },
     {
       "id": "c4627041e652",
