@@ -1,11 +1,52 @@
 {
-  "updated_at": "2026-08-10 15:16 KST",
+  "updated_at": "2026-08-10 15:26 KST",
   "publication_window": {
-    "from": "2026-08-09 15:16 KST",
-    "to": "2026-08-10 15:16 KST"
+    "from": "2026-08-09 15:23 KST",
+    "to": "2026-08-10 15:23 KST"
   },
-  "today_verified_count": 0,
-  "current_items": [],
+  "today_verified_count": 2,
+  "current_items": [
+    {
+      "id": "6f9b5d9715d8",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "제조업 고용 14개월 연속 감소…'반도체 의존 고용 양극화' 징조",
+      "source": "파이낸셜뉴스",
+      "source_type": "경제지 보도",
+      "published": "2026-08-10 13:49",
+      "collected": "2026-08-10",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NZlp4WHd1UTI5YWNnM0FGUDA2ZUNMSmMzY1l5dENxQW1uaWxIM3hRU1hhMzNZdW5YZUg1cXpoODhScUNFYjRqdERLTHRlbGt5aElIVHd1bHpvUQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "b1d5063f03e3",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "[中반도체굴기] ② 14조원 '실탄' 쥔 CXMT, 심야에도 공장 건설 속도",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-10 06:10",
+      "collected": "2026-08-10",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE01NDVUM0hETUdpOGJWbkR5Rk9zOHZIMnB4Y2hVMkI4UENJZXRCQk5GWUFsNlJFWHYwc3hNZmJqUVN4WjhuOTZJbmNlMnJlODN0NU1aQmdjNnFNSmVCZEU4Q9IBYEFVX3lxTE01NDVUM0hETUdpOGJWbkR5Rk9zOHZIMnB4Y2hVMkI4UENJZXRCQk5GWUFsNlJFWHYwc3hNZmJqUVN4WjhuOTZJbmNlMnJlODN0NU1aQmdjNnFNSmVCZEU4Qw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    }
+  ],
   "archive_items": [
     {
       "id": "7e9909536f08",
@@ -1902,45 +1943,6 @@
         "SK하이닉스"
       ],
       "stated_outlook": "메모리 공급 부족 상황이 적어도 2028년까지 지속될 것으로 보이며, 메모리 반도체의 수요 증가와 가격 상승세가 이어짐에 따라 국내 반도체 수출 증가세도 계속될 것으로 전망된다.",
-      "summary_status": "summarized"
-    },
-    {
-      "id": "0b7a0effecaa",
-      "sector": "semiconductor",
-      "region": "global",
-      "category": "산업",
-      "title": "SK하이닉스, 솔리다임 키우기 나선 이유는…“이번 사이클이 최적의 기회”",
-      "source": "biz.chosun.com",
-      "source_type": "직접 선택",
-      "published": "2026-08-06 17:37",
-      "collected": "2026-08-10",
-      "link": "https://biz.chosun.com/it-science/ict/2026/08/07/H55II4XJM5ACHNLCESPSKO2XX4",
-      "requested_link": "https://biz.chosun.com/it-science/ict/2026/08/07/H55II4XJM5ACHNLCESPSKO2XX4",
-      "rss_description": "SK하이닉스, 솔리다임 키우기 나선 이유는…“이번 사이클이 최적의 기회”",
-      "manual_added": true,
-      "verified_source": true,
-      "overview": "SK하이닉스가 자회사 솔리다임의 기업 가치를 높이고 독자적인 자금 조달을 추진하는 등 본격적인 몸집 키우기에 나섰습니다. 나스닥 상장을 겨냥해 5조~10조원 규모의 프리 기업공개(IPO)를 포함한 다양한 투자 유치 방안이 거론되고 있습니다. 이는 AI 인프라 호황으로 기업용 스토리지 시장의 위상이 높아진 지금을 가치 평가 극대화의 적기로 판단했기 때문입니다. 다만 솔리다임은 과거 누적된 순손실로 인한 취약한 재무구조와 중국 다롄 팹의 설비 노후화 및 미중 갈등에 따른 증설 제한 등 해결해야 할 과제도 안고 있습니다.",
-      "industry_context": "솔리다임은 미국에 본사를 둔 SK하이닉스의 낸드플래시 자회사로, 초고용량 기업용 SSD(eSSD)를 주력으로 생산하며 시장 2위 지위를 보유하고 있습니다. SK하이닉스는 낸드 생산량의 약 30%를 담당하는 중국 다롄 팹을 솔리다임의 핵심 생산 거점으로 활용하고 있습니다.",
-      "key_points": [
-        "솔리다임이 모건스탠리와 골드만삭스를 주관사 후보로 두고 투자 유치를 검토 중임",
-        "AI 인프라 투자 호황을 활용해 회사 체급을 키우고 SK하이닉스의 차입 부담을 완화하려는 목적임",
-        "2024년 흑자 전환으로 완전자본잠식에서는 벗어났으나 여전히 부채비율이 매우 높은 상태임"
-      ],
-      "numbers": [
-        "5조~10조원(프리 IPO 규모)",
-        "122TB(QLC eSSD 용량)",
-        "8조원(2021~2023년 누적 순손실)",
-        "11조3196억원(2025년 초 기준 SK하이닉스 대여 운영자금 누적액)",
-        "4484.6%(2024년 부채비율)"
-      ],
-      "keywords": [
-        "SK하이닉스",
-        "솔리다임",
-        "기업공개",
-        "eSSD",
-        "AI인프라"
-      ],
-      "stated_outlook": "나스닥 상장을 겨냥한 프리 기업공개(IPO)를 검토 중이며, 재무구조 정상화와 차입 부담 완화를 추진하고 있음.",
       "summary_status": "summarized"
     },
     {
