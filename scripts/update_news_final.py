@@ -1,9 +1,9 @@
 """Process Brief final manual-first edition.
 
-The automatic bundle is controlled only by GitHub scheduled runs. Manual runs
-and manual article operations never reset or roll the automatic 24-hour clock.
-At rollover, the previous automatic bundle is archived and a fresh brief is
-built from articles published within the latest 24 hours.
+Builds a fixed-size current brief and a separate on-site archive.
+Candidate dates are limited to today, yesterday, and the day before yesterday
+in Korea time. Existing verified summaries are reused and never summarized
+again.
 """
 
 import json
@@ -23,10 +23,15 @@ v3 = v6.v3
 base = v6.base
 TARGETS = {"semiconductor": 5, "battery": 5}
 DOMESTIC_TARGETS = {"semiconductor": 4, "battery": 4}
-MAX_ATTEMPTS = {"semiconductor": 12, "battery": 15}
+# 하루 1회 실행으로도 목표치를 채울 수 있도록 넉넉하게 잡는다.
+# (원문 접근 실패로 시도 예산이 낭비되는 문제를 감안한 여유값)
+MAX_ATTEMPTS = {"semiconductor": 24, "battery": 28}
+# 같은 사안이 다른 매체·다른 날짜로 재등장하는 것을 막기 위해, 최근 며칠간
+# 이미 다룬 기사와도 비교한다.
+CROSS_DAY_DEDUP_DAYS = 2
 ARCHIVE_LIMIT = 3000
 SEMI_ARCHIVE_LIMIT = 1000
-MANUAL_LIMIT = 2500
+MANUAL_LIMIT = 10000
 MANUAL_SECTORS = {"semiconductor", "battery", "semi_market"}
 
 # KIPOST and TheElec remain visible in the historical archive, but are no
@@ -79,21 +84,32 @@ TRUSTED_NEWS_NAMES = {
     "전자신문": ("전자신문", "산업 전문언론"),
     "ZDNet Korea": ("ZDNet Korea", "산업 전문언론"),
     "지디넷코리아": ("ZDNet Korea", "산업 전문언론"),
+    "디지털데일리": ("디지털데일리", "산업 전문언론"),
+    "IT조선": ("IT조선", "산업 전문언론"),
+    "블로터": ("블로터", "산업 전문언론"),
     "한국경제": ("한국경제", "경제지 보도"),
     "서울경제": ("서울경제", "경제지 보도"),
     "매일경제": ("매일경제", "경제지 보도"),
     "조선비즈": ("조선비즈", "경제지 보도"),
+    "이데일리": ("이데일리", "경제지 보도"),
+    "헤럴드경제": ("헤럴드경제", "경제지 보도"),
+    "아시아경제": ("아시아경제", "경제지 보도"),
+    "파이낸셜뉴스": ("파이낸셜뉴스", "경제지 보도"),
+    "뉴스핌": ("뉴스핌", "통신사 보도"),
 }
 
 GOOGLE_NEWS_QUERIES = {
     "semiconductor": [
-        "(반도체 OR HBM OR 파운드리 OR D램 OR 낸드) when:3d",
-        "(삼성전자 OR SK하이닉스 OR TSMC) 반도체 when:3d",
-        "반도체 (공급망 OR 장비 OR 소재 OR 투자 OR 공장) when:3d",
+        "(반도체 OR HBM OR 파운드리 OR D램 OR 낸드) when:1d",
+        "(삼성전자 OR SK하이닉스 OR TSMC) 반도체 when:1d",
+        "반도체 (공급망 OR 장비 OR 소재 OR 투자 OR 공장) when:1d",
+        "반도체 (신기술 OR 신공정 OR 차세대 OR 개발 성공 OR 세계 최초) when:1d",
+        "반도체 (증착 OR ALD OR CVD OR PVD OR 박막 OR 원자층증착) when:1d",
     ],
     "battery": [
-        "(배터리 OR 이차전지 OR 양극재 OR 전고체 OR ESS) when:3d",
-        "(LG에너지솔루션 OR 삼성SDI OR SK온 OR CATL) when:3d",
+        "(배터리 OR 이차전지 OR 양극재 OR 전고체 OR ESS) when:1d",
+        "(LG에너지솔루션 OR 삼성SDI OR SK온 OR CATL) when:1d",
+        "배터리 (신기술 OR 신공정 OR 차세대 OR 개발 성공 OR 세계 최초) when:1d",
     ],
 }
 
@@ -273,44 +289,23 @@ def published_date(item):
 
 
 def published_datetime(item):
-    value = str(item.get("published", "")).strip()
-    for pattern in ("%Y-%m-%d %H:%M", "%Y-%m-%d"):
-        try:
-            return datetime.strptime(value[:16] if "%H" in pattern else value[:10], pattern).replace(
-                tzinfo=base.KST
-            )
-        except (TypeError, ValueError):
-            continue
-    return None
-
-
-def parse_update_datetime(value):
     try:
-        return datetime.strptime(str(value)[:16], "%Y-%m-%d %H:%M").replace(tzinfo=base.KST)
+        return datetime.strptime(
+            item.get("published", "")[:16], "%Y-%m-%d %H:%M"
+        ).replace(tzinfo=base.KST)
     except (TypeError, ValueError):
         return None
 
 
-def automatic_window_start(now, previous_update):
-    # The automatic brief is always rebuilt from the most recent 24 hours.
-    # A delayed/missed GitHub run must not widen the article window.
-    return now - timedelta(hours=24)
-
-
-def within_automatic_window(item, start, end):
-    published = published_datetime(item)
-    return published is not None and start <= published <= end
-
-
-def begins_new_daily_cycle(now, cycle_started_at, scheduled_run):
-    """Only a GitHub scheduled run may roll the automatic 24-hour bundle."""
-    return (
-        scheduled_run
-        and (
-            cycle_started_at is None
-            or now - cycle_started_at >= timedelta(hours=24)
-        )
+def within_recent_hours(item, now, hours=24):
+    """오전 9시 발행 기준, 직전 24시간 안에 나온 기사만 오늘 후보로 인정한다."""
+    date_only = published_datetime(item) or (
+        datetime.combine(published_date(item), datetime.min.time(), tzinfo=base.KST)
+        if published_date(item) else None
     )
+    if date_only is None:
+        return False
+    return timedelta(0) <= now - date_only <= timedelta(hours=hours)
 
 
 def unique_rows(rows):
@@ -330,6 +325,8 @@ def useful_candidate(item):
         return False
     if any(term in text for term in (
         "목표가", "투자의견", "증권", "컨센서스", "주식", "etf",
+        "관련주", "수혜주", "테마주", "급등주", "52주", "상한가", "하한가",
+        "코스피", "코스닥", "외국인 순매수", "기관 순매수",
         "채용", "성과급", "대학", "한양대", "성균관대", "kaist", "포스텍",
         "연구팀", "연구진", "원리 규명", "원인 규명",
     )):
@@ -388,10 +385,13 @@ def priority_key(item):
     date = published_date(item)
     source_type = item.get("source_type") or SOURCE_TYPES.get(item.get("source"), "")
     return (
-        date.isoformat() if date else "",
         1 if item.get("manual_added") else 0,
-        SOURCE_RANK.get(source_type, 0),
+        # 핵심도(score)를 최우선 기준으로 삼는다. 후보는 이미 최근 3일
+        # 이내로 제한돼 있으므로, "오늘 기사인지"보다 "얼마나 핵심적인
+        # 내용인지"가 먼저 반영돼야 한다.
         item.get("score", 0),
+        SOURCE_RANK.get(source_type, 0),
+        date.isoformat() if date else "",
         item.get("published", ""),
     )
 
@@ -495,6 +495,48 @@ def trusted_page_candidates(config):
     return base.deduplicate(results)
 
 
+TECH_TREND_TERMS = (
+    "신기술", "신공정", "차세대", "세계 최초", "국내 최초", "개발 성공",
+    "기술 개발", "기술 혁신", "공정 전환", "공정 혁신", "양산 돌입",
+    "양산 준비", "시제품", "파일럿 라인", "실증", "로드맵", "특허",
+    "breakthrough", "next-generation", "novel process", "first-ever",
+)
+
+# 증착 공정·장비·소재는 반도체 분야에서 특별히 더 우선 노출한다.
+DEPOSITION_TERMS = (
+    "증착", "원자층증착", "화학기상증착", "물리기상증착", "박막",
+    "atomic layer deposition", "chemical vapor deposition",
+    "physical vapor deposition", "thin film", "ald", "cvd", "pvd",
+    "deposition equipment", "deposition tool",
+)
+
+# 배터리는 산업 전반 동향이 메인이고, 그중에서도 전극 공정은 더 우선한다.
+ELECTRODE_TERMS = (
+    "전극", "양극", "음극", "양극재", "음극재", "전극공정", "극판",
+    "슬러리", "코팅", "압연", "건조", "믹싱", "합제",
+    "electrode", "cathode", "anode", "slurry", "coating", "calendering",
+    "electrode process",
+)
+
+
+def apply_tech_trend_bonus(rows):
+    for item in rows:
+        text = f"{item.get('title', '')} {item.get('rss_description', '')}".lower()
+        if any(term.lower() in text for term in TECH_TREND_TERMS):
+            item["score"] = item.get("score", 0) + 9
+        if item.get("sector") == "semiconductor" and any(
+            term.lower() in text for term in DEPOSITION_TERMS
+        ):
+            item["score"] = item.get("score", 0) + 12
+            item["category"] = "기술·공정"
+        if item.get("sector") == "battery" and any(
+            term.lower() in text for term in ELECTRODE_TERMS
+        ):
+            item["score"] = item.get("score", 0) + 12
+            item["category"] = "기술·공정"
+    return rows
+
+
 def collect_all_candidates():
     rows = [tag_source(item) for item in base.collect() if admitted_daily_source(item)]
     rows.extend(collect_trusted_headlines())
@@ -518,7 +560,7 @@ def collect_all_candidates():
         except Exception as error:
             print(f"trusted source skipped: {config['source']} ({type(error).__name__})")
     print(f"trusted page candidates: {authority_count}")
-    return rows
+    return apply_tech_trend_bonus(rows)
 
 
 def source_diverse(rows, source_cap=2):
@@ -566,105 +608,84 @@ def existing_lookup(items):
 
 
 def same_story(left, right):
-    replacements = {
-        "디램": "d램", "dram": "d램", "낸드플래시": "낸드",
-        "엘지에너지솔루션": "lg에너지솔루션", "삼성 에스디아이": "삼성sdi",
-        "에스케이온": "sk온", "급등": "상승", "껑충": "상승",
-        "사상 최고": "최고", "역대 최고": "최고",
-    }
     left_text = left.get("title", "").lower()
     right_text = right.get("title", "").lower()
-    for old, new in replacements.items():
-        left_text = left_text.replace(old, new)
-        right_text = right_text.replace(old, new)
     left_tokens = set(re.findall(r"[가-힣A-Za-z0-9]{2,}", left_text))
     right_tokens = set(re.findall(r"[가-힣A-Za-z0-9]{2,}", right_text))
-    noise = {
-        "단독", "속보", "종합", "전망", "주목", "기대", "본격화", "확대",
-        "추진", "나서", "관련", "대해", "위해", "올해", "내년", "한국",
-    }
-    left_tokens -= noise
-    right_tokens -= noise
     overlap = len(left_tokens & right_tokens) / max(1, len(left_tokens | right_tokens))
-    containment = len(left_tokens & right_tokens) / max(
-        1, min(len(left_tokens), len(right_tokens))
-    )
-    if overlap >= 0.28 or containment >= 0.55:
+    if overlap >= 0.35:
         return True
-    companies = (
+    markers = (
         "삼성전자", "sk하이닉스", "tsmc", "마이크론", "엘앤에프",
         "lg에너지솔루션", "삼성sdi", "sk온", "에코프로", "포스코퓨처엠",
-        "catl", "cxmt", "창신메모리", "두산", "lb세미콘", "퀄컴",
+        "catl", "hbm", "d램", "낸드", "파운드리", "lfp", "ess",
+        "양극재", "음극재", "전고체", "출하", "수주", "증설", "양산",
     )
-    products = (
-        "hbm", "d램", "낸드", "파운드리", "lfp", "ess",
-        "양극재", "음극재", "전고체", "웨이퍼", "euv", "패키징",
-    )
-    event_groups = (
-        ("가격", "상승", "최고", "고정거래가격"),
-        ("실적", "매출", "영업이익", "흑자", "적자"),
-        ("투자", "증설", "공장", "팹", "생산능력"),
-        ("수주", "공급계약", "장기계약", "납품"),
-        ("양산", "출하", "생산", "가동", "재가동"),
-        ("규제", "관세", "보조금", "수출통제", "정책"),
-        ("인수", "합병", "합작", "지분"),
-        ("개발", "공개", "출시", "인증"),
-    )
-    shared_companies = {word for word in companies if word in left_text and word in right_text}
-    shared_products = {word for word in products if word in left_text and word in right_text}
-    shared_event = any(
-        any(word in left_text for word in group)
-        and any(word in right_text for word in group)
-        for group in event_groups
-    )
-    if shared_event and (
-        shared_products
-        or (shared_companies and (overlap >= 0.16 or containment >= 0.42))
-    ):
-        return True
-    left_numbers = set(re.findall(r"\d+(?:\.\d+)?%?", left_text))
-    right_numbers = set(re.findall(r"\d+(?:\.\d+)?%?", right_text))
-    return bool(left_numbers & right_numbers) and overlap >= 0.22
+    left_markers = {word for word in markers if word in left_text}
+    right_markers = {word for word in markers if word in right_text}
+    return len(left_markers & right_markers) >= 3
 
 
-def select_sector(rows, sector, existing_items, api_key, allow_reuse=False):
-    target = TARGETS[sector]
+def make_link_only_fallback(candidate):
+    fallback = dict(candidate)
+    fallback.pop("rss_description", None)
+    fallback.pop("score", None)
+    fallback["verified_source"] = False
+    fallback["summary_status"] = "link_only"
+    fallback["overview"] = "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다."
+    fallback["key_points"] = []
+    fallback["numbers"] = []
+    fallback["keywords"] = []
+    fallback["stated_outlook"] = ""
+    return fallback
+
+
+def select_sector(
+    rows, sector, existing_items, api_key, avoid_recent=(),
+    current=None, target=None, attempts_budget=None,
+):
+    target = TARGETS[sector] if target is None else target
+    attempts_budget = MAX_ATTEMPTS[sector] if attempts_budget is None else attempts_budget
     by_id, by_url = existing_lookup(existing_items)
-    current, newly_verified = [], []
+    current = list(current) if current else []
+    newly_verified, pending_fallback = [], []
     attempts = reused = 0
 
-    ordered = [
-        item for item in ordered_sector_candidates(rows, sector)
-    ]
-    # A previously summarized article is cheap to reuse, but it must never
-    # occupy all five slots before genuinely new candidates are inspected.
-    fresh_candidates, reusable_candidates = [], []
-    for candidate in ordered:
-        old = by_id.get(candidate.get("id")) or by_url.get(
-            canonical_url(candidate.get("link"))
+    def already_covered(candidate):
+        if candidate.get("manual_added"):
+            return False
+        return any(same_story(candidate, selected) for selected in current) or any(
+            same_story(candidate, recent) for recent in avoid_recent
         )
-        (reusable_candidates if old else fresh_candidates).append(candidate)
-    candidates = fresh_candidates + reusable_candidates
+
+    manual_rows = sorted(
+        [item for item in rows if item.get("manual_added")],
+        key=priority_key,
+        reverse=True,
+    )
+    manual_ids = {item.get("id") for item in manual_rows}
+    candidates = manual_rows + [
+        item for item in ordered_sector_candidates(rows, sector)
+        if item.get("id") not in manual_ids
+    ]
+
+    # 1차: 실제 원문 요약이 가능한 후보를 최대한 채운다. 통신사 헤드라인이
+    # 검증에 실패해도 즉시 link_only로 채우지 않고, 남은 후보를 계속
+    # 시도한 뒤 예산이 다 떨어졌을 때만 보류 목록에서 채워 넣는다.
     for candidate in candidates:
         if len(current) >= target:
             break
-        if not candidate.get("manual_added") and any(
-            same_story(candidate, selected) for selected in current
-        ):
+        if already_covered(candidate):
             continue
         old = by_id.get(candidate.get("id")) or by_url.get(
             canonical_url(candidate.get("link"))
         )
-        if old and not allow_reuse:
-            continue
         if old:
             current.append(old)
             reused += 1
             continue
-        if attempts >= MAX_ATTEMPTS[sector]:
-            # Continue walking so reusable verified reserves can still fill
-            # the brief after the new-article verification budget is spent.
-            continue
+        if attempts >= attempts_budget:
+            break
         attempts += 1
         try:
             verified = base.enrich_one(candidate, api_key)
@@ -678,27 +699,27 @@ def select_sector(rows, sector, existing_items, api_key, allow_reuse=False):
             current.append(verified)
             newly_verified.append(verified)
         elif candidate.get("trusted_headline"):
-            fallback = dict(candidate)
-            fallback.pop("rss_description", None)
-            fallback.pop("score", None)
-            fallback["verified_source"] = False
-            fallback["summary_status"] = "link_only"
-            fallback["overview"] = "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다."
-            fallback["key_points"] = []
-            fallback["numbers"] = []
-            fallback["keywords"] = []
-            fallback["stated_outlook"] = ""
-            current.append(fallback)
-            newly_verified.append(fallback)
+            pending_fallback.append(candidate)
         else:
             print(
                 f"{sector} unreadable: {candidate.get('source')}; "
                 "trying reserve"
             )
 
+    # 2차: 그래도 목표치에 못 미치면, 보류해뒀던 link_only 후보로 채운다.
+    for candidate in pending_fallback:
+        if len(current) >= target:
+            break
+        if already_covered(candidate):
+            continue
+        fallback = make_link_only_fallback(candidate)
+        current.append(fallback)
+        newly_verified.append(fallback)
+
     print(
         f"{sector}: eligible {len(rows)}, reused {reused}, "
-        f"verification attempts {attempts}, new {len(newly_verified)}, "
+        f"verification attempts {attempts}, link_only held back "
+        f"{len(pending_fallback)}, new {len(newly_verified)}, "
         f"current {len(current)}/{target}"
     )
     return current, newly_verified
@@ -707,34 +728,16 @@ def select_sector(rows, sector, existing_items, api_key, allow_reuse=False):
 def merge_archive(all_existing, newly_verified, current):
     merged = {}
     for item in all_existing + newly_verified:
-        # Anything that was actually shown/stored as automatic news must survive
-        # the cycle rollover. Verification status controls admission to the daily
-        # brief, not whether a previously displayed item disappears from history.
-        if not item.get("link"):
+        if (
+            item.get("verified_source") is not True
+            and item.get("summary_status") != "link_only"
+        ) or not item.get("link"):
             continue
         merged[canonical_url(item["link"])] = item
     current_urls = {canonical_url(item.get("link")) for item in current}
-    archive = sorted(
-        [item for url, item in merged.items() if url not in current_urls],
-        key=lambda item: (item.get("published", ""), item.get("collected", "")),
-        reverse=True,
-    )
-    deduped = []
-    seen_titles = set()
-    for item in archive:
-        title_key = re.sub(r"[^가-힣a-z0-9]", "", item.get("title", "").lower())
-        if title_key and title_key in seen_titles:
-            continue
-        if any(
-            item.get("sector") == kept.get("sector") and same_story(item, kept)
-            for kept in deduped[-200:]
-        ):
-            continue
-        deduped.append(item)
-        if title_key:
-            seen_titles.add(title_key)
+    archive = [item for url, item in merged.items() if url not in current_urls]
     return sorted(
-        deduped,
+        archive,
         key=lambda item: (item.get("published", ""), item.get("collected", "")),
         reverse=True,
     )[:ARCHIVE_LIMIT]
@@ -1192,17 +1195,28 @@ def merge_manual_items(old_items, new_items):
         item["manual_added"] = True
         item["source_type"] = "직접 선택"
         merged[canonical_url(item["link"])] = item
-    return sorted(
+    ordered = sorted(
         merged.values(),
         key=lambda item: (item.get("collected", ""), item.get("published", "")),
         reverse=True,
-    )[:MANUAL_LIMIT]
+    )
+    # URL이 다른 같은 사안(예: 같은 기사를 다른 매체 링크로 두 번 추가)도
+    # 걸러낸다. 같은 분야끼리만 비교하고, 먼저(최신순) 들어온 쪽을 남긴다.
+    deduped, kept_by_sector = [], {}
+    for item in ordered:
+        sector = item.get("sector")
+        bucket = kept_by_sector.setdefault(sector, [])
+        if any(same_story(item, kept) for kept in bucket):
+            continue
+        bucket.append(item)
+        deduped.append(item)
+    return deduped[:MANUAL_LIMIT]
 
 
-def without_deleted(items, delete_ids):
-    if not delete_ids:
+def without_deleted(items, delete_id):
+    if not delete_id:
         return list(items)
-    return [item for item in items if str(item.get("id", "")) not in delete_ids]
+    return [item for item in items if str(item.get("id", "")) != delete_id]
 
 
 def with_edited_title(items, edit_id, edit_title):
@@ -1217,315 +1231,113 @@ def with_edited_title(items, edit_id, edit_title):
     return result
 
 
-def toggle_favorite(favorites, source_items, item_id, state):
-    """Keep full article snapshots so archive trimming never deletes stars."""
-    by_id = {str(item.get("id", "")): dict(item) for item in favorites if item.get("id")}
-    if not item_id:
-        return list(by_id.values())
-    if state == "false":
-        by_id.pop(item_id, None)
-    elif state == "true":
-        match = next((item for item in source_items if str(item.get("id", "")) == item_id), None)
-        if match:
-            by_id[item_id] = dict(match)
-        else:
-            print(f"favorite article not found: {item_id}")
-    return sorted(
-        by_id.values(),
-        key=lambda item: (item.get("collected", ""), item.get("published", "")),
-        reverse=True,
-    )
-
-
-def summarize_pasted_article(item, article_text, api_key):
-    """Summarize user-supplied article text without storing the full text."""
-    article_text = str(article_text or "").strip()
-    if len(article_text) < 200 or len(article_text) > 30000:
-        raise ValueError("pasted article text must be between 200 and 30000 characters")
-    prompt = f"""
-아래는 사용자가 원문 사이트에서 직접 복사한 기사 본문이다.
-반드시 붙여넣은 본문에 명시된 사실만 이용해 한국어 산업 뉴스 브리핑으로 정리하라.
-기사 제목: {item.get('title', '')}
-기사 분야: {item.get('sector', '')}
-
-[기사 본문]
-{article_text}
-[/기사 본문]
-
-규칙:
-1. 첫 문단은 무엇이 바뀌었는지와 기업·제품·공정·시장 영향을 4~6문장으로 설명한다.
-2. 숫자·날짜·기업명·기술명은 본문에 있을 때만 쓴다.
-3. 본문 밖의 최신 실적·점유율·전망을 추가하지 않는다.
-4. 광고·메뉴·기자 정보·관련기사 목록은 제외한다.
-
-JSON 객체 하나만 반환:
-{{
-  "overview": "기사 요약 4~6문장",
-  "industry_context": "본문에 명시된 기업·기술·공급망 배경 1~3문장. 없으면 빈 문자열",
-  "key_points": ["핵심 사실 1", "핵심 사실 2", "핵심 사실 3"],
-  "numbers": ["핵심 수치·날짜"] 또는 [],
-  "keywords": ["핵심 키워드 3~6개"],
-  "stated_outlook": "본문에 직접 언급된 계획·전망. 없으면 빈 문자열"
-}}
-"""
-    endpoint = (
-        "https://generativelanguage.googleapis.com/v1beta/models/"
-        f"{base.MODEL}:generateContent?{urlencode({'key': api_key})}"
-    )
-    body = json.dumps({
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"responseMimeType": "application/json"},
-    }).encode("utf-8")
-    request = Request(
-        endpoint,
-        data=body,
-        headers={"Content-Type": "application/json"},
-        method="POST",
-    )
-    with base.urlopen(request, timeout=120) as response:
-        raw = json.loads(response.read().decode("utf-8"))
-    result = base.parse_model_json(raw["candidates"][0]["content"]["parts"][0]["text"])
-    overview = base.clean(result.get("overview", ""))
-    key_points = [
-        base.clean(value) for value in result.get("key_points", [])
-        if base.clean(value)
-    ][:5]
-    if not overview or len(key_points) < 2:
-        raise ValueError("pasted article summary was incomplete")
-    updated = dict(item)
-    updated.update({
-        "verified_source": True,
-        "summary_status": "pasted_text_summary",
-        "summary_source": "user_pasted_text",
-        "overview": overview,
-        "industry_context": base.clean(result.get("industry_context", "")),
-        "key_points": key_points,
-        "numbers": [
-            base.clean(value) for value in result.get("numbers", [])
-            if base.clean(value)
-        ][:6],
-        "keywords": [
-            base.clean(value) for value in result.get("keywords", [])
-            if base.clean(value)
-        ][:6],
-        "stated_outlook": base.clean(result.get("stated_outlook", "")),
-    })
-    return updated
-
-
-def replace_article(items, item_id, replacement):
-    if not item_id or replacement is None:
-        return list(items)
-    return [
-        dict(replacement) if str(item.get("id", "")) == item_id else item
-        for item in items
-    ]
-
-
 def main():
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY is required")
 
     old = v3.read_old()
-    delete_ids = {
-        value for value in re.split(r"[\s,]+", os.getenv("DELETE_ARTICLE_ID", "").strip())
-        if value
-    }
-    deleted_article_ids = set(old.get("deleted_article_ids", [])) | delete_ids
+    delete_id = os.getenv("DELETE_ARTICLE_ID", "").strip()
     edit_id = os.getenv("EDIT_ARTICLE_ID", "").strip()
     edit_title = os.getenv("EDIT_ARTICLE_TITLE", "").strip()
-    favorite_id = os.getenv("FAVORITE_ARTICLE_ID", "").strip()
-    favorite_state = os.getenv("FAVORITE_STATE", "").strip().lower()
-    manual_url = os.getenv("MANUAL_ARTICLE_URL", "").strip()
-    manual_sector = os.getenv("MANUAL_ARTICLE_SECTOR", "").strip()
-    pasted_article_id = os.getenv("PASTED_ARTICLE_ID", "").strip()
-    pasted_article_text = os.getenv("PASTED_ARTICLE_TEXT", "").strip()
-    maintenance_request = bool(
-        delete_ids or edit_id or favorite_id or manual_url
-        or pasted_article_id or pasted_article_text
-    )
     legacy = old.get("items", [])
     old_current = old.get("current_items", [])
     old_archive = old.get("archive_items", [])
-    legacy = without_deleted(legacy, deleted_article_ids)
-    deleted_current = [
-        item for item in old_current
-        if str(item.get("id", "")) in delete_ids
-    ]
-    old_current = without_deleted(old_current, deleted_article_ids)
-    old_archive = without_deleted(old_archive, deleted_article_ids)
+    legacy = without_deleted(legacy, delete_id)
+    old_current = without_deleted(old_current, delete_id)
+    old_archive = without_deleted(old_archive, delete_id)
     all_existing = [tag_source(item) for item in old_current + old_archive + legacy]
     old_semi_current = old.get("semi_items", [])
     old_semi_archive = old.get("semi_archive_items", [])
     legacy_market = old.get("market_items", [])
-    old_semi_current = without_deleted(old_semi_current, deleted_article_ids)
-    old_semi_archive = without_deleted(old_semi_archive, deleted_article_ids)
-    legacy_market = without_deleted(legacy_market, deleted_article_ids)
+    old_semi_current = without_deleted(old_semi_current, delete_id)
+    old_semi_archive = without_deleted(old_semi_archive, delete_id)
+    legacy_market = without_deleted(legacy_market, delete_id)
     all_existing_semi = old_semi_current + old_semi_archive + legacy_market
     old_manual_items = old.get("manual_items", [])
-    old_manual_items = without_deleted(old_manual_items, deleted_article_ids)
+    old_manual_items = without_deleted(old_manual_items, delete_id)
     old_manual_items = with_edited_title(old_manual_items, edit_id, edit_title)
-    old_favorite_items = without_deleted(
-        old.get("favorite_items", []), deleted_article_ids
-    )
-    if bool(pasted_article_id) != bool(pasted_article_text):
-        raise ValueError("pasted article ID and text must be provided together")
-    if pasted_article_id:
-        if not re.fullmatch(r"[a-f0-9]{12}", pasted_article_id, re.IGNORECASE):
-            raise ValueError("pasted article ID is invalid")
-        pasted_source = next((
-            item for item in (
-                old_current + old_archive + legacy + old_semi_current
-                + old_semi_archive + legacy_market + old_manual_items
-            )
-            if str(item.get("id", "")) == pasted_article_id
-        ), None)
-        if pasted_source is None:
-            raise ValueError("article for pasted text was not found")
-        pasted_replacement = summarize_pasted_article(
-            pasted_source, pasted_article_text, api_key
-        )
-        old_current = replace_article(old_current, pasted_article_id, pasted_replacement)
-        old_archive = replace_article(old_archive, pasted_article_id, pasted_replacement)
-        legacy = replace_article(legacy, pasted_article_id, pasted_replacement)
-        old_semi_current = replace_article(old_semi_current, pasted_article_id, pasted_replacement)
-        old_semi_archive = replace_article(old_semi_archive, pasted_article_id, pasted_replacement)
-        legacy_market = replace_article(legacy_market, pasted_article_id, pasted_replacement)
-        old_manual_items = replace_article(old_manual_items, pasted_article_id, pasted_replacement)
-        old_favorite_items = replace_article(old_favorite_items, pasted_article_id, pasted_replacement)
-        print(f"pasted article summarized: {pasted_article_id}")
-    all_existing = [tag_source(item) for item in old_current + old_archive + legacy]
-    all_existing_semi = old_semi_current + old_semi_archive + legacy_market
-    if delete_ids:
-        print(f"deleted stored article ids: {len(delete_ids)}")
+    if delete_id:
+        print(f"deleted stored article id: {delete_id}")
     if edit_id and edit_title:
         print(f"edited manual article title: {edit_id}")
 
     now = datetime.now(base.KST)
-    event_name = os.getenv("GITHUB_EVENT_NAME", "").strip()
-    bootstrap_requested = os.getenv("AUTOMATIC_BOOTSTRAP", "").strip().lower() == "true"
-    scheduled_run = event_name == "schedule"
-    # Manual workflow_dispatch operations may add/edit/delete articles or fill
-    # empty automatic slots, but they must never roll/reset the 24-hour clock.
-    refresh_run = scheduled_run or bootstrap_requested
-    previous_update = parse_update_datetime(
-        old.get("last_automatic_update_at") or old.get("updated_at")
+    today = now.date()
+    fetched = collect_all_candidates()
+    # Keep already verified articles inside the three-day window as reusable
+    # candidates even if a feed is temporarily unavailable on this run.
+    reusable_candidates = []
+    for item in all_existing:
+        if item.get("verified_source") is not True and item.get("summary_status") != "link_only":
+            continue
+        candidate = dict(item)
+        candidate.setdefault("score", 0)
+        candidate.setdefault("rss_description", candidate.get("overview", ""))
+        reusable_candidates.append(candidate)
+    collected = unique_rows(fetched + reusable_candidates)
+    eligible = [
+        item for item in collected
+        if within_recent_hours(item, now, hours=24)
+        and (item.get("manual_added") is True or useful_candidate(item))
+    ]
+    # 24시간 안에서는 부족한데 정말 그 분야 기사가 드문 날을 위한 보충 풀.
+    # 평소에는 안 쓰이고, 24시간 후보만으로 목표치를 못 채울 때만 사용된다.
+    backup_eligible = [
+        item for item in collected
+        if not within_recent_hours(item, now, hours=24)
+        and within_recent_hours(item, now, hours=48)
+        and (item.get("manual_added") is True or useful_candidate(item))
+    ]
+    print(
+        f"publication window: last 24h from {now.strftime('%Y-%m-%d %H:%M')} KST; "
+        f"collected {len(collected)}, eligible {len(eligible)}, "
+        f"backup(24-48h) {len(backup_eligible)}"
     )
-    cycle_started_at = parse_update_datetime(
-        old.get("automatic_cycle_started_at")
-        or old.get("last_automatic_update_at")
-        or old.get("updated_at")
+    print(
+        "eligible by sector: "
+        f"semiconductor {sum(x.get('sector') == 'semiconductor' for x in eligible)}, "
+        f"battery {sum(x.get('sector') == 'battery' for x in eligible)}"
     )
-    new_daily_cycle = begins_new_daily_cycle(
-        now, cycle_started_at, scheduled_run
-    )
-    locked_vacancies = {
-        sector: max(0, min(TARGETS[sector], int(
-            (old.get("automatic_locked_vacancies") or {}).get(sector, 0)
-        )))
-        for sector in TARGETS
-    }
-    if new_daily_cycle:
-        locked_vacancies = {sector: 0 for sector in TARGETS}
-    else:
-        for item in deleted_current:
-            sector = item.get("sector")
-            if sector in locked_vacancies:
-                locked_vacancies[sector] = min(
-                    TARGETS[sector], locked_vacancies[sector] + 1
-                )
-    window_start = automatic_window_start(now, previous_update)
-    if maintenance_request or not refresh_run:
-        current = old_current
-        new_items = []
-        print("manual request: automatic 24-hour bundle and clock preserved")
-    else:
-        fetched = without_deleted(collect_all_candidates(), deleted_article_ids)
-        reusable_candidates = []
-        for item in all_existing:
-            if item.get("verified_source") is not True and item.get("summary_status") != "link_only":
-                continue
-            candidate = dict(item)
-            candidate.setdefault("score", 0)
-            candidate.setdefault("rss_description", candidate.get("overview", ""))
-            reusable_candidates.append(candidate)
-        collected = unique_rows(fetched + reusable_candidates)
-        eligible = [
-            item for item in collected
-            if within_automatic_window(item, window_start, now)
-            and (item.get("manual_added") is True or useful_candidate(item))
-        ]
-        print(
-            f"publication window: {window_start.isoformat()} to {now.isoformat()}; "
-            f"collected {len(collected)}, eligible {len(eligible)}"
-        )
-        print(
-            "eligible by sector: "
-            f"semiconductor {sum(x.get('sector') == 'semiconductor' for x in eligible)}, "
-            f"battery {sum(x.get('sector') == 'battery' for x in eligible)}"
-        )
-        current = [] if new_daily_cycle else list(old_current)
-        new_items = []
-        stored_urls = {
-            canonical_url(item.get("link")) for item in all_existing
-            if item.get("link")
-        }
-        recent_story_items = [
-            item for item in all_existing
-            if published_datetime(item) is not None
-            and published_datetime(item) >= now - timedelta(days=7)
-        ]
-        for sector in ("semiconductor", "battery"):
-            # A new cycle must contain genuinely new URLs/stories. Every item
-            # from the previous current bundle is allowed to fall into archive.
-            comparison_items = recent_story_items + new_items + current
-            sector_rows = [
-                item for item in eligible
-                if item.get("sector") == sector
-                and canonical_url(item.get("link")) not in stored_urls
-                and not any(
-                    same_story(item, stored)
-                    for stored in comparison_items
-                    if stored.get("sector") == sector
-                )
-            ]
-            selected, fresh = select_sector(
-                sector_rows, sector, comparison_items, api_key,
-                allow_reuse=False,
-            )
-            if new_daily_cycle:
-                current.extend(selected)
-                new_items.extend(fresh)
-            else:
-                existing_sector = [item for item in current if item.get("sector") == sector]
-                effective_target = max(
-                    0, TARGETS[sector] - locked_vacancies[sector]
-                )
-                needed = max(0, effective_target - len(existing_sector))
-                additions = [
-                    item for item in selected
-                    if canonical_url(item.get("link")) not in {
-                        canonical_url(old_item.get("link")) for old_item in existing_sector
-                    }
-                    and not any(same_story(item, old_item) for old_item in existing_sector)
-                ][:needed]
-                current.extend(additions)
-                fresh_ids = {item.get("id") for item in fresh}
-                new_items.extend(item for item in additions if item.get("id") in fresh_ids)
-        print("daily cycle: new" if new_daily_cycle else "daily cycle: same-day vacancy fill")
 
-    normalized_manual = []
-    for item in old_manual_items:
-        item = dict(item)
-        item.setdefault("manual_active", item.get("collected") == now.strftime("%Y-%m-%d"))
-        # Manual articles belong to the same fixed daily bundle as automatic
-        # articles. At the next daily-cycle rollover they all leave the current
-        # view together, regardless of the exact hour they were manually added.
-        if new_daily_cycle and item.get("manual_active"):
-            item["manual_active"] = False
-        normalized_manual.append(item)
-    old_manual_items = normalized_manual
+    # 같은 사안이 다른 매체·다른 날짜로 며칠에 걸쳐 재등장하는 것을 막기
+    # 위해, 최근 며칠간 이미 노출됐던(요약 완료 또는 link_only) 기사를
+    # cross-day 중복 비교 대상으로 삼는다.
+    recent_cutoff = today - timedelta(days=CROSS_DAY_DEDUP_DAYS)
+    avoid_recent = [
+        item for item in all_existing
+        if item.get("published", "")[:10] >= recent_cutoff.isoformat()
+    ]
+
+    current, new_items = [], []
+    for sector in ("semiconductor", "battery"):
+        sector_rows = [item for item in eligible if item.get("sector") == sector]
+        sector_avoid = [item for item in avoid_recent if item.get("sector") == sector]
+        selected, fresh = select_sector(
+            sector_rows, sector, all_existing + new_items, api_key,
+            avoid_recent=sector_avoid,
+        )
+        if len(selected) < TARGETS[sector]:
+            selected_ids = {item.get("id") for item in selected}
+            backup_rows = [
+                item for item in backup_eligible
+                if item.get("sector") == sector and item.get("id") not in selected_ids
+            ]
+            print(
+                f"{sector}: only {len(selected)}/{TARGETS[sector]} within 24h; "
+                f"backfilling from 24-48h pool ({len(backup_rows)} candidates)"
+            )
+            selected, backfill_fresh = select_sector(
+                backup_rows, sector, all_existing + new_items + fresh, api_key,
+                avoid_recent=sector_avoid, current=selected,
+                target=TARGETS[sector], attempts_budget=8,
+            )
+            fresh = fresh + backfill_fresh
+        current.extend(selected)
+        new_items.extend(fresh)
+
+    manual_url = os.getenv("MANUAL_ARTICLE_URL", "").strip()
+    manual_sector = os.getenv("MANUAL_ARTICLE_SECTOR", "").strip()
     new_manual_items = []
     if manual_url:
         requested_urls = list(dict.fromkeys(
@@ -1537,8 +1349,6 @@ def main():
         ]
         for item in new_manual_items:
             item["source_type"] = "직접 선택"
-            item["manual_active"] = True
-            item["manual_added_at"] = now.isoformat()
         print(f"manual articles added: {manual_sector} · {len(new_manual_items)}")
     manual_items = merge_manual_items(old_manual_items, new_manual_items)
 
@@ -1551,37 +1361,11 @@ def main():
     new_semi = []
     semi_archive = merge_semi_archive(all_existing_semi, [], [])
 
-    favorite_source = (
-        old_current + old_archive + legacy + old_semi_current + old_semi_archive
-        + legacy_market + old_manual_items + current + archive + manual_items
-    )
-    favorite_items = toggle_favorite(
-        old_favorite_items,
-        favorite_source, favorite_id, favorite_state
-    )
-    if favorite_id and favorite_state in {"true", "false"}:
-        print(f"favorite updated: {favorite_id} -> {favorite_state}")
-
-    last_automatic_update_at = (
-        now.strftime("%Y-%m-%d %H:%M KST")
-        if new_daily_cycle
-        else old.get("last_automatic_update_at") or old.get("updated_at")
-    )
-    automatic_cycle_started_at = (
-        now.strftime("%Y-%m-%d %H:%M KST")
-        if new_daily_cycle
-        else old.get("automatic_cycle_started_at")
-        or old.get("last_automatic_update_at")
-        or old.get("updated_at")
-    )
     payload = {
-        "updated_at": now.strftime("%Y-%m-%d %H:%M KST"),
-        "last_automatic_update_at": last_automatic_update_at,
-        "automatic_cycle_started_at": automatic_cycle_started_at,
-        "automatic_locked_vacancies": locked_vacancies,
+        "updated_at": datetime.now(base.KST).strftime("%Y-%m-%d %H:%M KST"),
         "publication_window": {
-            "from": window_start.isoformat(),
-            "to": now.isoformat(),
+            "from": (now - timedelta(hours=24)).strftime("%Y-%m-%d %H:%M KST"),
+            "to": now.strftime("%Y-%m-%d %H:%M KST"),
         },
         "today_verified_count": len(new_items),
         "current_items": current,
@@ -1589,8 +1373,6 @@ def main():
         "semi_items": semi_current,
         "semi_archive_items": semi_archive,
         "manual_items": manual_items,
-        "favorite_items": favorite_items,
-        "deleted_article_ids": sorted(deleted_article_ids)[-10000:],
     }
     base.OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     base.OUTPUT.write_text(
