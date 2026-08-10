@@ -186,8 +186,8 @@ export default {
     });
 
     if (!githubResponse.ok) {
-      return json({ error: "GitHub 작업을 시작하지 못했습니다." }, 502, allowedOrigin);
-    }
-    return json({ ok: true }, 202, allowedOrigin);
-  },
-};
+  const detail = await githubResponse.json().catch(() => ({}));
+  return json({
+    error: `GitHub 실행 실패 (${githubResponse.status}): ${detail.message || "원인 미확인"}`
+  }, 502, allowedOrigin);
+}
