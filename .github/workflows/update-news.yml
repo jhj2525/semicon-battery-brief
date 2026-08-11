@@ -1,11 +1,6 @@
 name: Daily news update
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - "scripts/update_news_final.py"
   schedule:
     - cron: "17 22 * * *"
     - cron: "17 23 * * *"
