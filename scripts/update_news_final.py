@@ -53,7 +53,7 @@ DOMESTIC_SPECIALIST_FEEDS = [
     {
         # 디일렉은 배터리 섹션 RSS(S1N9)를 공개하지 않으므로 전체 기사
         # 공식 RSS에서 분야를 판별한다. 이 피드에는 배터리 기사 본문 링크가
-        # 안정적으로 포함된다.
+        # 안정적으로 포함된다. 이 피드 변경은 자동 실행에서 함께 검증한다.
         "url": "https://www.thelec.kr/rss/allArticle.xml",
         "source": "디일렉",
         "region": "domestic",
