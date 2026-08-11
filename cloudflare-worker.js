@@ -196,8 +196,11 @@ export default {
     });
 
     if (!githubResponse.ok) {
-  const detail = await githubResponse.json().catch(() => ({}));
-  return json({
-    error: `GitHub 실행 실패 (${githubResponse.status}): ${detail.message || "원인 미확인"}`
-  }, 502, allowedOrigin);
-}
+      const detail = await githubResponse.json().catch(() => ({}));
+      return json({
+        error: `GitHub 실행 실패 (${githubResponse.status}): ${detail.message || "원인 미확인"}`
+      }, 502, allowedOrigin);
+    }
+    return json({ ok: true, status: "workflow_dispatched" }, 202, allowedOrigin);
+  },
+};
