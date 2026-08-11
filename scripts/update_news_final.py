@@ -629,7 +629,8 @@ def source_diverse(rows, source_cap=2):
 
 def ordered_sector_candidates(rows, sector):
     domestic = source_diverse(
-        [item for item in rows if item.get("region") == "domestic"]
+        [item for item in rows if item.get("region") == "domestic"],
+        source_cap=3 if sector == "battery" else 2,
     )
     global_items = source_diverse(
         [item for item in rows if item.get("region") == "global"]
