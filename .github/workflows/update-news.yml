@@ -1,13 +1,18 @@
 name: Daily news update
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/update_news_final.py"
   schedule:
-    # 매일 09:00 KST(=00:00 UTC) 1회만 실행.
-    - cron: "0 0 * * *"
+    - cron: "17 22 * * *"
+    - cron: "17 23 * * *"
   workflow_dispatch:
     inputs:
       article_url:
-        description: "수동 추가할 기사 URL"
+        description: "수동 추가할 기사 URL · 여러 개는 줄바꿈 (자동 업데이트만 할 때는 비우기)"
         required: false
         type: string
       article_sector:
@@ -19,30 +24,26 @@ on:
           - semiconductor
           - battery
           - semi_market
-      pasted_article_id:
-        description: "본문을 직접 입력할 기사 ID"
-        required: false
-        type: string
-      pasted_article_text:
-        description: "사용자가 직접 입력한 기사 본문"
-        required: false
-        type: string
       delete_article_id:
+        description: "아카이브에서 삭제할 기사 ID · 일반 실행에서는 비우기"
         required: false
         type: string
       edit_article_id:
+        description: "제목을 수정할 수동 기사 ID · 일반 실행에서는 비우기"
         required: false
         type: string
       edit_article_title:
+        description: "수정할 기사 제목"
         required: false
         type: string
       favorite_article_id:
+        description: "즐겨찾기 변경 기사 ID · 일반 실행에서는 비우기"
         required: false
         type: string
       favorite_state:
+        description: "즐겨찾기 추가 true / 해제 false"
         required: false
         type: string
-
 
 permissions:
   contents: write
@@ -60,7 +61,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Skip backup if today already ran
+      - name: Decide whether scheduled backup is needed
         id: guard
         shell: bash
         run: |
@@ -68,24 +69,40 @@ jobs:
           import json, os
           from datetime import datetime, timezone, timedelta
           from pathlib import Path
-          today = datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d")
+          now = datetime.now(timezone(timedelta(hours=9)))
           try:
               data = json.loads(Path("data/news.json").read_text(encoding="utf-8"))
-              updated = data.get("last_automatic_update_at") or data.get("updated_at", "")
+              started = (
+                  data.get("automatic_cycle_started_at")
+                  or data.get("last_automatic_update_at")
+                  or data.get("updated_at", "")
+              )
               current = data.get("current_items", [])
+              locked = data.get("automatic_locked_vacancies", {})
           except Exception:
-              updated = ""
+              started = ""
               current = []
+              locked = {}
           semi_count = sum(x.get("sector") == "semiconductor" for x in current)
           battery_count = sum(x.get("sector") == "battery" for x in current)
           scheduled = os.getenv("GITHUB_EVENT_NAME") == "schedule"
-          complete = semi_count >= 5 and battery_count >= 5
-          skip = scheduled and updated.startswith(today) and complete
+          try:
+              cycle_start = datetime.strptime(started[:16], "%Y-%m-%d %H:%M").replace(
+                  tzinfo=timezone(timedelta(hours=9))
+              )
+          except (TypeError, ValueError):
+              cycle_start = None
+          cycle_open = cycle_start is not None and now - cycle_start < timedelta(hours=24)
+          semi_target = max(0, 5 - int(locked.get("semiconductor", 0)))
+          battery_target = max(0, 5 - int(locked.get("battery", 0)))
+          complete = semi_count >= semi_target and battery_count >= battery_target
+          skip = scheduled and cycle_open and complete
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
               output.write(f"skip={'true' if skip else 'false'}\n")
           print(
-              f"today={today}, updated_at={updated}, "
-              f"current={semi_count}/5 + {battery_count}/5, skip={skip}"
+              f"cycle_started_at={started}, cycle_open={cycle_open}, "
+              f"current={semi_count}/{semi_target} + {battery_count}/{battery_target}, "
+              f"skip={skip}"
           )
           PY
       - name: Collect and summarize news
@@ -95,8 +112,6 @@ jobs:
           GEMINI_MODEL: gemini-3.1-flash-lite
           MANUAL_ARTICLE_URL: ${{ inputs.article_url }}
           MANUAL_ARTICLE_SECTOR: ${{ inputs.article_sector }}
-          PASTED_ARTICLE_ID: ${{ inputs.pasted_article_id }}
-          PASTED_ARTICLE_TEXT: ${{ inputs.pasted_article_text }}
           DELETE_ARTICLE_ID: ${{ inputs.delete_article_id }}
           EDIT_ARTICLE_ID: ${{ inputs.edit_article_id }}
           EDIT_ARTICLE_TITLE: ${{ inputs.edit_article_title }}
