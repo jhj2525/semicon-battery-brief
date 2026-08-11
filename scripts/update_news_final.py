@@ -132,6 +132,8 @@ SEMICON_LOW_VALUE_TERMS = (
     "목표주가", "투자의견", "비중확대", "주주환원", "배당", "자사주",
     "증권가", "증권사", "애널리스트", "리포트", "매수 의견", "매도 의견",
     "주가 전망", "상승 여력", "실적 기대감", "저평가", "고평가",
+    "특징주", "주가", "주식", "테마주", "급등주", "상한가", "하한가",
+    "상승세에", "하락세에", "장중 급등", "장중 강세", "장중 약세",
     "매각설", "인수설", "확정된 바 없다", "사실무근",
 )
 
@@ -1419,6 +1421,7 @@ def main():
             if cycle_open
             and item.get("sector") == sector
             and (item.get("verified_source") is True or item.get("summary_status") == "link_only")
+            and useful_candidate(item)
         ][:TARGETS[sector]]
         selected, fresh = select_sector(
             sector_rows, sector, all_existing + new_items, api_key,
