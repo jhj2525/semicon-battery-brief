@@ -115,6 +115,8 @@ jobs:
           GEMINI_MODEL: gemini-3.1-flash-lite
           MANUAL_ARTICLE_URL: ${{ inputs.article_url }}
           MANUAL_ARTICLE_SECTOR: ${{ inputs.article_sector }}
+          PASTED_ARTICLE_ID: ${{ inputs.pasted_article_id }}
+          PASTED_ARTICLE_TEXT: ${{ inputs.pasted_article_text }}
           DELETE_ARTICLE_ID: ${{ inputs.delete_article_id }}
           EDIT_ARTICLE_ID: ${{ inputs.edit_article_id }}
           EDIT_ARTICLE_TITLE: ${{ inputs.edit_article_title }}
