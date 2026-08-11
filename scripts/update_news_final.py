@@ -138,6 +138,12 @@ SEMICON_CORE_TECH_TERMS = (
     "hbm", "d램", "dram", "낸드", "파운드리", "공정 노드", "나노 공정",
 )
 
+SEMICON_PROCESS_TERMS = (
+    "수율", "결함", "검사", "계측", "노광", "euv", "식각", "etch",
+    "증착", "deposition", "ald", "cvd", "pvd", "박막", "포토레지스트",
+    "패키징", "칩렛", "하이브리드 본딩",
+)
+
 
 def trusted_news_identity(raw_name):
     raw_name = base.clean(raw_name)
@@ -552,6 +558,8 @@ def apply_tech_trend_bonus(rows):
             core_hits = sum(term in text for term in SEMICON_CORE_TECH_TERMS)
             if core_hits:
                 item["score"] = item.get("score", 0) + min(core_hits, 4) * 4
+            if any(term in text for term in SEMICON_PROCESS_TERMS):
+                item["category"] = "기술·공정"
             if item.get("category") == "기술·공정":
                 item["score"] = item.get("score", 0) + 10
             elif item.get("category") == "투자·양산":
