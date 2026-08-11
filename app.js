@@ -589,7 +589,13 @@ fetch("data/news.json", { cache: "no-store" })
     favoriteItems = favoriteItems.filter(item => !pendingIds.has(item.id));
     favoriteIds = new Set(favoriteItems.map(item => item.id));
 
-    updated.textContent = `자동 묶음 생성 ${data.automatic_cycle_started_at || data.last_automatic_update_at || "-"}`;
+    const automaticUpdatedAt =
+      data.automatic_cycle_started_at ||
+      data.last_automatic_update_at ||
+      data.updated_at;
+    updated.textContent = automaticUpdatedAt
+      ? `최종 자동 업데이트 ${automaticUpdatedAt}`
+      : "최종 자동 업데이트 시간 없음";
     document.querySelector("#semiCount").textContent =
       currentItems.filter(x => x.sector === "semiconductor").length
       + manualItems.filter(x => x.sector === "semiconductor" && manualIsActive(x)).length;
