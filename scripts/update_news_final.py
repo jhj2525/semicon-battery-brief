@@ -1292,12 +1292,153 @@ def with_edited_title(items, edit_id, edit_title):
     return result
 
 
+
+def summarize_pasted_article(item, article_text, api_key):
+    """Summarize user-pasted body without storing the original article text."""
+    if len(article_text) < 200 or len(article_text) > 30000:
+        raise ValueError("pasted article text must be between 200 and 30,000 characters")
+    prompt = f"""
+다음은 사용자가 직접 붙여넣은 기사 본문이다. 본문에 있는 사실만 사용해 한국어 산업 브리핑으로 요약하라.
+기존 제목: {item.get("title", "")}
+매체: {item.get("source", "")}
+
+기사 본문:
+<article>
+{article_text}
+</article>
+
+규칙:
+1. 기사에 없는 수치, 전망, 시장점유율, 기업 배경을 추측하지 않는다.
+2. overview는 핵심 변화와 산업적 의미를 4~6문장으로 작성한다.
+3. key_points는 핵심 사실 2~5개로 작성한다.
+4. 숫자·날짜·기업명·기술명은 본문과 일치할 때만 쓴다.
+5. 기사 제목이 본문에서 확인되면 title에 쓰고, 확인되지 않으면 기존 제목을 그대로 쓴다.
+6. JSON 객체 하나만 반환한다.
+
+{{
+  "title": "기사 제목 또는 기존 제목",
+  "overview": "핵심 요약 4~6문장",
+  "industry_context": "본문에 직접 제시된 산업 배경. 없으면 빈 문자열",
+  "key_points": ["핵심 사실 1", "핵심 사실 2"],
+  "numbers": ["핵심 수치·날짜"] 또는 [],
+  "keywords": ["핵심 키워드 3~6개"],
+  "stated_outlook": "본문에 직접 언급된 계획·전망. 없으면 빈 문자열"
+}}
+"""
+    endpoint = (
+        "https://generativelanguage.googleapis.com/v1beta/models/"
+        f"{base.MODEL}:generateContent?{urlencode({'key': api_key})}"
+    )
+    body = json.dumps({
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {"responseMimeType": "application/json"},
+    }).encode("utf-8")
+    request = Request(
+        endpoint,
+        data=body,
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    with base.urlopen(request, timeout=120) as response:
+        raw = json.loads(response.read().decode("utf-8"))
+    result = base.parse_model_json(
+        raw["candidates"][0]["content"]["parts"][0]["text"]
+    )
+    overview = base.clean(result.get("overview", ""))
+    key_points = [
+        base.clean(value) for value in result.get("key_points", [])
+        if base.clean(value)
+    ][:5]
+    if not overview or len(key_points) < 2:
+        raise ValueError("pasted article summary was incomplete")
+    summarized = dict(item)
+    summarized.update({
+        "title": base.clean(result.get("title", "")) or item.get("title", ""),
+        "verified_source": True,
+        "summary_status": "summarized",
+        "summary_source": "pasted_text",
+        "overview": overview,
+        "industry_context": base.clean(result.get("industry_context", "")),
+        "key_points": key_points,
+        "numbers": [
+            base.clean(value) for value in result.get("numbers", [])
+            if base.clean(value)
+        ][:6],
+        "keywords": [
+            base.clean(value) for value in result.get("keywords", [])
+            if base.clean(value)
+        ][:6],
+        "stated_outlook": base.clean(result.get("stated_outlook", "")),
+    })
+    summarized.pop("rss_description", None)
+    return summarized
+
+
+def apply_pasted_summary(payload, article_id, article_text, api_key):
+    article_keys = (
+        "current_items", "archive_items", "manual_items", "semi_items",
+        "semi_archive_items", "market_items", "items",
+    )
+    target = None
+    for key in article_keys:
+        for item in payload.get(key, []):
+            if str(item.get("id", "")) == article_id:
+                target = item
+                break
+        if target is not None:
+            break
+    if target is None:
+        raise ValueError(f"article id not found: {article_id}")
+    summarized = summarize_pasted_article(target, article_text, api_key)
+    updated = dict(payload)
+    replaced = 0
+    for key in article_keys:
+        rows = []
+        for item in payload.get(key, []):
+            if str(item.get("id", "")) == article_id:
+                replacement = dict(item)
+                for field in (
+                    "title", "verified_source", "summary_status", "summary_source",
+                    "overview", "industry_context", "key_points", "numbers",
+                    "keywords", "stated_outlook",
+                ):
+                    replacement[field] = summarized.get(field)
+                replacement.pop("rss_description", None)
+                rows.append(replacement)
+                replaced += 1
+            else:
+                rows.append(item)
+        if key in payload:
+            updated[key] = rows
+    if replaced == 0:
+        raise ValueError(f"article id not replaced: {article_id}")
+    updated["manual_updated_at"] = datetime.now(base.KST).strftime(
+        "%Y-%m-%d %H:%M KST"
+    )
+    return updated
+
+
 def main():
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY is required")
 
     old = v3.read_old()
+    pasted_article_id = os.getenv("PASTED_ARTICLE_ID", "").strip()
+    pasted_article_text = os.getenv("PASTED_ARTICLE_TEXT", "").strip()
+    if pasted_article_id or pasted_article_text:
+        if not re.fullmatch(r"[a-f0-9]{12}", pasted_article_id, re.IGNORECASE):
+            raise ValueError("pasted article id is invalid")
+        payload = apply_pasted_summary(
+            old, pasted_article_id, pasted_article_text, api_key
+        )
+        base.OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+        base.OUTPUT.write_text(
+            json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        print(f"pasted article summary saved: {pasted_article_id}")
+        return
+
     delete_id = os.getenv("DELETE_ARTICLE_ID", "").strip()
     edit_id = os.getenv("EDIT_ARTICLE_ID", "").strip()
     edit_title = os.getenv("EDIT_ARTICLE_TITLE", "").strip()
