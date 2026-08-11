@@ -1455,7 +1455,10 @@ def main():
     semi_archive = merge_semi_archive(all_existing_semi, [], [])
 
     completed_at = datetime.now(base.KST).strftime("%Y-%m-%d %H:%M KST")
-    payload = {
+    # 자동 뉴스 갱신 시 수동 아카이브·즐겨찾기 등 사용자 저장 영역을
+    # 새 객체로 덮어쓰지 않는다. 자동 생성 필드만 교체한다.
+    payload = dict(old)
+    payload.update({
         "updated_at": completed_at,
         "last_automatic_update_at": completed_at,
         "automatic_cycle_started_at": now.strftime("%Y-%m-%d %H:%M KST"),
@@ -1469,7 +1472,7 @@ def main():
         "semi_items": semi_current,
         "semi_archive_items": semi_archive,
         "manual_items": manual_items,
-    }
+    })
     base.OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     base.OUTPUT.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
