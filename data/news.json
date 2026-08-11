@@ -1,11 +1,339 @@
 {
-  "updated_at": "2026-08-11 09:57 KST",
+  "updated_at": "2026-08-11 10:29 KST",
+  "last_automatic_update_at": "2026-08-11 10:29 KST",
+  "automatic_cycle_started_at": "2026-08-11 10:27 KST",
   "publication_window": {
-    "from": "2026-08-10 09:55 KST",
-    "to": "2026-08-11 09:55 KST"
+    "from": "2026-08-10 10:27 KST",
+    "to": "2026-08-11 10:27 KST"
   },
-  "today_verified_count": 7,
+  "today_verified_count": 10,
   "current_items": [
+    {
+      "id": "15c5647b5bd8",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "7월 누계 반도체 수출 2333억弗…하반기 전망도 '好好'",
+      "source": "뉴시스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-11 06:30",
+      "collected": "2026-08-11",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9DZU9wYm9jQW8wLWFvcmNFd0xaY1BRME1tMTdYaElMbDQ0bUVjSG9FNUduNVhZU1FOYzlyLW9USUN3M1JkM3NyWDRYd1hmSkNOdUdsRE5fUldJX1ZHMFhxZA?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "87f83ce19100",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "[특징주] 화장품주, 반도체 주춤한 사이 호실적 전망에 상승",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-11 09:39",
+      "collected": "2026-08-11",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vc1RBaTZnUHhRT252MENxOTRBU1Qxc0VsN19tZm9CQmFBN3p3cDNFQUYwTmpUMXZQQlNIVkExQjFmRzhJVXB4OW1lb0tmdXhfYzV1UXo0OXJhRVHSAWBBVV95cUxNX0FTUEV6WUFRZ09DS25hQTlVUG5MZlppQ2dhSVJIMUs2VmF1NHUwRVd1RGRxZkdxejJzaTMtNmI3N09HdHo0bUNYeHhqcXdPREhjM0hmLV8tN3J6SWdwcS0?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "c73e4dcd86eb",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "8월 초순 수출 213억弗 '역대 최대'...반도체가 '절박 육박'",
+      "source": "파이낸셜뉴스",
+      "source_type": "경제지 보도",
+      "published": "2026-08-11 10:01",
+      "collected": "2026-08-11",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1pS1VBbU1mcnZ1NHVfOWRoNTVxTUdsWXdPUkUxcUJuUzhJVlFWVmF0eUZTTWlaT1FQMmZycW9QV1plclZzNW9PaHpxQU90bFlGODV0Sm9vM2hJUQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "b8b2e956d433",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "[속보]이달 10일까지 반도체 수출 100억달러…8월 기준 '역대최대'",
+      "source": "아시아경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-11 09:03",
+      "collected": "2026-08-11",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBEVUpTUUxGYXVxWjdnc0tsdXAyYUw0VUdkd3FxTmNvUkpuS0hnWkdidUFhWUk1V01MSXFJZHkteGRFQVRyTWx6cWp6T3FGOUVTVEJXdjBIb20xTnZ4U3NkZQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "2f1d13ca7c26",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "鄭 \"전북에 반도체 소부장 공장 유치…신천지 의혹, 해당행위\"(종합)",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-10 16:26",
+      "collected": "2026-08-11",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vSGxoY1dwN1o1bzU3UzJvYndtSEJRa0lQMzNsNHpVODZDU2s0Zk5nQXF2dUlhSVpVaXN6WDhoYTBfeGxWVW9UdVlzalYzU1hpMFA5N3BoYWtCRXPSAWBBVV95cUxNN3NJMHVKUnFHczFQMkVQZmJHVW0xVUp3OWl5QS04YkJmLWF1TVY3NmlRUjJNTzlrSmxveFE2Z2U4aEZmM1Q2VVZ4ME90bExFWGJaakwzYlVwNl9qRkdIVFg?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "b3156ade7aa8",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "LG화학, 현대차·LG엔솔 합작사 양극재 공급사로 '낙점'",
+      "source": "디일렉",
+      "published": "2026-08-11 02:39",
+      "collected": "2026-08-11",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=60737",
+      "rss_description": "LG화학이 미국 현대차그룹-LG에너지솔루션 합작 배터리 공장(HL-GA) 양극재 공급사로 선정됐다. 배터리 셀 원가의 40% 가량을 차지하는 핵심 소재를 맡으면서 석유화학에서 첨단소재 중심의 체질 전환에도 속도가 붙을 전망이다.10일 업계에 따르면 HL-GA는 지난달 전기차 배터리용 양극재 공급사로 LG화학을 선정한 것으로 파악됐다. 해당 양극재는 현대자동차그룹 메타플랜트 아메리카(HMGMA)에서 생산할 2029년형 전기차 모델에 적용된다.양극재는 금속 원료를 조합해 만든 배터리 핵심 소재로 용량과 성능을 좌우한다. LG화학이 HL",
+      "score": 59,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "LG화학이 현대자동차그룹과 LG에너지솔루션의 합작 배터리 공장인 HL-GA의 양극재 공급사로 선정되었습니다. 이번에 선정된 LG화학은 니켈·코발트·망간(NCM) 기반의 하이니켈과 미드니켈 양극재를 공급할 예정입니다. 공급되는 양극재는 현대자동차그룹 메타플랜트 아메리카(HMGMA)에서 생산할 2029년형 전기차 모델에 적용됩니다.",
+      "key_points": [
+        "HL-GA는 2026년 7월 LG화학을 전기차 배터리용 양극재 공급사로 선정했다.",
+        "공급 제품은 NCM 삼원계 하이니켈과 미드니켈 2종이며, 하이니켈이 우선 양산 적용될 예정이다.",
+        "입찰 과정에서 유미코아, 에코프로비엠 등 비중국산 공급망을 제시한 기업들과 경쟁했다.",
+        "현대차그룹은 비중국산 소재 사용 요구를 강화하고 있으며, 원료 단계까지 중국산을 배제하는 관리 범위를 적용하고 있다."
+      ],
+      "numbers": [
+        "2029년",
+        "2026년 8월 11일",
+        "2026년 8월 10일",
+        "40%",
+        "80%",
+        "60%"
+      ],
+      "keywords": [
+        "LG화학",
+        "HL-GA",
+        "현대차그룹",
+        "양극재",
+        "배터리",
+        "비중국산"
+      ],
+      "stated_outlook": "석유화학에서 첨단소재 중심의 체질 전환에 속도가 붙을 전망이며, 향후 구체적인 공급 물량은 차량 생산 계획에 맞춰 발주 규모를 조정하는 방식이 유력하다."
+    },
+    {
+      "id": "095ebcb731d2",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "CATL, '에어택시' 배터리 테스트 통과…\"양산 준비 완료\"",
+      "source": "ZDNet Korea",
+      "source_type": "산업 전문언론",
+      "official_source": false,
+      "published": "2026-08-11 00:00",
+      "collected": "2026-08-11",
+      "link": "https://zdnet.co.kr/view/?no=20260811094410",
+      "rss_description": "uot; CATL, '에어택시' 배터리 테스트 통과…\"양산 준비 완료\" 김윤희 기자 \"아이폰18 프로 맥스, 배터리 용량 전작보다 12% 증가\"",
+      "score": 36,
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "중국 배터리 기업 CATL이 에어택시용으로 개발한 배터리의 안전성 테스트를 완료하고 양산 준비를 마쳤다. 해당 배터리는 에너지 밀도가 kg당 350Wh인 각형 제품으로, 열 폭주 안전성 테스트를 통과했다. 이 배터리는 CATL이 투자한 eVOTL 개발사인 오토플라이트에 우선 탑재될 예정이다. 중국 민용항공국(CAAC) 또한 생산 및 테스트 과정을 참관하며 항공 안전 기준 충족을 지원했다.",
+      "key_points": [
+        "CATL이 에어택시용 배터리의 열 폭주 관련 안전성 테스트를 통과했다.",
+        "해당 배터리는 에너지 밀도 350Wh/kg의 각형 제품으로, 열 전이가 발생하지 않음을 확인했다.",
+        "중국 민용항공국(CAAC)이 생산 및 검사 과정을 참관하여 민간 항공 안전 기준을 충족하는 기반을 마련했다.",
+        "오토플라이트의 eVOTL에 해당 배터리가 우선적으로 탑재될 예정이다."
+      ],
+      "numbers": [
+        "2026/08/11",
+        "9일",
+        "350Wh",
+        "2024년",
+        "2025년 11월",
+        "2000대"
+      ],
+      "keywords": [
+        "CATL",
+        "에어택시",
+        "eVOTL",
+        "배터리",
+        "오토플라이트",
+        "CAAC"
+      ],
+      "stated_outlook": "CATL은 이 배터리의 양산 준비를 마쳤으며, 오토플라이트의 eVOTL에 우선 탑재될 예정이다."
+    },
+    {
+      "id": "8f7395af1113",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "'압도적 1위'삼성SDI, ESS 3차전 수성 부담 커진 이유는",
+      "source": "블로터",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-11 08:54",
+      "collected": "2026-08-11",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fUEtUQ1loUmwtSm1YVkJmdlJVNVlEUlpyYUhmNERkM25jNTc3QWRkTWFvU1BBX0RDTzN0eGk1djlhOG1ObldoNXdpYlVvRENVNmRhNGx2bkVadTVyNHlQaE5yQ041RDBD0gFsQVVfeXFMTnJKdUtmVWxBYzBaMHR2b1NsTXg3VUlqVWhwR09GMDZBamdKa3lKTkJybldaVmJMbElMbG5TZ0NLX3dwb2RITExHZ3BIN3o5VnB4cGQ2QTJfYWZacGJ1UXNvY3E2SVhveERrbFRm?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "b15de241c9e3",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "GIST-KIER-이화여대, 충전 오래 반복해도 성능 유지되는 수계 아연 배터리 개발",
+      "source": "전자신문",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-11 08:21",
+      "collected": "2026-08-11",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1VcDRIam1WMVlBVzJaQnhKMm51c3BtdmpHZGJHQ2hkX2hGYnI4WV95RU5UWGlJREViZDRXZ2Rxd0VzZU5KTmFfbTNwcFg5QQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "3bbd9e9779c3",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "LG엔솔, 中 로팔테크서 LFP 양극재 5조원 이상 구매",
+      "source": "디일렉",
+      "published": "2026-08-10 01:50",
+      "collected": "2026-08-11",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=60706",
+      "rss_description": "LG에너지솔루션이 중국 배터리 소재 상장사 로팔테크(Lopal Tech, 龍蟠科技)로부터 5조원 이상의 리튬인산철(LFP) 양극재를 구매하기로 했다. 에너지저장장치(ESS)를 중심으로 LFP 배터리 생산량이 빠르게 늘면서 안정적인 양극재 공급을 확보하기 위한 것으로 풀이된다.로팔테크는 지난 6일 공시를 통해 LG에너지솔루션과 LFP 양극재 공급 계약을 체결했다고 밝혔다. 계약 기간은 2026년 1월1일부터 2028년 12월31일까지 3년이다. 연간 거래 상한은 90억위안(약 1조9000억원)으로 총 270억위안(약 5조7000억원)",
+      "score": 57,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "LG에너지솔루션이 중국 배터리 소재 기업 로팔테크로부터 5조원 이상의 리튬인산철(LFP) 양극재를 구매하는 계약을 체결했다. 이번 계약은 에너지저장장치(ESS)용 LFP 배터리 생산 증가에 따른 안정적인 양극재 공급망을 확보하기 위한 조치다. 또한, LG에너지솔루션은 LFP 양극재 생산에 필요한 원재료를 로팔테크에 공급하는 거래도 함께 진행한다.",
+      "key_points": [
+        "LG에너지솔루션과 로팔테크가 2026년부터 2028년까지 3년간 LFP 양극재 공급 계약을 체결함",
+        "양극재 계약 규모는 총 270억위안(약 5조 7000억원)이며, 연간 거래 상한은 90억위안임",
+        "LG에너지솔루션은 로팔테크에 탄산리튬 등 원재료를 연간 60억위안, 총 180억위안(약 3조 7500억원) 규모로 공급함",
+        "이번 협력은 북미 ESS용 LFP 배터리 생산량 확대에 대응하기 위한 것임"
+      ],
+      "numbers": [
+        "5조원 이상",
+        "2026년 1월 1일 ~ 2028년 12월 31일",
+        "270억위안(약 5조 7000억원)",
+        "90억위안(약 1조 9000억원)",
+        "180억위안(약 3조 7500억원)",
+        "60억위안(약 1조 2500억원)"
+      ],
+      "keywords": [
+        "LG에너지솔루션",
+        "로팔테크",
+        "LFP",
+        "양극재",
+        "ESS",
+        "공급계약"
+      ],
+      "stated_outlook": "LG에너지솔루션은 북미 ESS용 LFP 배터리 생산 증가에 대응하여 안정적인 공급망을 확보할 것으로 보인다."
+    }
+  ],
+  "archive_items": [
+    {
+      "id": "895fbed4cba1",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "39% 빠진 삼성전자, 지금이 비중확대 적기…미래에셋 \"HBM·주주환원으로 재평가\"",
+      "source": "파이낸셜뉴스",
+      "source_type": "경제지 보도",
+      "published": "2026-08-11 08:56",
+      "collected": "2026-08-11",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FV2UyUjZKdDNiOUZFa2hZNHhtM2ZzX01xSUhVWWZmTHRfMFJEQ2lpUDZhSmsxVUlrSTYwbFByU0pIVWVLVHpfeVgtQlJJSTZHSUxRWmk4RHJfQQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 2
+    },
+    {
+      "id": "75bfd267d8cf",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "SK하이닉스, 中 충칭 낸드 후공정 공장 매각설…\"확정된 바 없다\"",
+      "source": "서울경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-11 08:41",
+      "collected": "2026-08-11",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKQm53RElLOVE2UkV5QmJFNlQyM0pSVDQwY3hyYmxzYXV3TW5hLUNHOWZDT1lIOWlJWGdHd0hBMkRydU9KRnk1N1hhXzFIQXN2N080YUd4c1hIZWY2ZkhYM0dxeXo?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 2
+    },
+    {
+      "id": "812989084f44",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "애플·삼성 뚫은 소니, TSMC와 6억4000만달러 투자 日 이미지 센서 공장 건설 추진",
+      "source": "디지털데일리",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-11 08:30",
+      "collected": "2026-08-11",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBDaVNQZm1nWExLMXg4UTBGWXlrZEY0Y0ZrcldhV2pURllVVTdpS2hudWdJWjJlSnUzZXZHbGNHa3Z0V3kxUUhnN0V4S3JFYnExVHFVVlM3OFFVTkxNc3R5TjFHZFk?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 5
+    },
     {
       "id": "ba6f300a9aca",
       "sector": "semiconductor",
@@ -19,7 +347,7 @@
       "rss_description": "넥스틴이 유럽 로직 반도체 기업과 반도체 검사 장비 양산 성능 평가를 시작한다. 로직 반도체용 검사 장비를 공급해 테스트하는 것은 처음이다.10일 업계에 따르면 넥스틴은 전공정용 이지스(AEGIS)3와 후공정용 크로키(KROKY)를 오는 3분기 고객사에 공급하고 양산 평가를 받는다. 구체적인 고객사는 밝혀지지 않았다. 해당 기업의 양산 라인에 장비를 설치하고, 성능과 양산 적용 가능성을 검증받는다.넥스틴 관계자는 \"비밀유지계약(NDA)으로 고객사는 공개할 수 없다\"면서도 \"로직 반도체는 진입장벽이 높고, 현재 글로벌 반도체 장비 투",
       "score": 35,
       "source_type": "산업 전문언론",
-      "source_rank": 2,
+      "source_rank": 5,
       "verified_source": true,
       "overview": "넥스틴이 유럽의 로직 반도체 기업에 전공정 검사 장비 '이지스3'와 후공정 검사 장비 '크로키'를 공급하여 양산 성능 평가를 시작한다. 넥스틴이 로직 반도체용 검사 장비를 공급해 테스트를 진행하는 것은 이번이 처음이다. 고객사와 장비에 대한 양산 성능 평가는 올해 3분기부터 약 6개월간 진행될 예정이다.",
       "key_points": [
@@ -44,46 +372,6 @@
       "stated_outlook": "내년 1~2분기 내에 평가가 성공적으로 완료되면, 정식 수주(PO)와 양산 공급 계약이 이뤄질 가능성이 크며, 넥스틴은 이 공급 사례를 기반으로 글로벌 로직 반도체 시장의 고객사를 확대할 계획이다."
     },
     {
-      "id": "812989084f44",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "투자·양산",
-      "title": "애플·삼성 뚫은 소니, TSMC와 6억4000만달러 투자 日 이미지 센서 공장 건설 추진",
-      "source": "디지털데일리",
-      "source_type": "산업 전문언론",
-      "published": "2026-08-11 08:30",
-      "collected": "2026-08-11",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBDaVNQZm1nWExLMXg4UTBGWXlrZEY0Y0ZrcldhV2pURllVVTdpS2hudWdJWjJlSnUzZXZHbGNHa3Z0V3kxUUhnN0V4S3JFYnExVHFVVlM3OFFVTkxNc3R5TjFHZFk?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
-      "id": "23f9ec506050",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "투자·양산",
-      "title": "TSMC, 타오위안 1.4나노 공장 재추진",
-      "source": "IT조선",
-      "source_type": "산업 전문언론",
-      "published": "2026-08-10 18:06",
-      "collected": "2026-08-11",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KY3hsZHJINGxjU3hNdXJ6Q0FqN2JELVU3Ull6d0hDSjJPMXdBS0ZoWDViR1AzdjRIR0dvQmM1eVJWWTloWG1oTl9aWkhHWGRRSWJmcmhUUHRBdV9KdmlOT0sxMlE1QkcwalVDVGhmazbSAXRBVV95cUxPUGlRZzQxRzVkR0t3eUhpb2hUTEdyUHI2QXVwdUdiNVQwM2RTVm1vcnYyNENCQU5LUzAtWWVQTzVNejlNNnNTWmR4bXFKNHRFNzZocTg0LXZZUEN1MHdUaVc0VExwSXFUTTdzczBtZkxWWmRsNg?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
       "id": "ec454cdb5456",
       "sector": "battery",
       "region": "domestic",
@@ -97,7 +385,7 @@
       "link": "https://zdnet.co.kr/view/?no=20260811081613",
       "rss_description": "배터리 CATL '에어택시' 배터리 테스트 통과…\"양산 준비 완료\" 오토플라이트에 공급 전망 김윤희 기자 \"아이폰18 프로 맥스, 배터리 용량 전작보다 12% 증가\" \"아이폰18",
       "score": 41,
-      "source_rank": 2,
+      "source_rank": 5,
       "verified_source": true,
       "overview": "다음 달 공개 예정인 애플 아이폰18 프로 맥스의 배터리 용량이 전작 대비 약 12% 증가할 것으로 보인다. 최근 공개된 배터리 팩 이미지와 중국 C3 데이터베이스 자료를 통해 아이폰18 프로 맥스의 배터리 용량이 5391mAh임이 확인되었다. 이는 전작인 아이폰17 프로 맥스 대비 약 11.8% 늘어난 수치다. 애플은 국가별 물리적 SIM 카드 트레이 유무에 따라 배터리 용량을 다르게 적용하고 있다.",
       "key_points": [
@@ -162,108 +450,6 @@
         "SNE리서치"
       ],
       "stated_outlook": "LFP와 고성능 삼원계 기술, 현지 조달 및 원가·품질 관리 역량에 따른 업체별 격차가 더욱 커질 전망이다."
-    },
-    {
-      "id": "409aef994fd9",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "SK하이닉스, EUV 공정 고도화…신소재 'PSM' 도입 시작",
-      "source": "ZDNet Korea",
-      "source_type": "산업 전문언론",
-      "official_source": false,
-      "published": "2026-08-10 00:00",
-      "collected": "2026-08-10",
-      "link": "https://zdnet.co.kr/view/?no=20260810112930",
-      "rss_description": "이시각 헤드라인 SK하이닉스, EUV 공정 고도화…신소재 'PSM' 도입 시작 영국, 가짜 할인·구독 함정 손본다…내년부터 해지 쉽게",
-      "score": 36,
-      "source_rank": 2,
-      "verified_source": true,
-      "overview": "SK하이닉스가 차세대 D램 양산을 위해 극자외선(EUV) 공정 고도화에 집중하고 있으며, 이를 위해 신규 소재인 위상변위 마스크(PSM)를 도입했다고 밝혔다. 지난해 하반기 High-NA EUV 장비를 도입한 이후 올해부터 본격적인 연구개발을 시작했다. 박사로한 SK하이닉스 부사장은 학술대회 NGL 2026에서 EUV 성능 향상을 위해 PSM 채용과 High-NA EUV 도입 방안을 적극 검토 중임을 시사했다.",
-      "key_points": [
-        "SK하이닉스가 EUV 공정의 성능 향상을 위해 위상변위 마스크(PSM)를 본격적으로 도입하기 시작했다.",
-        "지난해 하반기 양산용 High-NA EUV 장비를 처음 도입하여 올해부터 연구개발에 착수했다.",
-        "PSM은 빛의 위상 차이를 이용해 미세한 회로에서도 명확한 명암비를 구현하여 해상도를 높이는 역할을 한다.",
-        "SK하이닉스는 극한의 미세공정 양산을 위해 EUV 멀티 패터닝과 High-NA 싱글 패터닝 도입 등을 고민하고 있다."
-      ],
-      "numbers": [
-        "2026",
-        "13.5나노미터",
-        "0.33",
-        "0.55"
-      ],
-      "keywords": [
-        "SK하이닉스",
-        "EUV",
-        "PSM",
-        "High-NA EUV",
-        "NGL 2026",
-        "패터닝"
-      ],
-      "stated_outlook": "향후 High-NA EUV 측면에서도 PSM이 어떻게 발전할 수 있을지에 대해 고민하고 연구하고 있다."
-    },
-    {
-      "id": "6e49b2e63b28",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "LX세미콘, 첫 차량용 반도체 LX61101 양산…현대차·기아에 공급",
-      "source": "연합뉴스",
-      "source_type": "통신사 보도",
-      "published": "2026-08-10 09:23",
-      "collected": "2026-08-10",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBURURHNm1RSjdEcFJ3czRDWmpCRWt1S0UtUTFHaFdlZFlkNS1JLWY4NnBkdmxlaWlyQXVhQVo5LWRLaHNxVndOaldxN3JuQ3RnZ2lhUWdYNk42YVliWUxYbdIBYEFVX3lxTFBURURHNm1RSjdEcFJ3czRDWmpCRWt1S0UtUTFHaFdlZFlkNS1JLWY4NnBkdmxlaWlyQXVhQVo5LWRLaHNxVndOaldxN3JuQ3RnZ2lhUWdYNk42YVliWUxYbQ?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": "",
-      "source_rank": 3
-    }
-  ],
-  "archive_items": [
-    {
-      "id": "895fbed4cba1",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "산업",
-      "title": "39% 빠진 삼성전자, 지금이 비중확대 적기…미래에셋 \"HBM·주주환원으로 재평가\"",
-      "source": "파이낸셜뉴스",
-      "source_type": "경제지 보도",
-      "published": "2026-08-11 08:56",
-      "collected": "2026-08-11",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FV2UyUjZKdDNiOUZFa2hZNHhtM2ZzX01xSUhVWWZmTHRfMFJEQ2lpUDZhSmsxVUlrSTYwbFByU0pIVWVLVHpfeVgtQlJJSTZHSUxRWmk4RHJfQQ?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
-      "id": "75bfd267d8cf",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "투자·양산",
-      "title": "SK하이닉스, 中 충칭 낸드 후공정 공장 매각설…\"확정된 바 없다\"",
-      "source": "서울경제",
-      "source_type": "경제지 보도",
-      "published": "2026-08-11 08:41",
-      "collected": "2026-08-11",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKQm53RElLOVE2UkV5QmJFNlQyM0pSVDQwY3hyYmxzYXV3TW5hLUNHOWZDT1lIOWlJWGdHd0hBMkRydU9KRnk1N1hhXzFIQXN2N080YUd4c1hIZWY2ZkhYM0dxeXo?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
     },
     {
       "id": "02f40ccdbc21",
@@ -348,6 +534,27 @@
       "keywords": [],
       "stated_outlook": "",
       "source_rank": 2
+    },
+    {
+      "id": "23f9ec506050",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "TSMC, 타오위안 1.4나노 공장 재추진",
+      "source": "IT조선",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-10 18:06",
+      "collected": "2026-08-11",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KY3hsZHJINGxjU3hNdXJ6Q0FqN2JELVU3Ull6d0hDSjJPMXdBS0ZoWDViR1AzdjRIR0dvQmM1eVJWWTloWG1oTl9aWkhHWGRRSWJmcmhUUHRBdV9KdmlOT0sxMlE1QkcwalVDVGhmazbSAXRBVV95cUxPUGlRZzQxRzVkR0t3eUhpb2hUTEdyUHI2QXVwdUdiNVQwM2RTVm1vcnYyNENCQU5LUzAtWWVQTzVNejlNNnNTWmR4bXFKNHRFNzZocTg0LXZZUEN1MHdUaVc0VExwSXFUTTdzczBtZkxWWmRsNg?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 5
     },
     {
       "id": "b433c6f78b7d",
@@ -473,7 +680,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "source_rank": 2
+      "source_rank": 5
     },
     {
       "id": "a8a8f9296dab",
@@ -494,7 +701,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "source_rank": 2
+      "source_rank": 5
     },
     {
       "id": "7e9909536f08",
@@ -551,7 +758,7 @@
       "rss_description": "뱅크오브아메리카(BofA)가 메모리 반도체 초호황(supercycle)이 2027년까지 이어질 것이라는 긍정 전망을 내놨다. SK하이닉스의 3분기 D램 평균판매가격(ASP) 상승폭이 가팔라지고, 낸드 스팟 가격이 반등하는 등 업황 강세가 지속되고 있다는 분석이다. BofA는 8월 최신 리포트에서 SK하이닉스의 3분기 D램 ASP가 전분기 대비 25% 상승할 것으로 내다봤다. 2분기 상대적으로 부진했던 흐름에서 벗어나 고대역폭메모리(HBM4) 양",
       "score": 19,
       "source_type": "산업 전문언론",
-      "source_rank": 2,
+      "source_rank": 5,
       "verified_source": true,
       "overview": "뱅크오브아메리카(BofA)가 메모리 반도체 초호황기가 2027년까지 지속될 것이라는 전망을 발표했다. SK하이닉스의 3분기 D램 평균판매가격(ASP)이 전분기 대비 25% 상승할 것으로 내다봤으며, 낸드 등 반도체 업황 전반의 강세가 이어질 것으로 분석했다. 삼성전자와 SK하이닉스의 자본 환원 계획에 대해서도 긍정적인 평가를 내렸다.",
       "key_points": [
@@ -618,7 +825,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "source_rank": 2
+      "source_rank": 5
     },
     {
       "id": "ee22b5d15bf4",
@@ -912,7 +1119,28 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "source_rank": 2
+      "source_rank": 5
+    },
+    {
+      "id": "6e49b2e63b28",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "LX세미콘, 첫 차량용 반도체 LX61101 양산…현대차·기아에 공급",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-10 09:23",
+      "collected": "2026-08-10",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBURURHNm1RSjdEcFJ3czRDWmpCRWt1S0UtUTFHaFdlZFlkNS1JLWY4NnBkdmxlaWlyQXVhQVo5LWRLaHNxVndOaldxN3JuQ3RnZ2lhUWdYNk42YVliWUxYbdIBYEFVX3lxTFBURURHNm1RSjdEcFJ3czRDWmpCRWt1S0UtUTFHaFdlZFlkNS1JLWY4NnBkdmxlaWlyQXVhQVo5LWRLaHNxVndOaldxN3JuQ3RnZ2lhUWdYNk42YVliWUxYbQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 3
     },
     {
       "id": "f1a37f986d9d",
@@ -1038,7 +1266,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "source_rank": 2
+      "source_rank": 5
     },
     {
       "id": "74c7139dbc60",
@@ -1053,7 +1281,7 @@
       "rss_description": "경기도의회 국민의힘이 경기도 인공지능(AI)·반도체 정책을 전력 수급, 규제 개선, 공공데이터 활용과 연계한 산업 생태계 중심으로 전환해야 한다고 주문했다. 도의회 국민의힘은 최근 방성환 대표의원실에서 경기도 AI국 업무보고를 받고 행정 AI, 민간 지원 정책, 도내 AI 데이터센터·반도체 투자 현황, 생성형 AI와 구청사 AI 데이터센터 구축 상황 등을 점검했다고 10일 밝혔다. 도의회 국민의힘은 국내 AI 데이터센터의 약 75%가 경기도에",
       "score": 23,
       "source_type": "산업 전문언론",
-      "source_rank": 2,
+      "source_rank": 5,
       "verified_source": true,
       "overview": "경기도의회 국민의힘이 경기도의 인공지능(AI) 및 반도체 정책을 산업 생태계 중심으로 전환할 것을 제안했다. 이들은 전력 수급, 규제 개선, 공공데이터 관리 체계와 정책을 연계해야 한다고 강조했다. 또한 경기도 내 데이터센터 구축 지연 문제를 지적하며 민관 협업 체계 마련을 주문했다.",
       "key_points": [
@@ -1072,6 +1300,45 @@
         "공공데이터"
       ],
       "stated_outlook": "경기도의회 국민의힘은 향후 도내 AI·반도체 기업의 규제 개선과 데이터 공유 정책을 추진할 방침이며, 경제부지사를 중심으로 민관 협업 체계를 마련해 가이드라인을 제시할 계획이다."
+    },
+    {
+      "id": "409aef994fd9",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "SK하이닉스, EUV 공정 고도화…신소재 'PSM' 도입 시작",
+      "source": "ZDNet Korea",
+      "source_type": "산업 전문언론",
+      "official_source": false,
+      "published": "2026-08-10 00:00",
+      "collected": "2026-08-10",
+      "link": "https://zdnet.co.kr/view/?no=20260810112930",
+      "rss_description": "이시각 헤드라인 SK하이닉스, EUV 공정 고도화…신소재 'PSM' 도입 시작 영국, 가짜 할인·구독 함정 손본다…내년부터 해지 쉽게",
+      "score": 36,
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "SK하이닉스가 차세대 D램 양산을 위해 극자외선(EUV) 공정 고도화에 집중하고 있으며, 이를 위해 신규 소재인 위상변위 마스크(PSM)를 도입했다고 밝혔다. 지난해 하반기 High-NA EUV 장비를 도입한 이후 올해부터 본격적인 연구개발을 시작했다. 박사로한 SK하이닉스 부사장은 학술대회 NGL 2026에서 EUV 성능 향상을 위해 PSM 채용과 High-NA EUV 도입 방안을 적극 검토 중임을 시사했다.",
+      "key_points": [
+        "SK하이닉스가 EUV 공정의 성능 향상을 위해 위상변위 마스크(PSM)를 본격적으로 도입하기 시작했다.",
+        "지난해 하반기 양산용 High-NA EUV 장비를 처음 도입하여 올해부터 연구개발에 착수했다.",
+        "PSM은 빛의 위상 차이를 이용해 미세한 회로에서도 명확한 명암비를 구현하여 해상도를 높이는 역할을 한다.",
+        "SK하이닉스는 극한의 미세공정 양산을 위해 EUV 멀티 패터닝과 High-NA 싱글 패터닝 도입 등을 고민하고 있다."
+      ],
+      "numbers": [
+        "2026",
+        "13.5나노미터",
+        "0.33",
+        "0.55"
+      ],
+      "keywords": [
+        "SK하이닉스",
+        "EUV",
+        "PSM",
+        "High-NA EUV",
+        "NGL 2026",
+        "패터닝"
+      ],
+      "stated_outlook": "향후 High-NA EUV 측면에서도 PSM이 어떻게 발전할 수 있을지에 대해 고민하고 연구하고 있다."
     },
     {
       "id": "c4627041e652",
@@ -1108,7 +1375,7 @@
       "link": "https://zdnet.co.kr/view/?no=20260810155102",
       "rss_description": "장비 생산 앞둬\" 배터리 유진테크놀로지 \"북미·울산 배터리 공장 장비 생산 앞둬\" 신규 발주 수령·수주 확정…실적 지속 개선 기대 김윤희 기자 이노티카, 전원 끊김없는 모듈 인터페이스 개발",
       "score": 34,
-      "source_rank": 2,
+      "source_rank": 5,
       "verified_source": true,
       "overview": "유진테크놀로지가 북미 배터리 생산라인용 PET 세정 설비 신규 발주를 수령하고 울산사업장향 리튬인산철(LFP) 기반 ESS용 일체형 금형 1차분 수주를 확정했다. 회사는 기존 금형 및 부품 중심에서 세정 설비 등 부대장치로 공급 범위를 확장하고 시장 거점도 확대하고 있다. 이러한 수주 성과를 바탕으로 올해 실적 성장과 흑자 전환을 목표로 하고 있다.",
       "key_points": [
@@ -1173,7 +1440,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "source_rank": 2
+      "source_rank": 5
     },
     {
       "id": "948968d896be",
@@ -1292,7 +1559,7 @@
       "rss_description": "◇ 태양광·반도체·이차전지 국내 생산시 2036년까지 세액공제정부가 반도체, 이차전지, 인공지능(AI) 로봇부품 등 전략산업의 국내 생산 기반을 확충하기 위해 국내생산세액공제를 새로 도입한다. 산업통상부는 지난 3일 발표된 2026년 세제개편안에 국내생산세액공제가 신설됐다고 7일 밝혔다.국내생산세액공제는 녹색전환과 경제안보에 전략적으로 중요한 산업 가운데 국내 생산 기반이 취약한 태양광발전, 풍력발전, 이차전지, 반도체, 핵심소재, AI 로봇부품 등 6대 분야에 적용된다.내국인이 국내에서 직접 생산·판매하는 요건을 충족하면 생산량과",
       "score": 19,
       "source_type": "산업 전문언론",
-      "source_rank": 2,
+      "source_rank": 5,
       "verified_source": true,
       "overview": "정부가 반도체, 이차전지, 태양광 등 6대 전략산업의 국내 생산 기반을 확충하기 위해 국내생산세액공제를 신설했다. 내국인이 국내에서 직접 생산 및 판매하는 요건을 갖출 경우 2036년 말까지 세액공제 혜택을 받을 수 있다. 또한 비수도권 기업에는 생산지역별계수를 도입해 더 큰 혜택을 제공할 예정이다.",
       "key_points": [
@@ -1326,7 +1593,7 @@
       "rss_description": "SK하이닉스가 총 54조3000억원을 투자해 용인과 청주에 신규 반도체 팹을 건설한다. SK하이닉스는 7일 이사회에서 용인 반도체 클러스터 2번째 팹 'Y2', 청주 신규 팹 'M17' 건설에 각각 35조2000억원, 19조1000억원을 투자하기로 결정했다. SK하이닉스는 지난 6월 중장기 투자 전략을 발표했다. 용인 반도체 클러스터 600조원, 청주 생산기지 확대 100조원을 투입한다. 용인 Y2는 SK하이닉스가 용인 반도체 클러스터에 순차적으로 건설할 총 4개 팹 중 두 번째 팹이다. 연면적 34만1000평 규모로 구축한다. 고",
       "score": 26,
       "source_type": "산업 전문언론",
-      "source_rank": 2,
+      "source_rank": 5,
       "verified_source": true,
       "overview": "SK하이닉스가 이사회를 통해 용인 반도체 클러스터의 두 번째 팹인 'Y2'와 청주 신규 팹 'M17' 건설에 총 54조 3000억원을 투자하기로 결정했다. 용인 Y2는 HBM과 차세대 D램을 생산하며 2029년 6월 첫 클린룸을 오픈할 예정이다. 청주 M17은 낸드플래시 생산 거점으로 구축되며 2028년 12월 첫 클린룸 오픈을 목표로 한다. 이번 투자는 글로벌 AI 반도체 공급망 안정을 위한 선제적 생산 기반 확보 차원에서 진행된다.",
       "key_points": [
@@ -1519,7 +1786,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "source_rank": 2
+      "source_rank": 5
     },
     {
       "id": "2cf95895136f",
@@ -1540,7 +1807,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "source_rank": 2
+      "source_rank": 5
     },
     {
       "id": "c47185b34ad9",
@@ -1582,7 +1849,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "source_rank": 2
+      "source_rank": 5
     },
     {
       "id": "3c6f1216f66f",
@@ -1603,7 +1870,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "source_rank": 2
+      "source_rank": 5
     },
     {
       "id": "44755a6d0c71",
@@ -1624,7 +1891,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "source_rank": 2
+      "source_rank": 5
     },
     {
       "id": "4625b28ffdda",
@@ -1687,7 +1954,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "source_rank": 2
+      "source_rank": 5
     },
     {
       "id": "76f79b1419ad",
@@ -1708,7 +1975,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": "",
-      "source_rank": 2
+      "source_rank": 5
     },
     {
       "id": "c50feb86e46b",
@@ -1763,7 +2030,7 @@
       "rss_description": "광주 군공항 부지에 들어설 800조원 규모의 호남권 반도체 클러스터 조성 사업이 유례 없이 빠른 속도로 이뤄지고 있다. 청와대와 정부 부처, 지방자치단체, 관련 기관·기업들이 원팀을 구성해 반도체 국가산업단지 개발계획과 제반 여건 구축 절차를 동시에 밟아나가면서 호남권 반도체 클러스터 조성사업이 파격적인 속도전으로 추진되고 있다. 전남광주통합특별시(광주특별시)가 목표로 잡은 '2030년 6월 반도체 양산 달성'이 가능할 것이라는 전망이 나오는",
       "score": 20,
       "source_type": "산업 전문언론",
-      "source_rank": 2,
+      "source_rank": 5,
       "verified_source": true,
       "overview": "광주 군공항 부지 일원에 800조원 규모의 호남권 반도체 클러스터가 조성되는 사업이 정부, 지자체, 기업 등의 협력을 통해 빠르게 추진되고 있다. 정부는 이를 뒷받침하기 위한 특별법 시행령을 의결하고 전담 컨트롤타워를 구성했다. 전남광주통합특별시는 관련 절차를 간소화하여 2030년 6월 반도체 양산을 목표로 사업을 진행 중이다.",
       "key_points": [
@@ -1920,7 +2187,7 @@
       "rss_description": "TSMC가 최근 지진 피해를 입은 일본 구마모토현 공장을 재가동한다. 지진 발생 이후 약 6일 만이다.TSMC는 4일 \"일본 구마모토에 위치한 공장 JASM(Japan Advanced Semiconductor Manufacturing)이 완전히 복구 됐다\"고 밝혔다. 이어 \"일본 정부, 지방자치단체, 구마모토에 있는 임직원, 공급망 파트너 노력 덕에 신속하게 복구를 이룰 수 있었다\"고 덧붙였다.TSMC는 가동 재개에 맞춰 지역 사회에 2억5000만엔(약 22억7000만원)을 기부한다. TSMC는 \"지진 피해를 입은 구마모토는 여전히",
       "score": 29,
       "source_type": "산업 전문언론",
-      "source_rank": 2,
+      "source_rank": 5,
       "verified_source": true,
       "overview": "지난달 28일 발생한 규모 7.1 지진으로 가동을 중단했던 TSMC의 일본 구마모토 1공장이 6일 만에 재가동되었다. TSMC는 용수 공급과 전력, 안전 시스템 등을 점검한 후 공장을 완전히 복구했다고 밝혔다. 또한 구마모토 지역 사회에 2억 5000만 엔을 기부하기로 했다. 건설 중인 2공장은 지진 피해를 입지 않아 앞서 공사를 재개한 상태다.",
       "key_points": [
@@ -1961,7 +2228,7 @@
       "link": "https://zdnet.co.kr/view/?no=20260805091920",
       "rss_description": "% 성장…韓 점유율 하락 배터리 상반기 전기차 배터리 시장 20% 성장…韓 점유율 하락 SNE리서치 분석…中 업체 점유율 상승세·파나소닉 하락 김윤희 기자 에코프로, '반도체 소재' 순항…전구체 공급 확대 기대",
       "score": 32,
-      "source_rank": 2,
+      "source_rank": 5,
       "verified_source": true,
       "overview": "2026년 상반기 전 세계 전기차 배터리 사용량이 전년 동기 대비 20% 성장한 608.5GWh를 기록했다. 시장 전체는 성장했으나 국내 배터리 기업들의 시장 점유율은 하락세를 보였다. 중국 기업인 CATL과 BYD가 시장 1, 2위를 유지하며 점유율을 견인한 반면, 국내 업체는 전체 시장 성장률에 미치지 못하는 실적을 거두었다.",
       "key_points": [
