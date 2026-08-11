@@ -1351,6 +1351,17 @@ def main():
 
     now = datetime.now(base.KST)
     today = now.date()
+    cycle_started = old.get("automatic_cycle_started_at", "")
+    try:
+        cycle_started_at = datetime.strptime(
+            cycle_started[:16], "%Y-%m-%d %H:%M"
+        ).replace(tzinfo=base.KST)
+    except (TypeError, ValueError):
+        cycle_started_at = None
+    cycle_open = (
+        cycle_started_at is not None
+        and timedelta(0) <= now - cycle_started_at < timedelta(hours=24)
+    )
     fetched = collect_all_candidates()
     # Keep already verified articles inside the three-day window as reusable
     # candidates even if a feed is temporarily unavailable on this run.
@@ -1400,9 +1411,18 @@ def main():
     for sector in ("semiconductor", "battery"):
         sector_rows = [item for item in eligible if item.get("sector") == sector]
         sector_avoid = [item for item in avoid_recent if item.get("sector") == sector]
+        # 같은 24시간 묶음 안의 재실행은 기존 기사를 고정하고 빈자리만
+        # 보충한다. 이전에는 기존 묶음을 중복 기사로 제외한 뒤 새로 뽑아
+        # 재실행 직후 5건이 0~2건으로 줄어들 수 있었다.
+        preserved = [
+            item for item in old_current
+            if cycle_open
+            and item.get("sector") == sector
+            and (item.get("verified_source") is True or item.get("summary_status") == "link_only")
+        ][:TARGETS[sector]]
         selected, fresh = select_sector(
             sector_rows, sector, all_existing + new_items, api_key,
-            avoid_recent=sector_avoid,
+            avoid_recent=sector_avoid, current=preserved,
         )
         if len(selected) < TARGETS[sector]:
             selected_ids = {item.get("id") for item in selected}
