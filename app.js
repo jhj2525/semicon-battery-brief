@@ -170,7 +170,7 @@ async function requestDeleteItems(items, button) {
     hidePendingDeletedItems(deletingIds);
     alert(`${items.length}개 기사를 화면에서 삭제했습니다. 영구 저장은 뒤에서 처리되며 보통 1~3분 걸립니다.`);
     let reflected = false;
-    for (let attempt = 0; attempt < 18; attempt += 1) {
+    for (let attempt = 0; attempt < 36; attempt += 1) {
       await new Promise(resolve => setTimeout(resolve, 10000));
       const news = await fetch(`data/news.json?t=${Date.now()}`, { cache: "no-store" })
         .then(result => result.json()).catch(() => null);
@@ -503,7 +503,7 @@ manualForm.addEventListener("submit", async event => {
       ? linkOnlyCount
         ? `추가 완료. ${linkOnlyCount}개는 원문 접근 제한으로 제목과 링크만 표시됩니다.`
         : "추가 및 요약 완료. 페이지를 새로고침하면 새 기사가 표시됩니다."
-      : "요청은 접수됐지만 아직 반영되지 않았습니다. 잠시 후 새로고침해 주세요.";
+      : "요청은 접수됐지만 6분 안에 반영되지 않았습니다. 자동 실행이 끝난 뒤 다시 확인해 주세요.";
     manualForm.reset();
   } catch (error) {
     manualStatus.textContent = error.message || "추가 요청에 실패했습니다.";
