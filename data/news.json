@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-11 10:37 KST",
-  "last_automatic_update_at": "2026-08-11 10:37 KST",
-  "automatic_cycle_started_at": "2026-08-11 10:34 KST",
+  "updated_at": "2026-08-11 11:32 KST",
+  "last_automatic_update_at": "2026-08-11 11:32 KST",
+  "automatic_cycle_started_at": "2026-08-11 11:31 KST",
   "publication_window": {
-    "from": "2026-08-10 10:34 KST",
-    "to": "2026-08-11 10:34 KST"
+    "from": "2026-08-10 11:31 KST",
+    "to": "2026-08-11 11:31 KST"
   },
-  "today_verified_count": 9,
+  "today_verified_count": 1,
   "current_items": [
     {
       "id": "ba6f300a9aca",
@@ -162,6 +162,26 @@
       "stated_outlook": "양사는 2029년 가동을 목표로 세부 협의를 진행 중이며, 일본 정부는 해당 합작 법인에 대한 재정적 지원 방안을 적극 검토할 계획이다.",
       "summary_source": "pasted_text",
       "industry_context": "인공지능(AI) 기반 로봇과 자율주행 차량 보급 확대에 따라 고성능 카메라 센서 수요가 급증하고 있다."
+    },
+    {
+      "id": "3b622534dc81",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "HLB제넥스, 반도체 공정수 재이용 확대 수혜…美 공급망 진입 '속도'",
+      "source": "파이낸셜뉴스",
+      "source_type": "경제지 보도",
+      "published": "2026-08-11 10:47",
+      "collected": "2026-08-11",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1WbVhmcm9jdXg3UkFPaTlYV25CZ2owa2RZQW1oakhNT1RrWFdSUHlHQ2NfeU9SQTEwS09QZWVLY20tLV9zZGdOd21BQUhtUU04eVhVUDZZempGdw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
     },
     {
       "id": "b3156ade7aa8",
