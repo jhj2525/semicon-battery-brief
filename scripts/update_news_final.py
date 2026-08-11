@@ -51,7 +51,10 @@ DOMESTIC_SPECIALIST_FEEDS = [
         "fixed_sector": "semiconductor",
     },
     {
-        "url": "https://www.thelec.kr/rss/S1N3.xml",
+        # 디일렉은 배터리 섹션 RSS(S1N9)를 공개하지 않으므로 전체 기사
+        # 공식 RSS에서 분야를 판별한다. 이 피드에는 배터리 기사 본문 링크가
+        # 안정적으로 포함된다.
+        "url": "https://www.thelec.kr/rss/allArticle.xml",
         "source": "디일렉",
         "region": "domestic",
         "fixed_sector": None,
@@ -68,6 +71,7 @@ SOURCE_TYPES = {
     "KIPOST": "산업 전문언론",
     "디일렉": "산업 전문언론",
     "디일렉 소재·장비": "산업 전문언론",
+    "디일렉 배터리": "산업 전문언론",
     "전자신문": "산업 전문언론",
     "전자신문 경제": "산업 전문언론",
     "전자신문 소재": "산업 전문언론",
@@ -119,7 +123,7 @@ SOURCE_RANK = {
     "기업 공식 발표": 4,
     "시장조사기관": 4,
     "통신사 보도": 3,
-    "산업 전문언론": 2,
+    "산업 전문언론": 5,
     "경제지 보도": 2,
     "해외 산업 보도": 1,
 }
@@ -573,6 +577,10 @@ def apply_tech_trend_bonus(rows):
         ):
             item["score"] = item.get("score", 0) + 12
             item["category"] = "기술·공정"
+        if item.get("source", "").startswith("디일렉"):
+            # 디일렉은 기사 본문을 안정적으로 읽을 수 있어 실제 자동요약까지
+            # 완성될 가능성이 높다. 제목·링크만 남는 매체보다 먼저 검증한다.
+            item["score"] = item.get("score", 0) + 14
     return rows
 
 
@@ -1312,6 +1320,34 @@ def main():
     if edit_id and edit_title:
         print(f"edited manual article title: {edit_id}")
 
+    manual_url = os.getenv("MANUAL_ARTICLE_URL", "").strip()
+    manual_sector = os.getenv("MANUAL_ARTICLE_SECTOR", "").strip()
+    if manual_url:
+        # 수동 추가는 자동 뉴스 전체 수집과 완전히 분리한다. 예전에는 기사 한
+        # 건을 넣을 때도 모든 피드와 Gemini 검증을 다시 실행해, 제한시간이나
+        # 외부 사이트 오류가 나면 수동 기사까지 저장되지 않았다.
+        requested_urls = list(dict.fromkeys(
+            value.strip() for value in manual_url.splitlines() if value.strip()
+        ))
+        new_manual_items = [
+            summarize_manual(build_manual_candidate(url, manual_sector), api_key)
+            for url in requested_urls
+        ]
+        for item in new_manual_items:
+            item["source_type"] = "직접 선택"
+        manual_items = merge_manual_items(old_manual_items, new_manual_items)
+        payload = dict(old)
+        payload["manual_items"] = manual_items
+        payload["manual_updated_at"] = datetime.now(base.KST).strftime(
+            "%Y-%m-%d %H:%M KST"
+        )
+        base.OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+        base.OUTPUT.write_text(
+            json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        print(f"manual-only update saved: {manual_sector} · {len(new_manual_items)}")
+        return
+
     now = datetime.now(base.KST)
     today = now.date()
     fetched = collect_all_candidates()
@@ -1386,21 +1422,7 @@ def main():
         current.extend(selected)
         new_items.extend(fresh)
 
-    manual_url = os.getenv("MANUAL_ARTICLE_URL", "").strip()
-    manual_sector = os.getenv("MANUAL_ARTICLE_SECTOR", "").strip()
-    new_manual_items = []
-    if manual_url:
-        requested_urls = list(dict.fromkeys(
-            value.strip() for value in manual_url.splitlines() if value.strip()
-        ))
-        new_manual_items = [
-            summarize_manual(build_manual_candidate(url, manual_sector), api_key)
-            for url in requested_urls
-        ]
-        for item in new_manual_items:
-            item["source_type"] = "직접 선택"
-        print(f"manual articles added: {manual_sector} · {len(new_manual_items)}")
-    manual_items = merge_manual_items(old_manual_items, new_manual_items)
+    manual_items = merge_manual_items(old_manual_items, [])
 
     archive = merge_archive(all_existing, new_items, current)
 
