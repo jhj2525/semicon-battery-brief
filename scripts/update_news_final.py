@@ -114,7 +114,8 @@ GOOGLE_NEWS_QUERIES = {
 }
 
 SOURCE_RANK = {
-    "정부·협회": 5,
+    # 정부·협회 자료가 기술·공정 기사보다 먼저 도배되지 않도록 낮게 둔다.
+    "정부·협회": 1,
     "기업 공식 발표": 4,
     "시장조사기관": 4,
     "통신사 보도": 3,
@@ -122,6 +123,20 @@ SOURCE_RANK = {
     "경제지 보도": 2,
     "해외 산업 보도": 1,
 }
+
+SEMICON_LOW_VALUE_TERMS = (
+    "목표주가", "투자의견", "비중확대", "주주환원", "배당", "자사주",
+    "증권가", "증권사", "애널리스트", "리포트", "매수 의견", "매도 의견",
+    "주가 전망", "상승 여력", "실적 기대감", "저평가", "고평가",
+    "매각설", "인수설", "확정된 바 없다", "사실무근",
+)
+
+SEMICON_CORE_TECH_TERMS = (
+    "공정", "수율", "결함", "검사", "계측", "장비", "소재", "웨이퍼",
+    "노광", "euv", "식각", "etch", "증착", "deposition", "ald", "cvd", "pvd",
+    "박막", "포토레지스트", "패키징", "칩렛", "하이브리드 본딩",
+    "hbm", "d램", "dram", "낸드", "파운드리", "공정 노드", "나노 공정",
+)
 
 
 def trusted_news_identity(raw_name):
@@ -322,6 +337,10 @@ def useful_candidate(item):
     title_text = item.get("title", "").lower()
     text = f"{title_text} {item.get('rss_description', '')}".lower()
     if any(term in text for term in base.EXCLUDE):
+        return False
+    if item.get("sector") == "semiconductor" and any(
+        term in text for term in SEMICON_LOW_VALUE_TERMS
+    ):
         return False
     if any(term in text for term in (
         "목표가", "투자의견", "증권", "컨센서스", "주식", "etf",
@@ -529,6 +548,18 @@ def apply_tech_trend_bonus(rows):
         ):
             item["score"] = item.get("score", 0) + 12
             item["category"] = "기술·공정"
+        if item.get("sector") == "semiconductor":
+            core_hits = sum(term in text for term in SEMICON_CORE_TECH_TERMS)
+            if core_hits:
+                item["score"] = item.get("score", 0) + min(core_hits, 4) * 4
+            if item.get("category") == "기술·공정":
+                item["score"] = item.get("score", 0) + 10
+            elif item.get("category") == "투자·양산":
+                item["score"] = item.get("score", 0) - 5
+            elif item.get("category") == "정책":
+                item["score"] = item.get("score", 0) - 10
+            if item.get("source_type") == "경제지 보도":
+                item["score"] = item.get("score", 0) - 3
         if item.get("sector") == "battery" and any(
             term.lower() in text for term in ELECTRODE_TERMS
         ):
@@ -589,7 +620,18 @@ def ordered_sector_candidates(rows, sector):
     )
 
     domestic_target = DOMESTIC_TARGETS[sector]
-    preferred = domestic[:domestic_target] + global_items[:1]
+    if sector == "semiconductor":
+        # 기술·공정 3건을 우선 확보하고 투자·정책 기사는 합계 2건까지만
+        # 앞 순서에 둔다. 후보가 부족하면 아래 reserves에서 자동 보충된다.
+        tech = [x for x in domestic if x.get("category") == "기술·공정"]
+        industry = [x for x in domestic if x.get("category") == "산업"]
+        investment = [x for x in domestic if x.get("category") == "투자·양산"]
+        policy = [x for x in domestic if x.get("category") == "정책"]
+        preferred_domestic = (tech[:3] + industry[:1] + investment[:2] + policy[:1])
+        preferred_domestic = preferred_domestic[:domestic_target]
+        preferred = preferred_domestic + global_items[:1]
+    else:
+        preferred = domestic[:domestic_target] + global_items[:1]
     used = {item["id"] for item in preferred}
     reserves = [item for item in domestic + global_items if item["id"] not in used]
     return preferred + reserves
@@ -1361,8 +1403,11 @@ def main():
     new_semi = []
     semi_archive = merge_semi_archive(all_existing_semi, [], [])
 
+    completed_at = datetime.now(base.KST).strftime("%Y-%m-%d %H:%M KST")
     payload = {
-        "updated_at": datetime.now(base.KST).strftime("%Y-%m-%d %H:%M KST"),
+        "updated_at": completed_at,
+        "last_automatic_update_at": completed_at,
+        "automatic_cycle_started_at": now.strftime("%Y-%m-%d %H:%M KST"),
         "publication_window": {
             "from": (now - timedelta(hours=24)).strftime("%Y-%m-%d %H:%M KST"),
             "to": now.strftime("%Y-%m-%d %H:%M KST"),
