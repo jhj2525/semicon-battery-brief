@@ -144,6 +144,16 @@ export default {
       }
       inputs.favorite_article_id = body.itemId;
       inputs.favorite_state = body.favorite ? "true" : "false";
+    } else if (action === "summarize_text") {
+      const articleText = String(body.articleText || "").trim();
+      if (!/^[a-f0-9]{12}$/i.test(body.itemId || "")) {
+        return json({ error: "요약할 기사 ID가 올바르지 않습니다." }, 400, allowedOrigin);
+      }
+      if (articleText.length < 200 || articleText.length > 30000) {
+        return json({ error: "기사 본문은 200~30,000자로 입력해 주세요." }, 400, allowedOrigin);
+      }
+      inputs.pasted_article_id = body.itemId;
+      inputs.pasted_article_text = articleText;
     } else if (action === "add") {
       if (!["semiconductor", "battery", "semi_market"].includes(body.sector)) {
         return json({ error: "분야를 다시 선택해 주세요." }, 400, allowedOrigin);
