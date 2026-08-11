@@ -113,13 +113,35 @@
       "collected": "2026-08-11",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE54WDY1aHVRenNTSkFkTEdRVG15bUtjMnAzanlYUElydVJLXzMtSVdhUktQSHp5amd2aWdLMjczeEtZVG5FcWw2MXNjYWtvSFpYYmpLYmhWdFI3bnozMnRkZtIBeEFVX3lxTE9ZYmx1NDhOVWpyM1pPa2puQ1U2blEwOFdGRjh1U3JQYWpuVWdILVh0Ym5weVNiRFpMdUdlYVNiUFY0aG5DTzRSWG1yMC1Eck42bkFNbDRKaVRqaVQtbmQxZklOSHFXQVFMX3RqLWZuYnF5RVdkeXB2bw?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "TSMC와 소니그룹이 일본 구마모토에 차세대 이미지센서 생산을 위한 합작회사를 설립하고 1조엔 규모의 투자를 단행한다. 양사는 소니의 설계 및 개발 역량과 TSMC의 첨단 공정 및 생산 관리 능력을 결합해 이미지센서 시장의 선두 지위를 강화할 계획이다. 소니가 지분 60%를 확보해 경영권을 가지며, 2029년 양산을 목표로 한다. 생산시설은 소니 반도체 솔루션즈의 기존 이미지센서 공장을 활용할 예정이다. 이번 사업은 일본 정부로부터 최대 600억엔의 보조금을 지원받을 것으로 예상된다.",
+      "key_points": [
+        "TSMC와 소니가 공동 투자하여 차세대 이미지센서 합작회사 설립 추진",
+        "총 투자 규모 1조엔(약 8조 9564억원)으로 2029년 양산 목표",
+        "소니 60%, TSMC 40% 지분 구조로 소니가 경영권 확보",
+        "일본 정부로부터 최대 600억엔 보조금 지원 협의 진행 중",
+        "신설 공장 생산능력은 12인치 웨이퍼 기준 월 1만 장 규모"
+      ],
+      "numbers": [
+        "1조엔",
+        "8조9564억원",
+        "2029년",
+        "60%",
+        "40%",
+        "600억엔"
+      ],
+      "keywords": [
+        "TSMC",
+        "소니",
+        "이미지센서",
+        "구마모토",
+        "합작투자",
+        "피지컬 AI"
+      ],
+      "stated_outlook": "2029년 양산을 목표로 하고 있으며, 생산된 신형 이미지센서는 애플 아이폰 탑재를 시작으로 자율주행차, 산업용 로봇, 피지컬 AI 분야로 적용 범위를 확대할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "소니는 CMOS 이미지센서 분야에서 세계 시장 점유율 1위이나, 중국계 옴니비전과 삼성전자의 추격을 받고 있다. 소니는 첨단 반도체 파운드리 기업인 TSMC와의 협력을 통해 경쟁력을 강화하고 있다. 이미지센서는 향후 애플 아이폰을 시작으로 자율주행차, 산업용 로봇, 피지컬 AI 분야로 적용 범위가 확대될 전망이다."
     },
     {
       "id": "812989084f44",
@@ -2172,5 +2194,6 @@
       "manual_active": false,
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
-  ]
+  ],
+  "manual_updated_at": "2026-08-11 11:24 KST"
 }
