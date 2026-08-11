@@ -19,6 +19,14 @@ on:
           - semiconductor
           - battery
           - semi_market
+      pasted_article_id:
+        description: "본문 직접입력 대상 기사 ID · Worker 호환용"
+        required: false
+        type: string
+      pasted_article_text:
+        description: "직접 입력한 기사 본문 · Worker 호환용"
+        required: false
+        type: string
       delete_article_id:
         description: "아카이브에서 삭제할 기사 ID · 일반 실행에서는 비우기"
         required: false
