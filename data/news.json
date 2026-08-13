@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-12 13:34 KST",
-  "last_automatic_update_at": "2026-08-12 13:34 KST",
-  "automatic_cycle_started_at": "2026-08-12 13:29 KST",
+  "updated_at": "2026-08-13 11:36 KST",
+  "last_automatic_update_at": "2026-08-13 11:36 KST",
+  "automatic_cycle_started_at": "2026-08-13 11:35 KST",
   "publication_window": {
-    "from": "2026-08-11 13:29 KST",
-    "to": "2026-08-12 13:29 KST"
+    "from": "2026-08-12 11:35 KST",
+    "to": "2026-08-13 11:35 KST"
   },
-  "today_verified_count": 10,
+  "today_verified_count": 1,
   "current_items": [
     {
       "id": "1d46717f8b01",
@@ -84,26 +84,6 @@
       "stated_outlook": "다음 시리즈에서는 피코초 초음파 기술을 활용해 수집된 반사율 데이터를 바탕으로 공정 이상 탐지, 스퍼터링 중 가스 흐름 변화의 영향 모니터링, SiCr 박막 품질에 대한 포괄적인 시각을 제공하는 방법을 다룰 예정이다."
     },
     {
-      "id": "65e99c986545",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "산업",
-      "title": "상반기 신입공고 13%↑…화장품·금융·반도체 업종 최대 증가",
-      "source": "연합뉴스",
-      "source_type": "통신사 보도",
-      "published": "2026-08-12 10:02",
-      "collected": "2026-08-12",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KYVotTTI0bDZSZUhtZ042X2N0SU1ickF1ajN3NjJxcW84RTNLWWhZMVRQd2I4RWNtUnBNdktvQjRJMlp6QWlHU2hVbW9famFtdmFZbEUyX2FhWGPSAWBBVV95cUxOY2dkTFVrUmxTZ01VSm9YZmQzR3ZTeVRmN1lWakhWT1g2eF91RExTZGo5OC1GUGxBWGpyaDlMMjFJSzc4OW1RVlRlMVcyTTBGN1U4RnJrWVdxalZtNkRXZ1g?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
       "id": "c15dff06cc4c",
       "sector": "semiconductor",
       "region": "domestic",
@@ -142,6 +122,41 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": ""
+    },
+    {
+      "id": "def35cf160a7",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "어보브반도체, 아이센스와 저전력 헬스케어 MCU 개발",
+      "source": "디일렉",
+      "published": "2026-08-13 03:34",
+      "collected": "2026-08-13",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=60866",
+      "rss_description": "어보브반도체가 바이오센서 업체 아이센스(i-SENS)와 혈당측정기(BGM)용 마이크로컨트롤러(MCU) 공동 개발을 완료했다고 12일 밝혔다. 의료 산업에 진출한 것은 처음이다.어보브반도체는 BGM용 혼성 신호 MCU 'A34L716'을 출시하고 헬스케어 반도체 시장을 공략한다.A34L716은 센서가 읽어낸 미세한 혈당 신호를 수치로 변환하거나, 측정 기록을 저장하는 MCU다. BGM은 저전력으로 혈액 속 미세한 전기 신호를 정확한 수치로 변환하는 기술이 요구된다.대기전류는 1.79μA다. 어보브반도체는 \"1.79μA은 초저전력 성능",
+      "score": 14,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "어보브반도체가 바이오센서 업체 아이센스와 협력하여 혈당측정기용 마이크로컨트롤러(MCU)인 'A34L716' 개발을 완료했다. 이번 제품 출시를 통해 어보브반도체는 의료 산업에 처음으로 진출하게 되었다. 양사는 현재 혈당측정기에 해당 MCU를 적용하는 방안을 검토 중이다.",
+      "key_points": [
+        "어보브반도체와 아이센스가 혈당측정기용 혼성 신호 MCU 'A34L716'을 공동 개발했다.",
+        "A34L716은 저전력 성능(대기전류 1.79μA)을 갖춰 배터리 기반 기기에 적합하다.",
+        "해당 MCU는 혈당 신호 변환 및 기록 저장 기능을 제공하며, USB 2.0 인터페이스를 지원한다.",
+        "어보브반도체는 이번 개발을 통해 의료 및 헬스케어 시장 공략을 본격화한다."
+      ],
+      "numbers": [
+        "1.79μA",
+        "32KB"
+      ],
+      "keywords": [
+        "어보브반도체",
+        "아이센스",
+        "MCU",
+        "헬스케어",
+        "혈당측정기"
+      ],
+      "stated_outlook": "의료와 헬스케어 시장 기반을 다지고, A34L716을 저전력 MCU 시장을 선도하는 제품으로 육성할 계획이다."
     },
     {
       "id": "19246f18f55e",
