@@ -354,6 +354,24 @@ def useful_candidate(item):
         term in text for term in SEMICON_LOW_VALUE_TERMS
     ):
         return False
+    if item.get("sector") == "semiconductor":
+        # "반도체/MCU 개발·출시"라는 이유만으로 하루 핵심뉴스가 되지는
+        # 않는다. 개별 제품 발표는 공정 변화나 실제 양산·공급, 시장 판도에
+        # 미치는 근거가 제목에 드러날 때만 후보로 인정한다.
+        product_announcement_terms = (
+            "개발", "공동 개발", "출시", "공개", "선보", "신제품",
+            "prototype", "unveil", "launch",
+        )
+        core_impact_terms = SEMICON_CORE_TECH_TERMS + (
+            "양산", "수주", "공급", "채택", "적용", "투자", "증설", "공장",
+            "생산능력", "가동률", "점유율", "세계 최초", "업계 최초",
+            "mass production", "contract", "supply", "fab", "capacity",
+        )
+        if (
+            any(term in title_text for term in product_announcement_terms)
+            and not any(term in title_text for term in core_impact_terms)
+        ):
+            return False
     if any(term in text for term in (
         "목표가", "투자의견", "증권", "컨센서스", "주식", "etf",
         "관련주", "수혜주", "테마주", "급등주", "52주", "상한가", "하한가",
