@@ -358,7 +358,9 @@ def useful_candidate(item):
         "목표가", "투자의견", "증권", "컨센서스", "주식", "etf",
         "관련주", "수혜주", "테마주", "급등주", "52주", "상한가", "하한가",
         "코스피", "코스닥", "외국인 순매수", "기관 순매수",
-        "채용", "성과급", "대학", "한양대", "성균관대", "kaist", "포스텍",
+        "채용", "채용공고", "구인", "취업", "입사", "인재 모집", "인력 수요",
+        "일자리", "고용 증가", "고용 감소", "성과급", "대학", "한양대",
+        "성균관대", "kaist", "포스텍",
         "연구팀", "연구진", "원리 규명", "원인 규명",
     )):
         return False
@@ -676,15 +678,55 @@ def same_story(left, right):
     overlap = len(left_tokens & right_tokens) / max(1, len(left_tokens | right_tokens))
     if overlap >= 0.35:
         return True
-    markers = (
-        "삼성전자", "sk하이닉스", "tsmc", "마이크론", "엘앤에프",
-        "lg에너지솔루션", "삼성sdi", "sk온", "에코프로", "포스코퓨처엠",
-        "catl", "hbm", "d램", "낸드", "파운드리", "lfp", "ess",
-        "양극재", "음극재", "전고체", "출하", "수주", "증설", "양산",
-    )
-    left_markers = {word for word in markers if word in left_text}
-    right_markers = {word for word in markers if word in right_text}
-    return len(left_markers & right_markers) >= 3
+    # 서로 다른 매체는 같은 기업·사건을 전혀 다른 문장으로 제목화한다.
+    # 단순 토큰 유사도만으로는 "삼성SDI-GM 합작 청산/지분 인수"처럼 표현이
+    # 달라진 동일 보도를 잡지 못하므로, 기업·지역·핵심 대상을 정규화한다.
+    marker_aliases = {
+        "삼성전자": ("삼성전자",),
+        "sk하이닉스": ("sk하이닉스", "하이닉스", "하닉"),
+        "tsmc": ("tsmc",),
+        "마이크론": ("마이크론",),
+        "lg에너지솔루션": ("lg에너지솔루션", "lg엔솔"),
+        "삼성sdi": ("삼성sdi",),
+        "sk온": ("sk온",),
+        "gm": (" gm", "gm ", "gm과", "gm·", "gm,", "제너럴모터스"),
+        "catl": ("catl",),
+        "엘앤에프": ("엘앤에프",),
+        "에코프로": ("에코프로",),
+        "포스코퓨처엠": ("포스코퓨처엠",),
+        "인디애나": ("인디애나",),
+        "합작공장": ("합작공장", "합작 공장",),
+        "hbm": ("hbm",),
+        "d램": ("d램", "dram"),
+        "낸드": ("낸드", "nand"),
+        "파운드리": ("파운드리",),
+        "lfp": ("lfp",),
+        "ess": ("ess",),
+        "양극재": ("양극재",),
+        "음극재": ("음극재",),
+        "전고체": ("전고체",),
+    }
+
+    def story_markers(text):
+        return {
+            canonical for canonical, aliases in marker_aliases.items()
+            if any(alias in text for alias in aliases)
+        }
+
+    shared_markers = story_markers(left_text) & story_markers(right_text)
+    # 같은 두 기업, 또는 기업+공장/지역/기술 대상이 겹치면 같은 사건으로
+    # 판단한다. 한 기업만 같을 때는 별개 기사를 지우지 않는다.
+    return len(shared_markers) >= 2
+
+
+def deduplicate_stories(items):
+    """Keep the first (already priority-sorted) item for each reported event."""
+    kept = []
+    for item in items:
+        if any(same_story(item, existing) for existing in kept):
+            continue
+        kept.append(item)
+    return kept
 
 
 def make_link_only_fallback(candidate):
@@ -1557,13 +1599,13 @@ def main():
         # 같은 24시간 묶음 안의 재실행은 기존 기사를 고정하고 빈자리만
         # 보충한다. 이전에는 기존 묶음을 중복 기사로 제외한 뒤 새로 뽑아
         # 재실행 직후 5건이 0~2건으로 줄어들 수 있었다.
-        preserved = [
+        preserved = deduplicate_stories([
             item for item in old_current
             if cycle_open
             and item.get("sector") == sector
             and (item.get("verified_source") is True or item.get("summary_status") == "link_only")
             and useful_candidate(item)
-        ][:TARGETS[sector]]
+        ])[:TARGETS[sector]]
         selected, fresh = select_sector(
             sector_rows, sector, all_existing + new_items, api_key,
             avoid_recent=sector_avoid, current=preserved,

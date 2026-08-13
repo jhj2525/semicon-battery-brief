@@ -198,6 +198,149 @@
       "stated_outlook": "인디애나 공장을 단독 운영 체제로 전환한 뒤 ESS와 전기차용 배터리 등 다양한 제품의 생산 거점으로 활용할 계획이며, ESS용 배터리를 먼저 생산할 가능성이 있음."
     },
     {
+      "id": "b3156ade7aa8",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "LG화학, 현대차·LG엔솔 합작사 양극재 공급사로 '낙점'",
+      "source": "디일렉",
+      "published": "2026-08-11 02:39",
+      "collected": "2026-08-11",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=60737",
+      "rss_description": "LG화학이 미국 현대차그룹-LG에너지솔루션 합작 배터리 공장(HL-GA) 양극재 공급사로 선정됐다. 배터리 셀 원가의 40% 가량을 차지하는 핵심 소재를 맡으면서 석유화학에서 첨단소재 중심의 체질 전환에도 속도가 붙을 전망이다.10일 업계에 따르면 HL-GA는 지난달 전기차 배터리용 양극재 공급사로 LG화학을 선정한 것으로 파악됐다. 해당 양극재는 현대자동차그룹 메타플랜트 아메리카(HMGMA)에서 생산할 2029년형 전기차 모델에 적용된다.양극재는 금속 원료를 조합해 만든 배터리 핵심 소재로 용량과 성능을 좌우한다. LG화학이 HL",
+      "score": 59,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "LG화학이 미국 현대자동차그룹과 LG에너지솔루션의 배터리 합작 공장(HL-GA)의 양극재 공급사로 선정되었다. 공급되는 양극재는 니켈·코발트·망간(NCM) 기반의 하이니켈과 미드니켈 제품 2종이다. 해당 양극재는 현대자동차그룹 메타플랜트 아메리카에서 생산할 2029년형 전기차 모델에 탑재될 예정이다. 이번 선정으로 LG화학은 석유화학에서 첨단소재 중심으로의 체질 전환에 속도를 낼 것으로 보인다.",
+      "key_points": [
+        "LG화학이 현대차·LG에너지솔루션의 미국 합작 배터리 공장(HL-GA) 양극재 공급사로 낙점됨",
+        "공급 제품은 니켈·코발트·망간(NCM) 삼원계 하이니켈과 미드니켈이며, 하이니켈이 우선 양산 적용될 예정",
+        "입찰 과정에서 중국산 원료를 배제한 공급망 제시가 중요하게 작용함",
+        "LG화학은 고려아연 자회사 켐코와의 합작법인 한국전구체주식회사(KPC)와 에코앤드림에서 전구체를 조달함"
+      ],
+      "numbers": [
+        "2029년형",
+        "40%",
+        "80%",
+        "60%",
+        "70%",
+        "2023년"
+      ],
+      "keywords": [
+        "LG화학",
+        "양극재",
+        "현대차",
+        "LG에너지솔루션",
+        "배터리",
+        "비중국산"
+      ],
+      "stated_outlook": "현대차그룹은 배터리 공급망에서 중국산 소재 배제 요구를 강화하고 있으며, LG화학은 이번 공급사 선정을 통해 석유화학에서 첨단소재 중심으로의 체질 전환에 속도를 낼 전망이다."
+    },
+    {
+      "id": "095ebcb731d2",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "CATL, '에어택시' 배터리 테스트 통과…\"양산 준비 완료\"",
+      "source": "ZDNet Korea",
+      "source_type": "산업 전문언론",
+      "official_source": false,
+      "published": "2026-08-11 00:00",
+      "collected": "2026-08-11",
+      "link": "https://zdnet.co.kr/view/?no=20260811094410",
+      "rss_description": "uot; CATL, '에어택시' 배터리 테스트 통과…\"양산 준비 완료\" 김윤희 기자 \"아이폰18 프로 맥스, 배터리 용량 전작보다 12% 증가\"",
+      "score": 36,
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "중국의 배터리 기업 CATL이 에어택시용으로 개발한 전기수직이착륙기(eVOTL) 배터리의 안전성 테스트를 완료하고 양산 준비를 마쳤다. 해당 배터리는 열 폭주 상황에서도 열 전이가 발생하지 않는 성능을 입증했으며, 중국 민용항공국(CAAC)의 기준을 충족하는 기반을 마련했다. CATL은 이 배터리를 오토플라이트의 eVOTL에 우선 공급할 예정이다.",
+      "key_points": [
+        "CATL이 eVOTL용 배터리의 안전성 테스트를 통과하고 양산 준비를 완료했다.",
+        "테스트한 배터리는 에너지 밀도가 kg당 350Wh인 각형 제품으로, 열 폭주 시에도 열 전이가 발생하지 않음을 확인했다.",
+        "중국 민용항공국(CAAC)이 배터리 관련 생산 및 검사 과정을 참관하여 민간 항공 안전 기준 충족 기반을 마련했다.",
+        "해당 배터리는 CATL이 투자한 기업인 오토플라이트의 eVOTL에 우선 탑재될 예정이다."
+      ],
+      "numbers": [
+        "2026/08/11",
+        "8월 9일",
+        "350Wh",
+        "2024년",
+        "2000대"
+      ],
+      "keywords": [
+        "CATL",
+        "eVOTL",
+        "에어택시",
+        "배터리",
+        "오토플라이트"
+      ],
+      "stated_outlook": "해당 배터리는 오토플라이트의 eVOTL에 우선 탑재될 예정이다."
+    },
+    {
+      "id": "25ba395065f7",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "2026년 1~6월 글로벌 전기차용 배터리 양극재 적재량 1,374K ton, 전년 대비 21.6% 성장",
+      "source": "SNE리서치",
+      "source_type": "시장조사기관",
+      "official_source": true,
+      "published": "2026-08-11 00:00",
+      "collected": "2026-08-11",
+      "link": "https://www.sneresearch.com/kr/insight/release_view/714/page/0",
+      "rss_description": "Reset Battery, Battery Materials NEW 2026년 1~6월 글로벌 전기차용 배터리 양극재 적재량 1,374K ton, 전년 대비 21.6% 성장 2026.08.11 Battery, EV NEW 2026년 1~6월 중국 제외 글로벌 전기차 인도량 459만8천 대… 전년 대비 30.3% 증가 2026.08.10",
+      "score": 30,
+      "source_rank": 4,
+      "verified_source": true,
+      "overview": "2026년 상반기 글로벌 전기차용 배터리 양극재 적재량은 전년 동기 대비 21.6% 증가한 1,374K톤을 기록했다. 중국을 제외한 시장은 32.2% 성장하며 전체 시장 대비 높은 성장세를 보였다. 소재별로는 LFP 양극재 비중이 63.6%로 확대되었으며, 삼원계(NCx) 양극재는 프리미엄 전기차 수요를 바탕으로 10.1% 성장했다. 공급사별로는 기존 고객 물량과 신규 공급망 진입 시점에 따라 실적이 엇갈리는 모습을 보였다.",
+      "key_points": [
+        "2026년 1~6월 글로벌 전기차용 양극재 적재량은 전년 대비 21.6% 증가한 1,374K톤임.",
+        "중국을 제외한 시장의 양극재 적재량은 544K톤으로 전년 동기 대비 32.2% 확대됨.",
+        "LFP 양극재 적재량은 874K톤으로 29.4% 증가하며 전체 양극재 시장 내 비중이 63.6%로 상승함.",
+        "삼원계(NCx) 양극재 적재량은 500K톤으로 10.1% 증가함.",
+        "업체별로 L&F는 적재량이 53.8% 늘어난 반면, EcoPro와 POSCO는 전년 동기 대비 감소함."
+      ],
+      "numbers": [
+        "2026년 1~6월",
+        "1,374K톤",
+        "21.6%",
+        "544K톤",
+        "32.2%",
+        "1,129K톤"
+      ],
+      "keywords": [
+        "전기차 배터리",
+        "양극재",
+        "LFP",
+        "삼원계",
+        "SNE리서치"
+      ],
+      "stated_outlook": "LFP 및 고성능 삼원계 기술, 현지 조달, 원가·품질 관리 역량에 따른 업체별 격차가 더욱 커질 전망이다."
+    },
+    {
+      "id": "751ca551259a",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "구호 넘어 실체화되는 삼성SDI 전고체…2027년 양산 판도 읽기",
+      "source": "디지털데일리",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-10 15:40",
+      "collected": "2026-08-11",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Mc296bVpmaHVZYzV4QlBTVnVaRzdQV3ZvdktMRzJXX0wyQmMxa3JpQWxHQi1WU05yd2l0MlpIWDJxbDYyQlA5VlJqQWV4cTZTV1FtM191UkpWcTlKMXBPSnFSaTY?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 5
+    }
+  ],
+  "archive_items": [
+    {
       "id": "3447644741a6",
       "sector": "battery",
       "region": "domestic",
@@ -276,9 +419,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": ""
-    }
-  ],
-  "archive_items": [
+    },
     {
       "id": "cb242770a952",
       "sector": "semiconductor",
@@ -339,46 +480,6 @@
       "source_rank": 2
     },
     {
-      "id": "b3156ade7aa8",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "LG화학, 현대차·LG엔솔 합작사 양극재 공급사로 '낙점'",
-      "source": "디일렉",
-      "published": "2026-08-11 02:39",
-      "collected": "2026-08-11",
-      "link": "https://www.thelec.kr/news/articleView.html?idxno=60737",
-      "rss_description": "LG화학이 미국 현대차그룹-LG에너지솔루션 합작 배터리 공장(HL-GA) 양극재 공급사로 선정됐다. 배터리 셀 원가의 40% 가량을 차지하는 핵심 소재를 맡으면서 석유화학에서 첨단소재 중심의 체질 전환에도 속도가 붙을 전망이다.10일 업계에 따르면 HL-GA는 지난달 전기차 배터리용 양극재 공급사로 LG화학을 선정한 것으로 파악됐다. 해당 양극재는 현대자동차그룹 메타플랜트 아메리카(HMGMA)에서 생산할 2029년형 전기차 모델에 적용된다.양극재는 금속 원료를 조합해 만든 배터리 핵심 소재로 용량과 성능을 좌우한다. LG화학이 HL",
-      "score": 59,
-      "source_type": "산업 전문언론",
-      "source_rank": 5,
-      "verified_source": true,
-      "overview": "LG화학이 미국 현대자동차그룹과 LG에너지솔루션의 배터리 합작 공장(HL-GA)의 양극재 공급사로 선정되었다. 공급되는 양극재는 니켈·코발트·망간(NCM) 기반의 하이니켈과 미드니켈 제품 2종이다. 해당 양극재는 현대자동차그룹 메타플랜트 아메리카에서 생산할 2029년형 전기차 모델에 탑재될 예정이다. 이번 선정으로 LG화학은 석유화학에서 첨단소재 중심으로의 체질 전환에 속도를 낼 것으로 보인다.",
-      "key_points": [
-        "LG화학이 현대차·LG에너지솔루션의 미국 합작 배터리 공장(HL-GA) 양극재 공급사로 낙점됨",
-        "공급 제품은 니켈·코발트·망간(NCM) 삼원계 하이니켈과 미드니켈이며, 하이니켈이 우선 양산 적용될 예정",
-        "입찰 과정에서 중국산 원료를 배제한 공급망 제시가 중요하게 작용함",
-        "LG화학은 고려아연 자회사 켐코와의 합작법인 한국전구체주식회사(KPC)와 에코앤드림에서 전구체를 조달함"
-      ],
-      "numbers": [
-        "2029년형",
-        "40%",
-        "80%",
-        "60%",
-        "70%",
-        "2023년"
-      ],
-      "keywords": [
-        "LG화학",
-        "양극재",
-        "현대차",
-        "LG에너지솔루션",
-        "배터리",
-        "비중국산"
-      ],
-      "stated_outlook": "현대차그룹은 배터리 공급망에서 중국산 소재 배제 요구를 강화하고 있으며, LG화학은 이번 공급사 선정을 통해 석유화학에서 첨단소재 중심으로의 체질 전환에 속도를 낼 전망이다."
-    },
-    {
       "id": "ba6f300a9aca",
       "sector": "semiconductor",
       "region": "domestic",
@@ -413,45 +514,6 @@
         "양산 성능 평가"
       ],
       "stated_outlook": "평가가 성공적으로 완료되면 내년 1~2분기 내 정식 수주와 양산 공급 계약이 이뤄질 가능성이 크며, 이를 통해 글로벌 로직 반도체 시장 고객사를 확대할 계획이다."
-    },
-    {
-      "id": "095ebcb731d2",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "CATL, '에어택시' 배터리 테스트 통과…\"양산 준비 완료\"",
-      "source": "ZDNet Korea",
-      "source_type": "산업 전문언론",
-      "official_source": false,
-      "published": "2026-08-11 00:00",
-      "collected": "2026-08-11",
-      "link": "https://zdnet.co.kr/view/?no=20260811094410",
-      "rss_description": "uot; CATL, '에어택시' 배터리 테스트 통과…\"양산 준비 완료\" 김윤희 기자 \"아이폰18 프로 맥스, 배터리 용량 전작보다 12% 증가\"",
-      "score": 36,
-      "source_rank": 5,
-      "verified_source": true,
-      "overview": "중국의 배터리 기업 CATL이 에어택시용으로 개발한 전기수직이착륙기(eVOTL) 배터리의 안전성 테스트를 완료하고 양산 준비를 마쳤다. 해당 배터리는 열 폭주 상황에서도 열 전이가 발생하지 않는 성능을 입증했으며, 중국 민용항공국(CAAC)의 기준을 충족하는 기반을 마련했다. CATL은 이 배터리를 오토플라이트의 eVOTL에 우선 공급할 예정이다.",
-      "key_points": [
-        "CATL이 eVOTL용 배터리의 안전성 테스트를 통과하고 양산 준비를 완료했다.",
-        "테스트한 배터리는 에너지 밀도가 kg당 350Wh인 각형 제품으로, 열 폭주 시에도 열 전이가 발생하지 않음을 확인했다.",
-        "중국 민용항공국(CAAC)이 배터리 관련 생산 및 검사 과정을 참관하여 민간 항공 안전 기준 충족 기반을 마련했다.",
-        "해당 배터리는 CATL이 투자한 기업인 오토플라이트의 eVOTL에 우선 탑재될 예정이다."
-      ],
-      "numbers": [
-        "2026/08/11",
-        "8월 9일",
-        "350Wh",
-        "2024년",
-        "2000대"
-      ],
-      "keywords": [
-        "CATL",
-        "eVOTL",
-        "에어택시",
-        "배터리",
-        "오토플라이트"
-      ],
-      "stated_outlook": "해당 배터리는 오토플라이트의 eVOTL에 우선 탑재될 예정이다."
     },
     {
       "id": "ec454cdb5456",
@@ -491,47 +553,6 @@
         "eSIM"
       ],
       "stated_outlook": "아이폰18 시리즈는 판매 지역에 따라 배터리 용량과 SIM 지원 방식이 달라질 가능성이 있다."
-    },
-    {
-      "id": "25ba395065f7",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "2026년 1~6월 글로벌 전기차용 배터리 양극재 적재량 1,374K ton, 전년 대비 21.6% 성장",
-      "source": "SNE리서치",
-      "source_type": "시장조사기관",
-      "official_source": true,
-      "published": "2026-08-11 00:00",
-      "collected": "2026-08-11",
-      "link": "https://www.sneresearch.com/kr/insight/release_view/714/page/0",
-      "rss_description": "Reset Battery, Battery Materials NEW 2026년 1~6월 글로벌 전기차용 배터리 양극재 적재량 1,374K ton, 전년 대비 21.6% 성장 2026.08.11 Battery, EV NEW 2026년 1~6월 중국 제외 글로벌 전기차 인도량 459만8천 대… 전년 대비 30.3% 증가 2026.08.10",
-      "score": 30,
-      "source_rank": 4,
-      "verified_source": true,
-      "overview": "2026년 상반기 글로벌 전기차용 배터리 양극재 적재량은 전년 동기 대비 21.6% 증가한 1,374K톤을 기록했다. 중국을 제외한 시장은 32.2% 성장하며 전체 시장 대비 높은 성장세를 보였다. 소재별로는 LFP 양극재 비중이 63.6%로 확대되었으며, 삼원계(NCx) 양극재는 프리미엄 전기차 수요를 바탕으로 10.1% 성장했다. 공급사별로는 기존 고객 물량과 신규 공급망 진입 시점에 따라 실적이 엇갈리는 모습을 보였다.",
-      "key_points": [
-        "2026년 1~6월 글로벌 전기차용 양극재 적재량은 전년 대비 21.6% 증가한 1,374K톤임.",
-        "중국을 제외한 시장의 양극재 적재량은 544K톤으로 전년 동기 대비 32.2% 확대됨.",
-        "LFP 양극재 적재량은 874K톤으로 29.4% 증가하며 전체 양극재 시장 내 비중이 63.6%로 상승함.",
-        "삼원계(NCx) 양극재 적재량은 500K톤으로 10.1% 증가함.",
-        "업체별로 L&F는 적재량이 53.8% 늘어난 반면, EcoPro와 POSCO는 전년 동기 대비 감소함."
-      ],
-      "numbers": [
-        "2026년 1~6월",
-        "1,374K톤",
-        "21.6%",
-        "544K톤",
-        "32.2%",
-        "1,129K톤"
-      ],
-      "keywords": [
-        "전기차 배터리",
-        "양극재",
-        "LFP",
-        "삼원계",
-        "SNE리서치"
-      ],
-      "stated_outlook": "LFP 및 고성능 삼원계 기술, 현지 조달, 원가·품질 관리 역량에 따른 업체별 격차가 더욱 커질 전망이다."
     },
     {
       "id": "213cd1776949",
@@ -612,27 +633,6 @@
       "summary_source": "pasted_text",
       "industry_context": "소니는 CMOS 이미지센서 분야에서 세계 시장 점유율 1위이나, 중국계 옴니비전과 삼성전자의 추격을 받고 있다. 소니는 첨단 반도체 파운드리 기업인 TSMC와의 협력을 통해 경쟁력을 강화하고 있다. 이미지센서는 향후 애플 아이폰을 시작으로 자율주행차, 산업용 로봇, 피지컬 AI 분야로 적용 범위가 확대될 전망이다.",
       "source_rank": 3
-    },
-    {
-      "id": "751ca551259a",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "구호 넘어 실체화되는 삼성SDI 전고체…2027년 양산 판도 읽기",
-      "source": "디지털데일리",
-      "source_type": "산업 전문언론",
-      "published": "2026-08-10 15:40",
-      "collected": "2026-08-11",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Mc296bVpmaHVZYzV4QlBTVnVaRzdQV3ZvdktMRzJXX0wyQmMxa3JpQWxHQi1WU05yd2l0MlpIWDJxbDYyQlA5VlJqQWV4cTZTV1FtM191UkpWcTlKMXBPSnFSaTY?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": "",
-      "source_rank": 5
     }
   ],
   "semi_items": [],
