@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-14 14:20 KST",
-  "last_automatic_update_at": "2026-08-14 14:20 KST",
-  "automatic_cycle_started_at": "2026-08-14 14:19 KST",
+  "updated_at": "2026-08-15 08:01 KST",
+  "last_automatic_update_at": "2026-08-15 08:01 KST",
+  "automatic_cycle_started_at": "2026-08-15 08:00 KST",
   "publication_window": {
-    "from": "2026-08-13 14:19 KST",
-    "to": "2026-08-14 14:19 KST"
+    "from": "2026-08-14 08:00 KST",
+    "to": "2026-08-15 08:00 KST"
   },
   "today_verified_count": 1,
   "current_items": [
@@ -206,6 +206,26 @@
         "투자 유치"
       ],
       "stated_outlook": "확보한 자금과 인프라 지원을 바탕으로 황화물계 고체 전해질 양산 인프라의 자동화 수준을 높이고, 고성능 소재 라인업을 다변화하여 글로벌 배터리 제조사들과의 사업 협력을 가속화할 방침이다."
+    },
+    {
+      "id": "4f55043efd3f",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "[단독] 車부품 접고 ESS 올인… 한중엔시에스, 삼성SDI와 美 공략",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-14 15:25",
+      "collected": "2026-08-15",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1LUWVKakZfRy1taVAyRExsbXh2TDBQZ2FyQ2xYbnNDTWF4WUk0RUMtMW96b3k1b0tKSV9UZTFTbURNWUdyZVpFT3lJdEpXbmRkanVJMHpxTzJJdw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
     }
   ],
   "archive_items": [
