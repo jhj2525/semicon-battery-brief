@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-17 08:52 KST",
-  "last_automatic_update_at": "2026-08-17 08:52 KST",
-  "automatic_cycle_started_at": "2026-08-17 08:52 KST",
+  "updated_at": "2026-08-17 22:42 KST",
+  "last_automatic_update_at": "2026-08-17 22:42 KST",
+  "automatic_cycle_started_at": "2026-08-17 22:39 KST",
   "publication_window": {
-    "from": "2026-08-16 08:52 KST",
-    "to": "2026-08-17 08:52 KST"
+    "from": "2026-08-16 22:39 KST",
+    "to": "2026-08-17 22:39 KST"
   },
-  "today_verified_count": 0,
+  "today_verified_count": 3,
   "current_items": [
     {
       "id": "0faa8c30df8a",
@@ -89,24 +89,38 @@
       "stated_outlook": ""
     },
     {
-      "id": "0f7dc980ef8b",
+      "id": "1468ed521ca9",
       "sector": "semiconductor",
-      "region": "domestic",
-      "category": "산업",
-      "title": "AI 수요 회복 기대감에… 반도체 추가상승 전망 [주간증시전망]",
-      "source": "IT조선",
-      "source_type": "산업 전문언론",
-      "published": "2026-08-17 06:30",
+      "region": "global",
+      "category": "기술·공정",
+      "title": "Precision Under Pressure: Rethinking Bond Reliability In High-Density Semiconductor Test",
+      "source": "Semiconductor Engineering",
+      "published": "2026-08-17 16:01",
       "collected": "2026-08-17",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5GUEdsY3k1XzA5MXczN3JBMmpzZjRrUzlNcDMwQ1l0WDlzc1NJZjNDcmhOSTdadGFieHQzOC1tSGd1d3pLNi1lUDBpWXFPSUZ3T2tBQUhoRW9QRWN2ZVIzOTlPbkNzWHppOFYyV1o0aWfSAXRBVV95cUxNOHI3ZFRmV3ZnR3p3bTQ2TkdpVEFaSXd2Z2dPOXlXdG5vMzZwTFMwdHNFVUd0eWN0ZVkyT1BnWE9tbEptSG9LeEI1Sm5kZzJaN2MwVDlVWHNQWXoxY05xOF82Ty00NTVnNlQwbmlabFdnVTJmdg?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "link": "https://semiengineering.com/precision-under-pressure-rethinking-bond-reliability-in-high-density-semiconductor-test/",
+      "rss_description": "Bond testing is emerging as a critical control point for long-term performance and yield. The post Precision Under Pressure: Rethinking Bond Reliability In High-Density Semiconductor Test appeared first on Semiconductor Engineering .",
+      "score": 12,
+      "source_type": "해외 산업 보도",
+      "source_rank": 1,
+      "verified_source": true,
+      "overview": "반도체 소자의 미세화와 패키징 복잡성이 증가함에 따라 상호 연결부(interconnect)의 신뢰성 확보가 중요해지고 있다. 본 기사는 기존의 기계적 검증 단계를 넘어 데이터 중심의 통찰력을 제공하는 본드 테스트(bond testing)의 역할을 설명한다. 자동화와 AI를 활용한 본드 테스트는 공정 변동성을 관리하고 제품 수명과 신뢰성을 보장하는 핵심 수단으로 진화하고 있다. 이를 통해 제조업체는 공정 매개변수를 개선하고 잠재적인 실패 요인을 조기에 식별할 수 있다.",
+      "key_points": [
+        "본드 테스트는 단순히 눈에 보이는 결함을 찾는 것을 넘어, 연결부의 강도와 신뢰성을 정량적으로 파악하는 중요한 품질 보증 단계로 진화했다.",
+        "소형화와 복잡한 패키징(FOWLP 등) 기술로 인해 상호 연결부의 크기가 수 미크론 단위로 줄어들면서 공정 중 변동성이 발생하기 쉬운 구조가 되었다.",
+        "자동화 및 소프트웨어 기반 본드 테스트 플랫폼은 수동 검사의 한계를 극복하고, 와이퍼 매핑이나 AI 기반의 고장 모드 분류 등을 통해 더 효율적인 공정 최적화를 지원한다."
+      ],
+      "numbers": [
+        "12µm",
+        "25µm"
+      ],
+      "keywords": [
+        "본드 테스트",
+        "반도체 패키징",
+        "상호 연결부",
+        "공정 신뢰성",
+        "자동화"
+      ],
+      "stated_outlook": "향후 파인 피치(fine-pitch) 본딩이 발전함에 따라 더 작은 범프와 구리 필러를 평가해야 하며, 본드 테스트 시스템은 3축 모두에서 뛰어난 정확도와 정밀한 저력 측정 능력을 갖추어야 한다. 또한, Industry 4.0의 흐름에 맞춰 원격 제어, 완전한 추적성, 지능형 샘플링을 결합한 플랫폼이 차세대 반도체 제조를 지원하는 핵심이 될 것이다."
     },
     {
       "id": "e9b51dc1eb62",
@@ -159,6 +173,46 @@
       "published": "2026-08-17 06:00",
       "collected": "2026-08-17",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82cmRNbGtvN01oeGd0dnMyUWpkWHk1d0s1NGNjRWkyWkQ4bUJBUUtfaWRubS01TjhhVXo2S2VFUGstdF9XYVVKekJOdk03bXlDQ29iXzk1LVVERW1IQ2pfSTctMUxtQnQwcVR2ZXBTOW3SAXRBVV95cUxObzFTdUx5VldQNE4wRUFYLWx6R3pfVXpKMy1lX2VydlVtV0VmUUxqcnllRlY4cFp0WGFsQVhvd3BHNzdxdnJOc3p4cWZPWm50R0tkdzhDZDJ5SS1IY2ZwY0hnRm5KNWhGUHhLRlU5NTkwak5UMg?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "62b944d98d7c",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "세계 전력 10%가 태양광…ESS 만나 '24시간 전원' 넘본다",
+      "source": "전자신문",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-17 10:44",
+      "collected": "2026-08-17",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA0Q1ZkeWlJaVVEWEZwaVJSYUR2RXl3MEVwbzZmZWxOVTB4elhxOWk0d1UtLWJBR3NSUklFdXl6a1hDRHV4dmUxSzVDOWhqQQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "102a4972dafb",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "반도체·배터리·조선 호조에…상장사 10곳 중 4곳 '깜짝 실적'",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-17 16:15",
+      "collected": "2026-08-17",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9UcHVnTWtSLTlSb2RVMzZPeXZvYTNUTFRhbkVWMnZWa0tmMXllUkU2ZkhMUndHdkhSUmU0S1BZTUoyaGFXMXdyMEFZWGdiN3plZUJhYmpQalVOQQ?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
