@@ -3043,5 +3043,49 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-18 15:20 KST"
+  "manual_updated_at": "2026-08-18 15:21 KST",
+  "favorite_items": [
+    {
+      "id": "1e24d9506785",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "SK하이닉스, ‘EUV 멀티’·‘하이NA 싱글’ 차세대 패터닝 전략 다각화",
+      "source": "sisajournal-e.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-10 22:59",
+      "collected": "2026-08-10",
+      "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=422980",
+      "requested_link": "https://www.sisajournal-e.com/news/articleView.html?idxno=422980",
+      "manual_added": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "SK하이닉스는 차세대 D램 생산을 위해 하이NA EUV 노광 장비를 도입하고 양산 평가를 진행 중이다. 회사는 공정 효율과 비용 최적화를 위해 새로운 하이NA 싱글 패터닝과 기존 EUV 및 ArF 이머전 멀티패터닝 전략을 상황에 맞춰 병행 적용할 계획이다. 또한 미세화 한계를 극복하기 위해 노광 기술과 본딩 기술을 조합한 차세대 패키징 전략을 강화하고 있다. 이는 차세대 메모리 제품의 성능 향상과 원가 경쟁력 확보를 위한 다각적 접근의 일환이다.",
+      "key_points": [
+        "SK하이닉스는 지난해 9월 업계 최초로 하이NA EUV(EXE:5200B) 장비를 도입해 이천 M16 공장에 설치했다.",
+        "하이NA EUV는 렌즈 개구율을 0.55NA로 높여 기존 EUV 대비 40% 향상된 집적도와 1.7배 정밀한 회로 구현이 가능하다.",
+        "원가 절감을 위해 공정 환경에 따라 기존의 EUV 및 ArF 이머전 멀티패터닝 방식을 유연하게 병행 활용한다.",
+        "미세 공정의 한계를 극복하기 위해 노광 기술과 연계된 차세대 본딩 기술 개발을 가속화하고 있다."
+      ],
+      "numbers": [
+        "2026.08.10",
+        "2028년",
+        "2029~2030년",
+        "13.5nm",
+        "0.55NA",
+        "0.33NA"
+      ],
+      "keywords": [
+        "SK하이닉스",
+        "하이NA EUV",
+        "멀티패터닝",
+        "노광 공정",
+        "본딩 기술"
+      ],
+      "stated_outlook": "SK하이닉스는 2028년 일부 공정에 하이NA EUV 장비를 도입하고, 2029~2030년부터 본격적인 양산에 돌입할 전망이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "D램 공정의 미세화가 10나노급 6세대(1c) 이후 심화되면서, 회로를 여러 번 겹쳐 그리는 멀티패터닝 방식은 공정 단계 추가로 인한 생산 원가와 재료비 상승 문제를 안고 있다.",
+      "favorited_at": "2026-08-18 15:21 KST"
+    }
+  ]
 }
