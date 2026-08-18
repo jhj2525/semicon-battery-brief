@@ -1,5 +1,31 @@
 {
   "schema_version": 1,
-  "updated_at": "",
-  "terms": []
+  "updated_at": "2026-08-18T11:20:30.245Z",
+  "terms": [
+    {
+      "id": "9c4879c6-1478-49cd-b386-8ee3faf4584c",
+      "title": "GPU",
+      "english": "Graphics Processing Unit",
+      "industry": "semiconductor",
+      "category": "Hardware",
+      "definition": "그래픽 처리 장치",
+      "principle": "멀티 프로세서 아키텍처를 기반으로 하며, 병렬 처리를 통해 고속의 그래픽 처리를 수행",
+      "industry_meaning": "컴퓨터 그래픽, 게임, AI 등 고성능 그래픽 처리를 위한 반도체 칩",
+      "article_meaning": "기사 문맥이 제공되지 않아 일반적인 의미로 설명했습니다.",
+      "related": [
+        "CPU",
+        "GPU 클라우드",
+        "Deep Learning"
+      ],
+      "article_title": "",
+      "article_url": "",
+      "structure": "멀티 코어 아키텍처, GPU 메모리, GPU 클록",
+      "process": "3D 그래픽 렌더링, 게임 프레임워크, AI 모델 학습",
+      "defect": "오버클록, 오버헤드, 메모리 부족",
+      "job": "GPU 소프트웨어 개발자, GPU 하드웨어 엔지니어, GPU 시스템 엔지니어",
+      "source": "Process Brief AI 용어 노트",
+      "created_at": "2026-08-18T11:20:30.245Z",
+      "updated_at": "2026-08-18T11:20:30.245Z"
+    }
+  ]
 }
