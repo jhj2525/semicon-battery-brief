@@ -30,6 +30,7 @@ const favoriteEmpty = document.querySelector("#favoriteEmpty");
 const favoriteSearch = document.querySelector("#favoriteSearch");
 const favoriteSector = document.querySelector("#favoriteSector");
 const favoriteDate = document.querySelector("#favoriteDate");
+const termPanel = document.querySelector("#termPanel");
 const deleteSelectedAuto = document.querySelector("#deleteSelectedAuto");
 const deleteSelectedManual = document.querySelector("#deleteSelectedManual");
 const deleteSelectedCurrent = document.querySelector("#deleteSelectedCurrent");
@@ -377,6 +378,10 @@ function buildRow(item, { deletable = false, editable = false } = {}) {
   } else {
     favoriteButton.hidden = true;
   }
+  const termSearchButton = fragment.querySelector(".term-search-item");
+  termSearchButton.addEventListener("click", () => {
+    if (typeof window.openTermSearchForArticle === "function") window.openTermSearchForArticle(item);
+  });
 
   button.addEventListener("click", () => {
     const opening = detail.hidden;
@@ -401,7 +406,7 @@ function activeItems() {
 }
 
 function render() {
-  if (["manual_add", "manual_archive", "semi_market", "favorites"].includes(view)) return;
+  if (["manual_add", "manual_archive", "semi_market", "favorites", "term_note"].includes(view)) return;
   const query = searchInput.value.trim().toLowerCase();
   const region = regionFilter.value;
   const category = categoryFilter.value;
@@ -474,13 +479,15 @@ tabs.forEach(tab => tab.addEventListener("click", () => {
   const manualArchiveMode = view === "manual_archive";
   const semiMode = view === "semi_market";
   const favoriteMode = view === "favorites";
+  const termMode = view === "term_note";
   manualPanel.hidden = !manualMode;
   manualArchivePanel.hidden = !manualArchiveMode;
   semiPanel.hidden = !semiMode;
   favoritePanel.hidden = !favoriteMode;
-  database.hidden = manualMode || manualArchiveMode || semiMode || favoriteMode;
-  controls.hidden = manualMode || manualArchiveMode || semiMode || favoriteMode;
-  viewNote.hidden = manualMode || manualArchiveMode || semiMode || favoriteMode;
+  termPanel.hidden = !termMode;
+  database.hidden = manualMode || manualArchiveMode || semiMode || favoriteMode || termMode;
+  controls.hidden = manualMode || manualArchiveMode || semiMode || favoriteMode || termMode;
+  viewNote.hidden = manualMode || manualArchiveMode || semiMode || favoriteMode || termMode;
   archiveControls.hidden = view !== "auto_archive";
   deleteSelectedCurrent.hidden = view === "auto_archive";
   viewNote.textContent = view === "auto_archive"
@@ -489,6 +496,7 @@ tabs.forEach(tab => tab.addEventListener("click", () => {
   if (semiMode) renderSemiManual();
   if (manualArchiveMode) renderManualArchive();
   if (favoriteMode) renderFavorites();
+  if (termMode && typeof window.renderTermNotes === "function") window.renderTermNotes();
   render();
 }));
 
