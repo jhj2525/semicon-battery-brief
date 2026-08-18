@@ -1553,13 +1553,33 @@
       "link": "https://news.skhynix.com/en/fms-2026",
       "requested_link": "https://news.skhynix.com/en/fms-2026",
       "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "SK하이닉스는 미국 캘리포니아에서 개최된 'FMS 2026'에 참가하여 AI 시대를 주도할 '풀스택 AI 메모리 프로바이더'로서의 비전과 제품군을 공개했다. 이번 전시에서 회사는 단일 메모리 제품의 성능을 넘어, HBM부터 NAND, CXL 기반 메모리에 이르는 계층형 메모리(Tiered Memory) 아키텍처의 중요성을 강조했다. 특히 AI 에이전트의 상용화로 급증하는 데이터 처리 요구를 해결하기 위해 메모리 계층 간 최적화된 연결 전략을 핵심 솔루션으로 제시했다. 또한 HBF를 비롯한 차세대 기술을 통해 AI 인프라의 확장성과 효율성을 높이는 청사진을 공유했다. SK하이닉스는 고객사와의 협력을 통해 제품 설계 단계부터 최적의 메모리 솔루션을 제공하며 시장 경쟁력을 확보해 나갈 계획이다.",
+      "key_points": [
+        "SK하이닉스가 FMS 2026에서 HBM, CXL, eSSD 등을 아우르는 계층형 메모리 아키텍처 전략을 발표했다.",
+        "구글, 샌디스크 등과 함께 차세대 NAND 솔루션인 HBF의 개발 로드맵 및 기술적 가능성을 논의했다.",
+        "CXL 기반의 Pooled Memory와 CMM-Hybrid를 활용한 AI 에이전트 서빙 데모를 통해 시스템 성능 향상 효과를 입증했다.",
+        "375단 4D NAND 웨이퍼와 12단 48GB HBM4E 등 차세대 고성능 제품 포트폴리오를 대거 전시했다."
+      ],
+      "numbers": [
+        "2026년 8월 4일~6일",
+        "350명 이상의 AI 전문가",
+        "12건의 기술 세션",
+        "375단 4D NAND",
+        "48GB HBM4E/HBM4"
+      ],
+      "keywords": [
+        "SK하이닉스",
+        "FMS 2026",
+        "계층형 메모리",
+        "HBM",
+        "CXL",
+        "HBF"
+      ],
+      "stated_outlook": "SK하이닉스는 2026년 8월부터 주요 CSP 고객사에 고용량 eSSD 샘플 공급을 시작할 예정이며, 내년 상반기 중 고성능 eSSD 양산을 계획하고 있다.",
+      "summary_source": "pasted_text",
+      "industry_context": "AI 기술이 일상에 깊이 침투하면서 데이터 센터에 대한 수요가 급증하고 있으며, 대규모 추론 및 에이전트 AI로의 진화에 따라 단일 메모리 제품만으로는 처리 속도와 효율성을 충족하기 어려운 환경으로 변화하고 있다."
     },
     {
       "id": "c39ed65c57b0",
@@ -3023,5 +3043,5 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-18 15:19 KST"
+  "manual_updated_at": "2026-08-18 15:20 KST"
 }
