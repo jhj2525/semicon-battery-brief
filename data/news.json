@@ -3062,6 +3062,48 @@
   "manual_updated_at": "2026-08-18 15:35 KST",
   "favorite_items": [
     {
+      "id": "b4c179d494a6",
+      "sector": "battery",
+      "region": "global",
+      "category": "산업",
+      "title": "상반기 전기차 배터리 시장 20% 성장…韓 점유율 하락",
+      "source": "n.news.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-10 14:46",
+      "collected": "2026-08-10",
+      "link": "https://n.news.naver.com/article/092/0002433040",
+      "requested_link": "https://n.news.naver.com/article/092/0002433040",
+      "manual_added": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "올해 상반기 세계 전기차 배터리 사용량이 전년 동기 대비 20% 성장한 약 608.5GWh를 기록했다. 그러나 시장이 성장함에도 불구하고 한국 배터리 기업들의 점유율은 다소 하락하는 모습을 보였다. 반면 중국 업체들은 CATL과 BYD를 필두로 시장 점유율 상승세를 이어가며 시장 지배력을 강화하고 있다. 국내 기업들은 글로벌 완성차 업체에 배터리를 공급하며 사용량은 증가했으나, 전체 시장 성장률을 밑도는 성적을 거뒀다. 또한 일부 업체의 경우 북미와 유럽의 전기차 생산 계획 조정으로 인해 회복세가 제한되는 상황을 겪고 있다.",
+      "key_points": [
+        "상반기 세계 전기차 배터리 사용량은 608.5GWh로 전년 동기 대비 20% 성장함.",
+        "CATL은 점유율 39.9%로 세계 1위를 유지함.",
+        "LG에너지솔루션은 3위를 유지했으나 점유율은 9.6%에서 8.6%로 하락함.",
+        "SK온은 북미·유럽 시장의 전기차 생산 계획 조정 등으로 인해 사용량이 6.7% 감소함."
+      ],
+      "numbers": [
+        "608.5GWh",
+        "20%",
+        "39.9%",
+        "8.6%",
+        "19GWh"
+      ],
+      "keywords": [
+        "전기차 배터리",
+        "SNE리서치",
+        "CATL",
+        "LG에너지솔루션",
+        "SK온",
+        "점유율"
+      ],
+      "stated_outlook": "",
+      "summary_source": "pasted_text",
+      "industry_context": "올해 1월부터 6월까지 세계 각국에 등록된 전기차, 플러그인하이브리드차, 하이브리드차에 탑재된 배터리 시장 분석 결과임.",
+      "favorited_at": "2026-08-18 15:35 KST"
+    },
+    {
       "id": "6b85493418a9",
       "sector": "battery",
       "region": "global",
