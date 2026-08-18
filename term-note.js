@@ -111,6 +111,74 @@ async function deleteTerm(id, title, button) {
   }
 }
 
+function editTerm(term, card) {
+  card.open = true;
+  const body = card.querySelector(".term-card-body");
+  body.innerHTML = "";
+  const form = document.createElement("form");
+  form.className = "term-edit-form";
+  const fields = [
+    ["title", "용어명", "input"], ["english", "영문명", "input"],
+    ["definition", "한 줄 정의", "textarea"], ["principle", "작동 원리", "textarea"],
+    ["industry_meaning", "산업에서의 의미", "textarea"],
+    ["article_meaning", "기사에서의 의미", "textarea"],
+    ["related", "관련 용어(쉼표로 구분)", "input"]
+  ];
+  fields.forEach(([name, labelText, type]) => {
+    const label = document.createElement("label");
+    label.textContent = labelText;
+    const control = document.createElement(type);
+    control.name = name;
+    control.value = name === "related" ? (term.related || []).join(", ") : (term[name] || "");
+    if (type === "textarea") control.rows = name === "principle" ? 6 : 4;
+    label.appendChild(control);
+    form.appendChild(label);
+  });
+  const industryLabel = document.createElement("label");
+  industryLabel.textContent = "산업 분류";
+  const industry = document.createElement("select");
+  industry.name = "industry";
+  [["semiconductor", "반도체"], ["battery", "배터리"], ["common", "공통"]].forEach(([value, text]) => {
+    const option = document.createElement("option");
+    option.value = value; option.textContent = text; option.selected = term.industry === value;
+    industry.appendChild(option);
+  });
+  industryLabel.appendChild(industry);
+  form.insertBefore(industryLabel, form.children[2]);
+  const buttons = document.createElement("div");
+  buttons.className = "term-edit-actions";
+  const save = document.createElement("button");
+  save.type = "submit"; save.textContent = "수정 저장";
+  const cancel = document.createElement("button");
+  cancel.type = "button"; cancel.textContent = "취소";
+  cancel.addEventListener("click", window.renderTermNotes);
+  buttons.append(save, cancel); form.appendChild(buttons);
+  form.addEventListener("submit", async event => {
+    event.preventDefault();
+    save.disabled = true; save.textContent = "저장 중…";
+    const data = new FormData(form);
+    try {
+      const result = await authorizedPost({ action: "term_save", term: {
+        ...term,
+        title: String(data.get("title") || "").trim(),
+        english: String(data.get("english") || "").trim(),
+        industry: String(data.get("industry") || "common"),
+        definition: String(data.get("definition") || "").trim(),
+        principle: String(data.get("principle") || "").trim(),
+        industry_meaning: String(data.get("industry_meaning") || "").trim(),
+        article_meaning: String(data.get("article_meaning") || "").trim(),
+        related: String(data.get("related") || "").split(",").map(value => value.trim()).filter(Boolean),
+      }});
+      savedTerms = result.terms || savedTerms;
+      window.renderTermNotes();
+    } catch (error) {
+      alert(error.message || "용어 수정에 실패했습니다.");
+      save.disabled = false; save.textContent = "수정 저장";
+    }
+  });
+  body.appendChild(form);
+}
+
 window.renderTermNotes = () => {
   if (!termRows) return;
   const query = termNoteSearch.value.trim().toLowerCase();
@@ -123,9 +191,9 @@ window.renderTermNotes = () => {
   );
   termRows.innerHTML = "";
   visible.forEach(term => {
-    const card = document.createElement("article");
+    const card = document.createElement("details");
     card.className = "term-card";
-    const head = document.createElement("div");
+    const head = document.createElement("summary");
     head.className = "term-card-head";
     const titleWrap = document.createElement("div");
     const title = document.createElement("h3");
@@ -135,19 +203,33 @@ window.renderTermNotes = () => {
     titleWrap.append(title, meta);
     const actions = document.createElement("div");
     actions.className = "term-card-actions";
+    const edit = document.createElement("button");
+    edit.type = "button";
+    edit.className = "edit-term";
+    edit.textContent = "수정";
+    edit.addEventListener("click", event => {
+      event.preventDefault();
+      event.stopPropagation();
+      editTerm(term, card);
+    });
     const remove = document.createElement("button");
     remove.type = "button";
     remove.className = "delete-term";
     remove.textContent = "삭제";
-    remove.addEventListener("click", () => deleteTerm(term.id, term.title, remove));
-    actions.appendChild(remove);
+    remove.addEventListener("click", event => {
+      event.preventDefault();
+      event.stopPropagation();
+      deleteTerm(term.id, term.title, remove);
+    });
+    actions.append(edit, remove);
     head.append(titleWrap, actions);
+    const body = document.createElement("div");
+    body.className = "term-card-body";
+    const definitionHeading = document.createElement("h4");
+    definitionHeading.textContent = "한 줄 정의";
     const definition = document.createElement("p");
     definition.textContent = term.definition;
-    const details = document.createElement("details");
-    const summary = document.createElement("summary");
-    summary.textContent = "상세 설명·기사 문맥 보기";
-    const body = document.createElement("div");
+    body.append(definitionHeading, definition);
     [
       ["작동 원리", term.principle], ["산업에서의 의미", term.industry_meaning],
       ["기사에서의 의미", term.article_meaning], ["관련 용어", (term.related || []).join(" · ")]
@@ -156,8 +238,7 @@ window.renderTermNotes = () => {
       const paragraph = document.createElement("p"); paragraph.textContent = value || "-";
       body.append(heading, paragraph);
     });
-    details.append(summary, body);
-    card.append(head, definition, details);
+    card.append(head, body);
     termRows.appendChild(card);
   });
   termEmpty.hidden = visible.length !== 0;
