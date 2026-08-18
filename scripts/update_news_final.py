@@ -11,6 +11,7 @@ import os
 import re
 import hashlib
 import html
+import time
 from datetime import datetime, timedelta
 from urllib.parse import parse_qsl, quote_plus, urlencode, urljoin, urlparse, urlsplit, urlunsplit
 from urllib.request import Request
@@ -1352,6 +1353,59 @@ def with_edited_title(items, edit_id, edit_title):
     return result
 
 
+def apply_favorite(payload, article_id, favorite_state):
+    article_keys = (
+        "current_items", "archive_items", "manual_items", "semi_items",
+        "semi_archive_items", "market_items", "items",
+    )
+    favorites = [
+        dict(item) for item in payload.get("favorite_items", [])
+        if str(item.get("id", "")) != article_id
+    ]
+    if favorite_state:
+        target = next((
+            dict(item)
+            for key in article_keys
+            for item in payload.get(key, [])
+            if str(item.get("id", "")) == article_id
+        ), None)
+        if target is None:
+            raise ValueError(f"favorite article id not found: {article_id}")
+        target["favorited_at"] = datetime.now(base.KST).strftime("%Y-%m-%d %H:%M KST")
+        favorites.insert(0, target)
+    updated = dict(payload)
+    updated["favorite_items"] = favorites
+    updated["manual_updated_at"] = datetime.now(base.KST).strftime("%Y-%m-%d %H:%M KST")
+    return updated
+
+
+def fallback_pasted_summary(item, article_text):
+    """Store a conservative extract when Gemini is temporarily unavailable."""
+    cleaned = base.clean(article_text)
+    sentences = [
+        value.strip()
+        for value in re.split(r"(?<=[.!?。])\s+|\n+", cleaned)
+        if len(value.strip()) >= 20
+    ] or [cleaned[:500]]
+    summarized = dict(item)
+    summarized.update({
+        "verified_source": True,
+        "summary_status": "summarized",
+        "summary_source": "pasted_text_fallback",
+        "overview": " ".join(sentences[:6])[:1800],
+        "industry_context": "",
+        "key_points": sentences[:5],
+        "numbers": re.findall(
+            r"\d[\d,.]*\s*(?:%|조원|억원|만원|달러|년|월|일|개|곳|배|GWh|MWh)",
+            cleaned,
+        )[:6],
+        "keywords": [],
+        "stated_outlook": "",
+    })
+    summarized.pop("rss_description", None)
+    return summarized
+
+
 
 def summarize_pasted_article(item, article_text, api_key):
     """Summarize user-pasted body without storing the original article text."""
@@ -1393,24 +1447,39 @@ def summarize_pasted_article(item, article_text, api_key):
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"responseMimeType": "application/json"},
     }).encode("utf-8")
-    request = Request(
-        endpoint,
-        data=body,
-        headers={"Content-Type": "application/json"},
-        method="POST",
-    )
-    with base.urlopen(request, timeout=120) as response:
-        raw = json.loads(response.read().decode("utf-8"))
-    result = base.parse_model_json(
-        raw["candidates"][0]["content"]["parts"][0]["text"]
-    )
+    result = None
+    last_error = None
+    for attempt in range(3):
+        request = Request(
+            endpoint,
+            data=body,
+            headers={"Content-Type": "application/json"},
+            method="POST",
+        )
+        try:
+            with base.urlopen(request, timeout=120) as response:
+                raw = json.loads(response.read().decode("utf-8"))
+            result = base.parse_model_json(
+                raw["candidates"][0]["content"]["parts"][0]["text"]
+            )
+            if base.clean(result.get("overview", "")):
+                break
+            raise ValueError("pasted article summary had no overview")
+        except Exception as error:
+            last_error = error
+            result = None
+            if attempt < 2:
+                time.sleep(2 ** attempt)
+    if result is None:
+        print(f"pasted summary model failed after retries: {type(last_error).__name__}")
+        return fallback_pasted_summary(item, article_text)
     overview = base.clean(result.get("overview", ""))
     key_points = [
         base.clean(value) for value in result.get("key_points", [])
         if base.clean(value)
     ][:5]
-    if not overview or len(key_points) < 2:
-        raise ValueError("pasted article summary was incomplete")
+    if not overview or not key_points:
+        return fallback_pasted_summary(item, article_text)
     summarized = dict(item)
     summarized.update({
         "title": base.clean(result.get("title", "")) or item.get("title", ""),
@@ -1497,6 +1566,21 @@ def main():
             json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
         )
         print(f"pasted article summary saved: {pasted_article_id}")
+        return
+
+    favorite_id = os.getenv("FAVORITE_ARTICLE_ID", "").strip()
+    favorite_value = os.getenv("FAVORITE_STATE", "").strip().lower()
+    if favorite_id or favorite_value:
+        if not re.fullmatch(r"[a-f0-9]{12}", favorite_id, re.IGNORECASE):
+            raise ValueError("favorite article id is invalid")
+        if favorite_value not in {"true", "false"}:
+            raise ValueError("favorite state must be true or false")
+        payload = apply_favorite(old, favorite_id, favorite_value == "true")
+        base.OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+        base.OUTPUT.write_text(
+            json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        print(f"favorite saved: {favorite_id} -> {favorite_value}")
         return
 
     delete_id = os.getenv("DELETE_ARTICLE_ID", "").strip()
