@@ -20,13 +20,33 @@
       "collected": "2026-08-17",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fX1hTQXVUQXg2QWNQRkxMbHo2bTNkV2JHbGhXOFBVQTRoZ1BoU2hVMXo5N2owLUl5Y3Z0M3JiOUZYYnVldXRvU0JLMXpCc1RvS0p5MlJlNmdGUQ?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "원자현미경 전문 기업 파크시스템스가 올해 2분기 매출 반등에 성공했다. 해당 분기 매출은 전년 동기 대비 증가한 530억 원을 기록했으나, R&D 비용과 본사 이전 등 일회성 비용으로 인해 영업이익은 42억 원으로 감소했다. 파크시스템스는 반도체 회로 선폭 미세화 추세에 따라 전 세계 10대 반도체 기업 중 8곳에 계측장비를 납품하며 성장세를 이어가고 있다. 또한 M&A를 통한 장비 라인업 확장 전략을 추진하며 시장 경쟁력을 강화하고 있다. 향후 인공지능 데이터센터 투자 확대에 따른 고성능 반도체 수요 증가가 실적 성장에 긍정적인 영향을 미칠 것으로 기대된다.",
+      "key_points": [
+        "파크시스템스의 2분기 매출은 530억 원으로 전년 동기 대비 반등함.",
+        "2분기 영업이익은 R&D 비용 및 본사 이전 등 일회성 비용 반영으로 42억 원을 기록함.",
+        "2분기 말 기준 수주 잔고는 1125억 원 수준임.",
+        "원자현미경 분야 글로벌 점유율 20.6%로 1위 유지 및 상위 10대 반도체 기업 중 8곳에 장비 납품 중.",
+        "아큐리온, 린시테크, 로키마운틴 등 M&A를 통해 계측장비 라인업을 확장함."
+      ],
+      "numbers": [
+        "2분기 매출 530억 원",
+        "2분기 영업이익 42억 원",
+        "수주 잔고 1125억 원",
+        "글로벌 점유율 20.6%",
+        "회로 선폭 10㎚ 이하"
+      ],
+      "keywords": [
+        "파크시스템스",
+        "반도체 계측장비",
+        "원자현미경",
+        "실적 반등",
+        "수주 잔고"
+      ],
+      "stated_outlook": "증권가는 올해 파크시스템스의 매출과 영업이익이 전년 대비 각각 21%, 38% 성장한 2501억 원, 581억 원을 달성할 것으로 전망함. 또한 AI 데이터센터 투자 확대에 따른 수혜로 매분기 매출 성장 흐름을 이어갈 것으로 기대됨.",
+      "summary_source": "pasted_text",
+      "industry_context": "반도체 회로 선폭이 10㎚ 이하로 미세화되면서 나노미터 단위 측정이 가능한 원자현미경 기반의 계측장비 수요가 지속적으로 증가하는 추세다."
     },
     {
       "id": "253387c15799",
@@ -2790,5 +2810,5 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-13 13:20 KST"
+  "manual_updated_at": "2026-08-18 10:08 KST"
 }
