@@ -333,13 +333,32 @@
       "collected": "2026-08-18",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5jMjZqTE5EZE5vTk9KbXVfM0JCOTFWbUNTSEtHZVhieEFEREpfY05BblpDRmNOLWNUYUNCYlBiZTZiWnhlNUxMZS1DeXZXd0xOUHREakZHYUFrdw?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "이차전지 조립장비 기업 엠플러스가 전기차 시장의 캐즘에도 불구하고 올해 상반기 17%대의 영업이익률을 달성하며 수익성을 유지했다. 이는 외형 확대보다 수익성을 중시한 선별 수주 전략이 주효했기 때문으로 분석된다. 회사는 기존 파우치형 전기차 장비 중심에서 각형 에너지저장장치(ESS) 및 방산용 배터리 장비로 포트폴리오를 다변화하고 있다. 또한, 자율이동로봇(AIMR)과 전고체 배터리 장비 등 피지컬AI를 신성장 동력으로 낙점했다. 엠플러스는 이러한 신사업 확장을 뒷받침하기 위해 400억 원 규모의 투자재원 확보를 추진 중이다.",
+      "key_points": [
+        "엠플러스 상반기 영업이익률 17.1% 기록",
+        "상반기 당기순이익 154억 원으로 전년 동기 대비 51.9% 증가",
+        "매출총이익률은 전년 동기 24.5%에서 28.2%로 상승",
+        "신사업 투자를 위해 연간 400억 원 규모의 투자재원 확보 추진"
+      ],
+      "numbers": [
+        "상반기 당기순이익 154억 원",
+        "영업이익률 17.1%",
+        "매출액 약 830억 원",
+        "매출총이익률 28.2%",
+        "투자재원 400억 원"
+      ],
+      "keywords": [
+        "엠플러스",
+        "이차전지",
+        "ESS",
+        "피지컬AI",
+        "EV캐즘"
+      ],
+      "stated_outlook": "각형 ESS 및 방산용 배터리 시장 대응력을 높이고, AIMR 등 피지컬AI 기반 신규 성장 기반을 강화할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "전기차 수요 둔화와 배터리 업체들의 투자 속도 조절이 이어지는 가운데, 이차전지 장비 업계는 매출 외형보다 수주 마진과 제품 믹스가 실적의 핵심 변수가 되고 있다."
     }
   ],
   "archive_items": [
