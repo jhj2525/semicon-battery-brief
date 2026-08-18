@@ -388,21 +388,37 @@
       "sector": "semiconductor",
       "region": "domestic",
       "category": "기술·공정",
-      "title": "삼성전자, `서울대 AI 거장·메타 출신` 영입… 반도체 공정에 AI 뇌 이식한다",
+      "title": "삼성전자, '서울대 AI 거장·메타 출신' 영입… 반도체 공정에 AI 뇌 이식한다",
       "source": "디지털데일리",
       "source_type": "산업 전문언론",
       "published": "2026-08-14 09:37",
       "collected": "2026-08-14",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAyRE4yVkVrWTZkWWwzaVZKNWFSV21UTUlSYUp4RWZ2cmVxRTVySVdQd2k2VDlqeHh0MzhQNHR5Njh1TXZ1Z0s3bVVwcFE2eW1kLXlRaS1Tdjhva1dnNU00Ym45TDQ?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": "",
-      "source_rank": 5
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "삼성전자가 반도체 부문의 인공지능 전환(AX)을 가속화하기 위해 글로벌 AI 전문가 2명을 영입했다. 이번에 영입된 한보형 펠로우와 한태린 상무는 삼성전자 DS부문 AX/PI센터에 배치될 예정이다. 이들은 반도체 설계, 공정, 제조 등 핵심 업무 전반에 AI를 적용하여 개발 효율성과 생산성을 높이는 역할을 맡는다. 삼성전자는 이번 인사를 통해 반도체 연구개발부터 생산 현장까지 AI 접목을 확대하고 'AI 네이티브' 체제로의 전환에 속도를 낼 계획이다. 향후에도 데이터 및 AI 분야의 핵심 인재를 지속적으로 확보하여 전사적 역량을 강화할 방침이다.",
+      "key_points": [
+        "삼성전자가 딥러닝 권위자 한보형 펠로우와 데이터 엔지니어링 전문가 한태린 상무를 영입했다.",
+        "한보형 펠로우는 반도체 연구개발(R&D)에 특화된 AI 모델 개발을 주도한다.",
+        "한태린 상무는 조직 내 데이터 파이프라인 정비 및 'AI Ready Data' 인프라 구축을 총괄한다.",
+        "이번 인사는 DS부문 AX/PI센터에 배치되어 반도체 핵심 업무 전반의 AI 전환을 목적으로 한다."
+      ],
+      "numbers": [
+        "2026-08-14"
+      ],
+      "keywords": [
+        "삼성전자",
+        "반도체",
+        "인공지능",
+        "AX",
+        "데이터 엔지니어링",
+        "AI 네이티브"
+      ],
+      "stated_outlook": "핵심 인재 확보를 통해 AI 역량을 제고하고 반도체 부문의 독보적인 기술 경쟁력을 지속적으로 확보해 나갈 계획이다.",
+      "source_rank": 5,
+      "summary_source": "pasted_text",
+      "industry_context": "반도체 업계 내 개발 효율성과 생산성 향상을 위해 AI 모델 개발과 인프라 구축이 중요한 과제로 부상하고 있다."
     },
     {
       "id": "27c1e1fc49ef",
@@ -2890,5 +2906,5 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-18 10:32 KST"
+  "manual_updated_at": "2026-08-18 10:45 KST"
 }
