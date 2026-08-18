@@ -55,6 +55,7 @@ main { width: min(1320px, calc(100% - 40px)); margin: auto; }
 .dot.manual { background: #d66c45; }
 .dot.manual-archive { background: #b78354; }
 .dot.favorite { background: #d5a62e; }
+.dot.term { background: #7557d8; }
 .view-note {
   margin: -2px 0 12px; color: var(--muted); font-size: 12px;
 }
@@ -127,11 +128,39 @@ dd { margin: 3px 0 0; font-size: 12px; }
 .news-row.link-only .row-detail aside { padding: 12px; }
 .news-row.link-only .row-detail dl { display: none; }
 .news-row.link-only .row-detail aside > p { margin-bottom: 0; }
-.delete-item, .edit-title, .favorite-item, .paste-summary {
+.delete-item, .edit-title, .favorite-item, .paste-summary, .term-search-item {
   width: 100%; margin-top: 8px; padding: 10px; border: 1px solid #e2b7ad;
   border-radius: 7px; background: #fff7f5; color: #9a3d2c; font-size: 12px;
   font-weight: 800; cursor: pointer;
 }
+
+.term-panel { display: grid; gap: 24px; }
+.term-search-card, .term-result, .term-review { background: #fff; border: 1px solid var(--line); border-radius: 18px; padding: 24px; }
+.term-search-form { display: grid; grid-template-columns: minmax(180px, .55fr) 1.45fr auto; gap: 14px; align-items: end; }
+.term-search-form label { display: grid; gap: 7px; font-weight: 700; }
+.term-search-form input, .term-search-form textarea, .term-controls input, .term-controls select { width: 100%; border: 1px solid var(--line); border-radius: 10px; padding: 11px 12px; background: #fff; color: var(--ink); }
+.term-search-form textarea { min-height: 74px; resize: vertical; }
+.term-search-form button, .term-result-head button, .term-library-head button, .term-controls button, .term-card button { border: 0; border-radius: 10px; padding: 11px 15px; font-weight: 800; cursor: pointer; }
+.term-search-form button, #saveTerm { background: #172746; color: #fff; }
+.term-search-form [role="status"] { grid-column: 1 / -1; margin: 0; color: var(--muted); }
+.term-result { display: grid; gap: 15px; }
+.term-result section { border-top: 1px solid var(--line); padding-top: 14px; }
+.term-result h3, .term-result p { margin: 0; }
+.term-result h3 { margin-bottom: 7px; }
+.term-result-head, .term-library-head { display: flex; justify-content: space-between; align-items: center; gap: 18px; }
+.term-result-head h2, .term-result-head p, .term-library-head h2 { margin: 3px 0 0; }
+.term-chips { display: flex; flex-wrap: wrap; gap: 7px; }
+.term-chips span { background: #eef2f8; border-radius: 999px; padding: 6px 10px; font-size: 13px; }
+.term-controls { display: grid; grid-template-columns: 1fr 220px auto; gap: 10px; }
+.term-rows { display: grid; gap: 12px; }
+.term-card { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
+.term-card-head { display: flex; justify-content: space-between; gap: 12px; }
+.term-card h3 { margin: 0 0 5px; }
+.term-card details { margin-top: 12px; }
+.term-card-actions { display: flex; gap: 8px; }
+.term-card .delete-term { color: #a22222; background: #fff0f0; }
+.term-review button { margin-top: 12px; }
+@media (max-width: 780px) { .term-search-form, .term-controls { grid-template-columns: 1fr; } .term-result-head, .term-library-head { align-items: flex-start; flex-direction: column; } }
 .edit-title { border-color: #cbd7e8; background: #f5f8fc; color: #365b8c; }
 .paste-summary { border-color: #b8d4c2; background: #f3faf5; color: #27633b; }
 .favorite-item { border-color: #e8d49a; background: #fffbec; color: #8a6811; }
