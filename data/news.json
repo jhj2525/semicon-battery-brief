@@ -119,13 +119,33 @@
       "collected": "2026-08-17",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1CZXhDS0haVFpKRms0Z0VvYzBNUzc1bHR1WHg3M2FNeDhMenhtb0FoNE1OTkdMTmJwakJ5LW9weEhMMGVRcGpEdmJDeDlnX3dDSFZoOXVuUVkySEwxaktia2NlanJOWHZvRHdKZzQ5dzlwakct0gF0QVVfeXFMTUJleENLSFpUWkpGazRnRW9jME1TNzVsdHVYeDczYU14OEx6eG1vQWg0TU5OR0xOYnBqQnktb3B4SEwwZVFwakR2YkN4OWdfd0NIVmg5dW5RWTJITDFqS2JrY2Vqck5Ydm9Ed0pnNDl3OXBqRy0?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "중국 반도체 기업 양쯔메모리(YMTC)가 2026년 2분기 낸드플래시 출하량 점유율 14%를 기록하며 처음으로 업계 3위에 올라섰다. 이는 전년 동기 대비 22%, 전 분기 대비 5% 증가한 수치로, 중국 내 OEM 공급 확대와 267단 3D 낸드 생산 증가가 성장을 견인했다. 반면 키옥시아는 낸드 가격 상승으로 인한 구매 지연 영향으로 출하량이 감소하며 4위로 밀려났다. 매출 기준으로는 여전히 YMTC가 5위에 머물러 있으나, 소비자용 위주에서 벗어나 eSSD 비중을 확대하려는 움직임을 보이고 있다. 중국 메모리 업체들의 영향력 확대가 이어지며 국내 메모리 기업들의 고부가 제품 경쟁력 확보가 더욱 중요해질 전망이다.",
+      "key_points": [
+        "YMTC가 2026년 2분기 낸드 출하량 점유율 14%를 기록하며 업계 3위 달성",
+        "삼성전자(25%)와 SK하이닉스(22%)가 각각 1, 2위를 차지",
+        "YMTC는 267단 3D 낸드 생산 확대와 중국 내 OEM 공급량 증가를 통해 출하량 증가",
+        "매출액 기준으로는 삼성전자, SK하이닉스, 마이크론, 키옥시아에 이어 여전히 5위"
+      ],
+      "numbers": [
+        "2026년 2분기",
+        "YMTC 출하량 점유율 14%",
+        "삼성전자 점유율 25%",
+        "SK하이닉스 점유율 22%",
+        "마이크론 점유율 13%",
+        "서버용 eSSD 출하량 비중 48%"
+      ],
+      "keywords": [
+        "YMTC",
+        "낸드플래시",
+        "출하량",
+        "eSSD",
+        "반도체 국산화"
+      ],
+      "stated_outlook": "YMTC는 하반기부터 eSSD 비중을 확대해 서버·데이터센터 시장을 공략하고, 상하이 증시 상장을 통해 대규모 투자 재원을 확보할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "AI 데이터센터 확산으로 서버용 eSSD가 전체 낸드 출하량의 48%를 차지하는 등 고성능 데이터 저장 장치의 수요가 커지고 있다. 중국 정부의 반도체 국산화 정책과 맞물려 메모리 업체들의 생산능력 확대와 기술 고도화가 추진되고 있다."
     },
     {
       "id": "1468ed521ca9",
@@ -2829,5 +2849,5 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-18 10:08 KST"
+  "manual_updated_at": "2026-08-18 10:09 KST"
 }
