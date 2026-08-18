@@ -36,6 +36,9 @@
       <button class="sector-tab" data-view="favorites">
         <span class="dot favorite"></span>즐겨찾기 <b id="favoriteCount">0</b>
       </button>
+      <button class="sector-tab" data-view="term_note">
+        <span class="dot term"></span>AI 용어 검색 <b id="termCount">0</b>
+      </button>
       <button class="sector-tab" data-view="manual_add">
         <span class="dot manual"></span>직접 선택
       </button>
@@ -140,6 +143,30 @@
       <div id="favoriteEmpty" class="empty">즐겨찾기가 비어 있습니다.</div>
     </section>
 
+    <section id="termPanel" class="term-panel" hidden>
+      <div class="term-search-card">
+        <p class="eyebrow">AI TERM SEARCH</p><h2>AI 용어 검색</h2>
+        <p>GPU·EUV·LFP처럼 기사에서 모르는 용어를 검색하세요. 기사 안의 버튼을 누르면 기사 문맥도 함께 반영합니다.</p>
+        <form id="termSearchForm" class="term-search-form">
+          <label>검색할 용어<input id="termQuery" type="search" maxlength="80" required placeholder="예: GPU, EUV, LFP"></label>
+          <label>현재 기사 문맥<textarea id="termArticleContext" maxlength="6000" placeholder="기사에서 검색하면 자동 입력됩니다. 직접 붙여넣어도 됩니다."></textarea></label>
+          <input id="termArticleTitle" type="hidden"><input id="termArticleUrl" type="hidden">
+          <button type="submit">AI로 설명하기</button><p id="termSearchStatus" role="status"></p>
+        </form>
+      </div>
+      <article id="termResult" class="term-result" hidden>
+        <div class="term-result-head"><div><span id="termResultIndustry" class="badge"></span><h2 id="termResultTitle"></h2><p id="termResultEnglish"></p></div><button id="saveTerm" type="button">내 용어 노트에 저장</button></div>
+        <section><h3>1. 한 줄 정의</h3><p id="termDefinition"></p></section>
+        <section><h3>2. 작동 원리</h3><p id="termPrinciple"></p></section>
+        <section><h3>3. 반도체·배터리 산업에서의 의미</h3><p id="termIndustryMeaning"></p></section>
+        <section><h3>4. 현재 기사에서 사용된 의미</h3><p id="termArticleMeaning"></p></section>
+        <section><h3>5. 관련 용어</h3><div id="termRelated" class="term-chips"></div></section>
+      </article>
+      <div class="term-library-head"><div><p class="eyebrow">MY TERM NOTE</p><h2>용어 노트</h2></div><button id="exportTerms" type="button">지식맵용 JSON 내보내기</button></div>
+      <div class="term-controls"><input id="termNoteSearch" type="search" placeholder="저장한 용어·설명 검색"><select id="termIndustryFilter"><option value="all">반도체 + 배터리 + 공통</option><option value="semiconductor">반도체</option><option value="battery">배터리</option><option value="common">공통</option></select><button id="reviewTerms" type="button">복습 시작</button></div>
+      <div id="termReview" class="term-review" hidden></div><div id="termRows" class="term-rows"></div><div id="termEmpty" class="empty">저장한 용어가 없습니다.</div>
+    </section>
+
     <section class="verification-note">
       <strong>요약 기준</strong>
       <span>공식·통신사·허용 언론 출처만 수록</span>
@@ -180,6 +207,7 @@
           <button class="paste-summary" type="button" hidden>본문 붙여넣어 요약</button>
           <button class="edit-title" type="button" hidden>제목 수정</button>
           <button class="favorite-item" type="button">☆ 즐겨찾기</button>
+          <button class="term-search-item" type="button">이 기사에서 용어 검색</button>
           <button class="delete-item" type="button" hidden>이 기사 삭제</button>
           <p>AI 요약은 원문을 대체하지 않습니다.</p>
         </aside>
@@ -190,5 +218,6 @@
   <footer>Original-source summaries only · 자동 업데이트</footer>
   <script src="config.js"></script>
   <script src="app.js"></script>
+  <script src="term-note.js"></script>
 </body>
 </html>
