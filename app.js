@@ -234,8 +234,25 @@ async function requestFavorite(item, button) {
   button.disabled = true;
   try {
     await authorizedPost({ action: "favorite", itemId: item.id, favorite: adding });
-    button.textContent = adding ? "★ 추가 요청 완료" : "☆ 해제 요청 완료";
-    alert(`즐겨찾기 ${adding ? "추가" : "해제"} 요청을 접수했습니다. GitHub 실행 후 반영됩니다.`);
+    button.textContent = adding ? "★ 저장 확인 중…" : "☆ 해제 확인 중…";
+    let reflected = false;
+    for (let attempt = 0; attempt < 36; attempt += 1) {
+      await new Promise(resolve => setTimeout(resolve, 5000));
+      const news = await fetch(`data/news.json?t=${Date.now()}`, { cache: "no-store" })
+        .then(result => result.json()).catch(() => null);
+      if (!news) continue;
+      const stored = (news.favorite_items || []).some(row => row.id === item.id);
+      if (stored === adding) {
+        favoriteItems = news.favorite_items || [];
+        favoriteIds = new Set(favoriteItems.map(row => row.id));
+        reflected = true;
+        break;
+      }
+    }
+    if (!reflected) throw new Error("즐겨찾기가 저장되지 않았습니다. 잠시 후 다시 시도해 주세요.");
+    render();
+    renderFavorites();
+    alert(`즐겨찾기 ${adding ? "추가" : "해제"}가 완료됐습니다.`);
   } catch (error) {
     button.disabled = false;
     alert(error.message || "즐겨찾기 요청에 실패했습니다.");
@@ -264,8 +281,26 @@ async function requestPastedSummary(item, button) {
       itemId: item.id,
       articleText: trimmed,
     });
-    button.textContent = "요약 처리 중";
-    alert("본문 요약 요청을 접수했습니다. 이제 창을 닫아도 되며, 잠시 후 새로고침하면 요약본으로 바뀝니다.");
+    button.textContent = "요약 저장 확인 중…";
+    let reflected = false;
+    for (let attempt = 0; attempt < 36; attempt += 1) {
+      await new Promise(resolve => setTimeout(resolve, 5000));
+      const news = await fetch(`data/news.json?t=${Date.now()}`, { cache: "no-store" })
+        .then(result => result.json()).catch(() => null);
+      if (!news) continue;
+      const stored = [
+        ...(news.current_items || []), ...(news.archive_items || []),
+        ...(news.manual_items || []), ...(news.semi_items || []),
+        ...(news.semi_archive_items || [])
+      ].find(row => row.id === item.id);
+      if (stored && stored.summary_status === "summarized") {
+        reflected = true;
+        break;
+      }
+    }
+    if (!reflected) throw new Error("요약이 저장되지 않았습니다. 다시 시도해 주세요.");
+    button.textContent = "요약 완료";
+    alert("붙여넣은 본문의 요약 저장이 완료됐습니다. 새로고침하면 표시됩니다.");
   } catch (error) {
     button.disabled = false;
     button.textContent = "본문 붙여넣어 요약";
