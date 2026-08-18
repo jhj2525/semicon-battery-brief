@@ -158,6 +158,17 @@ function normalizeTerm(value) {
   };
 }
 
+function classifyIndustry(title, english, proposed) {
+  const value = `${title || ""} ${english || ""}`.toLowerCase();
+  const semiconductor = /\b(cpu|gpu|npu|dram|sram|nand|hbm|euv|duv|finfet|gaa|tsv|asic|fpga|semiconductor|system on chip)\b|반도체|노광|식각|증착|웨이퍼|트랜지스터/;
+  const battery = /\b(lfp|ncm|nca|bms|soh|sei|electrolyte|cathode|anode|state of charge)\b|배터리|이차전지|양극|음극|전해질|분리막|화성공정/;
+  const isSemiconductor = semiconductor.test(value);
+  const isBattery = battery.test(value);
+  if (isSemiconductor && !isBattery) return "semiconductor";
+  if (isBattery && !isSemiconductor) return "battery";
+  return ["semiconductor", "battery", "common"].includes(proposed) ? proposed : "common";
+}
+
 async function explainTerm(env, body) {
   if (!env.AI) throw new Error("Worker의 AI 바인딩이 설정되지 않았습니다.");
   const term = cleanText(body.term, 80);
@@ -165,22 +176,54 @@ async function explainTerm(env, body) {
   const articleUrl = cleanText(body.articleUrl, 1000);
   const articleContext = cleanText(body.articleContext, 6000);
   if (!term) throw new Error("검색할 용어를 입력해 주세요.");
-  const prompt = `다음 산업 용어를 취업 준비생이 정확히 이해하도록 한국어로 설명하라. 추측성 수치나 출처를 만들지 말고, 약어라면 영문 원어를 적어라. 산업 분류는 semiconductor, battery, common 중 하나만 사용하라. 기사 문맥이 없으면 article_meaning에 '기사 문맥이 제공되지 않아 일반적인 의미로 설명했습니다.'라고 적어라. JSON 필드는 title, english, industry, category, definition, principle, industry_meaning, article_meaning, related(문자열 배열), structure, process, defect, job만 사용하라.\n\n용어: ${term}\n기사 제목: ${articleTitle || "없음"}\n기사 문맥:\n${articleContext || "없음"}`;
-  const aiResult = await env.AI.run("@cf/zai-org/glm-4.7-flash", {
+  const prompt = `다음 산업 용어를 반도체·배터리 공정기술 직무 취업 준비생이 원리부터 기사 맥락까지 이해하도록 정확한 한국어로 설명하라. 추측성 수치나 출처를 만들지 말고, 약어라면 영문 원어를 적어라. 산업 분류는 semiconductor, battery, common 중 하나만 사용하라. 반드시 마크다운 없이 유효한 JSON 객체 하나만 출력하라.
+
+JSON 필드와 작성 기준:
+- title: 표준 용어명
+- english: 영문 원어 또는 영문 표기
+- industry: semiconductor, battery, common 중 하나
+- category: 기술 분야
+- definition: 핵심 정체와 역할을 1~2문장으로 정의
+- principle: 주요 구성요소가 무엇이며 입력부터 결과까지 어떤 순서와 인과관계로 작동하는지 4~6문장으로 설명. 관련 공정·소재·물리 원리가 있으면 포함
+- industry_meaning: 반도체·배터리 산업에서 왜 중요한지, 성능·수율·원가·공급망 중 관련 영향을 3~5문장으로 설명
+- article_meaning: 제공된 기사 문맥에서 구체적으로 무엇을 가리키고 왜 언급됐는지 2~4문장으로 설명. 문맥이 없으면 일반적인 기사 활용 의미와 문맥 미제공 사실을 명시
+- related: 이해에 직접 도움이 되는 관련 용어 4~8개 문자열 배열
+
+용어: ${term}
+기사 제목: ${articleTitle || "없음"}
+기사 문맥:
+${articleContext || "없음"}`;
+  const aiResult = await env.AI.run("@cf/meta/llama-3.3-70b-instruct-fp8-fast", {
     messages: [
-      { role: "system", content: "반도체·배터리 산업 기술 용어를 검증 가능한 범위에서 설명하는 한국어 튜터다. 반드시 JSON 객체만 출력한다." },
+      { role: "system", content: "반도체·배터리 산업 기술 용어를 설명하는 한국어 튜터다. 용어 자체의 본래 산업을 기준으로 분류하며 기사 주제가 배터리라고 CPU·GPU 같은 반도체 용어를 배터리로 분류하지 않는다. CPU·GPU·NPU·DRAM·NAND·HBM·EUV는 semiconductor, 전극·전해질·분리막·LFP·NCM·BMS는 battery로 분류한다. 두 산업에서 독립적으로 통용되는 제조·품질 개념만 common으로 분류한다. 반드시 유효한 JSON 객체만 출력한다." },
       { role: "user", content: prompt },
     ],
-    response_format: { type: "json_object" },
-    max_tokens: 1800,
+    max_tokens: 1500,
     temperature: 0.2,
   });
-  const raw = typeof aiResult === "string" ? aiResult : aiResult.response || aiResult.result || "";
-  const parsed = typeof raw === "object" ? raw : JSON.parse(String(raw).replace(/^```json\s*|\s*```$/g, ""));
+  const raw = typeof aiResult === "string"
+    ? aiResult
+    : aiResult?.choices?.[0]?.message?.content
+      ?? aiResult?.response
+      ?? aiResult?.result
+      ?? "";
+  if (!raw || (typeof raw === "string" && !raw.trim())) {
+    throw new Error("AI가 빈 응답을 반환했습니다. 잠시 후 다시 검색해 주세요.");
+  }
+  const cleaned = typeof raw === "string"
+    ? raw.trim().replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/i, "")
+    : raw;
+  let parsed;
+  try {
+    parsed = typeof cleaned === "object" ? cleaned : JSON.parse(cleaned);
+  } catch {
+    throw new Error("AI 설명 형식이 올바르지 않습니다. 다시 검색해 주세요.");
+  }
   const now = new Date().toISOString();
   const normalized = normalizeTerm({
     ...parsed,
     title: parsed.title || term,
+    industry: classifyIndustry(parsed.title || term, parsed.english, parsed.industry),
     article_title: articleTitle,
     article_url: articleUrl,
     source: articleUrl || "Process Brief AI 용어 노트",
@@ -256,7 +299,8 @@ export default {
         const stored = await readTerms(env);
         const now = new Date().toISOString();
         const key = `${incoming.title}|${incoming.english}`.toLowerCase();
-        const existing = stored.data.terms.find(term => `${term.title}|${term.english}`.toLowerCase() === key);
+        const existing = stored.data.terms.find(term => incoming.id && term.id === incoming.id)
+          || stored.data.terms.find(term => `${term.title}|${term.english}`.toLowerCase() === key);
         const saved = { ...incoming, id: existing?.id || crypto.randomUUID(), created_at: existing?.created_at || now, updated_at: now };
         stored.data.terms = [saved, ...stored.data.terms.filter(term => term.id !== existing?.id)];
         stored.data.updated_at = now;
