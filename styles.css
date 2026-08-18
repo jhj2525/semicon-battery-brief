@@ -153,12 +153,25 @@ dd { margin: 3px 0 0; font-size: 12px; }
 .term-chips span { background: #eef2f8; border-radius: 999px; padding: 6px 10px; font-size: 13px; }
 .term-controls { display: grid; grid-template-columns: 1fr 220px auto; gap: 10px; }
 .term-rows { display: grid; gap: 12px; }
-.term-card { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
-.term-card-head { display: flex; justify-content: space-between; gap: 12px; }
+.term-card { background: #fff; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+.term-card-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 18px; cursor: pointer; list-style: none; }
+.term-card-head::-webkit-details-marker { display: none; }
+.term-card-head::before { content: "▸"; color: var(--muted); transition: transform .15s ease; }
+.term-card[open] > .term-card-head::before { transform: rotate(90deg); }
+.term-card-body { border-top: 1px solid var(--line); padding: 16px 18px 18px; }
+.term-card-body h4 { margin: 14px 0 6px; }
+.term-card-body h4:first-child { margin-top: 0; }
+.term-card-body p { margin: 0; white-space: pre-line; }
 .term-card h3 { margin: 0 0 5px; }
-.term-card details { margin-top: 12px; }
 .term-card-actions { display: flex; gap: 8px; }
+.term-card .edit-term { color: #365b8c; background: #eef4fb; }
 .term-card .delete-term { color: #a22222; background: #fff0f0; }
+.term-edit-form { display: grid; gap: 12px; }
+.term-edit-form label { display: grid; gap: 6px; font-weight: 700; }
+.term-edit-form input, .term-edit-form textarea, .term-edit-form select { width: 100%; border: 1px solid var(--line); border-radius: 9px; padding: 10px 11px; background: #fff; color: var(--ink); font: inherit; }
+.term-edit-form textarea { resize: vertical; }
+.term-edit-actions { display: flex; gap: 8px; }
+.term-edit-actions button:first-child { background: #172746; color: #fff; }
 .term-review button { margin-top: 12px; }
 @media (max-width: 780px) { .term-search-form, .term-controls { grid-template-columns: 1fr; } .term-result-head, .term-library-head { align-items: flex-start; flex-direction: column; } }
 .edit-title { border-color: #cbd7e8; background: #f5f8fc; color: #365b8c; }
