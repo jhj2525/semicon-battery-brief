@@ -253,13 +253,32 @@
       "collected": "2026-08-17",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82cmRNbGtvN01oeGd0dnMyUWpkWHk1d0s1NGNjRWkyWkQ4bUJBUUtfaWRubS01TjhhVXo2S2VFUGstdF9XYVVKekJOdk03bXlDQ29iXzk1LVVERW1IQ2pfSTctMUxtQnQwcVR2ZXBTOW3SAXRBVV95cUxObzFTdUx5VldQNE4wRUFYLWx6R3pfVXpKMy1lX2VydlVtV0VmUUxqcnllRlY4cFp0WGFsQVhvd3BHNzdxdnJOc3p4cWZPWm50R0tkdzhDZDJ5SS1IY2ZwY0hnRm5KNWhGUHhLRlU5NTkwak5UMg?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "국내 배터리 3사가 완성차 업체와의 합작법인(JV) 체제에서 단독 법인 체제로 북미 생산기지를 재편하고 있다. 이는 전기차 수요 정체기 속 막대한 고정비와 이자 부담을 줄여 재무적 효율성을 높이기 위한 전략적 결정이다. 실제로 고정비 절감 등의 효과가 반영되며 배터리 3사는 올 2분기 모두 흑자 전환에 성공했다. 확보된 단독 공장들은 최근 급성장 중인 북미 에너지저장장치(ESS) 및 인공지능 데이터센터 전력 인프라 시장으로 유연하게 재배치되고 있다. 이러한 구조 개편은 전기차 시장 침체에 대응하면서 새로운 수익원을 창출하려는 산업적 변화를 보여준다.",
+      "key_points": [
+        "삼성SDI, LG에너지솔루션, SK온은 합작법인을 단독 법인으로 전환하며 고정비와 이자 부담을 절감했다.",
+        "배터리 3사는 올 2분기 일제히 흑자 전환하며 7개 분기 만에 동시 흑자를 기록했다.",
+        "단독 생산 거점으로 전환된 공장들은 전기차 라인을 ESS 라인으로 전환하는 등 유연하게 운영되고 있다.",
+        "북미 ESS 시장은 상반기 출하량이 전년 동기 대비 83% 증가하며 새로운 배터리 수요처로 부상했다."
+      ],
+      "numbers": [
+        "20.5% (올 상반기 북미 전기차 인도량 감소율)",
+        "2분기 영업이익: LG에너지솔루션 1133억원, 삼성SDI 2038억원, SK온 8218억원",
+        "75.9GWh (상반기 북미 리튬이온 배터리 ESS 출하량)",
+        "83% (전년 동기 대비 북미 ESS 출하량 증가율)"
+      ],
+      "keywords": [
+        "K배터리",
+        "합작법인",
+        "단독공장",
+        "ESS",
+        "전기차침체",
+        "흑자전환"
+      ],
+      "stated_outlook": "LG에너지솔루션은 연말까지 북미에서 50GWh 이상의 ESS 생산능력을 확보할 계획이며, 하반기 ESS 출하량은 상반기 대비 2배 이상 늘어날 전망이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "미국 인플레이션감축법(IRA)에 따른 전기차 보조금 폐지로 올 상반기 북미 지역 전기차 인도량이 전년 동기 대비 20.5% 급감하며 전기차 시장 침체가 장기화되고 있다."
     },
     {
       "id": "62b944d98d7c",
@@ -2984,5 +3003,5 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-18 10:50 KST"
+  "manual_updated_at": "2026-08-18 10:59 KST"
 }
