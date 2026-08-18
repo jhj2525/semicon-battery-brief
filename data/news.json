@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-18 10:51 KST",
-  "last_automatic_update_at": "2026-08-18 10:51 KST",
-  "automatic_cycle_started_at": "2026-08-18 10:50 KST",
+  "updated_at": "2026-08-18 11:02 KST",
+  "last_automatic_update_at": "2026-08-18 11:02 KST",
+  "automatic_cycle_started_at": "2026-08-18 11:01 KST",
   "publication_window": {
-    "from": "2026-08-17 10:50 KST",
-    "to": "2026-08-18 10:50 KST"
+    "from": "2026-08-17 11:01 KST",
+    "to": "2026-08-18 11:01 KST"
   },
   "today_verified_count": 0,
   "current_items": [
@@ -438,44 +438,6 @@
       "source_rank": 5,
       "summary_source": "pasted_text",
       "industry_context": "반도체 업계 내 개발 효율성과 생산성 향상을 위해 AI 모델 개발과 인프라 구축이 중요한 과제로 부상하고 있다."
-    },
-    {
-      "id": "27c1e1fc49ef",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "\"AX 역량 강화\" 삼성전자, '반도체 R&D·공정 AI' 특화 핵심인재 잇단 영입",
-      "source": "뉴시스",
-      "source_type": "통신사 보도",
-      "published": "2026-08-14 09:00",
-      "collected": "2026-08-14",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1wbHFxU0lZaVhtcTY5ZWllV0szSUJsVVQ5aUZnRDYwMGN5Qm5mb2hzMXFidDZlbUtSNFZHdEZRNExfXzExZ1pWYk15dEQ4clg3RWZ2VnZScGxmR0QtNFNKOFlBT3N1YTZiWlZzX1JmOFJwYTQxTEZnTtIBeEFVX3lxTE1wbHFxU0lZaVhtcTY5ZWllV0szSUJsVVQ5aUZnRDYwMGN5Qm5mb2hzMXFidDZlbUtSNFZHdEZRNExfXzExZ1pWYk15dEQ4clg3RWZ2VnZScGxmR0QtNFNKOFlBT3N1YTZiWlZzX1JmOFJwYTQxTEZnTg?oc=5",
-      "trusted_headline": true,
-      "verified_source": true,
-      "summary_status": "summarized",
-      "overview": "삼성전자가 반도체 사업의 인공지능 전환(AX)을 가속화하기 위해 딥러닝과 데이터 엔지니어링 분야의 외부 전문가를 영입했다. 이번 인재 영입은 설계부터 제조에 이르는 반도체 핵심 공정에 AI 적용을 확대해 연구개발 효율성과 생산성을 향상하려는 전략이다. 반도체 R&D에 특화된 AI 모델 개발을 위해 한보형 펠로가 합류했으며, 한태린 상무는 AI 학습을 위한 'AI 레디 데이터' 기반 구축을 주도할 예정이다. 삼성전자는 앞으로도 AI 및 데이터 분야 핵심 인재를 지속해서 확보하여 전사적인 AI 역량을 높일 방침이다.",
-      "key_points": [
-        "삼성전자가 딥러닝·비전 AI 권위자인 한보형 펠로를 영입해 반도체 R&D 특화 AI 모델 개발을 맡겼다.",
-        "데이터 엔지니어링 전문가인 한태린 상무를 영입하여 AI가 즉시 활용 가능한 'AI 레디 데이터' 기반 구축에 나섰다.",
-        "삼성전자는 반도체 핵심 업무 전반에 AI 적용을 확대하여 개발 효율성과 생산성을 높이는 것을 목표로 한다."
-      ],
-      "numbers": [
-        "2026/08/14",
-        "2010년",
-        "2018년",
-        "2016년"
-      ],
-      "keywords": [
-        "삼성전자",
-        "AX",
-        "반도체",
-        "AI",
-        "R&D"
-      ],
-      "stated_outlook": "삼성전자는 AI·데이터 분야 핵심 인재를 지속해서 확보하고 이들의 전문성을 조직 전반으로 확산해 전사적인 AI 역량을 높일 방침이다.",
-      "source_rank": 3,
-      "summary_source": "pasted_text",
-      "industry_context": "반도체 설계·공정·제조 등 핵심 업무 전반에 걸쳐 AI 적용이 확대되는 추세이며, 연구개발 효율성과 생산성 향상이 업계의 주요 목표로 작용하고 있다."
     },
     {
       "id": "e3d83554a96f",
