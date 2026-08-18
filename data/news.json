@@ -213,13 +213,33 @@
       "collected": "2026-08-17",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBiOXJmVUg2YkRSdnRHRjhMeHd4WkVFTTk0dW90ckp2OVl1WU9DZEprekdkbW9qbHZXNUdFZHV6bHNFY2NpS28zWW9RNkFock5wdVRhbEdHclhYQmFJdTNYZFdEdDU?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "삼성SDI는 북미 시장의 전기차 수요 둔화에 대응하고 에너지저장장치(ESS) 수요를 흡수하기 위해 기존 GM 합작법인인 시너지셀즈를 단독 운영 체제로 전환합니다. 이를 통해 전기차와 ESS 생산을 탄력적으로 조정할 수 있는 생산거점을 확보하고, ESS 시장에서의 주도권을 강화할 전략입니다. 한편, 국내에서는 전력거래소가 주관하는 제3차 ESS 중앙계약시장 입찰이 예정되어 있어 국내 배터리 3사의 치열한 수주전이 예상됩니다. 이번 3차 입찰은 제품의 가격뿐만 아니라 국내 생산 여부, 소재 공급망, 제품 안전성 등이 핵심 평가 변수로 작용할 전망입니다.",
+      "key_points": [
+        "삼성SDI가 GM과 설립한 합작법인 시너지셀즈 지분을 전량 인수해 단독 운영 체제로 전환함",
+        "삼성SDI는 스텔란티스 합작공장 라인을 ESS용 배터리 생산라인으로 전환하는 등 생산 유연성 확보 중",
+        "제3차 ESS 중앙계약시장 입찰이 8월 중순에서 9월 사이 공고될 예정임",
+        "3차 입찰은 비가격 평가 비중(사업 준비도, 안전성 등)이 수주 경쟁의 주요 변수가 될 전망"
+      ],
+      "numbers": [
+        "2026.08.16",
+        "35억달러",
+        "27GWh",
+        "3조7688억원",
+        "2038억원",
+        "1077억원"
+      ],
+      "keywords": [
+        "삼성SDI",
+        "ESS",
+        "시너지셀즈",
+        "중앙계약시장",
+        "이차전지"
+      ],
+      "stated_outlook": "삼성SDI는 2027년 하반기 전고체 배터리 양산을 목표로 하고 있으며, 올해 하반기 주요 고객사 대상 샘플 공급을 계획하고 있습니다.",
+      "summary_source": "pasted_text",
+      "industry_context": "AI 데이터센터와 전력망 투자 확대로 ESS 수요가 빠르게 증가하는 반면, 북미 전기차 성장세는 둔화되는 시장 변화가 발생하고 있습니다. ESS 중앙계약시장은 전력 계통 안정화와 재생에너지 수용성 확대를 위해 민간 ESS 설비를 15년간 확보하는 제도입니다."
     },
     {
       "id": "583625bae613",
@@ -2869,5 +2889,5 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-18 10:20 KST"
+  "manual_updated_at": "2026-08-18 10:31 KST"
 }
