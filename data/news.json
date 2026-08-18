@@ -99,13 +99,33 @@
       "collected": "2026-08-17",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1lYkkwdHF4NFowQXdVRE9rYnlwamt4a09kd3c2WTU3LTlDYnVQUTRiUERObFJJS1ZoMS05MGFwOXNpQVc2cGtNZTNrcWIzT3ZyRWc?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "전 세계 인공지능(AI) 반도체 수요 증가에 따라 생산설비 투자가 확대되면서 관련 생태계 기업들이 증시 상장을 추진하고 있다. 팹리스 기업인 해치텍과 글로벌테크놀로지는 독자적인 반도체 설계 기술을 바탕으로 모바일뿐만 아니라 로봇, 전력 인프라 등 적용처 확장을 시도 중이다. 부품·장비 기업인 동원파츠와 영광와이케이엠씨는 반도체 제조 공정에 필수적인 정밀 부품 및 특수 표면 처리 공정 역량을 앞세워 상장을 준비하고 있다. 이들 기업은 실적 성장과 고객 네트워크를 바탕으로 자금 조달에 나선 모습이다. 전문가들은 향후 실적 지속성과 고객 다각화 여부가 공모의 성패를 가를 것으로 보고 있다.",
+      "key_points": [
+        "해치텍은 지자기 센서 IC 등을 설계하며 이달 25일 코스닥 상장을 앞두고 있다.",
+        "글로벌테크놀로지는 LED 구동 IC를 개발하며 다음 달 기관투자자 대상 수요예측을 진행할 예정이다.",
+        "동원파츠와 영광와이케이엠씨가 한국거래소에 상장예비심사를 청구했다.",
+        "동원파츠는 램리서치와 어플라이드머티어리얼즈 등 해외 장비사에 부품을 공급하고 있으며, 지난해 매출 923억원과 영업이익 78억원을 기록했다."
+      ],
+      "numbers": [
+        "2026.08.16",
+        "25일",
+        "923억원",
+        "78억원",
+        "51%",
+        "55%"
+      ],
+      "keywords": [
+        "반도체",
+        "팹리스",
+        "상장",
+        "AI",
+        "정밀부품"
+      ],
+      "stated_outlook": "금융투자업계는 향후 이들 기업의 실적 지속성과 고객 다각화 여부가 공모 희비를 가를 것으로 전망하고 있다.",
+      "summary_source": "pasted_text",
+      "industry_context": "전 세계 인공지능(AI) 반도체 수요 증가와 해외 장비사들의 설비 투자 확대가 이어지면서 관련 반도체 생태계 기업들의 기업공개 움직임이 활발해지고 있다."
     },
     {
       "id": "7468366a4d89",
@@ -2849,5 +2869,5 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-18 10:09 KST"
+  "manual_updated_at": "2026-08-18 10:20 KST"
 }
