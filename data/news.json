@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-17 22:42 KST",
-  "last_automatic_update_at": "2026-08-17 22:42 KST",
-  "automatic_cycle_started_at": "2026-08-17 22:39 KST",
+  "updated_at": "2026-08-18 10:10 KST",
+  "last_automatic_update_at": "2026-08-18 10:10 KST",
+  "automatic_cycle_started_at": "2026-08-18 10:09 KST",
   "publication_window": {
-    "from": "2026-08-16 22:39 KST",
-    "to": "2026-08-17 22:39 KST"
+    "from": "2026-08-17 10:09 KST",
+    "to": "2026-08-18 10:09 KST"
   },
-  "today_verified_count": 3,
+  "today_verified_count": 1,
   "current_items": [
     {
       "id": "0faa8c30df8a",
@@ -182,26 +182,6 @@
       "stated_outlook": "향후 파인 피치(fine-pitch) 본딩이 발전함에 따라 더 작은 범프와 구리 필러를 평가해야 하며, 본드 테스트 시스템은 3축 모두에서 뛰어난 정확도와 정밀한 저력 측정 능력을 갖추어야 한다. 또한, Industry 4.0의 흐름에 맞춰 원격 제어, 완전한 추적성, 지능형 샘플링을 결합한 플랫폼이 차세대 반도체 제조를 지원하는 핵심이 될 것이다."
     },
     {
-      "id": "e9b51dc1eb62",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "투자·양산",
-      "title": "삼성SDI, GM 美 합작공장 품는다…지분 전량 인수",
-      "source": "전자신문",
-      "source_type": "산업 전문언론",
-      "published": "2026-08-16 19:45",
-      "collected": "2026-08-17",
-      "link": "https://news.google.com/rss/articles/CBMiwAVBVV95cUxQUy1GMVhEWTV1VzVYWWt5VFA4RUJJWmpkYTEtbjhOMkFfLVpEdzhIalBMdnBjZ0w2Q1RUeklaaE5CODh2RHplb05fOUNMUXZhZGpyMklPalhSOV9ULXZLSjNiMU5JYmZXM3NDSHJBQTRqQzlLOW1GQVEyNndEd1dtQ2J0dGFFTzBzQ2JlNDZYZ3BIQUFrRnd6eU9ZazdybVdTbVNsU0Q3LXpNWG1ra28wOUFpYU9WeEJsaWlONGk4eG90VGh0a1E2WTdGNnBuOV9raVNLWFdtbUJSRkdGVG9aT2owYUg3VUtuX09XT3JFaFFrbmhuaC1UdURVcG92clNncDFUcVltemdxUTBQaUZlNWlBWEJybHotZEYwcmNnOWJjMUppRVVzOW9rU0Q5VFQyQXNCUHdrRXRkd3pfWlc1dzdPZ2VURGI1WmY3bndXdW9OQnhpUUJ2cUhwQVBuZkxSb2l1b1JnN0FQTmF3dzhyajNYbHphc2lzZkFrLWw1UVY3cXJGSlExaU5ocndGWlJfeXJvSy1wVG93dVNDS25xTjZBbmxLWS14Y181Z2JMM0lrdTJySV9vSm9NQ2ttVWpLZmpFRGhFc0l5YndjRm5yMUtnVFktbVJ5a0ZpWGtPVzJxS0NvenRnOE00dHpqaEJmTUVYWENNb2hZVmxYa3h2TUotSFpsWGppeWtEc0JCY0Itd1EweVNCQmg0YlBhTVl6Umc4aWNtRTRjenZwV0xtbzBPaW1iMk10MGgwVnJXTUFsbkpyZFZ1U0Q2UkxuQzNSZXlCWk1NRWx4THhZNk9RbjNXR2dlSElPTUY4SXNQdTBQRVpxVURzLWk1Y2ZBZHhtaGdYV2RWN25pa3RLWHh6ZWllWnFGQklxdDBzUU5MWE9hRUszeDZZWUctZjdFb1BDR1V4R25rdFNPamtWcTBzTQ?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
       "id": "1d8cc0ca8da7",
       "sector": "battery",
       "region": "domestic",
@@ -272,6 +252,26 @@
       "published": "2026-08-17 16:15",
       "collected": "2026-08-17",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9UcHVnTWtSLTlSb2RVMzZPeXZvYTNUTFRhbkVWMnZWa0tmMXllUkU2ZkhMUndHdkhSUmU0S1BZTUoyaGFXMXdyMEFZWGdiN3plZUJhYmpQalVOQQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "c48353944976",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "\"EV캐즘에도...\" 엠플러스, 영업이익률 17%…ESS·피지컬AI로 성장축 ↑",
+      "source": "파이낸셜뉴스",
+      "source_type": "경제지 보도",
+      "published": "2026-08-18 08:36",
+      "collected": "2026-08-18",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5jMjZqTE5EZE5vTk9KbXVfM0JCOTFWbUNTSEtHZVhieEFEREpfY05BblpDRmNOLWNUYUNCYlBiZTZiWnhlNUxMZS1DeXZXd0xOUHREakZHYUFrdw?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
