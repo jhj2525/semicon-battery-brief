@@ -60,13 +60,32 @@
       "collected": "2026-08-17",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9MMkNzaTNtZXAxUmx4X1dTS2pVRWxTLVBUd2FYaG9iR0M2SUNaY05YSmdaTG1mSWF5R3Fybl82T19OaVlvdVZDYmpncmp3WUt1ejFfOWdmZ2RVeFJUVWlZd050UDM?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "지멘스 EDA가 대규모 투자와 개방형 인공지능 생태계를 앞세워 글로벌 반도체 설계 시장 공략을 본격화하고 있다. 지멘스는 2007년 이후 250억 유로를 투입하며 유연한 설계 검증 환경을 구축해 기술 고도화를 추진 중이다. 반면 미국 정부의 무역확장법 제232조 포고령 발효로 인해 국내 반도체 기초 소재 업계는 원가 상승과 관세 부담이라는 이중고에 직면했다. 폴리실리콘 및 실리콘 웨이퍼 수출에 차질이 예상됨에 따라 정부와 업계는 반도체용 고순도 소재에 대한 예외 적용을 위한 대미 협상에 나서고 있다. 산업계는 미 현지 투자 인센티브에 따른 국내 제조 기반 공동화 가능성에도 긴장하고 있다.",
+      "key_points": [
+        "지멘스 EDA는 개방형 인공지능 생태계를 통해 타사 설계 툴 및 자체 언어모델과 자유롭게 연동되는 유연한 설계 환경을 제공함.",
+        "미국 무역확장법 제232조 포고령으로 인해 12월 4일부터 반도체 핵심 원자재인 폴리실리콘, 잉곳, 웨이퍼에 최저수입가격제와 15% 관세가 적용될 예정임.",
+        "국내 반도체 소재 업계는 대미 수출 가격 경쟁력 약화 및 원가 상승 우려에 따라 산업통상자원부와 함께 고순도 품목 예외 적용을 위한 협상을 준비 중임."
+      ],
+      "numbers": [
+        "2026년 3분기 매출 30% 증가",
+        "250억 유로",
+        "2028년",
+        "12월 4일",
+        "15% 관세",
+        "4억 3000만 달러"
+      ],
+      "keywords": [
+        "지멘스 EDA",
+        "개방형 AI 생태계",
+        "무역확장법 제232조",
+        "반도체 소재",
+        "실리콘 웨이퍼"
+      ],
+      "stated_outlook": "지멘스 EDA는 2028년까지 전 세계 칩의 78%에 AI 가속기가 탑재될 것으로 전망하며, 국내 메모리 기업 및 팹리스와의 기술 협력을 강화할 계획임.",
+      "summary_source": "pasted_text",
+      "industry_context": "글로벌 반도체 설계 소프트웨어 시장은 기술 고도화로 진화 중이나, 반도체 제조 기초 소재 공급망은 미국 통상 규제라는 새로운 대외 변수를 마주하고 있음."
     },
     {
       "id": "6b8d9fdf7b0a",
