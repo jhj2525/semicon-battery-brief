@@ -1,14 +1,9 @@
 name: Daily news update
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/workflows/update-news.yml"
   schedule:
-    - cron: "5 0 * * *"
-    - cron: "35 0 * * *"
+    - cron: "17 22 * * *"
+    - cron: "17 23 * * *"
   workflow_dispatch:
     inputs:
       article_url:
