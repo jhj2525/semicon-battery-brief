@@ -706,13 +706,15 @@ def same_story(left, right):
         "tsmc": ("tsmc",),
         "마이크론": ("마이크론",),
         "lg에너지솔루션": ("lg에너지솔루션", "lg엔솔"),
+        "포스코": ("포스코그룹", "포스코홀딩스", "포스코"),
         "삼성sdi": ("삼성sdi",),
         "sk온": ("sk온",),
         "gm": (" gm", "gm ", "gm과", "gm·", "gm,", "제너럴모터스"),
         "catl": ("catl",),
         "엘앤에프": ("엘앤에프",),
         "에코프로": ("에코프로",),
-        "포스코퓨처엠": ("포스코퓨처엠",),
+        "롱바이": ("롱바이", "ronbay"),
+        "랜싱": ("랜싱", "lansing"),
         "인디애나": ("인디애나",),
         "합작공장": ("합작공장", "합작 공장",),
         "hbm": ("hbm",),
@@ -733,9 +735,20 @@ def same_story(left, right):
         }
 
     shared_markers = story_markers(left_text) & story_markers(right_text)
-    # 같은 두 기업, 또는 기업+공장/지역/기술 대상이 겹치면 같은 사건으로
-    # 판단한다. 한 기업만 같을 때는 별개 기사를 지우지 않는다.
-    return len(shared_markers) >= 2
+    organizations = {
+        "삼성전자", "sk하이닉스", "tsmc", "마이크론", "lg에너지솔루션",
+        "포스코", "삼성sdi", "sk온", "gm", "catl", "엘앤에프",
+        "에코프로", "롱바이",
+    }
+    distinctive_targets = {"인디애나", "랜싱", "합작공장"}
+    shared_organizations = shared_markers & organizations
+    # 같은 두 기업(회사+협력사), 또는 같은 기업+구체적인 지역/공장이
+    # 겹칠 때만 같은 사건으로 본다. 회사+ESS/HBM처럼 분야만 같은 기사는
+    # 서로 다른 사안일 수 있으므로 제거하지 않는다.
+    return (
+        len(shared_organizations) >= 2
+        or bool(shared_organizations and shared_markers & distinctive_targets)
+    )
 
 
 def deduplicate_stories(items):
@@ -1645,9 +1658,12 @@ def main():
         ).replace(tzinfo=base.KST)
     except (TypeError, ValueError):
         cycle_started_at = None
+    # 재실행 보호는 '24시간'이 아니라 한국 날짜가 같은 실행에만 적용한다.
+    # 오후에 한 번 실행된 묶음이 다음 날 아침 자동 갱신까지 고정되는 것을
+    # 방지한다.
     cycle_open = (
         cycle_started_at is not None
-        and timedelta(0) <= now - cycle_started_at < timedelta(hours=24)
+        and cycle_started_at.date() == now.date()
     )
     fetched = collect_all_candidates()
     # Keep already verified articles inside the three-day window as reusable
