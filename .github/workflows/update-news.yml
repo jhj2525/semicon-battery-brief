@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - ".github/workflows/update-news.yml"
+    # Temporary workflow-change trigger also provides an immediate backup run.
   schedule:
     - cron: "17 22 * * *"
     - cron: "17 23 * * *"
