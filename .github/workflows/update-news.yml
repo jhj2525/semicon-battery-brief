@@ -2,8 +2,8 @@ name: Daily news update
 
 on:
   schedule:
-    - cron: "17 22 * * *"
-    - cron: "17 23 * * *"
+    - cron: "5 0 * * *"
+    - cron: "35 0 * * *"
   workflow_dispatch:
     inputs:
       article_url:
@@ -19,14 +19,6 @@ on:
           - semiconductor
           - battery
           - semi_market
-      pasted_article_id:
-        description: "본문 직접입력 대상 기사 ID · Worker 호환용"
-        required: false
-        type: string
-      pasted_article_text:
-        description: "직접 입력한 기사 본문 · Worker 호환용"
-        required: false
-        type: string
       delete_article_id:
         description: "아카이브에서 삭제할 기사 ID · 일반 실행에서는 비우기"
         required: false
@@ -95,15 +87,15 @@ jobs:
               )
           except (TypeError, ValueError):
               cycle_start = None
-          cycle_open = cycle_start is not None and now - cycle_start < timedelta(hours=24)
+          cycle_today = cycle_start is not None and cycle_start.date() == now.date()
           semi_target = max(0, 5 - int(locked.get("semiconductor", 0)))
           battery_target = max(0, 5 - int(locked.get("battery", 0)))
           complete = semi_count >= semi_target and battery_count >= battery_target
-          skip = scheduled and cycle_open and complete
+          skip = scheduled and cycle_today and complete
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
               output.write(f"skip={'true' if skip else 'false'}\n")
           print(
-              f"cycle_started_at={started}, cycle_open={cycle_open}, "
+              f"cycle_started_at={started}, cycle_today={cycle_today}, "
               f"current={semi_count}/{semi_target} + {battery_count}/{battery_target}, "
               f"skip={skip}"
           )
@@ -115,8 +107,6 @@ jobs:
           GEMINI_MODEL: gemini-3.1-flash-lite
           MANUAL_ARTICLE_URL: ${{ inputs.article_url }}
           MANUAL_ARTICLE_SECTOR: ${{ inputs.article_sector }}
-          PASTED_ARTICLE_ID: ${{ inputs.pasted_article_id }}
-          PASTED_ARTICLE_TEXT: ${{ inputs.pasted_article_text }}
           DELETE_ARTICLE_ID: ${{ inputs.delete_article_id }}
           EDIT_ARTICLE_ID: ${{ inputs.edit_article_id }}
           EDIT_ARTICLE_TITLE: ${{ inputs.edit_article_title }}
