@@ -91,20 +91,37 @@
       "sector": "semiconductor",
       "region": "domestic",
       "category": "산업",
-      "title": "[단독] SK하이닉스, 美에 HBM 설계 정예팀 가동…빅테크 AI칩부터 '밀착'",
+      "title": "SK하이닉스, 美에 HBM 설계 정예팀 가동…빅테크 AI칩부터 '밀착'",
       "source": "뉴스핌",
       "source_type": "통신사 보도",
       "published": "2026-08-19 15:32",
       "collected": "2026-08-20",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5lZWZiS0FDb01mNWpTZVEweEpkZUlPdTBydC1FYUo4b2dBYmc0S2VNWmNwY21pSFhGb0FMdU11QXB1MDJGQnBvVmN0T3Z4OTFWRGs2Y3dJVkNJLVZY?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "SK하이닉스가 미국 산호세에서 고대역폭메모리(HBM) 아키텍처 설계 정예팀을 운영하며 글로벌 빅테크와의 공동 설계 체제를 강화하고 있습니다. 기존의 완성품 공급 방식에서 벗어나 고객사의 차세대 AI 칩 개발 초기 단계부터 설계 인력이 참여하는 맞춤형 협업을 추진합니다. 이는 HBM4부터 베이스다이에 첨단 로직 공정이 적용됨에 따라 시스템 반도체와 메모리의 최적화 중요성이 커진 데 따른 전략적 변화입니다. 미국 주요 AI 반도체 기업 거점과 인접한 지리적 이점을 활용해 고객 요구사항을 제품에 빠르게 반영하고 경쟁력을 확보할 방침입니다.",
+      "key_points": [
+        "SK하이닉스 미국법인이 산호세에서 HBM 설계 정예팀을 운영하며 주요 고객사와 차세대 HBM 아키텍처를 공동 개발 중이다.",
+        "채용 중인 HBM 아키텍처 설계팀의 연봉은 최대 26만 달러 규모이다.",
+        "현지 설계 조직은 고객사의 차세대 AI 칩 설계 초기 단계부터 참여해 기술 현안을 조율하고 제품 성능을 최적화하는 역할을 수행한다.",
+        "엔비디아, AMD, 브로드컴 등 주요 AI 반도체 기업의 사업장이 산호세와 인접해 기술 협력에 유리한 환경을 갖췄다."
+      ],
+      "numbers": [
+        "2026.08.19",
+        "26만 달러",
+        "3나노"
+      ],
+      "keywords": [
+        "SK하이닉스",
+        "HBM",
+        "공동 설계",
+        "AI 반도체",
+        "아키텍처"
+      ],
+      "stated_outlook": "HBM4 이후 메모리와 시스템 반도체의 경계가 흐려지면서 고객사와의 긴밀한 공동 설계 및 조기 협업이 향후 HBM 시장 경쟁력을 좌우할 전망이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "HBM4부터 베이스다이에 첨단 로직 공정이 적용되면서 메모리와 시스템 반도체의 경계가 흐려지고 있으며, AI 가속기의 구조가 다양해짐에 따라 고객별로 최적화된 용량, 대역폭, 전력 특성 요구가 늘고 있습니다."
     },
     {
       "id": "f0fbe085e14a",
@@ -3610,7 +3627,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-19 14:04 KST",
+  "manual_updated_at": "2026-08-20 13:04 KST",
   "favorite_items": [
     {
       "id": "1d8cc0ca8da7",
