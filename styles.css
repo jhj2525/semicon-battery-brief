@@ -183,6 +183,13 @@ dd { margin: 3px 0 0; font-size: 12px; }
 .manual-panel .delete-item { background: #fff7f5; color: #9a3d2c; border: 1px solid #e2b7ad; }
 .manual-panel .edit-title { background: #f5f8fc; color: #365b8c; border: 1px solid #cbd7e8; }
 .delete-item:disabled, .edit-title:disabled, .favorite-item:disabled, .paste-summary:disabled { opacity: .6; cursor: wait; }
+.current-more {
+  display: block; min-height: 42px; margin: 16px auto 20px; padding: 0 18px;
+  border: 1px solid var(--line); border-radius: 8px; background: #fff;
+  color: var(--ink); font-weight: 800; cursor: pointer;
+}
+.current-more:hover { background: #f7f8f5; }
+.current-more[hidden] { display: none; }
 .empty { padding: 70px 20px; text-align: center; color: var(--muted); }
 .verification-note {
   display: flex; gap: 20px; flex-wrap: wrap; margin: 18px 0 60px; color: var(--muted); font-size: 12px;
