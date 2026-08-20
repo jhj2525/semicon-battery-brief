@@ -96,8 +96,8 @@ jobs:
           except (TypeError, ValueError):
               cycle_start = None
           cycle_today = cycle_start is not None and cycle_start.date() == now.date()
-          semi_target = max(0, 5 - int(locked.get("semiconductor", 0)))
-          battery_target = max(0, 5 - int(locked.get("battery", 0)))
+          semi_target = max(0, 7 - int(locked.get("semiconductor", 0)))
+          battery_target = max(0, 7 - int(locked.get("battery", 0)))
           complete = semi_count >= semi_target and battery_count >= battery_target
           skip = scheduled and cycle_today and complete
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
