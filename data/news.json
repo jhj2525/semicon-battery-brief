@@ -375,14 +375,32 @@
       "collected": "2026-08-19",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5maGhXMnN5eFJsT3Q5QUNPZjRxWEEwNmZGdnFtTXgyQTZhMHlKbGRNRFg2bmNaNnRvYzhnRXFGVWlnVFk1cjJvdDZIN2ZZYkp1d2RETmxCdzJrX2M0Z1U5VA?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": "",
-      "source_rank": 2
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "테라뷰가 해외 IT·전자기기 제조 기업과 9억 5,000만 원 규모의 반도체 검사장비 공급계약을 체결했다. 이번 계약 규모는 테라뷰 최근 매출액의 12.52%에 해당하는 수준이다. 공급되는 장비는 고객사의 품질관리 공정에 활용될 예정이며, 계약 기간은 2027년 2월 20일까지이다. 테라뷰는 테라헤르츠 기반의 비파괴 검사 기술을 보유하고 있으며, 고객사의 보안 요청으로 계약 상대방과 세부 내용은 계약 종료일까지 공개가 유보되었다. 테라뷰는 향후 글로벌 고객사의 고정밀 품질관리 수요에 차질 없이 대응할 계획이다.",
+      "key_points": [
+        "테라뷰, 해외 IT·전자기기 제조사와 9억 5,000만 원 규모 공급계약 체결",
+        "계약 금액은 최근 매출액 대비 12.52% 규모",
+        "테라헤르츠 기반 비파괴 검사장비를 고객사 품질관리 공정에 공급",
+        "고객사의 영업비밀 보호 요청으로 계약 당사자 및 상세 내용은 비공개"
+      ],
+      "numbers": [
+        "9억 5,000만 원",
+        "12.52%",
+        "75억 8,149만 원",
+        "2027년 2월 20일"
+      ],
+      "keywords": [
+        "테라뷰",
+        "반도체 검사장비",
+        "공급계약",
+        "비파괴 검사",
+        "테라헤르츠"
+      ],
+      "stated_outlook": "테라뷰는 고객사의 보안 원칙을 준수하며 계약 이행과 고객 대응을 차질 없이 진행할 계획이다.",
+      "source_rank": 2,
+      "summary_source": "pasted_text",
+      "industry_context": "반도체 패키징 고도화와 고성능 반도체 수요 확대에 따라 비파괴·고정밀 검사 기술의 중요성이 커지고 있다."
     },
     {
       "id": "86a16c037f85",
@@ -3719,7 +3737,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-20 13:08 KST",
+  "manual_updated_at": "2026-08-20 13:21 KST",
   "favorite_items": [
     {
       "id": "5c9e0fa38598",
