@@ -1,5 +1,6 @@
 const rows = document.querySelector("#newsRows");
 const empty = document.querySelector("#empty");
+const currentMore = document.querySelector("#currentMore");
 const updated = document.querySelector("#updated");
 const searchInput = document.querySelector("#searchInput");
 const regionFilter = document.querySelector("#regionFilter");
@@ -42,6 +43,7 @@ let semiItems = [];
 let manualItems = [];
 let favoriteItems = [];
 let favoriteIds = new Set();
+const expandedCurrentViews = new Set();
 const selectedDeleteIds = new Set();
 const pendingDeleteKey = "processBriefPendingDeletes";
 const adminTokenKey = "processBriefAdminToken";
@@ -417,8 +419,20 @@ function render() {
     (!query || searchable(item).includes(query))
   );
 
+  const currentView = view === "semiconductor" || view === "battery";
+  const defaultListing = !query && region === "all" && category === "all";
+  const collapsible = currentView && defaultListing && visible.length > 5;
+  const expanded = expandedCurrentViews.has(view);
+  const displayed = collapsible && !expanded ? visible.slice(0, 5) : visible;
+
   rows.innerHTML = "";
-  visible.forEach(item => rows.appendChild(buildRow(item, { deletable: true, editable: item.manual_added === true })));
+  displayed.forEach(item => rows.appendChild(buildRow(item, { deletable: true, editable: item.manual_added === true })));
+  currentMore.hidden = !collapsible;
+  if (collapsible) {
+    currentMore.textContent = expanded
+      ? "추가 뉴스 접기"
+      : `뉴스 ${visible.length - 5}개 더 보기`;
+  }
   empty.hidden = visible.length !== 0;
   empty.textContent = view === "auto_archive"
     ? "조건에 맞는 아카이브 기사가 없습니다."
@@ -492,13 +506,19 @@ tabs.forEach(tab => tab.addEventListener("click", () => {
   deleteSelectedCurrent.hidden = view === "auto_archive";
   viewNote.textContent = view === "auto_archive"
     ? "과거 검증 기사 · 날짜와 분야로 검색"
-    : "자동 뉴스 분야별 최대 5개 · 생성 후 24시간 고정";
+    : "자동 뉴스 분야별 기본 5개 · 적합한 기사가 있으면 최대 7개";
   if (semiMode) renderSemiManual();
   if (manualArchiveMode) renderManualArchive();
   if (favoriteMode) renderFavorites();
   if (termMode && typeof window.renderTermNotes === "function") window.renderTermNotes();
   render();
 }));
+
+currentMore.addEventListener("click", () => {
+  if (expandedCurrentViews.has(view)) expandedCurrentViews.delete(view);
+  else expandedCurrentViews.add(view);
+  render();
+});
 
 manualForm.addEventListener("submit", async event => {
   event.preventDefault();
