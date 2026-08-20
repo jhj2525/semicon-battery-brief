@@ -292,14 +292,34 @@
       "collected": "2026-08-19",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1TaGxqLThleVZWZkRtS1AxNFQta1ZyRXhYVV9ZdThSQ29EOXhlX2pCVVJ5RC1tcndRcHhMVU03UWN1a0paWW1RQVZiWkU1bGZLaDJMeDNn?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": "",
-      "source_rank": 5
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "삼성전자가 충청남도 온양캠퍼스에 고대역폭메모리(HBM) 생산을 위한 신규 공장을 건립한다. 이번 투자 규모는 6조 원이며, 약 38만 9825제곱미터 부지에 인공지능(AI) 반도체 생산 확대를 위한 설비를 구축할 예정이다. 충청남도의 신속한 행정 지원으로 도시계획위원회 심의가 당초 계획보다 1개월 앞당겨졌다. 삼성전자는 이에 따라 다음 달부터 본격적인 착공에 돌입한다. 이는 미래 산업 지형 재편을 위한 '대한민국 대도약 3대 메가 프로젝트' 중 첫 번째 실행 사례이다.",
+      "key_points": [
+        "삼성전자가 온양캠퍼스 내 6조 원 규모의 HBM 신규 공장 건립을 다음 달 착공한다.",
+        "충청남도는 관련 심의 일정을 당초 계획보다 1개월 단축하며 행정 절차를 마쳤다.",
+        "이번 사업은 약 38만 9825제곱미터 부지에 고성능 AI 반도체 생산 확대를 목적으로 진행된다.",
+        "삼성그룹은 2040년까지 충청 지역에 140조 원을 투자하여 디스플레이, HBM, 배터리 등 첨단 산업을 육성할 계획이다."
+      ],
+      "numbers": [
+        "6조 원",
+        "38만 9825제곱미터",
+        "2026년 8월 19일",
+        "2040년",
+        "140조 원"
+      ],
+      "keywords": [
+        "삼성전자",
+        "온양캠퍼스",
+        "HBM",
+        "반도체",
+        "AI",
+        "충청남도"
+      ],
+      "stated_outlook": "삼성그룹은 2040년까지 충청 지역에 약 140조 원을 투자하여 최첨단 디스플레이, HBM 공장, 차세대 배터리, AI 서버용 패키지 기판 등을 육성할 계획이다.",
+      "source_rank": 5,
+      "summary_source": "pasted_text",
+      "industry_context": "반도체, 피지컬 AI, AI 데이터센터를 삼각 축으로 묶어 미래 산업 지형을 재편하려는 '대한민국 대도약 3대 메가 프로젝트'가 추진되고 있다."
     },
     {
       "id": "ac0d10f3ddb9",
@@ -3662,7 +3682,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-20 13:05 KST",
+  "manual_updated_at": "2026-08-20 13:07 KST",
   "favorite_items": [
     {
       "id": "5c9e0fa38598",
