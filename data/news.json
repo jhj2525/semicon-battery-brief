@@ -2085,13 +2085,31 @@
       "link": "https://n.news.naver.com/article/081/0003671559",
       "requested_link": "https://naver.me/G8feSdCN",
       "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "LG에너지솔루션이 미국 미시간주 랜싱 공장을 본격 가동하며 북미 지역 내 7번째 생산공장을 확보했다. 이번 공장 가동을 통해 회사는 북미 에너지저장장치(ESS) 시장 공략을 위한 5대 생산 거점 체계를 완성했다. 랜싱 공장은 ESS용 리튬인산철(LFP) 배터리와 전기차용 삼원계(NCM) 배터리를 함께 생산하는 복합 제조 거점으로 운영된다. 이를 통해 LG에너지솔루션은 북미 전역의 고객 수요에 대응하며 현지 생산 역량을 한층 강화할 계획이다.",
+      "key_points": [
+        "LG에너지솔루션 미시간 랜싱 공장 본격 가동 및 북미 ESS 5대 생산거점 체계 완성",
+        "랜싱 공장은 ESS용 LFP와 전기차용 NCM 배터리를 생산하는 복합 제조 거점임",
+        "랜싱 공장의 연간 배터리 셀 생산 능력은 35GWh 이상임",
+        "생산된 ESS용 LFP 제품은 버텍을 통해 AI 데이터센터 및 전력 인프라 고객사에 공급 예정"
+      ],
+      "numbers": [
+        "2026.08.19",
+        "7번째",
+        "35GWh",
+        "2년 반"
+      ],
+      "keywords": [
+        "LG에너지솔루션",
+        "미시간 랜싱 공장",
+        "ESS",
+        "LFP배터리",
+        "북미 생산거점"
+      ],
+      "stated_outlook": "5대 생산거점을 기반으로 압도적인 생산 역량과 차별화된 현지화 전략을 강화하여 북미 ESS 시장 기회를 선점하고, 미국 배터리 생태계를 강화해 나갈 방침이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "북미 지역 내 급성장하는 ESS 시장과 전기차 수요에 대응하기 위해 LG에너지솔루션은 지난 2년 반 동안 포트폴리오 리밸런싱과 운영 효율화를 추진해 왔다."
     },
     {
       "id": "4064c2aa1d3f",
@@ -3991,7 +4009,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-20 13:49 KST",
+  "manual_updated_at": "2026-08-20 14:53 KST",
   "favorite_items": [
     {
       "id": "5c9e0fa38598",
