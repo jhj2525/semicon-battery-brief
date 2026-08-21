@@ -1749,7 +1749,9 @@ def main():
 
     manual_items = merge_manual_items(old_manual_items, [])
 
-    # 자동 아카이브에는 이전에 메인으로 선정됐던 기사만 넘긴다.\n    # 이번 실행에서 검증했지만 최종 7건에 들지 않은 후보는 저장하지 않는다.\n    archive = merge_archive(old_archive + old_current, [], current)
+    # 자동 아카이브에는 이전에 메인으로 선정됐던 기사만 넘긴다.
+    # 이번 실행에서 검증했지만 최종 7건에 들지 않은 후보는 저장하지 않는다.
+    archive = merge_archive(old_archive + old_current, [], current)
 
     # Naver's RSS and live board endpoints are not stable from GitHub Actions.
     # Keep old SEMI records in the automatic archive, but stop automatic SEMI
