@@ -1,13 +1,253 @@
 {
-  "updated_at": "2026-08-20 08:59 KST",
-  "last_automatic_update_at": "2026-08-20 08:59 KST",
-  "automatic_cycle_started_at": "2026-08-20 08:57 KST",
+  "updated_at": "2026-08-21 11:06 KST",
+  "last_automatic_update_at": "2026-08-21 11:06 KST",
+  "automatic_cycle_started_at": "2026-08-21 11:03 KST",
   "publication_window": {
-    "from": "2026-08-19 08:57 KST",
-    "to": "2026-08-20 08:57 KST"
+    "from": "2026-08-20 11:03 KST",
+    "to": "2026-08-21 11:03 KST"
   },
-  "today_verified_count": 0,
+  "today_verified_count": 9,
   "current_items": [
+    {
+      "id": "bb9526dfdfe5",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "에스켐, OLED 공통층 매출 122% 급증…반도체 소재 성과도 기대",
+      "source": "디일렉",
+      "published": "2026-08-20 23:44",
+      "collected": "2026-08-21",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=61146",
+      "rss_description": "에스켐의 올해 상반기 유기발광다이오드(OLED) 공통층 소재 매출이 전년 대비 2배 급증했다. 신사업 반도체 소재는 파일럿 생산을 마치고 양산 평가 단계에 진입했다. 오는 4분기 양산 물량을 공급한다.20일 에스켐 반기보고서에 따르면 올해 상반기 OLED 공통층 매출은 51억6000만원으로 전년 동기 23억원보다 122% 증가했다. 전체 매출에서 차지하는 비중은 25.8%에서 39.1%로 13.3%p 상승했다.공통층 매출은 2024년 126억2400만원에서 지난해 69억8800만원으로 쪼그라들었다. 반면 올해 상반기 매출은 지난해",
+      "score": 53,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "에스켐의 올해 상반기 OLED 공통층 소재 매출이 전년 동기 대비 122% 급증하며 OLED 소재 사업이 성장세를 보였다. 상반기 전체 매출은 전년 동기 대비 46.5% 증가한 131억 9300만원을 기록했다. 또한, 반도체 소재 사업 부문에서 양산 평가 단계에 진입하여 오는 4분기 공급을 목표로 하고 있다.",
+      "key_points": [
+        "올해 상반기 에스켐의 OLED 공통층 소재 매출은 51억 6000만원으로 전년 동기 대비 122% 증가함",
+        "상반기 전체 매출은 131억 9300만원으로 전년 동기 대비 46.5% 증가했으나, 연구개발비 및 재고자산평가손실 등으로 영업손실 7억 800만원을 기록함",
+        "반도체 소재는 양산 평가 단계에 있으며 오는 4분기에 월 200~300kg 규모의 양산 물량 공급을 추진 중임"
+      ],
+      "numbers": [
+        "2026.08.20",
+        "51억 6000만원",
+        "23억원",
+        "122%",
+        "25.8%",
+        "39.1%"
+      ],
+      "keywords": [
+        "에스켐",
+        "OLED 공통층",
+        "반도체 소재",
+        "SOH",
+        "순환정제"
+      ],
+      "stated_outlook": "반도체 소재는 4분기 양산 물량 공급을 목표로 하며, 반도체 소재의 연간 매출 기여 목표 시점은 2027년임. 제1공장 고도화 설비를 활용한 순환정제 매출은 3분기부터 확대될 것으로 예상됨."
+    },
+    {
+      "id": "6f71c3aaaeec",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "How Will The Custom HBM Business Work?",
+      "source": "Semiconductor Engineering",
+      "published": "2026-08-20 16:02",
+      "collected": "2026-08-21",
+      "link": "https://semiengineering.com/how-will-the-custom-hbm-business-work/",
+      "rss_description": "There is no one-size-fits-all — yet. The post How Will The Custom HBM Business Work? appeared first on Semiconductor Engineering .",
+      "score": 4,
+      "source_type": "해외 산업 보도",
+      "source_rank": 1,
+      "verified_source": true,
+      "overview": "HBM4부터는 필요에 따라 맞춤형 베이스 다이(Customized base die)를 사용하는 것이 가능해지며, 이는 주로 하이퍼스케일러의 데이터 처리 요구를 충족하기 위한 전략입니다. 맞춤형 HBM(cHBM)은 기존 메모리 제조 방식에서 벗어나 설계, 제조, 조립 단계에서 다양한 이해관계자 간 협력을 필요로 합니다. 이러한 변화는 메모리 공급 부족을 심화하기보다는 메모리 구성의 다양성을 높이는 방향으로 작용할 것으로 보입니다. 맞춤형 HBM은 성능과 효율을 최적화하여 XPU(CPU/GPU/NPU)의 전반적인 경쟁력을 높이는 수단으로 활용됩니다.",
+      "key_points": [
+        "HBM4는 성능과 전력 효율을 위해 베이스 다이에 논리 공정(logic process)을 도입하며, 이를 맞춤화하여 특정 작업 부하를 효율적으로 처리할 수 있음",
+        "맞춤형 HBM 제작 프로젝트는 설계, 제조(파운드리), 조립(어셈블리) 등 4가지 단계를 거치며, 각 프로젝트별로 참여 기업 간의 협약에 따라 역할이 분담됨",
+        "맞춤형 HBM을 통해 메모리 컨트롤러를 베이스 다이로 이동시킴으로써 XPU 다이의 면적을 줄이고, 더 많은 메모리 스택을 연결할 수 있는 공간을 확보하는 등의 이점이 있음",
+        "설계 역량과 자본이 필요한 맞춤형 HBM은 주로 하이퍼스케일러 기업들을 대상으로 하며, 기업의 차별화된 요구사항을 반영하기 위한 용도로 사용됨"
+      ],
+      "numbers": [
+        "4nm",
+        "70%",
+        "25%",
+        "2,048 bits",
+        "10µm",
+        "16"
+      ],
+      "keywords": [
+        "HBM4",
+        "cHBM",
+        "하이퍼스케일러",
+        "베이스 다이",
+        "XPU",
+        "맞춤형 메모리"
+      ],
+      "stated_outlook": "맞춤형 HBM 프로젝트는 향후 1~2년 내에 데이터센터에 도입될 것으로 예상됩니다. 전체 산업 관점에서 맞춤형 HBM 수요는 기존 HBM 수요의 연장선에 있어 추가적인 공급 부담을 주지는 않을 것으로 보이나, 표준 제품과 맞춤형 제품 간의 혼합 비율 예측이 어려워 공급 계획 수립에 변수로 작용할 수 있습니다."
+    },
+    {
+      "id": "b7cedcb13ccc",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "TSMC, 1.6나노 공정 개발 완료…4분기 양산 돌입",
+      "source": "IT조선",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-20 16:10",
+      "collected": "2026-08-21",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3N2lIcHIxeldONEY2N0pyQS1fSUZzU25GeUJKdWdCY2p3SmNNUUhSb290cDdSalNYekFKZ1AzeXBoSy1pZ3ByWHhLT202OFJ1bUNmS1A1dDR3ZG9lSmJUSVhEM0ZzUFd4bDhhQlA1NDfSAXRBVV95cUxORW5sampaUjV2M213MlMzNnBYZnFZdlg4MFNUTHlwMEFqZFBZcW1HUmJpbFJJTmxvT05sZmZrWl9mVnl1Um94cjc4QzU1QUtNSU4taDFMUndpQUNCa0pBbGtLeXFCSGcxbGNvZUN1ZDg3RmRydw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "b7092925c935",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "\"삼성전자, 내년 영업익 575조…파운드리까지 흑자 전환 기대\"-KB",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-21 07:54",
+      "collected": "2026-08-21",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1WVUppTnhVVnpFVy0yTm9LN1RlSTZFMkhOc0w4Y0h1N2NSUHQ1U1hoYmhRY1cwLXlFaUlubVo5enQ2X2JXUnFVTWlhVVBjU2NCdkQ0Q1lmamJqQQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "c3839371c57e",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "“대만 TSMC, 1.6나노칩 개발 성공…올해 4분기부터 양산”",
+      "source": "매일경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-20 14:51",
+      "collected": "2026-08-21",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE81ajUxYV9zMnpQa2szSFM5OS1ySE5qZXNxckkwNjVrM3hINU95TVJIZVVacW1WOVByTUpFWm0yR3JtcGZmbjJWenhpOUVKdw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "9212c605d7db",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "삼성전자, 美 테일러팹 2기 구축 속도…공급망에 장비 '선제 인증' 주문",
+      "source": "ZDNet Korea",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-20 11:24",
+      "collected": "2026-08-21",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85MUtmRW5fRm9VQmRYOUQyOWFVMW9wY1VwaFk5ZFY4Yy1VX3hZNWlLOUk3M1VtMmgtYmdJR2wzZ3JCc05ndlgtWDI4Q2haZXFwZjd5STVn?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "b4294fd663f4",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "영우디에스피, 디스플레이 장비 호조…반도체 장비 첫 수주",
+      "source": "블로터",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-20 14:10",
+      "collected": "2026-08-21",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1UTXlyS29XdzFHY1ZtY01aUElEdkg0OUdsNmg2dEJMdlBMMGM0SlZNaU9IZUFDSEtWcWNsalZyRDY4MlY3R0kwTWdueXBPMUR0cGN2YjRNU1hodGwtbEZXYzdudF9nLTdrUUxpQtIBbEFVX3lxTE1UTXlyS29XdzFHY1ZtY01aUElEdkg0OUdsNmg2dEJMdlBMMGM0SlZNaU9IZUFDSEtWcWNsalZyRDY4MlY3R0kwTWdueXBPMUR0cGN2YjRNU1hodGwtbEZXYzdudF9nLTdrUUxpQg?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "5c3486c477f0",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "배터리 장비사 5곳 흑자전환…엠오티·엔시스 신사업 확대",
+      "source": "디일렉",
+      "published": "2026-08-21 00:27",
+      "collected": "2026-08-21",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=61160",
+      "rss_description": "국내 배터리 3사가 전기차용 배터리 생산라인을 에너지저장장치(ESS)용으로 전환해 관련 장비 발주를 일부 재개했다. 장비사 매출도 회복 조짐을 보였으나 적자 기업이 여전히 많아 수익성 개선은 제한적이다. 엠오티, 엔시스, 윤성에프앤씨는 매출 증가에 힘입어 나란히 흑자 전환했다. 3개 기업은 배터리 장비 외 바이오, 자동차 부품, 방산으로 사업 영역을 넓혀 실적 다변화 속도를 높였다.'디일렉'이 20일 국내 배터리 장비기업 33곳의 2026년 2분기 실적을 분석한 결과, 흑자를 기록한 기업은 13곳으로 집계됐다. 나머지 20곳은 영업",
+      "score": 40,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "국내 배터리 장비 기업들이 배터리 3사의 ESS용 장비 발주 재개와 사업 다변화에 힘입어 실적 회복세를 보이고 있다. 2026년 2분기 분석 결과, 총 33곳 중 13곳이 흑자를 기록했으며 엠오티, 엔시스 등 5곳이 전년 대비 흑자 전환에 성공했다. 다만 여전히 적자 기업이 다수 존재하여 전체적인 수익성 개선에는 한계가 있는 상황이다. 주요 기업들은 기존 배터리 장비 외에 자동차 부품, 방산, 바이오 등 신사업을 통해 실적 구조를 다변화하고 있다.",
+      "key_points": [
+        "2026년 2분기 국내 배터리 장비 기업 33곳 중 13곳이 흑자를 기록함",
+        "엠오티, 엔시스, 윤성에프앤씨, 제일엠앤에스, 탑엔지니어링 5곳이 흑자 전환함",
+        "배터리 3사의 에너지저장장치(ESS) 생산 확대가 장비 수요 증가에 기여함",
+        "주요 장비사들이 자동차 부품, 방산, 바이오 등으로 사업 영역을 확장함"
+      ],
+      "numbers": [
+        "2026년 2분기",
+        "33곳",
+        "13곳",
+        "20곳",
+        "엠오티 2분기 매출 311억원",
+        "엠오티 2분기 영업이익 12억원"
+      ],
+      "keywords": [
+        "배터리",
+        "장비",
+        "실적",
+        "ESS",
+        "흑자전환",
+        "사업다변화"
+      ],
+      "stated_outlook": "엔시스는 하반기 방산 장비가 새로운 성장 동력이 될 것으로 전망하며, 국내 방산기업의 해외 생산거점 확대에 따라 관련 장비 수요가 늘어날 것으로 보고 있다."
+    },
+    {
+      "id": "2645bf18519c",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "100% 태양광 공장 성공한 CATL…쩡위췬 회장 “탄소제로 아닌 배터리 도태될 것”",
+      "source": "서울경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-20 12:28",
+      "collected": "2026-08-21",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94WkJ3Mmk1WC1uVTJrbUZDMFNBNk5NZnRrbmdueEpaa2k5MWhCN3dwRy1UUlpSYzVqSWJxMGxjYkU4dzg5R0l0U2sxWVNaZUdhdUE?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    }
+  ],
+  "archive_items": [
     {
       "id": "8612dd187e24",
       "sector": "semiconductor",
@@ -47,140 +287,6 @@
         "예산제2일반산업단지"
       ],
       "stated_outlook": "현재 부지 투자를 진행한 단계로, 향후 수요에 맞춰 생산설비를 단계적으로 확충하며 투자 규모도 순차적으로 확대할 계획이다."
-    },
-    {
-      "id": "aa8fa3916b19",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "로이터 “삼성전자, 수요 급증에 파운드리 가격 최대 15% 인상”",
-      "source": "전자신문",
-      "published": "2026-08-19 19:27",
-      "collected": "2026-08-20",
-      "link": "https://www.etnews.com/20260819000386",
-      "rss_description": "삼성전자가 신규 주문을 대상으로 일부 첨단 파운드리(반도체 위탁생산) 서비스 가격을 최대 15% 인상했다고 로이터통신이 복수의 소식통을 인용해 19일 보도했다. 소식통들에 따르면 삼성전자는 지난달 4나노 공정으로 생산되는 반도체 가격을 인상했다. 가격 인상 폭은 중국·미국 고객사에 10∼15%, 대만 고객사에 5∼10%가 각각 적용됐다. 아울러 5나노 공정에서 생산되는 웨이퍼 가격은 10∼15% 상승했으며, 이전 세대인 8나노 기술로 생산되는",
-      "score": 48,
-      "source_type": "산업 전문언론",
-      "source_rank": 5,
-      "verified_source": true,
-      "overview": "삼성전자가 수요 급증에 대응하여 일부 첨단 파운드리 서비스 가격을 최대 15% 인상했다. 이번 가격 인상은 4나노, 5나노, 8나노 공정 제품에 차등 적용되었다. 또한 구글과 4나노 공정을 이용한 칩 생산 협상을 진행 중인 것으로 알려졌다.",
-      "key_points": [
-        "삼성전자가 4나노 공정 반도체 가격을 중국·미국 고객사에 10~15%, 대만 고객사에 5~10% 인상했다.",
-        "5나노 웨이퍼 가격은 10~15%, 8나노 웨이퍼 가격은 10% 가까이 상승했다.",
-        "삼성전자의 평택 4나노 생산 라인은 작년 말부터 100% 가동 중이며, 구글과 4나노 공정 칩 생산을 위해 협상 중이다."
-      ],
-      "numbers": [
-        "15%",
-        "4나노",
-        "10~15%",
-        "5~10%",
-        "5나노",
-        "8나노"
-      ],
-      "keywords": [
-        "삼성전자",
-        "파운드리",
-        "가격 인상",
-        "반도체",
-        "공정"
-      ],
-      "stated_outlook": "삼성전자는 올해 하반기에 2나노 2세대 공정 양산에 돌입하고 가동률과 수율 개선, 가격 인상 효과를 통해 수익성이 크게 개선될 것이라고 밝힌 바 있다."
-    },
-    {
-      "id": "153236a4da12",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "산업",
-      "title": "SK하이닉스, 美에 HBM 설계 정예팀 가동…빅테크 AI칩부터 '밀착'",
-      "source": "뉴스핌",
-      "source_type": "통신사 보도",
-      "published": "2026-08-19 15:32",
-      "collected": "2026-08-20",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5lZWZiS0FDb01mNWpTZVEweEpkZUlPdTBydC1FYUo4b2dBYmc0S2VNWmNwY21pSFhGb0FMdU11QXB1MDJGQnBvVmN0T3Z4OTFWRGs2Y3dJVkNJLVZY?oc=5",
-      "trusted_headline": true,
-      "verified_source": true,
-      "summary_status": "summarized",
-      "overview": "SK하이닉스가 미국 산호세에서 고대역폭메모리(HBM) 아키텍처 설계 정예팀을 운영하며 글로벌 빅테크와의 공동 설계 체제를 강화하고 있습니다. 기존의 완성품 공급 방식에서 벗어나 고객사의 차세대 AI 칩 개발 초기 단계부터 설계 인력이 참여하는 맞춤형 협업을 추진합니다. 이는 HBM4부터 베이스다이에 첨단 로직 공정이 적용됨에 따라 시스템 반도체와 메모리의 최적화 중요성이 커진 데 따른 전략적 변화입니다. 미국 주요 AI 반도체 기업 거점과 인접한 지리적 이점을 활용해 고객 요구사항을 제품에 빠르게 반영하고 경쟁력을 확보할 방침입니다.",
-      "key_points": [
-        "SK하이닉스 미국법인이 산호세에서 HBM 설계 정예팀을 운영하며 주요 고객사와 차세대 HBM 아키텍처를 공동 개발 중이다.",
-        "채용 중인 HBM 아키텍처 설계팀의 연봉은 최대 26만 달러 규모이다.",
-        "현지 설계 조직은 고객사의 차세대 AI 칩 설계 초기 단계부터 참여해 기술 현안을 조율하고 제품 성능을 최적화하는 역할을 수행한다.",
-        "엔비디아, AMD, 브로드컴 등 주요 AI 반도체 기업의 사업장이 산호세와 인접해 기술 협력에 유리한 환경을 갖췄다."
-      ],
-      "numbers": [
-        "2026.08.19",
-        "26만 달러",
-        "3나노"
-      ],
-      "keywords": [
-        "SK하이닉스",
-        "HBM",
-        "공동 설계",
-        "AI 반도체",
-        "아키텍처"
-      ],
-      "stated_outlook": "HBM4 이후 메모리와 시스템 반도체의 경계가 흐려지면서 고객사와의 긴밀한 공동 설계 및 조기 협업이 향후 HBM 시장 경쟁력을 좌우할 전망이다.",
-      "summary_source": "pasted_text",
-      "industry_context": "HBM4부터 베이스다이에 첨단 로직 공정이 적용되면서 메모리와 시스템 반도체의 경계가 흐려지고 있으며, AI 가속기의 구조가 다양해짐에 따라 고객별로 최적화된 용량, 대역폭, 전력 특성 요구가 늘고 있습니다."
-    },
-    {
-      "id": "f0fbe085e14a",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "투자·양산",
-      "title": "삼성전자 아산 반도체 공장 내달 착공…'3대 메가' 사업 중 처음",
-      "source": "연합뉴스",
-      "source_type": "통신사 보도",
-      "published": "2026-08-19 16:14",
-      "collected": "2026-08-20",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kU3dRN283UHNmLVhFb0JoZHFrT1B0YURCUzdMdGF2SHlXTHJBSEZKblJGNEZ1bVZ6b3VqdDdhdzlRUGt3WWVhLXJQWU9DWnhrZmZnREx3dmM1R0HSAWBBVV95cUxPZ3I3YVN0TXZMUm51LXhsOXVVSHlRUlNmRFhrcUhOc2dhWEtxQ25WSThySFFGZnBONGhnaFlnVjRnbV9uLTVPTTJJX1BpeHV3NGhfNUxncEQzVnJWZXlfZS0?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
-      "id": "22b183a845e3",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "산업",
-      "title": "마벨테크놀로지, 구글과 AI칩 맞춤형 반도체 파트너십 확대…6년간 최대 1,200억 달러 매출 잠재력",
-      "source": "매일경제",
-      "source_type": "경제지 보도",
-      "published": "2026-08-20 00:10",
-      "collected": "2026-08-20",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE16V21VcEFGb0lfY1lnVWpMVjR3dGNtaGxacXBOTjRxOWhiRnhkVUhLd1ByckVaenhISjU1czhBLXA0c09OZnN2N0RwMEhITEpiMFE?oc=5",
-      "trusted_headline": true,
-      "verified_source": true,
-      "summary_status": "summarized",
-      "overview": "마벨테크놀로지가 구글과 맞춤형 AI 반도체 부문에서 장기 파트너십을 대폭 확대하며 AI칩 시장 내 입지를 강화하고 있다. 이번 협력 계약에는 최대 122억 달러 규모의 매출 연동형 워런트 구조가 포함되어 실적 성장을 담보한다. 이를 통해 마벨테크놀로지는 향후 6년간 최대 1,200억 달러의 매출 가시성을 확보하게 되었다. 증권가는 이번 파트너십을 기반으로 마벨테크놀로지가 2027년부터 2029년까지 연평균 40% 이상의 고성장을 달성할 것으로 전망하고 있다.",
-      "key_points": [
-        "마벨테크놀로지와 구글의 맞춤형 AI 반도체 장기 파트너십 확대",
-        "매출 5억 달러 달성 시마다 단계적으로 지급되는 122억 달러 규모의 워런트 포함",
-        "향후 6년간 최대 1,200억 달러의 매출 가시성 확보"
-      ],
-      "numbers": [
-        "6년",
-        "1,200억 달러",
-        "122억 달러",
-        "5억 달러",
-        "2027~2029년",
-        "40% 이상"
-      ],
-      "keywords": [
-        "마벨테크놀로지",
-        "구글",
-        "AI칩",
-        "맞춤형 반도체",
-        "파트너십"
-      ],
-      "stated_outlook": "2027~2029년 연평균 40% 이상의 고성장 전망",
-      "summary_source": "pasted_text",
-      "industry_context": "인공지능(AI) 반도체 시장 내 맞춤형 칩 수요 증가에 따른 기업 간 파트너십 및 기술 협력 확대"
     },
     {
       "id": "5c9e0fa38598",
@@ -259,6 +365,83 @@
       "industry_context": "론바이그룹은 하이니켈 양극재를 주력으로 생산하며 삼원계 양극재, 리튬인산철(LFP), 리튬망간인산철(LMFP), 나트륨이온전지 등으로 제품 포트폴리오를 확대하고 있다."
     },
     {
+      "id": "22b183a845e3",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "마벨테크놀로지, 구글과 AI칩 맞춤형 반도체 파트너십 확대…6년간 최대 1,200억 달러 매출 잠재력",
+      "source": "매일경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-20 00:10",
+      "collected": "2026-08-20",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE16V21VcEFGb0lfY1lnVWpMVjR3dGNtaGxacXBOTjRxOWhiRnhkVUhLd1ByckVaenhISjU1czhBLXA0c09OZnN2N0RwMEhITEpiMFE?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "마벨테크놀로지가 구글과 맞춤형 AI 반도체 부문에서 장기 파트너십을 대폭 확대하며 AI칩 시장 내 입지를 강화하고 있다. 이번 협력 계약에는 최대 122억 달러 규모의 매출 연동형 워런트 구조가 포함되어 실적 성장을 담보한다. 이를 통해 마벨테크놀로지는 향후 6년간 최대 1,200억 달러의 매출 가시성을 확보하게 되었다. 증권가는 이번 파트너십을 기반으로 마벨테크놀로지가 2027년부터 2029년까지 연평균 40% 이상의 고성장을 달성할 것으로 전망하고 있다.",
+      "key_points": [
+        "마벨테크놀로지와 구글의 맞춤형 AI 반도체 장기 파트너십 확대",
+        "매출 5억 달러 달성 시마다 단계적으로 지급되는 122억 달러 규모의 워런트 포함",
+        "향후 6년간 최대 1,200억 달러의 매출 가시성 확보"
+      ],
+      "numbers": [
+        "6년",
+        "1,200억 달러",
+        "122억 달러",
+        "5억 달러",
+        "2027~2029년",
+        "40% 이상"
+      ],
+      "keywords": [
+        "마벨테크놀로지",
+        "구글",
+        "AI칩",
+        "맞춤형 반도체",
+        "파트너십"
+      ],
+      "stated_outlook": "2027~2029년 연평균 40% 이상의 고성장 전망",
+      "summary_source": "pasted_text",
+      "industry_context": "인공지능(AI) 반도체 시장 내 맞춤형 칩 수요 증가에 따른 기업 간 파트너십 및 기술 협력 확대"
+    },
+    {
+      "id": "aa8fa3916b19",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "로이터 “삼성전자, 수요 급증에 파운드리 가격 최대 15% 인상”",
+      "source": "전자신문",
+      "published": "2026-08-19 19:27",
+      "collected": "2026-08-20",
+      "link": "https://www.etnews.com/20260819000386",
+      "rss_description": "삼성전자가 신규 주문을 대상으로 일부 첨단 파운드리(반도체 위탁생산) 서비스 가격을 최대 15% 인상했다고 로이터통신이 복수의 소식통을 인용해 19일 보도했다. 소식통들에 따르면 삼성전자는 지난달 4나노 공정으로 생산되는 반도체 가격을 인상했다. 가격 인상 폭은 중국·미국 고객사에 10∼15%, 대만 고객사에 5∼10%가 각각 적용됐다. 아울러 5나노 공정에서 생산되는 웨이퍼 가격은 10∼15% 상승했으며, 이전 세대인 8나노 기술로 생산되는",
+      "score": 48,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "삼성전자가 수요 급증에 대응하여 일부 첨단 파운드리 서비스 가격을 최대 15% 인상했다. 이번 가격 인상은 4나노, 5나노, 8나노 공정 제품에 차등 적용되었다. 또한 구글과 4나노 공정을 이용한 칩 생산 협상을 진행 중인 것으로 알려졌다.",
+      "key_points": [
+        "삼성전자가 4나노 공정 반도체 가격을 중국·미국 고객사에 10~15%, 대만 고객사에 5~10% 인상했다.",
+        "5나노 웨이퍼 가격은 10~15%, 8나노 웨이퍼 가격은 10% 가까이 상승했다.",
+        "삼성전자의 평택 4나노 생산 라인은 작년 말부터 100% 가동 중이며, 구글과 4나노 공정 칩 생산을 위해 협상 중이다."
+      ],
+      "numbers": [
+        "15%",
+        "4나노",
+        "10~15%",
+        "5~10%",
+        "5나노",
+        "8나노"
+      ],
+      "keywords": [
+        "삼성전자",
+        "파운드리",
+        "가격 인상",
+        "반도체",
+        "공정"
+      ],
+      "stated_outlook": "삼성전자는 올해 하반기에 2나노 2세대 공정 양산에 돌입하고 가동률과 수율 개선, 가격 인상 효과를 통해 수익성이 크게 개선될 것이라고 밝힌 바 있다."
+    },
+    {
       "id": "5aff3b50940d",
       "sector": "battery",
       "region": "domestic",
@@ -277,9 +460,7 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": ""
-    }
-  ],
-  "archive_items": [
+    },
     {
       "id": "7bcc283c2381",
       "sector": "battery",
@@ -322,6 +503,26 @@
       "industry_context": "반도체, 피지컬 AI, AI 데이터센터를 삼각 축으로 묶어 미래 산업 지형을 재편하려는 '대한민국 대도약 3대 메가 프로젝트'가 추진되고 있다."
     },
     {
+      "id": "f0fbe085e14a",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "삼성전자 아산 반도체 공장 내달 착공…'3대 메가' 사업 중 처음",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-19 16:14",
+      "collected": "2026-08-20",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kU3dRN283UHNmLVhFb0JoZHFrT1B0YURCUzdMdGF2SHlXTHJBSEZKblJGNEZ1bVZ6b3VqdDdhdzlRUGt3WWVhLXJQWU9DWnhrZmZnREx3dmM1R0HSAWBBVV95cUxPZ3I3YVN0TXZMUm51LXhsOXVVSHlRUlNmRFhrcUhOc2dhWEtxQ25WSThySFFGZnBONGhnaFlnVjRnbV9uLTVPTTJJX1BpeHV3NGhfNUxncEQzVnJWZXlfZS0?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
       "id": "ac0d10f3ddb9",
       "sector": "battery",
       "region": "domestic",
@@ -362,6 +563,43 @@
       "keywords": [],
       "stated_outlook": "",
       "source_rank": 5
+    },
+    {
+      "id": "153236a4da12",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "SK하이닉스, 美에 HBM 설계 정예팀 가동…빅테크 AI칩부터 '밀착'",
+      "source": "뉴스핌",
+      "source_type": "통신사 보도",
+      "published": "2026-08-19 15:32",
+      "collected": "2026-08-20",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5lZWZiS0FDb01mNWpTZVEweEpkZUlPdTBydC1FYUo4b2dBYmc0S2VNWmNwY21pSFhGb0FMdU11QXB1MDJGQnBvVmN0T3Z4OTFWRGs2Y3dJVkNJLVZY?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "SK하이닉스가 미국 산호세에서 고대역폭메모리(HBM) 아키텍처 설계 정예팀을 운영하며 글로벌 빅테크와의 공동 설계 체제를 강화하고 있습니다. 기존의 완성품 공급 방식에서 벗어나 고객사의 차세대 AI 칩 개발 초기 단계부터 설계 인력이 참여하는 맞춤형 협업을 추진합니다. 이는 HBM4부터 베이스다이에 첨단 로직 공정이 적용됨에 따라 시스템 반도체와 메모리의 최적화 중요성이 커진 데 따른 전략적 변화입니다. 미국 주요 AI 반도체 기업 거점과 인접한 지리적 이점을 활용해 고객 요구사항을 제품에 빠르게 반영하고 경쟁력을 확보할 방침입니다.",
+      "key_points": [
+        "SK하이닉스 미국법인이 산호세에서 HBM 설계 정예팀을 운영하며 주요 고객사와 차세대 HBM 아키텍처를 공동 개발 중이다.",
+        "채용 중인 HBM 아키텍처 설계팀의 연봉은 최대 26만 달러 규모이다.",
+        "현지 설계 조직은 고객사의 차세대 AI 칩 설계 초기 단계부터 참여해 기술 현안을 조율하고 제품 성능을 최적화하는 역할을 수행한다.",
+        "엔비디아, AMD, 브로드컴 등 주요 AI 반도체 기업의 사업장이 산호세와 인접해 기술 협력에 유리한 환경을 갖췄다."
+      ],
+      "numbers": [
+        "2026.08.19",
+        "26만 달러",
+        "3나노"
+      ],
+      "keywords": [
+        "SK하이닉스",
+        "HBM",
+        "공동 설계",
+        "AI 반도체",
+        "아키텍처"
+      ],
+      "stated_outlook": "HBM4 이후 메모리와 시스템 반도체의 경계가 흐려지면서 고객사와의 긴밀한 공동 설계 및 조기 협업이 향후 HBM 시장 경쟁력을 좌우할 전망이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "HBM4부터 베이스다이에 첨단 로직 공정이 적용되면서 메모리와 시스템 반도체의 경계가 흐려지고 있으며, AI 가속기의 구조가 다양해짐에 따라 고객별로 최적화된 용량, 대역폭, 전력 특성 요구가 늘고 있습니다."
     },
     {
       "id": "7d6de6c4414f",
