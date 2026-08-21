@@ -4285,8 +4285,48 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-21 11:25 KST",
+  "manual_updated_at": "2026-08-21 11:51 KST",
   "favorite_items": [
+    {
+      "id": "b7cedcb13ccc",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "TSMC, 1.6나노 공정 개발 완료…4분기 양산 돌입",
+      "source": "IT조선",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-20 16:10",
+      "collected": "2026-08-21",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3N2lIcHIxeldONEY2N0pyQS1fSUZzU25GeUJKdWdCY2p3SmNNUUhSb290cDdSalNYekFKZ1AzeXBoSy1pZ3ByWHhLT202OFJ1bUNmS1A1dDR3ZG9lSmJUSVhEM0ZzUFd4bDhhQlA1NDfSAXRBVV95cUxORW5sampaUjV2M213MlMzNnBYZnFZdlg4MFNUTHlwMEFqZFBZcW1HUmJpbFJJTmxvT05sZmZrWl9mVnl1Um94cjc4QzU1QUtNSU4taDFMUndpQUNCa0pBbGtLeXFCSGcxbGNvZUN1ZDg3RmRydw?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "TSMC가 1.6나노급 차세대 공정인 'A16'의 기술 개발 및 검증을 완료하고 올해 4분기 양산에 돌입한다. A16 공정은 나노시트 트랜지스터와 후면 전력 공급 기술인 '슈퍼 파워 레일(SPR)'을 결합해 AI 반도체의 성능과 전력 효율을 극대화했다. 기존 대비 처리 속도는 8~10% 향상되고 전력 소비는 15~20% 절감 가능하며, 칩 집적도 또한 8~10% 높아졌다. 이번 공정 도입을 통해 TSMC는 고성능컴퓨팅(HPC) 및 AI 가속기 시장에서의 경쟁력을 한층 강화할 전망이다. TSMC는 생산 능력 확대를 위해 약 294억 달러 규모의 자본지출을 승인하는 등 투자를 가속화하고 있다.",
+      "key_points": [
+        "TSMC가 1.6나노급 'A16' 공정 개발을 완료하고 4분기 양산 예정",
+        "후면 전력 공급 기술 '슈퍼 파워 레일(SPR)'을 적용해 성능과 전력 효율 개선",
+        "첨단 공정 및 패키징 생산 능력 확대를 위해 약 294억 달러 규모의 자본지출 승인",
+        "2028년 1.4나노급 'A14' 공정 양산 계획 수립"
+      ],
+      "numbers": [
+        "1.6나노",
+        "4분기",
+        "2028년",
+        "294억 달러",
+        "41조원"
+      ],
+      "keywords": [
+        "TSMC",
+        "A16",
+        "파운드리",
+        "반도체",
+        "슈퍼 파워 레일"
+      ],
+      "stated_outlook": "TSMC는 올해 4분기 A16 양산을 시작으로 2028년에는 1.4나노급 A14 공정을 양산하여 첨단 파운드리 경쟁력을 강화할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "반도체 공정이 미세해짐에 따라 기존의 신호 및 전력 배선을 웨이퍼 앞면에 배치하는 방식에서는 전력 손실과 신호 간섭 문제가 발생하고 있다. 이에 따라 전력 공급망을 웨이퍼 뒷면으로 옮겨 신호 배선 공간을 확보하고 전력 효율을 높이는 기술적 대응이 요구되고 있다.",
+      "favorited_at": "2026-08-21 11:51 KST"
+    },
     {
       "id": "6f71c3aaaeec",
       "sector": "semiconductor",
