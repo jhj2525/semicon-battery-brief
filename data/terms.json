@@ -1,7 +1,37 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-21T02:27:51.117Z",
+  "updated_at": "2026-08-21T03:58:07.566Z",
   "terms": [
+    {
+      "id": "ee123f66-6541-4743-8348-bb09bc440a5c",
+      "title": "슈퍼 파워 레일",
+      "english": "Super Power Rail (SPR)",
+      "industry": "semiconductor",
+      "category": "전력 공급 기술",
+      "definition": "슈퍼 파워 레일(SPR)은 후면 전력 공급 기술로, 웨이퍼의 뒷면에 전력 공급망을 배치하여 전력 효율을 높이고 신호 간섭을 줄이는 역할을 한다. 이 기술은 나노시트 트랜지스터와 결합하여 AI 반도체의 성능과 전력 효율을 극대화하는 데 사용된다.",
+      "principle": "슈퍼 파워 레일(SPR) 기술은 웨이퍼의 뒷면에 전력 공급망을 배치하여 전력 손실과 신호 간섭을 줄이는 것을 목표로 한다. 이 기술은 나노시트 트랜지스터와 결합하여 전력 공급을 최적화하고, 신호 배선 공간을 확보한다. 전력 공급망은 웨이퍼의 뒷면에 배치되어 전력 효율을 높이고, 신호 간섭을 줄인다. 이 기술은 반도체 공정이 미세해짐에 따라 발생하는 전력 손실과 신호 간섭 문제를 해결하는 데 도움이 된다.",
+      "industry_meaning": "슈퍼 파워 레일(SPR) 기술은 반도체 산업에서 중요한 기술로, 전력 효율을 높이고 신호 간섭을 줄이는 데 도움이 된다. 이 기술은 AI 반도체의 성능과 전력 효율을 극대화하는 데 사용되며, 고성능 컴퓨팅(HPC) 및 AI 가속기 시장에서의 경쟁력을 강화하는 데 기여한다. 또한, 이 기술은 생산 능력 확대를 위해 자본지출을 가속화하는 데 도움이 된다.",
+      "article_meaning": "기사에서 슈퍼 파워 레일(SPR) 기술은 TSMC의 1.6나노급 차세대 공정인 'A16'의 기술 개발 및 검증을 완료하고, 올해 4분기 양산에 돌입한다는 문맥에서 언급된다. 이 기술은 나노시트 트랜지스터와 결합하여 AI 반도체의 성능과 전력 효율을 극대화하는 데 사용되며, 기존 대비 처리 속도는 8~10% 향상되고 전력 소비는 15~20% 절감 가능하다.",
+      "related": [
+        "나노시트 트랜지스터",
+        "후면 전력 공급 기술",
+        "AI 반도체",
+        "고성능 컴퓨팅(HPC)",
+        "AI 가속기",
+        "웨이퍼",
+        "전력 공급망",
+        "신호 간섭"
+      ],
+      "article_title": "TSMC, 1.6나노 공정 개발 완료…4분기 양산 돌입",
+      "article_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3N2lIcHIxeldONEY2N0pyQS1fSUZzU25GeUJKdWdCY2p3SmNNUUhSb290cDdSalNYekFKZ1AzeXBoSy1pZ3ByWHhLT202OFJ1bUNmS1A1dDR3ZG9lSmJUSVhEM0ZzUFd4bDhhQlA1NDfSAXRBVV95cUxORW5sampaUjV2M213MlMzNnBYZnFZdlg4MFNUTHlwMEFqZFBZcW1HUmJpbFJJTmxvT05sZmZrWl9mVnl1Um94cjc4QzU1QUtNSU4taDFMUndpQUNCa0pBbGtLeXFCSGcxbGNvZUN1ZDg3RmRydw?oc=5",
+      "structure": "",
+      "process": "",
+      "defect": "",
+      "job": "",
+      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3N2lIcHIxeldONEY2N0pyQS1fSUZzU25GeUJKdWdCY2p3SmNNUUhSb290cDdSalNYekFKZ1AzeXBoSy1pZ3ByWHhLT202OFJ1bUNmS1A1dDR3ZG9lSmJUSVhEM0ZzUFd4bDhhQlA1NDfSAXRBVV95cUxORW5sampaUjV2M213MlMzNnBYZnFZdlg4MFNUTHlwMEFqZFBZcW1HUmJpbFJJTmxvT05sZmZrWl9mVnl1Um94cjc4QzU1QUt",
+      "created_at": "2026-08-21T03:58:07.566Z",
+      "updated_at": "2026-08-21T03:58:07.566Z"
+    },
     {
       "id": "c69790c1-88b6-4dc4-bed9-92656e5b7e76",
       "title": "1.6나노 공정",
