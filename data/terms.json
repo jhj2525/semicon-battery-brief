@@ -1,7 +1,34 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-21T03:58:07.566Z",
+  "updated_at": "2026-08-21T04:02:39.363Z",
   "terms": [
+    {
+      "id": "149b4112-50aa-4b74-91f9-e8a5a9005650",
+      "title": "디지털 트윈",
+      "english": "Digital Twin",
+      "industry": "common",
+      "category": "제조 기술",
+      "definition": "디지털 트윈은 실제 시스템이나 공정의 가상 복제본으로, 실제와 동일한 조건에서 시뮬레이션과 분석을 수행할 수 있다. 이를 통해 실제 시스템의 성능과 동작을 예측하고 최적화할 수 있다.",
+      "principle": "디지털 트윈은 센서 데이터와 시뮬레이션 소프트웨어를 결합하여 실제 시스템의 동작을 모델링한다. 이 모델은 실제 시스템의 성능과 동작을 예측하고 분석할 수 있으며, 이를 통해 최적화와 개선을 수행할 수 있다. 디지털 트윈은 실제 시스템의 상태를 실시간으로 모니터링할 수 있으며, 이는 예방적 유지보수와 결함 예측에 도움이 된다. 또한, 디지털 트윈은 새로운 시스템이나 공정의 설계와 테스트에 사용될 수 있다.",
+      "industry_meaning": "디지털 트윈은 제조 산업에서 생산성과 효율성을 향상시키는 데 중요한 역할을 한다. 이를 통해 실제 시스템의 성능과 동작을 예측하고 최적화할 수 있으며, 이는 에너지 소비량과 원자재 사용량을 줄이는 데 도움이 된다. 또한, 디지털 트윈은 제품의 품질과 신뢰성을 향상시키는 데 도움이 된다.",
+      "article_meaning": "기사에서 디지털 트윈은 CATL의 배터리 셀 공장에서 공정 효율을 높이는 데 사용된 기술로 언급된다. 이는 태양광 패널과 AI 기술과 함께 도입되어 공정 효율을 향상시키고 에너지 소비량을 줄이는 데 기여했다. 이는 CATL의 탄소중립을 달성하는 데 중요한 역할을 했다.",
+      "related": [
+        "AI",
+        "시뮬레이션",
+        "센서 데이터",
+        "예방적 유지보수",
+        "품질 관리"
+      ],
+      "article_title": "100% 태양광 공장 성공한 CATL…쩡위췬 회장 “탄소제로 아닌 배터리 도태될 것”",
+      "article_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94WkJ3Mmk1WC1uVTJrbUZDMFNBNk5NZnRrbmdueEpaa2k5MWhCN3dwRy1UUlpSYzVqSWJxMGxjYkU4dzg5R0l0U2sxWVNaZUdhdUE?oc=5",
+      "structure": "",
+      "process": "",
+      "defect": "",
+      "job": "",
+      "source": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94WkJ3Mmk1WC1uVTJrbUZDMFNBNk5NZnRrbmdueEpaa2k5MWhCN3dwRy1UUlpSYzVqSWJxMGxjYkU4dzg5R0l0U2sxWVNaZUdhdUE?oc=5",
+      "created_at": "2026-08-21T04:02:39.363Z",
+      "updated_at": "2026-08-21T04:02:39.363Z"
+    },
     {
       "id": "ee123f66-6541-4743-8348-bb09bc440a5c",
       "title": "슈퍼 파워 레일",
