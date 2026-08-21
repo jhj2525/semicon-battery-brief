@@ -4266,8 +4266,49 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-20 14:53 KST",
+  "manual_updated_at": "2026-08-21 11:19 KST",
   "favorite_items": [
+    {
+      "id": "6f71c3aaaeec",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "How Will The Custom HBM Business Work?",
+      "source": "Semiconductor Engineering",
+      "published": "2026-08-20 16:02",
+      "collected": "2026-08-21",
+      "link": "https://semiengineering.com/how-will-the-custom-hbm-business-work/",
+      "rss_description": "There is no one-size-fits-all — yet. The post How Will The Custom HBM Business Work? appeared first on Semiconductor Engineering .",
+      "score": 4,
+      "source_type": "해외 산업 보도",
+      "source_rank": 1,
+      "verified_source": true,
+      "overview": "HBM4부터는 필요에 따라 맞춤형 베이스 다이(Customized base die)를 사용하는 것이 가능해지며, 이는 주로 하이퍼스케일러의 데이터 처리 요구를 충족하기 위한 전략입니다. 맞춤형 HBM(cHBM)은 기존 메모리 제조 방식에서 벗어나 설계, 제조, 조립 단계에서 다양한 이해관계자 간 협력을 필요로 합니다. 이러한 변화는 메모리 공급 부족을 심화하기보다는 메모리 구성의 다양성을 높이는 방향으로 작용할 것으로 보입니다. 맞춤형 HBM은 성능과 효율을 최적화하여 XPU(CPU/GPU/NPU)의 전반적인 경쟁력을 높이는 수단으로 활용됩니다.",
+      "key_points": [
+        "HBM4는 성능과 전력 효율을 위해 베이스 다이에 논리 공정(logic process)을 도입하며, 이를 맞춤화하여 특정 작업 부하를 효율적으로 처리할 수 있음",
+        "맞춤형 HBM 제작 프로젝트는 설계, 제조(파운드리), 조립(어셈블리) 등 4가지 단계를 거치며, 각 프로젝트별로 참여 기업 간의 협약에 따라 역할이 분담됨",
+        "맞춤형 HBM을 통해 메모리 컨트롤러를 베이스 다이로 이동시킴으로써 XPU 다이의 면적을 줄이고, 더 많은 메모리 스택을 연결할 수 있는 공간을 확보하는 등의 이점이 있음",
+        "설계 역량과 자본이 필요한 맞춤형 HBM은 주로 하이퍼스케일러 기업들을 대상으로 하며, 기업의 차별화된 요구사항을 반영하기 위한 용도로 사용됨"
+      ],
+      "numbers": [
+        "4nm",
+        "70%",
+        "25%",
+        "2,048 bits",
+        "10µm",
+        "16"
+      ],
+      "keywords": [
+        "HBM4",
+        "cHBM",
+        "하이퍼스케일러",
+        "베이스 다이",
+        "XPU",
+        "맞춤형 메모리"
+      ],
+      "stated_outlook": "맞춤형 HBM 프로젝트는 향후 1~2년 내에 데이터센터에 도입될 것으로 예상됩니다. 전체 산업 관점에서 맞춤형 HBM 수요는 기존 HBM 수요의 연장선에 있어 추가적인 공급 부담을 주지는 않을 것으로 보이나, 표준 제품과 맞춤형 제품 간의 혼합 비율 예측이 어려워 공급 계획 수립에 변수로 작용할 수 있습니다.",
+      "favorited_at": "2026-08-21 11:19 KST"
+    },
     {
       "id": "5c9e0fa38598",
       "sector": "battery",
