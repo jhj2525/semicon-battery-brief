@@ -257,13 +257,33 @@
       "collected": "2026-08-21",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94WkJ3Mmk1WC1uVTJrbUZDMFNBNk5NZnRrbmdueEpaa2k5MWhCN3dwRy1UUlpSYzVqSWJxMGxjYkU4dzg5R0l0U2sxWVNaZUdhdUE?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "세계 1위 배터리 기업 CATL이 핵심 운영 부문에서 100% 탄소중립을 달성하며 제조 경쟁력을 강화하고 있다. 회사는 배터리 셀 공장에 태양광 패널을 설치하고 AI와 디지털트윈 기술을 도입해 공정 효율을 높였다. 특히 유럽연합(EU)의 탄소발자국 규제 강화에 대응해 탄소중립을 글로벌 수주전의 핵심 무기로 활용하고 있다. 단순 제조를 넘어 에너지저장장치(ESS)와 재활용 등 탄소제로 솔루션 사업으로 영역을 확장 중이다. 이는 가격 경쟁이 심화되는 글로벌 배터리 시장에서 차별화된 경쟁 우위를 확보하려는 전략으로 풀이된다.",
+      "key_points": [
+        "CATL은 배터리 업계 최초로 핵심 운영 부문에서 100% 탄소중립을 달성함.",
+        "20개 배터리 공장의 생산 공정 효율화를 통해 에너지 소비량을 2022년 대비 28% 절감함.",
+        "ESS 사업 매출 비중을 현재 25%에서 50%까지 확대할 계획임.",
+        "내년부터 신규 공급업체 진입 심사에 탄소발자국 지표를 의무화할 예정임."
+      ],
+      "numbers": [
+        "2026-08-20",
+        "2500만kWh",
+        "20",
+        "2035",
+        "8.2%",
+        "28%"
+      ],
+      "keywords": [
+        "CATL",
+        "탄소중립",
+        "등대공장",
+        "ESS",
+        "탄소발자국"
+      ],
+      "stated_outlook": "2035년까지 광물 채굴부터 재활용까지 전체 가치사슬의 탄소중립을 달성하고, ESS 사업 매출 비중을 50%까지 늘릴 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "유럽연합(EU)은 올해 2월부터 배터리 탄소발자국 신고 의무를 도입했으며 2028년부터는 상한 기준을 적용할 예정이다. 글로벌 완성차 업체들도 규제 대응을 위해 공급업체에 탄소배출 데이터 제출을 요구하는 추세다."
     }
   ],
   "archive_items": [
@@ -4285,7 +4305,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-21 12:58 KST",
+  "manual_updated_at": "2026-08-21 12:59 KST",
   "favorite_items": [
     {
       "id": "b7cedcb13ccc",
