@@ -1,7 +1,36 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-20T04:06:24.934Z",
+  "updated_at": "2026-08-21T02:27:51.117Z",
   "terms": [
+    {
+      "id": "c69790c1-88b6-4dc4-bed9-92656e5b7e76",
+      "title": "1.6나노 공정",
+      "english": "1.6nm process",
+      "industry": "semiconductor",
+      "category": "공정 기술",
+      "definition": "1.6나노 공정은 반도체를制造하는 데 사용되는 기술로, 트랜지스터의 크기를 1.6나노미터 수준으로 축소하여 더 많은 트랜지스터를 한 칩에 집적할 수 있는 기술이다. 이로 인해 처리 속도가 향상되고 전력 소비가 줄어든다.",
+      "principle": "1.6나노 공정은 나노시트 트랜지스터와 후면 전력 공급 기술인 '슈퍼 파워 레일(SPR)'을 결합하여 작동한다. 나노시트 트랜지스터는 기존의 핀형 트랜지스터보다 더 작은 크기로 설계되어 더 많은 트랜지스터를 한 칩에 집적할 수 있다. 후면 전력 공급 기술은 전력 공급망을 웨이퍼 뒷면으로 옮겨 신호 배선 공간을 확보하고 전력 효율을 높인다. 이 기술은 기존의 신호 및 전력 배선을 웨이퍼 앞면에 배치하는 방식의 한계를 극복하기 위해 개발되었다. 1.6나노 공정의 개발은 반도체 제조 공정의 미세화와 관련된 여러 기술적 과제를 해결해야 한다. 이러한 과제에는 트랜지스터의 크기 축소, 전력 공급망의 최적화, 신호 간섭의 감소 등이 포함된다.",
+      "industry_meaning": "1.6나노 공정은 반도체 산업에서 중요한 기술로, 더 높은 성능과 더 낮은 전력 소비를 가능하게 한다. 이는 특히 고성능 컴퓨팅과 AI 가속기 시장에서 경쟁력을 강화하는 데 중요한 역할을 한다. 또한, 1.6나노 공정의 개발은 생산 능력의 확대와 관련된 투자를 가속화하는 데 중요한 역할을 한다. TSMC의 경우, 1.6나노 공정의 개발을 통해 고성능 컴퓨팅 및 AI 가속기 시장에서의 경쟁력을 강화할 전망이다.",
+      "article_meaning": "기사에서 1.6나노 공정은 TSMC의 차세대 공정 기술로 소개된다. TSMC는 1.6나노급 'A16' 공정 개발을 완료하고 4분기 양산을 계획하고 있다. 이 공정은 나노시트 트랜지스터와 후면 전력 공급 기술인 '슈퍼 파워 레일(SPR)'을 결합하여 성능과 전력 효율을 극대화한다. 기존 대비 처리 속도는 8~10% 향상되고 전력 소비는 15~20% 절감 가능하며, 칩 집적도 또한 8~10% 높아졌다.",
+      "related": [
+        "나노시트 트랜지스터",
+        "슈퍼 파워 레일(SPR)",
+        "고성능 컴퓨팅",
+        "AI 가속기",
+        "트랜지스터",
+        "웨이퍼",
+        "전력 공급망"
+      ],
+      "article_title": "TSMC, 1.6나노 공정 개발 완료…4분기 양산 돌입",
+      "article_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3N2lIcHIxeldONEY2N0pyQS1fSUZzU25GeUJKdWdCY2p3SmNNUUhSb290cDdSalNYekFKZ1AzeXBoSy1pZ3ByWHhLT202OFJ1bUNmS1A1dDR3ZG9lSmJUSVhEM0ZzUFd4bDhhQlA1NDfSAXRBVV95cUxORW5sampaUjV2M213MlMzNnBYZnFZdlg4MFNUTHlwMEFqZFBZcW1HUmJpbFJJTmxvT05sZmZrWl9mVnl1Um94cjc4QzU1QUtNSU4taDFMUndpQUNCa0pBbGtLeXFCSGcxbGNvZUN1ZDg3RmRydw?oc=5",
+      "structure": "",
+      "process": "",
+      "defect": "",
+      "job": "",
+      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3N2lIcHIxeldONEY2N0pyQS1fSUZzU25GeUJKdWdCY2p3SmNNUUhSb290cDdSalNYekFKZ1AzeXBoSy1pZ3ByWHhLT202OFJ1bUNmS1A1dDR3ZG9lSmJUSVhEM0ZzUFd4bDhhQlA1NDfSAXRBVV95cUxORW5sampaUjV2M213MlMzNnBYZnFZdlg4MFNUTHlwMEFqZFBZcW1HUmJpbFJJTmxvT05sZmZrWl9mVnl1Um94cjc4QzU1QUt",
+      "created_at": "2026-08-21T02:27:51.117Z",
+      "updated_at": "2026-08-21T02:27:51.117Z"
+    },
     {
       "id": "c281886a-7800-4f21-a9a8-7fc19a616d6e",
       "title": "CPU",
