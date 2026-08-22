@@ -1,33 +1,13 @@
 {
-  "updated_at": "2026-08-22 08:06 KST",
-  "last_automatic_update_at": "2026-08-22 08:06 KST",
-  "automatic_cycle_started_at": "2026-08-22 08:00 KST",
+  "updated_at": "2026-08-22 19:37 KST",
+  "last_automatic_update_at": "2026-08-22 19:37 KST",
+  "automatic_cycle_started_at": "2026-08-22 19:35 KST",
   "publication_window": {
-    "from": "2026-08-21 08:00 KST",
-    "to": "2026-08-22 08:00 KST"
+    "from": "2026-08-21 19:35 KST",
+    "to": "2026-08-22 19:35 KST"
   },
-  "today_verified_count": 14,
+  "today_verified_count": 0,
   "current_items": [
-    {
-      "id": "da00cf58e45c",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "네패스, 충북반도체고에 교육훈련장비 기증했다…\"16대\"",
-      "source": "뉴시스",
-      "source_type": "통신사 보도",
-      "published": "2026-08-21 17:13",
-      "collected": "2026-08-22",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JRGlFZ1d3ODRhdEs4YWcyRWRoWUxmYzE5aUt1Q0Q4SlAyWm5pME1IbmlZalVwTnYzdXBCUGJiTTVIT2gwNlEtNlB6NUE3ejFBaTFwTW9yWXVRU04ybXRyYVpONDlPN3RIRDREbGJfUU9qSG9QMFJUVtIBeEFVX3lxTE5JRGlFZ1d3ODRhdEs4YWcyRWRoWUxmYzE5aUt1Q0Q4SlAyWm5pME1IbmlZalVwTnYzdXBCUGJiTTVIT2gwNlEtNlB6NUE3ejFBaTFwTW9yWXVRU04ybXRyYVpONDlPN3RIRDREbGJfUU9qSG9QMFJUVg?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
     {
       "id": "6ecc1cd46e32",
       "sector": "semiconductor",
