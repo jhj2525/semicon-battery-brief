@@ -1348,10 +1348,11 @@ def merge_manual_items(old_items, new_items):
     return deduped[:MANUAL_LIMIT]
 
 
-def without_deleted(items, delete_id):
-    if not delete_id:
+def without_deleted(items, delete_ids):
+    deleted = {str(value) for value in delete_ids if value}
+    if not deleted:
         return list(items)
-    return [item for item in items if str(item.get("id", "")) != delete_id]
+    return [item for item in items if str(item.get("id", "")) not in deleted]
 
 
 def with_edited_title(items, edit_id, edit_title):
@@ -1364,6 +1365,49 @@ def with_edited_title(items, edit_id, edit_title):
             item["title"] = base.clean(edit_title)[:300]
         result.append(item)
     return result
+
+
+def apply_delete(payload, article_ids):
+    article_keys = (
+        "current_items", "archive_items", "manual_items", "semi_items",
+        "semi_archive_items", "market_items", "items", "favorite_items",
+    )
+    deleted_ids = {str(value) for value in article_ids if value}
+    deleted_urls = {
+        canonical_url(item.get("link"))
+        for key in article_keys
+        for item in payload.get(key, [])
+        if str(item.get("id", "")) in deleted_ids and item.get("link")
+    }
+    updated = dict(payload)
+    for key in article_keys:
+        if key in payload:
+            updated[key] = without_deleted(payload.get(key, []), deleted_ids)
+    updated["deleted_article_ids"] = sorted(
+        set(map(str, payload.get("deleted_article_ids", []))) | deleted_ids
+    )[-10000:]
+    updated["deleted_article_urls"] = sorted(
+        {
+            canonical_url(value)
+            for value in payload.get("deleted_article_urls", [])
+            if value
+        } | deleted_urls
+    )[-10000:]
+    updated["manual_updated_at"] = datetime.now(base.KST).strftime(
+        "%Y-%m-%d %H:%M KST"
+    )
+    return updated
+
+
+def apply_title_edit(payload, article_id, title):
+    updated = dict(payload)
+    updated["manual_items"] = with_edited_title(
+        payload.get("manual_items", []), article_id, title
+    )
+    updated["manual_updated_at"] = datetime.now(base.KST).strftime(
+        "%Y-%m-%d %H:%M KST"
+    )
+    return updated
 
 
 def apply_favorite(payload, article_id, favorite_state):
@@ -1566,6 +1610,7 @@ def main():
         raise RuntimeError("GEMINI_API_KEY is required")
 
     old = v3.read_old()
+    automatic_run = os.getenv("GITHUB_EVENT_NAME", "").strip() == "schedule"
     pasted_article_id = os.getenv("PASTED_ARTICLE_ID", "").strip()
     pasted_article_text = os.getenv("PASTED_ARTICLE_TEXT", "").strip()
     if pasted_article_id or pasted_article_text:
@@ -1596,30 +1641,48 @@ def main():
         print(f"favorite saved: {favorite_id} -> {favorite_value}")
         return
 
-    delete_id = os.getenv("DELETE_ARTICLE_ID", "").strip()
+    delete_value = os.getenv("DELETE_ARTICLE_ID", "").strip()
     edit_id = os.getenv("EDIT_ARTICLE_ID", "").strip()
     edit_title = os.getenv("EDIT_ARTICLE_TITLE", "").strip()
+    if delete_value:
+        delete_ids = list(dict.fromkeys(
+            value.strip() for value in delete_value.splitlines() if value.strip()
+        ))
+        if not delete_ids or any(
+            not re.fullmatch(r"[a-f0-9]{12}", value, re.IGNORECASE)
+            for value in delete_ids
+        ):
+            raise ValueError("delete article id is invalid")
+        payload = apply_delete(old, delete_ids)
+        base.OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+        base.OUTPUT.write_text(
+            json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        print(f"deleted stored articles: {len(delete_ids)}")
+        return
+
+    if edit_id or edit_title:
+        if not re.fullmatch(r"[a-f0-9]{12}", edit_id, re.IGNORECASE):
+            raise ValueError("edit article id is invalid")
+        if not edit_title or len(edit_title) > 300:
+            raise ValueError("edit article title is invalid")
+        payload = apply_title_edit(old, edit_id, base.clean(edit_title)[:300])
+        base.OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+        base.OUTPUT.write_text(
+            json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        print(f"edited manual article title: {edit_id}")
+        return
+
     legacy = old.get("items", [])
     old_current = old.get("current_items", [])
     old_archive = old.get("archive_items", [])
-    legacy = without_deleted(legacy, delete_id)
-    old_current = without_deleted(old_current, delete_id)
-    old_archive = without_deleted(old_archive, delete_id)
     all_existing = [tag_source(item) for item in old_current + old_archive + legacy]
     old_semi_current = old.get("semi_items", [])
     old_semi_archive = old.get("semi_archive_items", [])
     legacy_market = old.get("market_items", [])
-    old_semi_current = without_deleted(old_semi_current, delete_id)
-    old_semi_archive = without_deleted(old_semi_archive, delete_id)
-    legacy_market = without_deleted(legacy_market, delete_id)
     all_existing_semi = old_semi_current + old_semi_archive + legacy_market
     old_manual_items = old.get("manual_items", [])
-    old_manual_items = without_deleted(old_manual_items, delete_id)
-    old_manual_items = with_edited_title(old_manual_items, edit_id, edit_title)
-    if delete_id:
-        print(f"deleted stored article id: {delete_id}")
-    if edit_id and edit_title:
-        print(f"edited manual article title: {edit_id}")
 
     manual_url = os.getenv("MANUAL_ARTICLE_URL", "").strip()
     manual_sector = os.getenv("MANUAL_ARTICLE_SECTOR", "").strip()
@@ -1649,6 +1712,10 @@ def main():
         print(f"manual-only update saved: {manual_sector} · {len(new_manual_items)}")
         return
 
+    if not automatic_run:
+        print("empty manual workflow dispatch ignored; automatic collection is schedule-only")
+        return
+
     now = datetime.now(base.KST)
     today = now.date()
     cycle_started = old.get("automatic_cycle_started_at", "")
@@ -1665,7 +1732,21 @@ def main():
         cycle_started_at is not None
         and cycle_started_at.date() == now.date()
     )
-    fetched = collect_all_candidates()
+    deleted_ids = set(map(str, old.get("deleted_article_ids", [])))
+    deleted_urls = {
+        canonical_url(value)
+        for value in old.get("deleted_article_urls", [])
+        if value
+    }
+
+    def is_suppressed(item):
+        return (
+            str(item.get("id", "")) in deleted_ids
+            or canonical_url(item.get("link")) in deleted_urls
+        )
+
+    fetched = [item for item in collect_all_candidates() if not is_suppressed(item)]
+    all_existing = [item for item in all_existing if not is_suppressed(item)]
     # Keep already verified articles inside the three-day window as reusable
     # candidates even if a feed is temporarily unavailable on this run.
     reusable_candidates = []
