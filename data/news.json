@@ -213,13 +213,29 @@
       "collected": "2026-08-24",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NNmJENjc5cHpQV0dvMnJvRHJ0c1cyMTRXbUNKVlJoRHdCREowSmNRQjZoOHNiSXhXZ0hBV3pITDk1eVJpOUl1eF80SWlGREVOVU8xT1o1eFhVdw?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "삼성전자가 메모리 내부에서 AI 연산을 직접 수행하는 차세대 고대역폭메모리인 'aHBM'을 공개했습니다. 기존의 HBM이 GPU에 데이터를 공급하는 역할에 그쳤다면, aHBM은 연산 회로를 내부에 탑재해 직접 데이터 처리에 참여합니다. 이를 통해 데이터 이동 거리를 줄이고 전력 소모를 효율화할 수 있을 것으로 기대됩니다. 삼성전자는 cHBM, aHBM, zHBM으로 이어지는 3단계 HBM 진화 로드맵을 제시했습니다. 한상욱 삼성전자 메모리사업부 부사장은 미국 스탠퍼드대에서 열린 '핫칩스 2026'에서 이러한 기술 구상을 발표했습니다.",
+      "key_points": [
+        "삼성전자가 AI 가속기의 연산 일부를 담당하는 차세대 HBM인 'aHBM' 청사진을 공개함.",
+        "HBM 진화 로드맵은 cHBM에서 aHBM을 거쳐 GPU 위에 직접 쌓는 zHBM으로 이어지는 3단계 구조임.",
+        "aHBM은 어텐션 연산을 직접 수행하며 데이터 이동과 전력 효율을 개선함.",
+        "한상욱 삼성전자 메모리사업부 부사장이 '핫칩스 2026'에서 관련 내용을 발표함."
+      ],
+      "numbers": [
+        "2026.08.24",
+        "23일"
+      ],
+      "keywords": [
+        "삼성전자",
+        "aHBM",
+        "HBM",
+        "핫칩스 2026",
+        "AI 반도체"
+      ],
+      "stated_outlook": "cHBM에서 aHBM으로, 최종적으로는 GPU 위에 쌓는 zHBM으로 이어지는 3단계 차세대 HBM 진화 로드맵을 추진할 계획입니다.",
+      "summary_source": "pasted_text",
+      "industry_context": ""
     },
     {
       "id": "c9996cebf2b6",
@@ -5524,7 +5540,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-24 18:03 KST",
+  "manual_updated_at": "2026-08-24 18:04 KST",
   "favorite_items": [
     {
       "id": "96be0a914c7a",
