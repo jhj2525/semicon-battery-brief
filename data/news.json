@@ -5544,8 +5544,49 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-24 18:23 KST",
+  "manual_updated_at": "2026-08-24 18:25 KST",
   "favorite_items": [
+    {
+      "id": "46fa8e5bf0a3",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "K-배터리, 북미 공략 본격화…ESS 증설·투자 재원 확보 속도 [위클리배터리]",
+      "source": "디지털데일리",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-23 08:39",
+      "collected": "2026-08-24",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Sa3o4dmZ0TXJVR0hHNXk4cWoxMGNJb29hdTRFSk9XQThZci1NcW80Z2s2THNOSmFxMng5Rk5qRllxanBKSUNTRVhBUXhueTI3aG1Jc1JldWNJTGdhSk5XV3JSbEQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "국내 배터리 업계가 북미 시장에서 전기차 중심의 생산 체계를 에너지저장장치(ESS) 중심으로 재편하며 사업 구조를 다변화하고 있다. LG에너지솔루션은 미시간주 랜싱 공장을 가동하며 북미 내 ESS 생산 거점을 5개로 확대하고, 전기차와 ESS 수요에 따른 탄력적인 생산 전략을 강화했다. SK온은 AI 플랫폼을 활용해 글로벌 생산거점의 운영 효율을 높이고 테네시 공장의 독자 운영 체제를 구축하는 등 체질 개선에 나섰다. 이러한 움직임은 AI 데이터센터와 전력망 투자 확대에 따른 ESS 수요 급증에 대응하기 위한 전략으로 풀이된다. 단순한 배터리 셀 공급을 넘어 SI(시스템통합) 등 서비스 영역까지 사업 범위를 넓히며 수익성 확보에 주력하고 있다.",
+      "key_points": [
+        "LG에너지솔루션이 미국 미시간주 랜싱 공장을 공식 가동하며 ESS용 LFP 배터리와 전기차용 NCM 배터리 생산을 시작함",
+        "LG에너지솔루션은 북미 내 ESS용 배터리 생산 거점을 5개 확보하고 올해 말까지 50GWh 이상의 생산능력을 갖출 계획임",
+        "SK온은 사내 AI 플랫폼을 통해 생산·품질·원가 등 사업 전반의 데이터를 분석하는 운영 효율화 작업을 진행 중임",
+        "SK온은 테네시 공장을 독자 운영 체제로 전환하고 신규 고객 확보를 통해 공장 활용도를 높이는 전략을 추진함"
+      ],
+      "numbers": [
+        "2026-08-18",
+        "35GWh",
+        "140GWh",
+        "3조원",
+        "50GWh"
+      ],
+      "keywords": [
+        "K-배터리",
+        "ESS",
+        "LG에너지솔루션",
+        "SK온",
+        "북미 생산거점",
+        "AI 플랫폼"
+      ],
+      "stated_outlook": "LG에너지솔루션은 올해 말까지 북미 ESS용 LFP 배터리 생산능력을 50GWh 이상 확보하고, 향후 AI 데이터센터 프로젝트를 통해 북미 내 ESS 생산 비중을 높일 계획임",
+      "summary_source": "pasted_text",
+      "industry_context": "전기차 시장 성장 둔화와 AI 데이터센터 및 전력망 투자를 중심으로 한 에너지저장장치(ESS) 수요 증가",
+      "favorited_at": "2026-08-24 18:25 KST"
+    },
     {
       "id": "e98d90540806",
       "sector": "battery",
