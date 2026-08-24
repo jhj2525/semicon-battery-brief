@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-24 08:57 KST",
-  "last_automatic_update_at": "2026-08-24 08:57 KST",
-  "automatic_cycle_started_at": "2026-08-24 08:54 KST",
+  "updated_at": "2026-08-24 17:37 KST",
+  "last_automatic_update_at": "2026-08-24 17:37 KST",
+  "automatic_cycle_started_at": "2026-08-24 17:36 KST",
   "publication_window": {
-    "from": "2026-08-23 08:54 KST",
-    "to": "2026-08-24 08:54 KST"
+    "from": "2026-08-23 17:36 KST",
+    "to": "2026-08-24 17:36 KST"
   },
-  "today_verified_count": 0,
+  "today_verified_count": 6,
   "current_items": [
     {
       "id": "9e0e095ce439",
@@ -164,26 +164,6 @@
       "stated_outlook": ""
     },
     {
-      "id": "33f220a437a6",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "투자·양산",
-      "title": "삼성전자 평택 반도체 공장 전경.",
-      "source": "전자신문",
-      "source_type": "산업 전문언론",
-      "published": "2026-08-23 22:41",
-      "collected": "2026-08-24",
-      "link": "https://news.google.com/rss/articles/CBMi8gRBVV95cUxNV1RudHJXN2xwMS13bzAtTTM3Z3cxTEJNMmFiRGFmSnlBQzdLRG9LTVUySkNvVDBhQzR3Sms0cXJZSzQ4YjJvSEdrWFhjSXk1VWdKeVd6amJ0MlB3OGFiS0hFSU9FUmJlaTdKWTVmdUFhZ0RnYnJDckxjU01yY0ZqUGh2ZTlZZWRaa2I2VklZWi11ZGtSY3AyaDNHSVpjTXVNSUpzZU1FeDc3a1k2VW9qR0J4ZWxoNjJWQzBFdmpQYmZFc1RvMHV4TDZ4bkdfbzY5RC1IQlpRM1RMS0ZMYUJwaFZyQVRoSzNhNG42aXdlQUhnZzVfd1FpNGxSc25lSzZpbk1QbTZET3RfYk1yMnRDRlN1ZlFKbDFJcl9FclhXUHp0ek9BWDN4bU05eUZFQ05iWDd0TTdUWnJnU1hub2RwVXVUOWNiYzZPUVVBc2xGd2FQLV82YUJYc0JRaTlwSGZ3NF9Hek55b3dkMDZhdFQzc3NQM19UV0lwci1rcTFGOEdJcm5XaHhiVjlDQmxjMGxIOFJ6c21MMW9YekVPdXFlVXY3VXBIRk5TSHdhdV9XNmdEODhraTdxSTBuM0JCV0tIRllSTmRSajVKLUV0RWRkd2xWYmlyRmJjSWtkdTR0MlZkcGczenEzZzNIajNvaHBIajZoMEZ0ZmhMWWhqTUR3RUxxeDhlaXpSVEZqUTBveDdHdFJ6bC1jWWNUQjB1Nm5nbUtSOWp5WHI4anNoemNqMWFPQXpudjhDTE9Yb0R0MV9Gd2pRWV81QTRVMlRJNDduZVV2SVdVckdaM29QSVFfeXNxTEtXRUFyYlRGcHFIRDlBUQ?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
       "id": "edebf79f60a7",
       "sector": "semiconductor",
       "region": "domestic",
@@ -202,6 +182,45 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": ""
+    },
+    {
+      "id": "c9996cebf2b6",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "삼성·SK, '핫칩스 2026'서 차세대 HBM 병목 다른 해법 제시",
+      "source": "전자신문",
+      "published": "2026-08-24 17:00",
+      "collected": "2026-08-24",
+      "link": "https://www.etnews.com/20260824000178",
+      "rss_description": "삼성전자와 SK하이닉스가 23일(현지시간) 미국 스탠퍼드대에서 열린 '핫칩스(Hot Chips) 2026' 첫날 메모리 튜토리얼에서 차세대 고대역폭메모리(HBM) 기술에 대해 확연히 다른 전략을 공개했다. 삼성전자는 베이스 다이를 단순 연결 부품에서 능동적 논리 칩으로 바꾸는 '베이스 다이 능동화'에 무게를 둔 반면, SK하이닉스는 적층 수 증가에 따른 열과 휨 문제를 해결하는 고급 패키징·열 관리 기술에 집중했다. 이날 한상욱 삼성전자 연구원",
+      "score": 39,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "삼성전자와 SK하이닉스가 미국 스탠퍼드대에서 열린 '핫칩스 2026'에서 차세대 고대역폭메모리(HBM) 기술 병목 현상을 해결하기 위한 서로 다른 전략을 발표했다. 삼성전자는 베이스 다이의 능동적 논리 칩 전환 및 3단계 진화 방안에 집중하는 전략을 제시했다. 반면 SK하이닉스는 16층 이상 적층을 위한 고급 패키징 기술과 열 관리 기술에 초점을 맞췄다. 양사는 각자의 기술을 통해 차세대 HBM의 성능과 효율 개선을 목표로 하고 있다.",
+      "key_points": [
+        "삼성전자는 베이스 다이를 능동화하고 기능을 고도화하여 메모리 컨트롤러를 통합하고 열 문제를 해결하는 3단계 진화 방안을 제시했다.",
+        "SK하이닉스는 16층 이상 적층을 위해 어드밴스드 MR-MUF 기술 및 하이브리드 본딩을 활용한 열 저항 및 휨 제어 기술에 집중한다.",
+        "삼성전자는 최종적으로 인터포저를 제거하는 zHBM 구상을 밝혔으며, SK하이닉스는 HBM을 가속기 위에 직접 적층하는 3차원 통합을 추진할 계획이다."
+      ],
+      "numbers": [
+        "2026-08-24",
+        "35%",
+        "16층",
+        "775마이크로미터",
+        "0.9배",
+        "0.5배"
+      ],
+      "keywords": [
+        "HBM",
+        "삼성전자",
+        "SK하이닉스",
+        "핫칩스 2026",
+        "베이스 다이",
+        "고급 패키징"
+      ],
+      "stated_outlook": "삼성전자는 베이스 다이의 코프로세서 진화가 AI 시스템의 메모리·로직 설계 방식을 바꿀 것으로 전망했다. SK하이닉스는 HBM4에서 HBM3E 대비 열저항 14% 이상 개선, 전력 효율 40% 이상 개선, 대역폭 2테라바이트/초 이상 및 용량 최대 48기가바이트 달성을 목표로 제시했다."
     },
     {
       "id": "46fa8e5bf0a3",
@@ -280,6 +299,125 @@
       "stated_outlook": "전 세계적으로 산업정책이 전략 산업 육성 위주로 재편되고 있어, 한국도 모든 산업을 키우기보다 국가 자원의 선택과 집중이 필요한 시점이다.",
       "summary_source": "pasted_text",
       "industry_context": "한국 산업정책은 과거 설탕·밀가루·섬유를 다루던 3백 정책에서 최근 7대 시드 산업인 SMR, 핵융합, 재생에너지, 양자, 우주항공, 첨단바이오, 첨단소재·부품 공급망 등으로 변화해왔다."
+    },
+    {
+      "id": "4c09209c999d",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "그리드위즈, BESS·AI 데이터센터 사업 확대 본격화…250억원 투자재원 확보",
+      "source": "전자신문 경제",
+      "published": "2026-08-24 15:53",
+      "collected": "2026-08-24",
+      "link": "https://www.etnews.com/20260824000331",
+      "rss_description": "그리드위즈가 국내외 배터리 에너지저장장치(BESS) 사업 확대와 인공지능(AI_ 데이터센터 관련 신규사업 추진을 위한 투자재원 확보에 나선다. 그리드위즈는 24일 이사회를 열고 총 250억원 규모의 무기명식 무이권부 무보증 사모 전환사채(CB) 발행을 결정했다고 금융감독원 전자공시시스템(DART)을 통해 밝혔다. 이번 전환사채는 제1회 150억원과 제2회 100억원 등 두 회차로 나눠 발행된다. 회사측은 조달 자금이 시설자금 180억원과 운영자",
+      "score": 18,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "그리드위즈가 총 250억 원 규모의 무기명식 무이권부 무보증 사모 전환사채(CB) 발행을 결정하며 배터리 에너지저장장치(BESS) 사업과 AI 데이터센터 관련 사업 확대를 위한 투자재원을 확보했다. 조달된 자금은 국내 배전망 ESS 구축과 호주 BESS 사업 등 시설자금과 AI 데이터센터 관련 사업 등 운영자금으로 사용될 예정이다. 이번 전환사채는 두 회차로 나뉘어 발행되며 만기는 모두 5년이다.",
+      "key_points": [
+        "그리드위즈가 250억 원 규모의 사모 전환사채(CB)를 발행해 투자재원을 확보함",
+        "시설자금 180억 원(국내 배전망 ESS 90억 원, 호주 BESS 90억 원)과 운영자금 70억 원으로 나누어 집행 예정",
+        "전환사채 발행 제1회는 150억 원, 제2회는 100억 원 규모이며 만기는 모두 5년임",
+        "제1회 CB는 한국투자증권 주선으로 인수되며, 제2회 CB는 케이비에스비아이글로벌첨단전략 사모투자합자회사가 인수함"
+      ],
+      "numbers": [
+        "250억 원",
+        "180억 원",
+        "70억 원",
+        "90억 원",
+        "5년",
+        "2026년 9월 1일"
+      ],
+      "keywords": [
+        "그리드위즈",
+        "BESS",
+        "전환사채",
+        "AI 데이터센터",
+        "배전망 ESS"
+      ],
+      "stated_outlook": "BESS 사업의 국내외 경쟁력을 강화하고, AI 데이터센터 전력 인프라 등 글로벌 에너지 시장에서 새로운 사업 기회를 지속적으로 발굴해 나갈 계획이다."
+    },
+    {
+      "id": "7777182a7a5b",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "'7분기 만에 흑자' 삼성SDI, 4.4조원 실탄 장착 '북미 ESS·전고체' 광폭 투자",
+      "source": "뉴시스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-24 13:50",
+      "collected": "2026-08-24",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1zWVVsTmNaNkxTbnV3X1hjbVlFWkl1U2dZejM2NjZ4WUY5UHA2VzVTU21YZ1NqcExwaWFfV2ZuZUJIZ3phZWhnOVJJLWlsMzRUMWNnUlVFMVA3djIxZlBaRjVBMGVXOW9IQmZleGRidVFJWVhfQ3oyctIBeEFVX3lxTE1zWVVsTmNaNkxTbnV3X1hjbVlFWkl1U2dZejM2NjZ4WUY5UHA2VzVTU21YZ1NqcExwaWFfV2ZuZUJIZ3phZWhnOVJJLWlsMzRUMWNnUlVFMVA3djIxZlBaRjVBMGVXOW9IQmZleGRidVFJWVhfQ3oycg?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "48fd137d7cde",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "[특징주] 매각 이슈에 '삼성SDI' 7%대 강세…2차전지·ESS株 동반 상승",
+      "source": "뉴스핌",
+      "source_type": "통신사 보도",
+      "published": "2026-08-24 09:58",
+      "collected": "2026-08-24",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NMlVYZXdWQ2hYRGplNUNNUVhOaVllc1BPUVhVZE9mZ1hNWnFQNFBaZEYxZlk0Z0JmUmNjcGhDZl81RVE3S1BEWW5pd3lPR3RkUUFxQVQ3TzY3S1R2?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "fa6336223202",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "삼성SDI, ESS에 4조 붓는다…＂삼성D 9조 지분 유지＂",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-24 14:27",
+      "collected": "2026-08-24",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqMEd1TGFrYjVab1loSlpFSTVZZFVYN3c3N1VVOVpXbzZqMW04czA4TGJ4TDVSVk5hQ3RGbWtvbUZDZW5OU3Q3NHJtOWNDRU9hVWdwSkhlb1FQZWoxQjktYzBjQ3BheE8tV3Q1ejBRbjZYNUU?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "22b33ea1b3b0",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "캐즘 버틴 삼성SDI, 4.4조 실탄 확보…ESS 승부수 띄운다",
+      "source": "이데일리",
+      "source_type": "경제지 보도",
+      "published": "2026-08-24 11:37",
+      "collected": "2026-08-24",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Cc1VHeGczRXB3Uksxb3lPVWRsanFIT3l3LUZvOVB2TXVsZHJORksyM1dJV09NZFZsdXFiZzllbHpleXNrNXZqU3VUTFhJemp0RFVFYVVrWGd3MllFTFpLRA?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
     }
   ],
   "archive_items": [
