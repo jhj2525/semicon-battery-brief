@@ -5505,8 +5505,48 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-24 17:45 KST",
+  "manual_updated_at": "2026-08-24 17:58 KST",
   "favorite_items": [
+    {
+      "id": "00e6f2773510",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "총성 울린 유리기판 경쟁…“HBM 수성도 패키징에 달려 [압축전환 대한민국]",
+      "source": "서울경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-23 18:16",
+      "collected": "2026-08-24",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBNUHdJbTJfNHREeDZKZmJOSGdNZzk0bkNnLXlLQnVWU1ZXdXMzbUNXTldHTmM4SmI2Z0ZhcS0ydy1BMGxPcXB3S0ZvMnJ2VGJLVmc?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "최근 고대역폭메모리(HBM) 등 고성능 반도체 수요가 급증함에 따라 기존 플라스틱 기판의 한계를 극복할 대안으로 유리기판이 주목받고 있다. 반도체 패키징 시장은 기술적 한계에 다다른 CoWoS를 넘어 새로운 시장이 형성되고 있으며, 유리기판은 차세대 패키징의 핵심으로 부상했다. 글로벌 반도체 기업들은 유리기판 생태계 선점을 위해 대규모 설비 투자를 단행하고 있다. 대한민국 정부 또한 첨단 패키징 생태계 육성을 위해 실증센터 구축 등에 예산을 투입하며 산업 지원을 강화하고 있다. 이는 메모리에 이어 파운드리 경쟁력까지 좌우할 패키징 기술의 중요성이 커진 결과로 분석된다.",
+      "key_points": [
+        "유리기판은 열에 강하고 대면적 제작 시 휘어짐이 적어 차세대 반도체 패키징의 게임체인저로 평가받음.",
+        "인텔은 유리기판 R&D 및 코어 생산 설비에 대규모 투자를 진행 중이며, TSMC 또한 협력사를 통해 유리기판 개발 계획을 전달함.",
+        "대한민국 정부는 첨단 패키징 실증센터 구축에 5년간 420억 원을 투입하고 관련 소재·부품·장비 생태계 조성을 지원함.",
+        "국제반도체장비재료협회(SEMI)는 유리기판 시장이 2028년부터 상용화되어 연평균 67.2% 성장할 것으로 전망함."
+      ],
+      "numbers": [
+        "2028년",
+        "67.2%",
+        "420억 원",
+        "2068억 원",
+        "130억 달러"
+      ],
+      "keywords": [
+        "유리기판",
+        "패키징",
+        "반도체",
+        "CoWoS",
+        "생태계"
+      ],
+      "stated_outlook": "국제반도체장비재료협회(SEMI)는 유리기판 반도체가 2028년부터 본격 상용화되어 2040년에는 시장 규모가 130억 달러에 이를 것으로 내다봤다.",
+      "summary_source": "pasted_text",
+      "industry_context": "반도체 패키징 기술인 CoWoS는 칩의 통신 속도와 전력 효율을 개선하는 데 기여했으나, 최근 컴퓨팅 수요 증가와 트랜지스터 수 증대에 따라 플라스틱 기판이 물리적 변형 및 신호 병목 현상 등 기술적 한계에 직면함.",
+      "favorited_at": "2026-08-24 17:58 KST"
+    },
     {
       "id": "cee7fa92d97d",
       "sector": "semiconductor",
