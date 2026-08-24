@@ -1,7 +1,35 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-24T09:10:12.200Z",
+  "updated_at": "2026-08-24T09:19:18.960Z",
   "terms": [
+    {
+      "id": "8e6d897d-4695-4936-923c-a16539cf8fa4",
+      "title": "zHBM",
+      "english": "Zero Interposer High Bandwidth Memory",
+      "industry": "semiconductor",
+      "category": "메모리 기술",
+      "definition": "zHBM은 인터포저를 제거한 고대역폭 메모리 기술로, 메모리와 논리 칩을 직접 연결하여 성능과 효율을 개선하는 것을 목표로 한다. 이는 차세대 HBM 기술의 한 방향으로, 인터포저의 제거로 인해 신호 전달 시간과 전력 소모를 줄일 수 있다.",
+      "principle": "zHBM은 인터포저를 제거함으로써 메모리와 논리 칩 사이의 신호 전달 시간을 줄이고, 전력 소모를 감소시킨다. 이는 메모리와 논리 칩을 직접 연결함으로써 가능하다. zHBM의 구현을 위해서는 고도화된 패키징 기술과 열 관리 기술이 필요하다. 또한, 메모리와 논리 칩의 직접 연결을 위한 신호 전달 경로의 최적화가 필요하다. 이는 차세대 HBM 기술의 핵심 기술 중 하나로, 성능과 효율의 개선을 목표로 한다.",
+      "industry_meaning": "zHBM은 반도체 산업에서 중요한 기술로, 고대역폭 메모리 기술의 한 방향으로 여겨진다. 이는 메모리와 논리 칩의 직접 연결을 통해 성능과 효율을 개선할 수 있다. 또한, 인터포저의 제거로 인해 전력 소모를 줄일 수 있어, 에너지 효율적인 시스템 구현에 기여할 수 있다. 이는 데이터 센터와 같은 고성능 컴퓨팅 시스템에서 중요한 기술로 여겨진다.",
+      "article_meaning": "기사에서 zHBM은 삼성전자의 차세대 HBM 기술 병목 현상을 해결하기 위한 전략 중 하나로 언급된다. 이는 인터포저를 제거하는 구상으로, 메모리와 논리 칩을 직접 연결하여 성능과 효율을 개선하는 것을 목표로 한다. 이는 SK하이닉스의 3차원 통합 기술과 함께, 차세대 HBM 기술의 한 방향으로 여겨진다.",
+      "related": [
+        "HBM",
+        "Interposer",
+        "3D Integration",
+        "High Bandwidth Memory",
+        "Logic Chip",
+        "Memory Controller"
+      ],
+      "article_title": "삼성·SK, '핫칩스 2026'서 차세대 HBM 병목 다른 해법 제시",
+      "article_url": "https://www.etnews.com/20260824000178",
+      "structure": "",
+      "process": "",
+      "defect": "",
+      "job": "",
+      "source": "https://www.etnews.com/20260824000178",
+      "created_at": "2026-08-24T09:19:18.960Z",
+      "updated_at": "2026-08-24T09:19:18.960Z"
+    },
     {
       "id": "c0a807b6-fc64-4942-a190-8fc4b604c138",
       "title": "인터포저",
