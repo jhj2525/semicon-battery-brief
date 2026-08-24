@@ -5505,8 +5505,45 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-24 17:44 KST",
+  "manual_updated_at": "2026-08-24 17:45 KST",
   "favorite_items": [
+    {
+      "id": "cee7fa92d97d",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "LG화학, 석화 넘어 AI반도체로…전자소재 2조 키운다",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-23 16:12",
+      "collected": "2026-08-24",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5qbC0wcVBoYi1SSzI0blVjSUx0Wm1LckNzQ1h2WmxoaEpsU1J2UDd2RmE5QTRTckd2Ymx1dXV2RkZ5SUVwTnhHVTZnV3p0WkpSZTNvQ0pFanJRdw?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "LG화학이 석유화학 중심의 사업 구조를 반도체, 전장, 전자소재 등 미래 성장산업 중심으로 재편한다. 단순한 소재 공급을 넘어 고객사의 제품 성능과 제조 공정까지 설계하는 통합 솔루션 기업으로 도약하겠다는 비전을 세웠다. 특히 AI 및 고성능컴퓨팅 시장 확대에 따라 반도체용 패키징 소재와 공정용 소재 개발에 집중하고 있다. 또한 전기차와 자율주행 시장을 겨냥한 전장 소재 및 로봇용 소재 등으로 사업 영역을 다각화한다. 이를 통해 현재 1조원 규모인 전자소재 사업을 2030년까지 2조원으로 육성할 계획이다.",
+      "key_points": [
+        "반도체 패키징 소재(CCL, DAF) 및 미세 회로 구현을 위한 감광성 절연재(PID) 기술 확보",
+        "전기차·자율주행용 방열 접착제, 차량용 디스플레이 필름, 로봇용 구조 소재 등으로 사업 확장",
+        "차세대 양극재(HV Mid-Ni, LMR, LFP) 및 나트륨이온전지 기술 개발 가속화",
+        "고객사와 공동 개발을 통해 안정적인 수익원을 확보하는 통합 솔루션 전략 추진"
+      ],
+      "numbers": [
+        "현재 전자소재 사업 규모 1조원",
+        "2030년 전자소재 사업 목표 2조원"
+      ],
+      "keywords": [
+        "LG화학",
+        "전자소재",
+        "반도체 패키징",
+        "전장 소재",
+        "통합 솔루션"
+      ],
+      "stated_outlook": "2030년까지 전자소재 사업 규모를 2조원으로 확대하고, 반도체·모빌리티·로봇 소재와 항암 신약을 중심으로 미래 성장 사업에 역량을 집중할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "인공지능(AI)과 고성능컴퓨팅(HPC) 시장이 커지면서 데이터센터 핵심 부품인 반도체 제조 과정에 쓰이는 첨단 소재 수요가 증가하고 있다.",
+      "favorited_at": "2026-08-24 17:45 KST"
+    },
     {
       "id": "2645bf18519c",
       "sector": "battery",
