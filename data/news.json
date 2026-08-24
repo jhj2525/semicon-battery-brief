@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-24 17:44 KST",
-  "last_automatic_update_at": "2026-08-24 17:44 KST",
-  "automatic_cycle_started_at": "2026-08-24 17:44 KST",
+  "updated_at": "2026-08-24 18:08 KST",
+  "last_automatic_update_at": "2026-08-24 18:08 KST",
+  "automatic_cycle_started_at": "2026-08-24 18:06 KST",
   "publication_window": {
-    "from": "2026-08-23 17:44 KST",
-    "to": "2026-08-24 17:44 KST"
+    "from": "2026-08-23 18:06 KST",
+    "to": "2026-08-24 18:06 KST"
   },
   "today_verified_count": 1,
   "current_items": [
@@ -202,42 +202,6 @@
       "industry_context": "AI 반도체 첨단 패키징 수요가 폭발적으로 증가하면서 해당 분야가 AI 공급망의 핵심 병목 현상으로 지목되고 있다."
     },
     {
-      "id": "edebf79f60a7",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "산업",
-      "title": "삼성, '계산하는 HBM' 공개…GPU 연산 'aHBM'이 맡는다",
-      "source": "한국경제",
-      "source_type": "경제지 보도",
-      "published": "2026-08-24 07:33",
-      "collected": "2026-08-24",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NNmJENjc5cHpQV0dvMnJvRHJ0c1cyMTRXbUNKVlJoRHdCREowSmNRQjZoOHNiSXhXZ0hBV3pITDk1eVJpOUl1eF80SWlGREVOVU8xT1o1eFhVdw?oc=5",
-      "trusted_headline": true,
-      "verified_source": true,
-      "summary_status": "summarized",
-      "overview": "삼성전자가 메모리 내부에서 AI 연산을 직접 수행하는 차세대 고대역폭메모리인 'aHBM'을 공개했습니다. 기존의 HBM이 GPU에 데이터를 공급하는 역할에 그쳤다면, aHBM은 연산 회로를 내부에 탑재해 직접 데이터 처리에 참여합니다. 이를 통해 데이터 이동 거리를 줄이고 전력 소모를 효율화할 수 있을 것으로 기대됩니다. 삼성전자는 cHBM, aHBM, zHBM으로 이어지는 3단계 HBM 진화 로드맵을 제시했습니다. 한상욱 삼성전자 메모리사업부 부사장은 미국 스탠퍼드대에서 열린 '핫칩스 2026'에서 이러한 기술 구상을 발표했습니다.",
-      "key_points": [
-        "삼성전자가 AI 가속기의 연산 일부를 담당하는 차세대 HBM인 'aHBM' 청사진을 공개함.",
-        "HBM 진화 로드맵은 cHBM에서 aHBM을 거쳐 GPU 위에 직접 쌓는 zHBM으로 이어지는 3단계 구조임.",
-        "aHBM은 어텐션 연산을 직접 수행하며 데이터 이동과 전력 효율을 개선함.",
-        "한상욱 삼성전자 메모리사업부 부사장이 '핫칩스 2026'에서 관련 내용을 발표함."
-      ],
-      "numbers": [
-        "2026.08.24",
-        "23일"
-      ],
-      "keywords": [
-        "삼성전자",
-        "aHBM",
-        "HBM",
-        "핫칩스 2026",
-        "AI 반도체"
-      ],
-      "stated_outlook": "cHBM에서 aHBM으로, 최종적으로는 GPU 위에 쌓는 zHBM으로 이어지는 3단계 차세대 HBM 진화 로드맵을 추진할 계획입니다.",
-      "summary_source": "pasted_text",
-      "industry_context": ""
-    },
-    {
       "id": "c9996cebf2b6",
       "sector": "semiconductor",
       "region": "domestic",
@@ -275,6 +239,46 @@
         "고급 패키징"
       ],
       "stated_outlook": "삼성전자는 베이스 다이의 코프로세서 진화가 AI 시스템의 메모리·로직 설계 방식을 바꿀 것으로 전망했다. SK하이닉스는 HBM4에서 HBM3E 대비 열저항 14% 이상 개선, 전력 효율 40% 이상 개선, 대역폭 2테라바이트/초 이상 및 용량 최대 48기가바이트 달성을 목표로 제시했다."
+    },
+    {
+      "id": "69f92cd1609b",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "삼성 파운드리 훈풍 타고…국내 DSP 5곳, 반년만에 작년 매출 70% 채웠다",
+      "source": "ZDNet Korea",
+      "source_type": "산업 전문언론",
+      "official_source": false,
+      "published": "2026-08-24 00:00",
+      "collected": "2026-08-24",
+      "link": "https://zdnet.co.kr/view/?no=20260824152106",
+      "rss_description": "href=\"/reporter/?lstcode=peace201\">전화평 기자 삼성 파운드리 훈풍 타고…국내 DSP 5곳, 반년만에 작년 매출 70% 채웠다 삼성전자 파운드리(반도체 위탁생산) 사업부 가동률 상승과 실적 개선에 힘입어, 핵심 파트너인 디자인솔루션파트너(DSP) 업계 실적도 가파르게 치솟고 있다. 인공지능(AI)·고성... 2026.08.24 PM 04:16 전화평 기자 <a href=\"/view/?",
+      "score": 39,
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "삼성전자 파운드리 사업부의 실적 개선과 가동률 상승에 힘입어 국내 주요 디자인솔루션파트너(DSP) 5곳의 매출이 가파르게 상승하고 있다. 이들 기업의 2026년 상반기 합산 매출액은 약 3494억 원으로, 이는 지난해 연간 총매출의 70%에 달하는 수치다. AI, HPC, 자율주행 반도체 수요가 늘어나며 DSP 업계의 대규모 수주와 양산 전환이 실적 개선을 이끌고 있다.",
+      "key_points": [
+        "세미파이브, 코아시아세미, 에이디테크놀로지, 가온칩스, 알파칩스 등 국내 주요 DSP 5곳의 2026년 상반기 합산 매출은 약 3494억 원이다.",
+        "코아시아세미는 반년 만에 2025년 연간 매출을 돌파한 유일한 기업으로, 상반기 902억 원의 매출을 기록했다.",
+        "가온칩스는 2026년 2분기 흑자전환에 성공했으며, 에이디테크놀로지와 알파칩스 등도 선단 공정 수주와 사업 재편을 통해 성과를 내고 있다.",
+        "DSP 업계의 성장 배경에는 삼성전자 파운드리의 4나노 라인 가동률 상승과 2나노 선행개발 과제 및 성숙 공정 물량의 확대가 있다."
+      ],
+      "numbers": [
+        "3494억 원",
+        "4970억 원",
+        "947억 원",
+        "1210억 원",
+        "902억 원",
+        "608억 원"
+      ],
+      "keywords": [
+        "삼성 파운드리",
+        "디자인솔루션파트너",
+        "DSP",
+        "반도체",
+        "디자인하우스"
+      ],
+      "stated_outlook": "반도체 업계 관계자는 하반기 양산이 본격화되면 수익성 개선세가 더 뚜렷해질 것으로 전망했다."
     },
     {
       "id": "46fa8e5bf0a3",
