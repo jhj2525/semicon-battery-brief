@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-24 18:31 KST",
-  "last_automatic_update_at": "2026-08-24 18:31 KST",
-  "automatic_cycle_started_at": "2026-08-24 18:30 KST",
+  "updated_at": "2026-08-24 19:01 KST",
+  "last_automatic_update_at": "2026-08-24 19:01 KST",
+  "automatic_cycle_started_at": "2026-08-24 18:58 KST",
   "publication_window": {
-    "from": "2026-08-23 18:30 KST",
-    "to": "2026-08-24 18:30 KST"
+    "from": "2026-08-23 18:58 KST",
+    "to": "2026-08-24 18:58 KST"
   },
   "today_verified_count": 1,
   "current_items": [
@@ -398,26 +398,6 @@
       "stated_outlook": "BESS 사업의 국내외 경쟁력을 강화하고, AI 데이터센터 전력 인프라 등 글로벌 에너지 시장에서 새로운 사업 기회를 지속적으로 발굴해 나갈 계획이다."
     },
     {
-      "id": "7777182a7a5b",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "투자·양산",
-      "title": "'7분기 만에 흑자' 삼성SDI, 4.4조원 실탄 장착 '북미 ESS·전고체' 광폭 투자",
-      "source": "뉴시스",
-      "source_type": "통신사 보도",
-      "published": "2026-08-24 13:50",
-      "collected": "2026-08-24",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1zWVVsTmNaNkxTbnV3X1hjbVlFWkl1U2dZejM2NjZ4WUY5UHA2VzVTU21YZ1NqcExwaWFfV2ZuZUJIZ3phZWhnOVJJLWlsMzRUMWNnUlVFMVA3djIxZlBaRjVBMGVXOW9IQmZleGRidVFJWVhfQ3oyctIBeEFVX3lxTE1zWVVsTmNaNkxTbnV3X1hjbVlFWkl1U2dZejM2NjZ4WUY5UHA2VzVTU21YZ1NqcExwaWFfV2ZuZUJIZ3phZWhnOVJJLWlsMzRUMWNnUlVFMVA3djIxZlBaRjVBMGVXOW9IQmZleGRidVFJWVhfQ3oycg?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
       "id": "22b33ea1b3b0",
       "sector": "battery",
       "region": "domestic",
@@ -487,6 +467,26 @@
       "published": "2026-08-24 09:58",
       "collected": "2026-08-24",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NMlVYZXdWQ2hYRGplNUNNUVhOaVllc1BPUVhVZE9mZ1hNWnFQNFBaZEYxZlk0Z0JmUmNjcGhDZl81RVE3S1BEWW5pd3lPR3RkUUFxQVQ3TzY3S1R2?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "7777182a7a5b",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "'7분기 만에 흑자' 삼성SDI, 4.4조원 실탄 장착 '북미 ESS·전고체' 광폭 투자",
+      "source": "뉴시스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-24 13:50",
+      "collected": "2026-08-24",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1zWVVsTmNaNkxTbnV3X1hjbVlFWkl1U2dZejM2NjZ4WUY5UHA2VzVTU21YZ1NqcExwaWFfV2ZuZUJIZ3phZWhnOVJJLWlsMzRUMWNnUlVFMVA3djIxZlBaRjVBMGVXOW9IQmZleGRidVFJWVhfQ3oyctIBeEFVX3lxTE1zWVVsTmNaNkxTbnV3X1hjbVlFWkl1U2dZejM2NjZ4WUY5UHA2VzVTU21YZ1NqcExwaWFfV2ZuZUJIZ3phZWhnOVJJLWlsMzRUMWNnUlVFMVA3djIxZlBaRjVBMGVXOW9IQmZleGRidVFJWVhfQ3oycg?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
