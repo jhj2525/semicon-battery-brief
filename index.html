@@ -68,6 +68,11 @@
         <option value="시장·실적">시장·실적</option>
         <option value="산업동향">산업동향</option>
       </select>
+      <select id="readFilter" aria-label="읽음 상태">
+        <option value="all">전체 기사</option>
+        <option value="unread">안 읽음</option>
+        <option value="read">읽음</option>
+      </select>
       <button id="deleteSelectedCurrent" class="batch-delete" type="button">선택 삭제</button>
       <div id="archiveControls" class="archive-controls" hidden>
         <select id="archiveSector" aria-label="아카이브 분야">
@@ -208,6 +213,7 @@
           <button class="paste-summary" type="button" hidden>본문 붙여넣어 요약</button>
           <button class="edit-title" type="button" hidden>제목 수정</button>
           <button class="favorite-item" type="button">☆ 즐겨찾기</button>
+          <button class="read-item" type="button">읽음으로 표시</button>
           <button class="term-search-item" type="button">이 기사에서 용어 검색</button>
           <button class="delete-item" type="button" hidden>이 기사 삭제</button>
           <p>AI 요약은 원문을 대체하지 않습니다.</p>
