@@ -94,6 +94,9 @@ select, input[type="date"] {
   color: var(--ink); text-align: left; cursor: pointer; font: inherit;
 }
 .row-summary:hover, .news-row.open .row-summary { background: #fafbf9; }
+.news-row.read .row-summary { background: #f3f4f2; }
+.news-row.read .headline { color: #7b828a; font-weight: 600; }
+.news-row.read .headline::before { content: "✓ "; color: var(--green); font-weight: 800; }
 .published, .source, .keywords { color: var(--muted); font-size: 12px; }
 .source-cell { display: grid; gap: 3px; min-width: 0; }
 .source { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
@@ -123,6 +126,7 @@ dd { margin: 3px 0 0; font-size: 12px; }
   background: var(--ink); color: white; text-decoration: none; font-size: 12px; font-weight: 800;
 }
 .row-detail aside > p { color: var(--muted); font-size: 10px; text-align: center; }
+.read-item.active { border-color: #a9cbb8; background: var(--green-soft); color: #286c4b; }
 .news-row.link-only .detail-main { display: none; }
 .news-row.link-only .row-detail { grid-template-columns: minmax(260px, 420px); padding: 14px 24px 18px; }
 .news-row.link-only .row-detail aside { padding: 12px; }
