@@ -5,6 +5,7 @@ const updated = document.querySelector("#updated");
 const searchInput = document.querySelector("#searchInput");
 const regionFilter = document.querySelector("#regionFilter");
 const categoryFilter = document.querySelector("#categoryFilter");
+const readFilter = document.querySelector("#readFilter");
 const archiveSector = document.querySelector("#archiveSector");
 const archiveDate = document.querySelector("#archiveDate");
 const archiveControls = document.querySelector("#archiveControls");
@@ -47,10 +48,28 @@ const expandedCurrentViews = new Set();
 const selectedDeleteIds = new Set();
 const pendingDeleteKey = "processBriefPendingDeletes";
 const adminTokenKey = "processBriefAdminToken";
+const readArticlesKey = "processBriefReadArticles";
+let readArticleIds = (() => {
+  try { return new Set(JSON.parse(localStorage.getItem(readArticlesKey) || "[]")); }
+  catch { return new Set(); }
+})();
 let pendingDeletes = (() => {
   try { return JSON.parse(localStorage.getItem(pendingDeleteKey) || "{}"); }
   catch { return {}; }
 })();
+
+function articleReadId(item) {
+  return String(item.id || item.link || `${item.title || ""}|${item.published || ""}`);
+}
+
+function articleIsRead(item) {
+  return readArticleIds.has(articleReadId(item));
+}
+
+function saveReadArticles() {
+  try { localStorage.setItem(readArticlesKey, JSON.stringify([...readArticleIds])); }
+  catch { /* 읽음 표시는 현재 화면에서 계속 동작하도록 둡니다. */ }
+}
 
 function savePendingDeletes() {
   localStorage.setItem(pendingDeleteKey, JSON.stringify(pendingDeletes));
@@ -318,6 +337,7 @@ function buildRow(item, { deletable = false, editable = false } = {}) {
   const detail = fragment.querySelector(".row-detail");
   const linkOnly = item.summary_status === "link_only";
   article.classList.toggle("link-only", linkOnly);
+  article.classList.toggle("read", articleIsRead(item));
 
   fragment.querySelector(".published").textContent = (item.published || "").slice(0, 10);
   fragment.querySelector(".region").textContent = labels[item.region] || item.region;
@@ -380,6 +400,25 @@ function buildRow(item, { deletable = false, editable = false } = {}) {
   } else {
     favoriteButton.hidden = true;
   }
+  const readButton = fragment.querySelector(".read-item");
+  const updateReadState = () => {
+    const isRead = articleIsRead(item);
+    article.classList.toggle("read", isRead);
+    readButton.classList.toggle("active", isRead);
+    readButton.textContent = isRead ? "안 읽음으로 표시" : "읽음으로 표시";
+    readButton.setAttribute("aria-pressed", String(isRead));
+  };
+  updateReadState();
+  readButton.addEventListener("click", () => {
+    const id = articleReadId(item);
+    if (articleIsRead(item)) readArticleIds.delete(id);
+    else readArticleIds.add(id);
+    saveReadArticles();
+    updateReadState();
+    if (readFilter.value !== "all" && !["manual_archive", "semi_market", "favorites"].includes(view)) {
+      render();
+    }
+  });
   const termSearchButton = fragment.querySelector(".term-search-item");
   termSearchButton.addEventListener("click", () => {
     if (typeof window.openTermSearchForArticle === "function") window.openTermSearchForArticle(item);
@@ -412,15 +451,17 @@ function render() {
   const query = searchInput.value.trim().toLowerCase();
   const region = regionFilter.value;
   const category = categoryFilter.value;
+  const readState = readFilter.value;
   const visible = activeItems().filter(item =>
     (item.verified_source === true || item.summary_status === "link_only") &&
     (region === "all" || item.region === region) &&
     (category === "all" || item.category === category) &&
+    (readState === "all" || (readState === "read") === articleIsRead(item)) &&
     (!query || searchable(item).includes(query))
   );
 
   const currentView = view === "semiconductor" || view === "battery";
-  const defaultListing = !query && region === "all" && category === "all";
+  const defaultListing = !query && region === "all" && category === "all" && readState === "all";
   const collapsible = currentView && defaultListing && visible.length > 5;
   const expanded = expandedCurrentViews.has(view);
   const displayed = collapsible && !expanded ? visible.slice(0, 5) : visible;
@@ -575,7 +616,7 @@ manualForm.addEventListener("submit", async event => {
   }
 });
 
-[searchInput, regionFilter, categoryFilter, archiveSector, archiveDate].forEach(control =>
+[searchInput, regionFilter, categoryFilter, readFilter, archiveSector, archiveDate].forEach(control =>
   control.addEventListener("input", render)
 );
 [manualArchiveSearch, manualArchiveSector, manualArchiveDate].forEach(control =>
