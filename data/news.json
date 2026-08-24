@@ -200,13 +200,31 @@
       "collected": "2026-08-24",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5NOXpQZEhaR0M0djVsSGJpMWlqZEdTVzJ6UVpocnF6Z0szYjcwdnk4d2xlTWZYRS0ySzh6cDFQQ0VmUjhycU9tS2MwUFdwSXpaVFE?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "전 세계적인 기술 패권 경쟁과 통상 질서 재편에 따라 한국의 기존 산업 지원 정책이 변화해야 한다는 목소리가 높다. 과거의 수평적이고 세액공제 중심이었던 R&D 지원 정책에서 벗어나, 산업별 특성에 따른 차별화된 전략이 필요하다는 지적이다. 전문가들은 선도 산업인 반도체와 추격 산업인 전기차·배터리 등을 구분해 맞춤형 대책을 마련해야 한다고 강조한다. 특히 국가 안보와 직결된 배터리 등 주요 산업의 생존을 위해 정부의 직접 지분 투자와 같은 인내 자본 투입이 시급하다. 이는 단순한 기업 지원을 넘어 국가적 자원을 전략 산업에 집중하는 '선택과 집중' 전략으로의 전환을 의미한다.",
+      "key_points": [
+        "산업을 초일류 1등 산업, 추격형 2등 산업, 미래 육성 3등 산업으로 구분하는 '1·2·3 성장전략' 구축이 필요하다.",
+        "정부는 기업의 초기 투자를 위해 장기간 적자를 감수하고라도 지분 투자 등 마중물 역할을 해야 한다는 주장이 제기되었다.",
+        "과거의 수평적 R&D 지원과 세액공제 방식은 혁신적인 영역의 장기 투자를 이끌어내는 데 한계가 있다.",
+        "이근 서울대 명예교수는 산업 특성에 맞춰 '경로창출형' 전략과 '도약형' 전략을 검토해야 한다고 강조했다."
+      ],
+      "numbers": [
+        "1992년",
+        "64MB",
+        "2023년",
+        "66주년"
+      ],
+      "keywords": [
+        "산업정책",
+        "기술 패권",
+        "1·2·3 성장전략",
+        "도약형 전략",
+        "인내자본"
+      ],
+      "stated_outlook": "전 세계적으로 산업정책이 전략 산업 육성 위주로 재편되고 있어, 한국도 모든 산업을 키우기보다 국가 자원의 선택과 집중이 필요한 시점이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "한국 산업정책은 과거 설탕·밀가루·섬유를 다루던 3백 정책에서 최근 7대 시드 산업인 SMR, 핵융합, 재생에너지, 양자, 우주항공, 첨단바이오, 첨단소재·부품 공급망 등으로 변화해왔다."
     }
   ],
   "archive_items": [
@@ -4973,7 +4991,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-24 17:31 KST",
+  "manual_updated_at": "2026-08-24 17:33 KST",
   "favorite_items": [
     {
       "id": "2645bf18519c",
