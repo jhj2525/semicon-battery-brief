@@ -5564,8 +5564,49 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-24 18:27 KST",
+  "manual_updated_at": "2026-08-24 18:29 KST",
   "favorite_items": [
+    {
+      "id": "ef54770d79ce",
+      "sector": "battery",
+      "region": "global",
+      "category": "산업",
+      "title": "K-배터리 3사 글로벌 등록 특허 10만건 달해",
+      "source": "n.news.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-24 17:35",
+      "collected": "2026-08-24",
+      "link": "https://n.news.naver.com/article/422/0000898603",
+      "requested_link": "https://naver.me/xeFyYZys",
+      "manual_added": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "국내 배터리 3사인 LG에너지솔루션, 삼성SDI, SK온이 전 세계에서 빠른 속도로 기술 특허를 확보하고 있습니다. 지난 3년간 등록 특허가 2배 가까이 증가하며 총 10만 건에 달하는 특허를 보유하게 되었습니다. 2022년 말 이후 3년 동안에만 약 4만 3천여 건의 특허가 새로 등록되었습니다. 특히 LG에너지솔루션은 지난 5월 기준 출원 특허가 10만 건을 넘어섰습니다. 배터리 산업은 복합 기술의 집합체로서 여타 산업 분야와 비교해 특허 등록 건수의 증가세가 두드러지는 분야로 꼽힙니다.",
+      "key_points": [
+        "LG에너지솔루션·삼성SDI·SK온의 지난달 말 기준 총 등록 특허는 9만 3,500건임.",
+        "2022년 말 이후 3년 동안 4만 3천여 건의 특허가 신규 등록됨.",
+        "LG에너지솔루션은 지난 5월 기준 출원 특허가 10만 건을 돌파함.",
+        "국내 배터리 3사는 심사 중인 출원 특허 건수 기준 전 세계 배터리 기업 중 1위를 차지함."
+      ],
+      "numbers": [
+        "10만건",
+        "9만 3,500건",
+        "2022년 말",
+        "4만 3천여건",
+        "5월"
+      ],
+      "keywords": [
+        "K-배터리",
+        "특허",
+        "LG에너지솔루션",
+        "삼성SDI",
+        "SK온"
+      ],
+      "stated_outlook": "",
+      "summary_source": "pasted_text",
+      "industry_context": "배터리 업계는 주요 산업 가운데에서도 복합 기술의 집합체인 만큼 특허 등록 건수 증가세가 빠른 분야로 꼽힙니다.",
+      "favorited_at": "2026-08-24 18:29 KST"
+    },
     {
       "id": "46fa8e5bf0a3",
       "sector": "battery",
