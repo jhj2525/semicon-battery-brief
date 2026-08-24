@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-24 18:27 KST",
-  "last_automatic_update_at": "2026-08-24 18:27 KST",
-  "automatic_cycle_started_at": "2026-08-24 18:25 KST",
+  "updated_at": "2026-08-24 18:30 KST",
+  "last_automatic_update_at": "2026-08-24 18:30 KST",
+  "automatic_cycle_started_at": "2026-08-24 18:29 KST",
   "publication_window": {
-    "from": "2026-08-23 18:25 KST",
-    "to": "2026-08-24 18:25 KST"
+    "from": "2026-08-23 18:29 KST",
+    "to": "2026-08-24 18:29 KST"
   },
-  "today_verified_count": 1,
+  "today_verified_count": 0,
   "current_items": [
     {
       "id": "9e0e095ce439",
@@ -3307,47 +3307,6 @@
       "stated_outlook": "",
       "summary_source": "pasted_text",
       "industry_context": "배터리 업계는 주요 산업 가운데에서도 복합 기술의 집합체인 만큼 특허 등록 건수 증가세가 빠른 분야로 꼽힙니다."
-    },
-    {
-      "id": "3123b65f35bc",
-      "sector": "battery",
-      "region": "global",
-      "category": "산업",
-      "title": "삼성SDI 거래 보니…삼성디스플레이 몸값 89조",
-      "source": "n.news.naver.com",
-      "source_type": "직접 선택",
-      "published": "2026-08-24 17:35",
-      "collected": "2026-08-24",
-      "link": "https://n.news.naver.com/article/648/0000050087",
-      "requested_link": "https://naver.me/GqfwU5r6",
-      "manual_added": true,
-      "verified_source": true,
-      "summary_status": "summarized",
-      "overview": "삼성SDI가 보유한 삼성디스플레이 지분 5%를 삼성디스플레이에 4조4500억원에 매각하며 삼성디스플레이의 전체 기업가치가 89조원으로 산정되었다. 당초 삼성전자가 인수할 것으로 관측되었으나, 삼성디스플레이가 자사주 매입 방식을 통해 직접 인수했다. 이번 거래로 삼성SDI는 투자 재원을 확보하게 되었으며, 향후 삼성디스플레이 잔여 지분 10.22%를 활용한 추가 자금 조달 가능성을 유지하게 되었다. 삼성디스플레이는 우수한 재무 상황을 바탕으로 이번 자사주 매입을 진행했다.",
-      "key_points": [
-        "삼성SDI가 삼성디스플레이 지분 5%를 4조4500억원에 매각 완료",
-        "이번 거래에서 삼성디스플레이 기업가치는 89조원(주당 34만원)으로 책정",
-        "지분 매각 후 삼성디스플레이 지분 구조는 삼성전자 84.78%, 삼성SDI 10.22%, 자사주 5%로 재편",
-        "삼성SDI는 확보한 매각 대금을 미국 합작법인 시너지셀즈의 ESS 투자 등에 활용할 계획"
-      ],
-      "numbers": [
-        "2026.08.24",
-        "5%",
-        "4조4500억원",
-        "89조원",
-        "15.2%",
-        "10.22%"
-      ],
-      "keywords": [
-        "삼성SDI",
-        "삼성디스플레이",
-        "지분 매각",
-        "자사주",
-        "기업가치"
-      ],
-      "stated_outlook": "삼성SDI는 매각 대금을 미국법인 시너지셀즈의 에너지저장장치(ESS) 설비 투자 등 투자재원으로 사용할 계획이며, 보유 중인 잔여 지분 10.22%를 통해 향후 필요 시 약 9조원 규모의 추가 자금을 조달할 수 있을 것으로 전망된다.",
-      "summary_source": "pasted_text",
-      "industry_context": "중국 배터리 기업의 입지가 커지면서 국내 배터리 업계의 투자가 위축되는 환경에서 삼성SDI의 이번 자금 마련이 주목받고 있다."
     },
     {
       "id": "576168b29abf",
