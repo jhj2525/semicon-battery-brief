@@ -5505,8 +5505,49 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-24 17:58 KST",
+  "manual_updated_at": "2026-08-24 18:03 KST",
   "favorite_items": [
+    {
+      "id": "96be0a914c7a",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "테슬라 2㎚ 칩 승부수 띄운 삼성 파운드리…SK하이닉스 '빛의 연결' CPO 로드맵 [위클리반도체]",
+      "source": "디지털데일리",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-23 08:40",
+      "collected": "2026-08-24",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xQ1JMbDRKZElnWGo2YUg1SWVMc1Fqd25ERURFbG9MRC1FV1FqUWdhb2FYTUJrUUdqOS1MVTJlVldod1dObUFlQnhVc1dDV04xT1IyYlJ1UUNBTGNkSlFyV0JUZTg?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "글로벌 AI 시장의 급격한 팽창에 따라 반도체 기업들이 첨단 파운드리 양산 검증과 차세대 시스템 인터페이스 혁신 전략을 가속화하고 있다. 삼성전자는 미국 테일러 팹의 흑자 전환을 위해 테슬라의 2㎚ 공정 칩 시양산에 속도를 내며 실전 레퍼런스 확보에 나섰다. 한편, SK하이닉스는 데이터 전송 병목 현상을 해결하기 위해 빛을 활용하는 차세대 광 인터커넥트 기술인 CPO의 로드맵을 공개했다. 이러한 기술적 행보는 AI 인프라의 성능 한계를 돌파하고 글로벌 고객사 확보를 통해 시장 경쟁력을 강화하려는 의도로 풀이된다. 메모리 기업인 SK하이닉스는 시스템 전체의 효율성을 높이는 핵심 기술 파트너로서의 진화를 꾀하고 있다.",
+      "key_points": [
+        "삼성전자 파운드리가 테슬라의 차세대 2㎚ AI 칩 'AI5'와 'AI6' 시양산을 통해 미국 테일러 팹의 생산성 확보를 추진 중이다.",
+        "SK하이닉스가 글로벌 연구진과 공동으로 작성한 CPO 기술 논문을 학술지 네이처 일렉트로닉스에 게재하며 미래 데이터센터 기술 청사진을 제시했다.",
+        "CPO 기술은 전기 신호 대신 빛을 활용해 기존 구리 배선의 신호 감쇠 및 전력 소모 한계를 극복하고 대역폭과 에너지 효율을 향상하는 기술이다."
+      ],
+      "numbers": [
+        "2026-08-23",
+        "2027",
+        "2030",
+        "370억달러",
+        "20조원",
+        "100Tb/s"
+      ],
+      "keywords": [
+        "삼성전자",
+        "SK하이닉스",
+        "파운드리",
+        "2㎚",
+        "테슬라",
+        "CPO"
+      ],
+      "stated_outlook": "테슬라향 선단 물량은 2027년부터 본격적인 대량 양산에 돌입할 전망이며, 삼성전자는 이를 통해 2030년 페이즈2 공장 확장 투자를 목표로 하고 있다.",
+      "summary_source": "pasted_text",
+      "industry_context": "글로벌 인공지능 시장이 급격하게 팽창하면서 반도체 제조 기업들의 미래 생존 전략이 첨단 파운드리 양산 검증과 차세대 시스템 인터페이스 혁신으로 재편되고 있으며, 데이터 전송 대역폭 한계가 시스템 성능 향상을 저해하는 주요 과제로 부상했다.",
+      "favorited_at": "2026-08-24 18:03 KST"
+    },
     {
       "id": "00e6f2773510",
       "sector": "semiconductor",
