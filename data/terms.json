@@ -1,7 +1,36 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-24T08:50:46.403Z",
+  "updated_at": "2026-08-24T08:59:06.769Z",
   "terms": [
+    {
+      "id": "aaf70899-7cd9-493f-a6c6-069017152c16",
+      "title": "CoWoS",
+      "english": "Chip-on-Wafer-on-Substrate",
+      "industry": "semiconductor",
+      "category": "패키징 기술",
+      "definition": "CoWoS는 반도체 칩을 기판 위에 직접 부착하여 패키징하는 기술로, 칩의 통신 속도와 전력 효율을 개선하는 데 기여한다. 이 기술은 반도체의 성능과 신뢰성을 향상시키는 데 중요한 역할을 한다.",
+      "principle": "CoWoS 기술은 기판 위에 칩을 부착하고, 그 위에 또 다른 기판을 부착하여 패키징하는 방식으로 작동한다. 이 과정에서 칩과 기판을 연결하는 인터커넥트가 사용되며, 이는 신호 전달과 전력 공급을 위한 경로를 제공한다. CoWoS 기술은 고성능 반도체의 개발에 중요한 역할을 하며, 특히 고대역폭 메모리와 같은 고속 신호 전달이 필요한 응용 분야에서 유용하다. 그러나 플라스틱 기판의 물리적 한계로 인해 CoWoS 기술도 한계에 직면하고 있다. 최근에는 유리기판을 사용하여 이러한 한계를 극복하고자 하는 연구가 진행 중이다.",
+      "industry_meaning": "CoWoS 기술은 반도체 산업에서 중요한 역할을 하며, 특히 고성능 반도체의 개발에 기여한다. 그러나 플라스틱 기판의 한계로 인해 CoWoS 기술도 한계에 직면하고 있다. 최근에는 유리기판을 사용하여 이러한 한계를 극복하고자 하는 연구가 진행 중이며, 이는 차세대 반도체 패키징 기술의 핵심으로 부상하고 있다. 유리기판은 열에 강하고 대면적 제작 시 휘어짐이 적어 차세대 반도체 패키징의 게임체인저로 평가받음.",
+      "article_meaning": "기사에서 CoWoS 기술은 반도체 패키징 시장의 기술적 한계를 극복하기 위해 새로운 시장이 형성되고 있는 상황에서 언급된다. 특히, 고대역폭 메모리와 같은 고성능 반도체 수요의 증가로 인해 CoWoS 기술의 한계가 노출되고 있으며, 유리기판을 사용하여 이러한 한계를 극복하고자 하는 연구가 진행 중이다. 이는 메모리에 이어 파운드리 경쟁력까지 좌우할 패키징 기술의 중요성이 커진 결과로 분석된다.",
+      "related": [
+        "HBM",
+        "유리기판",
+        "패키징 기술",
+        "고성능 반도체",
+        "플라스틱 기판",
+        "인터커넥트",
+        "고대역폭 메모리"
+      ],
+      "article_title": "총성 울린 유리기판 경쟁…“HBM 수성도 패키징에 달려 [압축전환 대한민국]",
+      "article_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBNUHdJbTJfNHREeDZKZmJOSGdNZzk0bkNnLXlLQnVWU1ZXdXMzbUNXTldHTmM4SmI2Z0ZhcS0ydy1BMGxPcXB3S0ZvMnJ2VGJLVmc?oc=5",
+      "structure": "",
+      "process": "",
+      "defect": "",
+      "job": "",
+      "source": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBNUHdJbTJfNHREeDZKZmJOSGdNZzk0bkNnLXlLQnVWU1ZXdXMzbUNXTldHTmM4SmI2Z0ZhcS0ydy1BMGxPcXB3S0ZvMnJ2VGJLVmc?oc=5",
+      "created_at": "2026-08-24T08:59:06.769Z",
+      "updated_at": "2026-08-24T08:59:06.769Z"
+    },
     {
       "id": "7de812fd-fa42-4769-97b7-e2d670d66690",
       "title": "나트륨 이온 배터리",
