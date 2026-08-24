@@ -174,13 +174,32 @@
       "collected": "2026-08-24",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5QckJwSjVILTRWRmRMTjFsWlJ4WEJlX0VHMnBXY2poaWlTUDZsUnA2azMxb2h4YXFLVzEtWDN1MXhwclB4eG1DNmtDSExUV0VZSnc?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "인공지능(AI) 수요 급증으로 반도체 후공정 업계가 설비 증설 등 대규모 투자에 나서고 있다. 대만의 ASE, PTI, 칩모스 등 5대 후공정 업체가 계획한 올해 자본지출 규모가 4600억 대만달러(약 20조 원)를 돌파했다. 특히 ASE는 투자 규모를 두 차례 상향해 105억 달러를 투자하며 전체의 약 70%를 차지한다. 또한 테스트 전문 기업인 KYEC와 시그론 등도 고성능 칩 테스트 수요 증가에 대응해 투자액을 대폭 늘렸다. 반도체 후공정은 AI 공급망의 핵심 병목 현상을 겪고 있으며, TSMC는 이로 인해 경쟁사인 인텔에 후공정 일부를 위탁하는 결정을 내리기도 했다.",
+      "key_points": [
+        "대만 5대 후공정 업체(ASE, PTI, KYEC, 시그론, 칩모스)의 올해 투자 규모가 20조 원을 돌파함",
+        "ASE는 올해 투자 규모를 105억 달러로 상향 조정하고 13개 신축 공사와 8개 개축 공사를 진행 중임",
+        "KYEC는 고성능 칩 테스트 수요 증가로 자본지출 계획을 기존 대비 27% 상향함",
+        "TSMC의 첨단 패키징 서비스인 CoWoS는 공급 부족으로 납기가 52~78주에 달함"
+      ],
+      "numbers": [
+        "20조 원",
+        "4600억 대만달러",
+        "105억 달러",
+        "2028년",
+        "52~78주"
+      ],
+      "keywords": [
+        "반도체 후공정",
+        "ASE",
+        "첨단 패키징",
+        "AI 반도체",
+        "설비 투자"
+      ],
+      "stated_outlook": "ASE는 올해는 물론 내년 수요까지 가시성이 확보되었다고 밝혔으며, PTI는 올해 매출과 가동률, 마진이 분기마다 상승할 것으로 전망함.",
+      "summary_source": "pasted_text",
+      "industry_context": "AI 반도체 첨단 패키징 수요가 폭발적으로 증가하면서 해당 분야가 AI 공급망의 핵심 병목 현상으로 지목되고 있다."
     },
     {
       "id": "edebf79f60a7",
