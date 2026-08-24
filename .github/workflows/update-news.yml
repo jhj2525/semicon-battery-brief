@@ -69,6 +69,15 @@ jobs:
       - name: Decide whether scheduled backup is needed
         id: guard
         shell: bash
+        env:
+          MANUAL_ARTICLE_URL: ${{ inputs.article_url }}
+          DELETE_ARTICLE_ID: ${{ inputs.delete_article_id }}
+          EDIT_ARTICLE_ID: ${{ inputs.edit_article_id }}
+          EDIT_ARTICLE_TITLE: ${{ inputs.edit_article_title }}
+          FAVORITE_ARTICLE_ID: ${{ inputs.favorite_article_id }}
+          FAVORITE_STATE: ${{ inputs.favorite_state }}
+          PASTED_ARTICLE_ID: ${{ inputs.pasted_article_id }}
+          PASTED_ARTICLE_TEXT: ${{ inputs.pasted_article_text }}
         run: |
           python - <<'PY'
           import json, os
@@ -91,6 +100,11 @@ jobs:
           semi_count = sum(x.get("sector") == "semiconductor" for x in current)
           battery_count = sum(x.get("sector") == "battery" for x in current)
           scheduled = os.getenv("GITHUB_EVENT_NAME") == "schedule"
+          manual_operation = any(os.getenv(name, "").strip() for name in (
+              "MANUAL_ARTICLE_URL", "DELETE_ARTICLE_ID", "EDIT_ARTICLE_ID",
+              "EDIT_ARTICLE_TITLE", "FAVORITE_ARTICLE_ID", "FAVORITE_STATE",
+              "PASTED_ARTICLE_ID", "PASTED_ARTICLE_TEXT",
+          ))
           try:
               cycle_start = datetime.strptime(started[:16], "%Y-%m-%d %H:%M").replace(
                   tzinfo=timezone(timedelta(hours=9))
@@ -101,13 +115,15 @@ jobs:
           semi_target = max(0, 7 - int(locked.get("semiconductor", 0)))
           battery_target = max(0, 7 - int(locked.get("battery", 0)))
           complete = semi_count >= semi_target and battery_count >= battery_target
-          skip = scheduled and cycle_today and complete
+          skip = (scheduled and cycle_today and complete) or (
+              not scheduled and not manual_operation
+          )
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
               output.write(f"skip={'true' if skip else 'false'}\n")
           print(
               f"cycle_started_at={started}, cycle_today={cycle_today}, "
               f"current={semi_count}/{semi_target} + {battery_count}/{battery_target}, "
-              f"skip={skip}"
+              f"scheduled={scheduled}, manual_operation={manual_operation}, skip={skip}"
           )
           PY
       - name: Collect and summarize news
