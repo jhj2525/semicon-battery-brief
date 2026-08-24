@@ -433,13 +433,34 @@
       "collected": "2026-08-23",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9EMmxiS0xwVXY2cFVsVlFXOXVIRExMcGRhRXhuUUpfbXVnZHJDTTFxX1IwYkJHV3BMSjRLNmhueUViUzFQcE9adlVrNG5GSUZQZWQyRGJaTUhHMmg2aVpISFN4a2Z5Y3dIWURaV2FpVmjSAXRBVV95cUxPMG9TemRUQmdxVUxBblAwdzEzanAzMWRGU0hmVXlUVHR0VXVsWVdjSFU0R3VSbGRzOHF4Rnd4cktXSk5VMmY5cEJZdjI5elZiOXpuNzVYSFJUNzhyYzNrcEU5aTVhVWJfVTY5WVJtUmI1WVlHcg?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "삼성전자 파운드리 사업부가 AI 반도체 수요 급증에 대응해 주요 공정의 공급 단가를 최대 15% 인상했다. TSMC의 생산 능력 포화로 인한 반사이익과 함께, 메모리와 파운드리를 일괄 수주하는 턴키 전략이 시장에서 경쟁력을 확보하고 있다. 이러한 전략적 행보와 단가 인상 효과가 맞물리며 업계에서는 2027년 흑자 전환 가능성을 제기하고 있다. 그러나 파운드리 시장 점유율 격차는 여전하며, 중국 SMIC 및 화홍반도체의 공격적인 확장과 인텔의 우회적 시장 진출 등 경쟁 환경은 더욱 복잡해지고 있다. 삼성전자는 대형 고객사와의 협력을 통해 기술적 우위를 다지는 데 집중하고 있다.",
+      "key_points": [
+        "삼성전자 파운드리 사업부가 4나노 공정 단가를 최대 15%, 5나노는 10~15%, 8나노는 10% 안팎 인상했다.",
+        "HBM과 파운드리를 묶은 턴키 전략을 통해 대형 고객사 수주 경쟁력을 강화하고 있다.",
+        "증권가는 단가 인상과 4나노 양산 효과로 삼성 파운드리가 2027년 흑자 전환할 것으로 관측했다.",
+        "중국 SMIC와 화홍반도체는 AI 특수로 인한 레거시 칩 수요 증가로 공장을 풀가동하며 생산 능력을 확장 중이다.",
+        "인텔은 EMIB 패키징 등 기술 고도화를 통해 메모리 및 시스템 통합 분야에서 삼성전자와 경쟁 영역을 넓히고 있다."
+      ],
+      "numbers": [
+        "15%",
+        "2027년",
+        "4나노",
+        "5나노",
+        "8나노",
+        "73%"
+      ],
+      "keywords": [
+        "삼성전자",
+        "파운드리",
+        "TSMC",
+        "HBM",
+        "턴키"
+      ],
+      "stated_outlook": "삼성전자는 올 3분기 HBM4 매출이 2분기 대비 세 배 이상 확대될 것으로 전망하며, 다수의 대형 고객사와 2나노 협력을 논의 중이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "글로벌 AI 칩 수요가 폭증하면서 TSMC의 첨단 공정 생산 능력이 포화 상태에 이르렀다. 또한 메모리 공급 부족 현상으로 인해 메모리와 파운드리를 결합한 턴키 솔루션에 대한 고객사의 선호도가 높아지고 있다."
     },
     {
       "id": "bdf9f250826f",
@@ -5406,7 +5427,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-24 17:36 KST",
+  "manual_updated_at": "2026-08-24 17:43 KST",
   "favorite_items": [
     {
       "id": "2645bf18519c",
