@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-24 18:08 KST",
-  "last_automatic_update_at": "2026-08-24 18:08 KST",
-  "automatic_cycle_started_at": "2026-08-24 18:06 KST",
+  "updated_at": "2026-08-24 18:27 KST",
+  "last_automatic_update_at": "2026-08-24 18:27 KST",
+  "automatic_cycle_started_at": "2026-08-24 18:25 KST",
   "publication_window": {
-    "from": "2026-08-23 18:06 KST",
-    "to": "2026-08-24 18:06 KST"
+    "from": "2026-08-23 18:25 KST",
+    "to": "2026-08-24 18:25 KST"
   },
   "today_verified_count": 1,
   "current_items": [
@@ -418,26 +418,6 @@
       "stated_outlook": ""
     },
     {
-      "id": "fa6336223202",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "산업",
-      "title": "삼성SDI, ESS에 4조 붓는다…＂삼성D 9조 지분 유지＂",
-      "source": "한국경제",
-      "source_type": "경제지 보도",
-      "published": "2026-08-24 14:27",
-      "collected": "2026-08-24",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqMEd1TGFrYjVab1loSlpFSTVZZFVYN3c3N1VVOVpXbzZqMW04czA4TGJ4TDVSVk5hQ3RGbWtvbUZDZW5OU3Q3NHJtOWNDRU9hVWdwSkhlb1FQZWoxQjktYzBjQ3BheE8tV3Q1ejBRbjZYNUU?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
       "id": "22b33ea1b3b0",
       "sector": "battery",
       "region": "domestic",
@@ -495,6 +475,26 @@
         "초고속 충전"
       ],
       "stated_outlook": "현재 산업계와 협력하여 이 배터리 시스템의 시제품 플랫폼을 구축하고 있다."
+    },
+    {
+      "id": "48fd137d7cde",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "[특징주] 매각 이슈에 '삼성SDI' 7%대 강세…2차전지·ESS株 동반 상승",
+      "source": "뉴스핌",
+      "source_type": "통신사 보도",
+      "published": "2026-08-24 09:58",
+      "collected": "2026-08-24",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NMlVYZXdWQ2hYRGplNUNNUVhOaVllc1BPUVhVZE9mZ1hNWnFQNFBaZEYxZlk0Z0JmUmNjcGhDZl81RVE3S1BEWW5pd3lPR3RkUUFxQVQ3TzY3S1R2?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
     }
   ],
   "archive_items": [
