@@ -5544,8 +5544,50 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-24 18:04 KST",
+  "manual_updated_at": "2026-08-24 18:22 KST",
   "favorite_items": [
+    {
+      "id": "9ce8394bdec9",
+      "sector": "battery",
+      "region": "global",
+      "category": "산업",
+      "title": "CATL \"나트륨 이온 배터리 가격, 연말께 LFP 수준으로 인하\"",
+      "source": "v.daum.net",
+      "source_type": "직접 선택",
+      "published": "2026-08-24 17:35",
+      "collected": "2026-08-24",
+      "link": "https://v.daum.net/v/20260821095807506",
+      "requested_link": "https://v.daum.net/v/20260821095807506",
+      "rss_description": "CATL \"나트륨 이온 배터리 가격, 연말께 LFP 수준으로 인하\"",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "세계 1위 배터리 제조사 CATL이 2026년 말 나트륨 이온 배터리(SIB)의 가격을 리튬·인산·철(LFP) 배터리 수준으로 낮추겠다고 발표했다. 양산이 본격화되면 SIB 생산 원가가 기존 LFP 대비 30% 이상 저렴해질 것으로 예상되어 보급형 전기차 및 에너지 저장 장치(ESS) 시장의 변화가 기대된다. CATL은 이미 SIB 양산 라인 가동 준비를 마쳤으며, 네덜란드 알펜(Alfen) NV 및 불가리아 솔라프로 테크놀로지(Solarpro Technology) 등과 공급 계약을 체결하며 글로벌 시장 공략에 나섰다. 이번 가격 동등화 달성은 SIB가 배터리 시장의 판도를 재편하는 중요한 전환점이 될 전망이다.",
+      "industry_context": "중국에 본사를 둔 CATL은 세계 최대 배터리 제조사로, 전기차용 배터리와 ESS 분야에서 독보적인 점유율과 기술력을 보유하고 있다. 회사는 공급망 관리, 대량 양산 체제 구축, 엄격한 제품 검증을 나트륨 배터리 상용화의 핵심 성공 전략으로 삼고 있다.",
+      "key_points": [
+        "2026년 말 나트륨 이온 배터리(SIB) 가격과 LFP 배터리 가격의 동등화 전망",
+        "양산 시 SIB 생산 원가가 기존 LFP 대비 30% 이상 저렴해질 것으로 기대",
+        "CATL은 푸젠성 및 산둥성 등지에 대규모 SIB 생산 기지 확보 및 공급 계약 체결 완료"
+      ],
+      "numbers": [
+        "2026년",
+        "30%",
+        "7억 6000만 달러",
+        "40GWh",
+        "160GWh",
+        "5GWh"
+      ],
+      "keywords": [
+        "CATL",
+        "나트륨이온배터리",
+        "LFP",
+        "배터리원가",
+        "ESS",
+        "공급망"
+      ],
+      "stated_outlook": "2026년 말까지 SIB와 LFP 배터리 가격 동등화를 달성하고, 오는 9월 중국 내 첫 공급을 시작으로 연말까지 1GWh 출하량 달성 및 내년 6월부터 글로벌 시장 본격 인도 예정.",
+      "summary_status": "summarized",
+      "favorited_at": "2026-08-24 18:22 KST"
+    },
     {
       "id": "c9996cebf2b6",
       "sector": "semiconductor",
