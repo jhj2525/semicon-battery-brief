@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-24 19:01 KST",
-  "last_automatic_update_at": "2026-08-24 19:01 KST",
-  "automatic_cycle_started_at": "2026-08-24 18:58 KST",
+  "updated_at": "2026-08-24 19:02 KST",
+  "last_automatic_update_at": "2026-08-24 19:02 KST",
+  "automatic_cycle_started_at": "2026-08-24 19:01 KST",
   "publication_window": {
-    "from": "2026-08-23 18:58 KST",
-    "to": "2026-08-24 18:58 KST"
+    "from": "2026-08-23 19:01 KST",
+    "to": "2026-08-24 19:01 KST"
   },
   "today_verified_count": 1,
   "current_items": [
@@ -398,26 +398,6 @@
       "stated_outlook": "BESS 사업의 국내외 경쟁력을 강화하고, AI 데이터센터 전력 인프라 등 글로벌 에너지 시장에서 새로운 사업 기회를 지속적으로 발굴해 나갈 계획이다."
     },
     {
-      "id": "22b33ea1b3b0",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "산업",
-      "title": "캐즘 버틴 삼성SDI, 4.4조 실탄 확보…ESS 승부수 띄운다",
-      "source": "이데일리",
-      "source_type": "경제지 보도",
-      "published": "2026-08-24 11:37",
-      "collected": "2026-08-24",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Cc1VHeGczRXB3Uksxb3lPVWRsanFIT3l3LUZvOVB2TXVsZHJORksyM1dJV09NZFZsdXFiZzllbHpleXNrNXZqU3VUTFhJemp0RFVFYVVrWGd3MllFTFpLRA?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
       "id": "2b26ab90f845",
       "sector": "battery",
       "region": "domestic",
@@ -487,6 +467,26 @@
       "published": "2026-08-24 13:50",
       "collected": "2026-08-24",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1zWVVsTmNaNkxTbnV3X1hjbVlFWkl1U2dZejM2NjZ4WUY5UHA2VzVTU21YZ1NqcExwaWFfV2ZuZUJIZ3phZWhnOVJJLWlsMzRUMWNnUlVFMVA3djIxZlBaRjVBMGVXOW9IQmZleGRidVFJWVhfQ3oyctIBeEFVX3lxTE1zWVVsTmNaNkxTbnV3X1hjbVlFWkl1U2dZejM2NjZ4WUY5UHA2VzVTU21YZ1NqcExwaWFfV2ZuZUJIZ3phZWhnOVJJLWlsMzRUMWNnUlVFMVA3djIxZlBaRjVBMGVXOW9IQmZleGRidVFJWVhfQ3oycg?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "fa6336223202",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "삼성SDI, ESS에 4조 붓는다…＂삼성D 9조 지분 유지＂",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-24 14:27",
+      "collected": "2026-08-24",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqMEd1TGFrYjVab1loSlpFSTVZZFVYN3c3N1VVOVpXbzZqMW04czA4TGJ4TDVSVk5hQ3RGbWtvbUZDZW5OU3Q3NHJtOWNDRU9hVWdwSkhlb1FQZWoxQjktYzBjQ3BheE8tV3Q1ejBRbjZYNUU?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
