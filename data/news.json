@@ -20,13 +20,32 @@
       "collected": "2026-08-24",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8yLUx6REdNWWNSdmtxLTFkaFNsUDJsSXRUSkhXVmhsblVzTTB3ZXowM0NkRTRJb3pLX0NrSF92NjJkTDFRd2JPOFRGbnhUVjVONVVFNmJreXc0SmhkbE9xNF9BaDNJUDhrNzVSUmN4aFFNOV9yOXktb9IBeEFVX3lxTE8yLUx6REdNWWNSdmtxLTFkaFNsUDJsSXRUSkhXVmhsblVzTTB3ZXowM0NkRTRJb3pLX0NrSF92NjJkTDFRd2JPOFRGbnhUVjVONVVFNmJreXc0SmhkbE9xNF9BaDNJUDhrNzVSUmN4aFFNOV9yOXktbw?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "전남광주시는 호남권 첨단 반도체 국가산업단지 조성의 일환으로 광주군공항 부지 중 우선 개발 가능한 63만평에 대해 올해 연말부터 기초 지반 보강 공사에 착수한다. 정부와 LH, 삼성전자, SK하이닉스는 2029년까지 반도체 팹 최대 2기를 완공하고 2030년 6월 첫 양산을 목표로 추진 중이다. 이를 위해 지반 보강 후 단지 조성 및 부지 분양을 순차적으로 진행하며 복층 팹 건설을 포함한 최단기 시공 방식을 도입할 계획이다. 인접 군공항의 운용 제한을 고려해 고도 제한 등 안전 지침을 준수하며 속도감 있는 사업 추진이 이어지고 있다.",
+      "key_points": [
+        "광주군공항 부지 248만평 중 63만평을 1단계 우선 개발 부지로 선정",
+        "올해 연말 또는 내년 초부터 지반 보강 공사 시작 예정",
+        "2029년 내 반도체 팹 최대 2기 완공 및 2030년 6월 제품 양산 목표",
+        "삼성전자와 SK하이닉스가 주요 앵커기업으로 참여하여 팹 건설 및 투자 진행"
+      ],
+      "numbers": [
+        "2030년 6월",
+        "63만평",
+        "248만평",
+        "2029년",
+        "490%"
+      ],
+      "keywords": [
+        "전남광주",
+        "반도체",
+        "국가산업단지",
+        "팹",
+        "양산"
+      ],
+      "stated_outlook": "정부와 지자체, 투자 기업이 동시다발적으로 추진하는 '전격전'을 통해 2029년 팹 완공과 2030년 양산 목표를 달성할 것으로 전망된다.",
+      "summary_source": "pasted_text",
+      "industry_context": "인공지능(AI) 시대의 반도체 수급 부족에 대응하여, 전 세계적으로 단층 팹보다 생산 효율성이 높은 복층 팹을 건설하는 것이 최신 업계 추세이다."
     },
     {
       "id": "cee7fa92d97d",
@@ -5486,7 +5505,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-24 17:43 KST",
+  "manual_updated_at": "2026-08-24 17:44 KST",
   "favorite_items": [
     {
       "id": "2645bf18519c",
