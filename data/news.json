@@ -6366,6 +6366,49 @@
   "manual_updated_at": "2026-08-25 13:43 KST",
   "favorite_items": [
     {
+      "id": "7d121dc2b0b2",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "TSMC Targets 100,000 Monthly 2nm Wafers by the End of 2026",
+      "source": "eteknix.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-05 05:41",
+      "collected": "2026-08-25",
+      "link": "https://www.eteknix.com/tsmc-targets-100000-monthly-2nm-wafers-by-the-end-of-2026",
+      "requested_link": "https://www.eteknix.com/tsmc-targets-100000-monthly-2nm-wafers-by-the-end-of-2026",
+      "rss_description": "TSMC Targets 100,000 Monthly 2nm Wafers by the End of 2026",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "글로벌 파운드리 선두 기업인 TSMC가 2nm(N2) 공정 생산 능력을 대폭 확대합니다. 2026년 말까지 현재 월 2만 장 수준인 2nm 웨이퍼 생산량을 월 10만 장까지 끌어올릴 계획입니다. 이러한 생산 확대는 GAAFET 아키텍처를 기반으로 한 고성능 칩 설계 수요가 급증함에 따른 조치입니다. TSMC는 이를 통해 전체 매출에서 2nm 공정이 차지하는 비중을 10% 이상으로 높이고자 합니다. 이번 전략은 AI, 서버, PC 하드웨어 분야에서 차세대 제조 기술의 영향력을 강화하려는 의도로 풀이됩니다.",
+      "industry_context": "TSMC는 대만에 본사를 둔 세계 최대 규모의 위탁 반도체 제조 기업(파운드리)입니다. 5nm 및 3nm 등 첨단 미세 공정 기술을 바탕으로 Apple, AMD, Nvidia 등 글로벌 주요 기업에 핵심 반도체를 공급하며 반도체 공급망의 핵심 위치를 점하고 있습니다.",
+      "key_points": [
+        "TSMC는 2026년 말까지 월간 2nm 웨이퍼 생산량을 10만 장으로 확대할 계획이다.",
+        "2nm 공정은 이전 3nm 공정과 비교해 4배 더 많은 칩 설계를 유치할 정도로 수요가 높다.",
+        "GAAFET 아키텍처 도입으로 기존 대비 성능 15% 향상 또는 전력 소비 30% 감소 효과를 제공한다.",
+        "Apple의 A20 Pro 칩 및 AMD의 EPYC 서버 프로세서 등이 2nm 공정을 도입할 예정이다."
+      ],
+      "numbers": [
+        "2026년 말(기한)",
+        "월 100,000장(2nm 생산 목표)",
+        "월 20,000장(현재 2nm 생산량)",
+        "3%(현재 2nm 매출 비중)",
+        "30%(현재 3nm 매출 비중)",
+        "33%(현재 5nm 매출 비중)"
+      ],
+      "keywords": [
+        "TSMC",
+        "2nm",
+        "파운드리",
+        "GAAFET",
+        "반도체",
+        "웨이퍼"
+      ],
+      "stated_outlook": "2026년 말까지 2nm 웨이퍼 월 생산량을 10만 장으로 확대하여, 해당 공정에서 전체 매출의 10% 이상을 창출할 계획입니다.",
+      "summary_status": "summarized",
+      "favorited_at": "2026-08-25 13:43 KST"
+    },
+    {
       "id": "88f07569cddd",
       "sector": "battery",
       "region": "domestic",
