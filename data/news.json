@@ -345,20 +345,39 @@
       "sector": "battery",
       "region": "domestic",
       "category": "산업",
-      "title": "美 배터리 수요 반등에 기대감 `UP`…K-배터리, 생태계 반등 채비 [배터리레이다]",
+      "title": "美 배터리 수요 반등에 기대감 `UP`…K-배터리, 생태계 반등 채비",
       "source": "디지털데일리",
       "source_type": "산업 전문언론",
       "published": "2026-08-24 17:20",
       "collected": "2026-08-25",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9VUFNUQkxTRjhzdTUzY1FuQ2RGQXNoMXQybk5WR1cyS1JlMEdZcDhzc0xTdFVJQ0p0UEJldnAtVWhjNkIzaGVJcXV1eWU3c2ZMOElMZHI3c1JaX1JtZnNkLVl0SGc?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "북미 배터리 시장이 전기차 수요 둔화 이후 하반기 회복세에 접어들며 국내 배터리 3사의 공장 가동과 증설이 본격화되고 있다. LG에너지솔루션은 미시간주 랜싱 공장 가동을 시작했고, 삼성SDI는 북미 ESS 시장 대응을 위한 단독 생산거점 전환과 증설에 나섰다. SK온 또한 데이터센터 등 전력수요 기업과 ESS 공급을 협의하며 북미 공장 활용 방안을 검토 중이다. 이와 함께 국내 주요 소재 기업들의 가동 확대와 신규 납품이 이어지면서 배터리 생태계 전반의 활기가 예상된다. 특히 미국 정부의 대중 공급망 제재 강화로 국내산 배터리 소재의 중요성이 커지며 공급 개선이 기대된다.",
+      "key_points": [
+        "LG에너지솔루션 미시간주 랜싱 공장 가동 개시 및 GM 얼티엄셀즈 오하이오 워런 1공장 생산 재개",
+        "삼성SDI, 삼성디스플레이 지분 매각을 통해 확보한 4조 4499억 9900만원으로 북미 ESS 생산 등 설비투자 추진",
+        "엘앤에프, 포스코퓨처엠, 동화일렉트로라이트, 솔루스첨단소재 등 소재사들의 북미 가동 및 공급 확대",
+        "미국의 대중 공급망 제재로 국내 배터리 소재 기업의 반사이익 및 공급 기회 확대"
+      ],
+      "numbers": [
+        "2026-08-25",
+        "35GWh",
+        "4조4499억9900만원",
+        "1조6000억원",
+        "5만톤"
+      ],
+      "keywords": [
+        "K-배터리",
+        "ESS",
+        "북미 시장",
+        "배터리 소재",
+        "공급망"
+      ],
+      "stated_outlook": "북미 내 ESS 수요 확대와 전기차 판매의 점진적 반등으로 국내 배터리 생태계 전반이 회복세를 보일 것으로 전망된다.",
+      "summary_source": "pasted_text",
+      "industry_context": "전기차 수요 둔화로 숨 고르기에 들어갔던 북미 배터리 시장이 ESS 등 수요 확대 분야를 중심으로 회복 국면에 진입했다."
     },
     {
       "id": "c62a76fa2f04",
