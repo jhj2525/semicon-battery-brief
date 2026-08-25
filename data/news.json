@@ -3791,13 +3791,33 @@
       "link": "https://n.news.naver.com/mnews/article/215/0001263378",
       "requested_link": "https://n.news.naver.com/mnews/article/215/0001263378",
       "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "삼성SDI가 삼성디스플레이 지분 5%를 매각하여 4조 4천억 원의 자금을 확보했다. 확보된 자금은 북미 지역 에너지저장장치(ESS) 생산능력을 확대하는 데 집중 투입될 예정이다. 삼성SDI는 북미 합작법인인 시너지셀즈의 단독 경영권을 확보하고 ESS 생산 거점으로 육성한다는 전략을 세웠다. 남은 삼성디스플레이 지분은 배당금 및 지분법 이익 등을 고려해 당장 추가 매각 계획이 없는 상태다. 이를 통해 재무 건전성을 높이고 전고체 배터리 등 신성장 동력 확보에도 박차를 가할 전망이다.",
+      "key_points": [
+        "삼성SDI가 삼성디스플레이 지분 5%를 매각해 4조 4천억 원을 확보함.",
+        "확보된 자금은 북미 시너지셀즈의 ESS 생산능력을 30GWh에서 50GWh 이상으로 늘리는 데 투입됨.",
+        "삼성SDI의 잔여 삼성디스플레이 지분율은 10.2%이며, 평가액은 9조 원 규모임.",
+        "삼성SDI는 내년 하반기 전고체 배터리 양산을 목표로 하고 있음."
+      ],
+      "numbers": [
+        "4조 4천억 원",
+        "5%",
+        "9조 원",
+        "10.2%",
+        "30GWh",
+        "50GWh"
+      ],
+      "keywords": [
+        "삼성SDI",
+        "삼성디스플레이",
+        "ESS",
+        "시너지셀즈",
+        "전고체 배터리"
+      ],
+      "stated_outlook": "북미 ESS 생산능력 확대에 따른 추가 수주 가능성과 신사업 투자 여력 확보를 통해 전 사업 영역에서 실적 개선을 기대하고 있다.",
+      "summary_source": "pasted_text",
+      "industry_context": "삼성SDI는 경쟁사 대비 부족했던 북미 내 생산능력 확대를 통해 추가 수주를 노리고 있으며, 유럽 내 중국 배터리 업체에 대한 규제 강화로 점유율 확대 기회를 맞이하고 있다."
     },
     {
       "id": "95ba5888c6f0",
@@ -6443,7 +6463,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-25 19:49 KST",
+  "manual_updated_at": "2026-08-25 19:51 KST",
   "favorite_items": [
     {
       "id": "ac986138335c",
