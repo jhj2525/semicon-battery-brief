@@ -5897,6 +5897,46 @@
   "manual_updated_at": "2026-08-25 13:28 KST",
   "favorite_items": [
     {
+      "id": "2fb7a9f5fff6",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "SK하이닉스 “HBM 승부는 패키징”...AI 반도체 경쟁판 바뀐다[핫칩스 2026]",
+      "source": "매일경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-24 08:20",
+      "collected": "2026-08-25",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwYkZxdFV1UlMwdjJxWk5KMjlVNDI3VVZBbldOYzcxbXZvRkR3LXBPY0JsaENzbklSV3FMNUwtSHpxVUJnWW1EckppQkRKZw?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "SK하이닉스는 AI 반도체 경쟁이 메모리 성능을 넘어 패키징 기술 최적화로 이동하고 있다고 강조했다. AI 반도체는 HBM이 GPU와 함께 인터포저 위에 가장 먼저 실장되어야 하므로, 메모리 업체와 파운드리, 패키징 업체의 초기 설계 협업이 필수적인 시대가 되었다. 3D 적층 구조로 진화함에 따라 HBM이 겪는 열과 응력을 견디는 신뢰성 확보가 핵심 과제로 부상했다. SK하이닉스는 20단 이상 HBM 구현을 위해 하이브리드 본딩 기술을 개발 중이며, 국소 발열을 제어하는 iHBM 기술도 준비하고 있다. 향후 HBM은 용량과 대역폭 확대는 물론, 전력과 열 문제를 해결하는 패키징 기술 경쟁이 주도할 전망이다.",
+      "key_points": [
+        "SK하이닉스가 핫칩스 2026에서 20단 이상 HBM 적층을 위한 하이브리드 본딩 기술을 개발 중이라고 밝혔다.",
+        "하이브리드 본딩 기술을 통해 코어 다이 두께를 최대 24% 늘리고 범프 간격을 18㎛ 이하로 줄이는 것이 가능하다.",
+        "HBM의 국소 발열 문제를 해결하기 위해 고열전도 소재를 활용한 iHBM 기술을 개발하고 있다.",
+        "반도체 패키징 구조가 2D에서 2.5D를 거쳐 3D 적층으로 진화하고 있어 고객 및 파운드리와의 공동 개발이 필수적이다."
+      ],
+      "numbers": [
+        "2026-08-24",
+        "20단",
+        "24%",
+        "18㎛"
+      ],
+      "keywords": [
+        "SK하이닉스",
+        "HBM",
+        "하이브리드 본딩",
+        "첨단 패키징",
+        "iHBM",
+        "핫칩스 2026"
+      ],
+      "stated_outlook": "HBM의 대역폭과 용량은 계속 커질 것이며, 열과 전력 및 패키징 문제가 향후 더 큰 과제가 될 것으로 전망됨.",
+      "summary_source": "pasted_text",
+      "industry_context": "과거 메모리가 시스템 조립 마지막 단계에 들어갔던 것과 달리, AI 반도체에서는 HBM이 실리콘 인터포저 위에 가장 먼저 조립되어야 하며 이후 공정의 열과 기계적 응력을 견뎌야 하는 구조로 변화함.",
+      "favorited_at": "2026-08-25 13:28 KST"
+    },
+    {
       "id": "ef54770d79ce",
       "sector": "battery",
       "region": "global",
