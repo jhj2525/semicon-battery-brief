@@ -96,13 +96,33 @@
       "collected": "2026-08-25",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qd3dqbVpRclF6R0xCOVJtcWN3eVNKZmNyajdTYlV5M1lCU20tZE9TUk8zMWJKcU9uWGd2T1F0c3RMMmRFSXlSeTdQeU1PdVVSR1d3?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "UNIST 김명수·김병조 교수팀이 차세대 반도체 소재인 이황화몰리브덴(MoS₂)의 공정 오염 문제를 해결하는 기술을 개발했다. 연구팀은 5나노미터 두께의 희생 금(Au)막을 활용해 포토레지스트 잔여물이 표면에 달라붙는 현상을 원천 차단하는 방식을 고안했다. 이 공정을 통해 제작된 트랜지스터는 접촉저항이 기존 대비 10분의 1로 줄었으며, 온전류는 약 10배 증가하는 성능 향상을 보였다. 또한 전자빔 공정 및 원자층증착 등 다양한 공정에 적용 가능한 범용성을 확인했다. 이번 연구는 고집적 차세대 로직 및 메모리 소자 개발의 핵심적인 공정 장애 요소를 해결했다는 데 산업적 의미가 있다.",
+      "key_points": [
+        "UNIST 연구팀이 ‘희생 금속 마스크 리소그래피’ 공정 기술을 개발함",
+        "포토레지스트 도포 전 5nm 두께의 희생 금막을 입혀 표면 오염을 원천 차단함",
+        "이황화몰리브덴 트랜지스터의 접촉저항은 2.58×10⁵ Ω·μm로 개선되고 온전류는 10배 증대됨",
+        "이번 연구 결과는 국제학술지 '스몰(Small)'에 8월 11일 자로 온라인 게재됨"
+      ],
+      "numbers": [
+        "2026-08-24",
+        "5nm",
+        "2.58×10⁵ Ω·μm",
+        "10분의 1",
+        "10배",
+        "8월 11일"
+      ],
+      "keywords": [
+        "UNIST",
+        "이황화몰리브덴",
+        "반도체 공정",
+        "포토레지스트",
+        "희생 금속 마스크"
+      ],
+      "stated_outlook": "이번 기술 개발을 통해 향후 고집적 로직 및 메모리 소자 개발에 기여할 것으로 기대된다.",
+      "summary_source": "pasted_text",
+      "industry_context": "이황화몰리브덴은 얇은 두께에서도 반도체 특성을 유지해 고집적 차세대 로직·메모리 소자의 핵심 소재로 꼽히나, 제작 과정 중 발생하는 포토레지스트 잔여물이 성능을 저하시키는 난제가 있었다."
     },
     {
       "id": "2fb7a9f5fff6",
@@ -5895,7 +5915,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-25 13:26 KST",
+  "manual_updated_at": "2026-08-25 13:27 KST",
   "favorite_items": [
     {
       "id": "ef54770d79ce",
