@@ -3622,7 +3622,7 @@
       "sector": "semiconductor",
       "region": "global",
       "category": "산업",
-      "title": "수동 추가 기사 · 전자신문",
+      "title": "금화정수, 삼성전자 반도체 초순수 CEDI 국산화 납품 계약 체결",
       "source": "전자신문",
       "source_type": "직접 선택",
       "published": "2026-08-25 19:04",
@@ -3630,13 +3630,34 @@
       "link": "https://www.etnews.com/20260825000355",
       "requested_link": "https://www.etnews.com/20260825000355",
       "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "금화정수가 삼성E&A와 반도체 공정 핵심 소재인 초순수 생산 장치인 CEDI(전기탈이온장치)에 대한 정식 납품 계약을 체결했다. 이번 납품은 2018년부터 진행된 공동 개발 협약 이후 연구와 실증 테스트를 거쳐 완성된 결과물이다. 금화정수는 오는 12월 삼성전자 평택공장에 해당 장치를 공급할 예정이다. 이번 상용화 납품을 통해 금화정수는 반도체 분야의 전략적 파트너사로 성장할 기반을 마련했다. 향후 회사는 기존 반도체 폐수 처리 실적과 초순수 CEDI 납품 실적을 결합해 수처리 전문 기업으로서의 입지를 강화할 계획이다.",
+      "key_points": [
+        "금화정수, 삼성E&A와 반도체용 초순수 CEDI 납품 계약 체결",
+        "12월 삼성전자 평택공장에 해당 장비 납품 예정",
+        "2018년 시작된 공동 개발 협약을 통해 국산화 성공",
+        "금화정수는 CEDI 관련 특허를 보유하고 자체 브랜드 MDI로 제조함"
+      ],
+      "numbers": [
+        "2026-08-25",
+        "2018년",
+        "1959년",
+        "2000년",
+        "2001년",
+        "2003년"
+      ],
+      "keywords": [
+        "금화정수",
+        "삼성전자",
+        "삼성E&A",
+        "CEDI",
+        "반도체 초순수",
+        "국산화"
+      ],
+      "stated_outlook": "금화정수는 지속적인 연구개발을 통해 Global No.1 수처리 기업으로 성장하겠다는 목표를 밝혔다.",
+      "summary_source": "pasted_text",
+      "industry_context": "반도체 초순수 분야는 지속적으로 성장하고 있는 핵심 전략 산업으로 분류된다."
     },
     {
       "id": "80f6aeccdb79",
@@ -6422,7 +6443,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-25 19:29 KST",
+  "manual_updated_at": "2026-08-25 19:30 KST",
   "favorite_items": [
     {
       "id": "95ba5888c6f0",
