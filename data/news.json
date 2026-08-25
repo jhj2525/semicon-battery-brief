@@ -175,13 +175,32 @@
       "collected": "2026-08-25",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1vWjFNMUE0UmJ2YzhoNEtNQ2VCMDlHQWpuTjcwRWhsejJYUkRBWFFpSkdxZXFUd1Roekx6VG9OZE9CaFRvZjV3VXRNWDU5LUJ4eEFyRUZqZEtQUQ?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "국내 기업들의 경기 전망이 6개월 만에 긍정으로 전환되며 기업 심리가 뚜렷한 회복세를 보이고 있다. 특히 수출과 반도체에 국한되었던 호조세가 내수와 부품·소재 등 다양한 업종으로 확산된 점이 특징이다. 제조업과 비제조업의 경기 전망이 동시에 기준선을 넘어선 것은 4년 11개월 만의 일이다. 또한 내수 전망도 환율 안정화와 추석 특수 등에 힘입어 4년 3개월 만에 긍정적인 수치를 기록했다. 이러한 기업 심리 개선이 실질적인 투자와 소비로 이어지기 위해서는 제도적 지원이 필요하다는 분석이 제기된다.",
+      "key_points": [
+        "9월 기업경기실사지수(BSI) 전망치가 102.0을 기록하며 6개월 만에 기준선 100을 상회함",
+        "제조업 BSI는 101.7, 비제조업 BSI는 102.4로 양측 모두 긍정적인 전망을 보임",
+        "내수 전망이 100.3을 기록하며 2022년 6월 이후 4년 3개월 만에 기준선을 회복함",
+        "수출 전망은 100.9로 4개월 연속 기준선 100 이상을 기록하며 견조한 흐름을 지속함"
+      ],
+      "numbers": [
+        "9월 BSI 전망치 102.0",
+        "제조업 BSI 101.7",
+        "비제조업 BSI 102.4",
+        "내수 전망 100.3",
+        "수출 전망 100.9"
+      ],
+      "keywords": [
+        "기업경기실사지수",
+        "BSI",
+        "내수",
+        "수출",
+        "제조업"
+      ],
+      "stated_outlook": "기업 심리 개선세가 투자와 소비로 이어질 수 있도록 국내생산세액공제 대상 확대 및 서비스산업발전기본법 제정 등의 제도적 지원이 필요함",
+      "summary_source": "pasted_text",
+      "industry_context": "최근 환율 안정화로 인해 수입 원자재·부품 가격과 외화 결제 부담에 대한 기업들의 우려가 일부 완화된 상황이다."
     },
     {
       "id": "16f213ad1ca6",
@@ -5896,7 +5915,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-25 13:23 KST",
+  "manual_updated_at": "2026-08-25 13:24 KST",
   "favorite_items": [
     {
       "id": "ef54770d79ce",
