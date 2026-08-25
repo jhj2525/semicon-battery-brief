@@ -3762,7 +3762,7 @@
       "sector": "semiconductor",
       "region": "global",
       "category": "산업",
-      "title": "Memory crunch drives Nvidia price hikes, cutting both ways for Samsung, SK Hynix - KED Global",
+      "title": "삼성 차량용 메모리, 구글 웨이모 차세대 자율주행차에 들어간다",
       "source": "kedglobal.com",
       "source_type": "직접 선택",
       "published": "2026-08-25 07:30",
@@ -3770,13 +3770,31 @@
       "link": "https://www.kedglobal.com/korean-chipmakers/newsView/ked202608240002",
       "requested_link": "https://www.kedglobal.com/korean-chipmakers/newsView/ked202608240002",
       "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "삼성전자의 차량용 메모리 솔루션이 구글의 자율주행 자회사 웨이모의 차세대 완전자율주행 컴퓨팅 플랫폼에 탑재되는 것으로 확인됐다. 웨이모가 공개한 컴퓨팅 시스템 파트너사 명단에는 삼성전자를 비롯해 AMD, 마이크론, 엔비디아 등이 포함되었다. 이번 협력은 자율주행 컴퓨팅의 고도화에 따라 대규모 데이터를 실시간 처리하기 위한 고성능 메모리의 역할이 커진 결과다. 업계에서는 향후 양사의 협력 범위가 메모리를 넘어 파운드리와 첨단 패키징 분야로 확대될 가능성을 제기하고 있다. 삼성전자는 차량용 메모리 제품군을 강화하며 로보택시용 메모리 시장의 고객 기반 확대를 추진 중이다.",
+      "key_points": [
+        "삼성전자의 차량용 메모리가 웨이모의 차세대 완전자율주행 컴퓨팅 플랫폼에 채택됨",
+        "웨이모가 밝힌 5나노미터 ASIC은 1000TOPS 이상의 머신러닝 성능을 갖춰 데이터를 실시간 처리함",
+        "삼성전자는 차량용 LPDDR5X, UFS 등 메모리 제품군을 확대하고 있으며 파운드리 및 첨단 패키징 분야에서도 협력 가능성이 거론됨"
+      ],
+      "numbers": [
+        "2026.08.23",
+        "5나노미터",
+        "1000TOPS",
+        "2015년",
+        "2023년"
+      ],
+      "keywords": [
+        "삼성전자",
+        "웨이모",
+        "차량용메모리",
+        "자율주행",
+        "파운드리"
+      ],
+      "stated_outlook": "삼성전자와 웨이모의 협력은 향후 파운드리(반도체 위탁생산)와 첨단 패키징 분야로 확대될 것으로 관측된다.",
+      "summary_source": "pasted_text",
+      "industry_context": "자율주행과 소프트웨어중심차(SDV)의 확산으로 차량용 메모리 활용처가 기존 인포테인먼트에서 첨단운전자지원시스템(ADAS), 차량용 AI, 자율주행 컴퓨팅 등으로 확대되는 추세다."
     },
     {
       "id": "c9996cebf2b6",
