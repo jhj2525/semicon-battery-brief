@@ -3599,6 +3599,88 @@
       "summary_status": "summarized"
     },
     {
+      "id": "9b0c857f3f31",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "SK, 5천억 넘게 쏟은 SK시그넷 '750억+α'에 손절",
+      "source": "news.einfomax.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-08-25 17:34",
+      "collected": "2026-08-25",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431583",
+      "requested_link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431583",
+      "rss_description": "SK, 5천억 넘게 쏟은 SK시그넷",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "SK가 전기차 충전기 제조 자회사인 SK시그넷을 상장폐지 후 매각하기로 결정하며 사실상 사업에서 손을 뗀다. SK는 이번 매각의 주된 배경으로 전기차 캐즘에 따른 충전 인프라 신규 투자 지연과 판매량 감소를 꼽았다. 전기차 시장 성장세가 둔화되는 가운데 업체 간 경쟁은 오히려 심화되면서 수익성 확보가 어려워진 점이 영향을 미쳤다. SK는 최대 2천억 원 규모의 매각가를 기대하고 있으나, 그동안 투입된 자금이 5천억 원을 넘어 대규모 손실이 불가피할 전망이다.",
+      "industry_context": "SK시그넷은 전기차용 초급속 충전기를 제조하는 기업으로, SK가 2021년 인수하여 관련 포트폴리오를 확장해 왔다. 업계에서는 사모펀드 운용사인 앵커에퀴티파트너스가 유력한 인수 후보로 거론되고 있다.",
+      "key_points": [
+        "SK가 SK시그넷 지분 공개매수를 통해 상장폐지 및 매각 절차를 진행함",
+        "매각 금액은 기본 750억 원에 향후 실적에 따른 이익 연계 지급조건(Earn-out)을 합쳐 최대 2천억 원 규모임",
+        "SK는 전기차 수요 둔화(캐즘)로 인한 충전 시장의 수익성 악화 및 경쟁 심화를 사업 철수 이유로 밝힘"
+      ],
+      "numbers": [
+        "750억 원",
+        "826억 원",
+        "5천108억 원",
+        "2026년 8월 25일",
+        "2028년",
+        "2029년"
+      ],
+      "keywords": [
+        "SK시그넷",
+        "전기차 충전기",
+        "캐즘",
+        "기업 매각",
+        "상장폐지"
+      ],
+      "stated_outlook": "SK는 올해 말까지 SK시그넷의 실사와 상장폐지를 마무리하고, 내년 1분기 내에 매각을 완료할 계획이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "a7c278c845d2",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "기술인재에 연봉 3배 부르는 중국…애국심으로 남아달라는 한국",
+      "source": "weekly.khan.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-08-25 15:00",
+      "collected": "2026-08-25",
+      "link": "https://weekly.khan.co.kr/article/202608250600001",
+      "requested_link": "https://weekly.khan.co.kr/article/202608250600001",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "576168b29abf",
+      "sector": "battery",
+      "region": "global",
+      "category": "산업",
+      "title": "삼성SDI, ESS에 4조 붓는다…\"삼성D 9조 지분 유지\"",
+      "source": "n.news.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-25 13:38",
+      "collected": "2026-08-25",
+      "link": "https://n.news.naver.com/mnews/article/215/0001263378",
+      "requested_link": "https://n.news.naver.com/mnews/article/215/0001263378",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
       "id": "95ba5888c6f0",
       "sector": "semiconductor",
       "region": "global",
@@ -4017,48 +4099,6 @@
       "stated_outlook": "",
       "summary_source": "pasted_text",
       "industry_context": "배터리 업계는 주요 산업 가운데에서도 복합 기술의 집합체인 만큼 특허 등록 건수 증가세가 빠른 분야로 꼽힙니다."
-    },
-    {
-      "id": "576168b29abf",
-      "sector": "battery",
-      "region": "global",
-      "category": "산업",
-      "title": "삼성SDI, ESS에 4조 붓는다…\"삼성D 9조 지분 유지\"",
-      "source": "n.news.naver.com",
-      "source_type": "직접 선택",
-      "published": "2026-08-24 17:35",
-      "collected": "2026-08-24",
-      "link": "https://n.news.naver.com/mnews/article/215/0001263378",
-      "requested_link": "https://n.news.naver.com/mnews/article/215/0001263378",
-      "manual_added": true,
-      "verified_source": true,
-      "summary_status": "summarized",
-      "overview": "삼성SDI가 삼성디스플레이 지분 일부를 매각하여 약 4조 4천억 원의 자금을 확보했습니다. 확보된 자금은 미국 내 에너지저장장치(ESS) 생산능력을 확대하고 차세대 배터리 기술에 투자하는 데 사용될 예정입니다. 삼성SDI는 북미 합작법인이던 시너지셀즈의 지분을 인수하며 단독 생산법인으로 전환하였으며, 이를 통해 ESS 생산능력을 기존 30GWh 수준에서 50GWh 이상으로 끌어올릴 계획입니다. 또한, 이번 매각 이후 잔여 지분은 유지하며 배당금 및 지분법 이익을 지속할 방침입니다. 향후 전고체 배터리 양산과 소듐이온 배터리 개발 등 신성장 사업도 병행하여 실적 개선을 도모하고 있습니다.",
-      "key_points": [
-        "삼성SDI가 삼성디스플레이 지분을 매각하여 4조 4천억 원을 확보함",
-        "북미 생산법인 '시너지셀즈'를 단독법인으로 전환하고 ESS 생산능력을 50GWh 이상으로 확대 예정",
-        "삼성SDI가 보유한 삼성디스플레이 잔여 지분은 10.2%(약 9조 원 규모)이며, 당분간 추가 매각 계획 없음",
-        "내년 하반기 전고체 배터리 양산 및 소듐이온 배터리 개발 진행 중"
-      ],
-      "numbers": [
-        "4조 4천억 원",
-        "10.2%",
-        "9조 원",
-        "30GWh",
-        "50GWh",
-        "2024년"
-      ],
-      "keywords": [
-        "삼성SDI",
-        "삼성디스플레이",
-        "ESS",
-        "시너지셀즈",
-        "전고체 배터리",
-        "지분 매각"
-      ],
-      "stated_outlook": "올해 매출액 16조 원 및 영업이익 3,200억 원 달성을 전망하며, 내년 하반기 전고체 배터리 양산과 하반기 중 유럽 완성차 업체와의 신규 수주 확보를 목표로 하고 있습니다.",
-      "summary_source": "pasted_text",
-      "industry_context": "미국 내 ESS 시장의 성장과 함께 북미 고객사의 수주 확대가 기대되는 상황입니다. 또한, 유럽 시장에서 중국 배터리 업체에 대한 규제가 강화되면서 국내 배터리 업체의 점유율 확대 기회가 조성되고 있습니다."
     },
     {
       "id": "46f2378b654c",
@@ -6233,7 +6273,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-25 13:35 KST",
+  "manual_updated_at": "2026-08-25 13:39 KST",
   "favorite_items": [
     {
       "id": "80f6aeccdb79",
