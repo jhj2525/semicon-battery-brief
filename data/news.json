@@ -332,13 +332,33 @@
       "collected": "2026-08-25",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fenVuNzVNbzcwVDdhWWl0bGxnQVQzT0kxa3RQRDB3bGNHWW5uM2lVUWhsWktlenZ1UjhyZV9zWVdvN0ZXYlJBSGZaUnNNNGVfYVJ0Vkwxa2g3RGlpTlJGMnp0Z19SUnB2M3o5dNIBbEFVX3lxTE9fenVuNzVNbzcwVDdhWWl0bGxnQVQzT0kxa3RQRDB3bGNHWW5uM2lVUWhsWktlenZ1UjhyZV9zWVdvN0ZXYlJBSGZaUnNNNGVfYVJ0Vkwxa2g3RGlpTlJGMnp0Z19SUnB2M3o5dA?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "한중엔시에스가 기존 자동차 부품 중심에서 에너지저장장치(ESS) 중심으로 사업 구조를 완전히 재편했다. 올 상반기 기준 전체 매출의 96.9%가 ESS 부문에서 발생하며 주력 사업으로 자리 잡았다. 회사는 북미 시장 진출을 위해 미국 인디애나주에 생산 법인을 설립하고 올해 4월 공장 착공에 들어갔다. 최근 800억 원 규모의 자금 조달을 결정했으며, 이 중 600억 원을 미국 현지 공장 투자에 투입할 계획이다. 이러한 행보는 미국 내 ESS 공급망 현지화와 관세 정책 변화에 대응하기 위한 전략적 선택으로 풀이된다.",
+      "key_points": [
+        "한중엔시에스, 사업 구조를 자동차 부품에서 ESS 제조로 전면 재편",
+        "800억 원 규모의 신종자본증권 발행 결정, 600억 원을 미국 인디애나 법인 투자에 배정",
+        "수냉식 ESS 냉각시스템(Cooling Plate, Chiller, HVAC 등) 생산 및 글로벌 배터리 제조사 공급",
+        "2027년 전후를 한국 배터리 업체의 미국 ESS 현지 생산 본격화 시점으로 보고 현지화 가속"
+      ],
+      "numbers": [
+        "800억 원",
+        "2026-08-24",
+        "96.9%",
+        "600억 원",
+        "200억 원",
+        "2027년"
+      ],
+      "keywords": [
+        "한중엔시에스",
+        "ESS",
+        "사업재편",
+        "인디애나",
+        "수냉식냉각시스템"
+      ],
+      "stated_outlook": "2027년 전후를 기점으로 한국 배터리 업체의 미국 ESS 생산이 본격화될 것으로 예상하며, 인디애나 공장을 핵심 생산거점으로 육성할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "미국 무역법 301조에 따라 중국산 ESS 배터리에 대한 관세율이 올해부터 7.5%에서 25%로 인상되었으며, 현지 생산 체계를 갖춘 기업들에 혜택이 집중되는 환경이다."
     },
     {
       "id": "88f07569cddd",
