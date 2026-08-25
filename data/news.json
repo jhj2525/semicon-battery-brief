@@ -6425,6 +6425,47 @@
   "manual_updated_at": "2026-08-25 19:04 KST",
   "favorite_items": [
     {
+      "id": "0e4fa5f2c4fc",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "차세대 반도체 난제 '초미세 배선 저항'… 삼성전자가 해법 찾았다",
+      "source": "n.news.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-25 13:31",
+      "collected": "2026-08-25",
+      "link": "https://n.news.naver.com/mnews/article/469/0000949315?rc=N&ntype=RANKING",
+      "requested_link": "https://n.news.naver.com/mnews/article/469/0000949315?rc=N&ntype=RANKING",
+      "manual_added": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "삼성전자 SAIT 연구진이 차세대 로직 반도체의 성능과 전력효율을 저해하는 초미세 금속 배선의 저항 문제를 해결할 기술을 세계 최초로 구현했다. 연구진은 차세대 배선 소재인 루테늄(Ru)의 내부 결정 구조를 탄소 촉진제를 활용해 한 방향으로 정렬함으로써 전자의 흐름을 방해하는 요인을 줄였다. 이를 통해 배선 저항을 기존 대비 약 45% 감소시키는 성과를 거두었으며, 해당 연구 결과는 국제학술지 '사이언스' 온라인판에 게재되었다. 이 기술은 향후 인공지능(AI) 가속기 및 고성능컴퓨팅(HPC) 반도체의 전력 효율과 신호 전달 속도를 개선하는 데 기여할 것으로 기대된다. 다만 실제 양산 적용을 위해서는 기존 공정과의 호환성 및 신뢰성 등에 대한 추가 검증이 필요하다.",
+      "key_points": [
+        "삼성전자 SAIT가 루테늄 배선의 결정 방향을 정렬해 저항을 45% 낮추는 기술을 개발했다.",
+        "삼성전자와 광주과학기술원(GIST)의 공동 연구 결과가 국제학술지 '사이언스'에 게재되었다.",
+        "해당 기술은 AI 가속기 및 HPC용 반도체의 전력 효율 향상에 활용될 수 있다.",
+        "상용화를 위해 공정 호환성, 수율, 장기 신뢰성 등에 대한 추가 검증 단계가 남아있다."
+      ],
+      "numbers": [
+        "2026.08.21",
+        "45%",
+        "99%",
+        "13명",
+        "11명"
+      ],
+      "keywords": [
+        "삼성전자",
+        "루테늄",
+        "반도체 배선 저항",
+        "SAIT",
+        "사이언스"
+      ],
+      "stated_outlook": "실제 양산 공정 적용 시 AI 가속기와 고성능컴퓨팅(HPC)용 첨단 반도체의 신호 전달 속도 개선 및 전력 손실 감소에 기여할 것으로 보이나, 상용화를 위해 추가 검증이 필요하다.",
+      "summary_source": "pasted_text",
+      "industry_context": "반도체 미세화 기술 경쟁에 따라 트랜지스터뿐 아니라 이를 연결하는 금속 배선의 미세화도 중요해졌으며, 배선이 좁아질수록 전기 저항이 급격히 증가하여 신호 전달 지연 및 전력 소모, 발열 문제가 발생한다.",
+      "favorited_at": "2026-08-25 19:04 KST"
+    },
+    {
       "id": "7d121dc2b0b2",
       "sector": "semiconductor",
       "region": "global",
