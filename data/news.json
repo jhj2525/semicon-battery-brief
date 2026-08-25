@@ -3580,6 +3580,65 @@
   "semi_archive_items": [],
   "manual_items": [
     {
+      "id": "ac986138335c",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "SK하이닉스 HBM4 웨이퍼 테스터, 韓 장비사 수주 확대",
+      "source": "전자신문",
+      "source_type": "직접 선택",
+      "published": "2026-08-25 19:04",
+      "collected": "2026-08-25",
+      "link": "https://www.etnews.com/20260825000120",
+      "requested_link": "https://www.etnews.com/20260825000120",
+      "rss_description": "",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "SK하이닉스의 고대역폭메모리(HBM) 웨이퍼 테스트 장비 공급망에서 국내 기업들의 입지가 강화되고 있습니다. 과거 일본 기업인 아드반테스트가 주도하던 공급 구조에서 디지털프론티어와 유니테스트 등 국내 장비사가 참여하며 공급처 다변화가 이루어지고 있습니다. HBM 세대가 고도화됨에 따라 검사 항목과 테스트 시간이 증가하면서, 전용 테스트 장비에 대한 수요가 급격히 늘고 있습니다. 이에 따라 SK하이닉스는 국내 장비사들과 협력을 확대하며 테스트 영역을 분담 및 보완하고 있습니다.",
+      "industry_context": "디지털프론티어와 유니테스트는 한국의 반도체 장비 전문 기업들입니다. 두 기업 모두 기존 D램 및 낸드플래시 등 일반 메모리용 테스트 장비를 주력으로 생산해 왔으며, 최근 HBM 고도화 흐름에 맞춰 관련 장비 시장으로 공급 범위를 적극적으로 넓히고 있습니다.",
+      "key_points": [
+        "SK하이닉스가 HBM4 웨이퍼 테스트 장비 공급망에 국내 업체를 추가하여 공급처를 다변화함",
+        "디지털프론티어와 유니테스트가 올해 SK하이닉스로부터 수주한 HBM4 관련 장비 규모는 총 2839억 4000만원임",
+        "HBM 세대 고도화에 따라 전용 웨이퍼 테스터의 필요성이 커지며 장비 수요가 생산량보다 빠르게 증가하는 추세임"
+      ],
+      "numbers": [
+        "2839억 4000만원",
+        "2321억원",
+        "518억 4000만원"
+      ],
+      "keywords": [
+        "SK하이닉스",
+        "HBM4",
+        "웨이퍼 테스터",
+        "디지털프론티어",
+        "유니테스트",
+        "공급망 다변화"
+      ],
+      "stated_outlook": "SK하이닉스는 2분기 HBM4 양산에 돌입한 데 이어 하반기 생산량을 본격적으로 확대할 계획이며, HBM4부터는 전용 테스트 장비를 여러 공급사에서 확보하려는 움직임이 더 뚜렷해질 전망입니다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "68a05b0d5fd8",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "수동 추가 기사 · 전자신문",
+      "source": "전자신문",
+      "source_type": "직접 선택",
+      "published": "2026-08-25 19:04",
+      "collected": "2026-08-25",
+      "link": "https://www.etnews.com/20260825000355",
+      "requested_link": "https://www.etnews.com/20260825000355",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
       "id": "80f6aeccdb79",
       "sector": "semiconductor",
       "region": "global",
@@ -3797,45 +3856,6 @@
       "industry_context": "반도체 미세화 기술 경쟁에 따라 트랜지스터뿐 아니라 이를 연결하는 금속 배선의 미세화도 중요해졌으며, 배선이 좁아질수록 전기 저항이 급격히 증가하여 신호 전달 지연 및 전력 소모, 발열 문제가 발생한다."
     },
     {
-      "id": "f7f100c589ba",
-      "sector": "semiconductor",
-      "region": "global",
-      "category": "산업",
-      "title": "삼성 차량용 메모리, 구글 웨이모 차세대 자율주행차에 들어간다",
-      "source": "kedglobal.com",
-      "source_type": "직접 선택",
-      "published": "2026-08-25 07:30",
-      "collected": "2026-08-25",
-      "link": "https://www.kedglobal.com/korean-chipmakers/newsView/ked202608240002",
-      "requested_link": "https://www.kedglobal.com/korean-chipmakers/newsView/ked202608240002",
-      "manual_added": true,
-      "verified_source": true,
-      "summary_status": "summarized",
-      "overview": "삼성전자의 차량용 메모리 솔루션이 구글의 자율주행 자회사 웨이모의 차세대 완전자율주행 컴퓨팅 플랫폼에 탑재되는 것으로 확인됐다. 웨이모가 공개한 컴퓨팅 시스템 파트너사 명단에는 삼성전자를 비롯해 AMD, 마이크론, 엔비디아 등이 포함되었다. 이번 협력은 자율주행 컴퓨팅의 고도화에 따라 대규모 데이터를 실시간 처리하기 위한 고성능 메모리의 역할이 커진 결과다. 업계에서는 향후 양사의 협력 범위가 메모리를 넘어 파운드리와 첨단 패키징 분야로 확대될 가능성을 제기하고 있다. 삼성전자는 차량용 메모리 제품군을 강화하며 로보택시용 메모리 시장의 고객 기반 확대를 추진 중이다.",
-      "key_points": [
-        "삼성전자의 차량용 메모리가 웨이모의 차세대 완전자율주행 컴퓨팅 플랫폼에 채택됨",
-        "웨이모가 밝힌 5나노미터 ASIC은 1000TOPS 이상의 머신러닝 성능을 갖춰 데이터를 실시간 처리함",
-        "삼성전자는 차량용 LPDDR5X, UFS 등 메모리 제품군을 확대하고 있으며 파운드리 및 첨단 패키징 분야에서도 협력 가능성이 거론됨"
-      ],
-      "numbers": [
-        "2026.08.23",
-        "5나노미터",
-        "1000TOPS",
-        "2015년",
-        "2023년"
-      ],
-      "keywords": [
-        "삼성전자",
-        "웨이모",
-        "차량용메모리",
-        "자율주행",
-        "파운드리"
-      ],
-      "stated_outlook": "삼성전자와 웨이모의 협력은 향후 파운드리(반도체 위탁생산)와 첨단 패키징 분야로 확대될 것으로 관측된다.",
-      "summary_source": "pasted_text",
-      "industry_context": "자율주행과 소프트웨어중심차(SDV)의 확산으로 차량용 메모리 활용처가 기존 인포테인먼트에서 첨단운전자지원시스템(ADAS), 차량용 AI, 자율주행 컴퓨팅 등으로 확대되는 추세다."
-    },
-    {
       "id": "c9996cebf2b6",
       "sector": "semiconductor",
       "region": "global",
@@ -3987,6 +4007,45 @@
         "공급망"
       ],
       "stated_outlook": "메모리 사업 경쟁력 강화를 위해 추가 생산기지 구축 등 다양한 방안을 검토 중이나 현재까지 확정된 사항은 없음",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "a762a3b0c53b",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "반도체 소재 업계, 수익성 회복 시작…내년 외형 성장 기대",
+      "source": "디일렉",
+      "source_type": "직접 선택",
+      "published": "2026-08-19 02:48",
+      "collected": "2026-08-25",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=61037",
+      "requested_link": "https://www.thelec.kr/news/articleView.html?idxno=61037",
+      "rss_description": "반도체 소재 업계, 수익성 회복 시작…내년 외형 성장 기대 - 디일렉(THE ELEC)",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "국내 주요 반도체 소재 기업들이 인공지능(AI) 반도체 투자 확대에 따른 첨단 소재 수요 증가로 2분기 수익성 개선에 성공했다. 포토레지스트(PR), 습식 케미칼, 식각액 등 핵심 반도체 소재의 판매가 늘어나며 영업이익이 크게 증가하는 추세다. 특히 주요 기업들의 영업이익률이 전년 동기 대비 상승하며 안정적인 회복세를 보이고 있다. 내년부터는 고객사의 선단 메모리 및 HBM 생산능력 증설에 따른 소재 출하량 증가로 본격적인 외형 성장이 전망된다. 이러한 변화는 반도체 후방 산업인 소재 업계 전반에 긍정적인 시장 영향을 미치고 있다.",
+      "industry_context": "언급된 기업들은 국내 반도체 소재 분야의 주요 공급사로, 포토레지스트(PR)와 습식 케미칼, CMP 슬러리, 프리커서 등 공정 필수 소재를 공급하며 글로벌 반도체 제조사의 핵심 공급망을 구성하고 있다. 동진쎄미켐, 솔브레인, 이엔에프테크놀로지, 삼양엔씨켐, 와이씨켐 등은 반도체 미세 공정 및 최신 메모리 생산에 필요한 화학 소재 기술력을 바탕으로 수익을 창출하고 있다.",
+      "key_points": [
+        "국내 주요 반도체 소재 기업들의 2분기 수익성이 전반적으로 개선됨",
+        "AI 반도체 수요 증가로 인해 고부가 소재인 PR 및 습식 케미칼 판매가 확대됨",
+        "고객사의 HBM 및 선단 메모리 증설 효과로 내년부터 외형 성장이 본격화될 전망"
+      ],
+      "numbers": [
+        "동진쎄미켐 2분기 영업이익 592억9000만원",
+        "솔브레인 2분기 영업이익 460억2100만원",
+        "이엔에프테크놀로지 영업이익률 15.2%",
+        "와이씨켐 2분기 영업이익 21억2000만원 흑자전환"
+      ],
+      "keywords": [
+        "반도체 소재",
+        "AI 반도체",
+        "포토레지스트",
+        "습식 케미칼",
+        "HBM",
+        "영업이익"
+      ],
+      "stated_outlook": "삼성전자 및 SK하이닉스의 HBM과 선단 메모리 생산능력 증설이 본격화되는 내년부터 소재 출하량 증가 효과가 더해져 외형 성장 속도가 한층 빨라질 전망이다.",
       "summary_status": "summarized"
     },
     {
@@ -6363,7 +6422,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-25 13:43 KST",
+  "manual_updated_at": "2026-08-25 19:04 KST",
   "favorite_items": [
     {
       "id": "7d121dc2b0b2",
