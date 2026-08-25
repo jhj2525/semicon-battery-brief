@@ -1,7 +1,35 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-24T09:19:18.960Z",
+  "updated_at": "2026-08-25T04:46:44.223Z",
   "terms": [
+    {
+      "id": "accdef60-8da3-4d40-87d0-3499bc711746",
+      "title": "2나노 공정",
+      "english": "2nm process",
+      "industry": "semiconductor",
+      "category": "공정 기술",
+      "definition": "2나노 공정은 반도체를制造하는 기술 중 하나로, 트랜지스터의 크기를 2나노미터 수준으로 축소하여 더 많은 트랜지스터를 집적하고 성능을 향상시키는 기술이다. 이 기술은 더 작은 크기와 더 높은 성능을 가능하게 해주며, 특히 모바일 기기와 서버, AI 시스템 등에서 중요한 역할을 한다.",
+      "principle": "2나노 공정은 기존의 FinFET(Fin Field-Effect Transistor) 구조를 대체하는 GAAFET(Gate-All-Around FET) 아키텍처를 기반으로 한다. GAAFET은 게이트가 채널을 완전히 둘러싸는 구조로, 더 나은 전기적 특성과 낮은 전력 소비를 제공한다. 이 공정은 Extreme Ultraviolet Lithography(EUVL)와 같은 고급 리소그래피 기술을 사용하여 트랜지스터를 형성한다. 또한, 2나노 공정에서는 더 높은 비율의 채널을 형성하기 위해 고급 소재와 공정을 사용한다. 이러한 기술적 발전은 더 작은 크기와 더 높은 성능을 가능하게 해주며, 특히 저전력과 고성능이 필요한 응용 분야에서 중요한 역할을 한다.",
+      "industry_meaning": "2나노 공정은 반도체 산업에서 중요한 기술로, 더 높은 성능과 더 낮은 전력 소비를 제공한다. 이는 모바일 기기와 서버, AI 시스템 등에서 중요한 역할을 한다. 또한, 2나노 공정은 더 작은 크기와 더 높은 집적도를 가능하게 해주어, 더 많은 기능을 포함하는 시스템 온 칩(System-on-Chip, SoC)을 개발할 수 있다. 이는 반도체 산업의 발전에 중요한 역할을 하며, 특히 TSMC와 같은 파운드리 기업에서는 2나노 공정을 통해 더 높은 수준의 반도체를 제공하고 있다.",
+      "article_meaning": "기사에서 2나노 공정은 TSMC의 생산 능력 확대와 관련이 있다. TSMC는 2026년 말까지 월 10만 장의 2나노 웨이퍼 생산량을 목표로 하고 있으며, 이는 GAAFET 아키텍처를 기반으로 한 고성능 칩 설계 수요가 급증함에 따른 조치이다. 이는 AI, 서버, PC 하드웨어 분야에서 차세대 제조 기술의 영향력을 강화하려는 의도로 풀이된다.",
+      "related": [
+        "GAAFET",
+        "EUVL",
+        "FinFET",
+        "SoC",
+        "파운드리",
+        "트랜지스터"
+      ],
+      "article_title": "TSMC Targets 100,000 Monthly 2nm Wafers by the End of 2026",
+      "article_url": "https://www.eteknix.com/tsmc-targets-100000-monthly-2nm-wafers-by-the-end-of-2026",
+      "structure": "",
+      "process": "",
+      "defect": "",
+      "job": "",
+      "source": "https://www.eteknix.com/tsmc-targets-100000-monthly-2nm-wafers-by-the-end-of-2026",
+      "created_at": "2026-08-25T04:46:44.223Z",
+      "updated_at": "2026-08-25T04:46:44.223Z"
+    },
     {
       "id": "8e6d897d-4695-4936-923c-a16539cf8fa4",
       "title": "zHBM",
