@@ -3889,13 +3889,32 @@
       "link": "https://www.techtimes.com/articles/325392/20260824/goldman-sees-china-34-short-chip-self-sufficiency-2035-smic-yield-fragile-key.htm",
       "requested_link": "https://www.techtimes.com/articles/325392/20260824/goldman-sees-china-34-short-chip-self-sufficiency-2035-smic-yield-fragile-key.htm",
       "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "골드만삭스는 2035년 중국의 첨단 반도체 자급률이 국내 수요의 34% 부족할 것으로 전망했다. 이러한 수치는 SMIC가 극자외선(EUV) 노광장비 없이 현재의 수율을 3배 이상 개선해야 한다는 전제 조건 하에 도출되었다. 현재 SMIC는 심자외선(DUV) 다중 패터닝 방식을 사용하며 20%대 초반의 낮은 수율을 기록하고 있어 공정 한계에 직면했다는 평가를 받는다. 미국의 수출 통제로 인해 TSMC와의 기술적 격차는 여전히 유효하며, 향후 수율 개선 여부가 중국 반도체 자급의 핵심 변수가 될 전망이다. 반면, AI 분야의 강력한 수요는 SMIC의 매출 성장을 견인하며 생산 확대를 가속화하고 있다.",
+      "key_points": [
+        "2035년 중국의 첨단 노드 웨이퍼 공급은 월 41만 장, 수요는 월 61만 9천 장으로 예측된다.",
+        "SMIC의 첨단 공정 수율은 약 23% 수준으로, TSMC의 90% 이상 대비 현저히 낮다.",
+        "골드만삭스는 SMIC의 수율이 2026년 23%에서 2035년 75%까지 상승해야 한다는 가정을 모델에 반영했다.",
+        "SMIC는 EUV 장비 없이 SAQP 공법을 사용하여 7nm급 반도체를 생산하고 있다."
+      ],
+      "numbers": [
+        "2035년 중국 반도체 자급 부족분 34%",
+        "2026년 2분기 SMIC 매출 30억 600만 달러",
+        "2026년 알리바바·텐센트·바이트댄스·바이두 합산 AI 설비투자 1,020억 달러",
+        "SMIC 5nm 공정 수율 약 20%"
+      ],
+      "keywords": [
+        "SMIC",
+        "반도체 자급",
+        "EUV",
+        "DUV",
+        "수율",
+        "수출 통제"
+      ],
+      "stated_outlook": "골드만삭스는 중국의 첨단 노드 웨이퍼 공급이 2025년부터 2035년까지 연평균 46% 성장할 것으로 보았으나, 현재의 정책 환경이 유지될 경우 2035년에도 수요의 34%가 부족할 것으로 전망했다.",
+      "summary_source": "pasted_text",
+      "industry_context": "미국의 대중국 반도체 수출 통제로 인해 SMIC 등 중국 파운드리는 EUV 장비를 확보하지 못한 채 DUV 멀티 패터닝 공정에 의존하고 있다. 이는 TSMC 대비 40~50% 높은 웨이퍼 가격과 낮은 수율로 이어지고 있으며, 중국 기업들은 화웨이 어센드 AI 가속기 등을 통해 국내 공급망 자립을 시도하고 있다."
     },
     {
       "id": "76c85ae678ae",
@@ -6365,7 +6384,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-25 13:42 KST",
+  "manual_updated_at": "2026-08-25 13:43 KST",
   "favorite_items": [
     {
       "id": "88f07569cddd",
