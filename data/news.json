@@ -261,26 +261,6 @@
       "stated_outlook": ""
     },
     {
-      "id": "93e511a72c8d",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "산업",
-      "title": "[모닝 리포트] \"SDC 매각에 ESS 성장까지…삼성SDI, 적정가 82만원\"",
-      "source": "뉴스핌",
-      "source_type": "통신사 보도",
-      "published": "2026-08-25 09:10",
-      "collected": "2026-08-26",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBjc253Tm5vVGgwOEc3YnI5MGMybGw1N2VwcThOeFN6NkxrM2RQWUgtSE1CSEpMZXQtbEdGVVVGOTdIT3JnRTNyVHQ1Rk0xNXk4SlN2ck1XS1FwNmJk?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
       "id": "154da1f3e891",
       "sector": "battery",
       "region": "domestic",
@@ -7810,6 +7790,7 @@
   "deleted_article_ids": [
     "22b33ea1b3b0",
     "76c85ae678ae",
+    "93e511a72c8d",
     "c62a76fa2f04",
     "d05efafe67d5",
     "f265480c25f4",
@@ -7823,6 +7804,7 @@
     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95MEROYzJkVDlXby1xVUo1TVBpblBmXzBqZ243RDFnTlJQOXc3QjZpN25zTUM1aHFzc0xSWkxWSWJXMzB0YkJyQ1ZQZWJJbnNsMnc?oc=5",
     "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9nN0R5U3Rpc05RVkw4X200ZnpwdkhyTU56MnlodUg5dFVkVHdWRjVVRXZCU1VLUWhvZVp0RXBjdm93MjZBdUdCaFZuRGVScmlMSWFwVG1jeldDZw?oc=5",
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HU1NJRzB2VXM3LUdVcGRQcDZ1WWRDaDlDVXFtTFBMdDlINDUwa21UOUl3bTh2Z1JjdHVXV0gzUzBvdXUydFFndkVZd1NkWFdIai0zQzJqSnQ3c1FO?oc=5",
+    "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBjc253Tm5vVGgwOEc3YnI5MGMybGw1N2VwcThOeFN6NkxrM2RQWUgtSE1CSEpMZXQtbEdGVVVGOTdIT3JnRTNyVHQ1Rk0xNXk4SlN2ck1XS1FwNmJk?oc=5",
     "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Cc1VHeGczRXB3Uksxb3lPVWRsanFIT3l3LUZvOVB2TXVsZHJORksyM1dJV09NZFZsdXFiZzllbHpleXNrNXZqU3VUTFhJemp0RFVFYVVrWGd3MllFTFpLRA?oc=5",
     "https://www.digitimes.com/news/a20260824PD200/materials-applied-materials-demand-equipment-taiwan.html"
   ]
