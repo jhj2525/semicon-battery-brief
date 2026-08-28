@@ -4344,13 +4344,30 @@
       "link": "https://n.news.naver.com/mnews/article/009/0005726515?lfrom=blog",
       "requested_link": "https://n.news.naver.com/mnews/article/009/0005726515?lfrom=blog",
       "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "삼성전자가 차세대 인공지능 메모리로 주목받는 HBF(High Bandwidth Flash) 시장 선점을 위해 'zHBF' 상표를 출원하며 독자적인 기술과 브랜드 확보에 나섰다. HBF는 낸드플래시를 적층해 대용량과 높은 데이터 전송 속도를 구현하는 메모리로, HBM과 SSD 사이의 새로운 메모리 계층으로 꼽힌다. 삼성전자는 이미 공개한 3D 메모리 기술인 'zHBM'에 이어 zHBF를 통해 AI 가속기와 메모리 간의 병목 현상을 줄이는 기술 경쟁을 본격화하고 있다. 다음 달 대만에서 열리는 '세미콘 타이완 2026'에서 구체적인 zHBF 기술 청사진이 공개될 예정이다. 이는 AI 반도체 시장의 경쟁이 단순 칩 성능을 넘어 연산장치와 메모리의 배치 및 연결 방식으로 이동하고 있음을 보여준다.",
+      "key_points": [
+        "삼성전자가 차세대 낸드 기반 AI 메모리인 'zHBF'의 상표권을 출원했다.",
+        "HBF는 낸드플래시를 적층해 HBM과 SSD의 성능·용량 격차를 메우는 역할을 한다.",
+        "삼성전자는 내달 열리는 '세미콘 타이완 2026'에서 zHBF 기술 청사진을 공개할 예정이다.",
+        "SK하이닉스와 샌디스크는 이미 HBF 표준 규격을 정의하고 공동 작업그룹을 운영 중이다."
+      ],
+      "numbers": [
+        "2026.08.27",
+        "512GB",
+        "0.4~3.0TB/s"
+      ],
+      "keywords": [
+        "삼성전자",
+        "zHBF",
+        "HBF",
+        "AI 메모리",
+        "3D 패키지"
+      ],
+      "stated_outlook": "삼성전자는 다음 달 '세미콘 타이완 2026' 기조연설을 통해 zHBM, zHBF 등 차세대 3D 통합 기술의 청사진을 제시할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "AI 모델의 규모 확대와 데이터 처리량 증가로 인해 고비용 HBM만으로 필요한 메모리 용량을 확보하는 데 한계가 발생하면서, 대용량과 고속 전송이 가능한 HBF가 새로운 메모리 계층으로 부상하고 있다."
     },
     {
       "id": "7ea24c402006",
@@ -7513,7 +7530,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-28 15:08 KST",
+  "manual_updated_at": "2026-08-28 15:58 KST",
   "favorite_items": [
     {
       "id": "37b682b1478f",
