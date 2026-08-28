@@ -371,45 +371,6 @@
       "stated_outlook": "AI 데이터센터의 전력 변동성을 완화하는 목적으로 VIB UPS 및 ESS의 적용 사례를 확대해 나갈 계획이다."
     },
     {
-      "id": "582f27d7773c",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "산업",
-      "title": "물에 타먹는 전해질 음료 뜬다…분말제품 경쟁 본격화",
-      "source": "전자신문",
-      "published": "2026-08-27 16:00",
-      "collected": "2026-08-28",
-      "link": "https://www.etnews.com/20260827000259",
-      "rss_description": "운동할 때 주로 찾던 전해질·스포츠음료가 일상적인 수분 관리 음료로 소비 영역을 넓히면서 분말형 제품 시장도 커지고 있다. 휴대와 보관이 편리한 데다 물의 양에 따라 농도를 조절할 수 있다는 분말 제품의 특성이 소비자 수요와 맞물리면서 기존 스포츠음료 업체들이 제품을 확대하는 한편, 웰니스 음료 업체까지 시장에 뛰어들었다. 27일 글로벌 시장조사업체 그랜드뷰리서치에 따르면 국내 전해질 파우더 시장은 2025년 1억7540만달러(약 2421억원)",
-      "score": 11,
-      "source_type": "산업 전문언론",
-      "source_rank": 5,
-      "verified_source": true,
-      "overview": "휴대와 보관이 간편하고 농도 조절이 가능한 분말형 전해질 음료 시장이 헬시플레저 트렌드와 함께 성장하고 있다. 기존 스포츠음료 업체뿐만 아니라 웰니스 음료 업체까지 제품군을 확대하며 시장 내 경쟁이 본격화되는 추세다. 국내 전해질 파우더 시장은 지속적인 성장이 예상되며, 소비 상황 또한 운동을 넘어 일상적인 수분 관리로 확대되고 있다.",
-      "key_points": [
-        "국내 전해질 파우더 시장은 2025년 1억 7540만 달러 규모이며 2033년에는 3억 4410만 달러까지 성장할 전망이다.",
-        "롯데칠성음료는 지난 6월 '게토레이 파우더 레몬라임향'을 출시했으며, 동아오츠카의 포카리스웨트 분말제품 매출은 최근 5년간 100% 증가했다.",
-        "티젠은 '콤부차 이온'을 출시하며 운동뿐만 아니라 일상적인 수분 관리를 겨냥한 웰니스 음료 시장에 가세했다.",
-        "업계에서는 분말형 전해질 음료가 단순 전해질 보충 기능을 넘어 저당·저칼로리, 기능성 원료 등을 더해 경쟁이 치열해질 것으로 보고 있다."
-      ],
-      "numbers": [
-        "2025년 1억 7540만 달러",
-        "2033년 3억 4410만 달러",
-        "연평균 성장률 8.8%",
-        "2021년 포카리스웨트 전체 매출 1376억 원",
-        "작년 포카리스웨트 전체 매출 2293억 원"
-      ],
-      "keywords": [
-        "전해질 음료",
-        "분말형 제품",
-        "헬시플레저",
-        "롯데칠성음료",
-        "동아오츠카",
-        "티젠"
-      ],
-      "stated_outlook": "분말형 전해질 음료가 운동과 야외활동을 넘어 일상적인 수분 관리로 소비 접점을 확대할 것이며, 전해질 보충이라는 기본 기능에 저당·저칼로리, 기능성 원료 등을 더한 제품이 늘어나면서 관련 시장의 경쟁이 치열해질 전망이다."
-    },
-    {
       "id": "7a4109d5f9ff",
       "sector": "battery",
       "region": "domestic",
@@ -7196,7 +7157,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-28 11:44 KST",
+  "manual_updated_at": "2026-08-28 15:01 KST",
   "favorite_items": [
     {
       "id": "37b682b1478f",
@@ -8291,6 +8252,7 @@
   ],
   "deleted_article_ids": [
     "22b33ea1b3b0",
+    "582f27d7773c",
     "76c85ae678ae",
     "93e511a72c8d",
     "c62a76fa2f04",
@@ -8308,6 +8270,7 @@
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HU1NJRzB2VXM3LUdVcGRQcDZ1WWRDaDlDVXFtTFBMdDlINDUwa21UOUl3bTh2Z1JjdHVXV0gzUzBvdXUydFFndkVZd1NkWFdIai0zQzJqSnQ3c1FO?oc=5",
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBjc253Tm5vVGgwOEc3YnI5MGMybGw1N2VwcThOeFN6NkxrM2RQWUgtSE1CSEpMZXQtbEdGVVVGOTdIT3JnRTNyVHQ1Rk0xNXk4SlN2ck1XS1FwNmJk?oc=5",
     "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Cc1VHeGczRXB3Uksxb3lPVWRsanFIT3l3LUZvOVB2TXVsZHJORksyM1dJV09NZFZsdXFiZzllbHpleXNrNXZqU3VUTFhJemp0RFVFYVVrWGd3MllFTFpLRA?oc=5",
-    "https://www.digitimes.com/news/a20260824PD200/materials-applied-materials-demand-equipment-taiwan.html"
+    "https://www.digitimes.com/news/a20260824PD200/materials-applied-materials-demand-equipment-taiwan.html",
+    "https://www.etnews.com/20260827000259"
   ]
 }
