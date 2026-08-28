@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-28 14:41 KST",
-  "last_automatic_update_at": "2026-08-28 14:41 KST",
-  "automatic_cycle_started_at": "2026-08-28 14:36 KST",
+  "updated_at": "2026-08-28 15:12 KST",
+  "last_automatic_update_at": "2026-08-28 15:12 KST",
+  "automatic_cycle_started_at": "2026-08-28 15:10 KST",
   "publication_window": {
-    "from": "2026-08-27 14:36 KST",
-    "to": "2026-08-28 14:36 KST"
+    "from": "2026-08-27 15:10 KST",
+    "to": "2026-08-28 15:10 KST"
   },
-  "today_verified_count": 14,
+  "today_verified_count": 1,
   "current_items": [
     {
       "id": "2586f6c4ef19",
@@ -421,6 +421,26 @@
       "published": "2026-08-28 09:31",
       "collected": "2026-08-28",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Za1EwaXlMQTRVOE85cnRPMkIyQmZkdnNlNUZjRUNfV1paOHFDeEpTZWQzOEp5bGhlclhJM3FyWVZDMjQwVnBMZThaVEx0OFdEZ2NXQ1YwYmJnejc2?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "7a2d4ea04aef",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "에스엠벡셀, 차세대 전고체 전지 제작·평가 기술 확보",
+      "source": "뉴스핌",
+      "source_type": "통신사 보도",
+      "published": "2026-08-28 10:58",
+      "collected": "2026-08-28",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5YUVBKVlhtRHp0VllFS3h5QTN1SHBPbnhDYkJkTHhiUk9MMjNjeENmRWdHbDM4N3lveUpOVzVicktpc3RzV3FNMkU4Mm50ZHBoZzVlZ1ZMTjhkTlN1?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
