@@ -482,13 +482,30 @@
       "collected": "2026-08-28",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5YUVBKVlhtRHp0VllFS3h5QTN1SHBPbnhDYkJkTHhiUk9MMjNjeENmRWdHbDM4N3lveUpOVzVicktpc3RzV3FNMkU4Mm50ZHBoZzVlZ1ZMTjhkTlN1?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "에스엠벡셀이 국책과제를 통해 나노멤브레인 기반 고분자 전해질을 적용한 전고체 전지 제작 및 평가 기술을 확보했다. 이번 과제에서 셀 설계부터 제조, 성능 평가에 이르는 전 공정에 대한 데이터와 기술 경험을 구축했다. 회사는 이를 바탕으로 소형 파우치형 전고체 전지를 제작해 공정 안정성을 확인했다. 향후 파일럿 생산 및 산업체 검증을 통해 전고체 배터리 사업화를 위한 기술 경쟁력을 강화할 계획이다. 연구실 수준의 공정을 파일럿 플랜트 규모로 확대할 가능성도 확인했다.",
+      "key_points": [
+        "에스엠벡셀이 나노멤브레인 기반 고분자 전해질 적용 전고체 전지 제작·평가 기술을 확보함",
+        "산업통상자원부 국책과제의 일환으로 소형 파우치형 전고체 전지 제작 및 공정 평가 수행",
+        "연우가 주관기관을 맡고 씨케이켐, 레몬, 연세대학교, 건국대학교, 경희대학교 등이 참여함"
+      ],
+      "numbers": [
+        "2026.08.28",
+        "2028년",
+        "2029년",
+        "2030년"
+      ],
+      "keywords": [
+        "에스엠벡셀",
+        "전고체 전지",
+        "나노멤브레인",
+        "고분자 전해질",
+        "국책과제"
+      ],
+      "stated_outlook": "2028년 파일럿 생산을 통한 검증, 2029년 극판·전해질 공정 최적화 및 시제품 제작, 2030년 양산을 위한 공정 재현성 및 생산 효율화 평가를 계획하고 있다.",
+      "summary_source": "pasted_text",
+      "industry_context": "나노멤브레인 기반 박막형 고분자 전해질과 분리막을 전고체 전지에 적용하여 성능 및 상용화 가능성을 검증하는 것이 과제의 목적이다."
     }
   ],
   "archive_items": [
