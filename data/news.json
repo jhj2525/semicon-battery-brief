@@ -4589,6 +4589,27 @@
       "summary_status": "summarized"
     },
     {
+      "id": "a194e4eb3968",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "현대차, 내년",
+      "source": "ZDNet Korea",
+      "source_type": "직접 선택",
+      "published": "2026-08-27 00:57",
+      "collected": "2026-08-28",
+      "link": "https://zdnet.co.kr/view?no=20260826152901",
+      "requested_link": "https://zdnet.co.kr/view?no=20260826152901",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
       "id": "ac986138335c",
       "sector": "semiconductor",
       "region": "global",
@@ -7472,7 +7493,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-28 15:07 KST",
+  "manual_updated_at": "2026-08-28 15:08 KST",
   "favorite_items": [
     {
       "id": "37b682b1478f",
