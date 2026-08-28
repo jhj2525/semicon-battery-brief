@@ -4374,7 +4374,7 @@
       "sector": "semiconductor",
       "region": "global",
       "category": "산업",
-      "title": "SK hynix Presents a Full Lineup of Memory Solutions Optimized for AI Infrastructure at DTF 2026 | SK hynix Newsroom",
+      "title": "SK hynix Presents a Full Lineup of Memory Solutions Optimized for AI Infrastructure at DTF 2026",
       "source": "news.skhynix.com",
       "source_type": "직접 선택",
       "published": "2026-08-28 15:05",
@@ -4382,13 +4382,33 @@
       "link": "https://news.skhynix.com/en/dtf-2026",
       "requested_link": "https://news.skhynix.com/en/dtf-2026",
       "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "SK 하이닉스는 2026년 8월 25일 서울 코엑스에서 열린 '델 테크놀로지스 포럼 2026(DTF)'에 참가하여 AI 인프라에 최적화된 차세대 메모리 솔루션을 선보였다. 이번 행사에서 SK 하이닉스는 서버용 DRAM과 eSSD, HBM 등을 포함한 포괄적인 메모리 포트폴리오를 전시하며 핵심 파트너인 델 테크놀로지스와의 협력을 강화했다. 특히 이번 DTF에서 SK 하이닉스는 사상 처음으로 기조연설을 진행하며 AI 시대를 완성하기 위한 기술 혁신 방향을 제시했다. 회사는 이번 전시를 통해 풀스택 AI 메모리 크리에이터로서의 기술적 리더십을 강조하고 AI 시장에서의 입지를 공고히 했다. SK 하이닉스는 앞으로도 글로벌 빅테크 기업들과의 전략적 파트너십을 지속적으로 확대할 계획이다.",
+      "key_points": [
+        "SK 하이닉스는 델 테크놀로지스 포럼 2026(DTF)에 참가해 AI 인프라용 전체 메모리 계층 포트폴리오를 공개했다.",
+        "행사장 내 '서버 랙' 전시 공간을 통해 실제 서버 시스템에서 각 메모리 제품의 역할을 직관적으로 체험할 수 있도록 구성했다.",
+        "HBM3E, HBM4, HBM4E를 비롯해 고용량·고성능 DRAM과 차세대 eSSD 및 cSSD 제품군을 대거 선보였다.",
+        "주영표 부사장(System Architecture 담당)이 '보이지 않는 엔진: AI 시대를 완성하는 기술'을 주제로 DTF 서울 행사 첫 기조연설을 맡았다."
+      ],
+      "numbers": [
+        "2026년 8월 25일",
+        "256GB 3DS RDIMM",
+        "128GB MRDIMM",
+        "64GB RDIMM",
+        "192GB SOCAMM2",
+        "36GB per second"
+      ],
+      "keywords": [
+        "SK 하이닉스",
+        "AI 인프라",
+        "델 테크놀로지스 포럼",
+        "HBM",
+        "eSSD"
+      ],
+      "stated_outlook": "SK 하이닉스는 향후 AI 시대를 이끄는 주요 글로벌 빅테크 기업들과 전략적 파트너십을 다양한 방식으로 확대하고, AI 메모리 시장에서의 선도적 위치를 강화해 나갈 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "AI 기술의 급격한 발전으로 인해 AI 인프라 시장이 빠르게 확장되고 있으며, 이를 뒷받침하기 위한 고성능 메모리 솔루션의 중요성이 증대되고 있다."
     },
     {
       "id": "bb2d3a9273fd",
