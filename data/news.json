@@ -170,13 +170,33 @@
       "collected": "2026-08-28",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xcnpqZS02b1JYYjBrNzRQdm5CcGVwdVlOcmhISHFBeUl5dVFpb2o1U0UzN0lvN3lFZjBoMkszeEFKMWEyeXUtUGJ1VjVpY3VlZHpUU3BDU2ZoOFRHT3BFUFQ2S0Q?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "2026년 2분기 글로벌 순수 파운드리 시장 매출이 AI 반도체 주문 폭증에 힘입어 전년 동기 대비 29% 성장했다. 업계 1위 TSMC는 2나노 공정 양산과 첨단 패키징 공급 부족 등을 배경으로 73%의 높은 점유율을 유지하며 시장 지배력을 공고히 했다. 삼성 파운드리는 전 분기와 동일한 7%의 점유율을 기록하며 2위 자리를 지켰다. 삼성은 SF2 공정의 수율 안정화와 SF4, SF5 공정의 견조한 수요를 통해 매출 성장을 도모하고 있다. 한편, SMIC는 중국 내수 수요와 해외 주문 증가로 사상 최대 분기 매출을 달성하며 5%의 점유율로 3위를 차지했다.",
+      "key_points": [
+        "2026년 2분기 글로벌 순수 파운드리 시장 매출이 전년 동기 대비 29% 증가함.",
+        "TSMC는 2분기 연속 73%의 점유율을 기록하며 업계 1위를 유지함.",
+        "삼성 파운드리는 7%의 점유율로 2위를 기록함.",
+        "중국 SMIC는 5% 점유율로 사상 최대 분기 매출을 달성함."
+      ],
+      "numbers": [
+        "2026년 2분기",
+        "29%",
+        "73%",
+        "7%",
+        "5%",
+        "4%"
+      ],
+      "keywords": [
+        "파운드리",
+        "TSMC",
+        "삼성 파운드리",
+        "AI 반도체",
+        "SMIC"
+      ],
+      "stated_outlook": "올해 하반기에도 주요 파운드리 기업들의 웨이퍼 평균판매가격(ASP)이 상승세를 이어가고 팹 가동률 역시 높은 수준을 유지할 전망임.",
+      "summary_source": "pasted_text",
+      "industry_context": "인공지능 관련 주문 폭증과 각 사의 생산능력 재배치 과정에서 첨단 미세 공정뿐만 아니라 성숙 공정 전반에 걸쳐 타이트한 수급 불균형이 이어지고 있음."
     },
     {
       "id": "d31857643ae6",
@@ -7550,7 +7570,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-28 15:58 KST",
+  "manual_updated_at": "2026-08-28 16:23 KST",
   "favorite_items": [
     {
       "id": "37b682b1478f",
