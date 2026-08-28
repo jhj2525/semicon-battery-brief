@@ -4274,6 +4274,107 @@
   "semi_archive_items": [],
   "manual_items": [
     {
+      "id": "7e05117fe77c",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "SEMI Korea 공식 블로그 : 네이버 블로그",
+      "source": "blog.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-28 15:06",
+      "collected": "2026-08-28",
+      "link": "https://blog.naver.com/semi_blog/224297670263",
+      "requested_link": "https://blog.naver.com/semi_blog/224297670263",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "bf9673c523d8",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "투자·양산",
+      "title": "SK hynix Indiana fab breaks ground as new hub for US AI innovation",
+      "source": "news.skhynix.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-28 15:05",
+      "collected": "2026-08-28",
+      "link": "https://news.skhynix.com/en/indiana-groundbreaking-ceremony-sketch",
+      "requested_link": "https://news.skhynix.com/en/indiana-groundbreaking-ceremony-sketch",
+      "rss_description": "SK hynix Indiana fab breaks ground as new hub for US AI innovation | SK hynix Newsroom",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "SK하이닉스가 미국 인디애나주 웨스트라피엣 퍼듀대학교에서 AI 메모리 생산 시설 기공식을 개최하며 미국 내 생산 거점을 마련했다. 이번 인디애나 팹(fab)은 고대역폭 메모리(HBM) 생산 라인과 첨단 패키징 R&D 테스트베드를 갖춘 핵심 거점으로 구축될 예정이다. 이를 통해 SK하이닉스는 차세대 HBM을 현지에서 생산 및 공급하여 급증하는 미국 AI 메모리 수요에 효과적으로 대응할 계획이다. 또한 퍼듀대학교와의 R&D 및 인재 양성 협력을 통해 지역 기술 생태계를 강화하고자 한다. 해당 시설은 2029년 하반기부터 미국 고객사를 대상으로 제품 공급을 시작할 예정이다.",
+      "industry_context": "SK하이닉스는 한국에 본사를 둔 세계적인 메모리 반도체 기업으로, DRAM과 낸드플래시를 주력으로 생산한다. 특히 AI 시대의 핵심 메모리인 HBM 분야에서 글로벌 기술 리더십을 확보하고 있으며, 이번 투자를 통해 미국 내 현지 공급망을 구축함으로써 글로벌 생산 역량을 다변화하고 있다.",
+      "key_points": [
+        "SK하이닉스가 미국 인디애나주에 AI 메모리 생산을 위한 첫 팹 기공식을 진행함",
+        "약 133에이커(약 47만 제곱미터) 규모 부지에 HBM 생산 라인 및 첨단 패키징 R&D 시설 구축",
+        "퍼듀대학교와 R&D 협력 및 인재 양성을 위한 MOU 체결"
+      ],
+      "numbers": [
+        "2026년 8월 27일(현지시간) 기공식 개최",
+        "133에이커(약 47만 제곱미터) 부지",
+        "2029년 하반기 제품 공급 시작"
+      ],
+      "keywords": [
+        "SK하이닉스",
+        "인디애나 팹",
+        "HBM",
+        "첨단 패키징",
+        "AI 메모리",
+        "퍼듀대학교"
+      ],
+      "stated_outlook": "2029년 하반기부터 미국 고객사를 대상으로 현지에서 패키징 및 테스트를 마친 차세대 HBM을 공급할 계획이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "28fbdb66290f",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "삼성전자 차세대 AI 메모리 ‘zHBF’ 상표 출원…HBM 다음 시장 선점 나선다",
+      "source": "n.news.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-28 15:05",
+      "collected": "2026-08-28",
+      "link": "https://n.news.naver.com/mnews/article/009/0005726515?lfrom=blog",
+      "requested_link": "https://n.news.naver.com/mnews/article/009/0005726515?lfrom=blog",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "7ea24c402006",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "SK hynix Presents a Full Lineup of Memory Solutions Optimized for AI Infrastructure at DTF 2026 | SK hynix Newsroom",
+      "source": "news.skhynix.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-28 15:05",
+      "collected": "2026-08-28",
+      "link": "https://news.skhynix.com/en/dtf-2026",
+      "requested_link": "https://news.skhynix.com/en/dtf-2026",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
       "id": "bb2d3a9273fd",
       "sector": "battery",
       "region": "domestic",
@@ -4306,6 +4407,47 @@
         "AI 반도체"
       ],
       "stated_outlook": "2029년 HBM4E 양산",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "42b325318dcd",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "파운드리 시장 29%↑…TSMC 점유율 73%로 선두",
+      "source": "korea.counterpointresearch.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-28 09:55",
+      "collected": "2026-08-28",
+      "link": "https://korea.counterpointresearch.com/global-pure-foundry-market-share-q2-2026",
+      "requested_link": "https://korea.counterpointresearch.com/global-pure-foundry-market-share-q2-2026",
+      "rss_description": "파운드리 시장 29%↑…TSMC 점유율 73%로 선두 - 카운터포인트",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "2026년 2분기 순수 파운드리 시장은 AI 반도체 주문 급증과 생산능력 재배치에 힘입어 전년 동기 대비 29% 성장했다. TSMC는 2나노 양산과 3나노 확대 등 첨단 공정 경쟁력을 앞세워 2개 분기 연속 시장 점유율 73%를 기록하며 선두를 지켰다. 삼성 파운드리는 SF2 공정 수율 개선에 집중하며 2위 자리를 유지했고, SMIC는 중국 내수와 해외 주문이 몰리며 분기 최대 매출을 달성했다. 파운드리 업계 전반에서 첨단 및 성숙 공정 모두 공급 부족 현상이 지속되고 있다.",
+      "industry_context": "TSMC는 대만에 본사를 둔 세계 최대 파운드리 업체로, 최첨단 공정 기술을 선도하며 글로벌 반도체 공급망의 핵심 위치를 차지하고 있다. 삼성 파운드리는 한국의 종합 반도체 기업 삼성전자의 사업부로, 최신 미세 공정 경쟁과 수율 안정화를 통해 시장 점유율 확대를 꾀하고 있다. 중국의 SMIC는 중국 정부의 지원을 기반으로 내수 물량을 소화하며 파운드리 시장에서 3위권을 형성하고 있다.",
+      "key_points": [
+        "2026년 2분기 순수 파운드리 시장이 전년 대비 29% 성장함",
+        "TSMC가 73%의 점유율로 시장 리더십을 확고히 유지함",
+        "삼성 파운드리는 2위 자리를 지키며 SF2 수율 개선에 주력 중",
+        "SMIC는 내수 및 해외 주문 급증으로 분기 최대 매출 기록"
+      ],
+      "numbers": [
+        "2026년 2분기",
+        "29% 성장",
+        "73% 점유율(TSMC)",
+        "7% 점유율(삼성 파운드리)",
+        "5% 점유율(SMIC)"
+      ],
+      "keywords": [
+        "파운드리",
+        "TSMC",
+        "삼성 파운드리",
+        "SMIC",
+        "AI 반도체",
+        "순수 파운드리"
+      ],
+      "stated_outlook": "2026년 하반기에도 파운드리 웨이퍼 평균판매가격(ASP)이 지속적으로 상승하고, 순수 파운드리 업체들의 가동률이 비교적 높은 수준을 유지할 것으로 전망된다.",
       "summary_status": "summarized"
     },
     {
@@ -4384,6 +4526,46 @@
         "그린팩토리"
       ],
       "stated_outlook": "현대차그룹은 국내 시스템통합(SI) 파트너들과 NCO 기반 나트륨이온 BESS를 공동 개발하고 성능을 추가로 입증한 뒤, 최적화한 시스템을 그룹 글로벌 생산시설과 에너지 사업의 분산에너지원으로 활용할 계획이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "01dbc28c1742",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "램리서치, 美 오리건 연구소 착공…AI 시대 반도체 연구개발 혁신 가속",
+      "source": "전자신문",
+      "source_type": "직접 선택",
+      "published": "2026-08-27 19:10",
+      "collected": "2026-08-28",
+      "link": "https://www.etnews.com/20260827000095",
+      "requested_link": "https://www.etnews.com/20260827000095",
+      "rss_description": "램리서치, 美 오리건 연구소 착공…AI 시대 반도체 연구개발 혁신 가속",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "램리서치가 미국 오리건주 투알라틴 연구개발 센터 내 신규 연구소를 착공하며 AI 반도체 혁신을 위한 연구 역량 강화에 나섰다. 이번 프로젝트는 향후 5년간 추진될 30억달러 이상 규모의 글로벌 연구소 네트워크 확장 계획의 일환이다. 신규 연구소는 약 1만1천㎡ 규모로 조성되며, 완공 시 기존 클린룸 연구 공간이 50% 이상 확대될 전망이다. 이를 통해 램리서치는 고객사와의 공동 혁신을 가속화하고 제품 개발 주기를 단축할 것으로 기대된다. 2028년 개관 예정인 이 시설은 램리서치의 글로벌 R&D 거점 중 가장 진보된 시설로 운영될 예정이다.",
+      "industry_context": "램리서치는 미국에 본사를 둔 세계적인 반도체 장비 기업으로, 반도체 제조 공정에 필수적인 식각 및 증착 기술 분야에서 강력한 경쟁력을 보유하고 있다. 주요 반도체 제조사들을 고객사로 두고 글로벌 공급망의 핵심 위치에서 기술 협력을 수행한다.",
+      "key_points": [
+        "램리서치가 미국 오리건주 투알라틴에 신규 R&D 센터를 착공함",
+        "향후 5년간 30억달러 이상을 투자하는 글로벌 연구소 네트워크 확장 계획의 시작점임",
+        "2028년 완공 시 클린룸 연구 공간이 50% 이상 확대될 것으로 예상됨"
+      ],
+      "numbers": [
+        "2026-08-27",
+        "5년",
+        "30억달러",
+        "1만1천㎡",
+        "50%",
+        "2028년"
+      ],
+      "keywords": [
+        "램리서치",
+        "반도체 장비",
+        "연구개발",
+        "AI 반도체",
+        "인프라 투자"
+      ],
+      "stated_outlook": "글로벌 R&D 네트워크 전반의 제품 개발 주기를 단축하고 고객사와의 협력을 통해 AI 시대에 요구되는 차세대 반도체 구현을 지원할 계획이다.",
       "summary_status": "summarized"
     },
     {
@@ -7311,7 +7493,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-28 15:03 KST",
+  "manual_updated_at": "2026-08-28 15:06 KST",
   "favorite_items": [
     {
       "id": "37b682b1478f",
