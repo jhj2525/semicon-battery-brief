@@ -7593,6 +7593,45 @@
   "manual_updated_at": "2026-08-28 16:24 KST",
   "favorite_items": [
     {
+      "id": "c8bcfc9c7e09",
+      "sector": "battery",
+      "region": "global",
+      "category": "산업",
+      "title": "내년엔 LFP와 단가 같아져…나트륨 배터리, ESS 접수하나",
+      "source": "hankyung.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-28 03:36",
+      "collected": "2026-08-28",
+      "link": "https://www.hankyung.com/article/2026082777391",
+      "requested_link": "https://www.hankyung.com/article/2026082777391",
+      "rss_description": "\"내년엔 LFP와 단가 같아져\"…나트륨 배터리, ESS 접수하나",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "나트륨이온 배터리가 에너지저장장치(ESS) 시장의 새로운 주류로 부상할 것이라는 전망이 제기되었습니다. 소재 가격 하락과 생산 공정 개선으로 인해 내년부터 리튬·인산철(LFP) 배터리와 생산 단가가 비슷해질 것으로 분석됩니다. 나트륨이온 배터리는 화재 안전성이 높아 공간 제약이 적은 ESS 분야에 최적화된 기술로 평가받습니다. 중국은 이미 대규모 양산 체제에 돌입하며 시장 주도권을 확보하고 있으며, 이에 따라 이제 막 LFP 기반 ESS 시장에 진출한 한국 배터리 업계는 새로운 경쟁 국면을 맞이하게 되었습니다.",
+      "industry_context": "중국은 CATL 등 세계적인 배터리 기업을 중심으로 공급망과 생산 시설을 대규모로 확충하며 나트륨이온 배터리 시장을 선도하고 있습니다. 한국의 LG에너지솔루션과 삼성SDI는 리튬·인산철(LFP) 배터리를 중심으로 북미 ESS 시장 공략을 본격화하고 있습니다.",
+      "key_points": [
+        "UBS는 내년부터 나트륨이온 배터리와 LFP 배터리의 생산 단가가 비슷해질 것으로 전망함",
+        "나트륨이온 배터리는 원료 수급이 쉽고 화재 안전성이 높아 ESS 활용에 적합함",
+        "중국 CATL은 대규모 양산 시설을 확충하고 하이퍼스트롱과 대규모 공급 계약을 체결함"
+      ],
+      "numbers": [
+        "내년(2027년)",
+        "t당 15만300위안(탄산리튬 선물 가격)",
+        "60GWh(CATL 공급 계약 규모)",
+        "200GWh(CATL 중국 내 생산 시설 확충 규모)"
+      ],
+      "keywords": [
+        "나트륨이온 배터리",
+        "ESS",
+        "LFP",
+        "CATL",
+        "배터리 생산 단가"
+      ],
+      "stated_outlook": "양산 규모가 늘어나면 현재보다 생산 가격을 40% 정도 더 낮출 수 있을 것으로 전망되며, CATL은 내년 6월부터 나트륨이온 배터리를 해외 시장에도 공급할 예정입니다.",
+      "summary_status": "summarized",
+      "favorited_at": "2026-08-28 16:24 KST"
+    },
+    {
       "id": "37b682b1478f",
       "sector": "battery",
       "region": "domestic",
