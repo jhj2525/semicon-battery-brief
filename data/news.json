@@ -3348,14 +3348,32 @@
       "collected": "2026-08-19",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Ma2pZanBQaVNINzU4emozck8xTVZiRjhUbUlHOFhGdDhZNGd4WjVoa1dXa1YwRFZNYTlTeEhmMURzWVBWM05nRU9KTEhKdw?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": "",
-      "source_rank": 5
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "한국탄소산업진흥원은 지난 8월 13일부터 14일까지 전주에서 '2026년 나노전기전자(IEC TC113) 국제표준화 워크숍'을 개최했다. 이번 워크숍은 AI 반도체와 전기차 배터리 등 첨단산업의 핵심 소재인 탄소나노소재의 국제표준화를 선점하기 위한 전략을 논의하고자 마련되었다. 참석자들은 기술규격(TS)을 정식 국제표준(IS)으로 전환하기 위한 대응 방향을 모색하고, 국내 첨단기술 기반의 신규 국제표준 제안 방안을 검토했다. 진흥원은 국내 우수 기술의 국제표준화 활동을 지원하며 표준 경쟁력 강화를 추진하고 있다. 이번 행사를 통해 첨단산업 표준 생태계 조성을 위한 전문가 간 협력이 더욱 강조되었다.",
+      "key_points": [
+        "한국탄소산업진흥원은 2026년 나노전기전자(IEC TC113) 국제표준화 워크숍을 개최하여 탄소나노소재 기반 기술의 국제표준화 전략을 논의했다.",
+        "워크숍에서는 2차원 물질 기반 반도체 소자, 탄소나노소재 표면적 측정, AI 반도체 칩 품질 평가, 실리콘 소재 성능 평가 등 다양한 표준화 과제가 다뤄졌다.",
+        "한국탄소산업진흥원은 2024년 산업통상자원부 국가기술표준원으로부터 나노기술(ISO TC229) 및 나노전기전자(IEC TC113) 분야 국제표준화 간사기관으로 지정되었다."
+      ],
+      "numbers": [
+        "2026-08-13",
+        "2026-08-14",
+        "2026년",
+        "2024년",
+        "20여 명"
+      ],
+      "keywords": [
+        "한국탄소산업진흥원",
+        "탄소나노소재",
+        "국제표준화",
+        "IEC TC113",
+        "AI 반도체"
+      ],
+      "stated_outlook": "전문가 간 협력을 강화하여 국내 우수 기술을 국제표준으로 제정하고, 산업 현장에서 활용 가능한 신규 표준을 지속적으로 발굴해 나갈 계획이다.",
+      "source_rank": 5,
+      "summary_source": "pasted_text",
+      "industry_context": "국제전기기술위원회 나노전기전자 기술위원회(IEC TC113)는 그래핀과 탄소나노튜브 등 나노기술을 적용한 전기·전자 제품과 시스템의 성능을 측정·평가하는 국제표준을 개발하는 기구다."
     },
     {
       "id": "cd98dab4a55f",
