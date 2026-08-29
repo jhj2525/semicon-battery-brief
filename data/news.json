@@ -8068,8 +8068,30 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-29 12:00 KST",
+  "manual_updated_at": "2026-08-29 12:01 KST",
   "favorite_items": [
+    {
+      "id": "86a16c037f85",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "현업이 직접 AI 만든다…SK온, 전사 AX 혁신 본격화 [배터리레이다]",
+      "source": "디지털데일리",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-19 15:16",
+      "collected": "2026-08-19",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14ODc4MmlLNmlDRDZ4NEFXekdSZ3NYVVJWZzluVThkak9BcmlrNzR3RkpUYldFYzRQbWRwSWpYcHRwR0hkZ0pOUmoxUzFGNy1IQWFlcDlRTGlLUmluVlVaSkUzX0Y?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "source_rank": 5,
+      "favorited_at": "2026-08-29 12:01 KST"
+    },
     {
       "id": "0cb4c2801b52",
       "sector": "battery",
