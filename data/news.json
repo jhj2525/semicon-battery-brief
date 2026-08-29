@@ -1180,13 +1180,31 @@
       "collected": "2026-08-26",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE44S201UVF2cjFJaEF6SldMUkpKeEFxbFlHUTZzbmZkNzlUemtIWmVVY0p3Wlh3anBUNW5rRS1BOW1MVGNVMWswUVBqWGlZM3VGTGZWNGFlQWVtQnRUUERZZ05rUk8?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "삼성SDI가 유럽 전기차 시장 대응을 강화하기 위해 헝가리 괴드 공장의 생산 라인 재편에 속도를 내고 있다. 기존 핵심 고객인 BMW의 차기 전기차 프로젝트 물량을 소화하기 위해 일부 생산 설비의 전환을 추진 중이다. 이번 결정은 폭스바겐, 메르세데스-벤츠, 현대차·기아 등으로 고객사를 다변화하는 과정의 일환이다. 전기차 수요 둔화로 낮아졌던 괴드 공장의 가동률은 신규 프로젝트 양산이 본격화되면서 점진적으로 회복하는 추세다. 유럽연합의 역내 생산 강조 기조에 따라 괴드 공장의 중요성은 앞으로 더욱 커질 전망이다.",
+      "key_points": [
+        "삼성SDI가 BMW 신규 전기차 프로젝트 대응을 위해 헝가리 괴드 공장 내 생산 라인 전환을 추진함.",
+        "괴드 공장은 기존 각형 배터리 생산 거점에서 하이니켈 각형과 원통형 배터리를 함께 생산하는 복합 기지로 거듭나는 중임.",
+        "2027년 이후 BMW에 46파이 원통형 배터리를 납품할 계획으로, 관련 라인을 현재 구축하고 있음.",
+        "전기차 수요 둔화로 한때 40% 수준까지 하락했던 괴드 공장 가동률이 신규 프로젝트로 회복세를 보임."
+      ],
+      "numbers": [
+        "2026-08-25",
+        "40%",
+        "2027년",
+        "46파이"
+      ],
+      "keywords": [
+        "삼성SDI",
+        "헝가리 괴드 공장",
+        "BMW",
+        "배터리 라인 전환",
+        "46파이 원통형 배터리"
+      ],
+      "stated_outlook": "2027년 이후 BMW에 46파이 원통형 배터리를 납품할 계획이며, 향후 유럽 정책적 요소가 중국 업체와의 차별화를 어떻게 지속할지가 관건임.",
+      "summary_source": "pasted_text",
+      "industry_context": "유럽연합(EU) 집행위원회가 산업가속화법(IAA) 초안을 통해 역내 생산을 강조하고 있으며, ACC와 베르코어 등 유럽 현지 배터리 업체들이 양산에 어려움을 겪고 있다."
     },
     {
       "id": "025f058099f6",
