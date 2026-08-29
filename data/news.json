@@ -236,13 +236,33 @@
       "collected": "2026-08-29",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1nelRTaFVjcnNSMGhhQnNQOVNzazhZeGlsTkRESHBnb3pEQUVfbHF1V1RCN1RYYVRLVGpEZ2RKa2hJS19vdmpvcEJCR2VTbkRrbHFMT2laZU93X1k1RVQ2dEo5el9QcG5xQ2NKd25BVmdVRUk?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "트럼프 행정부가 반도체와 노트북, 데이터센터 서버를 포함하는 고강도 관세 부과를 검토하며 미국 내 반도체 공급망 확충을 압박하고 있다. 관세는 미국 내 시설 투자 시 감면하는 방식으로 운영될 가능성이 높으며, 이는 외국 기업의 미국 투자를 유도하려는 목적이다. 삼성전자와 SK하이닉스 등 국내 기업들은 미국 내 공장 조기 가동 및 추가 투자를 통해 대응하고 있다. 전문가들은 이러한 투자가 미중 패권전쟁 상황에서 장기적인 '관세 보험' 역할을 할 수 있다고 분석한다. 다만 관세 확대 시 데이터센터 서버 가격 상승으로 이어져 AI 빅테크 기업의 투자 부담이 가중될 수 있다는 우려도 제기된다.",
+      "key_points": [
+        "트럼프 행정부가 반도체와 관련 장비 및 파생제품에 대한 고강도 관세 부과 방안을 검토 중이다.",
+        "SK하이닉스가 미국 인디애나에 첫 패키징 팹을 착공했으며 2029년부터 미국산 HBM을 생산할 예정이다.",
+        "미국은 대만 TSMC와의 사례처럼 반도체 기업의 투자 대가로 관세를 조정하는 전략을 구사하고 있다.",
+        "반도체 관세 대상에 데이터센터 서버가 포함될 경우 미국 내 AI 빅테크 기업의 비용 부담이 커질 수 있다."
+      ],
+      "numbers": [
+        "2026-08-28",
+        "25%",
+        "2,500억 달러",
+        "350조 원",
+        "15%",
+        "2029년"
+      ],
+      "keywords": [
+        "반도체 관세",
+        "SK하이닉스",
+        "트럼프 행정부",
+        "공급망",
+        "미국 투자"
+      ],
+      "stated_outlook": "SK하이닉스는 2029년부터 미국에서 HBM을 생산할 계획이며, 삼성전자와 SK하이닉스는 미국 내 공장 조기 가동 및 추가 투자를 통해 관세 장벽에 대응하고 있다.",
+      "summary_source": "pasted_text",
+      "industry_context": "미국은 자국 내 반도체 공급망 강화를 위해 TSMC, 삼성전자, SK하이닉스 등 글로벌 기업의 투자를 필요로 하고 있으며, 관세를 무기로 투자 계획을 이끌어내고 있다."
     },
     {
       "id": "3950299a0a2b",
@@ -7955,7 +7975,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-29 11:44 KST",
+  "manual_updated_at": "2026-08-29 11:45 KST",
   "favorite_items": [
     {
       "id": "f37a69e4ec9f",
