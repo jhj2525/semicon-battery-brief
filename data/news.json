@@ -4852,14 +4852,31 @@
       "collected": "2026-08-11",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Mc296bVpmaHVZYzV4QlBTVnVaRzdQV3ZvdktMRzJXX0wyQmMxa3JpQWxHQi1WU05yd2l0MlpIWDJxbDYyQlA5VlJqQWV4cTZTV1FtM191UkpWcTlKMXBPSnFSaTY?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": "",
-      "source_rank": 5
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "삼성SDI가 2027년 황화물계 전고체 배터리 양산을 목표로 울산 사업장을 전용 생산 거점으로 구축하고 있다. 기존의 배치 방식인 WIP 장비 대신 연속 생산이 가능한 정밀 롤 프레스 공정을 도입하여 대량 생산 체제로 전환 중이다. 삼성SDI는 올해 하반기 완성형 샘플 공급을 통해 본격적인 검증에 나설 계획이다. 특히 전기차 대신 고부가가치 휴머노이드 로봇 시장을 첫 실전 상용화 무대로 낙점하며 시장 진입 전략을 구체화하고 있다. 이는 차세대 배터리 주도권을 확보하고 관련 생태계 내 수주 모멘텀을 강화하기 위한 전략적 행보로 풀이된다.",
+      "key_points": [
+        "삼성SDI가 울산 사업장을 글로벌 전고체 배터리 전용 양산 거점으로 구축 중이다.",
+        "대량 생산 효율을 높이기 위해 기존 배치 방식에서 정밀 롤 프레스 공정으로 전환하고 있다.",
+        "2027년 하반기 양산을 목표로 올해 하반기 중 완성형 전고체 배터리 샘플을 고객사에 공급할 예정이다.",
+        "전고체 배터리의 첫 실전 상용화 무대로 높은 에너지 밀도와 안전성이 요구되는 휴머노이드 로봇 시장을 선정했다."
+      ],
+      "numbers": [
+        "2026-08-10",
+        "2027년",
+        "900Wh/L"
+      ],
+      "keywords": [
+        "삼성SDI",
+        "전고체 배터리",
+        "황화물계",
+        "롤 프레스",
+        "휴머노이드 로봇"
+      ],
+      "stated_outlook": "삼성SDI는 2027년 하반기 전고체 배터리 양산을 계획하고 있으며, 고부가가치 AI 로봇 분야에서 차세대 배터리 주도권을 선점하고자 한다.",
+      "source_rank": 5,
+      "summary_source": "pasted_text",
+      "industry_context": "전기차 시장의 캐즘 여파로 인해 전반적인 배터리 업계에 투자 속도조절론이 확산되는 상황이다."
     }
   ],
   "semi_items": [],
