@@ -434,13 +434,30 @@
       "collected": "2026-08-28",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1fWDU0RTZfb21xeTdyVDhqMW5mOV95NUlFMk9ZUmxjVUNIcThoc0lxSnJvRFFyUGh1UFlFRkpPajFCbE5CVlRldlJSNWZIZw?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "충남 공주 남공주일반산업단지에 한국의 제이앤머트리얼즈와 인도의 아쿠타스 케미컬스가 합작 설립한 인디켐의 반도체 소재 생산기지가 준공되었다. 이번 공장 구축에는 총 300억 원이 투입되었으며, 이를 통해 26명의 신규 고용이 창출될 전망이다. 인디켐은 반도체 노광 공정의 핵심 소재인 포토레지스트 원료를 고순도로 정제·생산한다. 이번 시설 준공은 충남의 반도체 소재 공급망을 강화하고 인도와의 산업 협력 범위를 넓히는 계기가 될 것으로 평가된다. 충남도는 이번 준공을 시작으로 인도와의 경제 및 산업 협력을 더욱 확대해 나갈 계획이다.",
+      "key_points": [
+        "충남 공주 남공주일반산업단지에 인디켐 반도체 소재 공장 준공",
+        "제이앤머트리얼즈와 아쿠타스 케미컬스의 합작법인 인디켐 설립 및 공장 가동",
+        "포토레지스트 원료 고순도 정제 및 생산 시설 구축",
+        "충남도정 사상 첫 인도계 외국인 투자기업 유치 사례"
+      ],
+      "numbers": [
+        "2026-08-28",
+        "300억 원",
+        "26명"
+      ],
+      "keywords": [
+        "인디켐",
+        "반도체 소재",
+        "충남도",
+        "포토레지스트",
+        "공주"
+      ],
+      "stated_outlook": "충남도는 인도와의 산업 협력을 확대하고, 특정 국가에 편중되지 않는 투자 기반을 구축할 방침이다. 또한 투자협약이 실제 공장 가동 및 고용 창출로 이어지는 선순환 구조를 정착시키기 위해 행정 지원을 강화할 예정이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "충남 지역은 국내 주요 반도체 소재·부품·장비 기업들이 집적해 있어, 신규 소재 생산시설 가동을 통해 관련 생태계 강화 및 공급망 안정성 확보가 기대되는 환경이다."
     },
     {
       "id": "7a2d4ea04aef",
