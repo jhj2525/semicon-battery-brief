@@ -1697,26 +1697,6 @@
       "stated_outlook": ""
     },
     {
-      "id": "48fd137d7cde",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "산업",
-      "title": "[특징주] 매각 이슈에 '삼성SDI' 7%대 강세…2차전지·ESS株 동반 상승",
-      "source": "뉴스핌",
-      "source_type": "통신사 보도",
-      "published": "2026-08-24 09:58",
-      "collected": "2026-08-24",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NMlVYZXdWQ2hYRGplNUNNUVhOaVllc1BPUVhVZE9mZ1hNWnFQNFBaZEYxZlk0Z0JmUmNjcGhDZl81RVE3S1BEWW5pd3lPR3RkUUFxQVQ3TzY3S1R2?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
       "id": "3971f68c02e2",
       "sector": "semiconductor",
       "region": "domestic",
@@ -9484,6 +9464,7 @@
   ],
   "deleted_article_ids": [
     "22b33ea1b3b0",
+    "48fd137d7cde",
     "582f27d7773c",
     "76c85ae678ae",
     "7e05117fe77c",
@@ -9504,6 +9485,7 @@
     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95MEROYzJkVDlXby1xVUo1TVBpblBmXzBqZ243RDFnTlJQOXc3QjZpN25zTUM1aHFzc0xSWkxWSWJXMzB0YkJyQ1ZQZWJJbnNsMnc?oc=5",
     "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9nN0R5U3Rpc05RVkw4X200ZnpwdkhyTU56MnlodUg5dFVkVHdWRjVVRXZCU1VLUWhvZVp0RXBjdm93MjZBdUdCaFZuRGVScmlMSWFwVG1jeldDZw?oc=5",
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HU1NJRzB2VXM3LUdVcGRQcDZ1WWRDaDlDVXFtTFBMdDlINDUwa21UOUl3bTh2Z1JjdHVXV0gzUzBvdXUydFFndkVZd1NkWFdIai0zQzJqSnQ3c1FO?oc=5",
+    "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NMlVYZXdWQ2hYRGplNUNNUVhOaVllc1BPUVhVZE9mZ1hNWnFQNFBaZEYxZlk0Z0JmUmNjcGhDZl81RVE3S1BEWW5pd3lPR3RkUUFxQVQ3TzY3S1R2?oc=5",
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9XQlZlbG1lTkNBdHR3Z05SSTMteng0UVJ0QTF6VnphQjhlaVRmZHhzVndRMDdrNjlHQ2I5X0g5ZmhwOG9YU1ZrLVg1U1RMdVNmMU5oVzBsTE96RjQt?oc=5",
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBjc253Tm5vVGgwOEc3YnI5MGMybGw1N2VwcThOeFN6NkxrM2RQWUgtSE1CSEpMZXQtbEdGVVVGOTdIT3JnRTNyVHQ1Rk0xNXk4SlN2ck1XS1FwNmJk?oc=5",
     "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Cc1VHeGczRXB3Uksxb3lPVWRsanFIT3l3LUZvOVB2TXVsZHJORksyM1dJV09NZFZsdXFiZzllbHpleXNrNXZqU3VUTFhJemp0RFVFYVVrWGd3MllFTFpLRA?oc=5",
