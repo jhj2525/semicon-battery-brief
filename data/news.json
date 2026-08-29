@@ -8104,6 +8104,45 @@
   "manual_updated_at": "2026-08-29 12:03 KST",
   "favorite_items": [
     {
+      "id": "b742ff87940f",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "LG에너지솔루션, 미국 랜싱 공장 본격 가동…5대 생산 거점 완성",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-19 08:37",
+      "collected": "2026-08-19",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE80VFowa0FnYVpKVWdYQmU4aDltb0kzLTRQeG9MWFY2akk3dHhsQ3JnOW02Zm1sRUctNjh1THVueHhvMy1URHNOWXdHMnlBeTVicm96bVllQnBwNVFKcTJuZEhhTHh0b0l5S2NSaVM0Z3RKamhoX1Qw?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "LG에너지솔루션이 미국 미시간주 랜싱 공장을 본격적으로 가동하며 북미 지역 내 5대 생산 거점 체계를 완성했다. 이번 랜싱 공장은 LG에너지솔루션의 북미 지역 7번째 생산 거점으로, 연간 35GWh 이상의 배터리 셀 생산 능력을 확보하게 된다. 이곳에서는 ESS용 LFP 배터리와 전기차용 삼원계 배터리를 생산하며, 각각 AI 데이터센터 관련 고객사와 토요타에 공급될 예정이다. LG에너지솔루션은 이번 가동을 통해 미국 내 배터리 생태계 강화와 현지 생산 역량 확대를 가속화한다는 방침이다. 북미 지역에서 이와 같은 생산 체계를 구축한 곳은 글로벌 배터리 업체 중 LG에너지솔루션이 유일하다.",
+      "key_points": [
+        "미시간 랜싱 공장 가동으로 북미 5대 생산 거점 완성",
+        "랜싱 공장 연간 35GWh 이상 배터리 셀 생산 능력 확보",
+        "ESS용 LFP 배터리와 전기차용 삼원계 배터리 동시 생산",
+        "생산된 배터리는 버텍(Vertech)을 통한 ESS 공급 및 토요타 전기차 모델에 탑재 예정"
+      ],
+      "numbers": [
+        "2026-08-19",
+        "35GWh",
+        "50GWh"
+      ],
+      "keywords": [
+        "LG에너지솔루션",
+        "랜싱 공장",
+        "북미 생산 거점",
+        "ESS",
+        "전기차 배터리"
+      ],
+      "stated_outlook": "올해 말까지 북미에서 50GWh 이상의 ESS용 LFP 배터리 생산능력을 확보할 예정이다.",
+      "source_rank": 2,
+      "summary_source": "pasted_text",
+      "industry_context": "",
+      "favorited_at": "2026-08-29 12:03 KST"
+    },
+    {
       "id": "d308a7cad31b",
       "sector": "battery",
       "region": "domestic",
