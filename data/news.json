@@ -8054,6 +8054,48 @@
   "manual_updated_at": "2026-08-29 11:59 KST",
   "favorite_items": [
     {
+      "id": "62b944d98d7c",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "세계 전력 10%가 태양광…ESS 만나 '24시간 전원' 넘본다",
+      "source": "전자신문",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-17 10:44",
+      "collected": "2026-08-17",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA0Q1ZkeWlJaVVEWEZwaVJSYUR2RXl3MEVwbzZmZWxOVTB4elhxOWk0d1UtLWJBR3NSUklFdXl6a1hDRHV4dmUxSzVDOWhqQQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "글로벌 에너지 싱크탱크 엠버(Ember)의 보고서에 따르면, 올해 상반기 태양광 발전은 전 세계 전력 생산의 10%를 처음으로 차지하며 급성장했다. 태양광은 낮에 발전이 집중되는 특성이 있으나, 배터리 저장장치(ESS)의 가격 하락과 기술 향상이 이를 보완하며 저녁 시간대 전력 공급을 가능하게 하고 있다. 실제로 캘리포니아, 불가리아, 칠레 등 일부 지역에서는 배터리를 활용해 태양광 전력을 야간에 공급하는 사례가 실현되고 있다. 이러한 배터리 확산은 태양광 확대에 따른 출력제어 및 마이너스 전력가격 문제를 해결하는 대안으로도 주목받고 있다. 태양광과 ESS를 연계 설치하는 방식이 확산됨에 따라 재생에너지의 시간적 한계가 점차 허물어지고 있다.",
+      "key_points": [
+        "올해 상반기 태양광 발전이 세계 전력 생산의 10%를 돌파함.",
+        "배터리 설치비가 2010년 ㎾h당 2634달러에서 지난해 140달러로 95% 하락함.",
+        "지난해 신규 유틸리티급 태양광 설비의 약 4분의 1이 배터리와 함께 구축됨.",
+        "엠버는 올해 세계 신규 배터리 설치량이 전년 대비 50% 증가한 459GWh에 이를 것으로 전망함."
+      ],
+      "numbers": [
+        "10%",
+        "2026-08-17",
+        "95%",
+        "459GWh",
+        "307GWh",
+        "140달러"
+      ],
+      "keywords": [
+        "태양광",
+        "ESS",
+        "엠버",
+        "배터리",
+        "재생에너지"
+      ],
+      "stated_outlook": "엠버는 올해 신규 배터리 설치량을 459GWh로 전망하며, 이를 태양광 시간 이동에 활용할 경우 올해 새로 증가한 하루 태양광 발전량의 34%를 저녁 시간대로 옮길 수 있다고 분석했다.",
+      "summary_source": "pasted_text",
+      "industry_context": "태양광 발전 비중이 높아지면서 한낮에 전력이 몰리는 출력제어와 마이너스 전력가격 문제가 발생하고 있으며, 이에 따라 태양광의 시장 가치가 하락하는 현상이 나타나고 있다.",
+      "source_rank": 5,
+      "favorited_at": "2026-08-29 11:59 KST"
+    },
+    {
       "id": "154da1f3e891",
       "sector": "battery",
       "region": "domestic",
