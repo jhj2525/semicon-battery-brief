@@ -927,13 +927,34 @@
       "collected": "2026-08-26",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAwdkFPanBEeUZia0paTFhmOTI0RWgtVUpEZVpnYktNUFN4NjJpVEdsZ2ZaWlp3aGNheTNQOUFONVB0VnFENHdTcWZWUlgzTFFjME9IcHM2ZmtzaGRDMUtBZWFvZ3RzWV9UT2Itc2RXWFJCNzZTdnFKbdIBeEFVX3lxTFAwdkFPanBEeUZia0paTFhmOTI0RWgtVUpEZVpnYktNUFN4NjJpVEdsZ2ZaWlp3aGNheTNQOUFONVB0VnFENHdTcWZWUlgzTFFjME9IcHM2ZmtzaGRDMUtBZWFvZ3RzWV9UT2Itc2RXWFJCNzZTdnFKbQ?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "엔비디아가 차세대 AI 플랫폼 '베라 루빈'의 추론 성능 향상을 위한 '그록3 LPX'의 본격적인 양산에 돌입했다. 해당 제품의 핵심 부품인 언어처리장치(LPU)를 삼성전자가 파운드리 4나노 공정을 통해 생산한다. 이번 양산은 삼성 파운드리의 첨단 공정 경쟁력을 입증하는 계기가 될 것으로 보이며, 엔비디아를 포함한 글로벌 빅테크 고객사 확대에 대한 기대감을 높이고 있다. 삼성전자는 브로드컴과의 협력 및 테슬라 칩 생산 계획 등 빅테크 중심의 수주를 확대 중이다. 이러한 첨단 공정 물량 증대는 그동안 조 단위 적자를 기록했던 파운드리 사업의 흑자전환 속도를 높이는 요인으로 분석된다.",
+      "key_points": [
+        "엔비디아가 '그록3 LPX' 양산을 공식화했으며, LPU 생산은 삼성전자 4나노 파운드리 공정이 담당한다.",
+        "삼성전자는 브로드컴과 2030년까지 5년 동안 메모리 및 파운드리 분야에서 2000억 달러 규모의 협력을 체결했다.",
+        "삼성전자는 테슬라의 'AI5' 칩을 오는 11월 또는 12월부터 테일러 신공장 2나노 공정에서 생산할 계획이다.",
+        "삼성전자 파운드리 사업은 2분기 6000억 원 안팎의 적자를 기록했으나, 첨단 공정 수주 확대로 연말 또는 내년 흑자전환이 관측된다."
+      ],
+      "numbers": [
+        "2026/08/26",
+        "4나노",
+        "256개",
+        "2030년",
+        "2000억 달러",
+        "6000억원"
+      ],
+      "keywords": [
+        "엔비디아",
+        "삼성전자",
+        "파운드리",
+        "그록3",
+        "LPU",
+        "흑자전환"
+      ],
+      "stated_outlook": "증권가에서는 삼성전자의 파운드리 사업이 올 연말 또는 내년에 흑자전환에 성공할 것으로 관측하고 있으며, 삼성전자는 가까운 시일 내 흑자전환이 가능할 것으로 전망했다.",
+      "summary_source": "pasted_text",
+      "industry_context": "최근 빅테크 기업들이 AI 데이터센터 구축을 가속화함에 따라 AI 학습뿐만 아니라 AI 추론에 대한 수요가 급증하고 있다."
     },
     {
       "id": "37b682b1478f",
@@ -7992,7 +8013,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-29 11:45 KST",
+  "manual_updated_at": "2026-08-29 11:49 KST",
   "favorite_items": [
     {
       "id": "f37a69e4ec9f",
