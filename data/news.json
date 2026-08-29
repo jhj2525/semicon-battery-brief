@@ -8118,8 +8118,49 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-29 12:04 KST",
+  "manual_updated_at": "2026-08-29 22:08 KST",
   "favorite_items": [
+    {
+      "id": "0aff85f44fe3",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "미국 첫 HBM 공장, SK하이닉스가 짓는다…'미국산'으로 엔비디아 정조준",
+      "source": "매일경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-28 16:44",
+      "collected": "2026-08-29",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5LLUZ1c1RNSDIyUjd5SkE5bDYyemlYZnNlekNud3pnNVpEel92V0t1WEY1cEJuUTdQMl8yR1hYOVB2bDQ5SHo2dDRZTVcxc2tzdGc?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "SK하이닉스가 미국 인디애나주 웨스트라피엣에 미국 최초의 HBM 생산기지를 착공했다. 이번 프로젝트는 총 40억 달러가 투입되며, 한국에서 생산된 D램 웨이퍼를 미국으로 가져와 첨단 패키징을 거쳐 완성하는 체계로 구축된다. 2029년 하반기부터 7세대 HBM인 HBM4E를 연간 수십만 장 규모로 양산할 계획이다. 이를 통해 엔비디아 등 미국 현지 빅테크 기업에 반도체를 공급하며 한미 반도체 공급망 협력을 강화할 예정이다. 또한 퍼듀대학교와 차세대 HBM 패키징 기술을 공동 연구하며 현지 인재 확보에도 나선다.",
+      "key_points": [
+        "SK하이닉스가 인디애나주 퍼듀대학교 부지에 40억 달러 규모의 HBM 생산 공장을 착공함",
+        "2029년 3분기부터 HBM4E 양산을 시작해 연간 웨이퍼 수십만 장 수준의 생산능력 확보 예정",
+        "미국 정부로부터 반도체법에 의거해 최대 4억 5천만 달러의 보조금과 5억 달러의 대출 지원을 받음",
+        "SK그룹은 2030년까지 미국에 총 450억 달러를 투자할 계획임"
+      ],
+      "numbers": [
+        "40억 달러",
+        "2029년 하반기",
+        "4억 5천만 달러",
+        "5억 달러",
+        "7천 명",
+        "450억 달러"
+      ],
+      "keywords": [
+        "SK하이닉스",
+        "HBM4E",
+        "인디애나",
+        "패키징",
+        "반도체법"
+      ],
+      "stated_outlook": "2028년 10월 클린룸 완공 후 2029년 하반기 양산 계획이며, 공장 가동 시 직접 고용 약 1천 명을 포함해 7천 명의 일자리가 창출될 것으로 예상됨.",
+      "summary_source": "pasted_text",
+      "industry_context": "AI 데이터센터 수요 급증에 따라 차세대 AI 가속기에 필요한 고대역폭 메모리(HBM)의 중요성이 높아지고 있으며, 한국의 제조 역량과 미국의 혁신 기술이 결합된 반도체 공급망 체계가 강조되고 있다.",
+      "favorited_at": "2026-08-29 22:08 KST"
+    },
     {
       "id": "b3156ade7aa8",
       "sector": "battery",
