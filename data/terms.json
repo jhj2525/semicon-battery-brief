@@ -1,7 +1,37 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-25T04:46:44.223Z",
+  "updated_at": "2026-08-29T02:56:15.913Z",
   "terms": [
+    {
+      "id": "8d85c7fe-cb8f-4e61-b267-a2ba657013cb",
+      "title": "SF2 공정",
+      "english": "SF2 Process",
+      "industry": "semiconductor",
+      "category": "공정 기술",
+      "definition": "SF2 공정은 반도체 제조 공정 중 하나로, 특정 기술 노드나 공정 조건을 만족하는 반도체 생산을 위한 공정입니다. 이 공정은 반도체의 성능과 수율을 결정하는 중요한 단계 중 하나입니다.",
+      "principle": "SF2 공정은 반도체 웨이퍼에 특정한 패턴이나 구조를 형성하기 위한 여러 단계로 구성됩니다. 이 공정에서는 리소그래피, 에칭, 도핑 등 다양한 기술이 사용됩니다. 리소그래피는 반도체 웨이퍼에 패턴을 형성하기 위한 단계로, 에칭은 형성된 패턴을 실제로 구현하는 단계입니다. 도핑은 반도체의 전기적 특성을 조절하는 단계입니다. 이러한 단계들은 순차적으로 수행되며, 각 단계의 결과는 다음 단계의 입력으로 사용됩니다. SF2 공정의 결과물은 특정한 성능과 수율을 만족하는 반도체 칩입니다.",
+      "industry_meaning": "SF2 공정은 반도체 산업에서 매우 중요한 역할을 합니다. 이 공정의 수율과 성능은 반도체의 전체 성능과 수율을 결정하는 중요한 요소입니다. 따라서, SF2 공정의 개선은 반도체 제조업체의 경쟁력과 수익성을 결정하는 중요한 요소입니다. 또한, SF2 공정의 수요와 웨이퍼 가격은 반도체 시장의 수급 불균형과 가격 변동에 영향을 미칩니다.",
+      "article_meaning": "기사에서 SF2 공정은 삼성전자의 매출 성장 동력 중 하나로 언급됩니다. SF2 공정의 수율 개선과 웨이퍼 가격 인상이 삼성전자의 매출 성장을 도모하는 데 중요한 역할을 한다고 분석됩니다. 이는 SF2 공정의 개선이 반도체 제조업체의 경쟁력과 수익성을 결정하는 중요한 요소라는 것을 의미합니다.",
+      "related": [
+        "리소그래피",
+        "에칭",
+        "도핑",
+        "웨이퍼",
+        "반도체 칩",
+        "파운드리 시장",
+        "TSMC",
+        "삼성전자"
+      ],
+      "article_title": "AI 반도체 훈풍에 파운드리 시장 29% 성장…1위는 대만 TSMC",
+      "article_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSa241YlVvSm50TS1BU2RJRm9VbVdpd0kzaEtPQ2tVOXJmUEZwOW5kc0dHTkctMnRIclhHOHhZaXVQNGc5czlsT3pvTjF3TG8zYVFUaFhn?oc=5",
+      "structure": "",
+      "process": "",
+      "defect": "",
+      "job": "",
+      "source": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSa241YlVvSm50TS1BU2RJRm9VbVdpd0kzaEtPQ2tVOXJmUEZwOW5kc0dHTkctMnRIclhHOHhZaXVQNGc5czlsT3pvTjF3TG8zYVFUaFhn?oc=5",
+      "created_at": "2026-08-29T02:56:15.913Z",
+      "updated_at": "2026-08-29T02:56:15.913Z"
+    },
     {
       "id": "accdef60-8da3-4d40-87d0-3499bc711746",
       "title": "2나노 공정",
