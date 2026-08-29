@@ -8086,6 +8086,48 @@
   "manual_updated_at": "2026-08-29 12:01 KST",
   "favorite_items": [
     {
+      "id": "cd98dab4a55f",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "LG엔솔, 美 랜싱 공장 가동 개시…북미 ESS 라인 전환 마무리",
+      "source": "ZDNet Korea",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-19 09:00",
+      "collected": "2026-08-19",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yYkVNSU13T2FLWU91ZEIzdWhJUGRlc1hveUFoSVVMVTlrNW9FQUVpTTdxd1BicVNZa1RzVGlWa3pzUnJJNHZjSUZqQUNrSER1U1k5U2Fn?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "LG에너지솔루션이 미국 미시간주 랜싱 공장을 본격 가동하며 북미 지역 내 에너지저장장치(ESS) 배터리 생산 라인 전환 계획을 완료했다. 랜싱 공장은 ESS용 리튬인산철(LFP) 배터리와 전기차용 삼원계 배터리를 함께 생산하는 복합 제조 거점으로 운영된다. 이로써 LG에너지솔루션은 북미 지역에서 총 5개의 생산 거점을 확보하며 공급망을 최적화했다. 이곳에서 생산되는 ESS 제품은 데이터센터 등 전력 인프라 고객사에 공급되며, 전기차 배터리는 토요타 등 완성차 업체에 탑재될 예정이다. 이번 공장 가동은 LG에너지솔루션의 글로벌 생산시설 리밸런싱 전략의 일환으로 평가된다.",
+      "key_points": [
+        "LG에너지솔루션 미시간 랜싱 공장 가동 개시로 북미 ESS 생산 거점 구축 완료",
+        "랜싱 공장은 연간 35GWh 이상의 배터리 셀 생산능력 확보 예정",
+        "생산된 ESS용 LFP 배터리는 버텍을 통해 AI 데이터센터 및 전력 인프라 고객사에 공급",
+        "전기차용 배터리는 토요타 켄터키 공장에 공급되어 2027년형 하이랜더 모델 등에 탑재 예정"
+      ],
+      "numbers": [
+        "2026년 8월 19일",
+        "35GWh",
+        "140GWh",
+        "3조원",
+        "50GWh"
+      ],
+      "keywords": [
+        "LG에너지솔루션",
+        "랜싱공장",
+        "ESS",
+        "LFP배터리",
+        "토요타",
+        "리밸런싱"
+      ],
+      "stated_outlook": "올해 말까지 북미에서 50GWh 이상의 ESS용 LFP 배터리 생산능력을 확보하고, 글로벌 생산시설 리밸런싱을 통해 사업 구조를 ESS 및 신사업으로 확대할 계획이다.",
+      "source_rank": 5,
+      "summary_source": "pasted_text",
+      "industry_context": "북미 ESS 시장은 AI 데이터센터 확대와 전력망 확충에 따라 빠르게 성장하고 있으며, 시장조사기관 우드맥킨지는 미국 ESS 시장이 2031년까지 현재 대비 약 4배 규모로 성장할 것으로 전망했다.",
+      "favorited_at": "2026-08-29 12:01 KST"
+    },
+    {
       "id": "86a16c037f85",
       "sector": "battery",
       "region": "domestic",
