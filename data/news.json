@@ -138,13 +138,32 @@
       "collected": "2026-08-29",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xY2RLQnp5ekJ4b0RVWVIxNjhFSzFNRV9iOEtSR1lTUTkzM2VsMDMtTjFyS3FkTnZ5Y3dicFNzbFh1QU5IV1NPWHlrSUNnOUxsMVlNN3hWMXAyUQ?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "고려아연이 반도체 세정 공정의 핵심 소재인 초고순도 반도체황산 생산능력을 확대하며 국내 공급망 대응 속도를 높이고 있다. 최근 울산 온산제련소의 생산라인 20·21호기를 가동하며 연간 생산능력을 기존 28만t에서 32만t으로 증대시켰다. 이는 인공지능 반도체 수요 급증과 향후 용인 반도체 클러스터 공급 등을 고려한 선제적 조치로 풀이된다. 고려아연은 외부 원료 조달 없이 제련 과정에서 발생한 이산화황을 정제하여 안정적인 공급이 가능하다. 향후 미국 내 반도체 기업 공급을 위해 미국 테네시주에 10만t 규모의 생산라인 설치 또한 검토하고 있다.",
+      "key_points": [
+        "고려아연이 울산 온산제련소 내 생산라인 증설을 통해 반도체황산 생산능력을 연 32만t으로 확대함",
+        "고려아연은 국내 반도체황산 수요의 약 60%를 담당하는 1위 기업임",
+        "2029년 상업 생산을 목표로 미국 테네시주에 연간 10만t 규모의 생산라인 설치를 검토 중임"
+      ],
+      "numbers": [
+        "32만t",
+        "20·21호기",
+        "4만t",
+        "99.9999%",
+        "60%",
+        "95%"
+      ],
+      "keywords": [
+        "고려아연",
+        "반도체황산",
+        "증산",
+        "초고순도황산",
+        "공급망"
+      ],
+      "stated_outlook": "장기적으로 최대 50만t까지 생산능력을 확대할 계획이며, 미국 테네시주 통합제련소 내 10만t 규모의 반도체황산 생산라인 설치를 검토하고 있다.",
+      "summary_source": "pasted_text",
+      "industry_context": "반도체황산은 웨이퍼 표면의 유기물과 미세 오염을 제거하는 세정 공정에 필수적이며, 반도체 미세화와 적층 구조 복잡화로 인해 높은 품질 일관성이 요구되는 소재이다."
     },
     {
       "id": "e19fec638b8b",
