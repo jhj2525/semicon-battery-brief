@@ -59,13 +59,35 @@
       "collected": "2026-08-29",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBKWUZZN0lINjhoLWFHZHRKQXVwMkVkdkwybml0Y2xHWDd3Tk9oaVBBYUZjcUN0Mll3VXg1QUtQdjNlWW9GYWlWaDhJaTRzWHpvNnBYVktsV2NuQUFuZ056d9IBYEFVX3lxTFBKWUZZN0lINjhoLWFHZHRKQXVwMkVkdkwybml0Y2xHWDd3Tk9oaVBBYUZjcUN0Mll3VXg1QUtQdjNlWW9GYWlWaDhJaTRzWHpvNnBYVktsV2NuQUFuZ056dw?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "호남권 반도체 클러스터 조성을 위한 핵심 과제인 광주 군공항 이전부지가 선정되며 사업이 본궤도에 올랐다. 정부는 무안 국가산단 후보지 지정과 함께 용수·전력 인프라 구축을 위한 예비타당성조사 면제를 추진하고 있다. 또한, 2027년부터 2030년까지 총 6조 원의 재정 지원 계획을 마련하며 생산 시설 조성을 위한 기반을 다지고 있다. 남부지역 산업용 전기요금 인하 방안까지 더해져 반도체 생산 원가 절감과 기업 경쟁력 확보가 기대된다. 이러한 전방위적 지원을 바탕으로 호남권 반도체 클러스터는 2030년 6월 첫 양산을 목표로 속도를 내고 있다.",
+      "key_points": [
+        "국방부, 무안군 망운면 일대를 광주 군공항 이전 후보지로 선정",
+        "국토교통부, 무안군 현경면 일원 105만 평을 국가산단 후보지로 지정",
+        "하루 65만t 규모의 용수 공급망 구축사업 예타 면제 결정",
+        "2027~2030년 서남권 반도체 클러스터에 총 6조 원 재정 지원 계획",
+        "남부지역 산업용 전기요금 인하 추진으로 생산비용 부담 완화"
+      ],
+      "numbers": [
+        "2028년(팹 착공)",
+        "2030년 6월(양산 목표)",
+        "65만t(일일 용수 공급 규모)",
+        "105만 평(무안 국가산단 후보지)",
+        "6조 원(재정 지원 규모)",
+        "13~18원/kWh(전기요금 인하폭)"
+      ],
+      "keywords": [
+        "호남반도체",
+        "광주 군공항",
+        "무안 국가산단",
+        "반도체 클러스터",
+        "예타 면제",
+        "전기요금 인하"
+      ],
+      "stated_outlook": "2028년 반도체 팹 착공을 거쳐 2030년 6월 첫 양산을 목표로 사업을 추진하고 있다.",
+      "summary_source": "pasted_text",
+      "industry_context": "반도체 산업은 막대한 전력과 용수가 필수적인 자원 집약적 산업으로, 생산원가 절감과 원활한 인프라 확보가 기업 입지 경쟁력에 중요한 영향을 미친다."
     },
     {
       "id": "fb22e1e6dbad",
@@ -7878,7 +7900,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-29 11:43 KST",
+  "manual_updated_at": "2026-08-29 11:44 KST",
   "favorite_items": [
     {
       "id": "f37a69e4ec9f",
