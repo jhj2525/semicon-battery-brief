@@ -8101,8 +8101,45 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-29 12:01 KST",
+  "manual_updated_at": "2026-08-29 12:03 KST",
   "favorite_items": [
+    {
+      "id": "d308a7cad31b",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "포스코그룹, 中 론바이와 이차전지소재 협력…배터리급 리튬 공급 추진",
+      "source": "디지털데일리",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-20 01:17",
+      "collected": "2026-08-20",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9VTzF4aHZNUG40M0lteTdGclJVS2dNWEY3c1RpN2R2bkVXbGxJbXVrY2ZjUEI1bURreGM2MWZZQURMNFpmeVduWlB5WEcyQ1NfdEx0dHh6bzFaMldYU09rcmo5VGo?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "포스코그룹이 중국 양극재 기업 론바이그룹과 이차전지소재 공급 및 협력 확대를 위한 업무협약을 체결했다. 이번 협력을 통해 포스코그룹은 광석·염수 기반 리튬과 폐배터리 리사이클링 제품을 론바이그룹에 공급하며 중국 이차전지소재 시장 진입을 추진한다. 양사는 포스코필바라리튬솔루션의 광석리튬 품질 인증을 올해 4분기까지 완료할 계획이다. 또한 폐배터리 자원 회수부터 재활용까지 연결하는 폐쇄형 순환체계를 구축할 예정이다. 이를 통해 포스코그룹은 원료 경쟁력을 기반으로 글로벌 고객사 다변화 및 이차전지소재 밸류체인 경쟁력을 강화할 방침이다.",
+      "key_points": [
+        "포스코홀딩스와 론바이그룹이 이차전지소재 공급 및 폐배터리 리사이클링 협력을 위한 업무협약을 체결함.",
+        "포스코필바라리튬솔루션, 포스코아르헨티나, 포스코HY클린메탈의 리튬 제품을 론바이그룹에 공급 추진.",
+        "포스코필바라리튬솔루션의 광석리튬 기반 수산화리튬 품질 인증 절차를 올해 4분기까지 마무리할 예정.",
+        "포스코HY클린메탈은 론바이그룹 및 EMT에 니켈·코발트·망간을 공급하고 있음."
+      ],
+      "numbers": [
+        "2026-08-20",
+        "올해 4분기"
+      ],
+      "keywords": [
+        "포스코그룹",
+        "론바이그룹",
+        "이차전지소재",
+        "리튬",
+        "폐배터리"
+      ],
+      "stated_outlook": "향후 론바이그룹과 협력하여 LFP 제품 포트폴리오 다변화 기조에 맞춰 ESS 등 이차전지소재 제품군으로 협력을 확대할 방침이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "론바이그룹은 하이니켈 양극재를 주력으로 생산하며 삼원계 양극재, 리튬인산철(LFP), 리튬망간인산철(LMFP), 나트륨이온전지 등으로 제품 포트폴리오를 확대하고 있다.",
+      "favorited_at": "2026-08-29 12:03 KST"
+    },
     {
       "id": "ccee10639183",
       "sector": "battery",
