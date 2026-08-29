@@ -4092,14 +4092,31 @@
       "collected": "2026-08-14",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtSmtxRmREQjY5U2ZtUVJtOFBIRHhuVG9kUFNCZUhxcy13eG9HUlRiQ1d5enNuWjBQblN1T2x1T2l0Z0tLOFp4SUI5aU5UVDF4Z1RxSmk3bGkzb3lx?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": "",
-      "source_rank": 3
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "고려아연의 이차전지 소재 자회사 케이잼이 배터리용 동박을 처음으로 양산하여 글로벌 배터리사에 공급을 시작했다. 이번 공급은 고객사의 품질 인증 절차를 통과하며 성사되었으며, 공급된 동박은 북미 지역 생산 배터리에 탑재될 예정이다. 고려아연은 자원순환 사업을 통해 확보한 원료로 친환경 동을 생산하고 이를 동박으로 가공하는 공급망을 구축했다. 케이잼은 이번 공급을 기점으로 북미 시장 배터리 공급망 진입 및 신규 고객사 확보에 나선다. 또한 이번 상업 생산 본격화를 통해 최대 400억원의 매출을 올릴 것으로 예상된다.",
+      "key_points": [
+        "케이잼이 2026년 6월부터 배터리용 동박 양산을 시작하여 글로벌 배터리사에 공급 중이다.",
+        "이번 동박 공급으로 최대 400억원의 매출이 예상된다.",
+        "북미 자원순환 자회사 페달포인트가 확보한 원료로 친환경 동을 생산해 동박을 가공하는 공급망을 구축했다.",
+        "케이잼은 이번 공급을 계기로 북미 배터리 공급망 진입 및 실적 확대를 추진한다."
+      ],
+      "numbers": [
+        "2026년 8월 13일",
+        "2026년 6월",
+        "400억원"
+      ],
+      "keywords": [
+        "고려아연",
+        "케이잼",
+        "동박",
+        "이차전지",
+        "북미 배터리 공급망"
+      ],
+      "stated_outlook": "케이잼은 신규 고객사 확보와 생산 안정화, 수율 개선을 통해 가동률과 실적을 확대할 계획이다.",
+      "source_rank": 3,
+      "summary_source": "pasted_text",
+      "industry_context": "동박은 구리를 얇게 펴 만든 소재로 전기차와 에너지저장시스템(ESS)용 리튬이온배터리에서 음극집전체 역할을 하며, 배터리의 에너지 밀도와 충전 성능, 수명 등에 영향을 미치는 핵심 소재이다."
     },
     {
       "id": "f93981775057",
