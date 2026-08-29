@@ -8013,8 +8013,46 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-29 11:49 KST",
+  "manual_updated_at": "2026-08-29 11:50 KST",
   "favorite_items": [
+    {
+      "id": "2ad5898b5616",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "기술·공정",
+      "title": "Issues Stack Up With More HBM Layers",
+      "source": "Semiconductor Engineering",
+      "published": "2026-08-27 16:15",
+      "collected": "2026-08-28",
+      "link": "https://semiengineering.com/issues-stack-up-with-more-hbm-layers/",
+      "rss_description": "Hot Chips 2026: Thinner dies, more TSV area, thermal dissipation, and limited manufacturing capacity make HBM scaling much more difficult. The post Issues Stack Up With More HBM Layers appeared first on Semiconductor Engineering .",
+      "score": 21,
+      "source_type": "해외 산업 보도",
+      "source_rank": 1,
+      "verified_source": true,
+      "overview": "고대역폭 메모리(HBM)의 적층 수가 증가함에 따라 제조 및 기술적 한계가 드러나고 있다. 칩을 더 얇게 가공해야 하는 물리적 부담과 전력 밀도 상승, 열 관리 문제로 인해 수율 확보와 생산이 더욱 어려워지고 있다. 이러한 복합적인 요인들은 전반적인 D램 공급 부족 현상으로 이어지고 있다. 업계는 이를 해결하기 위해 새로운 패키징 기술과 아키텍처 도입을 검토 중이다.",
+      "key_points": [
+        "HBM 적층 수가 늘어날수록 다이를 더 얇게 깎아야 하며, 이는 웨이퍼 취급 및 다이 결합 과정에서 휨 현상 등 제조상 어려움을 가중시킨다.",
+        "TSV(실리콘 관통 전극)는 대역폭 확보에 필수적이지만, 다이 면적을 점유하여 메모리 셀 용량을 제한하고 패키지 높이를 높여 방열을 어렵게 한다.",
+        "HBM은 기존 D램보다 훨씬 많은 실리콘과 웨이퍼 용량을 소비하며, 복잡한 공정으로 인해 수율 저하와 D램 공급 부족을 초래한다.",
+        "열 관리 문제가 핵심 과제로 부상하면서, 하이브리드 본딩 등 신기술 도입과 시스템 수준의 아키텍처 변화가 요구되고 있다."
+      ],
+      "numbers": [
+        "720~775 미크론(HBM 큐브 두께)",
+        "128(HBM3E 뱅크 수)",
+        "256(HBM4 뱅크 수)"
+      ],
+      "keywords": [
+        "HBM",
+        "D램",
+        "TSV",
+        "반도체 패키징",
+        "대역폭",
+        "수율"
+      ],
+      "stated_outlook": "HBM 적층 확대에 따른 문제를 해결하기 위해 향후 퓨전 본딩 및 하이브리드 본딩과 같은 새로운 접합 기술로의 전환이 예상되며, 더 메모리 최적화된 SerDes PHY나 광학 기술 등 고속 링크 혁신이 이루어질 것이다.",
+      "favorited_at": "2026-08-29 11:50 KST"
+    },
     {
       "id": "f37a69e4ec9f",
       "sector": "battery",
