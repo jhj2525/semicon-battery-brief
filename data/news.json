@@ -238,13 +238,32 @@
       "collected": "2026-08-29",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1xTnZIbVJFMzNfYzNPaVdGaWNXQkstNmktVUpZcGtiNEhPWUtZV0hZc0hUVjZRdC0xTFhMTC12Vm1xSFRBSFVIN0plbnM2cW15c2c?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "국내 2차전지 기업들이 미국 에너지저장장치(ESS) 시장 진출을 확대하며 주가 반등세를 보이고 있다. 이는 AI 데이터센터 전력망 수요 급증에 따른 현지 공급망 확보 전략의 결과다. 특히 미국 정부가 대형 전력망 시스템 국가 비상사태를 선포하며 중국산 배터리 사용을 사실상 금지함에 따라 국내 기업들이 반사이익을 얻을 것으로 평가된다. 주요 기업들은 대규모 투자와 장기 공급 계약을 통해 북미 시장 내 영향력을 강화하고 있다.",
+      "key_points": [
+        "미국 정부의 대형 전력망 시스템 국가 비상사태 선포로 중국산 배터리 퇴출 본격화",
+        "삼성SDI가 4조 5000억원 규모의 유동성을 확보하고 북미 LFP 배터리 양산 및 투자 가속화",
+        "엘앤에프와 포스코퓨처엠 등 양극재 업체들이 ESS용 LFP 양극재 장기 공급 계약을 연이어 체결",
+        "LG에너지솔루션 등 국내 주요 배터리 기업들의 주가가 8월 들어 상승세 기록"
+      ],
+      "numbers": [
+        "삼성SDI 8월 주가 43.83% 상승",
+        "엘앤에프 8월 주가 83.9% 급등",
+        "포스코퓨처엠 8월 주가 35.29% 상승",
+        "삼성SDI 유동성 확보 약 4조 5000억원",
+        "포스코퓨처엠 6년간 3조원대 LFP 양극재 공급 합의"
+      ],
+      "keywords": [
+        "2차전지",
+        "ESS",
+        "LFP배터리",
+        "미국전력망",
+        "공급망"
+      ],
+      "stated_outlook": "북미 BESS 시장 규모는 세계적으로 성장세이며, 중국 경쟁 업체의 진입이 어려워짐에 따라 우리나라 2차전지 업체의 협상력이 크게 높아질 것으로 전망됨.",
+      "summary_source": "pasted_text",
+      "industry_context": "AI 데이터센터 전력망 수요가 급증하는 가운데 미국 내 대형 전력망 시스템에 적대국이 납품한 배터리 에너지저장장치(BESS) 사용이 금지됨에 따라 북미 시장 내 중국산 배터리 점유율이 제약을 받게 됨."
     }
   ],
   "archive_items": [
