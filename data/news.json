@@ -8648,8 +8648,46 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-31 15:25 KST",
+  "manual_updated_at": "2026-08-31 16:09 KST",
   "favorite_items": [
+    {
+      "id": "3b3001a4b6b4",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "중국 CXMT, '차세대 모바일 D램' LPDDR6 양산…샤오미폰에 탑재",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-08-30 16:37",
+      "collected": "2026-08-31",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0yRmFXaEFYMXdvTWlqUEYwMk9zcE00YkhUNlZmYzJranZZRGhMbUpOMjhtOFpoR1VydElzT3gxSV9FbjZRcVNDLWpLVHNIa3FqNnkyclJNNXFpajjSAWBBVV95cUxQbk1abmItQ0dIdk5uWGI1RW1IRm1SQ3dQdXBfNEFrblRHMHdDWFBzWF9ydm5vT0IxbkhCdjVZS1RsaEJVLXRKbG5PMVdPdjdvUU1WWTlzT0FDSjVNOE5KZDY?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "중국의 D램 반도체 기업인 CXMT가 차세대 모바일 D램인 LPDDR6의 양산을 공식화하며 세계 시장에서의 경쟁력을 강화하고 있다. 해당 메모리는 샤오미의 신형 폴더블폰인 '18 폴드'에 처음으로 탑재될 예정으로, 중국 매체들은 이를 두고 중국 메모리 기업의 첫 고사양 메모리 표준 상용화 사례라고 평가했다. LPDDR6는 전력 소모를 최소화하는 모바일용 D램 규격으로, 향후 스마트폰과 PC는 물론 AI 데이터센터 등 다양한 영역에서 활용될 것으로 예상된다. 이번 협력을 통해 샤오미는 자사의 최신 AI 프로세서인 '쉬안제O3'의 성능을 지원할 기반을 마련했다. SK하이닉스와 삼성전자 등 글로벌 기업들이 주도하는 고성능 메모리 시장에서 CXMT의 이번 행보는 중국 기업 간의 기술 연합을 가속하는 계기가 될 것으로 보인다.",
+      "key_points": [
+        "중국 CXMT가 LPDDR6 메모리 양산을 시작했으며, 샤오미의 신제품 '18 폴드'에 탑재한다고 발표함.",
+        "레이쥔 샤오미 CEO는 샤오미의 AI 프로세서 '쉬안제O3'가 CXMT의 LPDDR6를 지원한다고 밝힘.",
+        "중국 매체 증권시보는 이번 양산이 세계 최초의 LPDDR6 상용화라고 평가함.",
+        "SK하이닉스는 10나노급 6세대(1c) 공정의 16Gb LPDDR6를 개발해 하반기 공급을 앞두고 있음."
+      ],
+      "numbers": [
+        "2026-08-30",
+        "12,800Mbps",
+        "16Gb"
+      ],
+      "keywords": [
+        "CXMT",
+        "LPDDR6",
+        "샤오미",
+        "D램",
+        "온디바이스 AI"
+      ],
+      "stated_outlook": "CXMT는 향후 LPDDR6가 모바일 장비, 서버, 스마트 차량 등 다양한 영역에서 광범위하게 활용될 것으로 예상하고 있으며, SK하이닉스는 하반기부터 제품을 공급할 계획임.",
+      "summary_source": "pasted_text",
+      "industry_context": "글로벌 D램 업계는 차세대 모바일 D램인 LPDDR6 주도권을 확보하기 위한 경쟁을 진행 중이다. LPDDR6는 향후 모바일 장비, 서버, 스마트 차량 등 AI 컴퓨팅 파워의 핵심 기둥으로 활용될 것으로 평가받고 있다.",
+      "favorited_at": "2026-08-31 16:09 KST"
+    },
     {
       "id": "9ad81616feb4",
       "sector": "semiconductor",
