@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-31 09:40 KST",
-  "last_automatic_update_at": "2026-08-31 09:40 KST",
-  "automatic_cycle_started_at": "2026-08-31 09:37 KST",
+  "updated_at": "2026-08-31 10:25 KST",
+  "last_automatic_update_at": "2026-08-31 10:25 KST",
+  "automatic_cycle_started_at": "2026-08-31 10:22 KST",
   "publication_window": {
-    "from": "2026-08-30 09:37 KST",
-    "to": "2026-08-31 09:37 KST"
+    "from": "2026-08-30 10:22 KST",
+    "to": "2026-08-31 10:22 KST"
   },
-  "today_verified_count": 13,
+  "today_verified_count": 1,
   "current_items": [
     {
       "id": "bb51ef1ec4fb",
@@ -314,6 +314,26 @@
       "published": "2026-08-31 09:09",
       "collected": "2026-08-31",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83STBqVV8zTXhLRW4tRTBNVFFvMkxxTGVUWWNpMGttc2xydFgwanA3N3pyWkthRUpYaFJULVlBY1VXamttU3Zna3NPSG9QNVVtV3d0NWEtYUlYTThPNS11RdIBeEFVX3lxTE1DTUQyXzVMa1VBZXNCOE1MWk1seWR6dlRaQUE2aVY3cml2SDRITzhpN3dSWDcyN1VEMEMyUWRlSGlVT1p0ajBqR1pfajA3ZHJ4c1UySm85Q0o0cVozcnpmYUpZc01mZGhwN092MkxaM1NBUGlyTTBKSA?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "ecb2b3d3f486",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "SK온, 美 네오볼타에 9GWh ESS 배터리 공급…ESS 시장 공략 본격화",
+      "source": "디지털데일리",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-31 10:00",
+      "collected": "2026-08-31",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04U282TlFzR2Q4eHBYTWtYNm5NdlpMb2dDcHFSUXFVM0FQbklQWC1ISEF0UmJRZW5CdDZHc3VQYmRnbTJDN0tJeVBfTHNzSzBsMUVldTBkdllOZTA5SzZRTDg4eEs?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
