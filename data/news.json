@@ -313,13 +313,34 @@
       "collected": "2026-08-30",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Sb1BWODd0UG5VUE56bUdMM25fcndpRlhYZmNzaEZqNXhUOUhaSUpySVEyemExSTA3S1ZuS3FMZVh1QmhWblhEb3lDcVhJQXZKaXJFUENQQjFKYm9zbEY1StIBeEFVX3lxTE0zdjBBLV9UNTJ5NGQtc2ZTUUhHSEI0XzRadUMwZjcxQjhRNVJGTS1FZFB3RmZjTFR2UERNa1o3aWd2bHdsRWN5WnhOVnAwTk82TGtLYlFpSl9QRzVVVXhqQ2JKWGhrODI1VDVvLXprWjBGZjUyZGMxdw?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "정부가 제12차 전력수급기본계획을 통해 2040년까지 재생에너지 설비를 220GW로 확대하겠다는 목표를 제시했다. 이는 지난해 33.4GW 대비 6배 이상 증가한 규모로, 에너지 안보 강화와 탄소중립 실현을 위한 핵심 전략이다. 단기적으로는 태양광 보급을 가속화하고 2030년 이후에는 해상풍력 비중을 높일 계획이다. 다만 설비 확대에 따른 전력 계통의 부담이 커짐에 따라 송배전망 확충과 에너지저장장치(ESS) 등 유연성 자원 확보가 필수적인 과제로 지목되었다. 재생에너지의 가격 경쟁력이 개선되고 있으나, 이를 뒷받침할 물리적 인프라 구축과 관련 제도 정비가 성공의 관건이 될 전망이다.",
+      "key_points": [
+        "2040년까지 재생에너지 설비를 지난해 33.4GW에서 220GW로 6배 이상 확대한다.",
+        "태양광은 2040년까지 155GW, 풍력(육상·해상)은 61GW 규모로 늘릴 계획이다.",
+        "송배전망 확충 속도가 재생에너지 보급 속도를 따라가지 못하는 계통 연계 문제가 지적되고 있다.",
+        "변동성 전원의 한계를 보완하기 위해 배터리 ESS 외에 양수발전 등 장주기 저장자원 활용이 강조된다."
+      ],
+      "numbers": [
+        "2040년 220GW",
+        "지난해 33.4GW",
+        "2030년 100GW",
+        "2035년 163GW",
+        "2040년 태양광 155GW",
+        "2040년 풍력 61GW"
+      ],
+      "keywords": [
+        "재생에너지",
+        "전력수급기본계획",
+        "태양광",
+        "해상풍력",
+        "전력계통",
+        "ESS"
+      ],
+      "stated_outlook": "2030년 100GW, 2035년 163GW를 거쳐 2040년 220GW까지 재생에너지 설비를 단계적으로 확대할 전망이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "지정학적 위기로 인한 화석연료 의존도를 낮추고 국내 생산 에너지원 비중을 높여 에너지 안보를 강화하려는 정책적 움직임이 커지고 있다. 또한 기술 혁신과 ESS 가격 하락으로 재생에너지 발전단가가 낮아지면서 가격 경쟁력이 개선되는 추세다."
     },
     {
       "id": "34c82db767c4",
