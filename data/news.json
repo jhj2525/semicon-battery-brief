@@ -170,20 +170,37 @@
       "sector": "semiconductor",
       "region": "domestic",
       "category": "투자·양산",
-      "title": "\"최태원 제발 한마디만\"…日, SK하이닉스 공장 유치 총력전 [도쿄나우]",
+      "title": "\"제발 한마디만…\" 최태원 입만 쳐다보는 日 '애타는 구애' [도쿄나우]",
       "source": "한국경제",
       "source_type": "경제지 보도",
       "published": "2026-08-31 08:56",
       "collected": "2026-08-31",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBUdm5qbVFFQjZ2TWF1U0lNNjhta2FfclVULU1Xdi04dVl3X0kyclZRSDBvZEFFdFdGWm13RUVSRmRycVZMS0QzTnRlWlVMNmYxSExIaGRFSWNWQQ?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "일본 미야기현이 SK하이닉스의 첨단 반도체 공장 유치를 위해 적극적인 구애를 펼치고 있다. 미야기현은 센다이 인근 산업단지에 부지를 제안하고 용수와 전력 인프라 정비 계획을 밝히며 유치에 총력을 기울이는 모습이다. 최태원 SK그룹 회장이 일본을 방문하자 현지 언론과 관계자들은 공장 건설 가능성에 큰 관심을 보였다. SK 측은 결정된 바 없으나 다양한 방안을 검토 중이라는 입장을 유지하고 있다. 이번 유치전은 지역 산업구조를 개편하려는 미야기현의 전략적 목표와 일본 반도체 생태계와의 공급망 강화를 꾀하는 SK그룹의 이해관계가 맞물려 진행되고 있다.",
+      "key_points": [
+        "일본 미야기현이 센다이 인근 제2센다이 북부 핵심공업단지 내 30만㎡ 부지를 SK하이닉스에 제안함.",
+        "최태원 SK그룹 회장은 일본 내 공장 건설 관련 질문에 구체적인 답변을 하지 않음.",
+        "SK그룹은 단순 생산거점 확보 외에도 일본 반도체 소재·장비 기업의 인수합병(M&A)을 검토 중임.",
+        "미야기현 지사는 지역 제조업 유치를 핵심 정책으로 추진 중이며, 이번 유치를 재임 기간의 주요 사업으로 삼고 있음."
+      ],
+      "numbers": [
+        "30만㎡",
+        "2026.08.31",
+        "5조8000억엔"
+      ],
+      "keywords": [
+        "SK하이닉스",
+        "미야기현",
+        "반도체",
+        "최태원",
+        "공급망"
+      ],
+      "stated_outlook": "SK측은 여러 방안을 검토하고 있으며, SK그룹은 일본 반도체 소재 및 장비업체 인수합병을 고려 중이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "일본은 반도체 제조장비와 소재 분야에서 강점을 보유하고 있으며, 반도체 생태계가 잘 갖춰진 후보지로 평가받는다. 반면 한국 정부의 규제 가능성으로 인해 SK하이닉스의 해외 생산 품목이나 공정 수준에는 제한이 있을 수 있다는 관측이 존재한다."
     },
     {
       "id": "db9bf9b22a71",
