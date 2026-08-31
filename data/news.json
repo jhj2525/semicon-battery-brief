@@ -8651,6 +8651,47 @@
   "manual_updated_at": "2026-08-31 16:09 KST",
   "favorite_items": [
     {
+      "id": "eca3f7331d75",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "반도체 소재 CCL 수출, 올 42% 급증…두산·LG·롯데 '방긋'",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-08-30 18:09",
+      "collected": "2026-08-31",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBwRm5pd3BfeDVjYjRMSGZXbExEdmZGa2xwd1FNdTNUZ0ZmakF2QzdrRzRLV3lqaWZqZjZwQTRQaTlYVWVTN1VRMUpFZUNQSFJ3aUsyOTQ0QVRQQQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "인공지능(AI) 반도체 핵심 소재인 동박적층판(CCL) 수출이 올해 큰 폭으로 증가하며 국내 소재 업체들의 매출 상승을 견인하고 있다. AI 인프라 투자 지속과 반도체 칩 대면적화에 따른 기판 사용량 증가가 주요 원인으로 분석된다. 이에 따라 두산, LG화학, 롯데에너지머티리얼즈 등 관련 국내 기업들의 실적이 개선되거나 고객사 확보가 확대되고 있다. 글로벌 시장 역시 성장세가 전망됨에 따라 경쟁사들의 대규모 증설 투자가 이어지고 있다. 향후에도 AI 산업 고도화로 인한 CCL 수요는 지속될 것으로 보인다.",
+      "key_points": [
+        "올해 1~7월 CCL 수출액은 약 7307억 원(5억 1733만 달러)으로 전년 동기 대비 41.6% 증가했다.",
+        "두산 전자BG는 2분기 매출이 전년 동기 대비 47% 증가했으며 엔비디아를 고객사로 두고 있다.",
+        "LG화학은 최근 CCL 사업에서 글로벌 고객사 3곳을 확보했고, 롯데에너지머티리얼즈는 고사양 동박 공급을 확대 중이다.",
+        "글로벌 CCL 시장 규모는 올해 216억 2000만 달러에서 2034년 329억 5000만 달러로 확대될 전망이다.",
+        "일본 파나소닉과 대만 EMC 등 주요 경쟁업체들이 공장 증설을 위한 대규모 투자를 진행 중이다."
+      ],
+      "numbers": [
+        "올해 1~7월 수출액 7307억 원",
+        "수출액 전년 동기 대비 41.6% 증가",
+        "7월 수출액 8939만 달러",
+        "두산 전자BG 2분기 매출 1조 2932억 원"
+      ],
+      "keywords": [
+        "CCL",
+        "동박적층판",
+        "AI 반도체",
+        "두산",
+        "LG화학",
+        "롯데에너지머티리얼즈"
+      ],
+      "stated_outlook": "글로벌 CCL 시장 규모는 2034년 329억 5000만 달러에 이를 것으로 전망되며, 파나소닉은 내년 4월 중국 광저우 신공장 가동을 목표로 하고 있다.",
+      "summary_source": "pasted_text",
+      "industry_context": "CCL은 구리막인 동박과 절연 소재를 쌓아 만든 기판용 소재로, 반도체 및 전자부품 기판의 뼈대 역할을 한다. 챗GPT 등장 이후 데이터센터 내 GPU와 HBM 적용이 늘면서 중요성이 커졌다.",
+      "favorited_at": "2026-08-31 16:09 KST"
+    },
+    {
       "id": "3b3001a4b6b4",
       "sector": "semiconductor",
       "region": "domestic",
