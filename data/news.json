@@ -8611,8 +8611,49 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-08-31 14:47 KST",
+  "manual_updated_at": "2026-08-31 15:25 KST",
   "favorite_items": [
+    {
+      "id": "9ad81616feb4",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "4나노 가격 인상 단행한 삼성 파운드리… SK하이닉스는 美 인디애나 패키징 기지 착공 [위클리반도체]",
+      "source": "디지털데일리",
+      "source_type": "산업 전문언론",
+      "published": "2026-08-30 11:00",
+      "collected": "2026-08-31",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtTXZpbjBWUWRxZTA0X0NwSl85MGRYSExXT1NyMnc3YkJrZ25mT3h0OThEOUZLOVJGWnNZQUpUU3lTa0c5RURIUF9iem5XX2c3OHpUUFhINFEzazg1ZFpzRlNjLTg?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "글로벌 AI 인프라 확장으로 선단 공정 수요가 급증하며 국내 반도체 기업들이 사업 구조를 전환하고 있다. 삼성전자 파운드리 사업부는 4나노 공정 가동률 상승에 힘입어 주요 공정의 웨이퍼 가격을 최대 15% 인상하며 가격 협상 주도권을 확보했다. 동시에 SK하이닉스는 미국 인디애나주에 40억 달러 이상을 투입하여 첨단 패키징 생산기지 착공에 돌입했다. 이는 범용 메모리 중심에서 고객 맞춤형 고부가가치 생태계로 진화하려는 전략의 일환이다. 이러한 변화는 국내 반도체 기업들이 수익성 개선과 안정적인 공급망 구축을 통해 경쟁력을 강화하고 있음을 시사한다.",
+      "key_points": [
+        "삼성전자 파운드리 사업부가 4나노 공정을 중심으로 5나노, 8나노 공정의 웨이퍼 가격을 최대 15% 인상했다.",
+        "SK하이닉스가 미국 인디애나주 웨스트라피엣에 40억 달러 이상을 투입해 첨단 패키징 생산기지 착공식을 열었다.",
+        "SK하이닉스는 2028년 10월 클린룸 완공 후 2029년 하반기부터 차세대 HBM 양산에 돌입할 계획이다.",
+        "삼성전자는 4나노 라인 가동률 상승과 HBM4 수요 증가를 배경으로 실질적인 가격 협상력을 확보했다."
+      ],
+      "numbers": [
+        "4나노",
+        "15%",
+        "5나노",
+        "8나노",
+        "40억달러",
+        "5조5000억원"
+      ],
+      "keywords": [
+        "삼성 파운드리",
+        "SK하이닉스",
+        "웨이퍼 가격 인상",
+        "첨단 패키징",
+        "HBM4"
+      ],
+      "stated_outlook": "SK하이닉스는 한국에서 생산한 웨이퍼를 미국으로 보내 현지에서 패키징 및 테스트를 거쳐 빅테크 고객사로 직접 공급하는 체계를 완성할 계획이다. 또한 장기공급계약(LTA)을 통해 과거와 같은 급격한 공급과잉 및 가격 폭락의 경기 변동 폭이 완화될 것으로 관측된다.",
+      "summary_source": "pasted_text",
+      "industry_context": "메모리 산업이 표준 규격 기반의 대량생산 체제에서 고객 맞춤형 고부가가치 제품 중심으로 재편되고 있으며, 선단 공정 수요 폭증으로 파운드리 시장이 공급자 우위 국면으로 이동하고 있다.",
+      "favorited_at": "2026-08-31 15:25 KST"
+    },
     {
       "id": "090191ef05cb",
       "sector": "semiconductor",
