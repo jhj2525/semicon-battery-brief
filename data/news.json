@@ -98,13 +98,32 @@
       "collected": "2026-09-01",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1qME5teGREVEd0bElRSlREVmlGQ3dsd2tHcy1Ga3pEZno5OWcwaXB5Ylc2cmx0Z0t3c0R3cjRBc1prNDhQSkFlOXAzQlNzYTdHa0d4dWNlaXdvczQt?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "한울반도체가 자체 개발한 AI 검사 플랫폼을 적용한 MLCC 6면 외관검사장비의 성능을 향상했다. 이번 성능 시험 결과 0603 규격 기준으로 분당 1만 3000개의 검사 속도를 유지하면서 불량 검출 정확도를 기존 95%에서 98%로 높였다. 해당 장비에는 AI 검사 플랫폼 '하와이'와 분석엔진 '알로하넷'이 적용되었다. 룰 기반 검사와 AI 딥러닝을 결합한 하이브리드 방식으로 미세 크랙이나 비정형 결함까지 효과적으로 판별한다. 현재 외부 전문기관을 통한 실측평가가 진행 중이며, 회사는 기술 고도화를 통해 장비 신뢰성을 높일 계획이다.",
+      "key_points": [
+        "한울반도체, 0603 규격 MLCC 6면 검사 시 분당 1만 3000개 검사 구현",
+        "자체 AI 플랫폼 '하와이'와 분석엔진 '알로하넷'을 적용하여 검출 정확도 98% 달성",
+        "온디바이스 AI 기술을 적용해 보안성을 높이고 네트워크 연결 없는 추론 지원",
+        "외부 전문기관을 통해 장비 성능에 대한 실측평가 진행 중"
+      ],
+      "numbers": [
+        "2026년 9월 1일",
+        "98%",
+        "95%",
+        "1만 3000개",
+        "0.6mm×0.3mm"
+      ],
+      "keywords": [
+        "한울반도체",
+        "MLCC",
+        "AI 검사장비",
+        "하와이",
+        "알로하넷"
+      ],
+      "stated_outlook": "연내 분당 1만 5000개 수준의 차세대 장비 개발 및 하와이 적용 범위를 후공정 검사장비로 확대할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "고속 검사 환경에서는 처리량을 유지하면서 미검출과 과검출을 줄이는 것이 장비 성능의 주요 지표이다."
     },
     {
       "id": "61f56515c19b",
@@ -9031,7 +9050,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-01 12:27 KST",
+  "manual_updated_at": "2026-09-01 12:28 KST",
   "favorite_items": [
     {
       "id": "34628f7fa68c",
