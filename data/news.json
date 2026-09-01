@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-01 10:20 KST",
-  "last_automatic_update_at": "2026-09-01 10:20 KST",
-  "automatic_cycle_started_at": "2026-09-01 10:18 KST",
+  "updated_at": "2026-09-01 10:53 KST",
+  "last_automatic_update_at": "2026-09-01 10:53 KST",
+  "automatic_cycle_started_at": "2026-09-01 10:49 KST",
   "publication_window": {
-    "from": "2026-08-31 10:18 KST",
-    "to": "2026-09-01 10:18 KST"
+    "from": "2026-08-31 10:49 KST",
+    "to": "2026-09-01 10:49 KST"
   },
-  "today_verified_count": 9,
+  "today_verified_count": 5,
   "current_items": [
     {
       "id": "34628f7fa68c",
@@ -243,6 +243,155 @@
         "황화물계"
       ],
       "stated_outlook": "파일럿 단계의 성공을 바탕으로 대량 양산 공정을 최적화해 제조 단가를 낮추고, 내년 황화물계 전고체 배터리 조기 상용화를 목표로 국내 셀사와 전략적 협력을 강화할 계획이다."
+    },
+    {
+      "id": "bcf19f141f87",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "원준, 美 실바텍스와 LFP 양극재 생산 협력",
+      "source": "디일렉",
+      "published": "2026-08-31 20:48",
+      "collected": "2026-09-01",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=61510",
+      "rss_description": "원준이 미국 양극재 기술기업 실바텍스와 북미 리튬인산철(LFP) 양극재 공급망 구축에 협력한다.원준은 실바텍스와 전략적 파트너십을 체결했다고 31일 밝혔다. 양사는 실바텍스의 LFP 기술과 원준의 양산·엔지니어링 기술을 결합해 미국 내 LFP 생산 기반을 마련한다.실바텍스는 인산철 전구체 제조 단계를 없앤 '무전구체(Precursor-Free) LFP' 제조 기술을 개발하고 있다. 공정을 단순화해 설비투자와 생산비, 에너지 사용량을 줄이는 방식이다.원준은 실바텍스의 기술을 파일럿 단계에서 상업 생산 규모로 확대하는 역할을 맡는다.",
+      "score": 52,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "원준이 미국 양극재 기술기업 실바텍스와 전략적 파트너십을 체결하고 북미 리튬인산철(LFP) 양극재 공급망 구축에 협력하기로 했다. 양사는 실바텍스의 무전구체 LFP 기술과 원준의 양산 및 엔지니어링 기술을 결합하여 미국 내 생산 기반을 마련할 계획이다. 원준은 파일럿 단계부터 상업 생산까지 필요한 설비와 공정 기술을 지원하는 역할을 맡는다.",
+      "key_points": [
+        "원준과 실바텍스가 북미 LFP 양극재 공급망 구축을 위한 전략적 파트너십을 체결했다.",
+        "실바텍스는 인산철 전구체 제조 단계를 생략한 '무전구체(Precursor-Free) LFP' 기술을 개발 중이다.",
+        "원준은 실바텍스의 기술을 상업 생산 규모로 확대하기 위해 열처리, 분위기 제어 등 양산 설비 및 엔지니어링 기술을 제공한다."
+      ],
+      "numbers": [
+        "2026.08.31"
+      ],
+      "keywords": [
+        "원준",
+        "실바텍스",
+        "LFP",
+        "양극재",
+        "무전구체",
+        "배터리"
+      ],
+      "stated_outlook": "양사는 파일럿 생산과 상업 생산을 거쳐 미국 현지 생산거점을 확대할 계획이며, 에너지저장장치(ESS), 전기차, 데이터센터, 방산용 배터리 시장 등이 주요 수요처가 될 것으로 예상된다."
+    },
+    {
+      "id": "cc64898fb2a0",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "삼성SDI, 글로벌 톱티어 ESS기업에 LFP 배터리 공급",
+      "source": "디일렉",
+      "published": "2026-09-01 01:20",
+      "collected": "2026-09-01",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=61568",
+      "rss_description": "삼성SDI가 글로벌 배터리 에너지저장장치(BESS) 시스템통합(SI) 톱티어 업체에 리튬인산철(LFP) 배터리를 공급한다. 규모는 수조원대에 달할 것으로 전해졌다. 삼성SDI는 미국 스타플러스 에너지(SPE) 공장에 전용 LFP 배터리 생산라인도 구축한다. 관련 장비 발주도 시작했다.31일 업계에 따르면 삼성SDI는 세계 최대 ESS기업과 연간 수 기가와트시(GWh) 규모 ESS용 LFP 배터리 공급 계약을 조율하고 있다. 4분기 중 본계약 체결을 마무리할 계획이며, 계약 기간은 3년으로 파악됐다. 계약 종료 후 연장 카드가 살아있",
+      "score": 49,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "삼성SDI가 세계 최대 에너지저장장치(ESS) 기업에 연간 수 기가와트시(GWh) 규모의 리튬인산철(LFP) 배터리를 공급할 예정이다. 삼성SDI는 미국 합작법인 스타플러스 에너지(SPE) 공장에 전용 생산라인 3개를 구축하고 관련 장비 발주를 시작했다. 이번 계약 규모는 3년간 수조원대에 달할 것으로 예상되며, 4분기 중 본계약 체결이 예정되어 있다.",
+      "key_points": [
+        "삼성SDI가 글로벌 톱티어 ESS 업체와 LFP 배터리 공급 계약을 조율 중이며, 계약 기간은 3년이다.",
+        "미국 스타플러스 에너지(SPE) 공장에 ESS용 LFP 배터리 전용 생산라인 3개를 구축한다.",
+        "첫 번째 라인은 10월부터 가동되며 273Ah급 배터리를 생산하고, 세 번째 라인을 위한 검사장비 발주가 진행되었다.",
+        "삼성SDI는 GM과 합작 종료 후 인수한 단독법인 시너지셀즈에서도 ESS용 LFP 배터리 생산을 검토하고 있다."
+      ],
+      "numbers": [
+        "3년",
+        "3개",
+        "4분기",
+        "273Ah",
+        "300Ah",
+        "50억원"
+      ],
+      "keywords": [
+        "삼성SDI",
+        "ESS",
+        "LFP배터리",
+        "스타플러스에너지",
+        "시너지셀즈"
+      ],
+      "stated_outlook": "미국 내 ESS 시장 수요 확대에 대응하여 추가적인 생산능력 확보를 검토하고 있다."
+    },
+    {
+      "id": "5beb2ef27350",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "정책",
+      "title": "에코프로비엠, 전고체 배터리 산학연 '원팀' 구축",
+      "source": "디일렉",
+      "published": "2026-09-01 01:35",
+      "collected": "2026-09-01",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=61579",
+      "rss_description": "에코프로비엠이 황화물계 전고체 배터리 소재 개발과 셀 검증을 위한 산학연 협력체를 구축한다.에코프로비엠은 지난 26일 정부의 '슈퍼을(乙) 프로젝트' 추진을 위한 킥오프 미팅을 열었다고 31일 밝혔다.슈퍼을 프로젝트는 글로벌 공급망을 선도할 소재·부품·장비 기업을 육성하는 산업통상부 연구개발(R&D) 사업이다.에코프로비엠은 원료업체에서 고순도 황화리튬(Li2S)을 공급받아 황화물계 고체 전해질을 개발한다. 결정성 제어와 불순물 제거, 입도 균일성 확보 등 대량생산에 필요한 공정 기술을 확보하는 게 목표다. 개발한 고체 전해질은 국내",
+      "score": 36,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "에코프로비엠이 황화물계 전고체 배터리 소재 개발 및 셀 검증을 위해 산학연 협력체를 구축했다. 정부의 '슈퍼을(乙) 프로젝트'를 통해 고순도 황화리튬을 공급받아 황화물계 고체 전해질 대량생산 기술을 확보할 계획이다. 현재 연산 40톤 규모의 파일럿 플랜트를 운영 중이며, 국내 배터리 업체와 협력해 2027년 상용화를 목표로 하고 있다.",
+      "key_points": [
+        "에코프로비엠이 정부의 '슈퍼을 프로젝트' 킥오프 미팅을 열고 산학연 협력체를 구축함",
+        "한국전자기술연구원(KETI), 한국과학기술연구원(KIST), 포항공대, 한양대 등이 프로젝트에 참여함",
+        "황화물계 고체 전해질의 대량생산 공정 기술 확보가 목표이며 개발된 전해질은 국내 배터리 업체가 성능을 검증함"
+      ],
+      "numbers": [
+        "26일",
+        "31일",
+        "40톤",
+        "2027년"
+      ],
+      "keywords": [
+        "에코프로비엠",
+        "전고체 배터리",
+        "고체 전해질",
+        "황화물계",
+        "슈퍼을 프로젝트"
+      ],
+      "stated_outlook": "국내 배터리 업체와 협력하여 2027년 황화물계 전고체 배터리의 조기 상용화를 목표로 한다."
+    },
+    {
+      "id": "b07896cda8c0",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "SK온, 1.5조원대 美 ESS 공급계약…실적 반등·공장 전환 '속도'",
+      "source": "뉴시스",
+      "source_type": "통신사 보도",
+      "published": "2026-09-01 05:10",
+      "collected": "2026-09-01",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtdUtVVFpQd1ZuOHc4SkM4UmhVQnEzaXRvSGw4Q1VNQzNjdjV0VjlTNTQ3YzRWOXBHTzExNEtrd2FyZW9aeDAxZDR6bjVnamx5YWg2MTNvY3ExVnp6ZDliQWplSlBmUHVnNms4dEdpbXVGUVRRQzVidNIBeEFVX3lxTFAtdUtVVFpQd1ZuOHc4SkM4UmhVQnEzaXRvSGw4Q1VNQzNjdjV0VjlTNTQ3YzRWOXBHTzExNEtrd2FyZW9aeDAxZDR6bjVnamx5YWg2MTNvY3ExVnp6ZDliQWplSlBmUHVnNms4dEdpbXVGUVRRQzVidA?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "2274a81ef1e4",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "LG에너지솔루션, 美 스맥오버서 탄산리튬 8만톤 확보…북미 공급망 강화",
+      "source": "디지털데일리",
+      "source_type": "산업 전문언론",
+      "published": "2026-09-01 10:38",
+      "collected": "2026-09-01",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBGdHRrYzF4dHB3aVBMbXpjR0lscmZ2MU0tMmlGdkIwRmUtcUpjZUtpRGJOZHM1YjdvbE0weDVNeDl6dUY5YTJhdjB0ZGVrbFVMbmVVSktoWTdoQjVLZ3RwbHNQbmE?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
     }
   ],
   "archive_items": [
