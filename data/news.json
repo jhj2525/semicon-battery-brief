@@ -157,13 +157,29 @@
       "collected": "2026-09-01",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RZHItRTdCOXE0WjNBbGpodHZJZFc1YzVJZWlGV1NmWjJqbmxSWkJOblFubHRLVTZLQjBIU2VpdXZhNWZSY0EzdEtVZmJXZlR1QzdIWl9R?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "산업통상자원부는 4대 국제 수출통제체제의 개정사항을 반영하여 전략물자 수출입고시 개정안을 9월 1일부터 시행한다. 이번 개정으로 고성능 인공지능용 집적회로와 반도체 제조장비 등이 첨단 이중용도 품목으로서 전략물자에 추가 지정되었다. 해당 품목을 수출하려는 자는 산업통상자원부의 허가를 받아야 한다. 또한, 기업의 행정 편의를 위해 수출자 서약서 폐지 및 각종 서류 서식 정비가 이루어졌다. 정부는 업종별 협회 안내와 상담 서비스 등을 통해 기업의 제도 이해와 준수를 지원할 계획이다.",
+      "key_points": [
+        "9월 1일부터 반도체 제조장비 등 첨단 이중용도 품목 수출 시 산업부 허가 의무화",
+        "바세나르체제 등 4대 국제 수출통제체제의 개정사항 80여 건 반영",
+        "전략물자 수출허가 신청 시 '수출자 서약서' 폐지 등 행정 절차 간소화",
+        "무역안보관리원을 통해 기업 대상 수출통제 현안 상담 서비스 제공"
+      ],
+      "numbers": [
+        "2026-09-01",
+        "80여 건"
+      ],
+      "keywords": [
+        "전략물자",
+        "수출통제",
+        "반도체 제조장비",
+        "산업통상자원부",
+        "이중용도 품목"
+      ],
+      "stated_outlook": "산업부는 기업이 수출통제 제도를 이해하고 준수할 수 있도록 업종별 협회 안내와 무역안보관리원 내 수출통제 현안 데스크 운영을 통해 적극적으로 지원할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "미국·EU·일본 등 주요국과의 국제 수출통제 공조 확대에 따라 군사·산업 겸용이 가능한 첨단 이중용도 품목에 대한 수출통제가 강화되는 추세이다."
     },
     {
       "id": "d198bcde0bb9",
