@@ -5872,6 +5872,68 @@
   "semi_archive_items": [],
   "manual_items": [
     {
+      "id": "cffc6805fc7f",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "에코프로에이치엔, 마이크론에 936억원 규모 저감설비 공급",
+      "source": "디일렉",
+      "source_type": "직접 선택",
+      "published": "2026-09-02 01:39",
+      "collected": "2026-09-02",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=61645",
+      "requested_link": "https://www.thelec.kr/news/articleView.html?idxno=61645",
+      "rss_description": "에코프로에이치엔, 마이크론에 936억원 규모 저감설비 공급 - 디일렉(THE ELEC)",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "에코프로에이치엔이 미국 반도체 기업 마이크론의 싱가포르 생산시설에 936억원 규모의 온실가스 저감설비를 공급하기로 계약했다. 이번 계약은 에코프로에이치엔이 해외 반도체 시장에서 확보한 대형 수주 사례로, 2029년까지 대용량 PFCs 처리설비를 공급할 예정이다. 반도체 생산 시 발생하는 PFCs는 지구온난화지수가 매우 높아 공정 내 저감 설비의 중요성이 커지고 있다. 에코프로에이치엔은 이번 수주를 통해 글로벌 반도체 생산 시설 대상 공급을 확대하며 환경 설비 시장에서의 입지를 강화하고 있다.",
+      "industry_context": "에코프로에이치엔은 한국 기업으로, 환경 오염 방지 및 온실가스 저감 장치 기술을 주력으로 한다. 촉매를 활용한 친환경 설비 기술을 보유하여 기존 고온 열분해 방식 대비 에너지 사용량을 크게 절감하는 기술 경쟁력을 갖추고 있다.",
+      "key_points": [
+        "에코프로에이치엔이 마이크론 싱가포르 법인과 936억원 규모의 온실가스 저감설비 공급계약 체결",
+        "공급 품목은 대용량 촉매식 과불화화합물(PFCs) 처리설비이며 계약 기간은 2026년 8월 29일부터 2029년 4월 1일까지임",
+        "이번 계약 금액은 에코프로에이치엔의 지난해 매출액 1411억원의 66.4%에 해당하는 규모임"
+      ],
+      "numbers": [
+        "936억원",
+        "2029년 4월 1일",
+        "1411억원",
+        "66.4%",
+        "750~800도(℃)",
+        "95%"
+      ],
+      "keywords": [
+        "에코프로에이치엔",
+        "마이크론",
+        "반도체",
+        "온실가스저감",
+        "PFCs",
+        "촉매"
+      ],
+      "stated_outlook": "마이크론은 싱가포르 우드랜즈에 건설 중인 첨단 웨이퍼 제조공장을 2028년 하반기 가동할 목표를 가지고 있다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "01ac18f7fda0",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "투자·양산",
+      "title": "SK하이닉스, 미국 추가 투자 열어뒀다… 곽노정 \"AI 메모리 수요, 2년 전보다 훨씬 강해\"",
+      "source": "n.news.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-02 01:12",
+      "collected": "2026-09-02",
+      "link": "https://n.news.naver.com/mnews/article/469/0000950589?rc=N&ntype=RANKING",
+      "requested_link": "https://n.news.naver.com/mnews/article/469/0000950589?rc=N&ntype=RANKING",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
       "id": "af7d04f28c0d",
       "sector": "semiconductor",
       "region": "domestic",
@@ -9146,7 +9208,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-01 22:20 KST",
+  "manual_updated_at": "2026-09-02 01:12 KST",
   "favorite_items": [
     {
       "id": "af7d04f28c0d",
