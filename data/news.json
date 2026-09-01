@@ -9071,6 +9071,27 @@
   "manual_updated_at": "2026-09-01 12:30 KST",
   "favorite_items": [
     {
+      "id": "2274a81ef1e4",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "LG에너지솔루션, 美 스맥오버서 탄산리튬 8만톤 확보…북미 공급망 강화",
+      "source": "디지털데일리",
+      "source_type": "산업 전문언론",
+      "published": "2026-09-01 10:38",
+      "collected": "2026-09-01",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBGdHRrYzF4dHB3aVBMbXpjR0lscmZ2MU0tMmlGdkIwRmUtcUpjZUtpRGJOZHM1YjdvbE0weDVNeDl6dUY5YTJhdjB0ZGVrbFVMbmVVSktoWTdoQjVLZ3RwbHNQbmE?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "favorited_at": "2026-09-01 12:30 KST"
+    },
+    {
       "id": "fd884d241705",
       "sector": "battery",
       "region": "domestic",
