@@ -409,26 +409,6 @@
       "stated_outlook": "국내 배터리 업체와 협력하여 2027년 황화물계 전고체 배터리의 조기 상용화를 목표로 한다."
     },
     {
-      "id": "b07896cda8c0",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "투자·양산",
-      "title": "SK온, 1.5조원대 美 ESS 공급계약…실적 반등·공장 전환 '속도'",
-      "source": "뉴시스",
-      "source_type": "통신사 보도",
-      "published": "2026-09-01 05:10",
-      "collected": "2026-09-01",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtdUtVVFpQd1ZuOHc4SkM4UmhVQnEzaXRvSGw4Q1VNQzNjdjV0VjlTNTQ3YzRWOXBHTzExNEtrd2FyZW9aeDAxZDR6bjVnamx5YWg2MTNvY3ExVnp6ZDliQWplSlBmUHVnNms4dEdpbXVGUVRRQzVidNIBeEFVX3lxTFAtdUtVVFpQd1ZuOHc4SkM4UmhVQnEzaXRvSGw4Q1VNQzNjdjV0VjlTNTQ3YzRWOXBHTzExNEtrd2FyZW9aeDAxZDR6bjVnamx5YWg2MTNvY3ExVnp6ZDliQWplSlBmUHVnNms4dEdpbXVGUVRRQzVidA?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
       "id": "2274a81ef1e4",
       "sector": "battery",
       "region": "domestic",
@@ -9088,7 +9068,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-01 12:29 KST",
+  "manual_updated_at": "2026-09-01 12:30 KST",
   "favorite_items": [
     {
       "id": "fd884d241705",
@@ -11134,6 +11114,7 @@
     "93e511a72c8d",
     "a194e4eb3968",
     "adf37c24975d",
+    "b07896cda8c0",
     "b66e233a7b27",
     "c62a76fa2f04",
     "d05efafe67d5",
@@ -11162,6 +11143,7 @@
     "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83STBqVV8zTXhLRW4tRTBNVFFvMkxxTGVUWWNpMGttc2xydFgwanA3N3pyWkthRUpYaFJULVlBY1VXamttU3Zna3NPSG9QNVVtV3d0NWEtYUlYTThPNS11RdIBeEFVX3lxTE1DTUQyXzVMa1VBZXNCOE1MWk1seWR6dlRaQUE2aVY3cml2SDRITzhpN3dSWDcyN1VEMEMyUWRlSGlVT1p0ajBqR1pfajA3ZHJ4c1UySm85Q0o0cVozcnpmYUpZc01mZGhwN092MkxaM1NBUGlyTTBKSA?oc=5",
     "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9xYkJadHY2ZHJ5Um4xLS11aHhCWFYyY2ZhNzNwOUhWYTdKNDR4Y25LM0lfWi1hTmRZdE5QaHBTc3U0eWVpUTZYeWs3UXFOb3ByUVRJYTVNVm9lWnNCT3ZfWtIBeEFVX3lxTE1Tbjk5Ul9lTmVkdndHRnA1QXdXd0FaZ3ZFZWx3X1Y3eURFZjMxdkt1U0NpNUFCRWlNQjJYZjNVRjRZUlNjVUVjMVh1RVhCaHFBTWdQSTRZVXZlOFhrRGZkdXhodUJKbnVGal9XRDZtc00wdDB5ZWFMOA?oc=5",
     "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04U282TlFzR2Q4eHBYTWtYNm5NdlpMb2dDcHFSUXFVM0FQbklQWC1ISEF0UmJRZW5CdDZHc3VQYmRnbTJDN0tJeVBfTHNzSzBsMUVldTBkdllOZTA5SzZRTDg4eEs?oc=5",
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtdUtVVFpQd1ZuOHc4SkM4UmhVQnEzaXRvSGw4Q1VNQzNjdjV0VjlTNTQ3YzRWOXBHTzExNEtrd2FyZW9aeDAxZDR6bjVnamx5YWg2MTNvY3ExVnp6ZDliQWplSlBmUHVnNms4dEdpbXVGUVRRQzVidNIBeEFVX3lxTFAtdUtVVFpQd1ZuOHc4SkM4UmhVQnEzaXRvSGw4Q1VNQzNjdjV0VjlTNTQ3YzRWOXBHTzExNEtrd2FyZW9aeDAxZDR6bjVnamx5YWg2MTNvY3ExVnp6ZDliQWplSlBmUHVnNms4dEdpbXVGUVRRQzVidA?oc=5",
     "https://www.digitimes.com/news/a20260824PD200/materials-applied-materials-demand-equipment-taiwan.html",
     "https://www.etnews.com/20260827000259",
     "https://zdnet.co.kr/view?no=20260826152901"
