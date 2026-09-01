@@ -193,13 +193,35 @@
       "collected": "2026-09-01",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE55WmtvYTNrMDk1by1MNXZudTRyNzVaSG9WRHNvQV90bDRPUE15ck9EVy1uMXRZa0daajVqSEkzY2JxQnNybnNsYU1PcjhyeTljeUHSAVNBVV95cUxPeVRmZnJJSG1wbnJXMzZOUGxxZGh4UWtydW9valhMSXJWdnJEZkVJNXVrN1Z1UTZ3VjVGWkZic3I3TzN6dm01VlZFYnhJNzZtMWtiNA?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "6세대 고대역폭메모리인 HBM4의 본격적인 공급과 빅테크 기업들과의 장기공급계약 체결로 메모리반도체 가격이 급등했다. HBM 평균 수출가는 76.13달러를 기록하며 사상 처음으로 70달러를 돌파했으며, 범용 D램 가격 또한 상승세를 보이고 있다. 반도체 생산품이 즉시 전량 수출되는 품귀 현상이 지속됨에 따라 삼성전자는 생산 라인 전환을, SK하이닉스는 해외 공장 설립을 검토하는 등 대응에 나섰다. 한편, 중국 로봇 산업은 대규모 M&A를 통해 급격히 성장했으나 한국은 투자 규모 면에서 격차를 보이는 상황이다.",
+      "key_points": [
+        "7월 말 기준 HBM 1개당 평균 수출가는 전월 대비 9.5% 상승한 76.13달러를 기록함.",
+        "범용 D램 평균 수출가는 22.9달러로 전월 대비 24.3% 급등함.",
+        "삼성전자는 평택캠퍼스 파운드리 라인을 메모리 생산 시설로 전환하는 방안을 검토 중임.",
+        "한화에어로스페이스는 스페인 방산업체 인드라시스템즈와 K9 자주포 수출 계약을 체결하며 서유럽 시장에 진출함.",
+        "중국은 2016년 이후 전 세계 로봇 기업 13곳에 56억 달러를 투자했으나 한국은 16억 달러 규모에 그침."
+      ],
+      "numbers": [
+        "76.13달러",
+        "22.9달러",
+        "24.3%",
+        "9.5%",
+        "56억 달러",
+        "16억 달러"
+      ],
+      "keywords": [
+        "HBM4",
+        "메모리반도체",
+        "수출가",
+        "로봇산업",
+        "한화에어로스페이스",
+        "CPTPP"
+      ],
+      "stated_outlook": "무역협회는 반도체가 생산 즉시 전량 수출되고 있어 당분간 단가 상승이 불가피할 것으로 전망했다. 또한 정부는 공급망 리스크 최소화를 위해 CPTPP 가입 논의에 착수했다.",
+      "summary_source": "pasted_text",
+      "industry_context": "AI 데이터센터 수요 급증으로 고대역폭메모리(HBM) 및 D램 등 메모리반도체 시장의 공급 부족 현상이 심화되고 있으며, 로봇 및 방산 등 핵심 전략 산업에서의 기술 격차 해소와 공급망 다변화가 중요해지고 있다."
     },
     {
       "id": "487f72a7e166",
