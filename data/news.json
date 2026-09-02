@@ -9799,8 +9799,48 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-02 14:09 KST",
+  "manual_updated_at": "2026-09-02 14:10 KST",
   "favorite_items": [
+    {
+      "id": "681e2a8b5442",
+      "sector": "battery",
+      "region": "global",
+      "category": "산업",
+      "title": "美 ESS 수요 폭발…LG엔솔·삼성SDI·SK온 '날개'",
+      "source": "v.daum.net",
+      "source_type": "직접 선택",
+      "published": "2026-09-02 14:07",
+      "collected": "2026-09-02",
+      "link": "https://v.daum.net/v/20260902084947150",
+      "requested_link": "https://v.daum.net/v/20260902084947150",
+      "rss_description": "美 ESS 수요 폭발…LG엔솔·삼성SDI·SK온",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "미국 내 AI 데이터센터 투자와 신재생에너지 확대가 맞물리면서 에너지저장장치(ESS) 시장이 폭발적으로 성장하고 있다. 특히 전력망 효율화를 위한 필수 인프라로 ESS 수요가 급증하며 국내 배터리 3사에 새로운 반등 기회가 열렸다. 미국 정부의 대중국 배터리 제재 강화로 중국산 제품의 진입 장벽이 높아짐에 따라, 북미 현지 생산 거점을 확보한 국내 기업들의 반사이익이 기대된다. 시장에서는 가성비와 안전성이 뛰어난 LFP 배터리가 ESS 핵심 제품으로 안착하고 있으며, 배터리 3사는 이에 맞춰 현지 생산 체제를 대폭 강화하고 있다.",
+      "industry_context": "LG에너지솔루션, 삼성SDI, SK온은 한국을 대표하는 배터리 제조사로, 전 세계적인 전기차 및 ESS 공급망에서 주요한 위치를 차지하고 있다. 이들 기업은 미국 내 대규모 생산 공장을 설립하며 현지화 전략을 적극 추진해 왔다.",
+      "key_points": [
+        "미국 내 2분기 ESS 신규 설치 용량이 20.2GWh로 역대 최대를 기록함",
+        "태양광 발전 증가와 AI 산업 확대로 인한 전력 수요 폭증이 ESS 수요를 견인함",
+        "미국의 대중국 무역법 301조 관세 인상 및 규제 강화로 국내 배터리 기업의 반사이익 예상"
+      ],
+      "numbers": [
+        "2026년 2분기 신규 설치 20.2GWh",
+        "2026년 상반기 누적 30.8GWh",
+        "2026년 연간 전망 71GWh",
+        "중국산 배터리 실질 관세율 40% 이상"
+      ],
+      "keywords": [
+        "ESS",
+        "LFP배터리",
+        "미국시장",
+        "LG에너지솔루션",
+        "삼성SDI",
+        "SK온"
+      ],
+      "stated_outlook": "업계는 미국의 대중국 제재 강화가 K-배터리 3사의 실적 개선을 가속할 것으로 보고 있으며, LG에너지솔루션은 2030년까지 북미 생산능력을 100GWh 이상으로 확대할 방침이다.",
+      "summary_status": "summarized",
+      "favorited_at": "2026-09-02 14:10 KST"
+    },
     {
       "id": "2547fa539450",
       "sector": "semiconductor",
