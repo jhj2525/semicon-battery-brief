@@ -217,13 +217,31 @@
       "collected": "2026-09-02",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1MRWlScFVsOFJFZHM4dzkwbk5hUmE1UEhjcWhqeFQtUlpsWDQ1dF9lQjdUcWp0cTU5REZ6Rm84TEV4VUltX05KUEZYbEJLdw?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "정부는 4대 국제 수출통제체제에서 합의된 사항을 국내 법령에 반영하기 위해 '전략물자 수출입고시'를 개정해 9월 1일부터 시행했다. 이번 개정으로 고성능 AI용 집적회로와 특정 사양의 반도체 제조 장비 등이 전략물자로 신규 지정되어 수출 시 사전 허가가 필수화되었다. 반면 고에너지 이차전지의 통제 기준은 완화되었으며, 보툴리눔 독소의 대상 범위도 명확히 조정되었다. 또한 수출 기업의 서류 제출 의무를 줄이고 서식을 개선하는 등 행정 절차의 편의성을 높이는 규제 완화 조치도 병행되었다. 산업부는 기업들의 이해를 돕기 위해 업종별 안내와 맞춤형 상담 서비스를 지원할 계획이다.",
+      "key_points": [
+        "고성능 AI용 집적회로, 특정 반도체 노광·식각·증착 장비 등이 전략물자로 추가 지정됨.",
+        "고에너지 이차전지 통제 기준이 기존 350Wh/kg 초과에서 500Wh/kg 초과로 완화됨.",
+        "전략물자 수출허가 신청 시 의무였던 '수출자 서약서'가 폐지되고 고시 본문으로 관련 의무사항이 이관됨.",
+        "무역안보관리원 내 '수출통제 현안 데스크'를 설치하여 기업 대상 맞춤형 상담을 운영함."
+      ],
+      "numbers": [
+        "2026-09-01",
+        "80건",
+        "350Wh/kg",
+        "500Wh/kg"
+      ],
+      "keywords": [
+        "전략물자",
+        "수출통제",
+        "AI반도체",
+        "이차전지",
+        "산업통상자원부"
+      ],
+      "stated_outlook": "산업부는 업종별 협회에 개정 사항을 안내하고, 무역안보관리원 내 '수출통제 현안 데스크'를 운영하여 기업 대상 맞춤형 상담 서비스를 지원할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "산업용과 군사용으로 모두 쓰일 수 있는 이중용도 품목에 대한 국제 공조 추세가 강화됨에 따라 첨단 산업 분야의 통제망이 확대되었다."
     },
     {
       "id": "96763cc6188f",
