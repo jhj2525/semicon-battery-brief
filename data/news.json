@@ -6628,13 +6628,31 @@
       "link": "https://n.news.naver.com/mnews/article/469/0000950589?rc=N&ntype=RANKING",
       "requested_link": "https://n.news.naver.com/mnews/article/469/0000950589?rc=N&ntype=RANKING",
       "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "SK하이닉스가 미국 인디애나주에 40억 달러 규모의 첨단 패키징 공장을 착공하며 미국 내 생산시설 추가 투자 가능성을 열어두었다. 곽노정 SK하이닉스 사장은 AI 메모리 수요가 2년 전보다 훨씬 강력해졌음을 언급하며, 향후 사업 기회와 조건이 맞는다면 어느 지역이나 국가든 추가 투자가 가능하다고 밝혔다. SK하이닉스는 이번 공장을 거점으로 2029년 하반기부터 고대역폭메모리(HBM) 양산을 시작할 계획이다. 또한 공급 부족 현상이 2030년 말까지 지속될 것으로 전망하면서도, 과거와 달리 AI 시대의 메모리 수요는 급격한 하강 국면보다는 안정적인 흐름을 보일 것으로 내다봤다.",
+      "key_points": [
+        "SK하이닉스가 인디애나주에 40억 달러 규모의 고대역폭메모리(HBM) 패키징 공장을 착공함",
+        "곽노정 사장은 미국 내 추가적인 생산시설 투자 가능성을 열어두었으나 구체적 계획은 밝히지 않음",
+        "메모리 공급 부족 현상이 2030년 말까지 지속될 것으로 예상함",
+        "AI 시대를 맞아 메모리 수요가 맞춤형 제품 중심으로 재편되어 과거와 같은 급격한 하강 국면은 없을 것으로 전망함"
+      ],
+      "numbers": [
+        "40억 달러",
+        "5조 5,000억 원",
+        "2029년 하반기",
+        "2030년 말"
+      ],
+      "keywords": [
+        "SK하이닉스",
+        "인디애나 공장",
+        "HBM",
+        "AI 메모리",
+        "곽노정"
+      ],
+      "stated_outlook": "메모리 공급 부족 현상은 2030년 말까지 지속될 것으로 예상되며, 향후 시장 하강 국면이 오더라도 수요가 과거처럼 급격히 감소하기보다는 다소 둔화되거나 계획 수준에 머물 것으로 전망함.",
+      "summary_source": "pasted_text",
+      "industry_context": "메모리 시장이 과거 범용 제품 중심에서 AI 고객 맞춤형 제품으로 전환되면서 수요 예측의 정밀도가 높아지고 있으며, AI 스타트업 등과의 협력을 통한 시너지 창출이 중요한 과제로 떠오르고 있다."
     },
     {
       "id": "7135a0c4bbdc",
@@ -9876,7 +9894,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-02 14:11 KST",
+  "manual_updated_at": "2026-09-02 17:52 KST",
   "favorite_items": [
     {
       "id": "31c6d30dc31c",
