@@ -6492,13 +6492,29 @@
       "link": "https://n.news.naver.com/article/374/0000530754",
       "requested_link": "https://naver.me/5K6V1A5V",
       "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "삼성SDI가 연간 흑자 전환이 유력해짐에 따라 성과급 제도 개편을 두고 노사 간 갈등이 불거졌다. 회사는 성과급 산정 재원을 영업이익으로 변경하고 개인별 연봉의 최대 50%를 상한선으로 두는 방안을 제안했다. 하지만 노조는 지난 임단협 조정 당시 합의 내용에 지급 상한에 대한 언급이 없었다며, 회사가 일방적으로 조건을 추가해 합의를 파기했다고 반발하고 있다. 현재 회사는 성과급 개편안 확정을 앞두고 직원 설문조사를 진행 중이나 노조의 강력한 반대로 향후 파장이 예상된다.",
+      "key_points": [
+        "삼성SDI가 성과급 재원을 영업이익으로 변경하고 연봉의 50%를 상한으로 하는 개편안을 제시했다.",
+        "노조는 중앙노동위원회 조정안에 '50% 상한' 규정이 없었다며 회사가 합의를 위반했다고 주장한다.",
+        "회사는 성과급 제도 개편을 위해 직원 설명회와 설문조사를 실시하고 있다.",
+        "삼성SDI는 다음 주 중으로 새로운 OPI 제도를 확정할 계획이다."
+      ],
+      "numbers": [
+        "2026.09.02",
+        "50%"
+      ],
+      "keywords": [
+        "삼성SDI",
+        "성과급",
+        "OPI",
+        "흑자전환",
+        "노사갈등"
+      ],
+      "stated_outlook": "삼성SDI는 다음 주 중으로 새로운 OPI 제도를 확정할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": ""
     },
     {
       "id": "0f4783230cb5",
