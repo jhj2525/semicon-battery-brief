@@ -6266,6 +6266,163 @@
   "semi_archive_items": [],
   "manual_items": [
     {
+      "id": "681e2a8b5442",
+      "sector": "battery",
+      "region": "global",
+      "category": "산업",
+      "title": "美 ESS 수요 폭발…LG엔솔·삼성SDI·SK온 '날개'",
+      "source": "v.daum.net",
+      "source_type": "직접 선택",
+      "published": "2026-09-02 14:07",
+      "collected": "2026-09-02",
+      "link": "https://v.daum.net/v/20260902084947150",
+      "requested_link": "https://v.daum.net/v/20260902084947150",
+      "rss_description": "美 ESS 수요 폭발…LG엔솔·삼성SDI·SK온",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "미국 내 AI 데이터센터 투자와 신재생에너지 확대가 맞물리면서 에너지저장장치(ESS) 시장이 폭발적으로 성장하고 있다. 특히 전력망 효율화를 위한 필수 인프라로 ESS 수요가 급증하며 국내 배터리 3사에 새로운 반등 기회가 열렸다. 미국 정부의 대중국 배터리 제재 강화로 중국산 제품의 진입 장벽이 높아짐에 따라, 북미 현지 생산 거점을 확보한 국내 기업들의 반사이익이 기대된다. 시장에서는 가성비와 안전성이 뛰어난 LFP 배터리가 ESS 핵심 제품으로 안착하고 있으며, 배터리 3사는 이에 맞춰 현지 생산 체제를 대폭 강화하고 있다.",
+      "industry_context": "LG에너지솔루션, 삼성SDI, SK온은 한국을 대표하는 배터리 제조사로, 전 세계적인 전기차 및 ESS 공급망에서 주요한 위치를 차지하고 있다. 이들 기업은 미국 내 대규모 생산 공장을 설립하며 현지화 전략을 적극 추진해 왔다.",
+      "key_points": [
+        "미국 내 2분기 ESS 신규 설치 용량이 20.2GWh로 역대 최대를 기록함",
+        "태양광 발전 증가와 AI 산업 확대로 인한 전력 수요 폭증이 ESS 수요를 견인함",
+        "미국의 대중국 무역법 301조 관세 인상 및 규제 강화로 국내 배터리 기업의 반사이익 예상"
+      ],
+      "numbers": [
+        "2026년 2분기 신규 설치 20.2GWh",
+        "2026년 상반기 누적 30.8GWh",
+        "2026년 연간 전망 71GWh",
+        "중국산 배터리 실질 관세율 40% 이상"
+      ],
+      "keywords": [
+        "ESS",
+        "LFP배터리",
+        "미국시장",
+        "LG에너지솔루션",
+        "삼성SDI",
+        "SK온"
+      ],
+      "stated_outlook": "업계는 미국의 대중국 제재 강화가 K-배터리 3사의 실적 개선을 가속할 것으로 보고 있으며, LG에너지솔루션은 2030년까지 북미 생산능력을 100GWh 이상으로 확대할 방침이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "173b99669b28",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "[단독] SK이노베이션 업무 시스템 해킹…\"정보 유출 파악 중\"",
+      "source": "news1.kr",
+      "source_type": "직접 선택",
+      "published": "2026-09-02 14:06",
+      "collected": "2026-09-02",
+      "link": "https://www.news1.kr/amp/industry/general-industry/6276468",
+      "requested_link": "https://www.news1.kr/amp/industry/general-industry/6276468",
+      "rss_description": "",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "SK이노베이션이 사내 업무 시스템에 외부 비정상 접근이 발생한 정황을 확인하고 조사에 착수했다. 유출이 의심되는 정보는 이름, 부서, 직위, 연락처, 사내 이메일 등 사내 이용자 정보로 파악된다. 다만 주민등록번호나 금융정보 등 민감 정보는 포함되지 않았으며 외부 고객 및 공급업체 정보도 대상에서 제외된 것으로 확인됐다. 회사는 해당 시스템에 대한 외부 접근을 차단하고 관계기관에 신고 조치를 완료했다. 현재 관계기관과 함께 정확한 사고 경위와 피해 규모를 조사하고 있다.",
+      "industry_context": "SK이노베이션은 대한민국에 본사를 둔 기업으로, 에너지 및 석유화학 산업을 주력 사업으로 영위하며 배터리 등 미래 에너지 분야로 포트폴리오를 확장하고 있다.",
+      "key_points": [
+        "SK이노베이션 사내 업무 시스템에 외부 비정상 접근 정황 발견",
+        "이름·부서·직위·연락처 등 사내 이용자 정보 유출 의심",
+        "주민등록번호 등 민감 정보는 유출 대상에 포함되지 않음"
+      ],
+      "numbers": [
+        "2026.09.01"
+      ],
+      "keywords": [
+        "SK이노베이션",
+        "해킹",
+        "보안사고",
+        "비정상접근",
+        "정보유출"
+      ],
+      "stated_outlook": "관계기관과 긴밀히 협조해 사고 경위와 영향 범위를 확인하고 보안 체계를 지속 점검·보완해 예방 조치를 강화할 계획임.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "31c6d30dc31c",
+      "sector": "battery",
+      "region": "global",
+      "category": "산업",
+      "title": "\"한 번에 966㎞ 달린다\"…현대차, 전기차 대신 'EREV'로 美 공략",
+      "source": "v.daum.net",
+      "source_type": "직접 선택",
+      "published": "2026-09-02 14:06",
+      "collected": "2026-09-02",
+      "link": "https://v.daum.net/v/20260901070209221",
+      "requested_link": "https://v.daum.net/v/20260901070209221",
+      "rss_description": "\"한 번에 966㎞ 달린다\"…현대차, 전기차 대신",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "현대자동차가 전기차 시장의 일시적 수요 정체인 '캐즘'을 극복하기 위해 주행거리 연장형 전기차(EREV)를 북미 시장에 투입한다. EREV는 엔진을 발전기로 활용해 배터리 용량을 줄이면서도 전기차의 주행 감각과 긴 주행거리를 동시에 확보한 것이 특징이다. 현대차는 이를 통해 충전 인프라 부족과 주행거리 불안이라는 북미 시장의 한계를 보완할 계획이다. 내년 상반기 싼타페 EREV 출시를 시작으로 제네시스 모델까지 확장하며 제품군을 강화한다. 또한 북미 생산 체제와 배터리 공급망 현지화를 통해 원가 경쟁력과 공급 안정성을 확보하고자 한다.",
+      "industry_context": "현대자동차그룹은 대한민국을 거점으로 글로벌 시장에 완성차를 공급하는 자동차 제조 기업이다. SK온과의 합작법인 HSBMA를 통해 미국 조지아주에서 배터리 셀을 생산하며 북미 공급망을 구축하고 있다. 향후 2030년까지 북미 지역 부품 현지화율을 80%까지 높이는 전략을 추진 중이다.",
+      "key_points": [
+        "현대차, 전기차 단점을 보완한 주행거리 연장형 전기차(EREV) 전략 본격화",
+        "내년 상반기 싼타페 EREV 미국 생산 및 출시, 2027년 제네시스 EREV 출시 예정",
+        "SK온 합작법인 HSBMA를 통한 북미 배터리 공급망 현지화 및 원가 경쟁력 확보 추진"
+      ],
+      "numbers": [
+        "966km",
+        "1030km",
+        "2026년",
+        "2027년",
+        "50억달러",
+        "35GWh"
+      ],
+      "keywords": [
+        "현대자동차",
+        "EREV",
+        "북미시장",
+        "전기차캐즘",
+        "HSBMA",
+        "배터리현지화"
+      ],
+      "stated_outlook": "싼타페 EREV는 600마일(약 966km) 이상의 주행거리를 목표로 하며, 2027년 초 출시 예정인 제네시스 EREV는 640마일(약 1030km) 이상의 주행거리를 목표로 한다. 또한 2030년까지 북미 부품 현지화율을 80%까지 높일 계획이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "0327cbc3bcd9",
+      "sector": "battery",
+      "region": "global",
+      "category": "산업",
+      "title": "‘전력망 안보’까지 中에 빗장 거는 美… K배터리로 열리는 시장",
+      "source": "n.news.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-02 14:06",
+      "collected": "2026-09-02",
+      "link": "https://n.news.naver.com/article/005/0001870394",
+      "requested_link": "https://naver.me/5fdzMFyf",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "c3cacd11d99d",
+      "sector": "battery",
+      "region": "global",
+      "category": "산업",
+      "title": "삼성 SDI 흑자 돌아서자 성과급 갈등…연봉 50% 상한 논란",
+      "source": "n.news.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-02 14:06",
+      "collected": "2026-09-02",
+      "link": "https://n.news.naver.com/article/374/0000530754",
+      "requested_link": "https://naver.me/5K6V1A5V",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
       "id": "0f4783230cb5",
       "sector": "semiconductor",
       "region": "global",
@@ -6339,6 +6496,27 @@
       "collected": "2026-09-02",
       "link": "https://n.news.naver.com/mnews/article/469/0000950589?rc=N&ntype=RANKING",
       "requested_link": "https://n.news.naver.com/mnews/article/469/0000950589?rc=N&ntype=RANKING",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "7135a0c4bbdc",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "\"세계 최대 60GWh 계약 터졌다\"…나트륨이온 배터리, 대규모 상용화 시대 개막",
+      "source": "financialpost.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-08-31 17:21",
+      "collected": "2026-09-02",
+      "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=272819",
+      "requested_link": "https://www.financialpost.co.kr/news/articleView.html?idxno=272819",
       "manual_added": true,
       "verified_source": false,
       "summary_status": "link_only",
@@ -7588,83 +7766,6 @@
         "에이치디현대오일뱅크"
       ],
       "stated_outlook": "향후 5년간 수출가격이 직전 3개월 대비 인상·동결되는 경우 국내 가격 인상률을 수출가격 인상률 이하로 제한하며, 인하되는 경우 국내 가격 인하율을 수출가격 인하율 이상으로 유지해야 함.",
-      "summary_status": "summarized"
-    },
-    {
-      "id": "a7484163133c",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "산업",
-      "title": "LG에너지솔루션 충당금 눈덩이, 2년 반 새 80% 늘어난 2.3조...삼성SDI도 2.5배 폭증",
-      "source": "consumernews.co.kr",
-      "source_type": "직접 선택",
-      "published": "2026-08-20 15:10",
-      "collected": "2026-08-20",
-      "link": "https://www.consumernews.co.kr/news/articleView.html?idxno=761694",
-      "requested_link": "https://www.consumernews.co.kr/news/articleView.html?idxno=761694",
-      "rss_description": "LG에너지솔루션 충당금 눈덩이, 2년 반 새 80% 늘어난 2.3조...삼성SDI도 2.5배 폭증",
-      "manual_added": true,
-      "verified_source": true,
-      "overview": "국내 주요 배터리 제조사들의 충당부채가 지속적으로 증가하며 재무적 부담이 커지고 있다. 이는 전기차 배터리의 품질보증 및 리콜 대응을 위한 비용으로, 생산량과 매출 확대에 따라 자연스럽게 증가하는 구조를 띠고 있다. 실제로 LG에너지솔루션의 충당금은 2년 반 동안 80% 이상 증가했으며, 삼성SDI는 같은 기간 2배 이상 늘어난 것으로 나타났다. 업계는 전기차 산업이 상대적으로 신사업인 만큼 품질 이슈 대응을 위해 충당금을 보수적으로 설정하고 있다고 설명한다. 결과적으로 배터리 기업들은 매출 성장에 맞춰 품질 보증 비용에 대한 관리 강도를 높여야 하는 시장 환경에 놓여 있다.",
-      "industry_context": "LG에너지솔루션, 삼성SDI, SK온은 한국을 대표하는 배터리 제조사로, 전 세계 전기차 시장을 대상으로 배터리 셀 및 에너지저장장치(ESS)를 공급하는 핵심 업체들이다. 이들 기업은 배터리 품질보증을 위해 미래에 발생할 수 있는 A/S 비용을 미리 충당부채로 산정하는 회계 처리 방식을 따르고 있다.",
-      "key_points": [
-        "LG에너지솔루션의 6월 말 기준 충당부채는 2조 3470억 원으로 올해 들어 23.3% 증가함",
-        "삼성SDI와 SK온의 올해 상반기 충당부채는 각각 8824억 원, 3786억 원으로 나타남",
-        "배터리 기업들의 충당부채 증가에는 매출 확대에 따른 보증 물량 증가와 리콜 사태 등 품질 대응 비용이 포함됨"
-      ],
-      "numbers": [
-        "2조 3470억 원",
-        "23.3%",
-        "80%",
-        "2배",
-        "2026.08.20"
-      ],
-      "keywords": [
-        "배터리",
-        "충당부채",
-        "LG에너지솔루션",
-        "삼성SDI",
-        "리콜",
-        "품질보증"
-      ],
-      "stated_outlook": "",
-      "summary_status": "summarized"
-    },
-    {
-      "id": "7c1cf066e258",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "산업",
-      "title": "헝가리 정부, 배터리 공장 '중점투자' 특혜 손질…삼성SDI·SK온·CATL 엄격 적용",
-      "source": "theguru.co.kr",
-      "source_type": "직접 선택",
-      "published": "2026-08-20 13:47",
-      "collected": "2026-08-20",
-      "link": "https://www.theguru.co.kr/mobile/article.html?no=105943",
-      "requested_link": "https://www.theguru.co.kr/mobile/article.html?no=105943",
-      "rss_description": "",
-      "manual_added": true,
-      "verified_source": true,
-      "overview": "헝가리 정부가 외국인 투자 유치를 위해 배터리 기업에 부여하던 패스트트랙 특혜와 보조금 정책을 전면 재검토한다. 환경 및 안전에 대한 현지 여론을 반영하여, 향후 배터리 공장은 강화된 환경 규정을 필수적으로 준수해야 한다. 신규 규정에 따라 환경 규정 위반 시 위반 사항이 시정될 때까지 최소 6개월 동안 신규 건축 허가 등이 발급되지 않을 수 있다. 이로 인해 삼성SDI, SK온, CATL 등 현지 진출 기업들은 강화된 관리·감독과 함께 행정적·법적 리스크를 마주하게 되었다. 정부는 모든 우선 산업 투자 사업을 재검토하여 동일한 규칙을 적용할 방침이다.",
-      "industry_context": "헝가리에 진출한 삼성SDI, SK온, CATL은 글로벌 배터리 시장의 주요 기업으로, 현지 생산 시설을 통해 유럽 전기차 시장을 공략하고 있다. 헝가리는 이들 기업에게 그간 우선 투자 사업 지위를 부여해 신속한 공장 설립과 인허가를 지원해 왔다. 그러나 최근 환경 규제 강화와 현지 사회의 반발이 커짐에 따라, 이들 기업은 기존의 공급망 운영 방식에서 벗어나 보다 엄격한 환경 준수 의무를 이행해야 하는 상황이다.",
-      "key_points": [
-        "헝가리 정부가 배터리 공장 대상 우선투자 특혜와 보조금 정책 전면 재검토",
-        "환경 규정 위반 시 최소 6개월간 신규 건설 허가 발급 금지",
-        "삼성SDI 괴드 공장, SK온 코마롬·이반차 공장, CATL 데브레첸 공장이 대상"
-      ],
-      "numbers": [
-        "2026년 8월 17일(발표 시점)",
-        "6개월(규정 위반 시 허가 금지 최소 기간)"
-      ],
-      "keywords": [
-        "헝가리 배터리",
-        "삼성SDI",
-        "SK온",
-        "CATL",
-        "환경 규제",
-        "우선투자"
-      ],
-      "stated_outlook": "헝가리 정부는 모든 우선 산업 투자 사업을 재검토하여 모든 참여자에게 동일한 규칙이 적용되도록 할 계획이며, 환경 보호 및 건설 규정을 강화하는 건축법 개정을 추진 중이다.",
       "summary_status": "summarized"
     },
     {
@@ -9623,7 +9724,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-02 09:53 KST",
+  "manual_updated_at": "2026-09-02 14:07 KST",
   "favorite_items": [
     {
       "id": "af7d04f28c0d",
