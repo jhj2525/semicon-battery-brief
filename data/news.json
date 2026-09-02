@@ -9894,8 +9894,50 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-02 17:53 KST",
+  "manual_updated_at": "2026-09-02 17:54 KST",
   "favorite_items": [
+    {
+      "id": "65198a5034a8",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "“중국 반도체 너무 무섭습니다”…삼전닉스급 HBM3E 내년 양산",
+      "source": "매일경제",
+      "source_type": "경제지 보도",
+      "published": "2026-09-01 18:17",
+      "collected": "2026-09-02",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PdVNNVVBnWlRnT1dxRUhjVENLMHpOV3lISkZ0bjBDQjBMV2hmcVhsMmVCZXFuaXdHTWRoc3BwdmNhdmRna1VfUENIZWVSSGw3X3NQcDZn?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "중국의 메모리 반도체 기업 CXMT가 AI용 반도체인 HBM3E의 소량 생산에 성공하며 한국과의 기술 격차를 3년으로 좁혔다. CXMT는 중국 내 AI 가속기 개발 업체들과 테스트를 진행 중이며 2027년부터 대량 생산을 목표로 하고 있다. 이에 대응해 삼성전자는 세미콘 타이완 2026에서 3D 반도체 전략인 CUBE를 공개하며 기술 초격차 확보 의지를 밝혔다. 또한 TSMC는 실리콘 포토닉스 기술을 바탕으로 AI 시스템 성능 향상을 추진하는 등 업계의 기술 경쟁이 가속화되고 있다. 이번 현상은 중국 정부의 반도체 육성 전략과 자국 빅테크의 구매 지원이 맞물린 결과로 풀이된다.",
+      "key_points": [
+        "CXMT가 HBM3E 소량 생산에 성공하며 SK하이닉스 대비 3년의 기술 격차를 기록함",
+        "CXMT는 세계 최초로 스마트폰용 LPDDR6 양산에 돌입해 샤오미에 공급함",
+        "삼성전자는 3D 반도체 전략 CUBE를 통해 메모리 용량과 대역폭 개선을 추진함",
+        "TSMC는 2029년까지 AI 시스템 연산 성능을 2024년 대비 최대 50배 향상시키는 것을 목표로 함"
+      ],
+      "numbers": [
+        "2026년 9월 1일",
+        "2027년",
+        "3년",
+        "2029년",
+        "2024년",
+        "50배"
+      ],
+      "keywords": [
+        "CXMT",
+        "HBM3E",
+        "삼성전자",
+        "CUBE",
+        "LPDDR6",
+        "TSMC"
+      ],
+      "stated_outlook": "CXMT는 2027년부터 HBM3E 대량 생산을 계획하고 있으며, TSMC는 실리콘 포토닉스 기술을 통해 2029년 AI 연산 성능을 2024년 대비 50배 높이겠다는 목표를 제시했다.",
+      "summary_source": "pasted_text",
+      "industry_context": "중국 정부가 자국 반도체 기업 제품을 빅테크 업체들이 구매하도록 장려하는 반도체 육성 전략을 시행하고 있다.",
+      "favorited_at": "2026-09-02 17:54 KST"
+    },
     {
       "id": "7135a0c4bbdc",
       "sector": "battery",
