@@ -9897,6 +9897,49 @@
   "manual_updated_at": "2026-09-02 17:53 KST",
   "favorite_items": [
     {
+      "id": "7135a0c4bbdc",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "\"세계 최대 60GWh 계약 터졌다\"…나트륨이온 배터리, 대규모 상용화 시대 개막",
+      "source": "financialpost.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-08-31 17:21",
+      "collected": "2026-09-02",
+      "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=272819",
+      "requested_link": "https://www.financialpost.co.kr/news/articleView.html?idxno=272819",
+      "manual_added": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "차세대 배터리로 주목받던 나트륨이온 배터리가 본격적인 대규모 상용화 단계에 진입했다. 세계 최대 배터리 기업 CATL이 하이퍼스트롱과 60GWh 규모의 공급 계약을 체결하며 시장 확대를 주도하고 있다. 국내에서는 삼성SDI가 양산 추진을 공식화하고 현대차그룹이 기술 검증을 마치는 등 글로벌 경쟁이 가속화되는 추세다. 또한 국내 중견 기업들이 실증 사업과 파일럿 생산라인 구축을 추진하며 생태계 조성에 나섰다. 나트륨이온 배터리는 리튬 대비 풍부한 매장량과 낮은 생산비용을 바탕으로 차세대 에너지저장장치(ESS) 시장의 핵심 기술로 부상하고 있다.",
+      "key_points": [
+        "CATL이 중국 하이퍼스트롱과 3년간 60GWh 규모의 나트륨이온 배터리 공급 계약을 체결함.",
+        "삼성SDI가 차세대 ESS용 나트륨이온 배터리 양산을 공식 추진함.",
+        "현대차그룹이 유니그리드와 NCO 기반 배터리 기술 검증을 완료함.",
+        "나인테크 등 국내 중견 기업들이 실증 사업 및 기술 개발 업무협약을 진행함."
+      ],
+      "numbers": [
+        "60GWh",
+        "3년",
+        "9월",
+        "1GWh",
+        "200GWh",
+        "210Ah"
+      ],
+      "keywords": [
+        "나트륨이온 배터리",
+        "CATL",
+        "삼성SDI",
+        "현대차그룹",
+        "ESS",
+        "상용화"
+      ],
+      "stated_outlook": "UBS는 양산 규모 확대에 따라 나트륨이온 배터리 생산비용을 현재보다 약 40% 추가로 낮출 여지가 있으며 내년부터 LFP 배터리와 생산단가가 비슷해질 것으로 전망했다.",
+      "summary_source": "pasted_text",
+      "industry_context": "나트륨이온 배터리는 리튬 대신 매장량이 풍부한 나트륨을 활용하여 원료 조달과 공급망 측면에서 강점을 가진다. 양산 규모 확대에 따라 생산비용 절감이 가능하며, 향후 LFP 배터리와 생산단가가 비슷해질 것으로 전망된다.",
+      "favorited_at": "2026-09-02 17:53 KST"
+    },
+    {
       "id": "0327cbc3bcd9",
       "sector": "battery",
       "region": "global",
