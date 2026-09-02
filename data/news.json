@@ -6485,7 +6485,7 @@
       "sector": "semiconductor",
       "region": "global",
       "category": "산업",
-      "title": "SEMI Korea 공식 블로그 : 네이버 블로그",
+      "title": "[머크 웨비나] 차세대 박막 및 평탄화 기술: DFT 기반 ALD 전구체 및 친환경 CMP 솔루션",
       "source": "blog.naver.com",
       "source_type": "직접 선택",
       "published": "2026-09-02 09:53",
@@ -6493,13 +6493,30 @@
       "link": "https://blog.naver.com/semi_blog/224398160147",
       "requested_link": "https://blog.naver.com/semi_blog/224398160147",
       "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "머크가 차세대 박막 및 평탄화 기술을 주제로 한 웨비나를 개최한다. 이번 웨비나에서는 3D NAND 공정 효율을 높이기 위한 DFT 기반 ALD 전구체 설계와 컴퓨터 시뮬레이션 적용 사례가 공유될 예정이다. 또한, 구리 및 텅스텐 CMP 공정에서 유독성 살생물제를 대체할 수 있는 고성능 친환경 촉매 기술이 소개된다. 세종대학교 이원준 교수와 성균관대학교 김태성 교수가 연사로 참여하여 공정 엔지니어와 R&D 연구원을 대상으로 기술적 접근 방식을 논한다. 반도체 제조 현장에서 요구되는 공정의 우수성과 친환경 공정 화학의 중요성을 조명하는 자리가 될 것이다.",
+      "key_points": [
+        "2026년 9월 22일 오전 9시(KST)에 머크 주관 웨비나가 진행된다.",
+        "3D NAND를 위한 DFT 기반 ALD 전구체 디자인 사례를 다룬다.",
+        "살생물제를 대체하는 구리 및 텅스텐 대상 친환경 CMP 촉매 기술을 소개한다.",
+        "이원준 교수와 김태성 교수가 주요 연사로 참여한다."
+      ],
+      "numbers": [
+        "2026년 9월 22일",
+        "오전 9시"
+      ],
+      "keywords": [
+        "머크",
+        "ALD",
+        "CMP",
+        "3D NAND",
+        "DFT",
+        "반도체 공정"
+      ],
+      "stated_outlook": "",
+      "summary_source": "pasted_text",
+      "industry_context": "현대 반도체 제조 공정에서 박막의 균일성, 높은 열적 허용오차, 친환경 공정 화학에 대한 요구가 지속적으로 증가하고 있다."
     },
     {
       "id": "cffc6805fc7f",
