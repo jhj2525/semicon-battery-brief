@@ -6206,6 +6206,27 @@
   "semi_archive_items": [],
   "manual_items": [
     {
+      "id": "0f4783230cb5",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "SEMI Korea 공식 블로그 : 네이버 블로그",
+      "source": "blog.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-02 09:53",
+      "collected": "2026-09-02",
+      "link": "https://blog.naver.com/semi_blog/224398160147",
+      "requested_link": "https://blog.naver.com/semi_blog/224398160147",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
       "id": "cffc6805fc7f",
       "sector": "semiconductor",
       "region": "domestic",
@@ -9542,7 +9563,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-02 01:12 KST",
+  "manual_updated_at": "2026-09-02 09:53 KST",
   "favorite_items": [
     {
       "id": "af7d04f28c0d",
