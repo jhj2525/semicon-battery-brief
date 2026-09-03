@@ -119,26 +119,6 @@
       "stated_outlook": "미디어텍 고객사의 맞춤형 AI 칩과 엔비디아 시스템 통합을 도모하고, RTX 스파크·DGX 스파크 등 PC용 칩과 AI 기반 소프트웨어 정의 차량(SDV) 플랫폼을 공동 개발할 예정이다."
     },
     {
-      "id": "4963124658b2",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "한미반도체·한화세미텍, 대만서 차세대 '패키징' 장비 공개",
-      "source": "한국경제",
-      "source_type": "경제지 보도",
-      "published": "2026-09-02 15:09",
-      "collected": "2026-09-03",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3cGtIejBsaDgwMndkS0dIQ2s0TDdIblctd2dtUlE5OXVZY2o5U2l3cU1WNERQUFVQUDRNSEJmdUI2YnJfWTZHYmxxazVLYzY0QXdyNmhkS2xQdw?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
       "id": "941d6d17518c",
       "sector": "semiconductor",
       "region": "domestic",
@@ -10140,7 +10120,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-03 09:36 KST",
+  "manual_updated_at": "2026-09-03 09:37 KST",
   "favorite_items": [
     {
       "id": "65198a5034a8",
@@ -12532,6 +12512,7 @@
   "deleted_article_ids": [
     "22b33ea1b3b0",
     "48fd137d7cde",
+    "4963124658b2",
     "582f27d7773c",
     "76c85ae678ae",
     "7d964d6d43ed",
@@ -12560,6 +12541,7 @@
     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95MEROYzJkVDlXby1xVUo1TVBpblBmXzBqZ243RDFnTlJQOXc3QjZpN25zTUM1aHFzc0xSWkxWSWJXMzB0YkJyQ1ZQZWJJbnNsMnc?oc=5",
     "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBVN2toVzV1VDJsclhKcVJVN2dBc3g1cWcxSXJUUFFZbEFvQ2R4TUFPZEdSZUNuYW9RWlltRkhsSjdLVnd0UVZMYmVENnAyNjBoSkHSAVNBVV95cUxPakR3QUIta2xaeVpJMHpncEtqSWR4c2JHcGNMZ2F4LWcxRm9fZl9DVzAyeE91V1Y0aWxDNXhNYVl0dllXTGhqLXNRU1lBOHdtLTZGdw?oc=5",
     "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9nN0R5U3Rpc05RVkw4X200ZnpwdkhyTU56MnlodUg5dFVkVHdWRjVVRXZCU1VLUWhvZVp0RXBjdm93MjZBdUdCaFZuRGVScmlMSWFwVG1jeldDZw?oc=5",
+    "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3cGtIejBsaDgwMndkS0dIQ2s0TDdIblctd2dtUlE5OXVZY2o5U2l3cU1WNERQUFVQUDRNSEJmdUI2YnJfWTZHYmxxazVLYzY0QXdyNmhkS2xQdw?oc=5",
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HU1NJRzB2VXM3LUdVcGRQcDZ1WWRDaDlDVXFtTFBMdDlINDUwa21UOUl3bTh2Z1JjdHVXV0gzUzBvdXUydFFndkVZd1NkWFdIai0zQzJqSnQ3c1FO?oc=5",
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE91WmlkVHl0YjVUOVJTWTZKVG9WVDF1OWJULUMyc0N1ZUxiOEtSUUVWdGN6YmFqV3ExeWRSeG9UaDZjS0pWY1MtM1lrRU15WWVDcjhPMHdIRkJxNTJ4?oc=5",
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NMlVYZXdWQ2hYRGplNUNNUVhOaVllc1BPUVhVZE9mZ1hNWnFQNFBaZEYxZlk0Z0JmUmNjcGhDZl81RVE3S1BEWW5pd3lPR3RkUUFxQVQ3TzY3S1R2?oc=5",
