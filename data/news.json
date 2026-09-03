@@ -7007,6 +7007,40 @@
       "summary_status": "summarized"
     },
     {
+      "id": "28f7333a48d0",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "원통형·파우치형에 각형까지, LG엔솔 '3대 폼팩터' 모두 잡는다",
+      "source": "autodaily.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-08-31 17:50",
+      "collected": "2026-09-03",
+      "link": "https://www.autodaily.co.kr/news/articleView.html?idxno=546973",
+      "requested_link": "https://www.autodaily.co.kr/news/articleView.html?idxno=546973",
+      "rss_description": "원통형·파우치형에 각형까지, LG엔솔 ‘3대 폼팩터’ 모두 잡는다 - 엠투데이",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "배터리 시장의 경쟁이 단순한 화학구조와 가격 차원을 넘어 제품의 형태인 폼팩터 경쟁으로 확대되고 있다. LG에너지솔루션은 기존의 원통형과 파우치형에 더해 각형 배터리까지 포트폴리오를 확장하며 3대 폼팩터를 모두 아우르는 전략을 본격화했다. 이는 고객사, 차종, ESS 등 사용 환경에 최적화된 배터리를 맞춤 공급하기 위한 움직임이다. 특정 형태 하나에 집중하기보다 다변화된 제품군을 통해 시장 점유율과 영향력을 강화하겠다는 의도로 풀이된다.",
+      "industry_context": "LG에너지솔루션은 한국에 본사를 둔 글로벌 배터리 제조 기업으로, 전기차 및 ESS(에너지저장장치)용 배터리를 주력으로 생산한다. 원통형, 파우치형, 각형 등 다양한 배터리 폼팩터를 중심으로 글로벌 공급망을 구축하고 있으며, 기술 고도화와 안전 솔루션 강화에 집중하고 있다.",
+      "key_points": [
+        "LG에너지솔루션이 원통형, 파우치형, 각형을 모두 아우르는 멀티 폼팩터 전략을 추진한다.",
+        "각형 배터리 개발 및 북미 ESS 시장을 겨냥한 양산을 준비 중이다.",
+        "고객의 다양한 요구에 부응하기 위해 46시리즈 원통형, 고전압 미드니켈 및 LFP 파우치형, LMR·LFP 각형 등 제품군을 다변화한다."
+      ],
+      "numbers": [],
+      "keywords": [
+        "LG에너지솔루션",
+        "폼팩터",
+        "원통형배터리",
+        "파우치형배터리",
+        "각형배터리",
+        "ESS"
+      ],
+      "stated_outlook": "북미 ESS 시장을 겨냥한 각형 배터리 양산을 준비하고 있으며, 고객 및 시장의 용도에 맞춰 선택지를 제공하는 전략을 본격화할 계획이다.",
+      "summary_status": "summarized"
+    },
+    {
       "id": "7135a0c4bbdc",
       "sector": "battery",
       "region": "domestic",
@@ -10518,7 +10552,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-03 10:25 KST",
+  "manual_updated_at": "2026-09-03 10:29 KST",
   "favorite_items": [
     {
       "id": "e78c94aa36ab",
