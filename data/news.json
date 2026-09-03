@@ -150,13 +150,30 @@
       "collected": "2026-09-03",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPMGlIMmZ2WkdJLUVyb25Gb2tPX1VFY0tNdHJuU201ay1xN09xQ0xmMU5oaXB0alFKQVZubEhKbzBfNlpYeEg4NUVLVmFCQmYweWludGo0WHRCSG8wSDlkZw?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "신성에스티가 북미 에너지저장장치(ESS) 시장 대응을 위해 미국과 베트남 생산 거점의 역할을 재편한다. 이를 위해 총 2,500만 달러(약 343억 원) 규모의 채무보증을 결정하여 해외 법인의 운영자금을 조달했다. 미국법인은 현지 고객사와의 접근성을 활용해 수냉식 열관리 부품 양산에 집중하고 있다. 베트남법인은 원가 경쟁력을 바탕으로 ESS 부품 생산 물량을 확대하는 거점으로 활용될 예정이다. 신성에스티는 이러한 생산 거점 이원화를 통해 공급망 운영 효율성을 높이고 북미 ESS 시장 내 입지를 강화하고자 한다.",
+      "key_points": [
+        "미국·베트남 법인 운영자금 조달을 위해 2,500만 달러 규모의 채무보증 결정",
+        "미국법인은 수냉식 열관리 부품 양산 및 생산 확대",
+        "베트남법인은 기존 IT·자동차 부품 외 ESS 부품을 신규 생산 축으로 추가",
+        "글로벌 생산 거점 이원화 전략을 통한 안정적인 양산 체제 구축 목적"
+      ],
+      "numbers": [
+        "2026.09.03",
+        "2,500만 달러",
+        "약 343억 원"
+      ],
+      "keywords": [
+        "신성에스티",
+        "ESS",
+        "수냉식 열관리 부품",
+        "생산 거점",
+        "채무보증"
+      ],
+      "stated_outlook": "북미와 베트남 거점의 역할을 구분하여 안정적인 양산 체제를 조기에 구축하고, 글로벌 ESS 수요 확대에 대응하여 북미 ESS 핵심 공급사로서 입지를 강화할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "글로벌 ESS 수요가 증가함에 따라 배터리 온도 제어에 필수적인 수냉식 열관리 부품의 중요성이 커지고 있다."
     }
   ],
   "archive_items": [
