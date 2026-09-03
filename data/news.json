@@ -6884,13 +6884,34 @@
       "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=272819",
       "requested_link": "https://www.financialpost.co.kr/news/articleView.html?idxno=272819",
       "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "차세대 배터리로 주목받던 나트륨이온 배터리가 본격적인 상용화 국면에 진입했다. 글로벌 시장에서는 CATL이 세계 최대 규모인 60GWh 공급 계약을 체결하며 대량 생산 체제에 돌입했다. 국내에서도 삼성SDI가 양산 추진을 공식화하고 현대차그룹이 기술 검증을 마치는 등 대응 속도를 높이고 있다. 또한, 국내 중견기업들이 전력망 실증 사업에 참여하며 생태계를 확장하고 있다. 원료 조달과 생산 비용 측면에서 강점을 가진 나트륨이온 배터리는 향후 차세대 ESS 시장의 주요 대안으로 부상할 전망이다.",
+      "key_points": [
+        "CATL이 중국 하이퍼스트롱과 3년간 총 60GWh 규모의 나트륨이온 배터리 공급 계약을 체결함.",
+        "삼성SDI가 ESS용 나트륨이온 배터리 양산을 추진한다고 공식 발표함.",
+        "현대차그룹이 유니그리드와 협력하여 NCO 기반 배터리 기술 검증을 완료함.",
+        "나인테크와 피엔티 등 국내 기업들이 기술 개발 및 생산라인 구축을 위한 협력을 진행 중임."
+      ],
+      "numbers": [
+        "60GWh",
+        "9월",
+        "1GWh",
+        "200GWh",
+        "210Ah",
+        "영하 20도"
+      ],
+      "keywords": [
+        "나트륨이온 배터리",
+        "ESS",
+        "CATL",
+        "삼성SDI",
+        "현대차그룹",
+        "상용화"
+      ],
+      "stated_outlook": "UBS는 양산 규모 확대에 따라 나트륨이온 배터리 생산비용이 현재보다 약 40% 추가로 낮아질 수 있으며, 내년부터 LFP 배터리와 생산단가가 비슷해질 것으로 전망했다.",
+      "summary_source": "pasted_text",
+      "industry_context": "나트륨이온 배터리는 리튬 대비 매장량이 풍부한 나트륨을 활용해 원료 수급과 공급망 측면에서 유리하며, 양산 규모 확대를 통해 생산 비용을 절감할 수 있는 강점을 가지고 있다."
     },
     {
       "id": "173b99669b28",
@@ -10362,7 +10383,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-03 09:58 KST",
+  "manual_updated_at": "2026-09-03 10:06 KST",
   "favorite_items": [
     {
       "id": "65198a5034a8",
