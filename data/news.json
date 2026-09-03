@@ -6745,13 +6745,34 @@
       "link": "https://www.theguru.co.kr/news/article.html?no=106560",
       "requested_link": "https://www.theguru.co.kr/news/article.html?no=106560",
       "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "TSMC가 '세미콘 타이완 2026' 포럼에서 실리콘 포토닉스 기술의 상용화 및 사업 확대 계획을 발표했다. 실리콘 포토닉스는 전기 신호 대신 빛을 이용해 데이터 전송 속도를 높이고 전력 소모를 줄이는 기술로, TSMC는 이를 위해 광전 통합 패키징 플랫폼인 'COUPE'를 개발했다. 하이브리드 본딩 기술을 적용한 COUPE는 기존 방식보다 데이터 전송 속도와 전력 효율성을 획기적으로 개선한다. TSMC는 엔비디아와 브로드컴의 요청에 따라 생산라인을 구축하고 올 하반기부터 양산을 시작할 예정이다. 이를 통해 2029년까지 AI 시스템 연산 성능을 2024년 대비 50배 향상시키는 것을 목표로 한다.",
+      "key_points": [
+        "TSMC가 독자 개발한 광전 통합 패키징 플랫폼 'COUPE' 기반 CPO 솔루션을 올 하반기부터 양산한다.",
+        "엔비디아와 브로드컴의 요청으로 실리콘 포토닉스 기반 패키징 생산라인을 구축했다.",
+        "광집적회로(PIC) 웨이퍼 생산 능력을 2028년까지 월 2만 5000장 규모로 확대할 계획이다.",
+        "실리콘 포토닉스 기술이 2027년까지 광 트랜시버 시장 점유율 50% 이상을 차지할 것으로 전망된다."
+      ],
+      "numbers": [
+        "2026.09.02",
+        "2029년",
+        "50배",
+        "2027년",
+        "50%",
+        "2028년"
+      ],
+      "keywords": [
+        "TSMC",
+        "실리콘 포토닉스",
+        "CPO",
+        "COUPE",
+        "데이터 병목",
+        "반도체 패키징"
+      ],
+      "stated_outlook": "TSMC는 2028년까지 PIC 웨이퍼 생산 능력을 월 2만 5000장 수준으로 확대하고, 2029년까지 AI 시스템 컴퓨팅 성능을 2024년 대비 50배 증가시키겠다는 전략을 제시했다.",
+      "summary_source": "pasted_text",
+      "industry_context": "AI 멀티모달 기술의 폭증으로 인해 발생하는 데이터 이동 병목 현상과 기존 구리 배선의 물리적 대역폭 한계 및 막대한 전력 소모 문제를 해결하기 위한 대안으로 실리콘 포토닉스와 CPO(공동 패키지 광학) 기술이 부상하고 있다."
     },
     {
       "id": "fd9af6e5a637",
@@ -10320,7 +10341,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-03 09:57 KST",
+  "manual_updated_at": "2026-09-03 09:58 KST",
   "favorite_items": [
     {
       "id": "65198a5034a8",
