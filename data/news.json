@@ -6603,13 +6603,30 @@
       "link": "https://n.news.naver.com/article/293/0000089943?sid=101",
       "requested_link": "https://n.news.naver.com/article/293/0000089943?sid=101",
       "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "LG에너지솔루션은 기존 전기차 중심의 사업 구조에서 벗어나 AI 데이터센터 전력난 해결을 위한 에너지저장장치(ESS) 토탈 솔루션 공급자로 체질 개선을 추진한다. 전력 컨디셔닝 및 유지보수를 포함한 원스톱 솔루션을 제공하며 ESS 시장 내 지배력을 확대하고 있다. 제조 현장에는 AI 및 빅데이터 기반의 스마트팩토리 시스템을 도입해 수율을 높이고 원가 경쟁력을 강화 중이다. 또한 연구개발 분야에 AI 시뮬레이션을 적극 활용해 차세대 배터리 기술 확보 기간을 단축하고 있다. 이러한 전방위적 AI 전환을 통해 글로벌 배터리 시장 1위 기업으로 도약하겠다는 구상이다.",
+      "key_points": [
+        "AI 데이터센터 전력 인프라 수요에 대응하기 위해 고성능 LFP 배터리 기반의 ESS 솔루션 공급을 확대하고 있다.",
+        "글로벌 생산 거점에 AI 기반 스마트팩토리를 전면 도입하여 공정 데이터를 실시간 분석하고 수율과 가동률을 개선했다.",
+        "올해 상반기 매출액의 5.1%인 7258억원을 R&D에 투자하여 차세대 배터리 신소재 설계에 AI 기술을 적용했다.",
+        "ESS SI(시스템 통합) 및 EaaS(Energy-as-a-Service) 사업으로 영역을 확장하며 사업 포트폴리오를 다각화하고 있다."
+      ],
+      "numbers": [
+        "2026.09.03",
+        "5.1%",
+        "7258억원"
+      ],
+      "keywords": [
+        "LG에너지솔루션",
+        "ESS",
+        "LFP",
+        "AI",
+        "스마트팩토리"
+      ],
+      "stated_outlook": "집중적인 R&D 투자와 독보적인 스마트팩토리 생산성을 바탕으로 글로벌 배터리 시장 1위 기업으로 자리 잡을 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "AI 연산량 폭발에 따른 데이터센터 전력 부족 문제로 인해 전기차 시장의 캐즘 현상과 맞물려 ESS 시장이 새로운 성장 축으로 부상하고 있다."
     },
     {
       "id": "681e2a8b5442",
@@ -10501,7 +10518,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-03 10:11 KST",
+  "manual_updated_at": "2026-09-03 10:25 KST",
   "favorite_items": [
     {
       "id": "65198a5034a8",
