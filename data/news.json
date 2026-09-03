@@ -139,26 +139,6 @@
       "stated_outlook": ""
     },
     {
-      "id": "3cc88288c7a9",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "산업",
-      "title": "고려아연, 반도체황산 생산능력 32만톤으로 확대",
-      "source": "전자신문",
-      "source_type": "산업 전문언론",
-      "published": "2026-09-02 16:52",
-      "collected": "2026-09-03",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9mM2FEV3RFWG9YNlN4SHdqWFU2N0ZFOHdld3pjRTVZbDZvNXhyRnd2ZlRYUUdObVBudDNWMUE0T0dpV214Q3BDV3g4MEdLUQ?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
       "id": "d8efc8a9a467",
       "sector": "battery",
       "region": "domestic",
@@ -10340,7 +10320,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-03 09:56 KST",
+  "manual_updated_at": "2026-09-03 09:57 KST",
   "favorite_items": [
     {
       "id": "65198a5034a8",
@@ -12732,6 +12712,7 @@
   "deleted_article_ids": [
     "22b33ea1b3b0",
     "2bb6697671c2",
+    "3cc88288c7a9",
     "48fd137d7cde",
     "4963124658b2",
     "582f27d7773c",
@@ -12757,6 +12738,7 @@
   "deleted_article_urls": [
     "https://blog.naver.com/semi_blog/224297670263",
     "https://news.google.com/rss/articles/CBMi3AhBVV95cUxPMWJxY2swY25JN2VTLTNPYUNRaFJsdDZaZVRxdzhSX1ZjSE13ZlRHUkctNVE0aDV0WURTcElBcW9SY2N0dnc5cTdmV0dfLWxDOFBFeF9vNVNkNXMtQUlSZFZJNUlaUDE2NkJBMzdpNVJyMlFxU1M4eUNrQmZsLS13a3hZSHJNWXg1aFBWeklnLV94Y0c0T2ltczNhZndHSzROZl90RGhEblJQVGREV3lIaDE5SldYQ3pCUm9BRHFvZDc4Z3FHU1o1bXNSZjR6aWdMb0RLLWtXaTJFWVppZjkyNVdMbkU5ZkMyakdzSWsyRUZLa0lrWXl3Nm12TjRab2V5cWhMT21iYjRwQ2VXTzJCS1ZfcUlvckEyTHUyV0s5aFp3a1JYUWt5N2Jwb1BTVFczb2Q1TzZHQVFyZDN3TENpbk5zRlhpR0FzTjZyNFlmTEduelg5a2x3TWpMNDRpcm14NGNPQ01CSWNtN0JKZXN2T0swM09UT05abW04ZTBWQ3ZnU1ZRYjNpejl6U0dJWFhtUU5aN2dEN3h5MmlYVkdUQnhzOWx5SkNHQWpvQ2ctbHRETnRLaUVTLW1UaTEzVjhmLThTOUVaQmdyZWQxOWszLVJoekhYbXkyTzlpa2wtRTdZWHZRSDZFRE9EanV5Ump6V2RmWnpuVkFxZWxZcXZmTnBMd2NrZ3p5TjZxTUNfQWZRSy04clAybXB2UXhPcXdxbVpmcDNQLXFfaUhxSE1jTFYxaHRPb3NGSUNJcUVpOG5lRl80enVwV0FCV1FWdC1aQlZFbEt2ejEyek5HVTlia0pnVlhzWFJTMzBJVkVPOVBxbElGRDdUWU45MFJWdEg1Nl9ZekFpWFRQanNLTDIzRUJMaHlhQ1NaMUlVZTNnWWlBcHR5X2JhbW05Wm1tVFN6eUN6V3MyUXdBVDJPSjBvLXlXMlpVZWNENkhkejd6YzBVZXlfcHR2eWI0MThabDQ4dGJaZUpJNXphUFFFZVNUZU43SnFHelNSUVpJbmoxdHg5SFh2RjEzLTZId2NQR0JxOHk3T3lfWWYzc19namkzZ0ZlMWRmYkRuQXI0Q2xlSTVFZmZxRW1HY1NEdDVuWUE1Vm1QZXlwMWFhS0JqQndzUUVmRmwwZzhDaFFKaC1EcVNia05GUWE5ZDF1STc1SEhRcXhqR2h5TktBd3Blcm14TGpRaFRKU1N1a2ZIZDRfbERrdzNKUUt6OGNHdlVjanAycEFmRWtXb2hBUFExbnlBR1lEaVZpbnRSN1d5WkFJSEFPOU4yb0t0Y2lZcWczUWI0bHlzRHE4NmxFcllBd2FjTFFyVmV2czAwRHJBOG54M2RjalFodDBGb0c2WEYzRjdaSXZPRUV3TFZualJkbXpNeGRvNWlRb2MyVGRIWDF2NDRlakt2T1JmdkxVM3Y0enFyRm5SVXZ0V0dyblJsSm5ER19CLWFSNm5sV2RULXQyZFd6SXpxdXQ0SEs4REE?oc=5",
+    "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9mM2FEV3RFWG9YNlN4SHdqWFU2N0ZFOHdld3pjRTVZbDZvNXhyRnd2ZlRYUUdObVBudDNWMUE0T0dpV214Q3BDV3g4MEdLUQ?oc=5",
     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1CaDBfVUlWelNTNjZoYnVxb3l2OXZ1TVRFTXFFUjJ3SXR1T1I1VFFVclVHLXRwLXlFdlJpZ3dvZjlNcjBRSlZxRDV3eHJnWnZoaWc?oc=5",
     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5wQmdDZ0p5blhMYjUyeG9xeTdacVBSelJncWNyUTBYeXZhUVo4enZGcGFicXZydy1uT3htV3VJa2FQQWVldnVfYmtOQzZRRE5INHc?oc=5",
     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95MEROYzJkVDlXby1xVUo1TVBpblBmXzBqZ243RDFnTlJQOXc3QjZpN25zTUM1aHFzc0xSWkxWSWJXMzB0YkJyQ1ZQZWJJbnNsMnc?oc=5",
