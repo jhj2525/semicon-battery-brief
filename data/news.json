@@ -6734,6 +6734,46 @@
       "summary_status": "summarized"
     },
     {
+      "id": "2547fa539450",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "삼성전자, HBM5 성능 2배·zHBM 최대 8배로…차세대 AI 메모리 승부수",
+      "source": "전자신문",
+      "source_type": "직접 선택",
+      "published": "2026-09-02 00:00",
+      "collected": "2026-09-03",
+      "link": "https://www.etnews.com/20260901000219",
+      "requested_link": "https://www.etnews.com/20260901000219",
+      "rss_description": "삼성전자, HBM5 성능 2배·zHBM 최대 8배로…차세대 AI 메모리 승부수",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "삼성전자가 차세대 고대역폭메모리(HBM) 및 관련 기술을 통해 AI 메모리 시장 주도권 확보에 나섰다. HBM5는 기존 HBM4E 대비 성능을 2배 높이고, 차세대 zHBM은 8배 향상된 성능을 구현하는 것을 목표로 한다. 삼성전자는 3D 구조 혁신과 효율적인 데이터 이동을 지향하는 'CUBE' 전략을 통해 용량과 전력·열 효율을 극대화할 계획이다. 또한 거대언어모델 수요에 대응하기 위해 비트 밀도를 대폭 높인 zNAND-O 개발도 병행하고 있다. 이러한 기술 혁신은 향후 고성능 AI 가속기의 핵심 메모리 요구 사항을 충족하며 시장 전반에 큰 영향을 미칠 전망이다.",
+      "industry_context": "삼성전자는 대한민국에 본사를 둔 글로벌 종합 반도체 기업으로, 메모리 반도체 분야에서 세계적인 기술력과 공급망을 보유하고 있다. 주요 사업 영역은 D램, 낸드플래시와 같은 메모리 제품을 비롯해 시스템 반도체, 파운드리 서비스 등을 포괄하며 AI 산업 성장에 발맞춰 차세대 메모리 기술 고도화에 주력하고 있다.",
+      "key_points": [
+        "삼성전자가 'CUBE' 전략을 통해 HBM5와 zHBM 등 차세대 AI 메모리 로드맵을 공개함",
+        "zHBM은 HBM4E 대비 성능 8배, 와트당 성능 3배, 열 저항 75~90% 개선을 목표로 함",
+        "대용량 메모리 수요 대응을 위한 zNAND-O를 개발 중이며 2028년 샘플링 계획을 밝힘"
+      ],
+      "numbers": [
+        "2026-09-01",
+        "2028년",
+        "10배",
+        "7배",
+        "20%"
+      ],
+      "keywords": [
+        "삼성전자",
+        "HBM5",
+        "zHBM",
+        "zNAND-O",
+        "AI 메모리",
+        "CUBE 전략"
+      ],
+      "stated_outlook": "삼성전자는 2028년에 zNAND-O 샘플링을 시작할 계획이며, 범용 D램·낸드부터 차세대 메모리까지 제품군을 확대하여 AI 메모리 시장 주도권을 강화할 방침이다.",
+      "summary_status": "summarized"
+    },
+    {
       "id": "681e2a8b5442",
       "sector": "battery",
       "region": "global",
