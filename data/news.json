@@ -570,26 +570,6 @@
       "stated_outlook": "연말 미국 법인 한미USA 설립을 추진하고 있으며, 120mm급 TC 본더를 연말에 출시할 목표를 가지고 있다."
     },
     {
-      "id": "941d6d17518c",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "한미반도체, 세미콘 타이완서 AI 반도체 2.5D 패키징 장비 공개",
-      "source": "IT조선",
-      "source_type": "산업 전문언론",
-      "published": "2026-09-02 17:19",
-      "collected": "2026-09-03",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE15VEF1bGVaNkFZVjFFaUZMaUsxMWdzeGlDZWpVZUp6LVpXODhoYkhxUlhpX3FmNjBnMzNzSS05M0c2S0ZkYXQ0OG1ZaDdkVm5TazZJQWdGdHFnVDhhUUJiMjZhRUpMREpQT0QxUU5FTjE1blg40gF0QVVfeXFMTXlUQXVsZVo2QVlWMUVpRkxpSzExZ3N4aUNlalVlSnotWlc4OGhiSHFSWGlfcWY2MGczM3NJLTkzRzZLRmRhdDQ4bVloN2RWblNrNklBZ0Z0cWdUOGFRQmIyNmFFSkxESlBPRDFRTkVOMTVuWDg?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
       "id": "b54805b8b099",
       "sector": "semiconductor",
       "region": "domestic",
@@ -11177,7 +11157,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-04 15:53 KST",
+  "manual_updated_at": "2026-09-04 15:54 KST",
   "favorite_items": [
     {
       "id": "66f60bf9e2d4",
@@ -13731,6 +13711,7 @@
     "7e05117fe77c",
     "8f799d3cc4e5",
     "93e511a72c8d",
+    "941d6d17518c",
     "a194e4eb3968",
     "adf37c24975d",
     "b07896cda8c0",
@@ -13765,6 +13746,7 @@
     "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83STBqVV8zTXhLRW4tRTBNVFFvMkxxTGVUWWNpMGttc2xydFgwanA3N3pyWkthRUpYaFJULVlBY1VXamttU3Zna3NPSG9QNVVtV3d0NWEtYUlYTThPNS11RdIBeEFVX3lxTE1DTUQyXzVMa1VBZXNCOE1MWk1seWR6dlRaQUE2aVY3cml2SDRITzhpN3dSWDcyN1VEMEMyUWRlSGlVT1p0ajBqR1pfajA3ZHJ4c1UySm85Q0o0cVozcnpmYUpZc01mZGhwN092MkxaM1NBUGlyTTBKSA?oc=5",
     "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9xYkJadHY2ZHJ5Um4xLS11aHhCWFYyY2ZhNzNwOUhWYTdKNDR4Y25LM0lfWi1hTmRZdE5QaHBTc3U0eWVpUTZYeWs3UXFOb3ByUVRJYTVNVm9lWnNCT3ZfWtIBeEFVX3lxTE1Tbjk5Ul9lTmVkdndHRnA1QXdXd0FaZ3ZFZWx3X1Y3eURFZjMxdkt1U0NpNUFCRWlNQjJYZjNVRjRZUlNjVUVjMVh1RVhCaHFBTWdQSTRZVXZlOFhrRGZkdXhodUJKbnVGal9XRDZtc00wdDB5ZWFMOA?oc=5",
     "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04U282TlFzR2Q4eHBYTWtYNm5NdlpMb2dDcHFSUXFVM0FQbklQWC1ISEF0UmJRZW5CdDZHc3VQYmRnbTJDN0tJeVBfTHNzSzBsMUVldTBkdllOZTA5SzZRTDg4eEs?oc=5",
+    "https://news.google.com/rss/articles/CBMidEFVX3lxTE15VEF1bGVaNkFZVjFFaUZMaUsxMWdzeGlDZWpVZUp6LVpXODhoYkhxUlhpX3FmNjBnMzNzSS05M0c2S0ZkYXQ0OG1ZaDdkVm5TazZJQWdGdHFnVDhhUUJiMjZhRUpMREpQT0QxUU5FTjE1blg40gF0QVVfeXFMTXlUQXVsZVo2QVlWMUVpRkxpSzExZ3N4aUNlalVlSnotWlc4OGhiSHFSWGlfcWY2MGczM3NJLTkzRzZLRmRhdDQ4bVloN2RWblNrNklBZ0Z0cWdUOGFRQmIyNmFFSkxESlBPRDFRTkVOMTVuWDg?oc=5",
     "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtdUtVVFpQd1ZuOHc4SkM4UmhVQnEzaXRvSGw4Q1VNQzNjdjV0VjlTNTQ3YzRWOXBHTzExNEtrd2FyZW9aeDAxZDR6bjVnamx5YWg2MTNvY3ExVnp6ZDliQWplSlBmUHVnNms4dEdpbXVGUVRRQzVidNIBeEFVX3lxTFAtdUtVVFpQd1ZuOHc4SkM4UmhVQnEzaXRvSGw4Q1VNQzNjdjV0VjlTNTQ3YzRWOXBHTzExNEtrd2FyZW9aeDAxZDR6bjVnamx5YWg2MTNvY3ExVnp6ZDliQWplSlBmUHVnNms4dEdpbXVGUVRRQzVidA?oc=5",
     "https://www.digitimes.com/news/a20260824PD200/materials-applied-materials-demand-equipment-taiwan.html",
     "https://www.etnews.com/20260827000259",
