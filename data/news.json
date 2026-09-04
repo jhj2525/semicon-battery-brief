@@ -117,13 +117,33 @@
       "collected": "2026-09-04",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB0RWEtM1FQSktfWXBaZnFjSm04X1g2UFRidXRUTWtDMTRGQjBYQndBSTBuN1dWejQ3SjcydWxnTXZXZUczVF84cmZBT3hiblZycm9sMEpR?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "POSTECH과 KAIST 공동 연구팀이 차세대 반도체 소재인 인듐 셀레나이드의 한계를 극복하고 대면적 논리 트랜지스터를 구현하는 데 성공했다. 기존 인듐 셀레나이드는 강유전성 특성으로 인해 논리회로에서 불안정한 모습을 보였으나, 연구팀은 원자배열이 다른 'κ상'을 활용해 이를 해결했다. 250℃ 이하의 열처리 공정을 통해 4인치 웨이퍼 전체에 고르게 박막을 형성했으며, 이는 기존 실리콘 회로 공정과 호환이 가능한 온도 범위 내에서 이루어졌다. 이번 연구로 인듐 셀레나이드의 논리 소자 활용 가능성이 입증되었으며, 해당 결과는 국제 학술지 '네이처 커뮤니케이션즈'에 게재되었다.",
+      "key_points": [
+        "POSTECH 노용영 교수팀과 KAIST 권지민 교수팀이 공동으로 κ상 인듐 셀레나이드 기반 논리 트랜지스터를 구현함.",
+        "열증착 및 250℃ 열처리 공정을 통해 4인치 웨이퍼 전면에 균일한 박막 형성 성공.",
+        "100ns 신호를 1,000만 회 반복해도 안정적인 스위칭 특성을 보임.",
+        "p형 셀레늄 합금화 텔루륨 산화물과 결합하여 논리회로 기능을 검증함."
+      ],
+      "numbers": [
+        "2026/09/03",
+        "4인치",
+        "250℃",
+        "10nm",
+        "450℃",
+        "576개"
+      ],
+      "keywords": [
+        "인듐 셀레나이드",
+        "트랜지스터",
+        "논리회로",
+        "κ상",
+        "반도체 소재"
+      ],
+      "stated_outlook": "",
+      "summary_source": "pasted_text",
+      "industry_context": "인듐 셀레나이드는 얇은 두께와 빠른 전하 이동 속도로 차세대 반도체 재료로 각광받고 있으나, 강유전성으로 인한 논리회로 불안정과 대면적 구현의 어려움이 상용화의 걸림돌로 지목되어 왔다."
     },
     {
       "id": "7393f87dc4cd",
