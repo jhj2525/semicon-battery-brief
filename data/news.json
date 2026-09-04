@@ -411,13 +411,30 @@
       "collected": "2026-09-03",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqaWdJbjJmOW83LXFEWHYyNnFLVS1FNDZ6SHpYckd5blFzaURqYXZ4Zy1HMFBoVk5haGptM0NKaG93dTF6Y096dkJYMTJ0UGI4WGgyMmpYMmpudERHOV9EaUtOZllNeWpC0gFsQVVfeXFMUFVRWFV2d3ozRV8xODhCdVE1Q0d1YkVPbHg1aE5SdWZLYmIyRUgwVHU3Tm9kd0F0U2VBQkU1SElJWmc3TnVrR2xqTkd4ZE5ibU9RV2lJUkZNczZMb3laTWF3SUZrQmFtRjI2R0VS?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "LG에너지솔루션은 전기차 수요 약세에 대응하여 에너지저장장치(ESS) 시장을 새로운 성장 축으로 삼고 사업 포트폴리오를 다각화하고 있다. AI 데이터센터의 전력 수요 급증에 따라 LFP 배터리와 차세대 고밀도 배터리를 활용한 ESS 토탈 솔루션 공급자로 체질을 개선 중이다. 또한 글로벌 생산 거점에 스마트팩토리 시스템을 도입하여 제조 공정의 수율과 품질을 최적화하고 있다. R&D 분야에서도 전고체 배터리 및 차세대 소재 개발에 AI 시뮬레이션을 적극 활용하고 있다. 이러한 기술력과 제조 효율성을 바탕으로 글로벌 1위 배터리 기업으로 도약하겠다는 구상이다.",
+      "key_points": [
+        "고성능 LFP 및 차세대 고밀도 배터리를 탑재한 ESS 토탈 솔루션 사업 확대",
+        "글로벌 생산 거점에 AI 기반 스마트팩토리 시스템을 도입해 수율 및 가동률 극대화",
+        "배터리 설계 및 신소재 연구개발(R&D) 과정에 AI 시뮬레이션을 도입하여 시간과 비용 절감",
+        "배터리 제조를 넘어 ESS 시스템 통합(SI) 및 EaaS 서비스 영역으로 사업 확장"
+      ],
+      "numbers": [
+        "2026-09-03",
+        "5.1%",
+        "7258억원"
+      ],
+      "keywords": [
+        "LG에너지솔루션",
+        "ESS",
+        "LFP",
+        "AI",
+        "스마트팩토리"
+      ],
+      "stated_outlook": "집중적인 R&D 투자와 독보적인 스마트팩토리 생산성을 바탕으로 글로벌 배터리 시장 1위 기업으로 자리 잡을 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "AI 연산량의 폭발적인 증가로 인해 전 세계 데이터센터가 전력 부족 문제를 겪고 있으며, 이로 인해 안정적인 전력 공급을 돕는 대용량 ESS 수요가 급증하고 있다."
     },
     {
       "id": "d8efc8a9a467",
@@ -11160,7 +11177,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-04 11:43 KST",
+  "manual_updated_at": "2026-09-04 15:53 KST",
   "favorite_items": [
     {
       "id": "66f60bf9e2d4",
