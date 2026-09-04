@@ -6828,6 +6828,143 @@
   "semi_archive_items": [],
   "manual_items": [
     {
+      "id": "ede7c58d5d9e",
+      "sector": "battery",
+      "region": "global",
+      "category": "산업",
+      "title": "“배터리 이어 전기차 심장까지”… 현대모비스, 유럽 생산망 풀액셀",
+      "source": "n.news.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-04 10:37",
+      "collected": "2026-09-04",
+      "link": "https://n.news.naver.com/article/022/0004156272",
+      "requested_link": "https://naver.me/x7e6VCs2",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "7cc0ac8195e6",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "포스코홀딩스 에너지소재연구센터장 \"하이니켈, 안정화가 관건…LFP는 '똘똘한 2등'\"",
+      "source": "theguru.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-09-03 23:42",
+      "collected": "2026-09-04",
+      "link": "https://www.theguru.co.kr/news/article.html?no=106647",
+      "requested_link": "https://www.theguru.co.kr/news/article.html?no=106647",
+      "rss_description": "포스코홀딩스 에너지소재연구센터장 \"하이니켈, 안정화가 관건…LFP는",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "리튬인산철(LFP) 배터리의 급격한 확산에 따라 하이니켈 삼원계 양극재 전략이 니켈 함량 경쟁에서 안전성 확보와 고에너지밀도 시장 집중으로 전환되고 있다. 하이니켈 양극재는 장거리 전기차와 전기트럭 등 고성능이 요구되는 분야에서 여전히 핵심적인 역할을 수행할 것으로 전망된다. 또한, 안전성 강화를 위해 양극재 개선과 더불어 배터리 시스템 차원의 다각적인 엔지니어링 접근이 강조되고 있다. 미국의 대중국 공급망 규제 강화로 인해 국내 소재 기업들은 중국 의존도를 낮추고 국산 소재 사용 비중을 높이는 방향으로 공급망을 재편하고 있다.",
+      "industry_context": "포스코홀딩스는 한국의 대표적인 철강 및 에너지 소재 기업으로, 리튬이온 배터리 소재인 양극재와 음극재 등을 생산하며 글로벌 배터리 공급망에서 핵심적인 역할을 수행하고 있다. 국내 배터리 3사(LG에너지솔루션, 삼성SDI, SK온)와 긴밀한 협력 관계를 맺고 있으며, 최근에는 안정적인 소재 조달을 위해 기술 내재화와 공급망 다변화에 주력하고 있다.",
+      "key_points": [
+        "하이니켈 양극재는 니켈 함량 경쟁보다 안정성 확보와 고에너지밀도 구현이 시장 생존의 핵심임",
+        "LFP 배터리는 가격 우위를 바탕으로 ESS와 엔트리급 전기차 시장을 점유하고 있어 대응 전략이 필요함",
+        "미국의 대중국 규제로 인해 국내 배터리 소재 공급망이 중국산에서 국산 중심으로 확실하게 변화 중임"
+      ],
+      "numbers": [
+        "2026.09.03",
+        "55%",
+        "45%",
+        "200mAh/g"
+      ],
+      "keywords": [
+        "하이니켈",
+        "LFP",
+        "양극재",
+        "포스코홀딩스",
+        "배터리 공급망",
+        "에너지밀도"
+      ],
+      "stated_outlook": "하이니켈은 장거리 전기차, 전기트럭, 픽업트럭, eVTOL 등을 주력 시장으로 삼고, LFP는 ESS와 엔트리급 전기차 시장에서의 경쟁력을 강화하는 '똘똘한 2등' 전략을 추진할 계획임.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "c55acb464760",
+      "sector": "battery",
+      "region": "global",
+      "category": "투자·양산",
+      "title": "\"추가 투자 없다더니\"… 中 CATL, 헝가리 데브레첸에 또 신규 배터리 공장 추진 논란",
+      "source": "g-enews.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-03 17:45",
+      "collected": "2026-09-04",
+      "link": "https://www.g-enews.com/article/Global-Biz/2026/09/2026090308435957600c8c1c064d_1",
+      "requested_link": "https://www.g-enews.com/article/Global-Biz/2026/09/2026090308435957600c8c1c064d_1",
+      "rss_description": "\"추가 투자 없다더니\"… 中 CATL, 헝가리 데브레첸에 또 신규 배터리 공장 추진 논란 - 글로벌이코노믹",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "중국 배터리 기업 CATL이 헝가리 데브레첸에 신규 배터리 가공·조립 공장을 비밀리에 추진 중인 사실이 드러나 논란이 일고 있습니다. 당초 헝가리 정부가 지역사회의 반발을 의식해 추가 배터리 투자는 없을 것이라고 공언했으나, 이번 신규 시설에 대한 환경영향평가 절차가 확인되며 신뢰를 저버렸다는 비판이 제기되었습니다. 신설되는 공장은 연면적 4만 4,000㎡ 규모로, 배터리 셀을 재포장하고 모듈 및 팩으로 조립하는 복합 라인으로 설계되었습니다. 이번 조치는 유럽연합의 공급망 규제 강화에 대응하여 현지에서 최종 조립을 완성하려는 전략으로 분석됩니다. 이로 인해 지역사회 내 환경 오염 우려와 교통 혼잡 문제 등이 불거지며 갈등이 심화되고 있습니다.",
+      "industry_context": "CATL(닝더스다이)은 중국에 본사를 둔 글로벌 1위 배터리 기업으로, 전기차 배터리 셀 생산 및 조립을 주력으로 합니다. 최근 유럽연합(EU)의 배터리 여권, 핵심원자재법(CRMA) 등 역내 가공 비중 요건이 강화되면서, 유럽 현지에 직접적인 생산 및 조립 거점을 확보하여 공급망을 구축하는 전략을 취하고 있습니다.",
+      "key_points": [
+        "CATL이 헝가리 데브레첸에 4만 4,000㎡ 규모의 배터리 팩·모듈 조립 공장 추가 건설 추진",
+        "공장 가동 시 연간 비유해 폐기물 2,200톤 및 유해 폐기물 85톤 발생 전망",
+        "유럽연합의 공급망 규제 강화에 대응한 현지 수직 계열화 전략의 일환"
+      ],
+      "numbers": [
+        "4만 4,000㎡",
+        "2025년 말",
+        "73억 4,000만 유로",
+        "100GWh",
+        "85톤",
+        "2,200톤"
+      ],
+      "keywords": [
+        "CATL",
+        "헝가리 데브레첸",
+        "배터리 팩",
+        "공급망 규제",
+        "환경영향평가"
+      ],
+      "stated_outlook": "2025년 말 착공을 목표로 하고 있으며, 향후 유럽 완성차 업계의 전동화 공급망에서 지정학적·사회적 갈등의 시험대가 될 전망입니다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "46fe8acc9c90",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "2027년 전고체 양산 앞둔 삼성SDI … 中서도 관심",
+      "source": "biz.newdaily.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-09-02 20:00",
+      "collected": "2026-09-04",
+      "link": "https://biz.newdaily.co.kr/site/data/html/2026/09/02/2026090200103.amp.html",
+      "requested_link": "https://share.google/e51lEm12nThs1kpaE",
+      "rss_description": "2027년 전고체 양산 앞둔 삼성SDI … 中서도 관심",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "삼성SDI가 2027년 전고체 배터리 양산을 목표로 추진 중인 가운데, 중국 배터리 업계가 이를 예의주시하고 있다. 삼성SDI 구매팀은 최근 글로벌 전해액 시장 1위 업체인 중국 텐츠(Tinci)의 생산 현장을 방문해 협력을 논의했다. 중국 현지에서는 삼성SDI의 비교적 빠른 상용화 일정과 울산공장 전고체 생산라인 구축 계획에 큰 관심을 보이고 있다. 삼성SDI는 우선 휴머노이드 로봇 등 피지컬 AI용 배터리부터 시작해 향후 전기차로 적용 범위를 넓힐 전략이다. 이는 전고체 배터리 선점을 위한 글로벌 배터리 제조사들 간의 경쟁적 기술 개발과 공급망 확보 노력을 보여준다.",
+      "industry_context": "삼성SDI는 대한민국의 배터리 제조사로, 차세대 배터리로 주목받는 전고체 배터리 상용화에 역량을 집중하고 있다. 중국의 텐츠는 글로벌 전해액 시장 1위의 소재 기업으로 삼성SDI와 공급망 협력 관계에 있다.",
+      "key_points": [
+        "삼성SDI가 2027년 전고체 배터리 양산을 목표로 사업을 추진 중이다.",
+        "삼성SDI 구매팀이 중국 전해액 업체 텐츠의 생산 현장을 방문해 기술 및 제품 협력을 논의했다.",
+        "삼성SDI는 울산공장에 16조원 규모의 투자 계획을 세우고 전고체 생산라인을 구축하고 있다."
+      ],
+      "numbers": [
+        "2027년",
+        "16조원",
+        "40톤"
+      ],
+      "keywords": [
+        "삼성SDI",
+        "전고체 배터리",
+        "텐츠",
+        "전해액",
+        "울산공장"
+      ],
+      "stated_outlook": "삼성SDI는 2027년 전고체 배터리 상용화를 목표로 하며, 휴머노이드 로봇용 배터리를 먼저 양산한 뒤 향후 전기차로 적용 범위를 확대할 계획이다.",
+      "summary_status": "summarized"
+    },
+    {
       "id": "e78c94aa36ab",
       "sector": "battery",
       "region": "global",
@@ -10789,7 +10926,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-03 10:29 KST",
+  "manual_updated_at": "2026-09-04 10:37 KST",
   "favorite_items": [
     {
       "id": "e78c94aa36ab",
