@@ -474,26 +474,6 @@
       "industry_context": "글로벌 ESS 수요가 증가함에 따라 배터리 온도 제어에 필수적인 수냉식 열관리 부품의 중요성이 커지고 있다."
     },
     {
-      "id": "1a161823e43b",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "산업",
-      "title": "15% 폭등한 델 \"D램 D램, 낸드 낸드\"…골드만 '3개월간 중립' [김현석의 월스트리트나우]",
-      "source": "한국경제",
-      "source_type": "경제지 보도",
-      "published": "2026-09-03 08:09",
-      "collected": "2026-09-03",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xXy14U0QyVmtDVDNQenRtY2VlVlZoNWxCRENac0VQQXZiRlk0M1hmdU9uLUJTbXZUeGVmTDVObFpETTBrUmtxWV9zeDZpY0p5bWVwcklFYmo5dw?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
       "id": "8052035ccf9f",
       "sector": "semiconductor",
       "region": "domestic",
@@ -13740,6 +13720,7 @@
     }
   ],
   "deleted_article_ids": [
+    "1a161823e43b",
     "22b33ea1b3b0",
     "2bb6697671c2",
     "3cc88288c7a9",
@@ -13775,6 +13756,7 @@
     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95MEROYzJkVDlXby1xVUo1TVBpblBmXzBqZ243RDFnTlJQOXc3QjZpN25zTUM1aHFzc0xSWkxWSWJXMzB0YkJyQ1ZQZWJJbnNsMnc?oc=5",
     "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBVN2toVzV1VDJsclhKcVJVN2dBc3g1cWcxSXJUUFFZbEFvQ2R4TUFPZEdSZUNuYW9RWlltRkhsSjdLVnd0UVZMYmVENnAyNjBoSkHSAVNBVV95cUxPakR3QUIta2xaeVpJMHpncEtqSWR4c2JHcGNMZ2F4LWcxRm9fZl9DVzAyeE91V1Y0aWxDNXhNYVl0dllXTGhqLXNRU1lBOHdtLTZGdw?oc=5",
     "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41UFdLV3E1S2ZFb3lLYktiZ0NzNlRqX1NLMzFHV2tNN2ltc2ZKazlsVVF0dERlelY1N1V6WHdnZTlTaUR6dC1YTlB6RzBVR3JHZ0JQOWNrMmMydw?oc=5",
+    "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xXy14U0QyVmtDVDNQenRtY2VlVlZoNWxCRENac0VQQXZiRlk0M1hmdU9uLUJTbXZUeGVmTDVObFpETTBrUmtxWV9zeDZpY0p5bWVwcklFYmo5dw?oc=5",
     "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9nN0R5U3Rpc05RVkw4X200ZnpwdkhyTU56MnlodUg5dFVkVHdWRjVVRXZCU1VLUWhvZVp0RXBjdm93MjZBdUdCaFZuRGVScmlMSWFwVG1jeldDZw?oc=5",
     "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3cGtIejBsaDgwMndkS0dIQ2s0TDdIblctd2dtUlE5OXVZY2o5U2l3cU1WNERQUFVQUDRNSEJmdUI2YnJfWTZHYmxxazVLYzY0QXdyNmhkS2xQdw?oc=5",
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HU1NJRzB2VXM3LUdVcGRQcDZ1WWRDaDlDVXFtTFBMdDlINDUwa21UOUl3bTh2Z1JjdHVXV0gzUzBvdXUydFFndkVZd1NkWFdIai0zQzJqSnQ3c1FO?oc=5",
