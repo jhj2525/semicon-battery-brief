@@ -351,13 +351,31 @@
       "collected": "2026-09-04",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1pVHdWbTY0Y2Vhb09GVE9rYzFRQnJMbUJoSkN5Nmc3a2xCNUtiWm5FM2Q2eklacGEyNXpPal9KQWo3TGFIbVc4eWVpRVF1VkZpNkI1RmNvRzNDWEVKdmk2aUJHX0Q?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "전기차 충전 서비스 기업 채비가 국내 첫 체류형 시니어 라이프 캠퍼스인 ‘코빌리지 고성’에 자립형 전기차 충전 인프라를 구축한다. 이번 사업은 한국전력 계통 연계 없이 태양광 발전과 에너지저장장치(ESS)를 결합한 오프그리드 방식으로 운영된다. 채비는 충전소뿐만 아니라 F&B와 휴게 시설을 결합한 복합충전문화공간 ‘채비스테이’를 조성할 계획이다. 또한 전략적 투자자로 참여해 운영권을 확보하고, 향후 후속 사업지 진출 시 우선 협력권을 갖는다. 이번 협력은 친환경 충전 모델을 통해 탄소 중립형 충전 및 에너지 사업으로 영역을 확장하는 계기가 될 전망이다.",
+      "key_points": [
+        "채비와 코빌리지컴퍼니가 ‘코빌리지 고성’ 내 오프그리드 충전 인프라 구축 및 운영을 위한 업무협약 체결",
+        "오프그리드는 중앙 전력망 없이 자체 발전 설비와 ESS로 전력을 독립 생산·소비하는 에너지 자립 시스템임",
+        "채비는 사업 시행법인(SPC)에 전략적 투자자로 참여하여 운영권 및 향후 사업지 우선 협력권 확보",
+        "2029년 단지 오픈에 맞춰 친환경 충전 모델과 복합충전문화공간인 채비스테이 도입 예정"
+      ],
+      "numbers": [
+        "2026-09-03",
+        "299세대",
+        "2029년"
+      ],
+      "keywords": [
+        "채비",
+        "코빌리지 고성",
+        "오프그리드",
+        "ESS",
+        "태양광",
+        "채비스테이"
+      ],
+      "stated_outlook": "연내 본계약 체결을 추진하여 운영 수익과 지분 투자에 따른 재무적 성과를 확보하고, 동해안 관광 거점 선점 및 탄소중립형 충전·에너지 사업을 새로운 성장축으로 확대할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "전기차 보급 확대에 따라 기존 전력망 부담을 완화하고 발전 과정의 탄소 배출을 차단하기 위한 분산형 신재생에너지 인프라 도입이 지속 가능한 모빌리티의 핵심 과제로 부상하고 있다. 이에 따라 충전 업계도 기기 공급 방식에서 벗어나 태양광·ESS·V2G 기술을 융합한 체류형 에너지 플랫폼으로 사업 구조를 전환하는 추세이다."
     }
   ],
   "archive_items": [
