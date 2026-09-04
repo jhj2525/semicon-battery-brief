@@ -157,13 +157,33 @@
       "collected": "2026-09-04",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xUFE5RWpFclZmdnJXUlJ1UmhqY0E1TzYyT2NBNTdLaFluSERibFhDNkhydmZaUU15T2k5Z3kwYlpaZ0VXMi1KcV9MajZacjZkTFNCUjJhUk9CcHBVVk54XzZ2ZTRSR29TMUxTU0FRbVg?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "글로벌 고대역폭메모리(HBM) 시장에서 SK하이닉스의 독주 체제에 변화가 나타나고 있다. 2026년 2분기 기준, SK하이닉스의 시장 점유율은 전년 동기 64%에서 50%로 하락했다. 반면, 같은 기간 삼성전자는 15%에서 33%로 점유율을 크게 확대하며 1위와의 격차를 좁혔다. 삼성전자의 점유율 상승은 주요 고객사를 중심으로 HBM3E 공급선을 성공적으로 확대한 결과로 분석된다. 3위 마이크론은 점유율 18%를 기록하며 하락세를 보였다.",
+      "key_points": [
+        "2026년 2분기 기준 HBM 시장 점유율은 SK하이닉스 50%, 삼성전자 33%, 마이크론 18% 순임.",
+        "삼성전자는 전년 동기 대비 점유율을 18%포인트 높이며 시장 파이를 흡수함.",
+        "SK하이닉스는 전년 동기 대비 14%포인트, 마이크론은 3%포인트 점유율이 각각 하락함.",
+        "현재 글로벌 HBM 시장 매출은 5세대 HBM3E 제품이 주도하고 있음."
+      ],
+      "numbers": [
+        "2026년 2분기",
+        "SK하이닉스 50%",
+        "삼성전자 33%",
+        "마이크론 18%",
+        "2025년 2분기 64%",
+        "2025년 2분기 15%"
+      ],
+      "keywords": [
+        "HBM",
+        "SK하이닉스",
+        "삼성전자",
+        "HBM3E",
+        "HBM4"
+      ],
+      "stated_outlook": "2026년 하반기 HBM4 출하가 본격화됨에 따라 삼성전자의 점유율이 점진적으로 높아질 것으로 전망된다.",
+      "summary_source": "pasted_text",
+      "industry_context": "글로벌 HBM 시장 매출의 대부분은 5세대 제품인 HBM3E에서 발생하고 있으며, 기업들은 차세대 6세대 제품인 HBM4로의 전환을 준비 중이다."
     },
     {
       "id": "245b5827ca66",
@@ -10926,7 +10946,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-04 10:37 KST",
+  "manual_updated_at": "2026-09-04 10:38 KST",
   "favorite_items": [
     {
       "id": "e78c94aa36ab",
