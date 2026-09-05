@@ -222,26 +222,6 @@
       "stated_outlook": ""
     },
     {
-      "id": "1647e5fed510",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "투자·양산",
-      "title": "코닝 등 美 기업 4곳, 한국에 20억 달러 투자…반도체·첨단소재·해상풍력 집중",
-      "source": "디지털데일리",
-      "source_type": "산업 전문언론",
-      "published": "2026-09-04 13:56",
-      "collected": "2026-09-05",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51dFhLU1RpV1BnQmlILTM5VXVvMHJpRV9MVVRkN3c3c1JHbklycFpnWHFUUEFQXzlMNmlCSWZicUkzTG5kaWlyT2VWa1lyZnBxSGU2YnhPRDRmaENXSWlVcFpPUnc?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
       "id": "74bad5a7fa75",
       "sector": "battery",
       "region": "domestic",
@@ -11530,7 +11510,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-05 11:32 KST",
+  "manual_updated_at": "2026-09-05 11:33 KST",
   "favorite_items": [
     {
       "id": "fde5d16baf35",
@@ -14232,6 +14212,7 @@
     }
   ],
   "deleted_article_ids": [
+    "1647e5fed510",
     "1a161823e43b",
     "22b33ea1b3b0",
     "2bb6697671c2",
@@ -14280,6 +14261,7 @@
     "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83STBqVV8zTXhLRW4tRTBNVFFvMkxxTGVUWWNpMGttc2xydFgwanA3N3pyWkthRUpYaFJULVlBY1VXamttU3Zna3NPSG9QNVVtV3d0NWEtYUlYTThPNS11RdIBeEFVX3lxTE1DTUQyXzVMa1VBZXNCOE1MWk1seWR6dlRaQUE2aVY3cml2SDRITzhpN3dSWDcyN1VEMEMyUWRlSGlVT1p0ajBqR1pfajA3ZHJ4c1UySm85Q0o0cVozcnpmYUpZc01mZGhwN092MkxaM1NBUGlyTTBKSA?oc=5",
     "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9xYkJadHY2ZHJ5Um4xLS11aHhCWFYyY2ZhNzNwOUhWYTdKNDR4Y25LM0lfWi1hTmRZdE5QaHBTc3U0eWVpUTZYeWs3UXFOb3ByUVRJYTVNVm9lWnNCT3ZfWtIBeEFVX3lxTE1Tbjk5Ul9lTmVkdndHRnA1QXdXd0FaZ3ZFZWx3X1Y3eURFZjMxdkt1U0NpNUFCRWlNQjJYZjNVRjRZUlNjVUVjMVh1RVhCaHFBTWdQSTRZVXZlOFhrRGZkdXhodUJKbnVGal9XRDZtc00wdDB5ZWFMOA?oc=5",
     "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04U282TlFzR2Q4eHBYTWtYNm5NdlpMb2dDcHFSUXFVM0FQbklQWC1ISEF0UmJRZW5CdDZHc3VQYmRnbTJDN0tJeVBfTHNzSzBsMUVldTBkdllOZTA5SzZRTDg4eEs?oc=5",
+    "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51dFhLU1RpV1BnQmlILTM5VXVvMHJpRV9MVVRkN3c3c1JHbklycFpnWHFUUEFQXzlMNmlCSWZicUkzTG5kaWlyT2VWa1lyZnBxSGU2YnhPRDRmaENXSWlVcFpPUnc?oc=5",
     "https://news.google.com/rss/articles/CBMidEFVX3lxTE15VEF1bGVaNkFZVjFFaUZMaUsxMWdzeGlDZWpVZUp6LVpXODhoYkhxUlhpX3FmNjBnMzNzSS05M0c2S0ZkYXQ0OG1ZaDdkVm5TazZJQWdGdHFnVDhhUUJiMjZhRUpMREpQT0QxUU5FTjE1blg40gF0QVVfeXFMTXlUQXVsZVo2QVlWMUVpRkxpSzExZ3N4aUNlalVlSnotWlc4OGhiSHFSWGlfcWY2MGczM3NJLTkzRzZLRmRhdDQ4bVloN2RWblNrNklBZ0Z0cWdUOGFRQmIyNmFFSkxESlBPRDFRTkVOMTVuWDg?oc=5",
     "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtdUtVVFpQd1ZuOHc4SkM4UmhVQnEzaXRvSGw4Q1VNQzNjdjV0VjlTNTQ3YzRWOXBHTzExNEtrd2FyZW9aeDAxZDR6bjVnamx5YWg2MTNvY3ExVnp6ZDliQWplSlBmUHVnNms4dEdpbXVGUVRRQzVidNIBeEFVX3lxTFAtdUtVVFpQd1ZuOHc4SkM4UmhVQnEzaXRvSGw4Q1VNQzNjdjV0VjlTNTQ3YzRWOXBHTzExNEtrd2FyZW9aeDAxZDR6bjVnamx5YWg2MTNvY3ExVnp6ZDliQWplSlBmUHVnNms4dEdpbXVGUVRRQzVidA?oc=5",
     "https://www.digitimes.com/news/a20260824PD200/materials-applied-materials-demand-equipment-taiwan.html",
