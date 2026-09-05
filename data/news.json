@@ -388,13 +388,33 @@
       "collected": "2026-09-05",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxUEdvVUFhNXBpT1lkb3VtMG11OFpZdkluUkRyaHRlM21qdE1OQTIwd3FiRi1RN3NuLVEtbUtpVDVVaHN4Y2JrSzFFMzJTcWhZdV82NFA5RmxDTXZGUzFJclZKZDRval8tWTFV?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "나노실리칸첨단소재는 실리콘 음극재의 제조원가를 낮추고 성능을 높이기 위해 관련 제조공정 특허를 잇달아 출원했다. 표면개질과 탄소코팅을 단일 공정으로 통합해 공정 효율을 높이고 원가 부담을 줄이는 기술이 핵심이다. 또한 후속 특허를 통해 실리콘 표면 변화 제어와 정량 측정 방법론을 확보했다. 특히 전리튬화 공정을 적용해 실리콘 음극재의 초기효율 저하 문제 해결을 시도했다. 이를 통해 나노실리칸은 차세대 배터리 소재 시장에서의 기술 경쟁력을 강화하고 있다.",
+      "key_points": [
+        "표면개질과 탄소코팅 공정을 단일화하여 제조원가를 절감하는 기술 특허 출원",
+        "실리콘 표면 변화 제어 및 정량 측정 기술을 포함한 후속 특허 2건 추가 출원",
+        "제조 단계에서 전리튬화 공정을 도입하여 초기효율 저하 문제 개선",
+        "나노실리칸은 실리콘 음극재 관련 지식재산권을 조기에 확보하여 기술 경쟁력을 강화할 방침"
+      ],
+      "numbers": [
+        "2026-09-04",
+        "10-2025-0210726",
+        "10-2026-0164122",
+        "10-2026-0164148",
+        "2007",
+        "2019-08"
+      ],
+      "keywords": [
+        "나노실리칸첨단소재",
+        "실리콘 음극재",
+        "특허",
+        "전리튬화",
+        "공정 효율"
+      ],
+      "stated_outlook": "우선심사 제도를 활용해 지식재산권을 조기에 확보하고 차세대 배터리 소재 시장에서 기술 경쟁력을 강화할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "실리콘 음극재는 초기효율 저하와 높은 제조비용이 상용화의 걸림돌로 꼽히고 있다."
     }
   ],
   "archive_items": [
