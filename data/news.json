@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-05 09:09 KST",
-  "last_automatic_update_at": "2026-09-05 09:09 KST",
-  "automatic_cycle_started_at": "2026-09-05 09:07 KST",
+  "updated_at": "2026-09-05 09:59 KST",
+  "last_automatic_update_at": "2026-09-05 09:59 KST",
+  "automatic_cycle_started_at": "2026-09-05 09:58 KST",
   "publication_window": {
-    "from": "2026-09-04 09:07 KST",
-    "to": "2026-09-05 09:07 KST"
+    "from": "2026-09-04 09:58 KST",
+    "to": "2026-09-05 09:58 KST"
   },
-  "today_verified_count": 12,
+  "today_verified_count": 1,
   "current_items": [
     {
       "id": "bef12d5488e4",
@@ -356,6 +356,26 @@
       "published": "2026-09-04 10:57",
       "collected": "2026-09-05",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14bFdfMFMwWnVDR0dMaGhqd3ZrUzNtMGtLSEpSQ1dlWHJIMW5Pa0pGS1N3VVJtcTZYRlBNQ2psR0Z4MFE2V1d6Ull1eE80OXBtei1Ccl8yQ0IzSGU5ZjU0YTlWbGI?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "2da0c365079c",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "나노실리칸, 실리콘 음극재 공정 특허 잇단 출원…원가 절감",
+      "source": "서울경제",
+      "source_type": "경제지 보도",
+      "published": "2026-09-04 14:16",
+      "collected": "2026-09-05",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxUEdvVUFhNXBpT1lkb3VtMG11OFpZdkluUkRyaHRlM21qdE1OQTIwd3FiRi1RN3NuLVEtbUtpVDVVaHN4Y2JrSzFFMzJTcWhZdV82NFA5RmxDTXZGUzFJclZKZDRval8tWTFV?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
