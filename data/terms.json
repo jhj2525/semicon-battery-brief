@@ -1,7 +1,35 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-29T02:56:15.913Z",
+  "updated_at": "2026-09-05T02:43:46.500Z",
   "terms": [
+    {
+      "id": "950f4c4c-eb71-48b3-8e1b-d9424ed46173",
+      "title": "SSD",
+      "english": "Solid-State Drive",
+      "industry": "semiconductor",
+      "category": "메모리 저장 장치",
+      "definition": "SSD는 전통적인 하드 디스크 드라이브(HDD)와 달리 기계적인 구성 요소를 사용하지 않고, 플래시 메모리를 이용하여 데이터를 저장하는 저장 장치입니다. 이는 데이터의 읽기 및 쓰기 속도를 크게 향상시키고, 전력 소모를 줄이며, 신뢰성을 높입니다.",
+      "principle": "SSD는 낸드 플래시 메모리와 컨트롤러, 캐시 메모리 등으로 구성되어 있습니다. 데이터는 낸드 플래시 메모리에 저장되며, 컨트롤러는 데이터의 읽기 및 쓰기를 관리합니다. 캐시 메모리는 데이터의 임시 저장소로 사용되어 데이터 접근 속도를 향상시킵니다. SSD의 작동 순서는 데이터 요청이 들어오면 컨트롤러가 해당 데이터의 위치를 찾고, 낸드 플래시 메모리에서 데이터를 읽어 캐시 메모리에 저장한 후, 시스템에 전달하는 것입니다. SSD는 전력 소모가 낮고, 기계적인 구성 요소가 없기 때문에 신뢰성이 높고, 데이터의 읽기 및 쓰기 속도가 빠릅니다.",
+      "industry_meaning": "SSD는 반도체 산업에서 중요한 역할을 합니다. 데이터 저장 장치로 사용되며, 컴퓨터 시스템의 성능을 향상시키는 데 기여합니다. 특히, 기업용 SSD는 서버용 고부가 제품으로 시장의 성장 중심이 이동하고 있습니다. 이는 인공지능(AI) 서버를 중심으로 한 낸드 플래시 수요 확대가 글로벌 시장의 가파른 성장세를 견인하고 있기 때문입니다. SSD의 성능과 수율은 반도체 산업의 경쟁력에 영향을 미칩니다.",
+      "article_meaning": "기사 문맥에서 SSD는 낸드 플래시 시장의 성장축이 이동하는 추세를 설명하는 데 사용됩니다. 인공지능(AI) 추론 확대로 기업용 SSD가 전체 낸드 출하량의 48%를 차지하게 되면서 서버용 고부가 제품으로 시장의 성장 중심이 이동하고 있습니다. 이는 SSD의 수요가 증가하고, 낸드 플래시 시장의 매출이 증가하는 데 기여하고 있습니다.",
+      "related": [
+        "NAND",
+        "Flash Memory",
+        "Controller",
+        "Cache Memory",
+        "HDD",
+        "AI"
+      ],
+      "article_title": "낸드값 55% 뛰자 시장 매출 70% 급증…삼성·SK 1·2위 수성",
+      "article_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBHVk1sN1dKejgyUVQ0WFF3dkpmMGdzOUd6UnNlNnpTYUJpN05nbUFzbzBaRFliMm10dzZNc1N3WHNhMmQ5UWdvV0VBdGNpWld3dFRjMFJwSVhLaGVO?oc=5",
+      "structure": "",
+      "process": "",
+      "defect": "",
+      "job": "",
+      "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBHVk1sN1dKejgyUVQ0WFF3dkpmMGdzOUd6UnNlNnpTYUJpN05nbUFzbzBaRFliMm10dzZNc1N3WHNhMmQ5UWdvV0VBdGNpWld3dFRjMFJwSVhLaGVO?oc=5",
+      "created_at": "2026-09-05T02:43:46.500Z",
+      "updated_at": "2026-09-05T02:43:46.500Z"
+    },
     {
       "id": "8d85c7fe-cb8f-4e61-b267-a2ba657013cb",
       "title": "SF2 공정",
