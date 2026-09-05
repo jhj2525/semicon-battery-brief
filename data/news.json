@@ -11533,6 +11533,43 @@
   "manual_updated_at": "2026-09-05 11:33 KST",
   "favorite_items": [
     {
+      "id": "3bc57e3009ee",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "코닝, 아산공장 차세대 공정 도입으로 반도체·디스플레이 소재 경쟁력 강화",
+      "source": "매일경제",
+      "source_type": "경제지 보도",
+      "published": "2026-09-05 05:00",
+      "collected": "2026-09-05",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3bWJpVlZQU0ZBT01FVjZuUmk2NXp2YkFaQk9CUGJTMmRTdDc3YVJfbnRIcWwtTU0yaGpzWkFHaFN1aW5KRXUtSkNxRHBZSERNN3c?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "코닝이 한국 아산공장에 차세대 공정 기술을 도입하여 반도체 및 디스플레이 소재 생산능력을 확대하기로 했습니다. 이번 투자는 미국 기업 4곳이 한국에 총 20억 달러 규모의 반도체 및 소재 분야 투자를 약속한 것의 일환입니다. 증권가는 이번 투자를 통해 코닝의 중장기 실적 성장에 대한 기대감이 커지고 있다고 평가하고 있습니다. 관련하여 2026년부터 2028년까지 매출이 연평균 20% 이상 성장하고 주당순이익이 개선될 것으로 전망됩니다. 이러한 성장 기대감은 코닝의 주가 상승 요인으로 작용하고 있습니다.",
+      "key_points": [
+        "코닝이 아산공장에 차세대 공정 기술을 도입해 생산능력을 확대함.",
+        "이번 투자는 미국 기업 4곳의 한국 반도체·소재 분야 투자 계획의 일부임.",
+        "증권가는 코닝의 중장기 실적 성장 기대감을 반영하여 주가가 상승하고 있다고 분석함."
+      ],
+      "numbers": [
+        "20억 달러",
+        "2026~2028년",
+        "20%"
+      ],
+      "keywords": [
+        "코닝",
+        "아산공장",
+        "반도체",
+        "디스플레이",
+        "생산능력"
+      ],
+      "stated_outlook": "2026년부터 2028년까지 매출이 연평균 20% 이상 성장하고 주당순이익(EPS)도 꾸준히 개선될 것으로 전망됨.",
+      "summary_source": "pasted_text",
+      "industry_context": "미국 기업 4곳이 한국에 총 20억 달러 규모의 반도체·소재 분야 투자를 약속함.",
+      "favorited_at": "2026-09-05 11:33 KST"
+    },
+    {
       "id": "fde5d16baf35",
       "sector": "semiconductor",
       "region": "domestic",
