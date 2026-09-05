@@ -213,13 +213,33 @@
       "collected": "2026-09-05",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBHVk1sN1dKejgyUVQ0WFF3dkpmMGdzOUd6UnNlNnpTYUJpN05nbUFzbzBaRFliMm10dzZNc1N3WHNhMmQ5UWdvV0VBdGNpWld3dFRjMFJwSVhLaGVO?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "인공지능(AI) 서버를 중심으로 한 낸드플래시 수요 확대가 글로벌 시장의 가파른 성장세를 견인하고 있다. 낸드 가격이 55% 급등함에 따라 올해 2분기 글로벌 낸드플래시 시장 매출은 전분기 대비 70% 증가했다. 삼성전자와 SK하이닉스가 각각 매출 기준 점유율 28%와 19%를 기록하며 글로벌 1, 2위 자리를 지켰다. 한편, 중국 YMTC는 출하량 기준 글로벌 3위에 오르는 등 시장 내 영향력을 빠르게 확대하고 있다. 낸드 시장의 성장축이 기업용 SSD 등 서버용 고부가 제품으로 이동하는 추세다.",
+      "key_points": [
+        "2026년 2분기 글로벌 낸드플래시 시장 매출 전분기 대비 70% 증가",
+        "삼성전자 매출 점유율 28%로 1위 유지, SK하이닉스는 19%로 2위 기록",
+        "마이크론은 매출 점유율 15%로 3위 도약, 키옥시아는 14%로 4위",
+        "중국 YMTC 매출 점유율 14% 기록 및 출하량 기준 글로벌 3위 달성"
+      ],
+      "numbers": [
+        "2026년 2분기",
+        "매출 70% 증가",
+        "가격 55% 상승",
+        "삼성전자 28%",
+        "SK하이닉스 19%",
+        "마이크론 15%"
+      ],
+      "keywords": [
+        "낸드플래시",
+        "삼성전자",
+        "SK하이닉스",
+        "YMTC",
+        "카운터포인트리서치"
+      ],
+      "stated_outlook": "카운터포인트리서치는 낸드 시장의 성장축이 서버용 고부가 제품으로 이동 중이라고 밝혔다.",
+      "summary_source": "pasted_text",
+      "industry_context": "인공지능(AI) 추론 확대로 기업용 SSD가 전체 낸드 출하량의 48%를 차지하게 되면서 서버용 고부가 제품으로 시장의 성장 중심이 이동하고 있다."
     },
     {
       "id": "74bad5a7fa75",
