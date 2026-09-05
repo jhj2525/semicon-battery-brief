@@ -368,13 +368,34 @@
       "collected": "2026-09-05",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14bFdfMFMwWnVDR0dMaGhqd3ZrUzNtMGtLSEpSQ1dlWHJIMW5Pa0pGS1N3VVJtcTZYRlBNQ2psR0Z4MFE2V1d6Ull1eE80OXBtei1Ccl8yQ0IzSGU5ZjU0YTlWbGI?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "에쓰오일이 기존 정유 사업의 경쟁력을 강화하고 미래 수익 구조를 다변화하기 위해 유망 벤처기업에 대한 전략적 투자를 단행했다. 회사는 산업 AI 예방진단 솔루션 기업인 원프레딕트와 차세대 배터리 전문 기업 리베스트를 투자 대상으로 선정했다. 이러한 투자는 미래 유망 기술을 선제적으로 확보하고 새로운 사업 기회를 발굴하려는 경영 전략의 일환이다. 정유·에너지 업계는 에너지 전환과 산업 디지털화 흐름에 대응하기 위해 신산업 분야 벤처기업 투자를 확대하는 추세다. 에쓰오일은 앞으로도 지속적인 협력을 통해 기술력을 확보해 나갈 계획이다.",
+      "key_points": [
+        "에쓰오일이 산업 AI 기업 원프레딕트와 차세대 배터리 기업 리베스트에 전략적 투자를 진행했다.",
+        "원프레딕트에는 총 20억 원을 투자해 약 5%의 지분을 보유하고 있으며, 해당 AI 기술은 플랜트 설비의 이상 징후 예측 및 유지보수 비용 절감에 활용된다.",
+        "리베스트에는 총 25억 원을 투자해 약 6%의 지분을 확보했으며, 플렉시블 및 항공용 배터리 기술을 확보하고 있다.",
+        "원프레딕트는 2027년 1분기 기술특례상장을 목표로 하고 있다."
+      ],
+      "numbers": [
+        "2026-09-04",
+        "20억 원",
+        "5%",
+        "2019년",
+        "2020년",
+        "2027년 1분기"
+      ],
+      "keywords": [
+        "에쓰오일",
+        "원프레딕트",
+        "리베스트",
+        "전략적 투자",
+        "산업 AI",
+        "차세대 배터리"
+      ],
+      "stated_outlook": "미래 기술을 선제적으로 파악하고 새로운 사업 기회를 발굴하기 위해 유망 벤처기업과의 협력을 지속 모색할 것이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "최근 정유·에너지 업계는 에너지 전환과 산업 디지털화 흐름에 대응하며 공정 효율성을 높이고 비정유 사업 비중을 넓혀 수익 구조를 다변화하는 전략을 취하고 있다."
     },
     {
       "id": "2da0c365079c",
@@ -11545,7 +11566,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-05 11:43 KST",
+  "manual_updated_at": "2026-09-05 16:26 KST",
   "favorite_items": [
     {
       "id": "1d066ba1035f",
