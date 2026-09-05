@@ -333,13 +333,28 @@
       "collected": "2026-09-05",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBiaTBNZTRFZ0tmNmFZM3dlOEJuMmg1cTBocFE3bG45amFLSzdDZkx0WnJIQnU4ZWV4clhDRnpXY0lDa3gxWWt1RTJuTDRvZw?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "네오배터리머티리얼즈코리아가 일본 드론 기업 리베라웨어 및 그 자회사 히노타테와 드론용 고성능 배터리 사업 협력을 위한 의향서(LOI)를 교환했다. 이번 협력은 리베라웨어가 추진하는 일본산 무인기 자립 공급망 구축 프로젝트의 핵심 배터리 공급원을 확보하기 위해 진행된다. 양사는 네오배터리의 김제 생산기지를 활용한 공급을 시작으로, 단계적으로 일본 현지 생산 체계 구축을 검토할 예정이다. 또한 시장 수요에 따라 소재 조달 및 합작법인 설립까지 협력을 확대해 나갈 계획이다. 이는 한국의 배터리 기술과 일본의 생산 역량을 결합해 중국산 부품 의존도를 낮추고 안정적인 공급망을 확보하려는 전략적 목적을 갖는다.",
+      "key_points": [
+        "네오배터리머티리얼즈코리아가 리베라웨어, 히노타테와 드론 배터리 협력 의향서(LOI)를 체결했다.",
+        "네오배터리는 김제 생산기지를 통해 배터리를 우선 공급하고 일본 내 생산 체계 구축을 검토한다.",
+        "협력 대상은 셀 조립, 배터리팩 생산, 시험 및 품질관리이며 향후 합작법인 설립도 고려하고 있다."
+      ],
+      "numbers": [
+        "2026-09-05",
+        "2일"
+      ],
+      "keywords": [
+        "네오배터리머티리얼즈",
+        "리베라웨어",
+        "드론 배터리",
+        "공급망 구축",
+        "무인기 자립"
+      ],
+      "stated_outlook": "네오배터리는 일본 현지 업체와의 합작을 통해 투자 부담을 낮추고 시장 진입 속도를 높일 계획이며, 기술력을 앞세워 방산 및 산업용 드론 시장을 공략할 방침이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "산업용 드론 수요가 증가함에 따라 국가안보 및 핵심 인프라 유지를 위해 중국산 부품 의존도를 낮추고 자국 내 안정적인 공급망을 구축하려는 움직임이 확산되고 있다."
     },
     {
       "id": "c4c2469acc7d",
