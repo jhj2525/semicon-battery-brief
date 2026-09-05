@@ -1,52 +1,323 @@
 {
-  "updated_at": "2026-09-05 09:59 KST",
-  "last_automatic_update_at": "2026-09-05 09:59 KST",
-  "automatic_cycle_started_at": "2026-09-05 09:58 KST",
+  "updated_at": "2026-09-06 08:55 KST",
+  "last_automatic_update_at": "2026-09-06 08:55 KST",
+  "automatic_cycle_started_at": "2026-09-06 08:54 KST",
   "publication_window": {
-    "from": "2026-09-04 09:58 KST",
-    "to": "2026-09-05 09:58 KST"
+    "from": "2026-09-05 08:54 KST",
+    "to": "2026-09-06 08:54 KST"
   },
-  "today_verified_count": 1,
+  "today_verified_count": 7,
   "current_items": [
     {
-      "id": "bef12d5488e4",
+      "id": "2eb3ede7d256",
       "sector": "semiconductor",
       "region": "domestic",
       "category": "기술·공정",
-      "title": "삼성전자, 순환자원 인증 38건 취득…자원 재활용 범위 확대",
-      "source": "전자신문 경제",
-      "published": "2026-09-04 10:21",
-      "collected": "2026-09-05",
-      "link": "https://www.etnews.com/20260904000081",
-      "rss_description": "삼성전자가 자원 순환 활동에 동참하기 위해 순환자원 인증을 지난달 기준 총 38건 취득했다고 4일 밝혔다. 삼성전자 디바이스솔루션(DS)부문은 2019년부터 폐기물 재활용과 자원화를 확대, 전 사업장에서 순환자원 인증을 30건 취득했다. DS 부문은 반도체 생산 과정에서 발생하는 다양한 폐기물을 분리·회수하고 있다. 전문 소재 기업 등과 협력, 고순도 정제·소재 전환 기술을 기반으로 폐기물을 새로운 고부가 자원으로 전환·활용하고 있다. 대표 사",
-      "score": 20,
+      "title": "中 반도체 장비사, 전공정 넘어 후공정까지 국산화 속도",
+      "source": "전자신문",
+      "published": "2026-09-05 14:00",
+      "collected": "2026-09-06",
+      "link": "https://www.etnews.com/20260904000236",
+      "rss_description": "중국 주요 반도체 장비사가 전공정에서 확보한 기술을 기반으로 후공정 장비 국산화에 속도를 내고 있다. 5일 업계에 따르면 나우라·중웨이반도체(AMEC)·화하이칭커 등 중국 반도체 장비사가 식각·증착·화학적기계연마(CMP) 등 기존 기술을 전공정을 넘어 하이브리드 본딩·다이싱·웨이퍼 감박 등 후공정 전용 장비 제품군에까지 추가 적용하는 것으로 파악됐다. 이는 미국의 반도체 장비 수출 규제 속에서 중국이 장비 자립 범위를 첨단 패키징까지 확대하는",
+      "score": 46,
       "source_type": "산업 전문언론",
       "source_rank": 5,
       "verified_source": true,
-      "overview": "삼성전자가 자원 순환 활동의 일환으로 지난달 기준 총 38건의 순환자원 인증을 취득했다. 삼성전자 디바이스솔루션(DS)부문은 반도체 폐기물을 고부가 자원으로 전환하고 있으며, 디바이스경험(DX)부문은 가전제품 포장재 등을 재활용 소재로 재가공하여 제품에 적용하고 있다. 삼성전자는 앞으로도 폐기물 내 재활용 품목을 지속적으로 발굴하고 순환자원 공급망 구축을 강화할 계획이다.",
+      "overview": "중국의 주요 반도체 장비사들이 미국의 수출 규제에 대응하여 전공정에서 확보한 기술을 후공정 장비로 확장하고 있다. 나우라, 중웨이반도체(AMEC), 화하이칭커 등은 기존 기술을 응용해 하이브리드 본딩, 다이싱, 증착 등 첨단 패키징 장비 개발에 속도를 내는 중이다. 다만, 대부분의 신규 장비는 현재 고객 검증이나 상용화 초기 단계에 머물러 있어 향후 실제 양산 효율성 입증이 관건이다.",
       "key_points": [
-        "삼성전자는 지난달 기준으로 총 38건의 순환자원 인증을 취득함.",
-        "DS부문은 2019년부터 폐기물 재활용을 확대해 30건의 인증을 취득했으며, 반도체 웨이퍼 트레이를 재활용하여 갤럭시S25 시리즈 부품 소재로 활용함.",
-        "DX부문은 2024년 20개 품목을 발굴하여 현재까지 12개 품목에 대해 8건의 순환자원 인증을 취득했고, 나머지 8개 품목은 내년 6월까지 추진할 계획임.",
-        "폐스티로폼, 폐유리, 폐식용유 등을 재활용하여 가전제품 내장재 및 외부 세탁조 등에 적용하고 있음."
+        "중국 반도체 장비사들이 전공정 기술을 활용해 첨단 패키징 등 후공정 장비로 포트폴리오를 확대하고 있다.",
+        "나우라는 하이브리드 본딩 장비 2종을 출시하고 TSV 전해도금 및 패널레벨패키징 공정 장비를 선보였다.",
+        "중웨이반도체는 TSV 식각에서 다이싱, 증착 등으로 범위를 넓히고 있으며 향후 5년간 패키징 장비 제품군의 70% 이상 대응을 목표로 한다.",
+        "화하이칭커는 기존 CMP 기술을 첨단 패키징으로 적용 범위를 넓히고 신형 12인치 감박 장비를 출하했다."
       ],
       "numbers": [
-        "38건",
-        "2019년",
-        "30건",
-        "2024년",
-        "20개 품목",
-        "12개 품목"
+        "70%",
+        "12인치",
+        "5년",
+        "2026년"
       ],
       "keywords": [
-        "삼성전자",
-        "순환자원",
-        "자원순환",
-        "폐기물",
-        "재활용",
-        "순환경제"
+        "반도체 장비",
+        "국산화",
+        "첨단 패키징",
+        "나우라",
+        "중웨이반도체",
+        "화하이칭커"
       ],
-      "stated_outlook": "앞으로도 사업 현장에서 재활용 가능한 품목을 꾸준히 발굴하고 새로운 자원화 기술 도입을 검토할 예정이며, 폐기물에서 회수한 소재를 제품 원료나 제조 공정에 다시 활용하는 등 순환자원 공급망 구축과 인정 취득 확대에 힘쓸 계획이다."
+      "stated_outlook": "중국은 미국의 수출 규제로 선단공정 고도화가 제약됨에 따라 첨단 패키징을 통해 개별 칩의 성능 한계를 보완하는 전략을 추진하고 있다. 실제 양산라인에서의 수율과 장비 가동 안정성, 생산성을 입증하는 것이 향후 시장 확대의 관건이다."
+    },
+    {
+      "id": "61a987d75471",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "2026년 2분기 전 세계 반도체 장비 지역 별 매출액",
+      "source": "전자신문",
+      "source_type": "산업 전문언론",
+      "published": "2026-09-05 17:40",
+      "collected": "2026-09-06",
+      "link": "https://news.google.com/rss/articles/CBMiwAVBVV95cUxNcHdZVHhudkxOYlVfZVJYQ1paQkNYZ2NQUENYajlnRVZOZzluTVdPbm8wOGdqVmg3aWMweTRsMk94RFZBd01QM0d1WGJvel9oZllMaDhzQmpXQWJFTmp6T2FtUDFvRHFhZW14RnFiZXNFaEJWT19naXVJZ2pvbjFWM2gxWE8tRzl5ZlZmZ29raTM2ODdRRUlsZlZkekMtdExTUGJGUjg0R0k2VjY2X1g4X28zNWRyX0V6VV9mVU5XcE9tekRzWGwwYklvZDlsbXNKdXpYRy1yZ1E3bF9qZERYMnB2M3JheTE2NzBtS2YyV0V2Z3R1amdER3gxNklWRVhQYV82enlETWo2bDR2RnVwZVhHQVlPSnZPSlpDY1FseGgzRDh3bC10eXNua1RUSWdObV9ZNXk1TXFVdkt4djl6a0gzZFlLVjE5NnhsSURZZnU2UnVONEM4V1RwX2tfOFZZV0VHNFdydkxSNlAyZUpCaE5jRUMxSnIxNG1jTHEzMnItTl92ZzhGOGE1a3NZQlNMN1hFdm9IUmlLdWZ6eURuV3BDRDhuNWpNSmZERDNWLXZHY2s4MEt5ZnFyYnhTeXQySmRJMFlWUkxaUEpicmRCcnNabzFRRDNobFF4V2hBLXBQWnJOVU5WZG1pNG9IenRZb3pZMk9OZUdiTXRoa1AyM3Z3T1N5SWZ5MExtZHpPYngxcFlPVkFzUUtlOXZ1S2MtVVc3UFZqMGhVTm5YM2RDeGs2MHF2T0huV2d2MTctU0ViRkxGRHk2aWlRcEJ1MXM5TjE4NG9fdXlyNnpSQ2tNWUdqbzhTWDVHZF9BMHZwQUFOOWtlX0FCaXE3ZGpPQzd2Mmd6T09lQWVCcmc5TFlWX1VNb0tlMlpOR3RNN0FISFFfNmNNaUxhckdSSS1yZkZiUnlUQm9LbmVObWtZcXVkMA?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "35bb7f89914e",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "인천시, 9∼11일 반도체·패키징 산업전…기업 229곳 참여",
+      "source": "매일경제",
+      "source_type": "경제지 보도",
+      "published": "2026-09-06 08:30",
+      "collected": "2026-09-06",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1nSTJNVm1YMFN1T2lKanFGYmtZbUxURGdoZko0Ql8xd3BYT081ZjloREE5ekl6LTU4VTR4RTRpWWdnVm1JZU1JeDJnQUhfV0E1UUE?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "7a5b20f4a329",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "[위클리반도체] HBM 점유율 추격하는 삼성전자…엔비디아와 삼성·SK 협력 강화",
+      "source": "디지털데일리",
+      "source_type": "산업 전문언론",
+      "published": "2026-09-06 08:22",
+      "collected": "2026-09-06",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1RcW02RjQ0cE01T2JYWTJxNXZvcnkxRlI0QWZVTEFyaENmU1VtSHlzWXp2N0ZHOVg5dExoRTdicVgyN2ZkMWRKbF9SZzJId1VKMk9VeWVQYVprVUlURVkwYmdIZWE?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "2ba45d2377d8",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "반도체 특수에 韓 경상 흑자율 20% 근접할 듯…대만 바짝 추격",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-09-06 05:49",
+      "collected": "2026-09-06",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IX0VPM3cwY0VpMV8xeld4X0tIaDRka3JVTjBlUno3cnhkRW9SZXRNY2ZNTVdWU29pZU9zT3lVd3QyTFowQzhWNUoxcVBvMUtPcTB4Qnc3SFFaNm9sRkJqatIBYEFVX3lxTE5IX0VPM3cwY0VpMV8xeld4X0tIaDRka3JVTjBlUno3cnhkRW9SZXRNY2ZNTVdWU29pZU9zT3lVd3QyTFowQzhWNUoxcVBvMUtPcTB4Qnc3SFFaNm9sRkJqag?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "ad17071da4f8",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "美 반도체·에너지 기업 4곳, 한국에 2.8조 투자",
+      "source": "서울경제",
+      "source_type": "경제지 보도",
+      "published": "2026-09-05 12:18",
+      "collected": "2026-09-06",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TUW1haHM2ZXl6cV9pUXMwZk9Tb1BmZTE2Y1dhcndscTFyM2dBUU01YndoeWJ4NjdGcVBVMm9Nd0FHdlhTNzVDRTB6WlNaemRtbXB30gFTQVVfeXFMTVNRbWFoczZleXpxX2lRczBmT1NvUGZlMTZjV2Fyd2xxMXIzZ0FRTTVid2h5Yng2N0ZxUFUyb013QUd2WFM3NUNFMHpaU1p6ZG1tcHc?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "4b3df707297e",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "“반도체 고마워” 9월에 이미 작년 전체 수출실적 넘은 대한민국",
+      "source": "매일경제",
+      "source_type": "경제지 보도",
+      "published": "2026-09-05 16:41",
+      "collected": "2026-09-06",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5faWVLRWlXM2VtMXItSVZ6SjMxXzhac1JOX19TbnNpcS1WUF9oYmp2SkxwSnhPOXBEWGQxYzlPQ0h6bVNvNlRMbzI4VVhYZ0VvTzVaQ3Nn?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    }
+  ],
+  "archive_items": [
+    {
+      "id": "f87c344577c6",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "네오배터리머티리얼즈, 리베라웨어와 맞손…日드론 배터리 공급망 구축",
+      "source": "전자신문",
+      "source_type": "산업 전문언론",
+      "published": "2026-09-05 09:00",
+      "collected": "2026-09-05",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBiaTBNZTRFZ0tmNmFZM3dlOEJuMmg1cTBocFE3bG45amFLSzdDZkx0WnJIQnU4ZWV4clhDRnpXY0lDa3gxWWt1RTJuTDRvZw?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "네오배터리머티리얼즈코리아가 일본 드론 기업 리베라웨어 및 그 자회사 히노타테와 드론용 고성능 배터리 사업 협력을 위한 의향서(LOI)를 교환했다. 이번 협력은 리베라웨어가 추진하는 일본산 무인기 자립 공급망 구축 프로젝트의 핵심 배터리 공급원을 확보하기 위해 진행된다. 양사는 네오배터리의 김제 생산기지를 활용한 공급을 시작으로, 단계적으로 일본 현지 생산 체계 구축을 검토할 예정이다. 또한 시장 수요에 따라 소재 조달 및 합작법인 설립까지 협력을 확대해 나갈 계획이다. 이는 한국의 배터리 기술과 일본의 생산 역량을 결합해 중국산 부품 의존도를 낮추고 안정적인 공급망을 확보하려는 전략적 목적을 갖는다.",
+      "key_points": [
+        "네오배터리머티리얼즈코리아가 리베라웨어, 히노타테와 드론 배터리 협력 의향서(LOI)를 체결했다.",
+        "네오배터리는 김제 생산기지를 통해 배터리를 우선 공급하고 일본 내 생산 체계 구축을 검토한다.",
+        "협력 대상은 셀 조립, 배터리팩 생산, 시험 및 품질관리이며 향후 합작법인 설립도 고려하고 있다."
+      ],
+      "numbers": [
+        "2026-09-05",
+        "2일"
+      ],
+      "keywords": [
+        "네오배터리머티리얼즈",
+        "리베라웨어",
+        "드론 배터리",
+        "공급망 구축",
+        "무인기 자립"
+      ],
+      "stated_outlook": "네오배터리는 일본 현지 업체와의 합작을 통해 투자 부담을 낮추고 시장 진입 속도를 높일 계획이며, 기술력을 앞세워 방산 및 산업용 드론 시장을 공략할 방침이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "산업용 드론 수요가 증가함에 따라 국가안보 및 핵심 인프라 유지를 위해 중국산 부품 의존도를 낮추고 자국 내 안정적인 공급망을 구축하려는 움직임이 확산되고 있다."
+    },
+    {
+      "id": "3bc57e3009ee",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "코닝, 아산공장 차세대 공정 도입으로 반도체·디스플레이 소재 경쟁력 강화",
+      "source": "매일경제",
+      "source_type": "경제지 보도",
+      "published": "2026-09-05 05:00",
+      "collected": "2026-09-05",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3bWJpVlZQU0ZBT01FVjZuUmk2NXp2YkFaQk9CUGJTMmRTdDc3YVJfbnRIcWwtTU0yaGpzWkFHaFN1aW5KRXUtSkNxRHBZSERNN3c?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "코닝이 한국 아산공장에 차세대 공정 기술을 도입하여 반도체 및 디스플레이 소재 생산능력을 확대하기로 했습니다. 이번 투자는 미국 기업 4곳이 한국에 총 20억 달러 규모의 반도체 및 소재 분야 투자를 약속한 것의 일환입니다. 증권가는 이번 투자를 통해 코닝의 중장기 실적 성장에 대한 기대감이 커지고 있다고 평가하고 있습니다. 관련하여 2026년부터 2028년까지 매출이 연평균 20% 이상 성장하고 주당순이익이 개선될 것으로 전망됩니다. 이러한 성장 기대감은 코닝의 주가 상승 요인으로 작용하고 있습니다.",
+      "key_points": [
+        "코닝이 아산공장에 차세대 공정 기술을 도입해 생산능력을 확대함.",
+        "이번 투자는 미국 기업 4곳의 한국 반도체·소재 분야 투자 계획의 일부임.",
+        "증권가는 코닝의 중장기 실적 성장 기대감을 반영하여 주가가 상승하고 있다고 분석함."
+      ],
+      "numbers": [
+        "20억 달러",
+        "2026~2028년",
+        "20%"
+      ],
+      "keywords": [
+        "코닝",
+        "아산공장",
+        "반도체",
+        "디스플레이",
+        "생산능력"
+      ],
+      "stated_outlook": "2026년부터 2028년까지 매출이 연평균 20% 이상 성장하고 주당순이익(EPS)도 꾸준히 개선될 것으로 전망됨.",
+      "summary_source": "pasted_text",
+      "industry_context": "미국 기업 4곳이 한국에 총 20억 달러 규모의 반도체·소재 분야 투자를 약속함."
+    },
+    {
+      "id": "74bad5a7fa75",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "톱텍, 현대모비스 체코 배터리 장비 256억원 수주",
+      "source": "디일렉",
+      "published": "2026-09-05 04:09",
+      "collected": "2026-09-05",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=61860",
+      "rss_description": "중견 자동화 설비 업체 톱텍이 현대모비스 체코 공장에 전기차(EV)용 배터리 팩 자동화 생산 장비를 공급한다.톱텍은 4일 전자공시를 통해 현대모비스 체코법인과 256억원 규모 파우치형 EV 배터리 조립라인 공급계약을 체결했다고 밝혔다. 지난해 연결 매출 1710억원의 14.97%에 해당한다.계약기간은 이날부터 2027년 4월 30일까지다. 톱텍이 장비를 자체 생산해 체코에 공급한다.이번 계약으로 톱텍이 최근 2주간 현대모비스에서 수주한 배터리 장비 규모는 약 668억원으로 늘었다. 지난해 톱텍 전체 매출의 약 39%다.지난달 24일",
+      "score": 61,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "자동화 설비 업체 톱텍이 현대모비스 체코법인과 256억원 규모의 파우치형 전기차 배터리 조립라인 공급계약을 체결했다. 이번 계약을 포함해 톱텍은 최근 2주간 현대모비스로부터 총 668억원 규모의 배터리 장비를 수주했다. 해당 장비는 톱텍이 자체 생산하여 체코 공장에 공급할 예정이다.",
+      "key_points": [
+        "톱텍이 현대모비스 체코법인에 파우치형 전기차 배터리 조립라인을 공급한다.",
+        "계약 규모는 256억원으로 2025년 연결 매출의 14.97%에 해당한다.",
+        "계약 기간은 2026년 9월 4일부터 2027년 4월 30일까지이다.",
+        "톱텍은 최근 2주간 현대모비스로부터 총 668억원 규모의 배터리 장비를 수주했다."
+      ],
+      "numbers": [
+        "256억원",
+        "2026.09.04",
+        "2027.04.30",
+        "668억원",
+        "201억원",
+        "211억원"
+      ],
+      "keywords": [
+        "톱텍",
+        "현대모비스",
+        "배터리",
+        "조립라인",
+        "전기차",
+        "장비"
+      ],
+      "stated_outlook": "현대모비스는 미국과 체코에서 전기차용 배터리 생산설비 추가 투자를 계획하고 있어 톱텍의 후속 물량이 늘어날 가능성이 있다."
+    },
+    {
+      "id": "1d066ba1035f",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "성일하이텍, LFP 폐배터리 재활용 2년 내 10배 키운다",
+      "source": "디일렉",
+      "published": "2026-09-05 02:35",
+      "collected": "2026-09-05",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=61853",
+      "rss_description": "폐배터리 재활용(리사이클링) 기업 성일하이텍이 리튬인산철(LFP) 배터리 재활용 사업을 2년 내 10배로 키운다. 국내에서 연간 수천 톤(t)의 LFP 폐배터리를 처리하는 상업 규모의 재활용 사업은 처음이다.성일하이텍은 올해 말까지 연간 500t 규모의 LFP 배터리 재활용 파일럿 라인을 구축한다. 오는 2028년 연간 5000t을 처리하는 상업용 생산라인을 가동한다. LFP 배터리 재활용 사업에서 연간 최대 170억원의 매출을 올릴 것으로 예상된다.4일 업계에 따르면 성일하이텍은 최근 LFP 배터리 재활용 사업을 파일럿 단계에서",
+      "score": 48,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "폐배터리 재활용 기업 성일하이텍이 리튬인산철(LFP) 배터리 재활용 사업을 2년 내 10배 규모로 확대한다. 올해 말까지 500t 규모의 파일럿 라인을 구축하고, 2028년에는 연간 5000t을 처리하는 상업용 생산라인을 가동할 계획이다. 이를 위해 군산 캠퍼스 1공장의 기존 삼원계 배터리 재활용 라인을 LFP 전용 하이드로 플랜트로 전환한다.",
+      "key_points": [
+        "성일하이텍은 국내 최초로 연간 수천 톤 규모의 LFP 폐배터리 상업 재활용 사업을 추진한다.",
+        "군산 캠퍼스 1공장을 리모델링하여 2028년 상반기에 LFP 전용 라인으로 전환할 예정이다.",
+        "LFP 재활용 사업의 수익원은 탄산리튬 회수에 집중하며, 인산철은 경제성 문제로 회수 대상에서 제외한다.",
+        "향후 2단계 투자를 통해 처리 능력을 월 800t(연간 9600t)으로 추가 확대하는 방안을 검토 중이다."
+      ],
+      "numbers": [
+        "2년",
+        "500t",
+        "2028년",
+        "5000t",
+        "170억원",
+        "4일"
+      ],
+      "keywords": [
+        "성일하이텍",
+        "LFP",
+        "폐배터리",
+        "재활용",
+        "탄산리튬",
+        "블랙매스"
+      ],
+      "stated_outlook": "LFP 폐배터리 발생량이 빠르게 늘어날 것으로 예상됨에 따라 전용 생산라인을 구축하여 시장을 선점할 계획이다."
     },
     {
       "id": "612df4a7d9e9",
@@ -166,40 +437,44 @@
       "stated_outlook": "나머지 8개 품목에 대해 오는 2027년 6월까지 순환자원 인정 취득을 추진할 계획이며, 앞으로도 사업 현장에서 재활용 가능한 품목을 발굴하고 새로운 자원화 기술 도입 검토 및 순환자원 공급망 구축에 힘쓸 예정이다."
     },
     {
-      "id": "3bc57e3009ee",
-      "sector": "semiconductor",
+      "id": "2da0c365079c",
+      "sector": "battery",
       "region": "domestic",
-      "category": "투자·양산",
-      "title": "코닝, 아산공장 차세대 공정 도입으로 반도체·디스플레이 소재 경쟁력 강화",
-      "source": "매일경제",
+      "category": "기술·공정",
+      "title": "나노실리칸, 실리콘 음극재 공정 특허 잇단 출원…원가 절감",
+      "source": "서울경제",
       "source_type": "경제지 보도",
-      "published": "2026-09-05 05:00",
+      "published": "2026-09-04 14:16",
       "collected": "2026-09-05",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3bWJpVlZQU0ZBT01FVjZuUmk2NXp2YkFaQk9CUGJTMmRTdDc3YVJfbnRIcWwtTU0yaGpzWkFHaFN1aW5KRXUtSkNxRHBZSERNN3c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxUEdvVUFhNXBpT1lkb3VtMG11OFpZdkluUkRyaHRlM21qdE1OQTIwd3FiRi1RN3NuLVEtbUtpVDVVaHN4Y2JrSzFFMzJTcWhZdV82NFA5RmxDTXZGUzFJclZKZDRval8tWTFV?oc=5",
       "trusted_headline": true,
       "verified_source": true,
       "summary_status": "summarized",
-      "overview": "코닝이 한국 아산공장에 차세대 공정 기술을 도입하여 반도체 및 디스플레이 소재 생산능력을 확대하기로 했습니다. 이번 투자는 미국 기업 4곳이 한국에 총 20억 달러 규모의 반도체 및 소재 분야 투자를 약속한 것의 일환입니다. 증권가는 이번 투자를 통해 코닝의 중장기 실적 성장에 대한 기대감이 커지고 있다고 평가하고 있습니다. 관련하여 2026년부터 2028년까지 매출이 연평균 20% 이상 성장하고 주당순이익이 개선될 것으로 전망됩니다. 이러한 성장 기대감은 코닝의 주가 상승 요인으로 작용하고 있습니다.",
+      "overview": "나노실리칸첨단소재는 실리콘 음극재의 제조원가를 낮추고 성능을 높이기 위해 관련 제조공정 특허를 잇달아 출원했다. 표면개질과 탄소코팅을 단일 공정으로 통합해 공정 효율을 높이고 원가 부담을 줄이는 기술이 핵심이다. 또한 후속 특허를 통해 실리콘 표면 변화 제어와 정량 측정 방법론을 확보했다. 특히 전리튬화 공정을 적용해 실리콘 음극재의 초기효율 저하 문제 해결을 시도했다. 이를 통해 나노실리칸은 차세대 배터리 소재 시장에서의 기술 경쟁력을 강화하고 있다.",
       "key_points": [
-        "코닝이 아산공장에 차세대 공정 기술을 도입해 생산능력을 확대함.",
-        "이번 투자는 미국 기업 4곳의 한국 반도체·소재 분야 투자 계획의 일부임.",
-        "증권가는 코닝의 중장기 실적 성장 기대감을 반영하여 주가가 상승하고 있다고 분석함."
+        "표면개질과 탄소코팅 공정을 단일화하여 제조원가를 절감하는 기술 특허 출원",
+        "실리콘 표면 변화 제어 및 정량 측정 기술을 포함한 후속 특허 2건 추가 출원",
+        "제조 단계에서 전리튬화 공정을 도입하여 초기효율 저하 문제 개선",
+        "나노실리칸은 실리콘 음극재 관련 지식재산권을 조기에 확보하여 기술 경쟁력을 강화할 방침"
       ],
       "numbers": [
-        "20억 달러",
-        "2026~2028년",
-        "20%"
+        "2026-09-04",
+        "10-2025-0210726",
+        "10-2026-0164122",
+        "10-2026-0164148",
+        "2007",
+        "2019-08"
       ],
       "keywords": [
-        "코닝",
-        "아산공장",
-        "반도체",
-        "디스플레이",
-        "생산능력"
+        "나노실리칸첨단소재",
+        "실리콘 음극재",
+        "특허",
+        "전리튬화",
+        "공정 효율"
       ],
-      "stated_outlook": "2026년부터 2028년까지 매출이 연평균 20% 이상 성장하고 주당순이익(EPS)도 꾸준히 개선될 것으로 전망됨.",
+      "stated_outlook": "우선심사 제도를 활용해 지식재산권을 조기에 확보하고 차세대 배터리 소재 시장에서 기술 경쟁력을 강화할 계획이다.",
       "summary_source": "pasted_text",
-      "industry_context": "미국 기업 4곳이 한국에 총 20억 달러 규모의 반도체·소재 분야 투자를 약속함."
+      "industry_context": "실리콘 음극재는 초기효율 저하와 높은 제조비용이 상용화의 걸림돌로 꼽히고 있다."
     },
     {
       "id": "74d9d5e7d519",
@@ -240,121 +515,6 @@
       "stated_outlook": "카운터포인트리서치는 낸드 시장의 성장축이 서버용 고부가 제품으로 이동 중이라고 밝혔다.",
       "summary_source": "pasted_text",
       "industry_context": "인공지능(AI) 추론 확대로 기업용 SSD가 전체 낸드 출하량의 48%를 차지하게 되면서 서버용 고부가 제품으로 시장의 성장 중심이 이동하고 있다."
-    },
-    {
-      "id": "74bad5a7fa75",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "투자·양산",
-      "title": "톱텍, 현대모비스 체코 배터리 장비 256억원 수주",
-      "source": "디일렉",
-      "published": "2026-09-05 04:09",
-      "collected": "2026-09-05",
-      "link": "https://www.thelec.kr/news/articleView.html?idxno=61860",
-      "rss_description": "중견 자동화 설비 업체 톱텍이 현대모비스 체코 공장에 전기차(EV)용 배터리 팩 자동화 생산 장비를 공급한다.톱텍은 4일 전자공시를 통해 현대모비스 체코법인과 256억원 규모 파우치형 EV 배터리 조립라인 공급계약을 체결했다고 밝혔다. 지난해 연결 매출 1710억원의 14.97%에 해당한다.계약기간은 이날부터 2027년 4월 30일까지다. 톱텍이 장비를 자체 생산해 체코에 공급한다.이번 계약으로 톱텍이 최근 2주간 현대모비스에서 수주한 배터리 장비 규모는 약 668억원으로 늘었다. 지난해 톱텍 전체 매출의 약 39%다.지난달 24일",
-      "score": 61,
-      "source_type": "산업 전문언론",
-      "source_rank": 5,
-      "verified_source": true,
-      "overview": "자동화 설비 업체 톱텍이 현대모비스 체코법인과 256억원 규모의 파우치형 전기차 배터리 조립라인 공급계약을 체결했다. 이번 계약을 포함해 톱텍은 최근 2주간 현대모비스로부터 총 668억원 규모의 배터리 장비를 수주했다. 해당 장비는 톱텍이 자체 생산하여 체코 공장에 공급할 예정이다.",
-      "key_points": [
-        "톱텍이 현대모비스 체코법인에 파우치형 전기차 배터리 조립라인을 공급한다.",
-        "계약 규모는 256억원으로 2025년 연결 매출의 14.97%에 해당한다.",
-        "계약 기간은 2026년 9월 4일부터 2027년 4월 30일까지이다.",
-        "톱텍은 최근 2주간 현대모비스로부터 총 668억원 규모의 배터리 장비를 수주했다."
-      ],
-      "numbers": [
-        "256억원",
-        "2026.09.04",
-        "2027.04.30",
-        "668억원",
-        "201억원",
-        "211억원"
-      ],
-      "keywords": [
-        "톱텍",
-        "현대모비스",
-        "배터리",
-        "조립라인",
-        "전기차",
-        "장비"
-      ],
-      "stated_outlook": "현대모비스는 미국과 체코에서 전기차용 배터리 생산설비 추가 투자를 계획하고 있어 톱텍의 후속 물량이 늘어날 가능성이 있다."
-    },
-    {
-      "id": "1d066ba1035f",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "투자·양산",
-      "title": "성일하이텍, LFP 폐배터리 재활용 2년 내 10배 키운다",
-      "source": "디일렉",
-      "published": "2026-09-05 02:35",
-      "collected": "2026-09-05",
-      "link": "https://www.thelec.kr/news/articleView.html?idxno=61853",
-      "rss_description": "폐배터리 재활용(리사이클링) 기업 성일하이텍이 리튬인산철(LFP) 배터리 재활용 사업을 2년 내 10배로 키운다. 국내에서 연간 수천 톤(t)의 LFP 폐배터리를 처리하는 상업 규모의 재활용 사업은 처음이다.성일하이텍은 올해 말까지 연간 500t 규모의 LFP 배터리 재활용 파일럿 라인을 구축한다. 오는 2028년 연간 5000t을 처리하는 상업용 생산라인을 가동한다. LFP 배터리 재활용 사업에서 연간 최대 170억원의 매출을 올릴 것으로 예상된다.4일 업계에 따르면 성일하이텍은 최근 LFP 배터리 재활용 사업을 파일럿 단계에서",
-      "score": 48,
-      "source_type": "산업 전문언론",
-      "source_rank": 5,
-      "verified_source": true,
-      "overview": "폐배터리 재활용 기업 성일하이텍이 리튬인산철(LFP) 배터리 재활용 사업을 2년 내 10배 규모로 확대한다. 올해 말까지 500t 규모의 파일럿 라인을 구축하고, 2028년에는 연간 5000t을 처리하는 상업용 생산라인을 가동할 계획이다. 이를 위해 군산 캠퍼스 1공장의 기존 삼원계 배터리 재활용 라인을 LFP 전용 하이드로 플랜트로 전환한다.",
-      "key_points": [
-        "성일하이텍은 국내 최초로 연간 수천 톤 규모의 LFP 폐배터리 상업 재활용 사업을 추진한다.",
-        "군산 캠퍼스 1공장을 리모델링하여 2028년 상반기에 LFP 전용 라인으로 전환할 예정이다.",
-        "LFP 재활용 사업의 수익원은 탄산리튬 회수에 집중하며, 인산철은 경제성 문제로 회수 대상에서 제외한다.",
-        "향후 2단계 투자를 통해 처리 능력을 월 800t(연간 9600t)으로 추가 확대하는 방안을 검토 중이다."
-      ],
-      "numbers": [
-        "2년",
-        "500t",
-        "2028년",
-        "5000t",
-        "170억원",
-        "4일"
-      ],
-      "keywords": [
-        "성일하이텍",
-        "LFP",
-        "폐배터리",
-        "재활용",
-        "탄산리튬",
-        "블랙매스"
-      ],
-      "stated_outlook": "LFP 폐배터리 발생량이 빠르게 늘어날 것으로 예상됨에 따라 전용 생산라인을 구축하여 시장을 선점할 계획이다."
-    },
-    {
-      "id": "f87c344577c6",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "산업",
-      "title": "네오배터리머티리얼즈, 리베라웨어와 맞손…日드론 배터리 공급망 구축",
-      "source": "전자신문",
-      "source_type": "산업 전문언론",
-      "published": "2026-09-05 09:00",
-      "collected": "2026-09-05",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBiaTBNZTRFZ0tmNmFZM3dlOEJuMmg1cTBocFE3bG45amFLSzdDZkx0WnJIQnU4ZWV4clhDRnpXY0lDa3gxWWt1RTJuTDRvZw?oc=5",
-      "trusted_headline": true,
-      "verified_source": true,
-      "summary_status": "summarized",
-      "overview": "네오배터리머티리얼즈코리아가 일본 드론 기업 리베라웨어 및 그 자회사 히노타테와 드론용 고성능 배터리 사업 협력을 위한 의향서(LOI)를 교환했다. 이번 협력은 리베라웨어가 추진하는 일본산 무인기 자립 공급망 구축 프로젝트의 핵심 배터리 공급원을 확보하기 위해 진행된다. 양사는 네오배터리의 김제 생산기지를 활용한 공급을 시작으로, 단계적으로 일본 현지 생산 체계 구축을 검토할 예정이다. 또한 시장 수요에 따라 소재 조달 및 합작법인 설립까지 협력을 확대해 나갈 계획이다. 이는 한국의 배터리 기술과 일본의 생산 역량을 결합해 중국산 부품 의존도를 낮추고 안정적인 공급망을 확보하려는 전략적 목적을 갖는다.",
-      "key_points": [
-        "네오배터리머티리얼즈코리아가 리베라웨어, 히노타테와 드론 배터리 협력 의향서(LOI)를 체결했다.",
-        "네오배터리는 김제 생산기지를 통해 배터리를 우선 공급하고 일본 내 생산 체계 구축을 검토한다.",
-        "협력 대상은 셀 조립, 배터리팩 생산, 시험 및 품질관리이며 향후 합작법인 설립도 고려하고 있다."
-      ],
-      "numbers": [
-        "2026-09-05",
-        "2일"
-      ],
-      "keywords": [
-        "네오배터리머티리얼즈",
-        "리베라웨어",
-        "드론 배터리",
-        "공급망 구축",
-        "무인기 자립"
-      ],
-      "stated_outlook": "네오배터리는 일본 현지 업체와의 합작을 통해 투자 부담을 낮추고 시장 진입 속도를 높일 계획이며, 기술력을 앞세워 방산 및 산업용 드론 시장을 공략할 방침이다.",
-      "summary_source": "pasted_text",
-      "industry_context": "산업용 드론 수요가 증가함에 따라 국가안보 및 핵심 인프라 유지를 위해 중국산 부품 의존도를 낮추고 자국 내 안정적인 공급망을 구축하려는 움직임이 확산되고 있다."
     },
     {
       "id": "c4c2469acc7d",
@@ -398,47 +558,45 @@
       "industry_context": "최근 정유·에너지 업계는 에너지 전환과 산업 디지털화 흐름에 대응하며 공정 효율성을 높이고 비정유 사업 비중을 넓혀 수익 구조를 다변화하는 전략을 취하고 있다."
     },
     {
-      "id": "2da0c365079c",
-      "sector": "battery",
+      "id": "bef12d5488e4",
+      "sector": "semiconductor",
       "region": "domestic",
       "category": "기술·공정",
-      "title": "나노실리칸, 실리콘 음극재 공정 특허 잇단 출원…원가 절감",
-      "source": "서울경제",
-      "source_type": "경제지 보도",
-      "published": "2026-09-04 14:16",
+      "title": "삼성전자, 순환자원 인증 38건 취득…자원 재활용 범위 확대",
+      "source": "전자신문 경제",
+      "published": "2026-09-04 10:21",
       "collected": "2026-09-05",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxUEdvVUFhNXBpT1lkb3VtMG11OFpZdkluUkRyaHRlM21qdE1OQTIwd3FiRi1RN3NuLVEtbUtpVDVVaHN4Y2JrSzFFMzJTcWhZdV82NFA5RmxDTXZGUzFJclZKZDRval8tWTFV?oc=5",
-      "trusted_headline": true,
+      "link": "https://www.etnews.com/20260904000081",
+      "rss_description": "삼성전자가 자원 순환 활동에 동참하기 위해 순환자원 인증을 지난달 기준 총 38건 취득했다고 4일 밝혔다. 삼성전자 디바이스솔루션(DS)부문은 2019년부터 폐기물 재활용과 자원화를 확대, 전 사업장에서 순환자원 인증을 30건 취득했다. DS 부문은 반도체 생산 과정에서 발생하는 다양한 폐기물을 분리·회수하고 있다. 전문 소재 기업 등과 협력, 고순도 정제·소재 전환 기술을 기반으로 폐기물을 새로운 고부가 자원으로 전환·활용하고 있다. 대표 사",
+      "score": 20,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
       "verified_source": true,
-      "summary_status": "summarized",
-      "overview": "나노실리칸첨단소재는 실리콘 음극재의 제조원가를 낮추고 성능을 높이기 위해 관련 제조공정 특허를 잇달아 출원했다. 표면개질과 탄소코팅을 단일 공정으로 통합해 공정 효율을 높이고 원가 부담을 줄이는 기술이 핵심이다. 또한 후속 특허를 통해 실리콘 표면 변화 제어와 정량 측정 방법론을 확보했다. 특히 전리튬화 공정을 적용해 실리콘 음극재의 초기효율 저하 문제 해결을 시도했다. 이를 통해 나노실리칸은 차세대 배터리 소재 시장에서의 기술 경쟁력을 강화하고 있다.",
+      "overview": "삼성전자가 자원 순환 활동의 일환으로 지난달 기준 총 38건의 순환자원 인증을 취득했다. 삼성전자 디바이스솔루션(DS)부문은 반도체 폐기물을 고부가 자원으로 전환하고 있으며, 디바이스경험(DX)부문은 가전제품 포장재 등을 재활용 소재로 재가공하여 제품에 적용하고 있다. 삼성전자는 앞으로도 폐기물 내 재활용 품목을 지속적으로 발굴하고 순환자원 공급망 구축을 강화할 계획이다.",
       "key_points": [
-        "표면개질과 탄소코팅 공정을 단일화하여 제조원가를 절감하는 기술 특허 출원",
-        "실리콘 표면 변화 제어 및 정량 측정 기술을 포함한 후속 특허 2건 추가 출원",
-        "제조 단계에서 전리튬화 공정을 도입하여 초기효율 저하 문제 개선",
-        "나노실리칸은 실리콘 음극재 관련 지식재산권을 조기에 확보하여 기술 경쟁력을 강화할 방침"
+        "삼성전자는 지난달 기준으로 총 38건의 순환자원 인증을 취득함.",
+        "DS부문은 2019년부터 폐기물 재활용을 확대해 30건의 인증을 취득했으며, 반도체 웨이퍼 트레이를 재활용하여 갤럭시S25 시리즈 부품 소재로 활용함.",
+        "DX부문은 2024년 20개 품목을 발굴하여 현재까지 12개 품목에 대해 8건의 순환자원 인증을 취득했고, 나머지 8개 품목은 내년 6월까지 추진할 계획임.",
+        "폐스티로폼, 폐유리, 폐식용유 등을 재활용하여 가전제품 내장재 및 외부 세탁조 등에 적용하고 있음."
       ],
       "numbers": [
-        "2026-09-04",
-        "10-2025-0210726",
-        "10-2026-0164122",
-        "10-2026-0164148",
-        "2007",
-        "2019-08"
+        "38건",
+        "2019년",
+        "30건",
+        "2024년",
+        "20개 품목",
+        "12개 품목"
       ],
       "keywords": [
-        "나노실리칸첨단소재",
-        "실리콘 음극재",
-        "특허",
-        "전리튬화",
-        "공정 효율"
+        "삼성전자",
+        "순환자원",
+        "자원순환",
+        "폐기물",
+        "재활용",
+        "순환경제"
       ],
-      "stated_outlook": "우선심사 제도를 활용해 지식재산권을 조기에 확보하고 차세대 배터리 소재 시장에서 기술 경쟁력을 강화할 계획이다.",
-      "summary_source": "pasted_text",
-      "industry_context": "실리콘 음극재는 초기효율 저하와 높은 제조비용이 상용화의 걸림돌로 꼽히고 있다."
-    }
-  ],
-  "archive_items": [
+      "stated_outlook": "앞으로도 사업 현장에서 재활용 가능한 품목을 꾸준히 발굴하고 새로운 자원화 기술 도입을 검토할 예정이며, 폐기물에서 회수한 소재를 제품 원료나 제조 공정에 다시 활용하는 등 순환자원 공급망 구축과 인정 취득 확대에 힘쓸 계획이다."
+    },
     {
       "id": "66f60bf9e2d4",
       "sector": "battery",
