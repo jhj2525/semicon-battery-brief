@@ -1,7 +1,35 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-06T12:32:34.681Z",
+  "updated_at": "2026-09-06T12:35:53.873Z",
   "terms": [
+    {
+      "id": "4c830190-922b-4bba-8fc0-a38c3197910a",
+      "title": "zHBM",
+      "english": "z-High Bandwidth Memory",
+      "industry": "semiconductor",
+      "category": "메모리 기술",
+      "definition": "zHBM은 수직 적층 메모리 기술로, 프로세서와 메모리를 수직으로 직접 적층하여 데이터 전송 효율을 높이는 기술이다. 이는 고용량, 초고대역폭, 저전력을 동시에 구현하여 AI 시스템의 병목 현상을 해결하는 데 목적이 있다.",
+      "principle": "zHBM은 프로세서와 메모리를 수직으로 직접 적층하고 하이브리드 구리 본딩(HCB) 기술을 적용해 데이터 전송 효율을 높인다. 이는 메모리와 프로세서 간의 데이터 전송 속도를 향상시키고, 동시에 전력 소모를 줄이는 효과가 있다. zHBM의 구조는 여러 개의 메모리 칩을 수직으로 적층하고, 하이브리드 구리 본딩 기술을 통해 메모리 칩과 프로세서를 연결한다. 이러한 구조로 인해 데이터 전송 속도가 향상되고, 시스템의 전력 소모가 줄어든다.",
+      "industry_meaning": "zHBM은 AI 시스템의 병목 현상을 해결하는 데 중요한 역할을 한다. 이는 고용량, 초고대역폭, 저전력을 동시에 구현하여 AI 시스템의 성능을 향상시키는 데 목적이 있다. 또한, zHBM은 시스템의 전력 소모를 줄이고, 데이터 전송 속도를 향상시키는 효과가 있다. 이러한 기술은 AI 인프라 시장에서 중요한 역할을 할 것으로 예상된다.",
+      "article_meaning": "기사에서 zHBM은 삼성전자의 3D 메모리 혁신 선도 기술로 언급된다. 이는 AI 시스템의 병목 현상을 해결하는 데 중요한 역할을 하는 기술로, 고용량, 초고대역폭, 저전력을 동시에 구현하여 AI 시스템의 성능을 향상시키는 데 목적이 있다. 삼성전자는 zHBM을 통해 차세대 AI 인프라 시장 주도권을 공고히 할 계획이다.",
+      "related": [
+        "HBM",
+        "PIM",
+        "LPDDR-PIM",
+        "zNAND-O",
+        "DTCO",
+        "HCB"
+      ],
+      "article_title": "삼성전자, zHBM·PIM 앞세워 3D 메모리 혁신 선도",
+      "article_url": "https://www.smartbizn.com/news/articleView.html?idxno=153112",
+      "structure": "",
+      "process": "",
+      "defect": "",
+      "job": "",
+      "source": "https://www.smartbizn.com/news/articleView.html?idxno=153112",
+      "created_at": "2026-09-06T12:35:53.873Z",
+      "updated_at": "2026-09-06T12:35:53.873Z"
+    },
     {
       "id": "256794d2-b16f-488c-a3ce-0c590f43d059",
       "title": "2나노 GAA 공정",
