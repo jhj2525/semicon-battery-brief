@@ -7545,6 +7545,436 @@
   "semi_archive_items": [],
   "manual_items": [
     {
+      "id": "ca90dbdd170c",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "SK, 8월 中서 특허 103건 대거 확보…'HBM·CXL·배터리·수소' 방어망 구축",
+      "source": "theguru.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-09-06 16:00",
+      "collected": "2026-09-06",
+      "link": "https://www.theguru.co.kr/news/article.html?no=106668",
+      "requested_link": "https://www.theguru.co.kr/news/article.html?no=106668",
+      "rss_description": "SK, 8월 中서 특허 103건 대거 확보…",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "SK그룹이 중국 시장에서 반도체와 배터리, 에너지 분야를 아우르는 핵심 미래 산업 특허 103건을 대거 확보하며 기술 방어망을 강화했다. 이번 승인을 통해 HBM, CXL, 차세대 배터리, 수소 에너지 등 원천 지식재산권을 공식 인정받았다. 특히 현지 기업들의 거센 기술 추격 속에서 독자적인 기술 장벽을 공고히 했다는 평가를 받는다. 향후 글로벌 시장에서 사업 경쟁력을 유지하고 기술 주도권을 확고히 하기 위한 선제적 대응 전략으로 풀이된다.",
+      "industry_context": "SK그룹은 한국에 본사를 둔 글로벌 기업으로 반도체, 에너지, 배터리 등을 주력 사업으로 영위한다. SK하이닉스는 메모리 반도체 공급망의 핵심이며, SK온은 전기차 배터리 시장에서 주요 역할을 수행하고 있다.",
+      "key_points": [
+        "중국 국가지적재산권국(CNIPA)으로부터 8월 한 달간 총 103건의 특허를 최종 승인받음",
+        "SK하이닉스(77건), SK온(20건), SK이노베이션(3건), 솔리다임(2건), SK케미칼(1건) 순으로 승인 건수 기록",
+        "HBM·CXL 기술과 배터리 수율 개선 및 친환경 에너지·소재 관련 원천 특허 확보"
+      ],
+      "numbers": [
+        "103건",
+        "2018년 4월~2026년 2월",
+        "77건",
+        "20건",
+        "3건",
+        "2건"
+      ],
+      "keywords": [
+        "SK그룹",
+        "지식재산권",
+        "HBM",
+        "CXL",
+        "이차전지",
+        "기술장벽"
+      ],
+      "stated_outlook": "현지 기업들의 저가 물량 공세와 기술 추격에 맞서 선제적으로 확보한 원천 IP들이 향후 글로벌 시장에서 SK의 사업 모트(기술 장벽)를 지켜내는 기반이 될 것으로 관측된다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "6a15fb6efbdf",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "Samsung narrows SK hynix HBM lead as HBM4 shipments accelerate",
+      "source": "tribuneindia.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-06 13:26",
+      "collected": "2026-09-06",
+      "link": "https://www.tribuneindia.com/news/business/samsung-narrows-sk-hynix-hbm-lead-as-hbm4-shipments-accelerate",
+      "requested_link": "https://www.tribuneindia.com/news/business/samsung-narrows-sk-hynix-hbm-lead-as-hbm4-shipments-accelerate",
+      "rss_description": "",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "삼성전자가 고대역폭 메모리(HBM) 시장에서 SK하이닉스와의 점유율 격차를 좁히며 추격 속도를 높이고 있습니다. 삼성전자는 2분기 HBM 시장 점유율을 33%까지 끌어올리며 1분기 21% 대비 유의미한 성장을 기록했습니다. 이러한 변화는 삼성전자가 최신 HBM 제품 공급을 글로벌 기술 기업들로 확대한 결과로 분석됩니다. 특히 차세대 제품인 HBM4의 출하가 가속화됨에 따라 향후 시장 경쟁은 더욱 치열해질 전망입니다. 업계에서는 차세대 AI 프로세서 개발자들이 최신 제품을 채택하면서 3사 간의 시장 주도권 다툼이 심화될 것으로 보고 있습니다.",
+      "industry_context": "삼성전자와 SK하이닉스는 한국을 대표하는 글로벌 메모리 반도체 기업으로, HBM 분야에서 치열한 기술 경쟁을 벌이고 있습니다. SK하이닉스는 NVIDIA에 HBM3 및 HBM3E를 공급하는 핵심 파트너로서 확고한 리더십을 유지해 왔습니다. 마이크론 테크놀로지 또한 글로벌 시장의 주요 공급자 중 하나로 활동하고 있습니다.",
+      "key_points": [
+        "삼성전자의 2분기 HBM 매출 점유율은 33%로 1분기 21% 대비 상승함",
+        "SK하이닉스는 50%의 점유율로 1위를 유지했으나, 전년 대비 감소함",
+        "HBM4 출하가 본격화됨에 따라 삼성전자가 점유율을 추가로 확대할 것으로 예상됨"
+      ],
+      "numbers": [
+        "2분기 삼성전자 HBM 점유율 33%",
+        "2분기 SK하이닉스 HBM 점유율 50%",
+        "2분기 마이크론 HBM 점유율 18%",
+        "1분기 삼성전자 HBM 점유율 21%"
+      ],
+      "keywords": [
+        "HBM4",
+        "삼성전자",
+        "SK하이닉스",
+        "AI 반도체",
+        "메모리 매출"
+      ],
+      "stated_outlook": "삼성전자는 HBM4가 하반기 전체 HBM 매출의 60% 이상을 차지할 것으로 예상하며, 이를 통해 전체 DRAM 시장 점유율 수준까지 격차를 좁힐 수 있을 것으로 전망했습니다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "c31a12c96453",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "삼성전자가 공개한 반도체 FDC&AI “숙련공의 노하우를 데이터로”",
+      "source": "newstheai.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-06 08:52",
+      "collected": "2026-09-06",
+      "link": "http://www.newstheai.com/news/articleView.html?idxno=21502",
+      "requested_link": "http://www.newstheai.com/news/articleView.html?idxno=21502",
+      "rss_description": "삼성전자가 공개한 반도체 FDC&AI “숙련공의 노하우를 데이터로” - 더에이아이",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "삼성전자는 기존 반도체 제조 운영체계인 FDC(이상탐지기)에 AI를 결합해 숙련 엔지니어의 판단 과정을 데이터로 구조화하는 기술을 도입하고 있다. 이는 단순히 AI가 모든 것을 판단하게 하는 것이 아니라, 엔지니어의 암묵적 노하우를 AI가 학습하여 판단을 보조하고 고도화하는 협업 구조를 지향한다. 삼성전자는 이 모델을 통해 기준 설정부터 이상 판단 및 조치까지 전 단계를 고도화하여 제조 인텔리전스를 실현하고자 한다. 이러한 방식은 복잡한 제조 현장에서 발생할 수 있는 수율 문제를 사전에 예방하고 관리 효율을 높이는 데 기여할 전망이다. 결과적으로 삼성전자는 판단의 근거와 이력이 다시 데이터로 쌓이는 선순환 구조를 구축하여 제조 경쟁력을 강화할 계획이다.",
+      "industry_context": "삼성전자는 대한민국에 본사를 둔 세계적인 종합 반도체 기업으로, 메모리 및 시스템 반도체 설계와 생산을 주력 사업으로 영위한다. 반도체 팹(Fab) 운영은 고가의 장비와 복잡한 공정으로 구성되어 있어, 고도의 설비 이상 탐지 및 수율 관리가 핵심 공급망 경쟁력으로 꼽힌다.",
+      "key_points": [
+        "반도체 제조 현장의 FDC(Fault Detection and Classification)에 AI를 접목하여 숙련공의 판단 노하우를 구조화함",
+        "단순 정답 제시가 아닌 엔지니어의 해석과 판단 방식을 AI가 이해하고 보조하는 인간-AI 협업 모델을 채택함",
+        "판단 근거를 데이터화하여 선순환 구조를 만듦으로써 향후 의사결정의 정확도를 높이는 제조 인텔리전스 체계 구축을 목표로 함"
+      ],
+      "numbers": [
+        "2026.09.05"
+      ],
+      "keywords": [
+        "삼성전자",
+        "FDC",
+        "반도체 제조",
+        "AI",
+        "숙련공 노하우",
+        "제조 인텔리전스"
+      ],
+      "stated_outlook": "삼성전자는 FDC 운영 전 단계에 AI를 결합하여 공정 특성에 따른 스펙 설정 지원, 동적 스펙 조정, 고도화된 이상 해석 및 최적의 해결책 제시를 목표로 함.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "1c6085ac4d68",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "Commentary: China builds three-pronged memory strategy around CXMT, YMTC, XMC",
+      "source": "digitimes.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-05 16:53",
+      "collected": "2026-09-06",
+      "link": "https://www.digitimes.com/news/a20260904PD211/china-3d-nand-cxmt-xmc-ymtc.html",
+      "requested_link": "https://www.digitimes.com/news/a20260904PD211/china-3d-nand-cxmt-xmc-ymtc.html",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "5058195f6113",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "열받는 반도체",
+      "source": "디일렉",
+      "source_type": "직접 선택",
+      "published": "2026-09-05 07:08",
+      "collected": "2026-09-06",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=61871",
+      "requested_link": "https://www.thelec.kr/news/articleView.html?idxno=61871",
+      "rss_description": "열받는 반도체 - 디일렉(THE ELEC)",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "AI 반도체의 고집적화에 따라 발열 관리가 설계와 생산의 핵심 필수 조건으로 부상했다. 기존의 전력·성능·면적을 고려하던 설계 방식에서 벗어나, 열(Thermal)을 변수로 포함한 통합 설계가 요구되는 상황이다. 특히 HBM 등 고대역폭 메모리의 열 처리 한계가 반도체 전체의 성능을 결정짓는 주요 요인이 되고 있다. 이에 따라 냉각 방식은 칩 외부 냉각에서 칩 내부로 미세 통로를 만드는 방식으로 고도화되고 있으며, 하이브리드 본딩 및 방열 소재 연구도 활발히 진행 중이다.",
+      "industry_context": "인공지능 반도체 분야는 GPU와 HBM을 활용한 2.5D 및 3D 패키징 기술이 시장을 주도하고 있다. 반도체 설계 및 제조 현장에서는 열전도도를 높인 열계면소재(TIM)와 하이브리드 본딩, 그리고 트랜지스터 구조 변화(FinFET, GAA)에 따른 방열 설계의 중요성이 나날이 커지고 있다.",
+      "key_points": [
+        "AI 반도체의 고집적화로 기존 냉각 방식의 한계가 명확해짐",
+        "HBM은 GPU보다 열 배출이 어렵고 온도 상한선이 낮아 AI 반도체의 열 관리를 결정함",
+        "향후 냉각 방식은 칩 내부 미세 통로를 활용하는 직접 냉각 방식으로 진화할 전망",
+        "GAA 등 차세대 소자 설계 및 패키징 단계부터 열 문제를 고려한 PPAT(PPA+Thermal) 관점의 설계가 필요함"
+      ],
+      "numbers": [
+        "2023년 40kW에서 2027년 600kW(GPU 랙 1대 소비전력 전망)",
+        "HBM4는 하이브리드 본딩 미적용, 2030년대 초반 적용 예상"
+      ],
+      "keywords": [
+        "AI 반도체",
+        "발열 관리",
+        "HBM",
+        "하이브리드 본딩",
+        "열계면소재(TIM)",
+        "PPAT"
+      ],
+      "stated_outlook": "냉각 기술은 칩 바깥에서 식히는 방식에서 칩 내부에 미세 통로를 만들어 냉각수를 직접 흘리는 방식으로 바뀔 전망이다. 하이브리드 본딩은 2030년대 초반에 적용될 것으로 예상된다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "9db411f53ddb",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "삼성전자, zHBM·PIM 앞세워 3D 메모리 혁신 선도",
+      "source": "smartbizn.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-05 02:03",
+      "collected": "2026-09-06",
+      "link": "https://www.smartbizn.com/news/articleView.html?idxno=153112",
+      "requested_link": "https://www.smartbizn.com/news/articleView.html?idxno=153112",
+      "rss_description": "삼성전자, zHBM·PIM 앞세워 3D 메모리 혁신 선도 - 스마트비즈",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "AI 기술의 중심이 클라우드를 넘어 스마트폰, PC, 로봇 등 데이터가 생성되는 엣지 AI 환경으로 확장되면서 메모리 반도체의 역할이 재편되고 있다. 삼성전자는 이에 대응하여 3D 수직 적층 메모리인 'zHBM'과 연산 기능이 융합된 'LPDDR-PIM', 그리고 새로운 데이터 계층인 'zNAND-O'를 중심으로 차세대 메모리 아키텍처 로드맵을 발표했다. 이러한 혁신 솔루션들은 제한된 물리 공간에서 고용량, 초고대역폭, 저전력을 동시에 구현하여 AI 시스템의 병목 현상을 해결한다. 삼성전자는 설계부터 패키징까지 아우르는 턴키 역량을 통해 차세대 AI 인프라 시장 주도권을 공고히 할 계획이다.",
+      "industry_context": "삼성전자는 대한민국에 본사를 둔 글로벌 종합 반도체 기업으로, 메모리 반도체, 시스템 반도체 설계, 파운드리, 첨단 패키징 기술을 모두 보유하고 있다. 회사는 이러한 엔드 투 엔드 인프라를 바탕으로 공정과 설계를 통합 최적화하는 DTCO 역량을 고도화하며 시스템 관점의 기술 경쟁력을 확보하고 있다.",
+      "key_points": [
+        "AI 인프라가 데이터센터 중심에서 엣지 AI 환경으로 분산 배치되는 추세에 맞춰 메모리 기술이 진화함",
+        "zHBM은 프로세서와 메모리를 수직으로 직접 적층하고 하이브리드 구리 본딩(HCB) 기술을 적용해 데이터 전송 효율을 높임",
+        "삼성전자는 메모리-로직-패키징을 아우르는 종합 반도체 역량을 통해 시스템 완성도를 높이는 융합 전략을 추진함"
+      ],
+      "numbers": [
+        "2026.09.04"
+      ],
+      "keywords": [
+        "삼성전자",
+        "zHBM",
+        "엣지 AI",
+        "PIM",
+        "메모리 반도체",
+        "AI 인프라"
+      ],
+      "stated_outlook": "차세대 메모리 솔루션을 통해 기술 패권을 선점하기 위한 반도체 업계의 생태계 경쟁이 한층 격화될 전망임.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "241ee120d13e",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "[단독] 삼성전자, Arm과 차세대 '온디바이스 AI 칩' 공동 개발 착수",
+      "source": "greened.kr",
+      "source_type": "직접 선택",
+      "published": "2026-09-05 01:00",
+      "collected": "2026-09-06",
+      "link": "https://www.greened.kr/news/articleView.html?idxno=349245",
+      "requested_link": "https://www.greened.kr/news/articleView.html?idxno=349245",
+      "rss_description": "[단독] 삼성전자, Arm과 차세대",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "삼성전자가 영국 Arm과 손잡고 온디바이스 AI 전용 시스템온칩(SoC) 공동 개발에 착수하며 차세대 반도체 시장 공략을 본격화했다. 이번 협력은 클라우드 의존도를 낮추고 기기 자체에서 연산을 수행하는 엣지 AI 생태계 확대에 대응하기 위한 조치다. 삼성전자 시스템LSI 사업부가 Arm의 아키텍처를 기반으로 설계를 담당하며, 파운드리사업부의 2나노 첨단 공정을 통해 최종 양산이 이루어질 예정이다. Arm은 설계 기술 제공 및 개발 관리를 맡으며, 개발된 칩은 최종 고객사에 공급된다. 삼성전자는 이번 프로젝트를 통해 2나노 온디바이스 AI 칩 개발 역량을 확보함으로써 향후 AI 반도체 수주 경쟁력을 높일 것으로 기대된다.",
+      "industry_context": "삼성전자는 한국에 본사를 둔 글로벌 종합 반도체 기업으로, 설계부터 제조까지 아우르는 시스템LSI 및 파운드리 사업을 운영하고 있다. 영국에 본사를 둔 Arm은 전 세계 모바일 및 엣지 디바이스 프로세서의 핵심인 아키텍처 설계를 주력으로 하는 반도체 설계자산(IP) 분야의 선도 기업이다.",
+      "key_points": [
+        "삼성전자와 Arm이 차세대 온디바이스 AI용 시스템온칩(SoC) 공동 개발 프로젝트에 돌입함",
+        "Arm은 AIC 아키텍처 및 RTL 기술을 제공하고, 삼성전자는 이를 시스템LSI 설계와 2나노 파운드리 공정을 통해 구현함",
+        "개발된 맞춤형 칩은 특정 고객사 전용으로 공급되며, 유력 후보로는 오픈AI가 거론됨"
+      ],
+      "numbers": [
+        "2026.09.04",
+        "2나노"
+      ],
+      "keywords": [
+        "삼성전자",
+        "Arm",
+        "온디바이스AI",
+        "시스템온칩",
+        "파운드리",
+        "2나노"
+      ],
+      "stated_outlook": "삼성전자는 이번 2나노 공정 기반의 AI 칩 개발 경험을 레퍼런스로 삼아 향후 유사한 AI 반도체 수주를 확대해 나갈 전망이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "8fd083f7a373",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "삼성전자·SK하이닉스, 낸드 호황에도 1·2위 수성…YMTC는 추격 나서",
+      "source": "greened.kr",
+      "source_type": "직접 선택",
+      "published": "2026-09-05 00:55",
+      "collected": "2026-09-06",
+      "link": "https://www.greened.kr/news/articleView.html?idxno=349300",
+      "requested_link": "https://www.greened.kr/news/articleView.html?idxno=349300",
+      "rss_description": "삼성전자·SK하이닉스, 낸드 호황에도 1·2위 수성…YMTC는 추격 나서",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "2026년 2분기 글로벌 낸드플래시 시장은 가격 상승과 함께 매출 규모가 전 분기 대비 70% 급증하며 큰 성장세를 보였다. 삼성전자와 SK하이닉스는 합산 점유율 47%를 기록하며 글로벌 시장 1, 2위 자리를 견고하게 지켰다. 반면 마이크론은 고부가 제품 중심 전략으로 점유율을 확대했으며, 중국의 YMTC 또한 예상치를 웃도는 매출을 기록하며 영향력을 빠르게 넓히고 있다. 이러한 시장 상황 속에서 업체 간 제품 전략에 따른 실적 차이가 더욱 뚜렷해질 것으로 전망된다.",
+      "industry_context": "삼성전자와 SK하이닉스는 한국을 대표하는 종합 반도체 기업으로, 글로벌 메모리 반도체 시장의 핵심 공급망을 차지하고 있다. 마이크론은 미국에 본사를 둔 메모리 반도체 기업이며, YMTC는 중국 정부의 지원을 바탕으로 빠르게 성장 중인 중국의 주요 낸드플래시 제조업체이다.",
+      "key_points": [
+        "2026년 2분기 글로벌 낸드플래시 시장 매출이 전 분기 대비 70% 증가함",
+        "삼성전자(28%)와 SK하이닉스(19%)가 글로벌 1, 2위를 수성함",
+        "마이크론은 고부가 제품 전략으로 점유율을 13%에서 15%로 확대함",
+        "중국 YMTC가 점유율 14%를 기록하며 시장 내 영향력을 빠르게 확대하고 있음"
+      ],
+      "numbers": [
+        "2026년 2분기",
+        "낸드 가격 55% 상승",
+        "시장 매출 70% 증가",
+        "삼성전자 점유율 28%",
+        "SK하이닉스 점유율 19%",
+        "마이크론 점유율 15%"
+      ],
+      "keywords": [
+        "낸드플래시",
+        "삼성전자",
+        "SK하이닉스",
+        "마이크론",
+        "YMTC",
+        "반도체 시장"
+      ],
+      "stated_outlook": "AI 데이터센터 확대로 인한 고용량 SSD 수요 증가로 낸드 시장의 성장세가 지속될 것이며, 업체별 제품 전략에 따른 실적 격차가 커질 전망이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "cf0406d891a9",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "반도체 장비 시장, 2분기 매출 55조 돌파...사상 최대 경신",
+      "source": "디일렉",
+      "source_type": "직접 선택",
+      "published": "2026-09-04 20:05",
+      "collected": "2026-09-06",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=61804",
+      "requested_link": "https://www.thelec.kr/news/articleView.html?idxno=61804",
+      "rss_description": "반도체 장비 시장, 2분기 매출 55조 돌파...사상 최대 경신 - 디일렉(THE ELEC)",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "전 세계 반도체 장비 시장이 2분기 연속 사상 최대 매출을 경신하며 가파른 성장세를 보이고 있습니다. 이는 인공지능(AI) 인프라 구축을 위한 빅테크 기업의 투자와 이에 대응하기 위한 제조사들의 첨단 설비 도입이 활발해진 결과입니다. 아시아, 북미, 유럽 등 전 세계 주요 권역에서 골고루 장비 투자가 이어지고 있습니다. 이러한 시장 확대는 반도체 제조 산업이 AI 혁신을 실현하는 핵심 기반임을 재확인시켜 줍니다. 향후 장비 시장은 고성능 반도체 생산을 위한 첨단 공정 장비 중심으로 더욱 활성화될 전망입니다.",
+      "industry_context": "SEMI는 글로벌 반도체 장비 시장 통계(WWSEMS)를 발표하는 국제 반도체 장비 재료 협회로, 업계의 설비 투자 동향을 추적합니다. 주요 반도체 제조 거점인 중국, 대만, 한국은 글로벌 공급망에서 장비 도입을 주도하는 핵심 국가들입니다.",
+      "key_points": [
+        "2026년 2분기 전 세계 반도체 장비 매출은 405억3000만달러를 기록함",
+        "전년 동기 대비 23%, 전 분기 대비 11% 증가하며 사상 최대 매출 경신",
+        "중국, 대만, 한국 순으로 높은 매출을 기록했으며 AI 인프라 투자가 성장을 견인"
+      ],
+      "numbers": [
+        "2026년 2분기 매출 405억3000만달러(약 55조640억원)",
+        "중국 119억달러(약 16조1500억원)",
+        "대만 108억9000만달러(약 14조7700억원)",
+        "한국 90억8000만달러(약 12조3200억원)",
+        "2026년 연간 매출 전망 1659억달러(약 245조원)"
+      ],
+      "keywords": [
+        "반도체 장비",
+        "SEMI",
+        "AI 인프라",
+        "첨단 공정",
+        "설비 투자"
+      ],
+      "stated_outlook": "SEMI는 올해 전 세계 반도체 장비 매출이 전년 대비 23.2% 상승한 1659억달러(약 245조원)를 기록할 것으로 전망함.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "c4ff97081fae",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "HPSP, 내년 'TSMC, 인텔, YMTC 등' 파운드리 수주 기대",
+      "source": "newsfc.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-09-04 17:22",
+      "collected": "2026-09-06",
+      "link": "https://www.newsfc.co.kr/news/articleView.html?idxno=80888",
+      "requested_link": "https://www.newsfc.co.kr/news/articleView.html?idxno=80888",
+      "rss_description": "HPSP, 내년 ‘TSMC, 인텔, YMTC 등’ 파운드리 수주 기대",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "반도체 장비 기업 HPSP가 차세대 공정 도입과 글로벌 파운드리 고객사 확대에 힘입어 실적 성장을 예고하고 있다. 특히 DRAM 1d nm 공정 도입에 따른 고압수소어닐링 장비 수요 확대가 전망되며, 파운드리 부문에서도 신규 수주 기대감이 높아지고 있다. 이에 따라 4분기 및 내년 1분기 매출액이 역대 최대 수준으로 급증할 것으로 예상된다. 이러한 수주 다변화는 메모리 경기 둔화 우려 속에서도 타 장비주와 차별화되는 핵심 요소로 작용할 전망이다.",
+      "industry_context": "HPSP는 고압수소어닐링 장비를 주력으로 하는 반도체 전공정 장비 기업이다. 해당 기술은 반도체 미세 공정에서 필수적인 공정으로 평가받으며, 글로벌 주요 메모리 및 파운드리 제조사를 주요 고객사로 두고 있다.",
+      "key_points": [
+        "HPSP의 4분기 및 내년 1분기 매출액이 역대 최대 수준으로 급증할 전망",
+        "DRAM 1d nm 공정 도입에 따른 고압수소어닐링 장비 수요 확대 기대",
+        "내년 TSMC, 인텔, YMTC 등 글로벌 파운드리 기업들로부터의 신규 수주 가능성 대두"
+      ],
+      "numbers": [
+        "2026년 9월 4일",
+        "3분기 매출액 470억원",
+        "3분기 영업이익 248억원",
+        "4분기 예상 매출액 1,223억원",
+        "내년 1분기 예상 매출액 1,248억원"
+      ],
+      "keywords": [
+        "HPSP",
+        "고압수소어닐링",
+        "파운드리",
+        "반도체 장비",
+        "1d nm"
+      ],
+      "stated_outlook": "내년 메모리 경기 둔화에도 불구하고 TSMC, 인텔 등 파운드리 수주 확대와 DRAM 1d nm 공정 도입에 따른 장비 수요 영역 확대를 통해 차별화된 성장을 기대함.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "e59c6552036a",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "2분기 낸드 시장 70% 성장… 삼성·SK하이닉스 1·2위 수성",
+      "source": "biz.chosun.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-04 12:31",
+      "collected": "2026-09-06",
+      "link": "https://biz.chosun.com/it-science/ict/2026/09/04/4YEL6CS7CBATZJCVQTKQAP7T7E",
+      "requested_link": "https://biz.chosun.com/it-science/ict/2026/09/04/4YEL6CS7CBATZJCVQTKQAP7T7E",
+      "rss_description": "2분기 낸드 시장 70% 성장… 삼성·SK하이닉스 1·2위 수성",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "글로벌 낸드플래시 시장이 2026년 2분기 전 분기 대비 70% 성장하며 가파른 매출 회복세를 보였다. 낸드 가격이 1분기 90%에 이어 2분기에도 55% 상승하며 시장 확대를 주도했다. 이러한 시장 흐름 속에서 삼성전자와 SK하이닉스가 각각 매출 점유율 1위와 2위를 유지하며 지배력을 확인했다. 마이크론은 고부가 제품 판매 전략을 통해 점유율을 확대하며 시장 내 영향력을 강화했다. 전반적으로 가격 상승이 시장 매출 성장에 결정적인 역할을 한 것으로 분석된다.",
+      "industry_context": "삼성전자와 SK하이닉스는 대한민국을 대표하는 글로벌 메모리 반도체 기업으로, 낸드플래시 시장에서 최상위권 점유율을 차지하고 있다. SK하이닉스는 솔리다임을 자회사로 두고 낸드 사업을 확장하고 있으며, 이외에 미국 마이크론, 일본 키옥시아, 중국 YMTC 등이 글로벌 공급망의 주요 핵심 플레이어로 활동하고 있다.",
+      "key_points": [
+        "2026년 2분기 글로벌 낸드플래시 시장 매출 전 분기 대비 70% 성장",
+        "낸드 가격 상승세 지속 (1분기 90%, 2분기 55% 상승)",
+        "삼성전자 매출 점유율 28%로 1위 유지, SK하이닉스는 19%로 2위 차지",
+        "마이크론은 고가 제품 판매 집중을 통해 점유율을 13%에서 15%로 확대"
+      ],
+      "numbers": [
+        "2026년 2분기",
+        "70%",
+        "55%",
+        "90%",
+        "28%",
+        "19%"
+      ],
+      "keywords": [
+        "낸드플래시",
+        "반도체",
+        "삼성전자",
+        "SK하이닉스",
+        "마이크론",
+        "매출점유율"
+      ],
+      "stated_outlook": "",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "8afe55c1041c",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "기술·공정",
+      "title": "OCP APAC 2026: TSMC tackles CoWoS material risks while cutting 3DIC development cycle to one year",
+      "source": "digitimes.com",
+      "source_type": "직접 선택",
+      "published": "2026-08-12 00:07",
+      "collected": "2026-09-06",
+      "link": "https://www.digitimes.com/news/a20260811VL213/tsmc-cowos-capacity-packaging-demand.html",
+      "requested_link": "https://www.digitimes.com/news/a20260811VL213/tsmc-cowos-capacity-packaging-demand.html",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
       "id": "612df4a7d9e9",
       "sector": "semiconductor",
       "region": "domestic",
@@ -11745,7 +12175,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-06 13:20 KST",
+  "manual_updated_at": "2026-09-06 13:26 KST",
   "favorite_items": [
     {
       "id": "1d066ba1035f",
