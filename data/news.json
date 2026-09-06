@@ -1,51 +1,150 @@
 {
-  "updated_at": "2026-09-06 10:00 KST",
-  "last_automatic_update_at": "2026-09-06 10:00 KST",
-  "automatic_cycle_started_at": "2026-09-06 09:59 KST",
+  "updated_at": "2026-09-07 08:58 KST",
+  "last_automatic_update_at": "2026-09-07 08:58 KST",
+  "automatic_cycle_started_at": "2026-09-07 08:55 KST",
   "publication_window": {
-    "from": "2026-09-05 09:59 KST",
-    "to": "2026-09-06 09:59 KST"
+    "from": "2026-09-06 08:55 KST",
+    "to": "2026-09-07 08:55 KST"
   },
-  "today_verified_count": 0,
+  "today_verified_count": 6,
   "current_items": [
     {
-      "id": "2eb3ede7d256",
+      "id": "f593299eb17c",
       "sector": "semiconductor",
       "region": "domestic",
       "category": "기술·공정",
-      "title": "中 반도체 장비사, 전공정 넘어 후공정까지 국산화 속도",
+      "title": "국내외 180개 기업·기관이 참여한 '차세대 반도체 패키징 산업전'이 26일 경기도 수원컨벤션센터에서 개막했다. 삼성전자와 SK하이닉스 등 주요 반도체 기업이 첨단 패키징·테스트 장비와 솔루션을 선보인 가운데 관람객들이 다양한 유리 웨이퍼와 실리콘 웨이퍼를 살",
       "source": "전자신문",
-      "published": "2026-09-05 14:00",
-      "collected": "2026-09-06",
-      "link": "https://www.etnews.com/20260904000236",
-      "rss_description": "중국 주요 반도체 장비사가 전공정에서 확보한 기술을 기반으로 후공정 장비 국산화에 속도를 내고 있다. 5일 업계에 따르면 나우라·중웨이반도체(AMEC)·화하이칭커 등 중국 반도체 장비사가 식각·증착·화학적기계연마(CMP) 등 기존 기술을 전공정을 넘어 하이브리드 본딩·다이싱·웨이퍼 감박 등 후공정 전용 장비 제품군에까지 추가 적용하는 것으로 파악됐다. 이는 미국의 반도체 장비 수출 규제 속에서 중국이 장비 자립 범위를 첨단 패키징까지 확대하는",
-      "score": 46,
+      "source_type": "산업 전문언론",
+      "published": "2026-09-07 03:26",
+      "collected": "2026-09-07",
+      "link": "https://news.google.com/rss/articles/CBMizxFBVV95cUxOdktBbllHOGR1WmJ2dXBUeVY1clNyWkI2eXZyUWtNZklQcDRMN2R1cjJpVDQzWlVPS0JuSHIzWDRMNU1CTEFRc0ZCLVdjU2xFZWpGN0FUc2ItRmk0UkZieW1IenpIa0pWZGEyYjc5UGZkT2VXS3BXOEptTTVURDg3MUlrWGZTcDhfeDBxVWMwVTJYZ1JoSGhvWTlDdlFvSDJnRnI5SXJoYlloQW5UTW9QLS1rNnNiamRBRGZaTno2WkplNl84YXJPM1pFT2FDbGh2ejZiMnkxa2x1OEtIQ0c4NE1zVmVWRFRxVlh6YlRBQlBGV29zTkhpbGhPN2FKLUh5NVVKbER2bjBNRVRUaHFLUkltS0RpTlQzTEhQMHVSc1J2UHJocmtDTXpkQ0NoRGx3ZkhzUmZOTzlrUXBjX0RBVzlURTBlNVVnR040R1VCMHJTbjJnSi1abENrUHlmdDJPTEJoLWJSREUzNEp6ZENOWlk2U2hDT2UwcnZTa3gzMmY0ZUdJREpwRThWTkw4R3dTb2lvNW43UWZuX25YY0hldk84cHo4cWxpZ0U2Qk5Kdm5zUDNzV1daWF9OczZKXy1tdU0teHphOHpkMnJKR0Nwd1UyYUJ2TE82TTFZMlExVXZMNlR4dzQwcTg3Y2h3b2JZbHBrVDU2WG4xaEZHb3dlUi1ZMTRxTmNKVElqbHpiMm5iX1lncFVua1AzOTBMS0MxTjRJUzBPUzZQNEZUVmZFUUdpMWZxTGJ0N0dvV19YcDBnekZFQjlELUZDZ3hMUXB4eFZjQ3pBdDYybE0zX09NV3BNcHdTMlMwVmlTaDhld0pMdDJWRnJZSmJ1aWRDa2E2eFQ0aDk4dUdtVEh4enNKT2NzeU4xVmd5RUVLLUR1X1lCVUZvMERHSHI1RUwxSjQ3UjVhMHFSd2NLcXk2aEE5QXpDTzBra01WQUdMLVRRcDhKTFV6MWJjTzB1VlBxcC1CbjhfS3JwTTJla0ZwaGxWQ1haWno2SHpxS0hZUVJsM1VqOFpCTmxnRDl6NWxtSXJIOVdXTXM0SkNVS1U4UC1BcTF5c3UtaHUyd196V3VucjJSWlFOVEgycXNQdUt5eVpCRS1CZHNrMUpQSF8tbV9UbmpVVW1Cem9pcTZkZmtOaUFUNTZWRkhROU1rQjROcmkxY0JIa196MUZRN2VlZy0wNUhURlVWQXlJd0xobFN4Zmc0N1FyWkJYcFNjclluWDJMVkNTVFN3aE54YVpHMm15T2pMeC15OGJHRFl5NHJKUDlpZTN1MDBqOUN2NENCel9Wd3Y1M2RRSWE2LWpvYlVlbUhfZE9acVNXaV9oZUh1R3RCbVpYRFQzSFY4R1NYVmdNbE83MUE0dmxMTTdoZ2llZmVCdFN4ZFFtSlF3SXY2UjVzcWtac0ppTERNNjdRVTFuMmFvRUd4SjhwWVIwaFV0NmR0ZmtHeUxRX0ZjZDgyQTVPNGVkdTBCcWlCQ01Fd3l6TFR0Mk5CUTlwcjE5OGRRRGxSY1VDNXU5U24yVGtjd3ZGUk00RXQtUzA5Q3FfM2FMYi0wN1R5aDhRc1JYYlpseU44WERIQTljQ0dFcnlVNHNXTlFvOFVGNWdlS01JOW9PT2hYOGRZb0V4NTNMSlpCbHZiTkVEdGxmMXJJYmNGMXB5bDl2OUFsdDRVb1pZUVRBTlJpNFROWkk2cmJ2STBGbGRRNjZGa3N6N2FOZDJmaGVqYkp0akxxS0YzOHVtSUZQTEF5bzhkZjVwcmcxYTQzaDN0cWluWTRfOHlkYWUtc3RXN2pNZEk3R3h3VVBCamt0bmY1ZFg0cHQ0Q1h2bXpoM2FFTkJDejUyTVpRSGRLTzZtNVdrMDlMTGVCYk5DN0FtaDBLQXowSWRFN3l5Y0FJUG40dGIxWE1oc25vN1pjUVV6T0pCdnZSdVJGSTJSU3V2c0l4dUJtZ2R4bEkxX0dtQjdjMVpEMXUzeXBYeDBqbWtFSjhRYmhOLXhVZHFSSHVId2Q4aVB2YkV3X2o3bk5vNnNwMkJ5STNCUVhDV2ptUlVENF9rdjVxa2l0NWhCYzI5N041VTdjU2xEQlZfVFZSaUNXNXZ4Y1hvNzd4SnZSeXlqZU1oSWJ1WENhQUt5UlJEWi0tNkQ2TXpVQzl3cENwbXUtd2dldS1PV2NiSzktQXhIdkh0TDlQODRVMEd0bFZicldiV3Y4ZTF0N2dERzFXZVdYSmRCSjNUVWdvc1JFcW1yMno4REZrbG01Vzd1Zm51eDlKbTFsWFQ1SnliZGNPSW5LTnV5UEZvcExZM045d2RUNHhCbV9nR21RQkozZnFhY0xVSFRxQjdycVlVOVVQS2pIU2M0MVdyc0lrQl9hU2xPMTh3eTdOTFRBa3dPeUhKalg5QVphejRoQmo2ekFvck9fU0VQMGZ2NE0tckozaVU1cU9aekZEQ0RSQUw1OUVrblFQUUlVZjFIa0x3eUdxZkRzSWRpMDNvZUVTY0hOV0RZMldtbHFrOVJ0OGxSVHJyVWhPd2RQR0xhVFVMY3BmZ0NZVjNnc0ZXX0xEVktOYldUUnlOTHVkOUxENGhVdkc4TmowaTEyUnpRdnE0NFFMZnF2UHdxWmd4eHZwenl4Y0FjenRubXVob01QS0pEaEU1MFpZVVUzRFhwTWpKeEszTTItUS1QUWliYWVRMVFJRHF5enkxT0g0NkhWRWFZVi1iRFprWlFDZWJldnFqQ0dPVEVlMFVOYmdlWmppTEVpNGU0TVJqbm1EeGVtZWlybnc3NFBBa0JTV3pOZGJyWnFMOE9fLTZfQ2J6aVRMVkVWZjdTZXdQNlpzd3NDeUVwVW5ZWGhDdXJ1ekI3a19vbVE0TlRNQllJVVR2WTVmTUlBUHBvSEVPajh2VlAzc1dkbTVBLXp4NTNMV3BfWEgtcTROLUlNSE4xR19EdjA2c1dQUzhwNjdYcUVMZ0p2ekJWeExoRFZpbWNwZGpvZlNOMkxDMG5CUzBmYnhhcDduUXNpOA?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "067213a873d2",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "\"공공 파운드리 건설로 반도체 분업생태계 성장 이어가야\" [살아나는 반도체 분업 (中)]",
+      "source": "파이낸셜뉴스",
+      "source_type": "경제지 보도",
+      "published": "2026-09-06 18:18",
+      "collected": "2026-09-07",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LNndWcnZ0X1ZBelJ2ek1zWEdJUXpSd1RVN0pJUXo2Rk1FOFlmbmZLUk5WYmYtV0RkbXpvcjh5b1dZNllvdnZxeGd0U2hoc0hJQVpsV3hLNTVZZw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "1cee10507fff",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "“하이닉스를 샀는데, 반도체는 모른다” 반도체 투자 지도 [새책]",
+      "source": "IT조선",
+      "source_type": "산업 전문언론",
+      "published": "2026-09-06 15:05",
+      "collected": "2026-09-07",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9XSXZUSEpMLUtYMWJQa05ZeHV6VzZTeU9KNE9jaDY1WWlOMWRFcTktY28wNDN4Um5sc19DSk9JX0VxY3AyYkE1dHFWUmgtb2phUnQ5MDB4ZG13SkZmUHlyTE5USjYtTUFZSzdNOFM1SHjSAXRBVV95cUxObTNQRHppdHpQOFV2dGNsZnpiU1JjaXdhQkM2ZkZNOTZZZkk1eVAwYThLOEFQTXJhWnhHZVJacFMtcmJUbUJvVmxjeVpxd05KcGJkbmxSS2Z6MkVQak5CTDBRaDBDUlgyZE55aGI3T2MtMXk3aw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "210621492a28",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "에코프로, 하이니켈·전고체로 휴머노이드 로봇 배터리 공략",
+      "source": "디일렉",
+      "published": "2026-09-07 07:29",
+      "collected": "2026-09-07",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=61874",
+      "rss_description": "에코프로가 휴머노이드 로봇을 하이니켈 삼원계와 전고체 배터리의 신규 시장으로 낙점했다. 높은 에너지 밀도가 필요한 로봇 시장에서 관련 소재 기술을 확대할 계획이다.에코프로는 사내 소통 채널 '에코톡톡'에서 휴머노이드 로봇 시장 확대에 따른 배터리 사업 기회를 소개했다고 6일 밝혔다. 로봇의 무게와 작동 시간을 고려하면 리튬인산철(LFP)보다 에너지 밀도가 높은 삼원계 배터리가 시장을 주도할 것으로 전망했다.에코프로는 전고체 배터리가 로봇에 먼저 적용될 가능성이 높을 것으로 보고 있다. 상대적으로 높은 가격 때문에 로봇 등 고부가 시",
+      "score": 25,
       "source_type": "산업 전문언론",
       "source_rank": 5,
       "verified_source": true,
-      "overview": "중국의 주요 반도체 장비사들이 미국의 수출 규제에 대응하여 전공정에서 확보한 기술을 후공정 장비로 확장하고 있다. 나우라, 중웨이반도체(AMEC), 화하이칭커 등은 기존 기술을 응용해 하이브리드 본딩, 다이싱, 증착 등 첨단 패키징 장비 개발에 속도를 내는 중이다. 다만, 대부분의 신규 장비는 현재 고객 검증이나 상용화 초기 단계에 머물러 있어 향후 실제 양산 효율성 입증이 관건이다.",
+      "overview": "에코프로가 휴머노이드 로봇 시장을 하이니켈 삼원계와 전고체 배터리의 새로운 공략 대상으로 선정했다. 에너지 밀도가 중요한 로봇 시장에서 관련 소재 기술을 확대할 계획이다. 에코프로비엠은 전고체 배터리용 양극재와 황화물계 고체 전해질을 개발 중이며, 2027년 양산을 목표로 하고 있다.",
       "key_points": [
-        "중국 반도체 장비사들이 전공정 기술을 활용해 첨단 패키징 등 후공정 장비로 포트폴리오를 확대하고 있다.",
-        "나우라는 하이브리드 본딩 장비 2종을 출시하고 TSV 전해도금 및 패널레벨패키징 공정 장비를 선보였다.",
-        "중웨이반도체는 TSV 식각에서 다이싱, 증착 등으로 범위를 넓히고 있으며 향후 5년간 패키징 장비 제품군의 70% 이상 대응을 목표로 한다.",
-        "화하이칭커는 기존 CMP 기술을 첨단 패키징으로 적용 범위를 넓히고 신형 12인치 감박 장비를 출하했다."
+        "휴머노이드 로봇 시장에서 LFP보다 에너지 밀도가 높은 삼원계 배터리가 주도할 것으로 전망함",
+        "전고체 배터리는 가격 하락에 앞서 로봇 등 고부가 시장에 먼저 적용될 가능성이 높음",
+        "에코프로비엠은 현재 연산 40톤 규모의 고체전해질 파일럿 플랜트를 운영 중임"
       ],
       "numbers": [
-        "70%",
-        "12인치",
-        "5년",
-        "2026년"
+        "40톤",
+        "2027년"
       ],
       "keywords": [
-        "반도체 장비",
-        "국산화",
-        "첨단 패키징",
-        "나우라",
-        "중웨이반도체",
-        "화하이칭커"
+        "에코프로",
+        "에코프로비엠",
+        "휴머노이드 로봇",
+        "전고체 배터리",
+        "하이니켈",
+        "고체전해질"
       ],
-      "stated_outlook": "중국은 미국의 수출 규제로 선단공정 고도화가 제약됨에 따라 첨단 패키징을 통해 개별 칩의 성능 한계를 보완하는 전략을 추진하고 있다. 실제 양산라인에서의 수율과 장비 가동 안정성, 생산성을 입증하는 것이 향후 시장 확대의 관건이다."
+      "stated_outlook": "로봇 시장에 전고체 배터리를 우선 적용한 뒤, 가격 하락에 따라 전기차로 적용 범위를 확대할 계획이다. 또한 2027년 전고체 배터리 양산을 목표로 라인 설계까지 완료한 상태이다."
     },
+    {
+      "id": "4728574046fd",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "북미 ESS가 당긴 LFP 전환…K-배터리 3사 양산 경쟁 본격화 [위클리배터리]",
+      "source": "디지털데일리",
+      "source_type": "산업 전문언론",
+      "published": "2026-09-06 09:00",
+      "collected": "2026-09-07",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9NcGpoaG5pRW5ta1h0QVZRbXZWV1J4cURTdGd3MlVWRkdnU0VSM25fc0R5dWRWeVRMX3Rzek9OcmlfOW9wNjdtMExoUDhLWXNZM1ptLWJCTlhoaTJsQ3pNbG1tTnpUR00?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "fe3c355d268f",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "\"휴머노이드 로봇 배터리 시장 선점\"...에코프로, 전고체 소재 풀 밸류체인 준비",
+      "source": "파이낸셜뉴스",
+      "source_type": "경제지 보도",
+      "published": "2026-09-06 11:51",
+      "collected": "2026-09-07",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mRjRpQmc0Q3dTaGdDeWxxNlRRdzJMcF9TSjlRamh5RktvQXNZVFByT3lyYU1jdnFRY29xT0lGcDg2bVRNTnVFRTJhR1NLSmlQMUwtMDdoR3lVQQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    }
+  ],
+  "archive_items": [
     {
       "id": "35bb7f89914e",
       "sector": "semiconductor",
@@ -124,6 +223,84 @@
       "industry_context": "글로벌 AI 인프라 확대로 인한 메모리 반도체 시장 구도 재편 및 범용 D램 시장 내 중국 기업의 급격한 점유율 상승."
     },
     {
+      "id": "4b3df707297e",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "“반도체 고마워” 9월에 이미 작년 전체 수출실적 넘은 대한민국",
+      "source": "매일경제",
+      "source_type": "경제지 보도",
+      "published": "2026-09-05 16:41",
+      "collected": "2026-09-06",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5faWVLRWlXM2VtMXItSVZ6SjMxXzhac1JOX19TbnNpcS1WUF9oYmp2SkxwSnhPOXBEWGQxYzlPQ0h6bVNvNlRMbzI4VVhYZ0VvTzVaQ3Nn?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "대한민국의 올해 누적 수출액이 9월 5일 오후 1시 기준 7094억 달러를 기록하며 지난해 연간 총 수출액인 7093억 달러를 넘어섰습니다. 이는 작년 실적을 117일 앞당겨 달성한 역대급 성과입니다. 이러한 수출 호조는 삼성전자와 SK하이닉스 등을 필두로 한 반도체 산업의 강력한 호황이 주도했습니다. 반도체는 올해 8월 말까지 2812억 달러를 수출하며 전체 수출의 40% 이상을 차지했습니다. 이외에도 컴퓨터 주변기기, 석유제품, 선박 등 다양한 품목의 수출이 증가세를 보이며 국가 경제의 성장 동력을 뒷받침하고 있습니다.",
+      "key_points": [
+        "2026년 9월 5일 기준 누적 수출액 7094억 달러 달성",
+        "지난해 연간 수출액 7093억 달러를 117일 앞당겨 초과 달성",
+        "반도체 수출이 전체의 40% 이상을 점유하며 수출 호조 주도",
+        "중국, 미국, 베트남, 유럽연합 등 주요 시장에서 고른 성장세 기록"
+      ],
+      "numbers": [
+        "2026년 9월 5일",
+        "7094억 달러",
+        "7093억 달러",
+        "2812억 달러",
+        "170%",
+        "40%"
+      ],
+      "keywords": [
+        "수출",
+        "반도체",
+        "삼성전자",
+        "SK하이닉스",
+        "무역"
+      ],
+      "stated_outlook": "현재의 견조한 수출 흐름이 이어질 경우 12월 초 연간 수출 1조 달러 달성이 가능할 것으로 전망됩니다.",
+      "summary_source": "pasted_text",
+      "industry_context": "반도체 산업은 작년 동기 대비 약 170%의 수출 증가율을 기록하며 국내 수출을 견인하는 핵심 산업으로 자리 잡았습니다. 다만 보호무역주의 강화와 글로벌 공급망 재편 등 불확실한 통상 환경이 잠재적 변동 요인으로 언급되었습니다."
+    },
+    {
+      "id": "2eb3ede7d256",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "中 반도체 장비사, 전공정 넘어 후공정까지 국산화 속도",
+      "source": "전자신문",
+      "published": "2026-09-05 14:00",
+      "collected": "2026-09-06",
+      "link": "https://www.etnews.com/20260904000236",
+      "rss_description": "중국 주요 반도체 장비사가 전공정에서 확보한 기술을 기반으로 후공정 장비 국산화에 속도를 내고 있다. 5일 업계에 따르면 나우라·중웨이반도체(AMEC)·화하이칭커 등 중국 반도체 장비사가 식각·증착·화학적기계연마(CMP) 등 기존 기술을 전공정을 넘어 하이브리드 본딩·다이싱·웨이퍼 감박 등 후공정 전용 장비 제품군에까지 추가 적용하는 것으로 파악됐다. 이는 미국의 반도체 장비 수출 규제 속에서 중국이 장비 자립 범위를 첨단 패키징까지 확대하는",
+      "score": 46,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "중국의 주요 반도체 장비사들이 미국의 수출 규제에 대응하여 전공정에서 확보한 기술을 후공정 장비로 확장하고 있다. 나우라, 중웨이반도체(AMEC), 화하이칭커 등은 기존 기술을 응용해 하이브리드 본딩, 다이싱, 증착 등 첨단 패키징 장비 개발에 속도를 내는 중이다. 다만, 대부분의 신규 장비는 현재 고객 검증이나 상용화 초기 단계에 머물러 있어 향후 실제 양산 효율성 입증이 관건이다.",
+      "key_points": [
+        "중국 반도체 장비사들이 전공정 기술을 활용해 첨단 패키징 등 후공정 장비로 포트폴리오를 확대하고 있다.",
+        "나우라는 하이브리드 본딩 장비 2종을 출시하고 TSV 전해도금 및 패널레벨패키징 공정 장비를 선보였다.",
+        "중웨이반도체는 TSV 식각에서 다이싱, 증착 등으로 범위를 넓히고 있으며 향후 5년간 패키징 장비 제품군의 70% 이상 대응을 목표로 한다.",
+        "화하이칭커는 기존 CMP 기술을 첨단 패키징으로 적용 범위를 넓히고 신형 12인치 감박 장비를 출하했다."
+      ],
+      "numbers": [
+        "70%",
+        "12인치",
+        "5년",
+        "2026년"
+      ],
+      "keywords": [
+        "반도체 장비",
+        "국산화",
+        "첨단 패키징",
+        "나우라",
+        "중웨이반도체",
+        "화하이칭커"
+      ],
+      "stated_outlook": "중국은 미국의 수출 규제로 선단공정 고도화가 제약됨에 따라 첨단 패키징을 통해 개별 칩의 성능 한계를 보완하는 전략을 추진하고 있다. 실제 양산라인에서의 수율과 장비 가동 안정성, 생산성을 입증하는 것이 향후 시장 확대의 관건이다."
+    },
+    {
       "id": "ad17071da4f8",
       "sector": "semiconductor",
       "region": "domestic",
@@ -163,48 +340,6 @@
       "summary_source": "pasted_text",
       "industry_context": "증권사들의 경영진 주도 하에 AI 전담 조직을 확대하며 리서치, 자산관리, 투자은행 등 현업 전반으로 AI 활용 범위를 넓히는 'AX(AI 전환)'가 확산되고 있다."
     },
-    {
-      "id": "4b3df707297e",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "산업",
-      "title": "“반도체 고마워” 9월에 이미 작년 전체 수출실적 넘은 대한민국",
-      "source": "매일경제",
-      "source_type": "경제지 보도",
-      "published": "2026-09-05 16:41",
-      "collected": "2026-09-06",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5faWVLRWlXM2VtMXItSVZ6SjMxXzhac1JOX19TbnNpcS1WUF9oYmp2SkxwSnhPOXBEWGQxYzlPQ0h6bVNvNlRMbzI4VVhYZ0VvTzVaQ3Nn?oc=5",
-      "trusted_headline": true,
-      "verified_source": true,
-      "summary_status": "summarized",
-      "overview": "대한민국의 올해 누적 수출액이 9월 5일 오후 1시 기준 7094억 달러를 기록하며 지난해 연간 총 수출액인 7093억 달러를 넘어섰습니다. 이는 작년 실적을 117일 앞당겨 달성한 역대급 성과입니다. 이러한 수출 호조는 삼성전자와 SK하이닉스 등을 필두로 한 반도체 산업의 강력한 호황이 주도했습니다. 반도체는 올해 8월 말까지 2812억 달러를 수출하며 전체 수출의 40% 이상을 차지했습니다. 이외에도 컴퓨터 주변기기, 석유제품, 선박 등 다양한 품목의 수출이 증가세를 보이며 국가 경제의 성장 동력을 뒷받침하고 있습니다.",
-      "key_points": [
-        "2026년 9월 5일 기준 누적 수출액 7094억 달러 달성",
-        "지난해 연간 수출액 7093억 달러를 117일 앞당겨 초과 달성",
-        "반도체 수출이 전체의 40% 이상을 점유하며 수출 호조 주도",
-        "중국, 미국, 베트남, 유럽연합 등 주요 시장에서 고른 성장세 기록"
-      ],
-      "numbers": [
-        "2026년 9월 5일",
-        "7094억 달러",
-        "7093억 달러",
-        "2812억 달러",
-        "170%",
-        "40%"
-      ],
-      "keywords": [
-        "수출",
-        "반도체",
-        "삼성전자",
-        "SK하이닉스",
-        "무역"
-      ],
-      "stated_outlook": "현재의 견조한 수출 흐름이 이어질 경우 12월 초 연간 수출 1조 달러 달성이 가능할 것으로 전망됩니다.",
-      "summary_source": "pasted_text",
-      "industry_context": "반도체 산업은 작년 동기 대비 약 170%의 수출 증가율을 기록하며 국내 수출을 견인하는 핵심 산업으로 자리 잡았습니다. 다만 보호무역주의 강화와 글로벌 공급망 재편 등 불확실한 통상 환경이 잠재적 변동 요인으로 언급되었습니다."
-    }
-  ],
-  "archive_items": [
     {
       "id": "f87c344577c6",
       "sector": "battery",
