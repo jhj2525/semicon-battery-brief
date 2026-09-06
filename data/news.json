@@ -12339,8 +12339,47 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-06 13:34 KST",
+  "manual_updated_at": "2026-09-06 13:35 KST",
   "favorite_items": [
+    {
+      "id": "6a15fb6efbdf",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "Samsung narrows SK hynix HBM lead as HBM4 shipments accelerate",
+      "source": "tribuneindia.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-06 13:26",
+      "collected": "2026-09-06",
+      "link": "https://www.tribuneindia.com/news/business/samsung-narrows-sk-hynix-hbm-lead-as-hbm4-shipments-accelerate",
+      "requested_link": "https://www.tribuneindia.com/news/business/samsung-narrows-sk-hynix-hbm-lead-as-hbm4-shipments-accelerate",
+      "rss_description": "",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "삼성전자가 고대역폭 메모리(HBM) 시장에서 SK하이닉스와의 점유율 격차를 좁히며 추격 속도를 높이고 있습니다. 삼성전자는 2분기 HBM 시장 점유율을 33%까지 끌어올리며 1분기 21% 대비 유의미한 성장을 기록했습니다. 이러한 변화는 삼성전자가 최신 HBM 제품 공급을 글로벌 기술 기업들로 확대한 결과로 분석됩니다. 특히 차세대 제품인 HBM4의 출하가 가속화됨에 따라 향후 시장 경쟁은 더욱 치열해질 전망입니다. 업계에서는 차세대 AI 프로세서 개발자들이 최신 제품을 채택하면서 3사 간의 시장 주도권 다툼이 심화될 것으로 보고 있습니다.",
+      "industry_context": "삼성전자와 SK하이닉스는 한국을 대표하는 글로벌 메모리 반도체 기업으로, HBM 분야에서 치열한 기술 경쟁을 벌이고 있습니다. SK하이닉스는 NVIDIA에 HBM3 및 HBM3E를 공급하는 핵심 파트너로서 확고한 리더십을 유지해 왔습니다. 마이크론 테크놀로지 또한 글로벌 시장의 주요 공급자 중 하나로 활동하고 있습니다.",
+      "key_points": [
+        "삼성전자의 2분기 HBM 매출 점유율은 33%로 1분기 21% 대비 상승함",
+        "SK하이닉스는 50%의 점유율로 1위를 유지했으나, 전년 대비 감소함",
+        "HBM4 출하가 본격화됨에 따라 삼성전자가 점유율을 추가로 확대할 것으로 예상됨"
+      ],
+      "numbers": [
+        "2분기 삼성전자 HBM 점유율 33%",
+        "2분기 SK하이닉스 HBM 점유율 50%",
+        "2분기 마이크론 HBM 점유율 18%",
+        "1분기 삼성전자 HBM 점유율 21%"
+      ],
+      "keywords": [
+        "HBM4",
+        "삼성전자",
+        "SK하이닉스",
+        "AI 반도체",
+        "메모리 매출"
+      ],
+      "stated_outlook": "삼성전자는 HBM4가 하반기 전체 HBM 매출의 60% 이상을 차지할 것으로 예상하며, 이를 통해 전체 DRAM 시장 점유율 수준까지 격차를 좁힐 수 있을 것으로 전망했습니다.",
+      "summary_status": "summarized",
+      "favorited_at": "2026-09-06 13:35 KST"
+    },
     {
       "id": "1d066ba1035f",
       "sector": "battery",
