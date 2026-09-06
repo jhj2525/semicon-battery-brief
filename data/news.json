@@ -58,13 +58,29 @@
       "collected": "2026-09-06",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1nSTJNVm1YMFN1T2lKanFGYmtZbUxURGdoZko0Ql8xd3BYT081ZjloREE5ekl6LTU4VTR4RTRpWWdnVm1JZU1JeDJnQUhfV0E1UUE?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "인천시는 9월 9일부터 11일까지 송도컨벤시아에서 '국제반도체 기판 및 첨단패키징 산업전'을 개최한다. 이번 산업전은 반도체 산업의 핵심 소재, 부품, 장비 및 첨단 패키징 기술을 중점적으로 조명하기 위해 마련되었다. 인쇄회로기판(PCB)을 포함해 도금, 표면처리, 인공지능(AI), 로봇 등 반도체 관련 최신 기술과 혁신 제품이 전시된다. 이번 행사를 통해 국내외 기업과 전문가 간의 비즈니스 협력 및 기술 교류가 활발하게 이루어질 것으로 기대된다. 또한 세계 시장의 동향을 깊이 있게 공유하는 자리가 될 전망이다.",
+      "key_points": [
+        "9월 9일부터 11일까지 인천 송도컨벤시아에서 국제반도체 기판 및 첨단패키징 산업전 개최",
+        "LG이노텍, 삼성전기, 심텍, 하나마이크론, 스태츠칩팩코리아 등 국내외 229개 기업 참여",
+        "행사장에서 총 895개 부스를 운영하며 반도체 관련 최신 기술 및 제품 전시"
+      ],
+      "numbers": [
+        "9∼11일",
+        "229개 기업",
+        "895개 부스"
+      ],
+      "keywords": [
+        "반도체",
+        "첨단패키징",
+        "인쇄회로기판",
+        "소부장",
+        "인천시"
+      ],
+      "stated_outlook": "국내외 기업과 전문가 간 비즈니스 협력과 기술 교류가 활발하게 이뤄질 것으로 기대함.",
+      "summary_source": "pasted_text",
+      "industry_context": "반도체 산업의 핵심 소재·부품·장비(소부장) 및 인쇄회로기판(PCB)과 첨단 패키징 기술, 그리고 이를 뒷받침하는 도금, 표면처리, 청정 시스템, AI, 로봇 등의 분야."
     },
     {
       "id": "7a5b20f4a329",
