@@ -12436,6 +12436,48 @@
   "manual_updated_at": "2026-09-06 21:25 KST",
   "favorite_items": [
     {
+      "id": "1b6bed4b01bb",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "SK하이닉스, HBF 표준 공개…낸드가 AI 새 병목 됐다",
+      "source": "jabon.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-09-06 22:00",
+      "collected": "2026-09-06",
+      "link": "https://www.jabon.co.kr/news/articleView.html?idxno=6778",
+      "requested_link": "https://www.jabon.co.kr/news/articleView.html?idxno=6778",
+      "rss_description": "SK하이닉스, HBF 표준 공개…낸드가 AI 새 병목 됐다 - 자본시장뉴스",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "인공지능 산업의 병목 현상이 연산 속도에서 데이터 저장 용량으로 이동하면서 SK하이닉스와 샌디스크가 고대역폭플래시(HBF) 표준 규격을 공동 공개했다. 이는 그래픽처리장치의 고대역폭메모리 용량 한계를 보완하기 위해 낸드플래시를 활용한 새로운 데이터 계층을 추가하는 구조이다. 이번 표준화로 낸드 다이를 8단과 16단으로 쌓아 최대 512GB 용량을 확보하고 높은 대역폭을 지원하게 된다. 향후 AI 서비스와 추론 시장이 확대됨에 따라 기업용 솔리드스테이트드라이브(SSD) 수요가 급증할 것으로 전망된다.",
+      "industry_context": "SK하이닉스는 대한민국에 본사를 둔 글로벌 메모리 반도체 기업으로, 고대역폭메모리(HBM) 등 고성능 반도체 분야에서 핵심적인 기술력을 보유하고 있다. 낸드플래시 시장은 높은 기술 진입장벽으로 인해 상위 5개 주요 기업이 전 세계 시장의 90% 이상을 점유하고 있는 구조를 띠고 있다.",
+      "key_points": [
+        "인공지능 모델 용량 증가로 인해 기존 GPU 기반 메모리의 용량 한계를 극복할 새로운 데이터 저장 계층으로 HBF가 부각됨",
+        "SK하이닉스와 샌디스크가 공개한 HBF 표준은 낸드 다이를 8단·16단으로 쌓아 최대 512GB 용량과 초당 최대 3TB 대역폭을 지원함",
+        "낸드 수요의 중심이 개인용 기기에서 대규모 AI 데이터센터와 하이퍼스케일러 위주로 재편되며 기업용 SSD 수요가 대폭 증가할 전망"
+      ],
+      "numbers": [
+        "2026.09.06",
+        "512GB",
+        "3TB",
+        "6.5배",
+        "288GB",
+        "2TB"
+      ],
+      "keywords": [
+        "고대역폭플래시",
+        "SK하이닉스",
+        "샌디스크",
+        "기업용SSD",
+        "인공지능",
+        "데이터센터"
+      ],
+      "stated_outlook": "SK하이닉스는 내년 초 10세대 375단 4D 낸드를 기반으로 한 고성능 기업용 SSD 양산을 계획하고 있으며, 샌디스크는 내년 고객사 샘플 공급을 앞두고 있다.",
+      "summary_status": "summarized",
+      "favorited_at": "2026-09-06 21:25 KST"
+    },
+    {
       "id": "c31a12c96453",
       "sector": "semiconductor",
       "region": "global",
