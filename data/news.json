@@ -119,13 +119,33 @@
       "collected": "2026-09-06",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TUW1haHM2ZXl6cV9pUXMwZk9Tb1BmZTE2Y1dhcndscTFyM2dBUU01YndoeWJ4NjdGcVBVMm9Nd0FHdlhTNzVDRTB6WlNaemRtbXB30gFTQVVfeXFMTVNRbWFoczZleXpxX2lRczBmT1NvUGZlMTZjV2Fyd2xxMXIzZ0FRTTVid2h5Yng2N0ZxUFUyb013QUd2WFM3NUNFMHpaU1p6ZG1tcHc?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "미국 내 반도체 소재·장비 및 청정에너지 분야의 4개 기업이 한국에 총 20억 달러(약 2조 8000억 원) 규모의 투자를 결정했다. 이번 투자에는 에어프로덕츠, 액셀리스 테크놀로지스, 코닝, 퍼시피코 에너지가 참여하며, 평택 산업용 가스 인프라 구축과 충남 아산 생산시설 고도화 등이 포함된다. 한편, 오픈AI는 범용인공지능 모델인 ‘GPT-6 아스트라’를 출시하며 AI 성능 혁신과 보안 위험 관리라는 두 가지 과제를 동시에 노출했다. 증권업계 역시 CEO 직속 AI 전담 조직을 신설하는 등 전사적 차원의 AI 전환(AX) 가속화에 집중하고 있다. 그러나 한국가스공사의 경우 석유공사와의 통합 추진 소식에 따른 재무 우려로 주가가 급락하는 등 대외 환경 변화에 따른 시장의 민감한 반응도 나타나고 있다.",
+      "key_points": [
+        "에어프로덕츠 등 미국 기업 4곳이 한국 반도체 및 에너지 분야에 20억 달러 규모 투자 계획 발표",
+        "오픈AI가 출시한 ‘GPT-6 아스트라’가 보안 등급 ‘위험(Critical)’을 부여받으며 안전성 논란 발생",
+        "우리투자증권 등 주요 증권사들이 CEO 직속 AI 전담 조직을 신설하며 업무 효율화 추진",
+        "한국가스공사와 한국석유공사의 통합 추진 방안 발표 후 가스공사 주가 6.90% 하락"
+      ],
+      "numbers": [
+        "20억 달러",
+        "약 2조 8000억 원",
+        "99.9%",
+        "3.2GW",
+        "6.90%",
+        "14조 1780억 원"
+      ],
+      "keywords": [
+        "외국인투자",
+        "GPT-6 아스트라",
+        "AX",
+        "한국가스공사",
+        "반도체"
+      ],
+      "stated_outlook": "김정관 산업통상부 장관은 한국 반도체에 대해 경쟁국 대비 불리하지 않은 관세 대우를 약속받았다고 밝혔으며, 증권업계는 AX 경쟁의 성패가 향후 생산성 향상과 비용 절감 연결 여부에 달려있다고 분석함.",
+      "summary_source": "pasted_text",
+      "industry_context": "증권사들의 경영진 주도 하에 AI 전담 조직을 확대하며 리서치, 자산관리, 투자은행 등 현업 전반으로 AI 활용 범위를 넓히는 'AX(AI 전환)'가 확산되고 있다."
     },
     {
       "id": "4b3df707297e",
