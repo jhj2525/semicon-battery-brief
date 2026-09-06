@@ -7602,6 +7602,48 @@
       "summary_status": "summarized"
     },
     {
+      "id": "c849a2848c8c",
+      "sector": "battery",
+      "region": "global",
+      "category": "투자·양산",
+      "title": "현대차그룹 대미 투자⋯자동차 이어 배터리·철강까지",
+      "source": "n.news.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-06 21:25",
+      "collected": "2026-09-06",
+      "link": "https://n.news.naver.com/article/031/0001055687",
+      "requested_link": "https://naver.me/x1uTURPt",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "93a98905462f",
+      "sector": "battery",
+      "region": "global",
+      "category": "산업",
+      "title": "국내 3차 ESS 수주전 임박…사업 규모 2조원대 커질듯",
+      "source": "n.news.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-06 21:25",
+      "collected": "2026-09-06",
+      "link": "https://n.news.naver.com/article/018/0006364432",
+      "requested_link": "https://naver.me/FmGtrFvd",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
       "id": "1ecba67a7df2",
       "sector": "semiconductor",
       "region": "global",
@@ -7961,6 +8003,43 @@
         "2나노"
       ],
       "stated_outlook": "삼성전자는 이번 2나노 공정 기반의 AI 칩 개발 경험을 레퍼런스로 삼아 향후 유사한 AI 반도체 수주를 확대해 나갈 전망이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "a20b0d79d9b5",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "삼성SDI, 전고체·소듐·리튬메탈 '3각 편대'⋯미래 배터리 시장 공략",
+      "source": "autodaily.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-09-04 23:15",
+      "collected": "2026-09-06",
+      "link": "https://www.autodaily.co.kr/news/articleView.html?idxno=600188",
+      "requested_link": "https://share.google/qOyY095lFQUQXBOnD",
+      "rss_description": "삼성SDI, 전고체·소듐·리튬메탈 ‘3각 편대’⋯미래 배터리 시장 공략 - 엠투데이",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "삼성SDI가 기존 전기차와 에너지저장장치(ESS) 시장을 넘어 로봇, 휴머노이드, UAM, 우주항공 등 차세대 모빌리티 시장으로 사업 영역을 공격적으로 확장하고 있다. 이를 위해 전고체 배터리, 소듐이온 배터리, 리튬메탈 배터리로 구성된 '3각 편대' 전략을 구축하여 용도별 맞춤형 기술을 개발 중이다. 전고체 배터리는 전기차와 로봇, 소듐이온 배터리는 ESS와 UPS, 리튬메탈 배터리는 UAM과 우주항공 분야를 겨냥한다. 삼성SDI는 특정 기술에 의존하기보다 시장별 요구에 최적화된 다변화 전략을 통해 미래 배터리 시장에서의 경쟁력을 강화하고 있다.",
+      "industry_context": "삼성SDI는 한국에 본사를 둔 글로벌 배터리 제조 기업으로, 전기차 및 ESS용 배터리를 주력 사업으로 영위하고 있다. 차세대 기술 확보를 위해 막대한 연구개발 투자를 집행하고 있으며, 국내외 유수 연구기관과 협업하여 전고체 및 리튬메탈 등 첨단 배터리 기술의 상용화 기반을 다지고 있다.",
+      "key_points": [
+        "삼성SDI가 전고체, 소듐이온, 리튬메탈을 3대 핵심축으로 삼아 차세대 배터리 포트폴리오를 다변화함",
+        "전고체 배터리는 자체 개발한 고체 전해질과 무음극 기술을 적용해 고에너지밀도와 안전성을 확보 중임",
+        "소듐이온 배터리는 원료 수급 안정성과 가격 경쟁력을 바탕으로 ESS 및 UPS 시장을 공략하고 있음"
+      ],
+      "numbers": [
+        "2025년 연구개발비 1조4000억원",
+        "2026년 9월 4일(기사 입력일)"
+      ],
+      "keywords": [
+        "삼성SDI",
+        "전고체배터리",
+        "소듐이온배터리",
+        "리튬메탈배터리",
+        "차세대배터리",
+        "배터리포트폴리오"
+      ],
+      "stated_outlook": "전고체 배터리의 양산 경쟁력 확보, 소듐이온 배터리의 ESS 경제성 실현, 리튬메탈 배터리의 수명 및 안전성 검증 여부가 향후 사업 성패의 핵심 변수가 될 전망이다.",
       "summary_status": "summarized"
     },
     {
@@ -12354,7 +12433,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-06 18:09 KST",
+  "manual_updated_at": "2026-09-06 21:25 KST",
   "favorite_items": [
     {
       "id": "c31a12c96453",
