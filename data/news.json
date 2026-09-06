@@ -91,20 +91,41 @@
       "sector": "semiconductor",
       "region": "domestic",
       "category": "산업",
-      "title": "[위클리반도체] HBM 점유율 추격하는 삼성전자…엔비디아와 삼성·SK 협력 강화",
+      "title": "HBM 점유율 추격하는 삼성전자…엔비디아와 삼성·SK 협력 강화",
       "source": "디지털데일리",
       "source_type": "산업 전문언론",
       "published": "2026-09-06 08:22",
       "collected": "2026-09-06",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1RcW02RjQ0cE01T2JYWTJxNXZvcnkxRlI0QWZVTEFyaENmU1VtSHlzWXp2N0ZHOVg5dExoRTdicVgyN2ZkMWRKbF9SZzJId1VKMk9VeWVQYVprVUlURVkwYmdIZWE?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "글로벌 AI 인프라 확대로 메모리 반도체 시장 경쟁이 격화되는 가운데, 삼성전자가 HBM 시장 점유율을 큰 폭으로 끌어올리며 SK하이닉스를 추격하고 있다. 마이크론 역시 대규모 증산을 통해 HBM 생산능력을 확대하고 있으며, 중국의 CXMT는 범용 D램 시장에서 점유율 10%를 기록하며 영향력을 넓히고 있다. 삼성전자와 SK하이닉스는 차세대 AI 가속기 시장의 핵심인 HBM4 주도권을 확보하기 위해 엔비디아와의 협력을 강화하고 있다. 메모리 업계는 HBM 공급 역량 확보와 더불어 범용 D램 시장에서의 중국 추격을 방어해야 하는 과제에 직면했다. 향후 시장 판도는 주요 빅테크 고객사와의 장기 공급계약 및 기술 경쟁력 확보에 따라 결정될 전망이다.",
+      "key_points": [
+        "2026년 2분기 삼성전자의 글로벌 HBM 점유율은 33%로 전분기 대비 12%포인트 상승했다.",
+        "중국 CXMT의 2분기 글로벌 D램 점유율이 처음으로 10%를 기록했다.",
+        "이재용 삼성전자 회장과 최태원 SK그룹 회장이 오는 28일 뉴욕에서 젠슨 황 엔비디아 CEO와 만날 예정이다.",
+        "마이크론은 연말까지 HBM 생산능력을 월 10만장 안팎으로 2배 가까이 늘릴 계획이다."
+      ],
+      "numbers": [
+        "2026-09-06",
+        "33%",
+        "50%",
+        "17%포인트",
+        "10%",
+        "30만장"
+      ],
+      "keywords": [
+        "HBM",
+        "삼성전자",
+        "SK하이닉스",
+        "엔비디아",
+        "CXMT",
+        "D램"
+      ],
+      "stated_outlook": "HBM4는 엔비디아의 차세대 AI 가속기 '베라 루빈' 등에 탑재될 예정이며, HBM 세대가 올라갈수록 고객사와의 공동 개발과 장기 협력이 중요해질 전망이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "글로벌 AI 인프라 확대로 인한 메모리 반도체 시장 구도 재편 및 범용 D램 시장 내 중국 기업의 급격한 점유율 상승."
     },
     {
       "id": "2ba45d2377d8",
@@ -11724,7 +11745,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-05 16:26 KST",
+  "manual_updated_at": "2026-09-06 13:19 KST",
   "favorite_items": [
     {
       "id": "1d066ba1035f",
