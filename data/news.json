@@ -12433,45 +12433,8 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-06 21:33 KST",
+  "manual_updated_at": "2026-09-06 21:38 KST",
   "favorite_items": [
-    {
-      "id": "9db411f53ddb",
-      "sector": "semiconductor",
-      "region": "global",
-      "category": "산업",
-      "title": "삼성전자, zHBM·PIM 앞세워 3D 메모리 혁신 선도",
-      "source": "smartbizn.com",
-      "source_type": "직접 선택",
-      "published": "2026-09-05 02:03",
-      "collected": "2026-09-06",
-      "link": "https://www.smartbizn.com/news/articleView.html?idxno=153112",
-      "requested_link": "https://www.smartbizn.com/news/articleView.html?idxno=153112",
-      "rss_description": "삼성전자, zHBM·PIM 앞세워 3D 메모리 혁신 선도 - 스마트비즈",
-      "manual_added": true,
-      "verified_source": true,
-      "overview": "AI 기술의 중심이 클라우드를 넘어 스마트폰, PC, 로봇 등 데이터가 생성되는 엣지 AI 환경으로 확장되면서 메모리 반도체의 역할이 재편되고 있다. 삼성전자는 이에 대응하여 3D 수직 적층 메모리인 'zHBM'과 연산 기능이 융합된 'LPDDR-PIM', 그리고 새로운 데이터 계층인 'zNAND-O'를 중심으로 차세대 메모리 아키텍처 로드맵을 발표했다. 이러한 혁신 솔루션들은 제한된 물리 공간에서 고용량, 초고대역폭, 저전력을 동시에 구현하여 AI 시스템의 병목 현상을 해결한다. 삼성전자는 설계부터 패키징까지 아우르는 턴키 역량을 통해 차세대 AI 인프라 시장 주도권을 공고히 할 계획이다.",
-      "industry_context": "삼성전자는 대한민국에 본사를 둔 글로벌 종합 반도체 기업으로, 메모리 반도체, 시스템 반도체 설계, 파운드리, 첨단 패키징 기술을 모두 보유하고 있다. 회사는 이러한 엔드 투 엔드 인프라를 바탕으로 공정과 설계를 통합 최적화하는 DTCO 역량을 고도화하며 시스템 관점의 기술 경쟁력을 확보하고 있다.",
-      "key_points": [
-        "AI 인프라가 데이터센터 중심에서 엣지 AI 환경으로 분산 배치되는 추세에 맞춰 메모리 기술이 진화함",
-        "zHBM은 프로세서와 메모리를 수직으로 직접 적층하고 하이브리드 구리 본딩(HCB) 기술을 적용해 데이터 전송 효율을 높임",
-        "삼성전자는 메모리-로직-패키징을 아우르는 종합 반도체 역량을 통해 시스템 완성도를 높이는 융합 전략을 추진함"
-      ],
-      "numbers": [
-        "2026.09.04"
-      ],
-      "keywords": [
-        "삼성전자",
-        "zHBM",
-        "엣지 AI",
-        "PIM",
-        "메모리 반도체",
-        "AI 인프라"
-      ],
-      "stated_outlook": "차세대 메모리 솔루션을 통해 기술 패권을 선점하기 위한 반도체 업계의 생태계 경쟁이 한층 격화될 전망임.",
-      "summary_status": "summarized",
-      "favorited_at": "2026-09-06 21:33 KST"
-    },
     {
       "id": "5058195f6113",
       "sector": "semiconductor",
@@ -12508,6 +12471,43 @@
         "PPAT"
       ],
       "stated_outlook": "냉각 기술은 칩 바깥에서 식히는 방식에서 칩 내부에 미세 통로를 만들어 냉각수를 직접 흘리는 방식으로 바뀔 전망이다. 하이브리드 본딩은 2030년대 초반에 적용될 것으로 예상된다.",
+      "summary_status": "summarized",
+      "favorited_at": "2026-09-06 21:38 KST"
+    },
+    {
+      "id": "9db411f53ddb",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "삼성전자, zHBM·PIM 앞세워 3D 메모리 혁신 선도",
+      "source": "smartbizn.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-05 02:03",
+      "collected": "2026-09-06",
+      "link": "https://www.smartbizn.com/news/articleView.html?idxno=153112",
+      "requested_link": "https://www.smartbizn.com/news/articleView.html?idxno=153112",
+      "rss_description": "삼성전자, zHBM·PIM 앞세워 3D 메모리 혁신 선도 - 스마트비즈",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "AI 기술의 중심이 클라우드를 넘어 스마트폰, PC, 로봇 등 데이터가 생성되는 엣지 AI 환경으로 확장되면서 메모리 반도체의 역할이 재편되고 있다. 삼성전자는 이에 대응하여 3D 수직 적층 메모리인 'zHBM'과 연산 기능이 융합된 'LPDDR-PIM', 그리고 새로운 데이터 계층인 'zNAND-O'를 중심으로 차세대 메모리 아키텍처 로드맵을 발표했다. 이러한 혁신 솔루션들은 제한된 물리 공간에서 고용량, 초고대역폭, 저전력을 동시에 구현하여 AI 시스템의 병목 현상을 해결한다. 삼성전자는 설계부터 패키징까지 아우르는 턴키 역량을 통해 차세대 AI 인프라 시장 주도권을 공고히 할 계획이다.",
+      "industry_context": "삼성전자는 대한민국에 본사를 둔 글로벌 종합 반도체 기업으로, 메모리 반도체, 시스템 반도체 설계, 파운드리, 첨단 패키징 기술을 모두 보유하고 있다. 회사는 이러한 엔드 투 엔드 인프라를 바탕으로 공정과 설계를 통합 최적화하는 DTCO 역량을 고도화하며 시스템 관점의 기술 경쟁력을 확보하고 있다.",
+      "key_points": [
+        "AI 인프라가 데이터센터 중심에서 엣지 AI 환경으로 분산 배치되는 추세에 맞춰 메모리 기술이 진화함",
+        "zHBM은 프로세서와 메모리를 수직으로 직접 적층하고 하이브리드 구리 본딩(HCB) 기술을 적용해 데이터 전송 효율을 높임",
+        "삼성전자는 메모리-로직-패키징을 아우르는 종합 반도체 역량을 통해 시스템 완성도를 높이는 융합 전략을 추진함"
+      ],
+      "numbers": [
+        "2026.09.04"
+      ],
+      "keywords": [
+        "삼성전자",
+        "zHBM",
+        "엣지 AI",
+        "PIM",
+        "메모리 반도체",
+        "AI 인프라"
+      ],
+      "stated_outlook": "차세대 메모리 솔루션을 통해 기술 패권을 선점하기 위한 반도체 업계의 생태계 경쟁이 한층 격화될 전망임.",
       "summary_status": "summarized",
       "favorited_at": "2026-09-06 21:33 KST"
     },
