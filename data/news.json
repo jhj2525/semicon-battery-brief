@@ -7693,13 +7693,26 @@
       "link": "https://www.digitimes.com/news/a20260904PD211/china-3d-nand-cxmt-xmc-ymtc.html",
       "requested_link": "https://www.digitimes.com/news/a20260904PD211/china-3d-nand-cxmt-xmc-ymtc.html",
       "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "중국의 메모리 산업 구조가 기존의 단일 챔피언 모델에서 CXMT, YMTC, XMC를 중심으로 하는 3축 구조로 재편되고 있다. 이러한 전략적 변화는 메모리 제조 역량을 다변화하고 특정 기업에 의존하지 않는 공급망을 구축하려는 움직임으로 해석된다. 본 기사는 중국의 메모리 전략이 세 개의 핵심 기업을 주축으로 전개되고 있음을 시사한다. 이는 중국 내 반도체 자급률 제고와 산업 경쟁력 강화를 위한 구조적 개편으로 보인다.",
+      "key_points": [
+        "중국의 메모리 산업 전략이 CXMT, YMTC, XMC를 중심으로 한 3축 체제로 전환되고 있다.",
+        "기존의 단일 챔피언 모델에서 벗어나 보다 다각화된 산업 구조를 지향한다."
+      ],
+      "numbers": [
+        "2026-09-05"
+      ],
+      "keywords": [
+        "메모리 산업",
+        "CXMT",
+        "YMTC",
+        "XMC",
+        "중국 반도체"
+      ],
+      "stated_outlook": "",
+      "summary_source": "pasted_text",
+      "industry_context": "중국의 메모리 산업은 과거 단일 기업 중심의 발전 모델에서 벗어나, 기술적 역량과 제조 자산을 각기 다른 세 기업에 분산 배치하는 구조적 전환기에 있다."
     },
     {
       "id": "5058195f6113",
@@ -12275,7 +12288,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-06 13:28 KST",
+  "manual_updated_at": "2026-09-06 13:34 KST",
   "favorite_items": [
     {
       "id": "1d066ba1035f",
