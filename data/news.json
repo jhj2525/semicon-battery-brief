@@ -159,13 +159,33 @@
       "collected": "2026-09-06",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5faWVLRWlXM2VtMXItSVZ6SjMxXzhac1JOX19TbnNpcS1WUF9oYmp2SkxwSnhPOXBEWGQxYzlPQ0h6bVNvNlRMbzI4VVhYZ0VvTzVaQ3Nn?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "대한민국의 올해 누적 수출액이 9월 5일 오후 1시 기준 7094억 달러를 기록하며 지난해 연간 총 수출액인 7093억 달러를 넘어섰습니다. 이는 작년 실적을 117일 앞당겨 달성한 역대급 성과입니다. 이러한 수출 호조는 삼성전자와 SK하이닉스 등을 필두로 한 반도체 산업의 강력한 호황이 주도했습니다. 반도체는 올해 8월 말까지 2812억 달러를 수출하며 전체 수출의 40% 이상을 차지했습니다. 이외에도 컴퓨터 주변기기, 석유제품, 선박 등 다양한 품목의 수출이 증가세를 보이며 국가 경제의 성장 동력을 뒷받침하고 있습니다.",
+      "key_points": [
+        "2026년 9월 5일 기준 누적 수출액 7094억 달러 달성",
+        "지난해 연간 수출액 7093억 달러를 117일 앞당겨 초과 달성",
+        "반도체 수출이 전체의 40% 이상을 점유하며 수출 호조 주도",
+        "중국, 미국, 베트남, 유럽연합 등 주요 시장에서 고른 성장세 기록"
+      ],
+      "numbers": [
+        "2026년 9월 5일",
+        "7094억 달러",
+        "7093억 달러",
+        "2812억 달러",
+        "170%",
+        "40%"
+      ],
+      "keywords": [
+        "수출",
+        "반도체",
+        "삼성전자",
+        "SK하이닉스",
+        "무역"
+      ],
+      "stated_outlook": "현재의 견조한 수출 흐름이 이어질 경우 12월 초 연간 수출 1조 달러 달성이 가능할 것으로 전망됩니다.",
+      "summary_source": "pasted_text",
+      "industry_context": "반도체 산업은 작년 동기 대비 약 170%의 수출 증가율을 기록하며 국내 수출을 견인하는 핵심 산업으로 자리 잡았습니다. 다만 보호무역주의 강화와 글로벌 공급망 재편 등 불확실한 통상 환경이 잠재적 변동 요인으로 언급되었습니다."
     }
   ],
   "archive_items": [
