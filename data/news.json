@@ -7716,6 +7716,69 @@
   "semi_archive_items": [],
   "manual_items": [
     {
+      "id": "8561d06d82f9",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "수동 추가 기사 · tspasemiconductor.substack.com",
+      "source": "tspasemiconductor.substack.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-07 15:20",
+      "collected": "2026-09-07",
+      "link": "https://tspasemiconductor.substack.com/p/hot-chips-2026-hbm-base-die-evolves",
+      "requested_link": "https://tspasemiconductor.substack.com/p/hot-chips-2026-hbm-base-die-evolves",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "f0655abab0cd",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "삼성·SK HBM4 경쟁 치열한데…마이크론 추격에 中도 가세",
+      "source": "metroseoul.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-09-07 15:19",
+      "collected": "2026-09-07",
+      "link": "https://www.metroseoul.co.kr/article/20260906500236",
+      "requested_link": "https://www.metroseoul.co.kr/article/20260906500236",
+      "rss_description": "삼성·SK HBM4 경쟁 치열한데…마이크론 추격에 中도 가세",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "인공지능(AI) 반도체 시장이 급성장함에 따라 고대역폭메모리(HBM)를 둘러싼 글로벌 경쟁이 격화되고 있다. 기존 강자인 삼성전자와 SK하이닉스가 HBM4 기술 고도화에 박차를 가하는 가운데, 미국 마이크론은 생산능력을 빠르게 확대하며 추격에 나섰다. 특히 중국의 창신메모리테크놀로지(CXMT)까지 HBM 시장 진입을 시도하면서 경쟁 구도가 더욱 넓어지는 양상이다. 이에 따라 HBM 공급망과 차세대 제품 선점을 위한 기업 간의 기술 및 양산 경쟁이 한층 치열해질 전망이다.",
+      "industry_context": "SK하이닉스와 삼성전자는 한국을 대표하는 글로벌 메모리 반도체 기업으로, HBM 분야에서 압도적인 점유율과 기술력을 보유하고 있다. 미국 기업인 마이크론은 HBM 생산능력을 지속적으로 늘리며 시장 영향력을 확대하고 있으며, 중국의 CXMT는 자국 AI 반도체 생태계와 연계하여 시장 진입을 도모하는 메모리 제조사다.",
+      "key_points": [
+        "2026년 2분기 글로벌 HBM 매출 점유율은 SK하이닉스(50%), 삼성전자(33%), 마이크론(18%) 순임",
+        "마이크론은 엔비디아의 차세대 AI 플랫폼 '베라 루빈' 공급을 위해 HBM4 양산에 집중하고 있음",
+        "중국 CXMT가 HBM3E를 소량 생산하며 중국산 AI 가속기 탑재를 위한 테스트를 진행 중임",
+        "SK하이닉스는 HBM4E 샘플을 공급하며 차세대 기술 경쟁에서 앞서 나가고 있음"
+      ],
+      "numbers": [
+        "2026년 09월 06일",
+        "2026년 2분기",
+        "SK하이닉스 점유율 50%",
+        "삼성전자 점유율 33%",
+        "마이크론 점유율 18%",
+        "마이크론 생산능력 올해 말 월 10만장"
+      ],
+      "keywords": [
+        "HBM4",
+        "고대역폭메모리",
+        "AI반도체",
+        "SK하이닉스",
+        "삼성전자",
+        "마이크론"
+      ],
+      "stated_outlook": "삼성전자와 SK하이닉스는 HBM4를 중심으로 경쟁력을 강화하고 있으며, 특히 SK하이닉스는 주요 고객사와 협업하여 HBM4E 양산을 준비할 계획임.",
+      "summary_status": "summarized"
+    },
+    {
       "id": "05016eb61d4e",
       "sector": "battery",
       "region": "global",
@@ -7735,6 +7798,44 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": ""
+    },
+    {
+      "id": "80638c7becd6",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "TSMC, 반도체 생산 위한 '중앙 집중형 로봇 시스템' 개발",
+      "source": "irobotnews.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-07 04:31",
+      "collected": "2026-09-07",
+      "link": "https://www.irobotnews.com/news/articleView.html?idxno=48312",
+      "requested_link": "https://www.irobotnews.com/news/articleView.html?idxno=48312",
+      "rss_description": "TSMC, 반도체 생산 위한",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "대만의 파운드리 기업 TSMC가 반도체 제조 공정 내 로봇 도입과 운영을 효율화하기 위해 '중앙 로봇 관리 플랫폼'을 개발하고 있다. 이번 플랫폼 구축의 핵심 목표는 파운드리 클린룸의 자동화율을 극대화하는 것이다. 이는 TSMC가 공장 운영 최적화를 위해 추진 중인 인공지능(AI) 애플리케이션 개발의 일환으로 진행된다. TSMC는 향후에도 반도체 영역에 특화된 AI 기술을 지속적으로 개발할 계획이다.",
+      "industry_context": "TSMC는 대만의 세계적인 반도체 파운드리 기업으로, 반도체 제조 공정 기술을 선도하고 있다. 최근에는 생산 효율을 높이기 위한 공정 자동화뿐만 아니라 로봇용 칩 생산 분야에서도 중요한 공급망 역할을 수행하고 있다.",
+      "key_points": [
+        "TSMC가 파운드리 내 대규모 로봇 운영을 위한 중앙 집중식 관리 플랫폼을 구축 중임",
+        "클린룸 자동화율을 최대치로 끌어올리는 것이 주요 목적임",
+        "이번 플랫폼 개발은 TSMC의 AI 애플리케이션 전략의 일환임",
+        "TSMC는 향후 3년 내 휴머노이드 로봇용 칩 생산 능력을 3배로 늘릴 계획임"
+      ],
+      "numbers": [
+        "2026.09.06",
+        "3년",
+        "250만 개"
+      ],
+      "keywords": [
+        "TSMC",
+        "파운드리",
+        "클린룸 자동화",
+        "중앙 로봇 관리 플랫폼",
+        "로봇용 칩"
+      ],
+      "stated_outlook": "TSMC는 향후 3년 내 휴머노이드 로봇 칩 관련 생산 능력을 세 배로 늘릴 계획이다.",
+      "summary_status": "summarized"
     },
     {
       "id": "a20b0d79d9b5",
@@ -12611,7 +12712,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-07 15:17 KST",
+  "manual_updated_at": "2026-09-07 15:20 KST",
   "favorite_items": [
     {
       "id": "5058195f6113",
