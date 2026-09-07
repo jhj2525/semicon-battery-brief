@@ -7756,7 +7756,7 @@
       "sector": "semiconductor",
       "region": "global",
       "category": "산업",
-      "title": "수동 추가 기사 · tspasemiconductor.substack.com",
+      "title": "Hot Chips 2026: HBM Base Die Evolves from a Memory Interface into a Computing Engine — Samsung Unveils a Three-Phase Roadmap Toward Custom HBM, aHBM, and zHBM",
       "source": "tspasemiconductor.substack.com",
       "source_type": "직접 선택",
       "published": "2026-09-07 15:20",
@@ -7764,13 +7764,32 @@
       "link": "https://tspasemiconductor.substack.com/p/hot-chips-2026-hbm-base-die-evolves",
       "requested_link": "https://tspasemiconductor.substack.com/p/hot-chips-2026-hbm-base-die-evolves",
       "manual_added": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "삼성전자가 Hot Chips 2026에서 고대역폭 메모리(HBM)의 베이스 다이(Base Die)를 단순 인터페이스에서 연산 기능을 갖춘 컴퓨팅 엔진으로 진화시키는 전략을 발표했다. 기존 HBM은 DRAM 적층 위주였으나, 향후에는 베이스 다이에 최첨단 로직 공정을 적용해 SoC와 유사한 구조로 변모할 예정이다. 이를 통해 HBM은 단순한 메모리 제품을 넘어 메모리 중심의 컴퓨팅 플랫폼으로 발전하게 된다. 이 아키텍처 변화는 메모리 컨트롤러, 센서, 처리 요소 등을 베이스 다이에 통합하여 시스템 효율성을 높이는 것을 목표로 한다. 삼성전자는 이번 발표를 통해 HBM4부터 시작되는 커스텀 HBM, aHBM, zHBM으로 이어지는 단계별 로드맵을 제시했다.",
+      "key_points": [
+        "삼성전자는 HBM 베이스 다이에 최첨단 로직 공정을 도입하여 연산 기능을 통합할 계획이다.",
+        "HBM 아키텍처는 기존의 PHY/라우팅 계층에서 벗어나 메모리 컨트롤러와 프로세싱 요소 등을 포함한 로직 다이로 진화한다.",
+        "삼성전자의 로드맵은 HBM4를 시작으로 cHBM(Custom HBM), aHBM(Advanced HBM), zHBM 순으로 발전한다.",
+        "향후 HBM과 xPU는 2.5D 인터포저 방식에서 직접적인 수직 3D 통합 방식으로 변할 가능성이 있다."
+      ],
+      "numbers": [
+        "2026",
+        "1K–2K I/Os",
+        "8–16Gbps",
+        "1–5TB/s",
+        "4, 8, 12, 16-die stacks"
+      ],
+      "keywords": [
+        "HBM",
+        "베이스 다이",
+        "삼성전자",
+        "Hot Chips 2026",
+        "3D 통합"
+      ],
+      "stated_outlook": "삼성전자는 HBM4에서 cHBM, aHBM, zHBM으로 이어지는 단계적 로드맵을 통해 메모리 중심의 컴퓨팅 플랫폼을 구축하고, 향후 하이브리드 본딩 및 웨이퍼-온-웨이퍼 통합 등을 통해 기존 인터포저를 제거하는 방향으로 기술을 발전시킬 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "인공지능(AI) 시대를 맞아 기존의 수동적인 인터페이스 역할에 머물렀던 HBM 베이스 다이에 대한 역할 재정의가 필요해졌다. 과거에는 2.5D 인터포저를 통한 수평적 통신이 주를 이루었으나, 데이터 처리 속도와 효율성을 위해 향후에는 수직적 3D 통합이 요구되고 있다."
     },
     {
       "id": "f0655abab0cd",
@@ -12768,7 +12787,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-07 15:21 KST",
+  "manual_updated_at": "2026-09-07 16:11 KST",
   "favorite_items": [
     {
       "id": "a20b0d79d9b5",
