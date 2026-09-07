@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-07 08:58 KST",
-  "last_automatic_update_at": "2026-09-07 08:58 KST",
-  "automatic_cycle_started_at": "2026-09-07 08:55 KST",
+  "updated_at": "2026-09-07 10:04 KST",
+  "last_automatic_update_at": "2026-09-07 10:04 KST",
+  "automatic_cycle_started_at": "2026-09-07 10:01 KST",
   "publication_window": {
-    "from": "2026-09-06 08:55 KST",
-    "to": "2026-09-07 08:55 KST"
+    "from": "2026-09-06 10:01 KST",
+    "to": "2026-09-07 10:01 KST"
   },
-  "today_verified_count": 6,
+  "today_verified_count": 1,
   "current_items": [
     {
       "id": "f593299eb17c",
@@ -134,6 +134,26 @@
       "published": "2026-09-06 11:51",
       "collected": "2026-09-07",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mRjRpQmc0Q3dTaGdDeWxxNlRRdzJMcF9TSjlRamh5RktvQXNZVFByT3lyYU1jdnFRY29xT0lGcDg2bVRNTnVFRTJhR1NLSmlQMUwtMDdoR3lVQQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "bea4cebe76d0",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "SM벡셀 배터리사업부문, 건전지 첫 수출…태국 유통채널 납품",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-09-07 08:58",
+      "collected": "2026-09-07",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE94SmlKVXk1M0lhWGJvOTVrckRpSElwM2ppYnNDMEpIY1pxUEEyTXFDSHRITkFEd1JiRy1NWGtmQVcta1ZuNDloUWJ3cU9pNjV5eTB0WEM5RTAtS0dJLXVXa9IBYEFVX3lxTE94SmlKVXk1M0lhWGJvOTVrckRpSElwM2ppYnNDMEpIY1pxUEEyTXFDSHRITkFEd1JiRy1NWGtmQVcta1ZuNDloUWJ3cU9pNjV5eTB0WEM5RTAtS0dJLXVXaw?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
