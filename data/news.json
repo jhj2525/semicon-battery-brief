@@ -135,13 +135,33 @@
       "collected": "2026-09-07",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mRjRpQmc0Q3dTaGdDeWxxNlRRdzJMcF9TSjlRamh5RktvQXNZVFByT3lyYU1jdnFRY29xT0lGcDg2bVRNTnVFRTJhR1NLSmlQMUwtMDdoR3lVQQ?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "에코프로가 휴머노이드 로봇 시장의 성장에 발맞춰 하이니켈 삼원계 배터리와 전고체 배터리를 중심으로 시장 선점에 나선다. 로봇의 작동 성능과 구동 시간에 유리한 고에너지 밀도의 하이니켈 삼원계 배터리를 주력으로 하되, 전고체 배터리 기술을 통해 미래 경쟁력을 확보하겠다는 구상이다. 에코프로비엠은 황화물계 고체전해질 개발과 고도화 성과를 인정받아 산업통상부의 '슈퍼을 프로젝트'에 선정되었다. 회사는 로봇 시장에 전고체 배터리를 우선 적용해 가격 경쟁력을 확보한 뒤 전기차 시장으로 확산을 추진할 계획이다. 현재 파일럿 플랜트 운영 및 품질 검증을 마쳤으며, 2027년 양산을 목표로 설비 체계를 준비하고 있다.",
+      "key_points": [
+        "에코프로비엠이 산업통상부 '슈퍼을 프로젝트'에 선정되어 황화물계 고체전해질 개발 고도화 진행",
+        "에코프로비엠은 연산 40t 규모의 파일럿 플랜트를 운영 중이며 주요 배터리 업체의 품질 검증 통과",
+        "전고체 배터리용 양극재를 기존 삼원계 생산라인에서 생산할 수 있도록 공정 최적화 완료",
+        "2027년 전고체 배터리 양산을 목표로 즉시 착공 가능한 설비 체계 구축"
+      ],
+      "numbers": [
+        "2035년",
+        "380억달러",
+        "약 52조원",
+        "140만대",
+        "40t",
+        "2027년"
+      ],
+      "keywords": [
+        "에코프로",
+        "휴머노이드 로봇",
+        "전고체 배터리",
+        "고체전해질",
+        "슈퍼을 프로젝트"
+      ],
+      "stated_outlook": "전고체 배터리를 로봇 시장에 우선 적용하여 가격을 낮춘 뒤 전기차로 확산시킬 계획이며, 2027년 양산을 목표로 준비 중이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "삼성, 현대차, LG 등 대기업이 휴머노이드 로봇 사업 경쟁을 가속화함에 따라 고에너지 밀도의 배터리 수요가 증가하고 있다. 골드만삭스는 세계 휴머노이드 로봇 시장 규모가 2035년까지 380억달러(약 52조원)에 달하고 연간 출하량이 140만대를 넘을 것으로 전망했다."
     },
     {
       "id": "bea4cebe76d0",
