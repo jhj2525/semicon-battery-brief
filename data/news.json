@@ -40,13 +40,33 @@
       "collected": "2026-09-07",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LNndWcnZ0X1ZBelJ2ek1zWEdJUXpSd1RVN0pJUXo2Rk1FOFlmbmZLUk5WYmYtV0RkbXpvcjh5b1dZNllvdnZxeGd0U2hoc0hJQVpsV3hLNTVZZw?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "반도체 슈퍼사이클에 힘입어 후공정 업체와 디자인하우스 등 국내 반도체 분업 생태계가 실적 개선과 흑자 전환을 이루며 활기를 띠고 있다. 하나마이크론, LB세미콘, 두산테스나 등 주요 후공정 및 테스트 기업들이 매출 성장과 이익 개선을 기록했으며, 디자인하우스 업계 역시 실적 회복 흐름을 보이고 있다. 그러나 국내 팹리스 및 파운드리 기업들은 여전히 글로벌 시장에서 낮은 위상을 차지하고 있다. 이에 따라 업계 전문가들은 대만의 사례처럼 반도체 분업 생태계의 선순환 구조를 정착시키기 위한 정부 주도의 공공 파운드리 건설 등 과감한 지원이 필요하다고 주장한다. 특히 최근 논의 중인 호남 지역 투자 등이 생태계 강화의 계기가 되어야 한다는 의견이 제기된다.",
+      "key_points": [
+        "하나마이크론의 2분기 매출은 전년 동기 대비 100% 증가한 6832억원을 기록함.",
+        "LB세미콘과 두산테스나는 각각 영업이익 흑자 전환에 성공하며 실적이 개선됨.",
+        "에이팩트는 인도 안드라프라데시주에 700억원을 투자하여 후공정 공장을 착공함.",
+        "국내 팹리스 1위인 LX세미콘의 작년 매출은 1조 6390억원으로 글로벌 상위 기업과 큰 격차를 보임."
+      ],
+      "numbers": [
+        "2026.09.06",
+        "6832억원",
+        "1423억원",
+        "1448억원",
+        "131억원",
+        "809억원"
+      ],
+      "keywords": [
+        "반도체 분업",
+        "공공 파운드리",
+        "팹리스",
+        "후공정",
+        "디자인하우스"
+      ],
+      "stated_outlook": "반도체 가격 상승세가 지속될 경우 브라질 법인의 영업이익률이 추가 상승할 가능성이 있으며, 국내 팹리스 성장을 위해 공공 파운드리 건설이 필요함.",
+      "summary_source": "pasted_text",
+      "industry_context": "국내 반도체 분업 생태계는 팹리스, 파운드리, 패키징, 테스트하우스, 디자인하우스 등으로 구성되어 있으나, 글로벌 시장에서의 비중은 선진국 대비 낮은 수준이다."
     },
     {
       "id": "1cee10507fff",
