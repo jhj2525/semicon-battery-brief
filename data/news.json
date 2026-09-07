@@ -175,13 +175,29 @@
       "collected": "2026-09-07",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE94SmlKVXk1M0lhWGJvOTVrckRpSElwM2ppYnNDMEpIY1pxUEEyTXFDSHRITkFEd1JiRy1NWGtmQVcta1ZuNDloUWJ3cU9pNjV5eTB0WEM5RTAtS0dJLXVXa9IBYEFVX3lxTE94SmlKVXk1M0lhWGJvOTVrckRpSElwM2ppYnNDMEpIY1pxUEEyTXFDSHRITkFEd1JiRy1NWGtmQVcta1ZuNDloUWJ3cU9pNjV5eTB0WEM5RTAtS0dJLXVXaw?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "SM벡셀 배터리사업부문이 태국 재계 1위 CP그룹의 유통 계열사인 CP 엑스트라의 온·오프라인 유통채널에 알카라인 건전지를 납품하며 첫 해외 수출을 시작했다. 이번 납품은 벡셀 건전지의 글로벌 시장 진출 사례로서 태국을 동남아시아 시장 공략의 교두보로 삼았다는 데 의미가 있다. SM벡셀은 이번 납품을 기점으로 현지 안착에 주력할 방침이다. 또한, CP 엑스트라와 협력 관계를 강화하기 위해 전략적 업무협약(MOU)을 체결할 계획이다. SM벡셀은 이번 입점을 통해 자사의 품질과 기술력을 글로벌 시장에서 인정받은 것으로 평가하고 있다.",
+      "key_points": [
+        "SM벡셀이 태국 CP 엑스트라 유통채널에 알카라인 건전지를 납품하며 첫 해외 수출을 단행함",
+        "CP 엑스트라는 태국 재계 1위 CP그룹의 유통 계열사임",
+        "SM벡셀은 향후 CP 엑스트라와 전략적 업무협약(MOU)을 체결할 계획임"
+      ],
+      "numbers": [
+        "2026-09-07",
+        "2,600여 개",
+        "13,000여 개"
+      ],
+      "keywords": [
+        "SM벡셀",
+        "건전지",
+        "수출",
+        "태국",
+        "CP엑스트라"
+      ],
+      "stated_outlook": "SM벡셀은 현지 안착에 주력하는 한편, CP 엑스트라와 시너지 창출을 위한 전략적 업무협약(MOU)을 체결하고 동남아 배터리 시장 점유율을 높일 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "태국 유통 전문기업인 CP 엑스트라는 마크로, 로터스 등 2,600여 개의 매장과 13,000여 개의 세븐일레븐을 운영하고 있다."
     }
   ],
   "archive_items": [
