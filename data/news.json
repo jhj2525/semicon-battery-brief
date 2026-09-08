@@ -1,13 +1,373 @@
 {
-  "updated_at": "2026-09-07 10:04 KST",
-  "last_automatic_update_at": "2026-09-07 10:04 KST",
-  "automatic_cycle_started_at": "2026-09-07 10:01 KST",
+  "updated_at": "2026-09-08 09:27 KST",
+  "last_automatic_update_at": "2026-09-08 09:27 KST",
+  "automatic_cycle_started_at": "2026-09-08 09:25 KST",
   "publication_window": {
-    "from": "2026-09-06 10:01 KST",
-    "to": "2026-09-07 10:01 KST"
+    "from": "2026-09-07 09:25 KST",
+    "to": "2026-09-08 09:25 KST"
   },
-  "today_verified_count": 1,
+  "today_verified_count": 11,
   "current_items": [
+    {
+      "id": "d47f245ad6a0",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "AMD, 한국 피지컬 AI 시장 정조준…반도체 장비·차량·로봇 영토 확장",
+      "source": "디일렉",
+      "published": "2026-09-08 01:07",
+      "collected": "2026-09-08",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=61882",
+      "rss_description": "AMD가 적응형·임베디드 플랫폼으로 한국 물리적(피지컬) 인공지능(AI) 시장 공략을 강화한다. 이기종 연산과 개방형 생태계를 앞세워 반도체 장비부터 차량, 로봇까지 영역을 넓힌다.살릴 라제 AMD 적응형·임베디드 컴퓨팅 그룹(AECG) 수석 부사장(SVP) 겸 총괄책임자(GM)는 지난 2일 여의도 AMD AECG 서울 사무실에서 \"한국은 산업 자동화와 차량 분야에 강점을 지닌 국가로, AMD가 집중하고 있는 전략적 피지컬 AI 시장\"이라며 \"인구 감소와 생산성 저하에 직면한 한국 제조업을 피지컬 AI가 다방면으로 도울 수 있어,",
+      "score": 30,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "AMD가 적응형 및 임베디드 플랫폼을 앞세워 한국의 물리적(피지컬) AI 시장 공략을 강화한다. 살릴 라제 AMD AECG 수석 부사장은 한국의 산업 자동화 및 차량 분야 강점을 언급하며, 반도체 장비·차량·로봇 등 다양한 영역에서 협력을 확대하겠다는 의지를 밝혔다. AMD는 이기종 연산 솔루션과 개방형 생태계를 통해 저지연 피지컬 AI 구현을 지원하고 있다.",
+      "key_points": [
+        "피지컬 AI는 물리 세계에서 환경을 인지하고 행동하는 기술로, 로봇·자율주행·반도체 장비 등에 활용된다.",
+        "AMD는 이기종 연산 솔루션인 FPGA와 적응형 SoC를 통해 반도체 공정 장비의 자동화를 지원한다.",
+        "스트라드비전, 노타AI 등 국내 기업과 협력 중이며, 삼성·LG·SK하이닉스 등 대기업과의 협력을 강조했다.",
+        "비티스 통합 플랫폼과 로보틱스 파트너 네트워크를 운영하여 개발 편의성과 개방형 생태계를 제공한다."
+      ],
+      "numbers": [
+        "2026.09.07"
+      ],
+      "keywords": [
+        "AMD",
+        "피지컬AI",
+        "적응형SoC",
+        "FPGA",
+        "임베디드",
+        "이기종연산"
+      ],
+      "stated_outlook": "인구 감소와 생산성 저하에 직면한 한국 제조업을 피지컬 AI로 지원하며, 한국 정부 및 기업과 윈-윈하는 협력 관계를 구축할 계획이다."
+    },
+    {
+      "id": "13ac465c0a9a",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "LG이노텍, 반도체 유리기판 공정에 AI 심는다",
+      "source": "전자신문",
+      "published": "2026-09-07 17:00",
+      "collected": "2026-09-08",
+      "link": "https://www.etnews.com/20260907000125",
+      "rss_description": "LG이노텍이 반도체 유리기판 제조에 독자 개발한 인공지능(AI) 기술을 적용한다. 제품 신뢰도와 생산성을 동시에 끌어올려 치열해진 글로벌 반도체 유리기판 상용화 경쟁에서 주도권을 잡으려는 포석이다. 7일 업계에 따르면, LG이노텍은 반도체 유리기판 공정에 자체 AI 기술을 접목해 미세 균열(마이크로 크랙) 검사 효율을 극대화하기로 했다. 이를 위해 미세 균열의 다양한 형태와 크기에 관한 데이터를 축적하며 AI 검사 모델 정밀도를 고도화하는 것으",
+      "score": 20,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "LG이노텍이 반도체 유리기판 제조 공정에 자체 개발한 인공지능(AI) 기술을 도입하여 제품 신뢰도와 생산성을 높입니다. 이는 고성능 반도체 패키징 시장에서 핵심 난제인 미세 균열(마이크로 크랙)을 효과적으로 검출하기 위한 전략입니다. LG이노텍은 AI 비전 기술을 통해 검출력을 높이고 판독 속도를 단축하여 글로벌 유리기판 상용화 경쟁에서 우위를 점하고자 합니다.",
+      "key_points": [
+        "LG이노텍이 반도체 유리기판 공정에 자체 AI 모델을 접목하여 미세 균열 검사 효율을 극대화한다.",
+        "유리기판 제조 시 발생하는 미세 균열은 수율 저하의 주요 원인으로, AI를 통해 이를 초기에 검출하고 양산성을 확보하고자 한다.",
+        "LG이노텍은 2024년 3월 정기주주총회에서 유리기판 사업 추진을 공식화한 이후, 구미 사업장에 시생산 라인을 구축하고 신뢰성 평가를 진행 중이다."
+      ],
+      "numbers": [
+        "2024년 3월",
+        "2028년"
+      ],
+      "keywords": [
+        "LG이노텍",
+        "반도체 유리기판",
+        "인공지능",
+        "미세 균열",
+        "수율",
+        "양산성"
+      ],
+      "stated_outlook": "업계는 유리기판 상용화 시점을 이르면 2028년 전후로 내다보고 있으며, 미세 균열 제어 기술 선점이 양산의 성패를 가를 것으로 평가한다."
+    },
+    {
+      "id": "a06d6e888ec9",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "한양이엔지, 삼성전자 평택 P5 클린룸 배관 1480억 수주",
+      "source": "디일렉",
+      "published": "2026-09-08 00:27",
+      "collected": "2026-09-08",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=61904",
+      "rss_description": "한양이엔지가 삼성전자 평택캠퍼스 P5 반도체 공장 건설 계약을 따냈다. 7일 삼성물산과 1480억5900만원 규모의 공사 계약을 체결했다고 공시했다. 지난해 매출 1조1181억8000만원의 13.24% 수준이다. 삼성물산과는 최근 3년간 동종 계약을 맺은 바 있다.공사 대상은 삼성전자 P5의 1단계(페이즈1) 클린룸 일반배관 1공사구역이다. 한양이엔지 관계자는 \"일반배관은 반도체 제조 공정에 쓰이는 초순수, 화학물질, 산업용 가스, 냉각수 등을 각 생산라인 설비로 안전하게 공급, 배출하는 배관망을 설치하는 작업\"이라며 \"1공사구역은",
+      "score": 69,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "한양이엔지가 삼성전자 평택캠퍼스 P5 반도체 공장 건설을 위한 1480억5900만원 규모의 공사 계약을 삼성물산과 체결했다. 이번 계약은 P5 1단계(페이즈1) 클린룸 일반배관 1공사구역을 대상으로 하며, 초순수 및 화학물질 등을 공급·배출하는 배관망 설치 작업을 포함한다. 계약 기간은 내년 9월 30일까지로, 공사 진행률에 따라 대금을 지급받는 기성 청구 방식이 적용된다.",
+      "key_points": [
+        "한양이엔지가 삼성전자 평택 P5 반도체 공장의 클린룸 일반배관 1공사구역 설치 공사를 수주했다.",
+        "계약 금액은 1480억5900만원이며, 이는 한양이엔지의 지난해 매출 대비 13.24% 수준이다.",
+        "계약 기간은 2026년 9월 7일 기준으로 내년 9월 30일까지이며, 실질적인 주배관 공사는 약 8~10개월 소요될 예정이다."
+      ],
+      "numbers": [
+        "1480억5900만원",
+        "13.24%",
+        "2026.09.07",
+        "2026.09.30",
+        "8개월",
+        "10개월"
+      ],
+      "keywords": [
+        "한양이엔지",
+        "삼성전자",
+        "평택캠퍼스",
+        "P5",
+        "클린룸",
+        "배관"
+      ],
+      "stated_outlook": "공사 과정 중 설비 규모가 변동되거나 추가 물량이 발생할 경우 계약 금액이 정정될 수 있다."
+    },
+    {
+      "id": "2c242b93eb4b",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "中반도체 장비 자립 35% 넘어...韓반도체 시장 위협 본격화",
+      "source": "파이낸셜뉴스",
+      "source_type": "경제지 보도",
+      "published": "2026-09-07 15:21",
+      "collected": "2026-09-08",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9LVWhxUkJGY2Q3U2w1VUxaTmloYjB1Z2otanozaTkwT2JoSE5CMUYtdTR3VjBMYXR0akdkVy1TaTdiQjRDVlJtRXBqbGtkYldoYjdxWl9VTlU4Zw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "e985c0cfb89f",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "DB하이텍, 4%대 강세…\"中 수요에 8인치 파운드리 공급 부족\"",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-09-08 09:19",
+      "collected": "2026-09-08",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yR0ZQUGNlNkF3OEtOdGVCemdIQVczREtHN3VCVHNBdUZDaTB6ellDbjhieFAwdVEySlA3M0MzVkpzRHhDVEloN203ZndGSEMxdHVMdXZpUzlQZw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "b989638e2d4d",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "2분기 D램 시장, 전분기보다 60% 성장…삼성전자 1위",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-09-07 17:26",
+      "collected": "2026-09-08",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5jN25RWmlwYXF5VkJrQ20xUEZ5QlZsSkxOU0wyMXZlNGlYLWpVUkN4dHd5TTcwc2QwenVZR3hpbEcxN0pmSWJWajlQNFZNY1loNjdBQlpNamxtdnBwM3pvUks5XzVKLVE?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "9c4aaa8cc76b",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "세계 최초 V-낸드 개발한 이진엽 삼성 부사장, 과학기술훈장 혁신장 수상",
+      "source": "뉴시스",
+      "source_type": "통신사 보도",
+      "published": "2026-09-07 16:00",
+      "collected": "2026-09-08",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1XY3RfVkx6VEExU2NQX2Y0VUNjenVXblNZN2k5Wk5lb1JRXzR4LVpVU2xlNk1DVEdBTlVOcnhOUXRQZEJkd3NWR19vMTJqMVBLYmY5SUlDV1BpRnhNRmNHb3RITF92WklkYk5MeU4tSlhPemsxaUNZYtIBeEFVX3lxTE1XY3RfVkx6VEExU2NQX2Y0VUNjenVXblNZN2k5Wk5lb1JRXzR4LVpVU2xlNk1DVEdBTlVOcnhOUXRQZEJkd3NWR19vMTJqMVBLYmY5SUlDV1BpRnhNRmNHb3RITF92WklkYk5MeU4tSlhPemsxaUNZYg?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "f08e116885a4",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "피엔티, 반도체 유리기판·연료전지 장비 시장 공략",
+      "source": "디일렉",
+      "published": "2026-09-07 22:45",
+      "collected": "2026-09-08",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=61883",
+      "rss_description": "피엔티가 반도체 유리기판과 수소·연료전지 제조장비로 사업 영역을 확대한다. 배터리와 인쇄회로기판(PCB) 장비에서 확보한 도금·코팅 기술을 활용해 신규 장비 시장을 공략한다.피엔티는 오는 9~11일 인천 송도컨벤시아에서 열리는 'KPCAshow 2026'에 참가해 자체 개발한 유리관통전극(TGV) 도금장비를 선보인다고 7일 밝혔다.같은 기간 일본 치바현에서 열리는 'H2&FC EXPO 2026'에서는 연료전지 제조장비를 공개한다.TGV는 유리기판에 만든 미세 관통홀 내부를 금속으로 도금해 상·하부 회로를 연결하는 기술이다. 피엔티는",
+      "score": 32,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "피엔티가 기존 배터리 및 인쇄회로기판(PCB) 장비 기술을 활용해 반도체 유리기판과 연료전지 제조장비 시장으로 사업 영역을 확대한다. 회사는 자체 개발한 유리관통전극(TGV) 도금장비를 'KPCAshow 2026'에서 공개할 예정이다. 또한 일본 'H2&FC EXPO 2026'에서는 연료전지 제조장비를 선보이며 해외 연료전지 업체들을 대상으로 한 수주 활동에 나선다.",
+      "key_points": [
+        "피엔티가 전해도금 기술을 적용한 유리관통전극(TGV) 도금장비를 개발하여 KPCAshow 2026에서 공개한다.",
+        "TGV 도금장비는 기존 방식 대비 3배 이상의 도금 처리속도를 목표로 개발되었다.",
+        "연료전지 제조장비에는 기존 배터리 장비의 정밀 코팅 및 롤투롤 기술이 적용된다.",
+        "일본 H2&FC EXPO 2026 참가를 통해 해외 연료전지 업체를 대상으로 신규 장비 프로젝트 및 후속 수주를 추진한다."
+      ],
+      "numbers": [
+        "2026",
+        "9~11일",
+        "7일",
+        "3배"
+      ],
+      "keywords": [
+        "피엔티",
+        "반도체",
+        "유리기판",
+        "TGV",
+        "연료전지",
+        "도금장비"
+      ],
+      "stated_outlook": "해외 연료전지 업체를 대상으로 신규 장비 프로젝트와 후속 수주를 추진할 계획이다."
+    },
+    {
+      "id": "bc24500b9f65",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "1∼7월 전기차 배터리 사용량 20%↑…중국 업체 점유율 73%",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-09-07 10:11",
+      "collected": "2026-09-08",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4bGp5NThfWEJFcDJ6VEpodFVmUWFibFFxZGx3bVpCTm5YcHhSTGZIaFkxLWFoQ0VNTmNPRlNMZDhOWEtabWdzRC16b19YUFBUT2VxQnlBNm1pckXSAWBBVV95cUxPaV9GcXJKQ0d1YzNSWHVHaVlIZVQ1anF6N3luTHI1TEx1S0FFaTV5Mzhtc24zekt5bVN5cWdhSG91UGRGRVFLazBqQXRscmg4ekV3WEF3aWxzTDRFeGNCUy0?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "62c8309a65f8",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "1년 전 ‘구금 덫’ 벗어난 LG엔솔, 美 배터리 공급망 정상화",
+      "source": "IT조선",
+      "source_type": "산업 전문언론",
+      "published": "2026-09-08 07:00",
+      "collected": "2026-09-08",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9sT092cmtqaklsZnFNbzlEZEdkRGVLM0RoN2FSMzBjLXFSdHNSU2RzQXlzTWhLMmlDQlNFSzhDVUE4a0t0TFpORVhaWExxaHV0djNyczNXUFZnRG53elBBX0hxbTFQU084MEZ2OXpRNjB5WXFj0gF0QVVfeXFMT2xPT3Zya2pqSWxmcU1vOURkR2REZUszRGg3YVIzMGMtcVJ0c1JTZHNBeXNNaEsyaUNCU0VLOENVQThrS3RMWk5FWFpYTHFodXR2M3JzM1dQVmdEbnd6UEFfSHFtMVBTTzgwRnY5elE2MHlZcWM?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "77575095bddb",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "[AI 대전환 리딩 전략]삼성SDI, 데이터센터·로봇까지 영토 확장",
+      "source": "블로터",
+      "source_type": "산업 전문언론",
+      "published": "2026-09-08 08:30",
+      "collected": "2026-09-08",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02M21uTmRjOHJySDBOWDBoOXpLaXdRb3U5cmFNT1lsN2pQcVZNUFlkRHJkQzBMZ0psSWlUU196ZVZSSDB1N0xCMzhTNUxxdERqQ1Zrb1B5NGtua3RvWkF1QUJNaUxiNV9l0gFsQVVfeXFMTVNmOENINm1BMjBPbVVFekRlaVpMTTBGQ25jLWc4VWVRai14TnNQNC1qNVQtUjJNVlhQQXZNRHZQeExGSGpQTVpNMFB5RG5rb0JEeGZvT0w1LWRocnJLQzVSdmpvQVF0Ykp3ekFO?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    }
+  ],
+  "archive_items": [
+    {
+      "id": "bea4cebe76d0",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "SM벡셀 배터리사업부문, 건전지 첫 수출…태국 유통채널 납품",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-09-07 08:58",
+      "collected": "2026-09-07",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE94SmlKVXk1M0lhWGJvOTVrckRpSElwM2ppYnNDMEpIY1pxUEEyTXFDSHRITkFEd1JiRy1NWGtmQVcta1ZuNDloUWJ3cU9pNjV5eTB0WEM5RTAtS0dJLXVXa9IBYEFVX3lxTE94SmlKVXk1M0lhWGJvOTVrckRpSElwM2ppYnNDMEpIY1pxUEEyTXFDSHRITkFEd1JiRy1NWGtmQVcta1ZuNDloUWJ3cU9pNjV5eTB0WEM5RTAtS0dJLXVXaw?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "SM벡셀 배터리사업부문이 태국 재계 1위 CP그룹의 유통 계열사인 CP 엑스트라의 온·오프라인 유통채널에 알카라인 건전지를 납품하며 첫 해외 수출을 시작했다. 이번 납품은 벡셀 건전지의 글로벌 시장 진출 사례로서 태국을 동남아시아 시장 공략의 교두보로 삼았다는 데 의미가 있다. SM벡셀은 이번 납품을 기점으로 현지 안착에 주력할 방침이다. 또한, CP 엑스트라와 협력 관계를 강화하기 위해 전략적 업무협약(MOU)을 체결할 계획이다. SM벡셀은 이번 입점을 통해 자사의 품질과 기술력을 글로벌 시장에서 인정받은 것으로 평가하고 있다.",
+      "key_points": [
+        "SM벡셀이 태국 CP 엑스트라 유통채널에 알카라인 건전지를 납품하며 첫 해외 수출을 단행함",
+        "CP 엑스트라는 태국 재계 1위 CP그룹의 유통 계열사임",
+        "SM벡셀은 향후 CP 엑스트라와 전략적 업무협약(MOU)을 체결할 계획임"
+      ],
+      "numbers": [
+        "2026-09-07",
+        "2,600여 개",
+        "13,000여 개"
+      ],
+      "keywords": [
+        "SM벡셀",
+        "건전지",
+        "수출",
+        "태국",
+        "CP엑스트라"
+      ],
+      "stated_outlook": "SM벡셀은 현지 안착에 주력하는 한편, CP 엑스트라와 시너지 창출을 위한 전략적 업무협약(MOU)을 체결하고 동남아 배터리 시장 점유율을 높일 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "태국 유통 전문기업인 CP 엑스트라는 마크로, 로터스 등 2,600여 개의 매장과 13,000여 개의 세븐일레븐을 운영하고 있다."
+    },
+    {
+      "id": "210621492a28",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "에코프로, 하이니켈·전고체로 휴머노이드 로봇 배터리 공략",
+      "source": "디일렉",
+      "published": "2026-09-07 07:29",
+      "collected": "2026-09-07",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=61874",
+      "rss_description": "에코프로가 휴머노이드 로봇을 하이니켈 삼원계와 전고체 배터리의 신규 시장으로 낙점했다. 높은 에너지 밀도가 필요한 로봇 시장에서 관련 소재 기술을 확대할 계획이다.에코프로는 사내 소통 채널 '에코톡톡'에서 휴머노이드 로봇 시장 확대에 따른 배터리 사업 기회를 소개했다고 6일 밝혔다. 로봇의 무게와 작동 시간을 고려하면 리튬인산철(LFP)보다 에너지 밀도가 높은 삼원계 배터리가 시장을 주도할 것으로 전망했다.에코프로는 전고체 배터리가 로봇에 먼저 적용될 가능성이 높을 것으로 보고 있다. 상대적으로 높은 가격 때문에 로봇 등 고부가 시",
+      "score": 25,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "에코프로가 휴머노이드 로봇 시장을 하이니켈 삼원계와 전고체 배터리의 새로운 공략 대상으로 선정했다. 에너지 밀도가 중요한 로봇 시장에서 관련 소재 기술을 확대할 계획이다. 에코프로비엠은 전고체 배터리용 양극재와 황화물계 고체 전해질을 개발 중이며, 2027년 양산을 목표로 하고 있다.",
+      "key_points": [
+        "휴머노이드 로봇 시장에서 LFP보다 에너지 밀도가 높은 삼원계 배터리가 주도할 것으로 전망함",
+        "전고체 배터리는 가격 하락에 앞서 로봇 등 고부가 시장에 먼저 적용될 가능성이 높음",
+        "에코프로비엠은 현재 연산 40톤 규모의 고체전해질 파일럿 플랜트를 운영 중임"
+      ],
+      "numbers": [
+        "40톤",
+        "2027년"
+      ],
+      "keywords": [
+        "에코프로",
+        "에코프로비엠",
+        "휴머노이드 로봇",
+        "전고체 배터리",
+        "하이니켈",
+        "고체전해질"
+      ],
+      "stated_outlook": "로봇 시장에 전고체 배터리를 우선 적용한 뒤, 가격 하락에 따라 전기차로 적용 범위를 확대할 계획이다. 또한 2027년 전고체 배터리 양산을 목표로 라인 설계까지 완료한 상태이다."
+    },
     {
       "id": "f593299eb17c",
       "sector": "semiconductor",
@@ -69,39 +429,44 @@
       "industry_context": "국내 반도체 분업 생태계는 팹리스, 파운드리, 패키징, 테스트하우스, 디자인하우스 등으로 구성되어 있으나, 글로벌 시장에서의 비중은 선진국 대비 낮은 수준이다."
     },
     {
-      "id": "210621492a28",
+      "id": "fe3c355d268f",
       "sector": "battery",
       "region": "domestic",
       "category": "기술·공정",
-      "title": "에코프로, 하이니켈·전고체로 휴머노이드 로봇 배터리 공략",
-      "source": "디일렉",
-      "published": "2026-09-07 07:29",
+      "title": "\"휴머노이드 로봇 배터리 시장 선점\"...에코프로, 전고체 소재 풀 밸류체인 준비",
+      "source": "파이낸셜뉴스",
+      "source_type": "경제지 보도",
+      "published": "2026-09-06 11:51",
       "collected": "2026-09-07",
-      "link": "https://www.thelec.kr/news/articleView.html?idxno=61874",
-      "rss_description": "에코프로가 휴머노이드 로봇을 하이니켈 삼원계와 전고체 배터리의 신규 시장으로 낙점했다. 높은 에너지 밀도가 필요한 로봇 시장에서 관련 소재 기술을 확대할 계획이다.에코프로는 사내 소통 채널 '에코톡톡'에서 휴머노이드 로봇 시장 확대에 따른 배터리 사업 기회를 소개했다고 6일 밝혔다. 로봇의 무게와 작동 시간을 고려하면 리튬인산철(LFP)보다 에너지 밀도가 높은 삼원계 배터리가 시장을 주도할 것으로 전망했다.에코프로는 전고체 배터리가 로봇에 먼저 적용될 가능성이 높을 것으로 보고 있다. 상대적으로 높은 가격 때문에 로봇 등 고부가 시",
-      "score": 25,
-      "source_type": "산업 전문언론",
-      "source_rank": 5,
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mRjRpQmc0Q3dTaGdDeWxxNlRRdzJMcF9TSjlRamh5RktvQXNZVFByT3lyYU1jdnFRY29xT0lGcDg2bVRNTnVFRTJhR1NLSmlQMUwtMDdoR3lVQQ?oc=5",
+      "trusted_headline": true,
       "verified_source": true,
-      "overview": "에코프로가 휴머노이드 로봇 시장을 하이니켈 삼원계와 전고체 배터리의 새로운 공략 대상으로 선정했다. 에너지 밀도가 중요한 로봇 시장에서 관련 소재 기술을 확대할 계획이다. 에코프로비엠은 전고체 배터리용 양극재와 황화물계 고체 전해질을 개발 중이며, 2027년 양산을 목표로 하고 있다.",
+      "summary_status": "summarized",
+      "overview": "에코프로가 휴머노이드 로봇 시장의 성장에 발맞춰 하이니켈 삼원계 배터리와 전고체 배터리를 중심으로 시장 선점에 나선다. 로봇의 작동 성능과 구동 시간에 유리한 고에너지 밀도의 하이니켈 삼원계 배터리를 주력으로 하되, 전고체 배터리 기술을 통해 미래 경쟁력을 확보하겠다는 구상이다. 에코프로비엠은 황화물계 고체전해질 개발과 고도화 성과를 인정받아 산업통상부의 '슈퍼을 프로젝트'에 선정되었다. 회사는 로봇 시장에 전고체 배터리를 우선 적용해 가격 경쟁력을 확보한 뒤 전기차 시장으로 확산을 추진할 계획이다. 현재 파일럿 플랜트 운영 및 품질 검증을 마쳤으며, 2027년 양산을 목표로 설비 체계를 준비하고 있다.",
       "key_points": [
-        "휴머노이드 로봇 시장에서 LFP보다 에너지 밀도가 높은 삼원계 배터리가 주도할 것으로 전망함",
-        "전고체 배터리는 가격 하락에 앞서 로봇 등 고부가 시장에 먼저 적용될 가능성이 높음",
-        "에코프로비엠은 현재 연산 40톤 규모의 고체전해질 파일럿 플랜트를 운영 중임"
+        "에코프로비엠이 산업통상부 '슈퍼을 프로젝트'에 선정되어 황화물계 고체전해질 개발 고도화 진행",
+        "에코프로비엠은 연산 40t 규모의 파일럿 플랜트를 운영 중이며 주요 배터리 업체의 품질 검증 통과",
+        "전고체 배터리용 양극재를 기존 삼원계 생산라인에서 생산할 수 있도록 공정 최적화 완료",
+        "2027년 전고체 배터리 양산을 목표로 즉시 착공 가능한 설비 체계 구축"
       ],
       "numbers": [
-        "40톤",
+        "2035년",
+        "380억달러",
+        "약 52조원",
+        "140만대",
+        "40t",
         "2027년"
       ],
       "keywords": [
         "에코프로",
-        "에코프로비엠",
         "휴머노이드 로봇",
         "전고체 배터리",
-        "하이니켈",
-        "고체전해질"
+        "고체전해질",
+        "슈퍼을 프로젝트"
       ],
-      "stated_outlook": "로봇 시장에 전고체 배터리를 우선 적용한 뒤, 가격 하락에 따라 전기차로 적용 범위를 확대할 계획이다. 또한 2027년 전고체 배터리 양산을 목표로 라인 설계까지 완료한 상태이다."
+      "stated_outlook": "전고체 배터리를 로봇 시장에 우선 적용하여 가격을 낮춘 뒤 전기차로 확산시킬 계획이며, 2027년 양산을 목표로 준비 중이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "삼성, 현대차, LG 등 대기업이 휴머노이드 로봇 사업 경쟁을 가속화함에 따라 고에너지 밀도의 배터리 수요가 증가하고 있다. 골드만삭스는 세계 휴머노이드 로봇 시장 규모가 2035년까지 380억달러(약 52조원)에 달하고 연간 출하량이 140만대를 넘을 것으로 전망했다."
     },
     {
       "id": "4728574046fd",
@@ -143,84 +508,6 @@
       "summary_source": "pasted_text",
       "industry_context": "AI 데이터센터 확대 및 전력망 투자 증가로 대규모 ESS 수요가 빠르게 늘고 있으며, 미국의 비금지외국기관(Non-PFE) 공급망 요구 강화로 인해 현지 생산이 가능한 국내 배터리 업체들에 새로운 시장 기회가 열리고 있음."
     },
-    {
-      "id": "fe3c355d268f",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "\"휴머노이드 로봇 배터리 시장 선점\"...에코프로, 전고체 소재 풀 밸류체인 준비",
-      "source": "파이낸셜뉴스",
-      "source_type": "경제지 보도",
-      "published": "2026-09-06 11:51",
-      "collected": "2026-09-07",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mRjRpQmc0Q3dTaGdDeWxxNlRRdzJMcF9TSjlRamh5RktvQXNZVFByT3lyYU1jdnFRY29xT0lGcDg2bVRNTnVFRTJhR1NLSmlQMUwtMDdoR3lVQQ?oc=5",
-      "trusted_headline": true,
-      "verified_source": true,
-      "summary_status": "summarized",
-      "overview": "에코프로가 휴머노이드 로봇 시장의 성장에 발맞춰 하이니켈 삼원계 배터리와 전고체 배터리를 중심으로 시장 선점에 나선다. 로봇의 작동 성능과 구동 시간에 유리한 고에너지 밀도의 하이니켈 삼원계 배터리를 주력으로 하되, 전고체 배터리 기술을 통해 미래 경쟁력을 확보하겠다는 구상이다. 에코프로비엠은 황화물계 고체전해질 개발과 고도화 성과를 인정받아 산업통상부의 '슈퍼을 프로젝트'에 선정되었다. 회사는 로봇 시장에 전고체 배터리를 우선 적용해 가격 경쟁력을 확보한 뒤 전기차 시장으로 확산을 추진할 계획이다. 현재 파일럿 플랜트 운영 및 품질 검증을 마쳤으며, 2027년 양산을 목표로 설비 체계를 준비하고 있다.",
-      "key_points": [
-        "에코프로비엠이 산업통상부 '슈퍼을 프로젝트'에 선정되어 황화물계 고체전해질 개발 고도화 진행",
-        "에코프로비엠은 연산 40t 규모의 파일럿 플랜트를 운영 중이며 주요 배터리 업체의 품질 검증 통과",
-        "전고체 배터리용 양극재를 기존 삼원계 생산라인에서 생산할 수 있도록 공정 최적화 완료",
-        "2027년 전고체 배터리 양산을 목표로 즉시 착공 가능한 설비 체계 구축"
-      ],
-      "numbers": [
-        "2035년",
-        "380억달러",
-        "약 52조원",
-        "140만대",
-        "40t",
-        "2027년"
-      ],
-      "keywords": [
-        "에코프로",
-        "휴머노이드 로봇",
-        "전고체 배터리",
-        "고체전해질",
-        "슈퍼을 프로젝트"
-      ],
-      "stated_outlook": "전고체 배터리를 로봇 시장에 우선 적용하여 가격을 낮춘 뒤 전기차로 확산시킬 계획이며, 2027년 양산을 목표로 준비 중이다.",
-      "summary_source": "pasted_text",
-      "industry_context": "삼성, 현대차, LG 등 대기업이 휴머노이드 로봇 사업 경쟁을 가속화함에 따라 고에너지 밀도의 배터리 수요가 증가하고 있다. 골드만삭스는 세계 휴머노이드 로봇 시장 규모가 2035년까지 380억달러(약 52조원)에 달하고 연간 출하량이 140만대를 넘을 것으로 전망했다."
-    },
-    {
-      "id": "bea4cebe76d0",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "산업",
-      "title": "SM벡셀 배터리사업부문, 건전지 첫 수출…태국 유통채널 납품",
-      "source": "연합뉴스",
-      "source_type": "통신사 보도",
-      "published": "2026-09-07 08:58",
-      "collected": "2026-09-07",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE94SmlKVXk1M0lhWGJvOTVrckRpSElwM2ppYnNDMEpIY1pxUEEyTXFDSHRITkFEd1JiRy1NWGtmQVcta1ZuNDloUWJ3cU9pNjV5eTB0WEM5RTAtS0dJLXVXa9IBYEFVX3lxTE94SmlKVXk1M0lhWGJvOTVrckRpSElwM2ppYnNDMEpIY1pxUEEyTXFDSHRITkFEd1JiRy1NWGtmQVcta1ZuNDloUWJ3cU9pNjV5eTB0WEM5RTAtS0dJLXVXaw?oc=5",
-      "trusted_headline": true,
-      "verified_source": true,
-      "summary_status": "summarized",
-      "overview": "SM벡셀 배터리사업부문이 태국 재계 1위 CP그룹의 유통 계열사인 CP 엑스트라의 온·오프라인 유통채널에 알카라인 건전지를 납품하며 첫 해외 수출을 시작했다. 이번 납품은 벡셀 건전지의 글로벌 시장 진출 사례로서 태국을 동남아시아 시장 공략의 교두보로 삼았다는 데 의미가 있다. SM벡셀은 이번 납품을 기점으로 현지 안착에 주력할 방침이다. 또한, CP 엑스트라와 협력 관계를 강화하기 위해 전략적 업무협약(MOU)을 체결할 계획이다. SM벡셀은 이번 입점을 통해 자사의 품질과 기술력을 글로벌 시장에서 인정받은 것으로 평가하고 있다.",
-      "key_points": [
-        "SM벡셀이 태국 CP 엑스트라 유통채널에 알카라인 건전지를 납품하며 첫 해외 수출을 단행함",
-        "CP 엑스트라는 태국 재계 1위 CP그룹의 유통 계열사임",
-        "SM벡셀은 향후 CP 엑스트라와 전략적 업무협약(MOU)을 체결할 계획임"
-      ],
-      "numbers": [
-        "2026-09-07",
-        "2,600여 개",
-        "13,000여 개"
-      ],
-      "keywords": [
-        "SM벡셀",
-        "건전지",
-        "수출",
-        "태국",
-        "CP엑스트라"
-      ],
-      "stated_outlook": "SM벡셀은 현지 안착에 주력하는 한편, CP 엑스트라와 시너지 창출을 위한 전략적 업무협약(MOU)을 체결하고 동남아 배터리 시장 점유율을 높일 계획이다.",
-      "summary_source": "pasted_text",
-      "industry_context": "태국 유통 전문기업인 CP 엑스트라는 마크로, 로터스 등 2,600여 개의 매장과 13,000여 개의 세븐일레븐을 운영하고 있다."
-    }
-  ],
-  "archive_items": [
     {
       "id": "35bb7f89914e",
       "sector": "semiconductor",
