@@ -229,13 +229,32 @@
       "collected": "2026-09-08",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1XY3RfVkx6VEExU2NQX2Y0VUNjenVXblNZN2k5Wk5lb1JRXzR4LVpVU2xlNk1DVEdBTlVOcnhOUXRQZEJkd3NWR19vMTJqMVBLYmY5SUlDV1BpRnhNRmNHb3RITF92WklkYk5MeU4tSlhPemsxaUNZYtIBeEFVX3lxTE1XY3RfVkx6VEExU2NQX2Y0VUNjenVXblNZN2k5Wk5lb1JRXzR4LVpVU2xlNk1DVEdBTlVOcnhOUXRQZEJkd3NWR19vMTJqMVBLYmY5SUlDV1BpRnhNRmNHb3RITF92WklkYk5MeU4tSlhPemsxaUNZYg?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "과학기술정보통신부는 7일 서울에서 '2026 기술개발인의 날' 기념식을 열고 민간 연구개발 유공자에게 정부포상을 수여했다. 이번 행사는 기술개발인의 날이 법정 국가기념일로 승격된 이후 처음 개최된 행사로 산·학·연 주요 인사가 참석했다. 이진엽 삼성전자 부사장은 1Gb 낸드플래시 양산과 3D 낸드플래시 개발 공로로 과학기술훈장 혁신장을 수상했다. 이번 포상은 위장질환 신약, 고용량 서버 메모리, 반도체 장비 및 디지털 접근성 기술 등 분야별 기술 혁신을 이끈 연구자와 기업을 대상으로 진행되었다. 이를 통해 민간 주도의 기술 경쟁력 강화와 기술 혁신 생태계 조성의 중요성이 강조되었다.",
+      "key_points": [
+        "2026년 기술개발인의 날을 맞아 총 55점의 정부포상 및 관련 기관 표창이 수여됨",
+        "이진엽 삼성전자 부사장이 1Gb 낸드플래시 양산 및 V-낸드 개발 공로로 과학기술훈장 혁신장을 받음",
+        "송근석 HK이노엔 부사장과 장지은 SK하이닉스 부사장이 과학기술훈장 웅비장을 수상함",
+        "반도체 장비 국산화, AI 기반 디지털 정보 접근성 기술 등 다양한 분야에서 기술 유공자 포상 진행"
+      ],
+      "numbers": [
+        "2026년 9월 7일",
+        "55점",
+        "45만명",
+        "61만명"
+      ],
+      "keywords": [
+        "기술개발인의 날",
+        "과학기술훈장",
+        "삼성전자",
+        "V-낸드",
+        "반도체",
+        "기술유공자"
+      ],
+      "stated_outlook": "",
+      "summary_source": "pasted_text",
+      "industry_context": "기술개발인은 기업부설연구소에서 연구개발 활동을 전담하는 인력으로 2024년 기준 약 45만 명에 달하며, 이는 전국 연구인력 61만 명의 70% 이상을 차지한다."
     },
     {
       "id": "f08e116885a4",
