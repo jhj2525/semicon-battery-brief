@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-08 09:27 KST",
-  "last_automatic_update_at": "2026-09-08 09:27 KST",
-  "automatic_cycle_started_at": "2026-09-08 09:25 KST",
+  "updated_at": "2026-09-08 10:14 KST",
+  "last_automatic_update_at": "2026-09-08 10:14 KST",
+  "automatic_cycle_started_at": "2026-09-08 10:13 KST",
   "publication_window": {
-    "from": "2026-09-07 09:25 KST",
-    "to": "2026-09-08 09:25 KST"
+    "from": "2026-09-07 10:13 KST",
+    "to": "2026-09-08 10:13 KST"
   },
-  "today_verified_count": 11,
+  "today_verified_count": 1,
   "current_items": [
     {
       "id": "d47f245ad6a0",
@@ -286,6 +286,26 @@
       "published": "2026-09-08 08:30",
       "collected": "2026-09-08",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02M21uTmRjOHJySDBOWDBoOXpLaXdRb3U5cmFNT1lsN2pQcVZNUFlkRHJkQzBMZ0psSWlUU196ZVZSSDB1N0xCMzhTNUxxdERqQ1Zrb1B5NGtua3RvWkF1QUJNaUxiNV9l0gFsQVVfeXFMTVNmOENINm1BMjBPbVVFekRlaVpMTTBGQ25jLWc4VWVRai14TnNQNC1qNVQtUjJNVlhQQXZNRHZQeExGSGpQTVpNMFB5RG5rb0JEeGZvT0w1LWRocnJLQzVSdmpvQVF0Ykp3ekFO?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "58d4cc1f61fd",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "광운대, 볼타·中하이나배터리와 차세대 이차전지 연구·사업화 협약",
+      "source": "뉴시스",
+      "source_type": "통신사 보도",
+      "published": "2026-09-07 17:09",
+      "collected": "2026-09-08",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Bd1B2eklsRkYzaERQbkVZRDRtYVoyS0RQZ3BkMnhDNVNlOXpHZlF3SG9pSTZLREgxZjdzZDBaMUw4SDVFZUo1WGVMYl9nSEpqeEF1NndtbUxhU3IteDVqSFFlQ1BfeFp4UUF3YjNxQkVVREZ1Wk1qQtIBeEFVX3lxTE5Bd1B2eklsRkYzaERQbkVZRDRtYVoyS0RQZ3BkMnhDNVNlOXpHZlF3SG9pSTZLREgxZjdzZDBaMUw4SDVFZUo1WGVMYl9nSEpqeEF1NndtbUxhU3IteDVqSFFlQ1BfeFp4UUF3YjNxQkVVREZ1Wk1qQg?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
