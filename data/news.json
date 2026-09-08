@@ -347,13 +347,34 @@
       "collected": "2026-09-08",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9sT092cmtqaklsZnFNbzlEZEdkRGVLM0RoN2FSMzBjLXFSdHNSU2RzQXlzTWhLMmlDQlNFSzhDVUE4a0t0TFpORVhaWExxaHV0djNyczNXUFZnRG53elBBX0hxbTFQU084MEZ2OXpRNjB5WXFj0gF0QVVfeXFMT2xPT3Zya2pqSWxmcU1vOURkR2REZUszRGg3YVIzMGMtcVJ0c1JTZHNBeXNNaEsyaUNCU0VLOENVQThrS3RMWk5FWFpYTHFodXR2M3JzM1dQVmdEbnd6UEFfSHFtMVBTTzgwRnY5elE2MHlZcWM?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "LG에너지솔루션은 지난해 근로자 구금 사태로 중단되었던 조지아주 현대차그룹 합작 공장 건설을 마치고 가동 준비를 완료했다. 최근 미시간주 랜싱 공장 가동을 시작하며 북미 내 ESS 5대 생산거점 체계를 구축하고, 전기차와 ESS 라인을 유연하게 전환하는 복합 생산 전략을 본격화했다. SK온은 미국 조지아주 공장의 일부 라인을 ESS용 LFP 라인으로 전환하며 네오볼타 파워와 대규모 공급 계약을 체결했다. 삼성SDI 역시 삼성디스플레이 지분 매각 대금을 활용해 미국 인디애나주 배터리 합작공장 투자를 가속화하고 있다. 국내 배터리 3사는 생산라인의 LFP 전환과 현지 거점 확보를 통해 북미 시장 수요에 대응하고 있다.",
+      "key_points": [
+        "LG에너지솔루션은 조지아주 현대차 합작 공장을 준공하고 랜싱 공장을 포함한 북미 내 ESS 5대 생산거점을 완성했다.",
+        "SK온은 미국 조지아주 공장 일부를 ESS용 LFP 라인으로 전환 중이며, 네오볼타 파워와 9GWh 규모의 공급 계약을 체결했다.",
+        "삼성SDI는 삼성디스플레이 지분 매각을 통해 확보한 4조 4,499억원을 미국 인디애나주 배터리 합작공장 투자 등에 활용할 계획이다.",
+        "LG에너지솔루션은 미국 스맥오버 리튬과 15억달러 규모의 탄산리튬 장기 구매 계약을 체결하여 원재료 공급망을 강화했다."
+      ],
+      "numbers": [
+        "2026-09-08",
+        "30GWh",
+        "35GWh",
+        "15억달러",
+        "4조 4,499억원",
+        "9GWh"
+      ],
+      "keywords": [
+        "LG에너지솔루션",
+        "SK온",
+        "삼성SDI",
+        "북미 배터리 공급망",
+        "ESS",
+        "LFP 배터리"
+      ],
+      "stated_outlook": "LG에너지솔루션은 연말까지 북미 ESS 생산능력을 50GWh 이상으로 늘리고 전사 연간 매출을 전년 대비 20% 이상 성장시키는 것을 목표로 한다.",
+      "summary_source": "pasted_text",
+      "industry_context": "전기차 수요 둔화에 따라 배터리 제조사들은 전기차용 생산라인을 ESS용 LFP 배터리 라인으로 탄력적으로 전환하며 제품 포트폴리오를 다변화하고 있다."
     },
     {
       "id": "77575095bddb",
@@ -13194,7 +13215,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-08 21:15 KST",
+  "manual_updated_at": "2026-09-08 21:16 KST",
   "favorite_items": [
     {
       "id": "4728574046fd",
