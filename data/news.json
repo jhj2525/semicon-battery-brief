@@ -388,13 +388,34 @@
       "collected": "2026-09-08",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02M21uTmRjOHJySDBOWDBoOXpLaXdRb3U5cmFNT1lsN2pQcVZNUFlkRHJkQzBMZ0psSWlUU196ZVZSSDB1N0xCMzhTNUxxdERqQ1Zrb1B5NGtua3RvWkF1QUJNaUxiNV9l0gFsQVVfeXFMTVNmOENINm1BMjBPbVVFekRlaVpMTTBGQ25jLWc4VWVRai14TnNQNC1qNVQtUjJNVlhQQXZNRHZQeExGSGpQTVpNMFB5RG5rb0JEeGZvT0w1LWRocnJLQzVSdmpvQVF0Ykp3ekFO?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "삼성SDI는 전기차 시장의 성장 둔화에 대응하여 AI 데이터센터 및 로봇용 배터리를 새로운 성장 동력으로 육성하고 있다. AI 데이터센터의 고성능 가속기 가동으로 급증하는 전력 수요를 충족하기 위해 ESS, UPS, BBU용 고출력 배터리 공급을 확대 중이다. 실제 올해 2분기 배터리 사업이 흑자 전환하는 데 AI 데이터센터 관련 수요가 기여했다. 또한 삼성SDI는 휴머노이드 등 피지컬 AI 시장을 겨냥해 고출력 원통형 배터리 및 전고체 배터리 기술 개발에도 속도를 내고 있다. 이를 통해 전기차에 편중되었던 사업 영역을 다각화하며 배터리 기술의 적용처를 전방위로 넓히고 있다.",
+      "key_points": [
+        "삼성SDI는 AI 데이터센터용 ESS, UPS, BBU 등 고출력 배터리 공급을 확대하고 있다.",
+        "올해 2분기 삼성SDI 배터리 사업은 매출 3조 5190억 원, 영업이익 1593억 원으로 흑자 전환했다.",
+        "피지컬 AI 시장을 겨냥해 고출력 원통형 배터리 적용을 확대하고 전고체 배터리 '솔리드스택'을 개발 중이다.",
+        "데이터센터 배터리 기반 UPS의 신규 용량은 지난해 45기가와트(GW)로 전년 대비 30% 증가했다."
+      ],
+      "numbers": [
+        "2026-09-08",
+        "2분기 매출 3조 7688억 원",
+        "2분기 영업이익 2038억 원",
+        "배터리 매출 3조 5190억 원",
+        "배터리 영업이익 1593억 원",
+        "45기가와트(GW)"
+      ],
+      "keywords": [
+        "삼성SDI",
+        "데이터센터",
+        "피지컬AI",
+        "ESS",
+        "전고체배터리",
+        "UPS"
+      ],
+      "stated_outlook": "삼성SDI는 AI 데이터센터 수요에 대응해 관련 배터리 생산능력을 늘리고 있으며, 2027년 하반기 양산을 목표로 전고체 배터리 샘플 테스트를 진행하고 있다.",
+      "summary_source": "pasted_text",
+      "industry_context": "AI 모델의 학습과 추론을 위한 GPU 등 고성능 가속기 사용이 늘면서 대규모 데이터센터의 전력 수요가 급증하고 있으며, 휴머노이드 등 피지컬 AI가 발전함에 따라 고에너지 밀도와 안전성을 갖춘 배터리의 필요성이 커지고 있다."
     },
     {
       "id": "58d4cc1f61fd",
