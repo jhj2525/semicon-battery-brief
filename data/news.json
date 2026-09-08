@@ -169,13 +169,33 @@
       "collected": "2026-09-08",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yR0ZQUGNlNkF3OEtOdGVCemdIQVczREtHN3VCVHNBdUZDaTB6ellDbjhieFAwdVEySlA3M0MzVkpzRHhDVEloN203ZndGSEMxdHVMdXZpUzlQZw?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "DB하이텍이 중국 AI 데이터센터 및 로봇 시장에서의 수요 급증으로 8인치 파운드리 공급 부족 현상을 겪으며 주가 상승세를 보이고 있다. KB증권은 이러한 수급 불균형과 실적 개선 기대감을 반영하여 DB하이텍의 목표주가를 기존 17만원에서 20만원으로 상향 조정했다. 회사는 올해 3월과 9월에 각각 파운드리 가격을 인상하며 수익성 개선을 추진하고 있다. 선두 업체들이 12인치 시장에 집중하면서 8인치 생산능력이 감소하는 구조적 상황도 회사의 실적에 긍정적인 영향을 미치고 있다. 증권가는 연내 추가 가격 인상 가능성 및 내년 이후의 가격 인상 기조를 전망하고 있다.",
+      "key_points": [
+        "DB하이텍의 3분기 매출은 전년 동기 대비 9.7% 증가한 4112억원, 영업이익은 49.9% 증가한 1208억원으로 전망됨.",
+        "DB하이텍은 올해 3월 5% 가격 인상에 이어 9월에 10% 규모의 2차 가격 인상을 단행함.",
+        "KB증권은 DB하이텍에 대해 투자의견 '매수'를 유지하고 목표주가를 20만원으로 상향함.",
+        "8인치 파운드리 시장의 공급 부족으로 인해 연내 세 번째 가격 인상 가능성이 제기됨."
+      ],
+      "numbers": [
+        "2026년 9월 8일",
+        "4.27%",
+        "10만5100원",
+        "20만원",
+        "4112억원",
+        "1208억원"
+      ],
+      "keywords": [
+        "DB하이텍",
+        "파운드리",
+        "8인치",
+        "공급 부족",
+        "반도체"
+      ],
+      "stated_outlook": "KB증권은 DB하이텍이 경쟁 업체의 가격 인상 추세에 맞춰 연내 세 번째 가격 인상에 나설 것으로 보며, 내년에도 가격 인상 기조가 이어져 2027년에는 두 차례 추가 인상이 가능할 것으로 전망했다.",
+      "summary_source": "pasted_text",
+      "industry_context": "TSMC와 삼성전자 등 선두 파운드리 업체들이 12인치 시장에 집중함에 따라 8인치 파운드리의 생산능력은 감소하고 있다. 반면 중국 AI 데이터센터와 로봇 시장의 성장으로 8인치 반도체 수요는 급증하고 있으며, 대만 업체들의 포토닉스용 생산이 8인치로 집중되면서 수급 불균형이 심화되는 추세다."
     },
     {
       "id": "b989638e2d4d",
