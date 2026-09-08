@@ -429,13 +429,29 @@
       "collected": "2026-09-08",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Bd1B2eklsRkYzaERQbkVZRDRtYVoyS0RQZ3BkMnhDNVNlOXpHZlF3SG9pSTZLREgxZjdzZDBaMUw4SDVFZUo1WGVMYl9nSEpqeEF1NndtbUxhU3IteDVqSFFlQ1BfeFp4UUF3YjNxQkVVREZ1Wk1qQtIBeEFVX3lxTE5Bd1B2eklsRkYzaERQbkVZRDRtYVoyS0RQZ3BkMnhDNVNlOXpHZlF3SG9pSTZLREgxZjdzZDBaMUw4SDVFZUo1WGVMYl9nSEpqeEF1NndtbUxhU3IteDVqSFFlQ1BfeFp4UUF3YjNxQkVVREZ1Wk1qQg?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "광운대학교가 국내 에너지솔루션 기업 볼타, 중국 하이나배터리와 함께 소디움 이온 배터리(SIB) 분야의 연구 및 사업화를 위한 3자 업무협약을 체결했다. 이번 협약으로 하이나배터리의 원천·제조 기술, 광운대의 연구개발(R&D) 및 인재 양성 역량, 볼타의 에너지저장장치(BESS) 실증 및 사업화 실행력이 결합된다. 세 기관은 기술개발 실증과 산업 현장 상용화를 목표로 글로벌 산학연 협력 생태계를 구축할 계획이다. 향후 석박사급 연구 인재 교류와 공동 R&D 추진을 통해 연구실 단위의 기술을 실제 산업 현장에 안착시킬 예정이다.",
+      "key_points": [
+        "광운대, 볼타, 하이나배터리가 소디움 이온 배터리 연구 및 사업화 3자 협약 체결",
+        "하이나배터리는 중국과학원 물리연구소 연구 성과 기반의 원천 기술을 제공",
+        "볼타는 국내 BESS 분야의 실증 및 사업화를 담당",
+        "광운대는 기술개발 R&D 지원 및 핵심 연구 인재 양성을 수행"
+      ],
+      "numbers": [
+        "2026년 9월 2일",
+        "2026년 9월 7일"
+      ],
+      "keywords": [
+        "광운대",
+        "소디움 이온 배터리",
+        "볼타",
+        "하이나배터리",
+        "산학연 협력"
+      ],
+      "stated_outlook": "소디움 이온 배터리의 원가 경쟁력과 안전성을 바탕으로 가파른 성장이 기대되며, 기술이 실제 산업 현장과 상용화 시장으로 빠르게 안착할 것으로 전망된다.",
+      "summary_source": "pasted_text",
+      "industry_context": "소디움 이온 배터리(SIB)는 원가 경쟁력과 안전성을 기반으로 성장이 기대되는 차세대 이차전지 분야이다."
     }
   ],
   "archive_items": [
