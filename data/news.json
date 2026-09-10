@@ -394,13 +394,31 @@
       "collected": "2026-09-09",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoNGJON2FMVy1nVmNoSzdZQWNOaE56ZEFwdWRPRWNaVWV0ejgxR0paSktJbnppRjZIbXI2TUkyZDFaVGJ0S1pjZFpLX08xdmhKVnktWi1RUG96NXZlUjNyQg?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "UNIST 에너지화학공학과 고현협 교수팀이 물속 이온의 농도 차이를 이용해 직류 전기를 생산하는 초소형 박막 수분 발전기를 개발했다. 해당 발전기는 터빈을 돌리는 기존 방식과 달리 발전기 구조 자체에서 이온 농도 차이를 유도해 전기를 생성한다. 크기는 가로 5㎜, 세로 7㎜로 손톱보다 작으며 박막 두께는 15μm 수준이다. 실험 결과 3μL의 물만으로 최대 45시간 동안 전압 출력이 가능함을 확인했다. 실제로 이를 이용해 디지털시계를 직접 구동하는 성과를 거두어 초소형 전원 장치로서의 활용 가능성을 보였다.",
+      "key_points": [
+        "UNIST 고현협 교수팀, 물속 양이온 농도 차 활용 박막 발전기 개발",
+        "발전기 크기는 가로 5㎜, 세로 7㎜로 손톱보다 작은 규모",
+        "물 3μL 투입 시 최대 45시간 동안 전압 출력 및 디지털시계 구동 가능"
+      ],
+      "numbers": [
+        "3μL",
+        "45시간",
+        "가로 5㎜",
+        "세로 7㎜",
+        "15μm"
+      ],
+      "keywords": [
+        "UNIST",
+        "박막 발전기",
+        "수분 발전",
+        "초소형 발전기",
+        "이온 농도 차"
+      ],
+      "stated_outlook": "",
+      "summary_source": "pasted_text",
+      "industry_context": ""
     },
     {
       "id": "22be9cf1a192",
@@ -14611,7 +14629,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-11 00:32 KST",
+  "manual_updated_at": "2026-09-11 00:33 KST",
   "favorite_items": [
     {
       "id": "bbaf558b99b6",
