@@ -1011,13 +1011,31 @@
       "collected": "2026-09-08",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5jN25RWmlwYXF5VkJrQ20xUEZ5QlZsSkxOU0wyMXZlNGlYLWpVUkN4dHd5TTcwc2QwenVZR3hpbEcxN0pmSWJWajlQNFZNY1loNjdBQlpNamxtdnBwM3pvUks5XzVKLVE?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "2026년 2분기 세계 D램 시장 매출이 전분기 대비 약 60% 성장하며 1,547억 달러를 기록했다. 시장조사업체 트렌드포스는 대형언어모델 학습과 인공지능(AI) 추론 확산에 따른 수요 증가가 이번 매출 성장을 견인했다고 분석했다. 기업별 실적에서 삼성전자는 전분기보다 63.4% 증가한 609억 8천만 달러의 매출을 달성하며 업계 1위를 유지했다. SK하이닉스는 37.9% 늘어난 385억 9천만 달러의 매출을 기록하며 삼성전자의 뒤를 이었다. 인공지능 기술의 대중화가 메모리 반도체 시장의 가파른 성장을 이끄는 주요 동력으로 작용하고 있다.",
+      "key_points": [
+        "2분기 세계 D램 산업 매출은 전분기 대비 60% 가까이 증가한 1,547억 달러임.",
+        "삼성전자는 매출 609억 8천만 달러를 기록하며 시장 점유율 39% 이상으로 1위를 지킴.",
+        "SK하이닉스는 전분기 대비 37.9% 증가한 385억 9천만 달러의 매출을 기록함."
+      ],
+      "numbers": [
+        "2026년 2분기",
+        "1,547억 달러",
+        "609억 8천만 달러",
+        "385억 9천만 달러",
+        "39%"
+      ],
+      "keywords": [
+        "D램",
+        "삼성전자",
+        "SK하이닉스",
+        "인공지능",
+        "트렌드포스"
+      ],
+      "stated_outlook": "",
+      "summary_source": "pasted_text",
+      "industry_context": "대형언어모델(LLM) 학습 및 인공지능(AI) 추론 확산으로 인해 메모리 수요가 증가함."
     },
     {
       "id": "58d4cc1f61fd",
