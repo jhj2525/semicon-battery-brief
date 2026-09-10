@@ -355,13 +355,32 @@
       "collected": "2026-09-09",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9KdjR0OGluM0dOZTRoLWlsbzdtdzNHVFpJU09pNDhMbVJFRER5ZjA4S00yNmRlX0VXRzViRkJNU1Q4OVcyZDJSTnVmSmxPTmdYNUtkbERGdm1kZFlobkhSYQ?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "SNE리서치 조사 결과, 올해 1~7월 중국을 제외한 글로벌 시장에서 국내 배터리 3사의 시장 점유율이 27.2%로 전년 동기 대비 10.4%P 하락했다. 해당 기간 국내 3사의 배터리 사용량은 86.1GWh로 전년 대비 8.9% 감소했으며, 이는 북미 시장에서의 사용량이 42.9% 급감한 영향이 컸다. 반면 중국 CATL과 BYD 등 중국계 기업들은 가격 경쟁력을 앞세워 유럽과 아시아 등지에서 점유율을 확대하며 한국 기업과의 격차를 벌리고 있다. 이에 따라 국내 배터리 기업들은 기존과는 다른 새로운 전략적 대응이 요구되는 상황이다.",
+      "key_points": [
+        "올해 1~7월 중국 제외 글로벌 시장 배터리 사용량은 316GWh로 전년 대비 25.8% 증가했으나, 국내 3사 사용량은 8.9% 감소함",
+        "국내 3사의 북미 전기차 배터리 사용량이 지난해 38.8GWh에서 올해 22.2GWh로 42.9% 급감함",
+        "같은 기간 CATL의 점유율은 34.0%로 4.3%P, BYD의 점유율은 10.6%로 2.7%P 상승함"
+      ],
+      "numbers": [
+        "1~7월",
+        "316GWh",
+        "25.8%",
+        "86.1GWh",
+        "8.9%",
+        "37.6%→27.2%"
+      ],
+      "keywords": [
+        "K배터리",
+        "전기차 배터리",
+        "SNE리서치",
+        "시장 점유율",
+        "중국 기업"
+      ],
+      "stated_outlook": "향후 지역별 수요 흐름과 정책 환경이 경쟁력을 좌우할 전망이며, 가격 경쟁력 외에도 지역별 생산 거점 효율, 고객 다변화, 차세대 배터리 대응력 및 공급망 추적성 확보가 핵심 변수가 될 것임",
+      "summary_source": "pasted_text",
+      "industry_context": "중국 내 전기차 시장이 포화 상태에 이르면서 중국 외 시장이 전 세계 전기차 시장의 성장을 주도하고 있으며, 중국계 업체들이 리튬인산철(LFP) 제품과 현지 생산 전략을 통해 글로벌 공급 영역을 빠르게 확대하고 있다."
     },
     {
       "id": "a63027432da8",
@@ -14592,7 +14611,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-10 11:40 KST",
+  "manual_updated_at": "2026-09-11 00:32 KST",
   "favorite_items": [
     {
       "id": "bbaf558b99b6",
