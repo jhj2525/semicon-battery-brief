@@ -615,20 +615,40 @@
       "sector": "battery",
       "region": "domestic",
       "category": "투자·양산",
-      "title": "[올댓차이나] 中, 에너지저장용 배터리 신규 공장 승인 중단",
+      "title": "中, 에너지저장용 배터리 신규 공장 승인 중단",
       "source": "뉴시스",
       "source_type": "통신사 보도",
       "published": "2026-09-08 17:35",
       "collected": "2026-09-09",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5teWVycmcxMVJLVFNnREFfMW4yYWhhVERqWHhJU3MwNVZLNXVyODg5RUhCcUZNaklxUk1sS3dQbmM3VVdaYi1xZTYwbUNKTDVWdHhGZUlSWmFpT09mSFl0RGp1ajk0SkdjeUt4TUpnTVU1Tk9jX2JuQtIBeEFVX3lxTE5teWVycmcxMVJLVFNnREFfMW4yYWhhVERqWHhJU3MwNVZLNXVyODg5RUhCcUZNaklxUk1sS3dQbmM3VVdaYi1xZTYwbUNKTDVWdHhGZUlSWmFpT09mSFl0RGp1ajk0SkdjeUt4TUpnTVU1Tk9jX2JuQg?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "중국 당국이 에너지저장용 배터리의 생산능력 과잉 우려가 커짐에 따라 신규 생산시설에 대한 승인을 일시적으로 중단했다. 현재 관계 당국은 기존 및 계획 중인 배터리 셀 중심의 생산능력을 전면 점검하고 있다. 이번 조치에 따라 착공 전인 신규 사업은 승인이 당분간 보류될 예정이다. 다만 이미 등록을 마치고 건설 중인 사업은 이번 규제의 영향을 받지 않는다. 당국은 향후 시장의 실제 수요에 따라 정책을 탄력적으로 조정할 방침이다.",
+      "key_points": [
+        "중국 당국이 에너지저장용 배터리 신규 생산시설 승인을 일시 중단함",
+        "착공 전 신규 사업은 보류되나, 이미 건설 중인 사업은 제외됨",
+        "2026년 6월 말 기준 중국 신형 에너지저장장치 누적 설치용량은 168.3GW로 1년 전 대비 59% 증가함",
+        "배터리 셀 생산 과잉으로 인한 가격 인하 경쟁이 심화되고 있음"
+      ],
+      "numbers": [
+        "2026년 6월 말",
+        "168.3GW",
+        "59%",
+        "448.7GWh",
+        "71%",
+        "15%"
+      ],
+      "keywords": [
+        "중국",
+        "에너지저장용 배터리",
+        "생산능력",
+        "공장 승인",
+        "공급 과잉"
+      ],
+      "stated_outlook": "생산능력 확충을 전면 중단하는 것은 아니며, 향후 시장의 실제 수요에 따라 정책을 탄력적으로 조정할 가능성이 있음.",
+      "summary_source": "pasted_text",
+      "industry_context": "에너지저장용 배터리는 전력망 수급 조절 및 비상 전원으로 활용되며, 재생에너지 보급 확대로 인해 최근 수년간 급성장했다. 그러나 과도한 기업 경쟁으로 인한 생산능력 과잉과 가격 하락 압력이 커지면서 산업의 합리적인 성장이 요구되고 있다."
     },
     {
       "id": "8d7b73a90ebe",
@@ -14645,7 +14665,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-11 00:34 KST",
+  "manual_updated_at": "2026-09-11 00:35 KST",
   "favorite_items": [
     {
       "id": "fea80ae9e7f0",
