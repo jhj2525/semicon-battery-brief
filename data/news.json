@@ -8864,6 +8864,159 @@
   "semi_archive_items": [],
   "manual_items": [
     {
+      "id": "bbaf558b99b6",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "SK하이닉스, 지난해 하루 용수 사용 17만톤 절감",
+      "source": "전자신문",
+      "source_type": "직접 선택",
+      "published": "2026-09-10 18:21",
+      "collected": "2026-09-10",
+      "link": "https://www.etnews.com/20260910000034",
+      "requested_link": "https://www.etnews.com/20260910000034",
+      "rss_description": "SK하이닉스, 지난해 하루 용수 사용 17만톤 절감",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "SK하이닉스가 반도체 생산 공정에서 수자원 관리 성과를 높이며 환경 경영을 강화하고 있다. 지난해 국내 사업장에서 하루 평균 17만톤의 용수 사용을 절감했으며, 이는 약 55만명이 사용하는 생활용수와 맞먹는 규모다. 기업은 공정 개선과 수자원 재이용 확대를 통해 생산 효율과 환경 보호를 동시에 꾀하고 있다. 이러한 노력은 향후 수자원 절감 목표 달성을 위한 기반이 될 전망이다. 반도체 생산에 필수적인 물 사용을 최소화하고 재활용률을 높이는 관리 체계가 시장의 ESG 경영 흐름에 중요한 영향을 미치고 있다.",
+      "industry_context": "SK하이닉스는 대한민국에 본사를 둔 글로벌 반도체 기업으로, 메모리 반도체를 주력으로 생산한다. 반도체 제조 공정은 대량의 용수를 사용하는 만큼, 수자원 관리 및 폐수 처리 기술은 생산 공급망 내에서 핵심적인 경쟁력으로 평가받는다.",
+      "key_points": [
+        "SK하이닉스, 지난해 하루 평균 17만톤 규모의 용수 사용 절감 달성",
+        "2018년부터 '용·폐수 절감 태스크포스(TF)' 운영을 통해 수자원 관리 체계 고도화",
+        "지난해까지 누적 수자원 절감량 3억337만톤 달성으로 당초 목표치 초과 달성"
+      ],
+      "numbers": [
+        "17만톤(하루 평균 용수 절감량)",
+        "2030년(누적 6억톤 절감 목표 시점)",
+        "3억337만톤(지난해까지 누적 절감량)",
+        "2억6400만톤(기존 누적 절감 목표치)",
+        "7359만톤(지난해 용수 재이용량)"
+      ],
+      "keywords": [
+        "SK하이닉스",
+        "반도체",
+        "수자원관리",
+        "ESG경영",
+        "재이용"
+      ],
+      "stated_outlook": "2030년까지 누적 6억톤의 수자원을 절감하고, 올해는 누적 절감량을 3억2900만톤까지 높일 계획이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "6b3f9301fffb",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "덕산하이메탈, 글로벌 1위 솔더볼 기술력 공개",
+      "source": "디일렉",
+      "source_type": "직접 선택",
+      "published": "2026-09-10 14:57",
+      "collected": "2026-09-10",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=62053",
+      "requested_link": "https://www.thelec.kr/news/articleView.html?idxno=62053",
+      "rss_description": "덕산하이메탈, 글로벌 1위 솔더볼 기술력 공개 - 디일렉(THE ELEC)",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "인공지능 반도체와 고성능 서버 시장이 확대되면서 반도체 첨단 패키징 공정의 미세화가 가속화되고 있다. 이에 따라 반도체 칩과 기판을 연결하는 접합 소재인 솔더볼 또한 더욱 정밀해지고 있다. 덕산하이메탈은 머리카락보다 얇은 마이크로솔더볼을 수마이크로미터(㎛) 수준의 공차로 생산하며 기술력을 입증했다. 회사는 이러한 정밀 소재를 통해 솔더 토탈 솔루션 공급을 강화하며 시장 경쟁력을 높이고 있다.",
+      "industry_context": "덕산하이메탈은 반도체 소재를 전문으로 하는 한국 기업으로, 반도체 칩과 기판을 전기적으로 연결하는 핵심 소재인 솔더볼 분야에서 글로벌 점유율 1위를 차지하고 있다. 이 회사는 솔더볼 외에도 솔더페이스트, 플럭스, 구리 기둥(Cu-Post) 등 다양한 접합 소재 기술을 보유하고 있으며, 첨단 반도체 패키징 시장의 공급망에서 중요한 위치를 차지하고 있다.",
+      "key_points": [
+        "덕산하이메탈이 'KPCA Show 2026'에서 차세대 반도체용 솔더 소재 기술을 전시함",
+        "첨단 패키징 미세화 트렌드에 대응하여 마이크로솔더볼 등 고성능 접합 소재 라인업 확보",
+        "구리 코어를 활용한 CSB와 미세 피치 구현에 유리한 Cu-Post 등 토탈 솔루션 역량 강화"
+      ],
+      "numbers": [
+        "2026년 9월 9일 ~ 11일(KPCA Show 2026 기간)"
+      ],
+      "keywords": [
+        "덕산하이메탈",
+        "솔더볼",
+        "마이크로솔더볼",
+        "첨단패키징",
+        "솔더페이스트",
+        "반도체 소재"
+      ],
+      "stated_outlook": "AI 등 빠르게 성장하는 첨단 산업에 맞춰 고성능 소재를 지속 공급해 글로벌 시장을 이끌겠다는 계획이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "27458785a8a4",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "ݵü 赵, AI ׸١ＺSK ָ",
+      "source": "news.nate.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-10 11:23",
+      "collected": "2026-09-10",
+      "link": "https://news.nate.com/view/20260908n02751",
+      "requested_link": "https://news.nate.com/view/20260908n02751",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "814a9c5a8553",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "LG화학, AI 패키징용 DAF 로드맵",
+      "source": "n.news.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-10 11:23",
+      "collected": "2026-09-10",
+      "link": "https://n.news.naver.com/mnews/article/030/0003463970",
+      "requested_link": "https://n.news.naver.com/mnews/article/030/0003463970",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "245e6f08be14",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”",
+      "source": "news.skhynix.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-10 11:23",
+      "collected": "2026-09-10",
+      "link": "https://news.skhynix.com/en/future-forum-2026",
+      "requested_link": "https://news.skhynix.com/en/future-forum-2026",
+      "rss_description": "SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward” | SK hynix Newsroom",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "SK 하이닉스는 'AI 시대의 골든타임: AI 메모리 솔루션 크리에이터가 세상을 바꾸는 순간'을 주제로 2026년 미래 포럼을 개최했다. 이번 포럼은 AI가 업무 방식과 환경을 변화시키는 시대에 발맞춰 메모리 기술이 나아가야 할 방향을 정의하고자 마련되었다. 회사는 단순히 메모리 기기를 공급하는 단계를 넘어, 파트너사들과 시스템 수준에서 공동 설계하는 '풀스택(Full-Stack) AI 메모리 크리에이터'로의 도약을 선언했다. 특히 3D 메모리 기술이 차세대 핵심 경쟁력이 될 것으로 보고, 이를 구현하기 위한 설계 최적화와 공정 혁신 전략을 논의했다. 또한 현장 데이터와 AI를 결합한 작업 환경 혁신을 통해 생산성 향상과 효율적인 판단 체계를 구축할 계획이다.",
+      "industry_context": "SK 하이닉스는 대한민국에 본사를 둔 세계적인 메모리 반도체 제조 기업이다. 주력 사업으로 D램(DRAM)과 낸드플래시(NAND) 등을 포함한 다양한 메모리 솔루션을 공급하고 있다. 최근에는 AI 고성능 컴퓨팅 환경에 필수적인 HBM(High Bandwidth Memory)과 같은 고대역폭 메모리 시장에서 강력한 공급망 위치를 확보하고 있다.",
+      "key_points": [
+        "AI 환경 변화에 따라 단일 범용 메모리에서 업무 부하별 최적화된 풀스택 AI 메모리 솔루션으로 패러다임 전환",
+        "3D 메모리를 차세대 기술로 정의하고 재료, 소자, 패키징, 아키텍처 등 4개 영역의 통합 설계 프레임워크 추진",
+        "AI 분석을 통해 공정 내 이상을 진단하고 판단하는 시스템 구축 등 제조 공정 전반의 지능화(AX) 추진"
+      ],
+      "numbers": [
+        "2026년 9월 8일"
+      ],
+      "keywords": [
+        "SK 하이닉스",
+        "미래 포럼",
+        "AI 메모리",
+        "풀스택",
+        "3D 메모리",
+        "AX"
+      ],
+      "stated_outlook": "AI 시대의 골든타임에 맞춰 메모리 디바이스 공급자를 넘어 파트너사와 함께 AI 시스템을 공동 설계하는 풀스택 AI 메모리 크리에이터로 도약하는 것을 목표로 한다.",
+      "summary_status": "summarized"
+    },
+    {
       "id": "fb911d95a802",
       "sector": "battery",
       "region": "global",
@@ -8883,6 +9036,86 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": ""
+    },
+    {
+      "id": "beb58955f996",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "유진테크, 반도체장비 생산능력 확대에 864억원 투자",
+      "source": "leadeconomy.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-09-10 01:40",
+      "collected": "2026-09-10",
+      "link": "https://www.leadeconomy.co.kr/news/articleView.html?idxno=9641",
+      "requested_link": "https://www.leadeconomy.co.kr/news/articleView.html?idxno=9641",
+      "rss_description": "유진테크, 반도체장비 생산능력 확대에 864억원 투자 - 리드경제",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "유진테크가 반도체 장비 생산능력을 확충하기 위해 대규모 신규 시설투자를 단행한다. 이번 투자는 기존 호법공장 부지 내 공장 신축과 관련 시설 구축을 포함하며 중장기적인 고객사 수요에 대응하기 위한 결정이다. 총 864억 원이 투입될 예정으로 이는 회사 자기자본의 17.57%에 달하는 규모다. 이번 증설을 통해 유진테크는 반도체 제조 공정에 필요한 장비 공급 역량을 강화할 것으로 전망된다. 투자금에는 공장 신축 외에도 클린룸 및 유틸리티 등 생산 효율화를 위한 부대시설 비용이 포함되었다.",
+      "industry_context": "유진테크는 대한민국에 본사를 둔 반도체 전공정 장비 전문 기업이다. 반도체 제조 공정에 필수적인 증착 장비 등을 개발 및 공급하며 글로벌 반도체 공급망 내에서 핵심 장비 공급업체로 활동하고 있다.",
+      "key_points": [
+        "유진테크, 반도체 장비 생산능력 확대를 위해 864억 원 투자 결정",
+        "투자 금액은 자기자본 대비 17.57% 규모",
+        "기존 호법공장 부지 내 공장 신축 및 클린룸, 유틸리티 등 시설 투자 포함",
+        "투자 기간은 2026년 10월 1일부터 2028년 1월 15일까지"
+      ],
+      "numbers": [
+        "864억 원",
+        "17.57%",
+        "2026년 10월 1일",
+        "2028년 1월 15일"
+      ],
+      "keywords": [
+        "유진테크",
+        "반도체장비",
+        "시설투자",
+        "호법공장",
+        "증착장비"
+      ],
+      "stated_outlook": "중장기 고객 수요에 대응하기 위한 생산능력 확대 및 경영 환경 변화에 따른 투자 변동 가능성",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "ef701c44100f",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "DB하이텍, 8인치 SiC 파운드리 양산 눈앞",
+      "source": "디일렉",
+      "source_type": "직접 선택",
+      "published": "2026-09-10 01:29",
+      "collected": "2026-09-10",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=62029",
+      "requested_link": "https://www.thelec.kr/news/articleView.html?idxno=62029",
+      "rss_description": "DB하이텍, 8인치 SiC 파운드리 양산 눈앞 - 디일렉(THE ELEC)",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "DB하이텍이 8인치 실리콘카바이드(SiC) 파운드리 양산을 위해 1200V급 SiC 모스펫 신뢰성 검증을 마쳤다. 이를 통해 차세대 전력반도체 시장 진출을 본격화하며 오는 11월 고객사에 3세대 공정설계키트(PDK)를 제공할 예정이다. 회사는 이번 3세대 PDK 적용 시 반도체 설계 기간을 1년 이상 단축할 수 있을 것으로 보고 있다. 내년 상반기 양산을 목표로 하고 있으며, 향후 시장 수요에 따라 생산 능력을 단계적으로 확대할 계획이다.",
+      "industry_context": "DB하이텍은 한국의 대표적인 시스템 반도체 파운드리 기업으로, 주로 8인치 웨이퍼 기반의 전력반도체와 센서 등을 위탁 생산해왔다. 현재 SiC 반도체 시장은 일반 실리콘 웨이퍼와 다른 특수 공정이 필요하며, 기술적 난이도가 높은 200mm 웨이퍼 양산 체제 확보가 업계의 핵심 과제로 꼽힌다.",
+      "key_points": [
+        "DB하이텍이 1200V급 SiC 모스펫 신뢰성 검증을 완료하고 8인치 파운드리 양산 준비를 마침",
+        "11월 고객사에 제공할 3세대 PDK는 비저항 개선 및 쇼트 내구성 강화를 통해 설계 효율을 높임",
+        "경쟁사인 SK키파운드리 역시 내년 상반기 양산을 목표로 하고 있어 시장 선점 경쟁이 치열함"
+      ],
+      "numbers": [
+        "1200V",
+        "11월",
+        "2.3mΩ·㎠",
+        "2.5mΩ·㎠",
+        "2.5마이크로초",
+        "내년 상반기"
+      ],
+      "keywords": [
+        "DB하이텍",
+        "SiC",
+        "파운드리",
+        "8인치",
+        "전력반도체",
+        "PDK"
+      ],
+      "stated_outlook": "내년 상반기 양산을 목표로 하며, 양산 체제 구축 후 추가 고객사를 확보하고 시장 수요에 맞춰 생산 능력을 단계적으로 확대할 계획임.",
+      "summary_status": "summarized"
     },
     {
       "id": "fbd5d61af0f3",
@@ -8939,6 +9172,84 @@
         "전기차배터리"
       ],
       "stated_outlook": "미 의회는 연내 중국산 차량 금지 조치를 통과시키고 BYD 등 중국 업체들이 예외 승인을 받지 못하도록 강경한 대응을 추진 중이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "d618cd5319d6",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "태성, KPCA 쇼 2026서 TGV 공정 장비 3종 알린다",
+      "source": "디일렉",
+      "source_type": "직접 선택",
+      "published": "2026-09-09 20:56",
+      "collected": "2026-09-10",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=62006",
+      "requested_link": "https://www.thelec.kr/news/articleView.html?idxno=62006",
+      "rss_description": "태성, KPCA 쇼 2026서 TGV 공정 장비 3종 알린다 - 디일렉(THE ELEC)",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "태성이 국제 반도체 기판·첨단 패키징 산업전(KPCA 쇼) 2026에 참가하여 유리기판 생산을 위한 핵심 공정 장비를 공개한다. 이번 전시에서 태성은 유리기판 내 미세 구멍을 형성하는 TGV(유리관통전극) 공정에 최적화된 식각, 세정, 도금 장비 3종을 선보인다. 이는 AI 반도체 고성능화에 따른 차세대 패키징 시장 수요에 대응하기 위한 조치이다. 태성은 기존 PCB 제조 장비에서 축적한 기술력을 바탕으로 고객사별 맞춤형 양산 솔루션을 제공하며 시장 공략을 본격화하고 있다.",
+      "industry_context": "태성은 대한민국 기업으로, 주로 인쇄회로기판(PCB) 제조용 장비를 주력으로 개발 및 공급해 온 소재·장비 전문 업체이다. 최근 인공지능(AI)과 고성능 연산(HPC) 시장의 확대로 차세대 패키징 소재인 유리기판 기술의 중요성이 높아지면서, 기존 기판 장비 역량을 유리기판 공정으로 확장하고 있다.",
+      "key_points": [
+        "태성이 KPCA 쇼 2026에서 유리기판 TGV 공정용 식각·세정·도금 장비 3종을 공개함",
+        "유리기판은 플라스틱 대비 표면이 평평해 미세 회로 구현이 유리하고 변형이 적어 차세대 패키징 소재로 주목받음",
+        "태성은 현재 주요 고객사와 유리기판 장비 공급 협의를 진행 중임"
+      ],
+      "numbers": [
+        "2026.09.09",
+        "9월 9일 ~ 11일"
+      ],
+      "keywords": [
+        "태성",
+        "유리기판",
+        "TGV",
+        "KPCA쇼",
+        "반도체패키징",
+        "식각장비"
+      ],
+      "stated_outlook": "태성은 이달 내 유리기판 장비 관련 신규 수주 성과가 나올 것으로 기대하고 있다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "ee81eda97b70",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "삼성전자, 요코하마에 첨단패키징 연구소 개소",
+      "source": "전자신문",
+      "source_type": "직접 선택",
+      "published": "2026-09-09 04:32",
+      "collected": "2026-09-10",
+      "link": "https://www.etnews.com/20260908000386",
+      "requested_link": "https://www.etnews.com/20260908000386",
+      "rss_description": "삼성전자, 요코하마에 첨단패키징 연구소 개소",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "삼성전자가 일본 요코하마에 '어드밴스드 패키지 랩'을 새롭게 열고 반도체 기술 경쟁력 강화에 나섰다. 이번 연구소 설립을 통해 삼성전자는 인공지능(AI) 가속기와 고대역폭 메모리(HBM) 등을 묶는 핵심 후공정 기술인 첨단 패키징 분야를 집중 개발할 계획이다. 이를 위해 글로벌 연구개발(R&D) 거점을 구축하고 일본 현지의 소재·부품·장비 기업 및 연구시설과의 협력을 본격화한다. 특히 기술 개발과 인력 확보에 유리한 요코하마의 입지를 활용해 차세대 패키징 기술을 선도하겠다는 전략이다.",
+      "industry_context": "삼성전자는 대한민국에 본사를 둔 세계적인 반도체 및 전자 제품 제조 기업으로, 메모리 반도체와 파운드리 등 광범위한 반도체 사업을 주력으로 영위하고 있다. 요코하마는 도쿄대학교 등 주요 교육기관과 레조낙, 디스코와 같은 세계적 반도체 소부장 기업들이 밀집해 있어 반도체 연구 생태계 측면에서 전략적 요충지로 평가받는다.",
+      "key_points": [
+        "삼성전자가 일본 요코하마에 첨단 패키징 기술 연구를 위한 '어드밴스드 패키지 랩'을 개소했다.",
+        "2024년부터 5년간 약 400억엔(약 3500억원)을 투입하여 첨단 패키징 R&D를 추진한다.",
+        "2027년까지 100명 이상의 연구 인력을 확보하고 현지 생태계와 협력을 강화할 방침이다."
+      ],
+      "numbers": [
+        "2026-09-08",
+        "2024년",
+        "5년",
+        "400억엔",
+        "약 3500억원",
+        "2027년"
+      ],
+      "keywords": [
+        "삼성전자",
+        "첨단패키징",
+        "요코하마",
+        "어드밴스드패키지랩",
+        "반도체",
+        "후공정"
+      ],
+      "stated_outlook": "차세대 패키징 기술 개발을 위한 글로벌 연구개발 거점으로 활용하고, 일본 현지의 소재·부품·장비 기업 및 연구시설 등과 협력을 강화할 계획이다.",
       "summary_status": "summarized"
     },
     {
@@ -9043,6 +9354,27 @@
       "summary_status": "summarized"
     },
     {
+      "id": "0ae06bfb1c47",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "삼성전자, ASML 차세대 극자외선 장비 적용 D램 첫 양산 추진 | 연합뉴스",
+      "source": "연합뉴스",
+      "source_type": "직접 선택",
+      "published": "2026-09-09 00:27",
+      "collected": "2026-09-10",
+      "link": "https://www.yna.co.kr/view/AKR20260908122300003",
+      "requested_link": "https://www.yna.co.kr/view/AKR20260908122300003",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "연합뉴스 이용 조건에 따라 제목과 원문 링크만 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
       "id": "1e8dfa003b61",
       "sector": "battery",
       "region": "domestic",
@@ -9080,6 +9412,27 @@
       ],
       "stated_outlook": "우량예는 이빈시 내 전고체배터리 생산 수요를 공략하여 사업성을 확보할 것으로 기대하고 있다.",
       "summary_status": "summarized"
+    },
+    {
+      "id": "13ac465c0a9a",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "기술·공정",
+      "title": "LG이노텍, 반도체 유리기판 공정에 AI 심는다",
+      "source": "전자신문",
+      "source_type": "직접 선택",
+      "published": "2026-09-08 02:00",
+      "collected": "2026-09-10",
+      "link": "https://www.etnews.com/20260907000125",
+      "requested_link": "https://www.etnews.com/20260907000125",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
     },
     {
       "id": "d419572f73c3",
@@ -14239,7 +14592,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-10 10:42 KST",
+  "manual_updated_at": "2026-09-10 11:24 KST",
   "favorite_items": [
     {
       "id": "4728574046fd",
