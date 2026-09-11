@@ -375,13 +375,28 @@
       "collected": "2026-09-11",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE96bmk5LTZKbmxRN3FSbElWWTVUQXMwTmh0SGcyMEkwQlJ6VDZXQ0JLVk5FX19QZEFzT0p6TjFJdzFhTXBxbmtseER5T1FBdw?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "무인항공기 기업 프리뉴가 네오배터리머티리얼즈 및 네오배터리머티리얼즈코리아(NBMK)와 드론용 배터리 공동 개발을 위한 업무협약을 체결했다. 이번 협력을 통해 프리뉴는 자사의 드론 기체 기술과 운용 데이터를 제공하고, 네오배터리 측은 고에너지밀도 배터리셀 및 팩 설계 역량을 지원한다. 양사는 개발된 배터리의 비행시험과 검증을 함께 수행하며 기술 표준화 및 핵심 부품 국산화에 나선다. 또한 캐나다 정부와 공공기관의 드론 사업을 공동 발굴하고 현지 시장 진출을 추진한다. 최종적으로는 드론 플랫폼과 배터리를 결합한 통합 솔루션을 공급할 계획이다.",
+      "key_points": [
+        "프리뉴와 네오배터리머티리얼즈가 드론용 배터리 개발 및 캐나다 진출을 위한 협약 체결",
+        "네오배터리머티리얼즈코리아(NBMK)가 기술 개발, 생산 및 국내외 사업화 지원",
+        "프리뉴 드론에 최적화된 고에너지밀도 배터리셀 및 팩 공동 개발",
+        "캐나다 정부 및 공공 조달 시장을 겨냥한 통합 솔루션 공급 추진"
+      ],
+      "numbers": [
+        "2026-09-10"
+      ],
+      "keywords": [
+        "프리뉴",
+        "네오배터리머티리얼즈",
+        "드론",
+        "배터리",
+        "캐나다"
+      ],
+      "stated_outlook": "국산 드론 핵심 부품 국산화 및 기술 표준화 수준을 높이고 캐나다를 비롯한 해외 시장에서 경쟁력을 확대할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "무인항공기 핵심 부품의 국산화와 기술 표준화 필요성이 증대되고 있다."
     }
   ],
   "archive_items": [
