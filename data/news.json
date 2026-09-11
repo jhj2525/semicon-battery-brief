@@ -206,13 +206,33 @@
       "collected": "2026-09-11",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1XMUwycnZ1enNxY0k5Q3FPcGpZM1pUVVhCSTBsQi1mMmJFNlBmal9rcHA4dkFQYUNUeE9KRVlDSlBicy1LNE1NTkpKMmdidw?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "피지컬 AI 기업 아이엘이 실리콘카바이드(SiC) 전력반도체 장비 전문 기업 리드엔지니어링을 인수하며 반도체 장비 사업으로 영역을 확장한다. 아이엘은 리드엔지니어링 지분 80%를 128억 원에 인수하는 주식매매계약을 체결했으며, 잔여 지분 20%에 대한 콜옵션도 확보했다. 이번 인수를 통해 아이엘은 리드의 고온 열처리 장비 기술과 기존 고객 레퍼런스를 확보해 신규 장비 상용화를 추진할 계획이다. 또한 차세대 전력반도체 시장을 겨냥해 질화갈륨(GaN) 등 관련 사업 확대 가능성도 검토하고 있다. 인수 후에도 리드의 경영진과 기술 인력을 유지해 사업의 연속성을 이어갈 방침이다.",
+      "key_points": [
+        "아이엘이 리드엔지니어링 지분 80%를 128억 원에 인수하는 주식매매계약을 체결함.",
+        "인수 대금은 현금 50억 원과 전환사채(CB) 78억 원으로 구성됨.",
+        "리드엔지니어링은 2006년 설립되어 퍼니스와 급속열처리장비(RTP) 등 반도체 고온 열처리 장비를 주력으로 개발해옴.",
+        "아이엘은 이번 인수를 통해 고온 열처리 기술 확보 및 SiC 전력반도체 장비 사업화를 가속화할 방침임."
+      ],
+      "numbers": [
+        "80%",
+        "128억 원",
+        "160억 원",
+        "50억 원",
+        "78억 원",
+        "8467원"
+      ],
+      "keywords": [
+        "아이엘",
+        "리드엔지니어링",
+        "SiC 전력반도체",
+        "인수합병",
+        "열처리 장비"
+      ],
+      "stated_outlook": "기존 퍼니스 사업 경쟁력을 높이고 SiC RTP와 옥시데이터 등 신규 장비 상용화를 추진할 계획이며, 향후 질화갈륨(GaN) 등 차세대 전력반도체 장비로 사업 확대를 검토 중임.",
+      "summary_source": "pasted_text",
+      "industry_context": "SiC 전력반도체는 높은 전압과 전력밀도를 효율적으로 처리할 수 있어 전기차, AI 데이터센터 전력공급장치, ESS, 신재생에너지, 전력망 등으로 적용처가 확대되는 추세다."
     },
     {
       "id": "e1ba48d8040c",
@@ -15125,7 +15145,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-11 13:11 KST",
+  "manual_updated_at": "2026-09-11 13:14 KST",
   "favorite_items": [
     {
       "id": "dd6ad8b39276",
