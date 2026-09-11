@@ -15078,6 +15078,41 @@
   "manual_updated_at": "2026-09-11 13:02 KST",
   "favorite_items": [
     {
+      "id": "75a5aa8d9ca7",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "현대차그룹, LG엔솔·원익피앤이와 EV 폐배터리 ESS로 재활용 실증",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-09-10 15:34",
+      "collected": "2026-09-11",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9qQ2EwclVfaXZPdFFaeUc5Rl96bEdPNFpSdVB3LXNfVkdPQWhLc0Naa2lhX0ROemZEbmd5ODd4YVVObXJwOXlUU3B4R09sSVpyMkZzZHF6LXpwNkEtTXVlc9IBYEFVX3lxTE9qQ2EwclVfaXZPdFFaeUc5Rl96bEdPNFpSdVB3LXNfVkdPQWhLc0Naa2lhX0ROemZEbmd5ODd4YVVObXJwOXlUU3B4R09sSVpyMkZzZHF6LXpwNkEtTXVlcw?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "현대차그룹이 LG에너지솔루션, 원익피앤이와 협력하여 전기차(EV) 사용 후 배터리를 활용한 에너지저장장치(ESS) 실증 사업에 착수했다. 이번 협력은 경기 화성시 원익피앤이 동탄 사업장에서 진행되는 'EV 사용 후 배터리 기반 UBESS 실증 협력'을 통해 추진된다. 현대차그룹은 현대엔지니어링과 함께 해당 프로젝트에 참여하며 전기차 폐배터리의 재활용 기술 검증에 나선다. 이번 프로젝트는 배터리 에너지 저장 장치의 효율적인 활용 방안을 모색하고 자원 선순환 체계를 구축하려는 목적으로 진행된다.",
+      "key_points": [
+        "현대차그룹, LG에너지솔루션, 원익피앤이가 EV 폐배터리 기반 ESS 실증을 위해 협력한다.",
+        "2026년 9월 10일 경기 화성시 원익피앤이 동탄 사업장에서 관련 기념행사와 테이프 커팅식이 열렸다.",
+        "현대엔지니어링도 현대차그룹의 일원으로 실증 협력에 참여한다."
+      ],
+      "numbers": [
+        "2026년 9월 10일"
+      ],
+      "keywords": [
+        "현대차그룹",
+        "LG에너지솔루션",
+        "원익피앤이",
+        "폐배터리",
+        "ESS"
+      ],
+      "stated_outlook": "",
+      "summary_source": "pasted_text",
+      "industry_context": "",
+      "favorited_at": "2026-09-11 13:02 KST"
+    },
+    {
       "id": "df63b3fbf9e1",
       "sector": "battery",
       "region": "domestic",
