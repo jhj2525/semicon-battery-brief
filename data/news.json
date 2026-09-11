@@ -263,13 +263,33 @@
       "collected": "2026-09-11",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5OdGd3VngzN3BsZmw0RDBFM3Ffem9mX2pKUnZpd0hNTU0xeUZabnNBWmFod2ZnbGNaeEV5WG42Wk5Obi12cmMzT0xHbzVwQ3NWSkE?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "스탠다드 리튬(SLI)은 자회사 SWA Lithium을 통해 LG에너지솔루션과 10년간 총 8만 톤 규모의 배터리급 탄산리튬을 공급하는 장기 계약을 체결했다. 양사는 연간 8,000톤의 물량을 공급하고 구매하는 의무 조항과 납기 지연에 따른 페널티 조항을 명시해 계약 이행의 확실성을 높였다. 또한 이번 계약에는 LG에너지솔루션이 지정한 양극재 제조업체로의 직접 공급 옵션이 포함되었다. LG에너지솔루션은 스탠다드 리튬의 프로젝트 자금 조달 시 상업적으로 합리적인 범위 내에서 협력하고 필요한 보증을 제공하기로 합의했다. 이번 계약은 양사 간의 전략적 협력을 통해 북미 생산 탄산리튬의 안정적인 공급망을 확보한다는 점에서 의미가 있다.",
+      "key_points": [
+        "스탠다드 리튬과 LG에너지솔루션 간 10년간 총 8만 톤 규모의 탄산리튬 공급계약 체결",
+        "양사 간 의무 구매 및 납기 지연에 대한 페널티 조항 명시",
+        "LG에너지솔루션의 프로젝트 자금 조달 및 수출신용기관 지원 협력 합의",
+        "LG에너지솔루션 지정 양극재 업체로의 제품 직접 공급 옵션 포함"
+      ],
+      "numbers": [
+        "10년",
+        "8만톤",
+        "8,000톤",
+        "8월 27일",
+        "9월 10일",
+        "180일"
+      ],
+      "keywords": [
+        "스탠다드 리튬",
+        "LG에너지솔루션",
+        "탄산리튬",
+        "공급계약",
+        "배터리"
+      ],
+      "stated_outlook": "이번 장기 공급계약은 스탠다드 리튬의 사업 안정성을 높이고 LG에너지솔루션의 배터리 원료 공급망 확보에 기여할 것으로 전망된다.",
+      "summary_source": "pasted_text",
+      "industry_context": "배터리 원료 공급망 확보 및 북미 지역 생산 탄산리튬의 안정적 확보를 위한 전략적 협력"
     },
     {
       "id": "75a5aa8d9ca7",
