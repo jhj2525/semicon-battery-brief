@@ -226,13 +226,31 @@
       "collected": "2026-09-11",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DbHdNWjZsZkdleDhBNXlCLUwxNUlHTWZEakpvbVpnYlJQZV93dFZYNWpiMWxkbjJESVdMekJmbzBOQVlaWGNic0pJTjVvcGljU24xQWtDNnhQX25RNGtaQ0pILXhCY0txRmtYTTZIbzdwZEh1QlYwMdIBeEFVX3lxTE1DbHdNWjZsZkdleDhBNXlCLUwxNUlHTWZEakpvbVpnYlJQZV93dFZYNWpiMWxkbjJESVdMekJmbzBOQVlaWGNic0pJTjVvcGljU24xQWtDNnhQX25RNGtaQ0pILXhCY0txRmtYTTZIbzdwZEh1QlYwMQ?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "대만의 세계 최대 파운드리 업체 TSMC의 2026년 8월 매출이 전년 동월 대비 53.3% 급증한 5148억600만 대만달러를 기록하며 월간 기준 사상 최대치를 경신했다. 이번 실적 급등은 인공지능(AI) 반도체 수요가 지속되는 가운데 애플 신형 아이폰용 2나노미터 공정 반도체 출하가 본격화된 결과다. TSMC는 급증하는 첨단 반도체 수요에 대응하기 위해 2026년 자본지출 규모를 최대 640억 달러로 예상하며 생산능력을 대폭 확대하고 있다. 8월까지 32개월 연속 전년 동월 대비 매출 증가세를 유지하고 있는 TSMC는 올해 매출 증가율이 40%를 상회할 것으로 내다보고 있다.",
+      "key_points": [
+        "TSMC 2026년 8월 매출이 전년 동월 대비 53.3% 증가한 5148억600만 대만달러 기록",
+        "AI 수요 확대와 애플 신형 아이폰용 2나노 반도체 출하 본격화가 매출 성장을 견인",
+        "2026년 연간 자본지출 규모를 600억~640억 달러로 예상하며 설비 투자 확대",
+        "1~8월 누적 매출은 전년 동기 대비 39.3% 증가한 3조3868억7000만 대만달러"
+      ],
+      "numbers": [
+        "2026년 8월 매출 5148억600만 대만달러",
+        "전년 동월 대비 53.3% 증가",
+        "2026년 자본지출 600억~640억 달러",
+        "2026년 3분기 매출 전망 446억~458억 달러"
+      ],
+      "keywords": [
+        "TSMC",
+        "파운드리",
+        "인공지능",
+        "2나노미터",
+        "애플"
+      ],
+      "stated_outlook": "TSMC는 2026년 매출 증가율이 달러 기준 40%를 상회할 것으로 예상하며, 7~9월 3분기 매출은 446억~458억 달러 규모가 될 것으로 전망하고 있다.",
+      "summary_source": "pasted_text",
+      "industry_context": "인공지능(AI) 서버용 첨단 반도체 수요가 강세를 보이고 있으며, 생산 회로 선폭이 10억분의 1m인 2나노미터(nm) 공정 등 첨단 제품의 출하가 본격화되면서 파운드리 업계의 매출 확대 기여도가 높아지고 있다."
     },
     {
       "id": "8aaa9aa5d8de",
