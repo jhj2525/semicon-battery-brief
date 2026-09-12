@@ -1,51 +1,308 @@
 {
-  "updated_at": "2026-09-11 09:14 KST",
-  "last_automatic_update_at": "2026-09-11 09:14 KST",
-  "automatic_cycle_started_at": "2026-09-11 09:11 KST",
+  "updated_at": "2026-09-12 09:20 KST",
+  "last_automatic_update_at": "2026-09-12 09:20 KST",
+  "automatic_cycle_started_at": "2026-09-12 09:18 KST",
   "publication_window": {
-    "from": "2026-09-10 09:11 KST",
-    "to": "2026-09-11 09:11 KST"
+    "from": "2026-09-11 09:18 KST",
+    "to": "2026-09-12 09:18 KST"
   },
-  "today_verified_count": 14,
+  "today_verified_count": 8,
   "current_items": [
     {
-      "id": "b33f1863b343",
+      "id": "bddecddf3a69",
       "sector": "semiconductor",
       "region": "domestic",
       "category": "기술·공정",
-      "title": "무라타, AI 반도체용 전력기판 'iPaS' 내년 양산",
+      "title": "영우디에스피, 파운드리 뚫었다…WLP 검사장비 실증",
       "source": "디일렉",
-      "published": "2026-09-10 14:57",
-      "collected": "2026-09-11",
-      "link": "https://www.thelec.kr/news/articleView.html?idxno=62051",
-      "rss_description": "글로벌 최대 적층세라믹커패시터(MLCC) 업체인 일본 무라타가 인공지능(AI) 반도체용 전력기판 'iPaS(Integrated Package Solution)'를 내년 양산한다. AI 반도체를 개발하는 빅테크가 주요 고객이다. MLCC와 실리콘커패시터 등 수동소자에서 기판형 제품으로 AI 전력 솔루션을 확대한다. 무라타는 9일 인천 송도컨벤시아에서 열린 'KPCA Show 2026'에서 iPaS를 전시했다. iPaS는 개별 커패시터나 인덕터를 기판에 실장하는 대신 해당 기능을 초소형 다층기판과 일체화한 제품이다. 어레이(Array)",
-      "score": 31,
+      "published": "2026-09-12 00:50",
+      "collected": "2026-09-12",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=62167",
+      "rss_description": "영우디에스피가 국내 중견 반도체 위탁생산(파운드리) 기업 양산라인에 웨이퍼 레벨(WLP) 검사장비를 공급하고, 실증 평가에 돌입한다. 그간 디스플레이 장비 중심의 사업이 반도체로 확대될 것으로 기대된다.11일 업계에 따르면 영우디에스피는 이달 국내 파운드리 양산라인에 소량의 WLP 검사장비를 공급한다. 2~3개월 간 실증 평가가 이뤄진다. 이후 양산 공급 협상을 진행할 것으로 보인다.업계 관계자는 \"영우디에스피의 WLP 검사장비는 국내 반도체 후공정 외주(OSAT) 기업의 양산라인에서 장기간 검증을 거쳤다\"며 \"해당 검증 데이터로",
+      "score": 79,
       "source_type": "산업 전문언론",
       "source_rank": 5,
       "verified_source": true,
-      "overview": "글로벌 적층세라믹커패시터(MLCC) 기업 무라타가 AI 반도체용 전력기판인 'iPaS(Integrated Package Solution)'를 내년에 양산한다. iPaS는 커패시터와 인덕터 기능을 초소형 다층기판과 일체화하여 수직전력공급(VPD) 구조를 가능하게 한다. 무라타는 하이퍼스케일러 등 빅테크 업체를 주요 고객으로 삼아 해당 사업을 육성할 계획이다.",
+      "overview": "영우디에스피가 국내 파운드리 업체의 양산 라인에 웨이퍼 레벨(WLP) 검사장비인 '베가 S-1000'을 공급하고 실증 평가를 시작한다. 해당 장비는 LB세미콘 양산 라인에서 검증을 거친 바 있으며, 2D 및 3D 광학 검사를 통해 마이크로 범프 등을 정밀 측정한다. 영우디에스피는 이번 실증을 통해 디스플레이 중심의 사업 구조를 반도체로 확장하고자 한다.",
       "key_points": [
-        "무라타의 iPaS는 기존의 개별 수동소자 실장 방식 대신 기능을 기판과 일체화한 제품이다.",
-        "전원모듈을 AI 가속기 바로 밑에 배치하는 수직전력공급(VPD) 구조를 통해 전력 손실을 줄일 수 있다.",
-        "iPaS는 커패시터 타입과 인덕터 타입 두 가지로 개발 중이며, 향후 두 기능을 결합한 제품도 계획하고 있다.",
-        "무라타는 iPaS를 차세대 성장 제품으로 육성하여 양산 후 1년 반 내 연매출 500억엔 규모로 키우는 것을 목표로 한다."
+        "영우디에스피가 국내 파운드리 양산 라인에 WLP 검사장비 '베가 S-1000'을 공급하고 2~3개월간 실증 평가를 진행한다.",
+        "'베가 S-1000'은 2D·3D 자동 광학 검사 장비로, 반도체 웨이퍼의 미세 금속 돌기 등을 검사하며 99.7%의 불량 탐지 성공률을 갖췄다.",
+        "해당 장비는 경쟁사 대비 시간당 웨이퍼 처리량(WPH)이 103장으로 약 2.5배 높다.",
+        "영우디에스피는 국내 메모리 반도체 기업과도 장비 공급을 협의 중이며, 현재 공급 논의가 약 40% 진전된 상태다."
       ],
       "numbers": [
-        "2026",
-        "2023",
-        "2024",
-        "2025",
-        "60%",
-        "500억엔"
+        "2026.09.11",
+        "2~3개월",
+        "2D",
+        "3D",
+        "200mm",
+        "300mm"
       ],
       "keywords": [
-        "무라타",
-        "iPaS",
-        "AI 반도체",
-        "수직전력공급",
-        "전력기판"
+        "영우디에스피",
+        "파운드리",
+        "WLP",
+        "베가 S-1000",
+        "반도체 검사장비",
+        "LB세미콘"
       ],
-      "stated_outlook": "양산 후 1년 반 내 연매출 500억엔 규모로 성장시키는 것을 목표로 하며, 하이엔드 AI 가속기 제품을 중심으로 적용될 전망이다."
+      "stated_outlook": "실증 평가 이후 양산 공급 협상을 진행할 예정이다."
+    },
+    {
+      "id": "6c485b6cede8",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "TSMC, 1.4나노 양산 '6개월 단축'…삼성전자도 최첨단 공정 개발 고삐",
+      "source": "뉴시스",
+      "source_type": "통신사 보도",
+      "published": "2026-09-11 11:29",
+      "collected": "2026-09-12",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80X1Vla3ZHbUhhNUtqX0RJNERTcDNNOG9XQTdsYno0X1Zzd1dPMWhNbGxRT1pra0Z5MFJrclpXcmVzeE9kYXNYdzA3QnJGenZWeHBZQWpqczBGcVp5cURoRdIBeEFVX3lxTE9kSC1ManA1RE5va1g1YVNiQlVCQjVQYlV6WXlvTkh1VXM4WGxBYTNtNWZKaE1MWWMwcmxCOXQ2VTZ4dWRKYU9NRWczelVFa1BKR25haVAtSlBCd0pXcVJuVmFCTTBDMUdKM21zLUhzNWZwVFpESXl6NA?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "b3a1ee158c51",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "삼성전자 반도체 반격 시작되나…4분기 HBM 점유율 40% 넘본다",
+      "source": "헤럴드경제",
+      "source_type": "경제지 보도",
+      "published": "2026-09-11 21:30",
+      "collected": "2026-09-12",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ucUVXSUJpdGRoRlpOd2V3Q2w0UEhOOVd2Z3g1bUxVTW1meU1ua1JDamRnVzNEaHlkOHZGaGtOTFdweGFVSE5fX3pnWi1uVDg3Zy13b2Zn?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "5408d84e0740",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "삼성전자 반도체, 화성·오선·수원서 하루 33만톤 물 재이용 확대",
+      "source": "뉴스핌",
+      "source_type": "통신사 보도",
+      "published": "2026-09-11 13:48",
+      "collected": "2026-09-12",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5PMGJaTnZ5blE5RldHWTBNV3JaaG1IU3JMWGxOaTNvNWl2dGYxQ1JnaFkza2dldE92dVNuT1NVWExyTzF6c2dYa0dHSDhIeEZqaHlRdkRseHh6bTFi?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "c68f269627ec",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "폴리텍 청주캠, '반도체 후공정' 인재 거점으로…4년간 2000명 육성",
+      "source": "뉴스핌",
+      "source_type": "통신사 보도",
+      "published": "2026-09-11 16:29",
+      "collected": "2026-09-12",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAybmVzSHdmQWxyZ3FVOURuTGpMZmVwX2ZQUnhEUG03bkhFUWNpYnVEVDFEREE5Qi03cExMaGhsWE56WEtXSEUyRkI1LXVYNXQ5MmdXYzhtYWR0N3c3?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "6b3a36ce8084",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "HBM 수급난 빠진 中, AI칩 가격 '줄인상'…삼전·하이닉스 협상력 커진다",
+      "source": "뉴시스",
+      "source_type": "통신사 보도",
+      "published": "2026-09-11 15:11",
+      "collected": "2026-09-12",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE96SkQ5VVlqNExwdHNmRGtrQVVLMndaVVZEbTFIV0I0ZC03TjljQVpsZ3A4TktsRGo0Z3lPWlVCZEN4bHp0QzgtaFhEUUk4WUJKZFNuSlEwa3k2REZyXzFSX9IBeEFVX3lxTE9leXFxWVlMckxxOVpHVm8wOTVtam1zXzRpaTVxajJuQkFzcjZzT0cyZXF1MW0tdjNWRENDWW1hc29ubGdXdGRSM0FMYzFrWDFwRmo5WGFMRzBnSzNZOEY3Y21ERVViYUtfRE0wSi1OdTJfUWxsUVFMSA?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "2a03c706e8cc",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "“반도체공정 갈수록 난도 높아져…‘탄화실리콘 포커스링’ 적용 확대 기대”",
+      "source": "헤럴드경제",
+      "source_type": "경제지 보도",
+      "published": "2026-09-11 11:15",
+      "collected": "2026-09-12",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03d0l1V0k3WGJha3BVWUo3c3BrdDRzQWxULW5BWDl3ZWNLeWMtdFlhVEtGLXhhYjEtaS1RQTNDMUIwX2I4T0xhZVg5NFlKVW5KUWxCQVRR?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "7b55339c5a4c",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "SM벡셀, 美 완성차와 손잡았다…차세대 LMR 배터리 기술 개발",
+      "source": "디지털데일리",
+      "source_type": "산업 전문언론",
+      "published": "2026-09-11 17:20",
+      "collected": "2026-09-12",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9UcTYteG9oTUJ5Y2J6QXdxeEVBT1ZZOGZ3YnVydzRTRzJYVnhOUi1ZOFBZeHktUmhyRWgxYUIzTk03U01Yc0Z4OXRDT0FMN0Z4MXA4V1lVQVNCWnhZT1NOMWkxRU4?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    }
+  ],
+  "archive_items": [
+    {
+      "id": "dd6ad8b39276",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "스탠다드 리튬, LG에너지솔루션과 8만톤 규모 10년 공급계약 체결",
+      "source": "매일경제",
+      "source_type": "경제지 보도",
+      "published": "2026-09-11 06:05",
+      "collected": "2026-09-11",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5OdGd3VngzN3BsZmw0RDBFM3Ffem9mX2pKUnZpd0hNTU0xeUZabnNBWmFod2ZnbGNaeEV5WG42Wk5Obi12cmMzT0xHbzVwQ3NWSkE?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "스탠다드 리튬(SLI)은 자회사 SWA Lithium을 통해 LG에너지솔루션과 10년간 총 8만 톤 규모의 배터리급 탄산리튬을 공급하는 장기 계약을 체결했다. 양사는 연간 8,000톤의 물량을 공급하고 구매하는 의무 조항과 납기 지연에 따른 페널티 조항을 명시해 계약 이행의 확실성을 높였다. 또한 이번 계약에는 LG에너지솔루션이 지정한 양극재 제조업체로의 직접 공급 옵션이 포함되었다. LG에너지솔루션은 스탠다드 리튬의 프로젝트 자금 조달 시 상업적으로 합리적인 범위 내에서 협력하고 필요한 보증을 제공하기로 합의했다. 이번 계약은 양사 간의 전략적 협력을 통해 북미 생산 탄산리튬의 안정적인 공급망을 확보한다는 점에서 의미가 있다.",
+      "key_points": [
+        "스탠다드 리튬과 LG에너지솔루션 간 10년간 총 8만 톤 규모의 탄산리튬 공급계약 체결",
+        "양사 간 의무 구매 및 납기 지연에 대한 페널티 조항 명시",
+        "LG에너지솔루션의 프로젝트 자금 조달 및 수출신용기관 지원 협력 합의",
+        "LG에너지솔루션 지정 양극재 업체로의 제품 직접 공급 옵션 포함"
+      ],
+      "numbers": [
+        "10년",
+        "8만톤",
+        "8,000톤",
+        "8월 27일",
+        "9월 10일",
+        "180일"
+      ],
+      "keywords": [
+        "스탠다드 리튬",
+        "LG에너지솔루션",
+        "탄산리튬",
+        "공급계약",
+        "배터리"
+      ],
+      "stated_outlook": "이번 장기 공급계약은 스탠다드 리튬의 사업 안정성을 높이고 LG에너지솔루션의 배터리 원료 공급망 확보에 기여할 것으로 전망된다.",
+      "summary_source": "pasted_text",
+      "industry_context": "배터리 원료 공급망 확보 및 북미 지역 생산 탄산리튬의 안정적 확보를 위한 전략적 협력"
+    },
+    {
+      "id": "8aaa9aa5d8de",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "현대차그룹, 사용 후 배터리 ESS 실증 협력",
+      "source": "디일렉",
+      "published": "2026-09-11 02:32",
+      "collected": "2026-09-11",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=62125",
+      "rss_description": "현대자동차그룹이 LG에너지솔루션, 원익피앤이 등과 전기차 사용 후 배터리를 에너지저장장치(ESS)로 재사용하는 기술을 검증한다. 전기차 급속충전소와 ESS를 연계해 충전 인프라 운영 효율과 사용 후 배터리의 재사용 가능성을 확인한다.현대차·기아는 LG에너지솔루션, 현대엔지니어링, 원익피앤이와 10일 경기 화성 원익피앤이 동탄사업장에서 '전기차 사용 후 배터리 기반 UBESS(Used Battery Energy Storage System) 실증 협력' 행사를 개최했다고 밝혔다.실증에는 현대차그룹 전기차 전용 플랫폼 E-GMP에 사용됐",
+      "score": 33,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "현대자동차그룹이 LG에너지솔루션, 현대엔지니어링, 원익피앤이와 협력하여 전기차 사용 후 배터리를 에너지저장장치(ESS)로 재사용하는 기술을 실증한다. 이번 실증은 현대차그룹의 전기차 전용 플랫폼 E-GMP 배터리를 활용하며, 국내에서 처음으로 시도되는 사례다. 참여 기업들은 전기차 급속충전소와 ESS를 연계하여 시스템 안전성, 성능, 경제성 등을 검증한다.",
+      "key_points": [
+        "현대차·기아, LG에너지솔루션, 현대엔지니어링, 원익피앤이가 전기차 사용 후 배터리 기반 UBESS 실증을 협력한다.",
+        "E-GMP에 사용된 배터리 팩을 활용하며 시스템 용량은 200kWh 규모다.",
+        "전기요금이 낮은 시간대에 전력을 저장하고 높은 시간대에 급속충전에 활용하는 운영 효율성을 검증한다.",
+        "LG에너지솔루션은 배터리 팩 제작 및 진단을, 원익피앤이는 설비 운영을, 현대엔지니어링은 경제성과 사업 연계성을 담당한다."
+      ],
+      "numbers": [
+        "2026.09.10",
+        "200kWh"
+      ],
+      "keywords": [
+        "현대차그룹",
+        "LG에너지솔루션",
+        "원익피앤이",
+        "현대엔지니어링",
+        "ESS",
+        "E-GMP"
+      ],
+      "stated_outlook": "현대차·기아는 실증 결과를 바탕으로 사용 후 배터리의 재사용 체계를 구축하고 ESS 사업 모델을 검토할 계획이다."
+    },
+    {
+      "id": "e1ba48d8040c",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "[올댓차이나] TSMC 8월 매출 21.9조원·53% 급증…사상 최대",
+      "source": "뉴시스",
+      "source_type": "통신사 보도",
+      "published": "2026-09-10 22:43",
+      "collected": "2026-09-11",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DbHdNWjZsZkdleDhBNXlCLUwxNUlHTWZEakpvbVpnYlJQZV93dFZYNWpiMWxkbjJESVdMekJmbzBOQVlaWGNic0pJTjVvcGljU24xQWtDNnhQX25RNGtaQ0pILXhCY0txRmtYTTZIbzdwZEh1QlYwMdIBeEFVX3lxTE1DbHdNWjZsZkdleDhBNXlCLUwxNUlHTWZEakpvbVpnYlJQZV93dFZYNWpiMWxkbjJESVdMekJmbzBOQVlaWGNic0pJTjVvcGljU24xQWtDNnhQX25RNGtaQ0pILXhCY0txRmtYTTZIbzdwZEh1QlYwMQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "대만의 세계 최대 파운드리 업체 TSMC의 2026년 8월 매출이 전년 동월 대비 53.3% 급증한 5148억600만 대만달러를 기록하며 월간 기준 사상 최대치를 경신했다. 이번 실적 급등은 인공지능(AI) 반도체 수요가 지속되는 가운데 애플 신형 아이폰용 2나노미터 공정 반도체 출하가 본격화된 결과다. TSMC는 급증하는 첨단 반도체 수요에 대응하기 위해 2026년 자본지출 규모를 최대 640억 달러로 예상하며 생산능력을 대폭 확대하고 있다. 8월까지 32개월 연속 전년 동월 대비 매출 증가세를 유지하고 있는 TSMC는 올해 매출 증가율이 40%를 상회할 것으로 내다보고 있다.",
+      "key_points": [
+        "TSMC 2026년 8월 매출이 전년 동월 대비 53.3% 증가한 5148억600만 대만달러 기록",
+        "AI 수요 확대와 애플 신형 아이폰용 2나노 반도체 출하 본격화가 매출 성장을 견인",
+        "2026년 연간 자본지출 규모를 600억~640억 달러로 예상하며 설비 투자 확대",
+        "1~8월 누적 매출은 전년 동기 대비 39.3% 증가한 3조3868억7000만 대만달러"
+      ],
+      "numbers": [
+        "2026년 8월 매출 5148억600만 대만달러",
+        "전년 동월 대비 53.3% 증가",
+        "2026년 자본지출 600억~640억 달러",
+        "2026년 3분기 매출 전망 446억~458억 달러"
+      ],
+      "keywords": [
+        "TSMC",
+        "파운드리",
+        "인공지능",
+        "2나노미터",
+        "애플"
+      ],
+      "stated_outlook": "TSMC는 2026년 매출 증가율이 달러 기준 40%를 상회할 것으로 예상하며, 7~9월 3분기 매출은 446억~458억 달러 규모가 될 것으로 전망하고 있다.",
+      "summary_source": "pasted_text",
+      "industry_context": "인공지능(AI) 서버용 첨단 반도체 수요가 강세를 보이고 있으며, 생산 회로 선폭이 10억분의 1m인 2나노미터(nm) 공정 등 첨단 제품의 출하가 본격화되면서 파운드리 업계의 매출 확대 기여도가 높아지고 있다."
     },
     {
       "id": "b497f70a8bd5",
@@ -87,75 +344,6 @@
       "stated_outlook": "반도체 생산에 필요한 물 사용량을 줄이고 재활용을 극대화하기 위해 수자원 관리 체계를 지속적으로 고도화하며, 공정 개선과 관련 기술·설비 투자를 꾸준히 확대할 예정이다."
     },
     {
-      "id": "ff729178c181",
-      "sector": "semiconductor",
-      "region": "global",
-      "category": "기술·공정",
-      "title": "Beyond Conventional Ring Oscillators: Purpose-Built Process Detectors For Deeper Silicon Insight",
-      "source": "Semiconductor Engineering",
-      "published": "2026-09-10 16:08",
-      "collected": "2026-09-11",
-      "link": "https://semiengineering.com/beyond-conventional-ring-oscillators-purpose-built-process-detectors-for-deeper-silicon-insight/",
-      "rss_description": "How design-aware monitor analytics connects production measurements with device behavior and pre-silicon expectations. The post Beyond Conventional Ring Oscillators: Purpose-Built Process Detectors For Deeper Silicon Insight appeared first on Semiconductor Engineering .",
-      "score": 17,
-      "source_type": "해외 산업 보도",
-      "source_rank": 1,
-      "verified_source": true,
-      "overview": "반도체 산업에서 공정 변화와 복잡성을 이해하기 위해 기존 링 오실레이터(RO)를 넘어선 목적 기반 공정 검출기(GPD)의 필요성을 다루고 있다. 단순한 측정 데이터 수집을 넘어, 설계 인식 분석(design-aware analytics)을 결합하여 실리콘 동작의 근본 원인을 파악하는 것이 핵심이다. 이러한 접근 방식은 생산 단계부터 제품 수명 주기 전반에 걸쳐 공정 및 소자 수준의 깊은 통찰력을 제공한다. 이를 통해 엔지니어들은 설계 의도와 실제 실리콘 간의 격차를 분석하고 성능 문제를 더 명확히 해결할 수 있다.",
-      "key_points": [
-        "기존 링 오실레이터는 여러 소자 및 상호 연결 효과를 하나의 주파수 값으로 압축하므로, 구체적인 원인 분석에 한계가 있다.",
-        "목적 기반 공정 검출기(GPD)는 구조적·운영적 다양성을 도입하여 NMOS와 PMOS의 개별적인 기여도를 포함한 상세한 공정 데이터를 제공한다.",
-        "설계 인식 분석을 통해 공정 검출기 데이터를 설계 목표 및 시뮬레이션 데이터와 비교하여 격차 분석 및 모델-하드웨어 상관관계 평가가 가능하다.",
-        "이러한 모니터링 분석 전략은 초기 실리콘 단계부터 대량 생산(HVM)에 이르기까지 제품 수명 주기 전반에 걸쳐 활용될 수 있다."
-      ],
-      "numbers": [
-        "September 10th, 2026"
-      ],
-      "keywords": [
-        "GPD",
-        "공정 검출기",
-        "링 오실레이터",
-        "데이터 분석",
-        "Synopsys",
-        "실리콘 수명 주기 관리"
-      ],
-      "stated_outlook": "목적 기반 공정 검출기와 분석 솔루션을 통해 엔지니어링 팀은 생산 측정값을 공정, 제품, 모델 조사를 위한 데이터 기반의 경로로 전환하여 의사결정의 질을 높일 수 있을 것으로 기대된다."
-    },
-    {
-      "id": "6fe4f216b8e1",
-      "sector": "semiconductor",
-      "region": "global",
-      "category": "기술·공정",
-      "title": "Beyond Thickness: Using Picosecond Ultrasonic Technology For SiCr Process Control In BCD Devices",
-      "source": "Semiconductor Engineering",
-      "published": "2026-09-10 16:09",
-      "collected": "2026-09-11",
-      "link": "https://semiengineering.com/beyond-thickness-using-picosecond-ultrasonic-technology-for-sicr-process-control-in-bcd-devices/",
-      "rss_description": "Improve visibility into deposition variation by combining thickness metrology with simultaneous reflectivity measurements. The post Beyond Thickness: Using Picosecond Ultrasonic Technology For SiCr Process Control In BCD Devices appeared first on Semiconductor Engineering .",
-      "score": 16,
-      "source_type": "해외 산업 보도",
-      "source_rank": 1,
-      "verified_source": true,
-      "overview": "BCD(bipolar-CMOS-DMOS) 장치 제조 시 SiCr(실리콘 크롬) 박막의 공정 제어를 위해 피코초 초음파 기술을 활용하는 방법을 다룬다. 단순히 두께만 측정하는 것으로는 부족하며, 반사율 측정을 결합하여 박막의 품질과 공정 변동성을 조기에 감지할 수 있다. 이 기술은 비파괴적인 방식으로 박막의 미세구조와 표면 거칠기 등을 모니터링하여 공정 수율과 신뢰성을 향상시키는 데 기여한다.",
-      "key_points": [
-        "BCD 장치의 SiCr 공정에서 두께 측정만으로는 미세구조, 밀도, 조성 등 전기적 특성에 영향을 주는 변수를 모두 파악하기 어렵다.",
-        "피코초 초음파 기술은 레이저로 생성된 음향파를 사용하여 두께를 측정하며, 동시에 반사율 데이터를 수집할 수 있다.",
-        "반사율 데이터는 박막의 표면 형태, 거칠기, 증착 중 가스 흐름 변화 등을 식별하는 질적 지표로 활용되어 공정 이상을 조기에 탐지한다."
-      ],
-      "numbers": [
-        "September 10th, 2026"
-      ],
-      "keywords": [
-        "BCD",
-        "SiCr",
-        "피코초 초음파",
-        "공정 제어",
-        "박막 계측",
-        "반사율"
-      ],
-      "stated_outlook": "피코초 초음파 기술을 통해 공정 변동성에 대한 통찰력을 조기에 확보함으로써, 자동차, 의료 및 소비자 가전 애플리케이션 전반에서 더욱 일관된 BCD 장치 성능을 유지하고 제조 신뢰성을 지원할 수 있다."
-    },
-    {
       "id": "32dfd871e05e",
       "sector": "semiconductor",
       "region": "domestic",
@@ -193,6 +381,110 @@
       "stated_outlook": "투자 원금을 조기에 확보하면서 향후 주가 상승에 따른 추가 수익 기회를 노리는 구조를 선택함.",
       "summary_source": "pasted_text",
       "industry_context": "반도체 냉각장비 기업에 대한 투자 및 기업공개(IPO)를 통한 회수 가능성이 검토되는 환경에서, 지배구조 특성에 따라 상장사인 성호전자가 자회사 지분을 인수하는 방식이 채택됨."
+    },
+    {
+      "id": "d18c75386386",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "프리뉴, 네오배터리와 고성능 드론 배터리 개발…캐나다 진출",
+      "source": "전자신문",
+      "source_type": "산업 전문언론",
+      "published": "2026-09-10 16:23",
+      "collected": "2026-09-11",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE96bmk5LTZKbmxRN3FSbElWWTVUQXMwTmh0SGcyMEkwQlJ6VDZXQ0JLVk5FX19QZEFzT0p6TjFJdzFhTXBxbmtseER5T1FBdw?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "무인항공기 기업 프리뉴가 네오배터리머티리얼즈 및 네오배터리머티리얼즈코리아(NBMK)와 드론용 배터리 공동 개발을 위한 업무협약을 체결했다. 이번 협력을 통해 프리뉴는 자사의 드론 기체 기술과 운용 데이터를 제공하고, 네오배터리 측은 고에너지밀도 배터리셀 및 팩 설계 역량을 지원한다. 양사는 개발된 배터리의 비행시험과 검증을 함께 수행하며 기술 표준화 및 핵심 부품 국산화에 나선다. 또한 캐나다 정부와 공공기관의 드론 사업을 공동 발굴하고 현지 시장 진출을 추진한다. 최종적으로는 드론 플랫폼과 배터리를 결합한 통합 솔루션을 공급할 계획이다.",
+      "key_points": [
+        "프리뉴와 네오배터리머티리얼즈가 드론용 배터리 개발 및 캐나다 진출을 위한 협약 체결",
+        "네오배터리머티리얼즈코리아(NBMK)가 기술 개발, 생산 및 국내외 사업화 지원",
+        "프리뉴 드론에 최적화된 고에너지밀도 배터리셀 및 팩 공동 개발",
+        "캐나다 정부 및 공공 조달 시장을 겨냥한 통합 솔루션 공급 추진"
+      ],
+      "numbers": [
+        "2026-09-10"
+      ],
+      "keywords": [
+        "프리뉴",
+        "네오배터리머티리얼즈",
+        "드론",
+        "배터리",
+        "캐나다"
+      ],
+      "stated_outlook": "국산 드론 핵심 부품 국산화 및 기술 표준화 수준을 높이고 캐나다를 비롯한 해외 시장에서 경쟁력을 확대할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "무인항공기 핵심 부품의 국산화와 기술 표준화 필요성이 증대되고 있다."
+    },
+    {
+      "id": "6fe4f216b8e1",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "기술·공정",
+      "title": "Beyond Thickness: Using Picosecond Ultrasonic Technology For SiCr Process Control In BCD Devices",
+      "source": "Semiconductor Engineering",
+      "published": "2026-09-10 16:09",
+      "collected": "2026-09-11",
+      "link": "https://semiengineering.com/beyond-thickness-using-picosecond-ultrasonic-technology-for-sicr-process-control-in-bcd-devices/",
+      "rss_description": "Improve visibility into deposition variation by combining thickness metrology with simultaneous reflectivity measurements. The post Beyond Thickness: Using Picosecond Ultrasonic Technology For SiCr Process Control In BCD Devices appeared first on Semiconductor Engineering .",
+      "score": 16,
+      "source_type": "해외 산업 보도",
+      "source_rank": 1,
+      "verified_source": true,
+      "overview": "BCD(bipolar-CMOS-DMOS) 장치 제조 시 SiCr(실리콘 크롬) 박막의 공정 제어를 위해 피코초 초음파 기술을 활용하는 방법을 다룬다. 단순히 두께만 측정하는 것으로는 부족하며, 반사율 측정을 결합하여 박막의 품질과 공정 변동성을 조기에 감지할 수 있다. 이 기술은 비파괴적인 방식으로 박막의 미세구조와 표면 거칠기 등을 모니터링하여 공정 수율과 신뢰성을 향상시키는 데 기여한다.",
+      "key_points": [
+        "BCD 장치의 SiCr 공정에서 두께 측정만으로는 미세구조, 밀도, 조성 등 전기적 특성에 영향을 주는 변수를 모두 파악하기 어렵다.",
+        "피코초 초음파 기술은 레이저로 생성된 음향파를 사용하여 두께를 측정하며, 동시에 반사율 데이터를 수집할 수 있다.",
+        "반사율 데이터는 박막의 표면 형태, 거칠기, 증착 중 가스 흐름 변화 등을 식별하는 질적 지표로 활용되어 공정 이상을 조기에 탐지한다."
+      ],
+      "numbers": [
+        "September 10th, 2026"
+      ],
+      "keywords": [
+        "BCD",
+        "SiCr",
+        "피코초 초음파",
+        "공정 제어",
+        "박막 계측",
+        "반사율"
+      ],
+      "stated_outlook": "피코초 초음파 기술을 통해 공정 변동성에 대한 통찰력을 조기에 확보함으로써, 자동차, 의료 및 소비자 가전 애플리케이션 전반에서 더욱 일관된 BCD 장치 성능을 유지하고 제조 신뢰성을 지원할 수 있다."
+    },
+    {
+      "id": "ff729178c181",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "기술·공정",
+      "title": "Beyond Conventional Ring Oscillators: Purpose-Built Process Detectors For Deeper Silicon Insight",
+      "source": "Semiconductor Engineering",
+      "published": "2026-09-10 16:08",
+      "collected": "2026-09-11",
+      "link": "https://semiengineering.com/beyond-conventional-ring-oscillators-purpose-built-process-detectors-for-deeper-silicon-insight/",
+      "rss_description": "How design-aware monitor analytics connects production measurements with device behavior and pre-silicon expectations. The post Beyond Conventional Ring Oscillators: Purpose-Built Process Detectors For Deeper Silicon Insight appeared first on Semiconductor Engineering .",
+      "score": 17,
+      "source_type": "해외 산업 보도",
+      "source_rank": 1,
+      "verified_source": true,
+      "overview": "반도체 산업에서 공정 변화와 복잡성을 이해하기 위해 기존 링 오실레이터(RO)를 넘어선 목적 기반 공정 검출기(GPD)의 필요성을 다루고 있다. 단순한 측정 데이터 수집을 넘어, 설계 인식 분석(design-aware analytics)을 결합하여 실리콘 동작의 근본 원인을 파악하는 것이 핵심이다. 이러한 접근 방식은 생산 단계부터 제품 수명 주기 전반에 걸쳐 공정 및 소자 수준의 깊은 통찰력을 제공한다. 이를 통해 엔지니어들은 설계 의도와 실제 실리콘 간의 격차를 분석하고 성능 문제를 더 명확히 해결할 수 있다.",
+      "key_points": [
+        "기존 링 오실레이터는 여러 소자 및 상호 연결 효과를 하나의 주파수 값으로 압축하므로, 구체적인 원인 분석에 한계가 있다.",
+        "목적 기반 공정 검출기(GPD)는 구조적·운영적 다양성을 도입하여 NMOS와 PMOS의 개별적인 기여도를 포함한 상세한 공정 데이터를 제공한다.",
+        "설계 인식 분석을 통해 공정 검출기 데이터를 설계 목표 및 시뮬레이션 데이터와 비교하여 격차 분석 및 모델-하드웨어 상관관계 평가가 가능하다.",
+        "이러한 모니터링 분석 전략은 초기 실리콘 단계부터 대량 생산(HVM)에 이르기까지 제품 수명 주기 전반에 걸쳐 활용될 수 있다."
+      ],
+      "numbers": [
+        "September 10th, 2026"
+      ],
+      "keywords": [
+        "GPD",
+        "공정 검출기",
+        "링 오실레이터",
+        "데이터 분석",
+        "Synopsys",
+        "실리콘 수명 주기 관리"
+      ],
+      "stated_outlook": "목적 기반 공정 검출기와 분석 솔루션을 통해 엔지니어링 팀은 생산 측정값을 공정, 제품, 모델 조사를 위한 데이터 기반의 경로로 전환하여 의사결정의 질을 높일 수 있을 것으로 기대된다."
     },
     {
       "id": "4bf487b837db",
@@ -235,154 +527,6 @@
       "industry_context": "SiC 전력반도체는 높은 전압과 전력밀도를 효율적으로 처리할 수 있어 전기차, AI 데이터센터 전력공급장치, ESS, 신재생에너지, 전력망 등으로 적용처가 확대되는 추세다."
     },
     {
-      "id": "e1ba48d8040c",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "산업",
-      "title": "[올댓차이나] TSMC 8월 매출 21.9조원·53% 급증…사상 최대",
-      "source": "뉴시스",
-      "source_type": "통신사 보도",
-      "published": "2026-09-10 22:43",
-      "collected": "2026-09-11",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DbHdNWjZsZkdleDhBNXlCLUwxNUlHTWZEakpvbVpnYlJQZV93dFZYNWpiMWxkbjJESVdMekJmbzBOQVlaWGNic0pJTjVvcGljU24xQWtDNnhQX25RNGtaQ0pILXhCY0txRmtYTTZIbzdwZEh1QlYwMdIBeEFVX3lxTE1DbHdNWjZsZkdleDhBNXlCLUwxNUlHTWZEakpvbVpnYlJQZV93dFZYNWpiMWxkbjJESVdMekJmbzBOQVlaWGNic0pJTjVvcGljU24xQWtDNnhQX25RNGtaQ0pILXhCY0txRmtYTTZIbzdwZEh1QlYwMQ?oc=5",
-      "trusted_headline": true,
-      "verified_source": true,
-      "summary_status": "summarized",
-      "overview": "대만의 세계 최대 파운드리 업체 TSMC의 2026년 8월 매출이 전년 동월 대비 53.3% 급증한 5148억600만 대만달러를 기록하며 월간 기준 사상 최대치를 경신했다. 이번 실적 급등은 인공지능(AI) 반도체 수요가 지속되는 가운데 애플 신형 아이폰용 2나노미터 공정 반도체 출하가 본격화된 결과다. TSMC는 급증하는 첨단 반도체 수요에 대응하기 위해 2026년 자본지출 규모를 최대 640억 달러로 예상하며 생산능력을 대폭 확대하고 있다. 8월까지 32개월 연속 전년 동월 대비 매출 증가세를 유지하고 있는 TSMC는 올해 매출 증가율이 40%를 상회할 것으로 내다보고 있다.",
-      "key_points": [
-        "TSMC 2026년 8월 매출이 전년 동월 대비 53.3% 증가한 5148억600만 대만달러 기록",
-        "AI 수요 확대와 애플 신형 아이폰용 2나노 반도체 출하 본격화가 매출 성장을 견인",
-        "2026년 연간 자본지출 규모를 600억~640억 달러로 예상하며 설비 투자 확대",
-        "1~8월 누적 매출은 전년 동기 대비 39.3% 증가한 3조3868억7000만 대만달러"
-      ],
-      "numbers": [
-        "2026년 8월 매출 5148억600만 대만달러",
-        "전년 동월 대비 53.3% 증가",
-        "2026년 자본지출 600억~640억 달러",
-        "2026년 3분기 매출 전망 446억~458억 달러"
-      ],
-      "keywords": [
-        "TSMC",
-        "파운드리",
-        "인공지능",
-        "2나노미터",
-        "애플"
-      ],
-      "stated_outlook": "TSMC는 2026년 매출 증가율이 달러 기준 40%를 상회할 것으로 예상하며, 7~9월 3분기 매출은 446억~458억 달러 규모가 될 것으로 전망하고 있다.",
-      "summary_source": "pasted_text",
-      "industry_context": "인공지능(AI) 서버용 첨단 반도체 수요가 강세를 보이고 있으며, 생산 회로 선폭이 10억분의 1m인 2나노미터(nm) 공정 등 첨단 제품의 출하가 본격화되면서 파운드리 업계의 매출 확대 기여도가 높아지고 있다."
-    },
-    {
-      "id": "8aaa9aa5d8de",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "현대차그룹, 사용 후 배터리 ESS 실증 협력",
-      "source": "디일렉",
-      "published": "2026-09-11 02:32",
-      "collected": "2026-09-11",
-      "link": "https://www.thelec.kr/news/articleView.html?idxno=62125",
-      "rss_description": "현대자동차그룹이 LG에너지솔루션, 원익피앤이 등과 전기차 사용 후 배터리를 에너지저장장치(ESS)로 재사용하는 기술을 검증한다. 전기차 급속충전소와 ESS를 연계해 충전 인프라 운영 효율과 사용 후 배터리의 재사용 가능성을 확인한다.현대차·기아는 LG에너지솔루션, 현대엔지니어링, 원익피앤이와 10일 경기 화성 원익피앤이 동탄사업장에서 '전기차 사용 후 배터리 기반 UBESS(Used Battery Energy Storage System) 실증 협력' 행사를 개최했다고 밝혔다.실증에는 현대차그룹 전기차 전용 플랫폼 E-GMP에 사용됐",
-      "score": 33,
-      "source_type": "산업 전문언론",
-      "source_rank": 5,
-      "verified_source": true,
-      "overview": "현대자동차그룹이 LG에너지솔루션, 현대엔지니어링, 원익피앤이와 협력하여 전기차 사용 후 배터리를 에너지저장장치(ESS)로 재사용하는 기술을 실증한다. 이번 실증은 현대차그룹의 전기차 전용 플랫폼 E-GMP 배터리를 활용하며, 국내에서 처음으로 시도되는 사례다. 참여 기업들은 전기차 급속충전소와 ESS를 연계하여 시스템 안전성, 성능, 경제성 등을 검증한다.",
-      "key_points": [
-        "현대차·기아, LG에너지솔루션, 현대엔지니어링, 원익피앤이가 전기차 사용 후 배터리 기반 UBESS 실증을 협력한다.",
-        "E-GMP에 사용된 배터리 팩을 활용하며 시스템 용량은 200kWh 규모다.",
-        "전기요금이 낮은 시간대에 전력을 저장하고 높은 시간대에 급속충전에 활용하는 운영 효율성을 검증한다.",
-        "LG에너지솔루션은 배터리 팩 제작 및 진단을, 원익피앤이는 설비 운영을, 현대엔지니어링은 경제성과 사업 연계성을 담당한다."
-      ],
-      "numbers": [
-        "2026.09.10",
-        "200kWh"
-      ],
-      "keywords": [
-        "현대차그룹",
-        "LG에너지솔루션",
-        "원익피앤이",
-        "현대엔지니어링",
-        "ESS",
-        "E-GMP"
-      ],
-      "stated_outlook": "현대차·기아는 실증 결과를 바탕으로 사용 후 배터리의 재사용 체계를 구축하고 ESS 사업 모델을 검토할 계획이다."
-    },
-    {
-      "id": "dd6ad8b39276",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "산업",
-      "title": "스탠다드 리튬, LG에너지솔루션과 8만톤 규모 10년 공급계약 체결",
-      "source": "매일경제",
-      "source_type": "경제지 보도",
-      "published": "2026-09-11 06:05",
-      "collected": "2026-09-11",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5OdGd3VngzN3BsZmw0RDBFM3Ffem9mX2pKUnZpd0hNTU0xeUZabnNBWmFod2ZnbGNaeEV5WG42Wk5Obi12cmMzT0xHbzVwQ3NWSkE?oc=5",
-      "trusted_headline": true,
-      "verified_source": true,
-      "summary_status": "summarized",
-      "overview": "스탠다드 리튬(SLI)은 자회사 SWA Lithium을 통해 LG에너지솔루션과 10년간 총 8만 톤 규모의 배터리급 탄산리튬을 공급하는 장기 계약을 체결했다. 양사는 연간 8,000톤의 물량을 공급하고 구매하는 의무 조항과 납기 지연에 따른 페널티 조항을 명시해 계약 이행의 확실성을 높였다. 또한 이번 계약에는 LG에너지솔루션이 지정한 양극재 제조업체로의 직접 공급 옵션이 포함되었다. LG에너지솔루션은 스탠다드 리튬의 프로젝트 자금 조달 시 상업적으로 합리적인 범위 내에서 협력하고 필요한 보증을 제공하기로 합의했다. 이번 계약은 양사 간의 전략적 협력을 통해 북미 생산 탄산리튬의 안정적인 공급망을 확보한다는 점에서 의미가 있다.",
-      "key_points": [
-        "스탠다드 리튬과 LG에너지솔루션 간 10년간 총 8만 톤 규모의 탄산리튬 공급계약 체결",
-        "양사 간 의무 구매 및 납기 지연에 대한 페널티 조항 명시",
-        "LG에너지솔루션의 프로젝트 자금 조달 및 수출신용기관 지원 협력 합의",
-        "LG에너지솔루션 지정 양극재 업체로의 제품 직접 공급 옵션 포함"
-      ],
-      "numbers": [
-        "10년",
-        "8만톤",
-        "8,000톤",
-        "8월 27일",
-        "9월 10일",
-        "180일"
-      ],
-      "keywords": [
-        "스탠다드 리튬",
-        "LG에너지솔루션",
-        "탄산리튬",
-        "공급계약",
-        "배터리"
-      ],
-      "stated_outlook": "이번 장기 공급계약은 스탠다드 리튬의 사업 안정성을 높이고 LG에너지솔루션의 배터리 원료 공급망 확보에 기여할 것으로 전망된다.",
-      "summary_source": "pasted_text",
-      "industry_context": "배터리 원료 공급망 확보 및 북미 지역 생산 탄산리튬의 안정적 확보를 위한 전략적 협력"
-    },
-    {
-      "id": "75a5aa8d9ca7",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "산업",
-      "title": "현대차그룹, LG엔솔·원익피앤이와 EV 폐배터리 ESS로 재활용 실증",
-      "source": "연합뉴스",
-      "source_type": "통신사 보도",
-      "published": "2026-09-10 15:34",
-      "collected": "2026-09-11",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9qQ2EwclVfaXZPdFFaeUc5Rl96bEdPNFpSdVB3LXNfVkdPQWhLc0Naa2lhX0ROemZEbmd5ODd4YVVObXJwOXlUU3B4R09sSVpyMkZzZHF6LXpwNkEtTXVlc9IBYEFVX3lxTE9qQ2EwclVfaXZPdFFaeUc5Rl96bEdPNFpSdVB3LXNfVkdPQWhLc0Naa2lhX0ROemZEbmd5ODd4YVVObXJwOXlUU3B4R09sSVpyMkZzZHF6LXpwNkEtTXVlcw?oc=5",
-      "trusted_headline": true,
-      "verified_source": true,
-      "summary_status": "summarized",
-      "overview": "현대차그룹이 LG에너지솔루션, 원익피앤이와 협력하여 전기차(EV) 사용 후 배터리를 활용한 에너지저장장치(ESS) 실증 사업에 착수했다. 이번 협력은 경기 화성시 원익피앤이 동탄 사업장에서 진행되는 'EV 사용 후 배터리 기반 UBESS 실증 협력'을 통해 추진된다. 현대차그룹은 현대엔지니어링과 함께 해당 프로젝트에 참여하며 전기차 폐배터리의 재활용 기술 검증에 나선다. 이번 프로젝트는 배터리 에너지 저장 장치의 효율적인 활용 방안을 모색하고 자원 선순환 체계를 구축하려는 목적으로 진행된다.",
-      "key_points": [
-        "현대차그룹, LG에너지솔루션, 원익피앤이가 EV 폐배터리 기반 ESS 실증을 위해 협력한다.",
-        "2026년 9월 10일 경기 화성시 원익피앤이 동탄 사업장에서 관련 기념행사와 테이프 커팅식이 열렸다.",
-        "현대엔지니어링도 현대차그룹의 일원으로 실증 협력에 참여한다."
-      ],
-      "numbers": [
-        "2026년 9월 10일"
-      ],
-      "keywords": [
-        "현대차그룹",
-        "LG에너지솔루션",
-        "원익피앤이",
-        "폐배터리",
-        "ESS"
-      ],
-      "stated_outlook": "",
-      "summary_source": "pasted_text",
-      "industry_context": ""
-    },
-    {
       "id": "a2fed8dc706b",
       "sector": "battery",
       "region": "domestic",
@@ -421,42 +565,78 @@
       "industry_context": "스마트폰 시장에서는 이미 실리콘 음극재 탑재가 점진적으로 확대되고 있으며, 노트북 등 고성능 AI PC 분야로 기술 도입이 시도되고 있다."
     },
     {
-      "id": "d18c75386386",
+      "id": "75a5aa8d9ca7",
       "sector": "battery",
       "region": "domestic",
       "category": "산업",
-      "title": "프리뉴, 네오배터리와 고성능 드론 배터리 개발…캐나다 진출",
-      "source": "전자신문",
-      "source_type": "산업 전문언론",
-      "published": "2026-09-10 16:23",
+      "title": "현대차그룹, LG엔솔·원익피앤이와 EV 폐배터리 ESS로 재활용 실증",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-09-10 15:34",
       "collected": "2026-09-11",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE96bmk5LTZKbmxRN3FSbElWWTVUQXMwTmh0SGcyMEkwQlJ6VDZXQ0JLVk5FX19QZEFzT0p6TjFJdzFhTXBxbmtseER5T1FBdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9qQ2EwclVfaXZPdFFaeUc5Rl96bEdPNFpSdVB3LXNfVkdPQWhLc0Naa2lhX0ROemZEbmd5ODd4YVVObXJwOXlUU3B4R09sSVpyMkZzZHF6LXpwNkEtTXVlc9IBYEFVX3lxTE9qQ2EwclVfaXZPdFFaeUc5Rl96bEdPNFpSdVB3LXNfVkdPQWhLc0Naa2lhX0ROemZEbmd5ODd4YVVObXJwOXlUU3B4R09sSVpyMkZzZHF6LXpwNkEtTXVlcw?oc=5",
       "trusted_headline": true,
       "verified_source": true,
       "summary_status": "summarized",
-      "overview": "무인항공기 기업 프리뉴가 네오배터리머티리얼즈 및 네오배터리머티리얼즈코리아(NBMK)와 드론용 배터리 공동 개발을 위한 업무협약을 체결했다. 이번 협력을 통해 프리뉴는 자사의 드론 기체 기술과 운용 데이터를 제공하고, 네오배터리 측은 고에너지밀도 배터리셀 및 팩 설계 역량을 지원한다. 양사는 개발된 배터리의 비행시험과 검증을 함께 수행하며 기술 표준화 및 핵심 부품 국산화에 나선다. 또한 캐나다 정부와 공공기관의 드론 사업을 공동 발굴하고 현지 시장 진출을 추진한다. 최종적으로는 드론 플랫폼과 배터리를 결합한 통합 솔루션을 공급할 계획이다.",
+      "overview": "현대차그룹이 LG에너지솔루션, 원익피앤이와 협력하여 전기차(EV) 사용 후 배터리를 활용한 에너지저장장치(ESS) 실증 사업에 착수했다. 이번 협력은 경기 화성시 원익피앤이 동탄 사업장에서 진행되는 'EV 사용 후 배터리 기반 UBESS 실증 협력'을 통해 추진된다. 현대차그룹은 현대엔지니어링과 함께 해당 프로젝트에 참여하며 전기차 폐배터리의 재활용 기술 검증에 나선다. 이번 프로젝트는 배터리 에너지 저장 장치의 효율적인 활용 방안을 모색하고 자원 선순환 체계를 구축하려는 목적으로 진행된다.",
       "key_points": [
-        "프리뉴와 네오배터리머티리얼즈가 드론용 배터리 개발 및 캐나다 진출을 위한 협약 체결",
-        "네오배터리머티리얼즈코리아(NBMK)가 기술 개발, 생산 및 국내외 사업화 지원",
-        "프리뉴 드론에 최적화된 고에너지밀도 배터리셀 및 팩 공동 개발",
-        "캐나다 정부 및 공공 조달 시장을 겨냥한 통합 솔루션 공급 추진"
+        "현대차그룹, LG에너지솔루션, 원익피앤이가 EV 폐배터리 기반 ESS 실증을 위해 협력한다.",
+        "2026년 9월 10일 경기 화성시 원익피앤이 동탄 사업장에서 관련 기념행사와 테이프 커팅식이 열렸다.",
+        "현대엔지니어링도 현대차그룹의 일원으로 실증 협력에 참여한다."
       ],
       "numbers": [
-        "2026-09-10"
+        "2026년 9월 10일"
       ],
       "keywords": [
-        "프리뉴",
-        "네오배터리머티리얼즈",
-        "드론",
-        "배터리",
-        "캐나다"
+        "현대차그룹",
+        "LG에너지솔루션",
+        "원익피앤이",
+        "폐배터리",
+        "ESS"
       ],
-      "stated_outlook": "국산 드론 핵심 부품 국산화 및 기술 표준화 수준을 높이고 캐나다를 비롯한 해외 시장에서 경쟁력을 확대할 계획이다.",
+      "stated_outlook": "",
       "summary_source": "pasted_text",
-      "industry_context": "무인항공기 핵심 부품의 국산화와 기술 표준화 필요성이 증대되고 있다."
-    }
-  ],
-  "archive_items": [
+      "industry_context": ""
+    },
+    {
+      "id": "b33f1863b343",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "무라타, AI 반도체용 전력기판 'iPaS' 내년 양산",
+      "source": "디일렉",
+      "published": "2026-09-10 14:57",
+      "collected": "2026-09-11",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=62051",
+      "rss_description": "글로벌 최대 적층세라믹커패시터(MLCC) 업체인 일본 무라타가 인공지능(AI) 반도체용 전력기판 'iPaS(Integrated Package Solution)'를 내년 양산한다. AI 반도체를 개발하는 빅테크가 주요 고객이다. MLCC와 실리콘커패시터 등 수동소자에서 기판형 제품으로 AI 전력 솔루션을 확대한다. 무라타는 9일 인천 송도컨벤시아에서 열린 'KPCA Show 2026'에서 iPaS를 전시했다. iPaS는 개별 커패시터나 인덕터를 기판에 실장하는 대신 해당 기능을 초소형 다층기판과 일체화한 제품이다. 어레이(Array)",
+      "score": 31,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "글로벌 적층세라믹커패시터(MLCC) 기업 무라타가 AI 반도체용 전력기판인 'iPaS(Integrated Package Solution)'를 내년에 양산한다. iPaS는 커패시터와 인덕터 기능을 초소형 다층기판과 일체화하여 수직전력공급(VPD) 구조를 가능하게 한다. 무라타는 하이퍼스케일러 등 빅테크 업체를 주요 고객으로 삼아 해당 사업을 육성할 계획이다.",
+      "key_points": [
+        "무라타의 iPaS는 기존의 개별 수동소자 실장 방식 대신 기능을 기판과 일체화한 제품이다.",
+        "전원모듈을 AI 가속기 바로 밑에 배치하는 수직전력공급(VPD) 구조를 통해 전력 손실을 줄일 수 있다.",
+        "iPaS는 커패시터 타입과 인덕터 타입 두 가지로 개발 중이며, 향후 두 기능을 결합한 제품도 계획하고 있다.",
+        "무라타는 iPaS를 차세대 성장 제품으로 육성하여 양산 후 1년 반 내 연매출 500억엔 규모로 키우는 것을 목표로 한다."
+      ],
+      "numbers": [
+        "2026",
+        "2023",
+        "2024",
+        "2025",
+        "60%",
+        "500억엔"
+      ],
+      "keywords": [
+        "무라타",
+        "iPaS",
+        "AI 반도체",
+        "수직전력공급",
+        "전력기판"
+      ],
+      "stated_outlook": "양산 후 1년 반 내 연매출 500억엔 규모로 성장시키는 것을 목표로 하며, 하이엔드 AI 가속기 제품을 중심으로 적용될 전망이다."
+    },
     {
       "id": "734830cb4b04",
       "sector": "semiconductor",
