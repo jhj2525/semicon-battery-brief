@@ -15842,6 +15842,43 @@
   "manual_updated_at": "2026-09-13 13:07 KST",
   "favorite_items": [
     {
+      "id": "6b3f9301fffb",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "덕산하이메탈, 글로벌 1위 솔더볼 기술력 공개",
+      "source": "디일렉",
+      "source_type": "직접 선택",
+      "published": "2026-09-10 14:57",
+      "collected": "2026-09-10",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=62053",
+      "requested_link": "https://www.thelec.kr/news/articleView.html?idxno=62053",
+      "rss_description": "덕산하이메탈, 글로벌 1위 솔더볼 기술력 공개 - 디일렉(THE ELEC)",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "인공지능 반도체와 고성능 서버 시장이 확대되면서 반도체 첨단 패키징 공정의 미세화가 가속화되고 있다. 이에 따라 반도체 칩과 기판을 연결하는 접합 소재인 솔더볼 또한 더욱 정밀해지고 있다. 덕산하이메탈은 머리카락보다 얇은 마이크로솔더볼을 수마이크로미터(㎛) 수준의 공차로 생산하며 기술력을 입증했다. 회사는 이러한 정밀 소재를 통해 솔더 토탈 솔루션 공급을 강화하며 시장 경쟁력을 높이고 있다.",
+      "industry_context": "덕산하이메탈은 반도체 소재를 전문으로 하는 한국 기업으로, 반도체 칩과 기판을 전기적으로 연결하는 핵심 소재인 솔더볼 분야에서 글로벌 점유율 1위를 차지하고 있다. 이 회사는 솔더볼 외에도 솔더페이스트, 플럭스, 구리 기둥(Cu-Post) 등 다양한 접합 소재 기술을 보유하고 있으며, 첨단 반도체 패키징 시장의 공급망에서 중요한 위치를 차지하고 있다.",
+      "key_points": [
+        "덕산하이메탈이 'KPCA Show 2026'에서 차세대 반도체용 솔더 소재 기술을 전시함",
+        "첨단 패키징 미세화 트렌드에 대응하여 마이크로솔더볼 등 고성능 접합 소재 라인업 확보",
+        "구리 코어를 활용한 CSB와 미세 피치 구현에 유리한 Cu-Post 등 토탈 솔루션 역량 강화"
+      ],
+      "numbers": [
+        "2026년 9월 9일 ~ 11일(KPCA Show 2026 기간)"
+      ],
+      "keywords": [
+        "덕산하이메탈",
+        "솔더볼",
+        "마이크로솔더볼",
+        "첨단패키징",
+        "솔더페이스트",
+        "반도체 소재"
+      ],
+      "stated_outlook": "AI 등 빠르게 성장하는 첨단 산업에 맞춰 고성능 소재를 지속 공급해 글로벌 시장을 이끌겠다는 계획이다.",
+      "summary_status": "summarized",
+      "favorited_at": "2026-09-13 13:07 KST"
+    },
+    {
       "id": "b9e0839bedeb",
       "sector": "semiconductor",
       "region": "domestic",
