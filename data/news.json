@@ -15802,6 +15802,42 @@
   "manual_updated_at": "2026-09-13 22:05 KST",
   "favorite_items": [
     {
+      "id": "2a03c706e8cc",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "반도체공정 갈수록 난도 높아져…‘탄화실리콘 포커스링’ 적용 확대 기대",
+      "source": "헤럴드경제",
+      "source_type": "경제지 보도",
+      "published": "2026-09-11 11:15",
+      "collected": "2026-09-12",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03d0l1V0k3WGJha3BVWUo3c3BrdDRzQWxULW5BWDl3ZWNLeWMtdFlhVEtGLXhhYjEtaS1RQTNDMUIwX2I4T0xhZVg5NFlKVW5KUWxCQVRR?oc=5",
+      "trusted_headline": true,
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "반도체 식각공정의 난도가 높아짐에 따라 내구성이 뛰어난 탄화실리콘(SiC) 소재의 포커스링 수요가 급증하고 있다. 케이엔제이는 낸드 공정에서 검증된 기술력을 바탕으로 DRAM 등 적용 범위를 확대하며 시장 변화에 대응 중이다. 이에 따라 회사는 생산 능력을 확보하기 위해 신규 생산동을 구축하고 설비를 지속적으로 확충하고 있다. 또한, 향후 원가 절감과 애프터마켓 수요 증가로 인해 SiC 부품의 적용 범위가 더욱 넓어질 것으로 예상된다. 케이엔제이는 이를 위해 평택에 3차 증설을 추진하고 고품질 실리콘 부품 등 새로운 성장 동력 확보에도 나서고 있다.",
+      "key_points": [
+        "케이엔제이는 화학 기상증착(CVD) 방식의 SiC 소재 포커스링을 주력으로 생산한다.",
+        "낸드 공정에서 검증된 기술력을 기반으로 DRAM 식각공정까지 적용 범위를 확대하고 있다.",
+        "시장 수요 급증에 대응하기 위해 신규 생산동 구축 및 설비 확충을 진행 중이며, 평택에 3차 증설을 추진하고 있다.",
+        "SiC 포커스링 외에도 대구경 단결정실리콘 소재의 반도체 부품 사업을 신성장 동력으로 추진한다."
+      ],
+      "numbers": [
+        "2026-09-11"
+      ],
+      "keywords": [
+        "케이엔제이",
+        "SiC포커스링",
+        "식각공정",
+        "반도체부품",
+        "DRAM"
+      ],
+      "stated_outlook": "반도체 업체의 원가 절감 요구와 애프터마켓 확대로 SiC 부품 적용이 더욱 넓어질 전망이며, 케이엔제이는 소재 사용효율 및 가공수율 개선과 고객 기반 확대를 동시에 추진할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "메모리 반도체의 고성능·고집적화로 제조 공정이 복잡해지면서 식각공정 내 가혹한 환경을 견딜 수 있는 내구성이 강한 소재·부품이 요구되고 있다. 특히 AI 데이터센터 확산에 따른 HBM 및 고성능 DRAM 수요 증가가 식각 부품 시장의 성장을 견인하고 있다.",
+      "favorited_at": "2026-09-13 22:05 KST"
+    },
+    {
       "id": "b6f4520fc549",
       "sector": "battery",
       "region": "domestic",
