@@ -360,13 +360,32 @@
       "collected": "2026-09-12",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5PMGJaTnZ5blE5RldHWTBNV3JaaG1IU3JMWGxOaTNvNWl2dGYxQ1JnaFkza2dldE92dVNuT1NVWExyTzF6c2dYa0dHSDhIeEZqaHlRdkRseHh6bTFi?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "삼성전자가 2026년 9월 대구에서 열린 '대한민국 국제물주간(KIWW) 2026'에 참가해 지속가능한 수자원 관리 성과와 전략을 공개했다. 지난해 국내 반도체 사업장에서 약 1억 800만 톤의 물을 재이용하며 환경 보호에 힘쓰고 있다. 향후 화성·오산 사업장 12만 톤, 수원 사업장 21만 톤 등 하루 총 33만 톤 규모로 하수처리수 재이용 사업을 확대할 계획이다. 또한 공공하수처리시설 방류수를 공업용수로 활용하는 민관 협력 사업을 통해 효율적인 수자원 이용 체계를 구축하고 있다. 이러한 노력은 지역 수생태계 회복과 생물다양성 보전 활동으로 이어지고 있다.",
+      "key_points": [
+        "삼성전자는 지난해 국내 반도체 사업장에서 약 1억 800만 톤의 물을 재이용함.",
+        "화성·오산과 수원 사업장에서 하루 총 33만 톤 규모의 하수처리수 재이용 사업을 준비 중임.",
+        "정부 및 지자체와 협력하여 하수처리수 방류수를 고도 정화 후 공업용수로 활용하는 민관 협력 사업 추진.",
+        "워터 포지티브 및 네이처 포지티브 활동을 통해 수질 개선과 생태계 보전 활동을 전개함."
+      ],
+      "numbers": [
+        "1억 800만 톤",
+        "33만 톤",
+        "12만 톤",
+        "21만 톤",
+        "2026년 9월 11일"
+      ],
+      "keywords": [
+        "삼성전자",
+        "수자원 관리",
+        "대한민국 국제물주간",
+        "반도체",
+        "하수처리수 재이용"
+      ],
+      "stated_outlook": "기술 혁신과 민관 협력을 통해 물 사용을 효율화하고 재이용을 확대하며, 사업장 인근 생태계를 고려한 지속가능한 수자원 관리 체계를 강화할 계획임.",
+      "summary_source": "pasted_text",
+      "industry_context": "대한민국 국제물주간(KIWW)은 국내외 정부, 공공기관, 기업, 전문가들이 참여하여 물 문제 해결 방안을 논의하는 국제 행사로, 반도체 산업의 지속가능한 수자원 관리 중요성이 강조되고 있음."
     },
     {
       "id": "6c485b6cede8",
@@ -15597,7 +15616,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-13 12:43 KST",
+  "manual_updated_at": "2026-09-13 12:44 KST",
   "favorite_items": [
     {
       "id": "b497f70a8bd5",
