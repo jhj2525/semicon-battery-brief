@@ -58,13 +58,32 @@
       "collected": "2026-09-13",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE55TjRJYlZLdjhQekY4UzJ6S0RRSHMtT3VuemdrUkU2aFJka2Q4SGlqM3F0RTdYT05GQjlrUnpWcFpSb0t5ZHdNaDZuYTJMSEg3R2ZWbGRB?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "중국의 반도체 노광장비 국산화 추격이 가속화되는 가운데, 글로벌 반도체 선두 기업들이 차세대 기술인 High-NA EUV를 중심으로 공동 전선을 구축하고 있다. ASML, 삼성전자, 인텔, TSMC는 단순히 장비를 도입하는 것을 넘어 12인치 대형 포토마스크 도입과 관련된 제조 표준 및 인프라를 공동 개발하기로 했다. 이는 중국이 기존 기술을 추격하는 동안 초미세 공정에서의 기술 격차를 더욱 벌리려는 전략적 움직임으로 풀이된다. 이들은 대형 포토마스크 체계 도입을 통해 High-NA 노광 시스템의 생산성을 약 40% 향상시키는 것을 목표로 하고 있다. 이러한 협력은 반도체 제조 생태계 전반의 기술 표준을 재정립하는 계기가 될 것으로 보인다.",
+      "key_points": [
+        "삼성전자, 인텔, TSMC가 ASML과 협력하여 차세대 High-NA EUV 노광장비 도입 및 관련 제조 표준을 공동 개발하기로 합의함",
+        "기존 6인치 포토마스크 표준을 12인치급으로 전환하여 생산성을 높이고 공정 오류를 줄이는 산업 이니셔티브를 추진함",
+        "삼성전자는 2028년 첨단 D램 양산에 High-NA EUV를 업계 최초로 적용할 계획임",
+        "TSMC는 2030년 첨단 공정 양산에 High-NA EUV를 도입하고 2033년 관련 시스템을 본격 투입할 계획임"
+      ],
+      "numbers": [
+        "2028년",
+        "2030년",
+        "2031년",
+        "2033년",
+        "40%"
+      ],
+      "keywords": [
+        "ASML",
+        "High-NA EUV",
+        "포토마스크",
+        "반도체 공정",
+        "노광장비"
+      ],
+      "stated_outlook": "삼성전자는 2028년 첨단 D램 양산에 High-NA EUV를 적용할 계획이며, TSMC는 2030년 첨단 공정 대량생산에 해당 장비를 활용할 전망이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "최근 중국 기업인 창신메모리(CXMT)와 양쯔메모리(YMTC)가 액침형 DUV 노광장비 국산화에 속도를 내며 글로벌 반도체 업계의 기술 추격이 거세지고 있다."
     },
     {
       "id": "920cb3377e9f",
@@ -15719,7 +15738,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-13 12:46 KST",
+  "manual_updated_at": "2026-09-13 12:47 KST",
   "favorite_items": [
     {
       "id": "d43e66dfb29a",
