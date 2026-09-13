@@ -117,13 +117,34 @@
       "collected": "2026-09-13",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XTkZITENMYk1rRW5GOS0tT3pvT1lWLVFfR0o3cGkxdDB1dGUwT25aY2xVbnpmNlFJSVpRYVNFLW1wMUFCZ21rNTlXUFI0SUhSbmg0SUw3NVVHVUR0STVyMlJLcVhBOTRKM3Q3d0FiT2YwejlS0gF0QVVfeXFMT1dORkhMQ0xiTWtFbkY5LS1Pem9PWVYtUV9HSjdwaTF0MHV0ZTBPblpjbFVuemY2UUlJWlFhU0UtbXAxQUJnbWs1OVdQUjRJSFJuaDRJTDc1VUdVRHRJNXIyUktxWEE5NEozdDd3QWJPZjB6OVI?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "삼성전자와 SK하이닉스가 AI 시대를 맞아 반도체 생태계 전반을 AI 중심으로 재편하고 있다. 삼성전자는 연구개발부터 생산까지 밸류체인 전반에 AI를 이식하고 미스트랄 AI와 파트너십을 체결해 반도체 특화 AI 모델 구축에 나섰다. SK하이닉스는 '풀 스택 AI 메모리 크리에이터'로의 도약을 목표로 생산 현장에 AI 팹을 구축하고, 소프트웨어 공장 개념을 도입해 연구개발 효율을 높이고 있다. 양사 모두 차세대 제조 장비 도입과 글로벌 파트너십 확장을 통해 기술 경쟁력을 확보 중이다. 이러한 변화는 복잡해지는 반도체 설계 및 제조 현장에서 데이터를 효율적으로 활용해 혁신을 이루기 위한 전략이다.",
+      "key_points": [
+        "삼성전자는 미스트랄 AI와 전략적 파트너십을 맺고 온프레미스 방식의 반도체 전용 AI 모델을 공동 구축한다.",
+        "삼성전자는 ASML의 대형 마스크 컨소시엄에 합류하고 2028년 High NA EUV 도입을 추진한다.",
+        "SK하이닉스는 자체 플랫폼 가이아(GaiA)를 기반으로 생산 운영을 총괄하는 AI 팹을 구축하고 현장에 안전 로봇을 투입한다.",
+        "SK하이닉스는 HBM 이후 기술로 소자 집적 및 이종 집적 기반의 3D 메모리를 지목하고 메모리-파운드리 간 기술 경계를 허무는 협업을 강화한다."
+      ],
+      "numbers": [
+        "2026-09-13",
+        "4월 3일",
+        "6월",
+        "9일",
+        "2028년",
+        "8일"
+      ],
+      "keywords": [
+        "반도체",
+        "AI",
+        "삼성전자",
+        "SK하이닉스",
+        "미스트랄 AI",
+        "가이아"
+      ],
+      "stated_outlook": "삼성전자는 칩 제조 품질 제고 및 개발 기간 단축을 목표로 하며, SK하이닉스는 메모리 포트폴리오 재구성과 AI 풀스택 프로바이더 전략을 통해 주도권을 확보할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "반도체 설계와 제조의 복잡성이 빠르게 증가함에 따라 방대한 데이터를 정교하게 활용하는 AI 역량이 핵심 경쟁력으로 부상하고 있다."
     },
     {
       "id": "c426d30a64e4",
