@@ -249,20 +249,38 @@
       "sector": "battery",
       "region": "domestic",
       "category": "투자·양산",
-      "title": "셀은 살아나는데 투자는 ‘아직’…K-배터리 생태계 반등 언제 [배터리레이다]",
+      "title": "셀은 살아나는데 투자는 ‘아직’…K-배터리 생태계 반등 언제",
       "source": "디지털데일리",
       "source_type": "산업 전문언론",
       "published": "2026-09-11 16:40",
       "collected": "2026-09-12",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HaUNNUVJGSGl4cGRaOUR3SXlkZk45d0xOdlZJWEJHNm1XMURTaUhCRHVRdEZiMU9mcmhOSmJSTTJiX3ZzUWk2aDc5cUItSjA3bWw1M0EzVW9xZk5ZeVRzUE9ib0M?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "국내 배터리 3사가 북미 ESS 시장 확대와 유럽 전기차 판매 회복으로 실적 개선 흐름을 보이고 있다. 그러나 신규 증설보다는 기존 전기차 생산라인을 ESS용으로 전환하는 등 생산 효율화에 집중하고 있다. 이러한 보수적인 투자 기조로 인해 소재 및 장비 업계의 수주 회복은 지연되고 있다. 업계는 향후 ESS 수요 지속과 전기차 프로젝트 활성화를 통한 투자 회복 가능성을 주시하고 있다. 현재 사실상 신규 투자는 삼성SDI의 시너지셀즈 증설 정도로 제한적이다.",
+      "key_points": [
+        "LG에너지솔루션은 미시간주 랜싱 공장을 전기차와 ESS 복합 생산 거점으로 전환 중이다.",
+        "SK온은 서산 공장 일부 라인을 ESS용 LFP 배터리 라인으로 전환하고 네오볼타 파워와 공급 계약을 체결했다.",
+        "삼성SDI는 GM 합작법인 시너지셀즈 증설을 추진하며, 기존 전기차 라인을 ESS용으로 개편하고 있다.",
+        "배터리 3사의 신규 증설 제한으로 장비 업계의 내년 수주 가시성이 낮은 상황이다."
+      ],
+      "numbers": [
+        "2026-09-11",
+        "2027년",
+        "2031년",
+        "9GWh"
+      ],
+      "keywords": [
+        "K-배터리",
+        "ESS",
+        "LFP배터리",
+        "생산라인 전환",
+        "설비투자"
+      ],
+      "stated_outlook": "ESS 수요 지속과 자율주행차 등 차세대 전기차 프로젝트 확대, 산업가속화법(IAA) 등의 정책적 요소가 설비 투자 회복의 변수가 될 것으로 전망된다.",
+      "summary_source": "pasted_text",
+      "industry_context": "북미 중심의 ESS용 리튬인산철(LFP) 배터리 수요 증가와 유럽 전기차 시장의 판매량 회복세가 나타나고 있다."
     },
     {
       "id": "c68f269627ec",
