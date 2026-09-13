@@ -15799,8 +15799,49 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-13 16:10 KST",
+  "manual_updated_at": "2026-09-13 16:11 KST",
   "favorite_items": [
+    {
+      "id": "0db37686129b",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "김동명 LG엔솔 대표, 비용에 무릎 '적자 전환'…경쟁사는 모두 흑자",
+      "source": "koreareport.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-09-10 20:32",
+      "collected": "2026-09-13",
+      "link": "https://www.koreareport.co.kr/news/articleView.html?idxno=52794",
+      "requested_link": "https://share.google/5c4WFbdOLZYYZWLCv",
+      "rss_description": "김동명 LG엔솔 대표, 비용에 무릎 ‘적자 전환’…경쟁사는 모두 흑자 - 코리아리포트",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "LG에너지솔루션은 상반기 매출 증가에도 불구하고 판매관리비와 영업 외 비용 등 각종 비용이 급증하며 적자로 전환했다. 반면 SK온과 삼성SDI 등 국내 주요 경쟁사들은 같은 기간 흑자를 기록하며 대조적인 실적을 보였다. LG에너지솔루션은 해외 사업 비중이 높아 상대적으로 물류비 등 고정비 부담이 컸던 것으로 분석된다. 이에 대응해 기업은 비용 효율화를 지속 추진하는 동시에 차세대 배터리 기술 확보에 집중하고 있다. 특히 서울대와 협력해 LMR 배터리의 대형 셀 적용 안정성을 높이는 등 신성장 동력을 강화하고 있다.",
+      "industry_context": "LG에너지솔루션은 세계적인 배터리 제조 기업으로, 주로 전기차용 배터리를 주력 사업으로 영위한다. SK온과 삼성SDI는 LG에너지솔루션과 함께 국내를 대표하는 배터리 3사로, 글로벌 공급망에서 주요 위치를 차지하고 있다.",
+      "key_points": [
+        "LG에너지솔루션 상반기 적자 전환(영업손실 945억원, 순손실 1조 2727억원)",
+        "판매관리비 및 영업 외 비용의 두 자릿수 급증이 실적 악화의 주원인",
+        "미국 스맥오버 리튬과 협력하여 2029년부터 10년간 탄산리튬 8만 톤 확보 추진",
+        "서울대와 함께 LMR 배터리의 가스 발생 및 용량 저하 제어 기술 공동 개발"
+      ],
+      "numbers": [
+        "2024년 매출 25조 6200억원",
+        "상반기 매출 14조 1152억원",
+        "1~7월 국내 전기차 판매 27만 7032대",
+        "2029년부터 10년간 탄산리튬 8만 톤 확보"
+      ],
+      "keywords": [
+        "LG에너지솔루션",
+        "김동명",
+        "배터리",
+        "적자전환",
+        "LMR배터리",
+        "전기차"
+      ],
+      "stated_outlook": "국내 연구개발 강화 및 해외 현지 생산 확대를 통한 원가 절감과 실적 개선 주력, 전방 산업 회복 및 ESS 산업 활성화를 통한 실적 개선 가속화 기대",
+      "summary_status": "summarized",
+      "favorited_at": "2026-09-13 16:11 KST"
+    },
     {
       "id": "6eebe7496bf0",
       "sector": "semiconductor",
