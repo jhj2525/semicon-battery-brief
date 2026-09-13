@@ -15619,6 +15619,27 @@
   "manual_updated_at": "2026-09-13 12:44 KST",
   "favorite_items": [
     {
+      "id": "b3a1ee158c51",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "삼성전자 반도체 반격 시작되나…4분기 HBM 점유율 40% 넘본다",
+      "source": "헤럴드경제",
+      "source_type": "경제지 보도",
+      "published": "2026-09-11 21:30",
+      "collected": "2026-09-12",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ucUVXSUJpdGRoRlpOd2V3Q2w0UEhOOVd2Z3g1bUxVTW1meU1ua1JDamRnVzNEaHlkOHZGaGtOTFdweGFVSE5fX3pnWi1uVDg3Zy13b2Zn?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "favorited_at": "2026-09-13 12:44 KST"
+    },
+    {
       "id": "b497f70a8bd5",
       "sector": "semiconductor",
       "region": "domestic",
