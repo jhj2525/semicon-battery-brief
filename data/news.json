@@ -294,13 +294,32 @@
       "collected": "2026-09-12",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAybmVzSHdmQWxyZ3FVOURuTGpMZmVwX2ZQUnhEUG03bkhFUWNpYnVEVDFEREE5Qi03cExMaGhsWE56WEtXSEUyRkI1LXVYNXQ5MmdXYzhtYWR0N3c3?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "한국폴리텍대학 청주캠퍼스가 충북·세종권 반도체 후공정 인재 양성의 핵심 거점으로 선정되었다. 이번 사업은 교육부와 한국연구재단이 주관하는 '초광역 성장엔진 반도체 분야 인재육성 사업'의 일환으로 추진된다. 고려대학교 세종캠퍼스가 주관대학을 맡고, 청주폴리텍은 후공정 패키징 및 전장제어 분야의 교육을 주도한다. 2030년 2월까지 4년간 총 2000명의 반도체 핵심 인력을 양성하는 것을 목표로 한다. 대학과 지자체, 그리고 SK하이닉스를 포함한 지역 기업들이 협력하여 현장 실무형 인재를 육성할 계획이다.",
+      "key_points": [
+        "한국폴리텍대 청주캠퍼스가 반도체 후공정 인재육성 사업 참여대학으로 선정됨",
+        "사업 기간은 2026년부터 2030년 2월까지 4년간 진행됨",
+        "청주폴리텍은 반도체공정과 등 6개 학과를 통해 후공정 패키징 및 전장제어 분야를 주도함",
+        "SK하이닉스, 네패스 등 지역 기업과 연계한 교육을 통해 96.2%의 취업률을 기록한 바 있음"
+      ],
+      "numbers": [
+        "2030년 2월",
+        "2000명",
+        "128억원",
+        "2149㎡",
+        "96.2%"
+      ],
+      "keywords": [
+        "한국폴리텍대학",
+        "반도체 후공정",
+        "인재양성",
+        "충북",
+        "세종"
+      ],
+      "stated_outlook": "직업계고 학생부터 대학 재학생, 기업 재직자까지 아우르는 교육체계를 구축하고 후공정·장비운용·전장제어·반도체 설비 유지보수 분야의 실무형 인재 양성을 확대할 계획임.",
+      "summary_source": "pasted_text",
+      "industry_context": "충북의 생산·패키징 산업 기반과 세종의 반도체 설계·시스템반도체 연구 역량을 연계하여 지역 전략산업에 필요한 인재를 양성하는 체계를 구축함."
     },
     {
       "id": "0977080a4d62",
@@ -15650,7 +15669,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-13 12:44 KST",
+  "manual_updated_at": "2026-09-13 12:45 KST",
   "favorite_items": [
     {
       "id": "b3a1ee158c51",
