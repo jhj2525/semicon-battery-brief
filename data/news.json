@@ -158,13 +158,33 @@
       "collected": "2026-09-13",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PcVVVejN4RHNLb3pHaUxZMHV3Y1RvN3hXUmRWYXhidXRIRWVXVU1jejhIUnBRT191Y3BESGQ1VGp4bnRYZHZaMGRGMzNZZDlsMEl1Q0VvMzhpUQ?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "일본 후지쓰가 슈퍼컴퓨터 개발 기술을 활용한 AI용 첨단 CPU '모나카(MONAKA)'를 앞세워 글로벌 시장에 재진출한다. 후지쓰는 자체 설계한 2나노미터 CPU 생산을 대만 TSMC에 맡기며, 미국과 아시아·태평양 지역을 중심으로 판매망을 확대할 계획이다. CPU 판매뿐만 아니라 이를 탑재한 AI 서버 및 관련 플랫폼을 통합 제공하여 사업 경쟁력을 강화하고 있다. 이번 행보는 과거 종합 전기 업체였던 후지쓰가 AI 시대를 맞아 로직 반도체 시장에서의 입지를 되찾으려는 전략적 재도전으로 평가된다.",
+      "key_points": [
+        "후지쓰가 자체 개발한 2나노미터 공정 기반 AI CPU '모나카(MONAKA)'를 2027년 이후 글로벌 시장에 판매한다.",
+        "모나카의 생산은 대만 TSMC가 담당하며, 향후 1.4나노 차세대 제품은 일본 라피더스와 협력할 가능성이 있다.",
+        "후지쓰는 CPU 외에도 AI 서버 판매 및 개발 플랫폼 제공을 병행하여 2030년까지 누적 매출 2500억 엔을 목표로 한다.",
+        "현재 24개사가 시험 장비를 사용 중이며 40개사 이상이 도입을 협의하고 있다."
+      ],
+      "numbers": [
+        "2027년",
+        "2나노미터",
+        "1.4나노",
+        "2030년도",
+        "2500억엔",
+        "6만대"
+      ],
+      "keywords": [
+        "후지쓰",
+        "모나카",
+        "TSMC",
+        "AI 반도체",
+        "라피더스"
+      ],
+      "stated_outlook": "2030년도까지 CPU 외부 판매를 통해 누적 매출 2500억 엔 달성 및 AI 서버 6만 대 판매를 계획하고 있다.",
+      "summary_source": "pasted_text",
+      "industry_context": "AI 기술 확산으로 세계 반도체 시장이 급성장하며 고성능 CPU 수요가 늘고 있으나, 일본은 첨단 로직 반도체 분야에서 미국, 대만, 한국에 비해 경쟁력이 약화된 상태다."
     }
   ],
   "archive_items": [
