@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-13 09:00 KST",
-  "last_automatic_update_at": "2026-09-13 09:00 KST",
-  "automatic_cycle_started_at": "2026-09-13 09:00 KST",
+  "updated_at": "2026-09-13 10:02 KST",
+  "last_automatic_update_at": "2026-09-13 10:02 KST",
+  "automatic_cycle_started_at": "2026-09-13 10:01 KST",
   "publication_window": {
-    "from": "2026-09-12 09:00 KST",
-    "to": "2026-09-13 09:00 KST"
+    "from": "2026-09-12 10:01 KST",
+    "to": "2026-09-13 10:01 KST"
   },
-  "today_verified_count": 4,
+  "today_verified_count": 1,
   "current_items": [
     {
       "id": "d43e66dfb29a",
@@ -97,6 +97,26 @@
       "published": "2026-09-13 07:01",
       "collected": "2026-09-13",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XTkZITENMYk1rRW5GOS0tT3pvT1lWLVFfR0o3cGkxdDB1dGUwT25aY2xVbnpmNlFJSVpRYVNFLW1wMUFCZ21rNTlXUFI0SUhSbmg0SUw3NVVHVUR0STVyMlJLcVhBOTRKM3Q3d0FiT2YwejlS0gF0QVVfeXFMT1dORkhMQ0xiTWtFbkY5LS1Pem9PWVYtUV9HSjdwaTF0MHV0ZTBPblpjbFVuemY2UUlJWlFhU0UtbXAxQUJnbWs1OVdQUjRJSFJuaDRJTDc1VUdVRHRJNXIyUktxWEE5NEozdDd3QWJPZjB6OVI?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "c426d30a64e4",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "후지쓰, AI 반도체 美·아시아 공략…TSMC가 생산",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-09-13 08:57",
+      "collected": "2026-09-13",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PcVVVejN4RHNLb3pHaUxZMHV3Y1RvN3hXUmRWYXhidXRIRWVXVU1jejhIUnBRT191Y3BESGQ1VGp4bnRYZHZaMGRGMzNZZDlsMEl1Q0VvMzhpUQ?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
