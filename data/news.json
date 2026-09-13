@@ -380,13 +380,33 @@
       "collected": "2026-09-12",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80X1Vla3ZHbUhhNUtqX0RJNERTcDNNOG9XQTdsYno0X1Zzd1dPMWhNbGxRT1pra0Z5MFJrclpXcmVzeE9kYXNYdzA3QnJGenZWeHBZQWpqczBGcVp5cURoRdIBeEFVX3lxTE9kSC1ManA1RE5va1g1YVNiQlVCQjVQYlV6WXlvTkh1VXM4WGxBYTNtNWZKaE1MWWMwcmxCOXQ2VTZ4dWRKYU9NRWczelVFa1BKR25haVAtSlBCd0pXcVJuVmFCTTBDMUdKM21zLUhzNWZwVFpESXl6NA?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "글로벌 파운드리 1위 기업 TSMC가 1.4나노 공정 양산 일정을 당초 계획보다 6개월 앞당겨 내년 하반기에 시작할 예정이다. 이는 인공지능(AI) 기술 확산에 따른 빅테크 기업들의 고성능 반도체 수요를 선점하기 위한 전략이다. 삼성전자 역시 2029년 양산을 목표로 1.4나노 기술 개발을 진행하며 고객사 확보를 위해 속도를 내고 있다. 파운드리 업계는 미세 공정 경쟁과 함께 생산 신뢰도와 수율 확보를 핵심 경쟁력으로 평가하고 있다. 향후 삼성전자가 고객사 수요에 맞춰 1.4나노 양산 시점을 조정할 가능성도 제기된다.",
+      "key_points": [
+        "TSMC는 내년 4월 타이중 제25팹 1공장 완공 후 시험 생산을 거쳐 하반기부터 1.4나노를 양산할 계획이다.",
+        "삼성전자는 2나노 공정 양산을 확대하는 한편 2029년 양산을 목표로 1.4나노 공정을 개발 중이다.",
+        "올해 2분기 기준 TSMC와 삼성전자의 파운드리 점유율 격차는 66.6%포인트로 전 분기 대비 확대되었다.",
+        "업계에서는 1.4나노 개발 및 고객 확보와 병행하여 현재 2나노 공정의 수율과 신뢰도를 높이는 것이 중요하다는 의견이 나온다."
+      ],
+      "numbers": [
+        "2026.09.11",
+        "6개월",
+        "2029년",
+        "10~15%",
+        "30%",
+        "53.3%"
+      ],
+      "keywords": [
+        "TSMC",
+        "삼성전자",
+        "파운드리",
+        "1.4나노",
+        "반도체 양산"
+      ],
+      "stated_outlook": "TSMC는 내년 말까지 제25팹 2공장 생산 돌입을 목표로 하며, 삼성전자는 고객사 수요에 따라 1.4나노 양산 일정을 앞당길 가능성이 있다.",
+      "summary_source": "pasted_text",
+      "industry_context": "인공지능(AI) 확장으로 인해 애플 등 빅테크 기업들이 연산 성능과 전력 효율이 향상된 최첨단 공정에 대한 수요를 높이고 있으며, 고객사들은 공급 안정성을 위해 여러 파운드리 기업을 활용하는 추세다."
     },
     {
       "id": "2a03c706e8cc",
@@ -15577,7 +15597,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-11 13:37 KST",
+  "manual_updated_at": "2026-09-13 12:43 KST",
   "favorite_items": [
     {
       "id": "b497f70a8bd5",
