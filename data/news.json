@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-15 09:42 KST",
-  "last_automatic_update_at": "2026-09-15 09:42 KST",
-  "automatic_cycle_started_at": "2026-09-15 09:38 KST",
+  "updated_at": "2026-09-15 10:30 KST",
+  "last_automatic_update_at": "2026-09-15 10:30 KST",
+  "automatic_cycle_started_at": "2026-09-15 10:29 KST",
   "publication_window": {
-    "from": "2026-09-14 09:38 KST",
-    "to": "2026-09-15 09:38 KST"
+    "from": "2026-09-14 10:29 KST",
+    "to": "2026-09-15 10:29 KST"
   },
-  "today_verified_count": 10,
+  "today_verified_count": 3,
   "current_items": [
     {
       "id": "d56680722fe3",
@@ -254,6 +254,100 @@
       "published": "2026-09-15 08:50",
       "collected": "2026-09-15",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xa2xEeTlLREdwNGNpSWVxWXYxdGI4R0lJOHpHTHJnV0dndEZXZDNTd09HOHBLMGlxOHhzckoyNi1LUVdYZl9fcUYxNGlKUzVkN0YzNWJsUTk0cjhL?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "3128203e8335",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "HS효성·유미코아, 울산 실리콘 음극재에 1조2000억원 투자",
+      "source": "디일렉",
+      "published": "2026-09-14 22:58",
+      "collected": "2026-09-15",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=62217",
+      "rss_description": "HS효성그룹과 벨기에 유미코아의 합작법인 HS효성에너지솔루션코리아가 울산에 1조2000억원을 투자해 실리콘 음극재 생산기지를 구축한다.HS효성에너지솔루션코리아는 14일 울산시와 실리콘 음극재 생산공장 신설을 위한 투자협약(MOU)을 체결했다고 밝혔다. 회사는 울산·미포국가산업단지에 2030년까지 총 1조2000억원을 투자한다.투자는 3단계로 이뤄진다. 1단계로 3000억원을 투입해 2028년 1분기까지 연산 5000톤(t) 규모의 실리콘 음극재 공장(MPK-1)을 건설한다. 이후 추가 투자를 거쳐 대량생산 체제를 갖출 예정이다.실리",
+      "score": 49,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "HS효성그룹과 벨기에 유미코아의 합작법인인 HS효성에너지솔루션코리아가 울산에 실리콘 음극재 생산기지를 구축하기 위해 1조 2000억 원을 투자한다. 2030년까지 단계적으로 투자가 진행되며, 1단계로 2028년 1분기까지 연산 5000톤 규모의 공장을 건설할 예정이다. 이는 HS효성그룹의 계열분리 후 첫 신사업으로, 전기차 효율 개선에 기여하는 실리콘 음극재의 대량생산 체제를 마련하기 위함이다.",
+      "key_points": [
+        "HS효성그룹과 유미코아가 80대 20의 지분율로 HS효성에너지솔루션코리아를 설립함.",
+        "울산·미포국가산업단지에 2030년까지 총 1조 2000억 원을 투자하는 협약(MOU)을 울산시와 체결함.",
+        "3단계 투자를 통해 실리콘 음극재 대량생산 체제를 갖출 예정이며, 1단계로 3000억 원을 투입해 2028년 1분기까지 연산 5000톤 규모의 공장을 건설함."
+      ],
+      "numbers": [
+        "1조 2000억 원",
+        "2030년",
+        "3단계",
+        "3000억 원",
+        "2028년 1분기",
+        "5000톤"
+      ],
+      "keywords": [
+        "HS효성",
+        "유미코아",
+        "실리콘 음극재",
+        "울산",
+        "HS효성에너지솔루션코리아"
+      ],
+      "stated_outlook": "추가 투자를 거쳐 실리콘 음극재 대량생산 체제를 갖추고, 첨단 생산기지 구축과 일자리 창출로 지역과 함께 성장할 계획이다."
+    },
+    {
+      "id": "d7fd69b19cc3",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "큐빅셀, 반도체 유리기판 TGV 전주기 검사 장비 개발",
+      "source": "전자신문",
+      "published": "2026-09-14 16:00",
+      "collected": "2026-09-15",
+      "link": "https://www.etnews.com/20260914000234",
+      "rss_description": "큐빅셀이 반도체 유리기판 핵심 요소인 '글라스관통전극(TGV)' 전주기 검사 장비를 개발했다. 독자 개발한 홀로그래피 기반 광학 기술을 기반으로, TGV 결함뿐만 아니라 레이저 가공(개질), 최종 TGV 구멍(비아홀) 등 전 공정을 파악할 수 있어 수율과 생산성 개선이 기대된다. 큐빅셀은 최근 유리기판 TGV 내부에 발생한 미세 균열(마이크로 크랙)을 마이크로미터(㎛) 단위로 검출할 수 있는 설비를 개발했다고 14일 밝혔다. TGV는 유리기판에",
+      "score": 20,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "큐빅셀이 반도체 유리기판 핵심 요소인 글라스관통전극(TGV)의 전주기 검사 장비를 개발했다. 이 장비는 홀로그래피 기반 광학 기술인 '플라잉 오버 스캐닝 홀로그래피(FSH)'를 적용해 비파괴 방식으로 유리기판 내부를 검사한다. 레이저 가공부터 식각 및 구리 충진까지 전 공정의 품질을 연계 관리하여 수율과 생산성을 개선한다. 대면적 기판 처리를 위해 FSH 모듈 4개를 병렬 구성하여 검사 속도도 높였다.",
+      "key_points": [
+        "큐빅셀이 자체 개발한 홀로그래피 기반 기술로 TGV 전주기 검사 장비를 개발함",
+        "FSH 모듈 4개를 병렬로 구성해 최대 515×515㎜ 유리기판을 30분 이내에 검사 가능",
+        "레이저 가공 상태 전수 검사, 식각 후 품질 예측, 구리 충진 후 균열 검사를 하나의 체계로 구축함"
+      ],
+      "numbers": [
+        "2026-09-14",
+        "515×515㎜",
+        "30분",
+        "4개"
+      ],
+      "keywords": [
+        "큐빅셀",
+        "TGV",
+        "유리기판",
+        "반도체 검사 장비",
+        "홀로그래피"
+      ],
+      "stated_outlook": "향후 고객사 기판 크기, 공정 조건, 검사 항목에 최적화된 자동화 및 인라인 검사 솔루션으로 확대할 계획이다."
+    },
+    {
+      "id": "8aa8ba2bf426",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "노후 ESS, 언제까지 안전할까… 국립부경대생팀, 전기안전 공모전 대상",
+      "source": "아시아경제",
+      "source_type": "경제지 보도",
+      "published": "2026-09-15 10:13",
+      "collected": "2026-09-15",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vZXRRQk41bjdNT3FCc0Q1T3pDdG5yaHlmVG0tTVFSYkNjSGFXS0hZa1ZTNkoxNTZBOHFvWjRuR0RFRGJVbl9oMUU1bHNUWU1ycFVvQlI1ZlNoTmpmaWdoWQ?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
