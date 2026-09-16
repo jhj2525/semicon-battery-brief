@@ -326,13 +326,31 @@
       "collected": "2026-09-15",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IT3BIUTZHUHVDWHNkQlZBenhuQjFMSnJOSk80aFlxbXRXUGpSZ1liZ3ROVWtIR1IwZzJVLW51aGM1UmxUd1hEa09Qclp5MmxqcVVsSFY3RmZPOFRfZUtSN9IBeEFVX3lxTE9DV0hrbWgtYnY4bUJfbThlYXpIeFQwT2NyMlg3T0NLY24wa3J1TjZ6MDd3MUtJcGMtNjAwY2w3bDJQR29vYTZVUE5vMVdKeW1tX2pqUFJQR1pNTXY2R1Y2ZGRMSWRXMWRYbG1VRXNrbEZRZVZFNmJSNA?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "특화 반도체 기업 시지트로닉스가 가시광 영역의 540㎚ 및 660㎚ 파장용 실리콘(Si) APD를 양산하기 시작했다. APD는 미세한 빛을 감지하고 신호를 증폭하는 핵심 광반도체로, 로봇과 드론, 3D 스캐너 등 다양한 산업 분야의 수광소자로 활용된다. 시지트로닉스는 초기 단계에서 특정 고객사와 산업용 응용처를 중심으로 연간 수백만 개 규모의 공급망을 확보할 방침이다. 또한 인공지능(AI) 기술 확산에 따른 정밀 거리 인식 수요에 대응하기 위해 제품 라인업을 확장하고 있다. 향후 905㎚ 적외선 APD 양산을 통해 라이다 시장까지 사업 영역을 확대할 계획이다.",
+      "key_points": [
+        "시지트로닉스가 540㎚ 및 660㎚ 파장의 실리콘(Si) APD 양산을 시작함",
+        "APD는 레이저 거리측정기, 로봇, 드론, 3D 스캐너 등에 사용되는 고감도 광반도체임",
+        "산업용 및 자동차용 라이다에 쓰이는 905㎚ 적외선 APD 양산을 올해 말까지 목표로 함"
+      ],
+      "numbers": [
+        "540㎚",
+        "660㎚",
+        "905㎚",
+        "2026.09.15"
+      ],
+      "keywords": [
+        "시지트로닉스",
+        "APD",
+        "광반도체",
+        "양산",
+        "광센서",
+        "라이다"
+      ],
+      "stated_outlook": "올해 말까지 905㎚ 적외선 APD 양산을 목표로 하며, 이를 통해 라이다 분야까지 시장을 확대하여 APD를 회사의 새로운 성장동력으로 안착시킬 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "인공지능 기술이 로봇, 자율주행, 스마트팩토리 분야로 확장되면서 사물 간 거리를 정밀하게 인식하는 광센서에 대한 수요가 급증하고 있다."
     },
     {
       "id": "d5b119ebbc9d",
