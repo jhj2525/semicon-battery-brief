@@ -655,13 +655,28 @@
       "collected": "2026-09-15",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBBdHhYQXJTYlg0UG40MmsxbERRQ3V5LVo4bTBleEIyQk5QZ1BLdGZxMkJNVEpVamlvc1lSZEt0UGVBcE5DQTFJV3o4Vi0wb0JreERFdl8wc1lTQXFZYzR1TnBfOEw?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "LG화학이 중국 정밀화학 소재기업 장화웨이와 반도체용 초고순도 이소프로필알코올(IPA) 사업 협력을 위한 업무협약(MOU)을 체결했다. 이번 협력을 통해 LG화학이 고품질 C3-IPA 원료를 공급하고, 장화웨이가 이를 정제해 반도체 세정용 제품을 생산하는 현지 공급 체계를 구축한다. 양사는 AI 반도체 및 HBM 등 선단 반도체 고객사를 대상으로 공급을 확대할 계획이다. 이를 위해 품질 경쟁력 강화와 기술 교류, 공동 마케팅을 추진할 예정이다. 이번 협업은 최근 반도체 공급망 현지화 추세에 대응하고 글로벌 반도체 소재 시장 내 성장 기회를 모색하기 위한 전략적 선택이다.",
+      "key_points": [
+        "LG화학이 중국 정밀화학 기업 장화웨이와 반도체 세정용 초고순도 IPA 공급망 구축을 위해 MOU를 체결함.",
+        "LG화학은 여수공장에서 연간 16만 5000톤 규모의 C3-IPA를 생산하고 있음.",
+        "양사는 AI 반도체 및 HBM 등 선단 반도체 고객사를 목표로 품질 경쟁력 강화 및 상업화에 협력할 계획임."
+      ],
+      "numbers": [
+        "2026-09-14",
+        "16만 5000톤"
+      ],
+      "keywords": [
+        "LG화학",
+        "장화웨이",
+        "초고순도 IPA",
+        "반도체 세정",
+        "공급망"
+      ],
+      "stated_outlook": "AI 반도체와 HBM 등 선단 반도체 고객사 공급을 목표로 HP-IPA의 품질 경쟁력을 강화하고, 향후 기술 교류 및 공동 마케팅을 통해 글로벌 반도체 소재 시장에서 새로운 성장 기회를 모색할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "최근 AI 반도체와 첨단 메모리를 중심으로 반도체 공급망 현지화가 확대되면서 고순도 세정 소재에 대한 수요가 증가하고 있다."
     },
     {
       "id": "c0d29f765684",
