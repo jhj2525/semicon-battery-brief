@@ -2711,13 +2711,34 @@
       "collected": "2026-09-09",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBEd0NlM0JlWXdROUxpNFNwY2g0LXRFcVZhdVdjeG51ak9ZZDB0MF9fMjZZbWZMbTBSSmFkTTFKUzgtRzhpbVFoUENCdTlXcUVxRk1lZjBCa1AwdmM3Y1FDWFRLUUJkSF9wX3RBTtIBbEFVX3lxTFBEd0NlM0JlWXdROUxpNFNwY2g0LXRFcVZhdVdjeG51ak9ZZDB0MF9fMjZZbWZMbTBSSmFkTTFKUzgtRzhpbVFoUENCdTlXcUVxRk1lZjBCa1AwdmM3Y1FDWFRLUUJkSF9wX3RBTg?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "엘앤에프가 기존 전기차용 하이니켈 중심의 사업 구조에서 벗어나 리튬인산철(LFP) 시장으로 영역을 확장하고 있다. AI 데이터센터 투자 확대에 따른 에너지저장장치(ESS) 수요 증가를 새로운 성장 기회로 삼아 NCM과 LFP를 양대 축으로 하는 사업 포트폴리오를 구축 중이다. 엘앤에프플러스를 통해 LFP 전용 생산 기반을 마련했으며, 삼성SDI 및 코어셸 테크놀로지와의 공급 계약을 통해 북미 시장 진출을 구체화했다. 향후 모빌리티, 방산, 로보틱스, UAM 등 다양한 전방 산업으로 제품 적용처를 넓혀 매출원을 다변화할 계획이다. 이를 통해 전기차 업황 변화에 따른 실적 변동성을 줄이고 지속 가능한 성장 동력을 확보하고자 한다.",
+      "key_points": [
+        "엘앤에프가 3382억원을 투자한 LFP 전용공장을 올해 5월 준공하고 3분기 말부터 본격적인 생산 및 출하를 시작한다.",
+        "삼성SDI와 2027년부터 2029년까지 1조 6000억원 규모의 LFP 양극재 중장기 공급계약을 체결했다.",
+        "미국 코어셸 테크놀로지와 8년 간의 LFP 양극재 공급계약을 통해 모빌리티 및 방산 분야로 공급 영역을 확대했다.",
+        "올해 2분기 연결 기준 매출 8850억원, 영업이익 208억원으로 흑자 전환을 기록했다."
+      ],
+      "numbers": [
+        "2026-09-08",
+        "8850억원",
+        "70.2%",
+        "208억원",
+        "1조 6000억원",
+        "3382억원"
+      ],
+      "keywords": [
+        "엘앤에프",
+        "양극재",
+        "LFP",
+        "하이니켈",
+        "ESS",
+        "AI 데이터센터"
+      ],
+      "stated_outlook": "2027년 상반기까지 LFP 생산능력을 연산 6만톤으로 확대하고, 2027년 LFP 출하량 5만톤을 넘어설 것으로 전망한다. 향후 로보틱스, UAM, 방산 등 신규 시장으로 제품 적용처를 확대할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "AI 데이터센터 급증으로 인해 전력망과 연계된 ESS 시장이 확대되고 있으며, 미국의 공급망 규제 강화로 인해 비중국산 배터리 소재에 대한 수요가 증가하는 추세다."
     },
     {
       "id": "d0503af64cee",
