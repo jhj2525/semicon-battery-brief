@@ -169,20 +169,38 @@
       "sector": "battery",
       "region": "domestic",
       "category": "산업",
-      "title": "\"삼성SDI, ESS·소형전지로 실적 회복…북미·유럽 수주 확대 주목\"미래에셋證",
+      "title": "삼성SDI, ESS·소형전지로 실적 회복…북미·유럽 수주 확대 주목",
       "source": "파이낸셜뉴스",
       "source_type": "경제지 보도",
       "published": "2026-09-16 05:29",
       "collected": "2026-09-16",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0M1RFZW14dlZmX1hvOWxZYlBuTmoxcGJHbTRVaGd1cEFGdjU0aHpyLVJwbUxSbFp6YTIzX3ROR1JwTGc3YjRvbGhnd3hQT3pVeGlyNzV1MS15QQ?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "삼성SDI가 에너지저장장치(ESS) 사업의 본격적인 출하 확대와 소형전지의 수익성 개선을 통해 하반기 실적 회복세를 이어갈 전망이다. 3분기에는 ESS 매출 비중이 전 분기 대비 6%p 상승한 31%에 이를 것으로 예상되며, 4분기에는 북미 ESS 생산라인 가동이 실적 개선을 뒷받침할 것으로 보인다. 소형전지 사업 역시 전동공구용 수요 회복과 원통형 배터리 출하 증가로 3분기 영업흑자 전환이 기대된다. 중장기적으로는 삼성디스플레이 지분 매각 자금을 활용한 증설과 북미·유럽 시장에서의 추가 수주 확대가 성장의 핵심 과제로 꼽힌다. 특히 유럽 완성차업체의 중국산 배터리 의존도 축소 움직임이 향후 LFP 각형 배터리 수주에 긍정적인 기회 요인이 될 것으로 분석된다.",
+      "key_points": [
+        "삼성SDI의 3분기 매출과 영업이익은 각각 3조 9500억 원, 3023억 원으로 전 분기 대비 증가할 것으로 추정된다.",
+        "ESS 사업의 국내 출하 본격화와 4분기 북미 생산라인 가동이 실적 개선의 주요 동력으로 작용한다.",
+        "소형전지는 전동공구 수요 회복과 원통형 배터리 출하 증가로 3분기 영업흑자 전환이 예상된다.",
+        "유럽 산업가속화법(IAA) 발표 이후 유럽 완성차업체 대상 LFP 각형 배터리 수주 확대 가능성이 주목받고 있다."
+      ],
+      "numbers": [
+        "2026년 3분기 매출 3조 9500억 원",
+        "2026년 3분기 영업이익 3023억 원",
+        "2026년 연간 영업이익 약 6900억 원",
+        "3분기 ESS 매출 비중 31%"
+      ],
+      "keywords": [
+        "삼성SDI",
+        "에너지저장장치",
+        "소형전지",
+        "LFP 배터리",
+        "실적 개선"
+      ],
+      "stated_outlook": "미래에셋증권은 삼성SDI의 올해 연간 영업이익을 약 6900억 원으로 전망하며, 이달 말 발표될 유럽 산업가속화법(IAA) 이후 유럽 시장 내 LFP 배터리 수주 기대감이 커질 것으로 분석했다.",
+      "summary_source": "pasted_text",
+      "industry_context": "유럽 완성차업체들의 중국산 배터리 의존도 축소 움직임과 미국 정부 및 의회의 중국 배터리 기업 기술 협력에 대한 견제가 배터리 시장의 주요 변수로 작용하고 있다."
     },
     {
       "id": "d5f2f2057006",
@@ -16664,7 +16682,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-16 21:03 KST",
+  "manual_updated_at": "2026-09-16 21:11 KST",
   "favorite_items": [
     {
       "id": "467b63ad99b2",
