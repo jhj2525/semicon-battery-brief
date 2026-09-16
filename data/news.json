@@ -729,13 +729,31 @@
       "collected": "2026-09-14",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SbXNzR2xnSlJkV3ktNW9ObFNRNHgtZ0JGXzVIWmRvTXQ0dFJlMTBVS2RsUF9jM19jajl6WmtxSWVfNHZMYndVLTJxWm9DMEk1TmtobEFaUllRa095QlRfZg?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "HS효성에너지솔루션코리아가 실리콘 음극재 사업 진출을 위해 울산시에 대규모 투자를 단행한다. 합작법인인 HS효성에너지솔루션코리아는 울산·미포국가산업단지 내에 총 1조 2000억 원을 투입해 생산 시설을 구축할 예정이다. 이번 투자는 2030년까지 단계적으로 진행되며 대량생산 체제 확보를 목표로 한다. 2028년 1분기에는 5000톤 규모의 1차 생산 공장이 첫 가동될 예정이다. 이번 협약은 HS효성과 벨기에 유미코아사의 합작으로 추진되는 사업의 일환이다.",
+      "key_points": [
+        "HS효성에너지솔루션코리아, 울산에 총 1조 2000억 원 투자",
+        "2030년까지 단계적 실리콘 음극재 대량생산 체제 구축",
+        "2028년 1분기 연산 5000톤 규모 생산공장(MPK-1) 가동 예정",
+        "HS효성과 벨기에 유미코아사의 합작법인 체제"
+      ],
+      "numbers": [
+        "1조 2000억 원",
+        "2030년",
+        "2028년 1분기",
+        "5000t"
+      ],
+      "keywords": [
+        "HS효성에너지솔루션코리아",
+        "실리콘 음극재",
+        "울산",
+        "유미코아",
+        "투자협약"
+      ],
+      "stated_outlook": "2030년까지 단계적으로 투자를 진행해 실리콘 음극재 대량생산 체제를 구축할 계획임.",
+      "summary_source": "pasted_text",
+      "industry_context": ""
     },
     {
       "id": "b17088d45d1b",
@@ -16767,7 +16785,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-16 21:17 KST",
+  "manual_updated_at": "2026-09-16 21:18 KST",
   "favorite_items": [
     {
       "id": "04ff189b408a",
