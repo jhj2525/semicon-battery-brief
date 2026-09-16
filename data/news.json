@@ -16846,6 +16846,27 @@
   "manual_updated_at": "2026-09-16 21:28 KST",
   "favorite_items": [
     {
+      "id": "f1d31c4e5619",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "美 AI 데이터센터가 키우는 ESS…K배터리도 대응 속도",
+      "source": "전자신문",
+      "source_type": "산업 전문언론",
+      "published": "2026-09-13 17:00",
+      "collected": "2026-09-14",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1EV1Zha2Q0VUZHZEtNSWdOU0ZZZktTb0g0bjBwMlFSX0NOQ09laGtZRHJkaEZWVnhhcGFDVUVJR2dyYWlqV1UzRnBTRkR3Zw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "favorited_at": "2026-09-16 21:28 KST"
+    },
+    {
       "id": "cba25ffaf775",
       "sector": "semiconductor",
       "region": "domestic",
