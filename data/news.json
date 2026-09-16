@@ -386,13 +386,33 @@
       "collected": "2026-09-15",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16UGJWNEo2bWl5R1RRZjlLdDNJaUhaQXU2ZV9TbDFZVi0tb1Q1T3lUVlVSekl5STYxREE2MGY3bnp6eHk5Y0FOc1lzQjZXQWRhakI1bmZ6Y2VzZw?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "TSMC가 기존의 신중론을 철회하고 2030년부터 차세대 노광장비인 '하이-NA EUV'를 양산 라인에 본격 도입한다고 공식화했다. 이번 결정으로 글로벌 반도체 업계 내 초미세공정 기술 개발 경쟁이 한층 치열해질 전망이다. 하이-NA EUV는 이론적으로 공정 수를 절반으로 줄여 생산성을 높이고 비용 절감을 가능하게 한다. 삼성전자와 SK하이닉스 또한 2028년 D램 양산 적용을 목표로 하고 있어 차세대 노광장비 도입이 필수적인 기술 경쟁 요소로 자리 잡았다. 인텔 역시 이미 해당 장비를 실제 양산 환경에 활용하고 있어, 주요 기업들의 미세화 공정 경쟁은 더욱 가속화될 것으로 보인다.",
+      "key_points": [
+        "TSMC가 2030년부터 하이-NA EUV를 양산 라인에 도입하기로 결정했다.",
+        "삼성전자와 SK하이닉스는 2028년 D램 제품에 하이-NA EUV를 적용할 계획이다.",
+        "하이-NA EUV는 13.5㎚ 선폭을 그릴 수 있으며 멀티패터닝을 통해 2㎚ 회로 구현이 가능하다.",
+        "인텔은 2023년부터 해당 장비를 도입하여 이미 실제 양산 환경에서 활용 중이다."
+      ],
+      "numbers": [
+        "2030년",
+        "2029년",
+        "2028년",
+        "2023년",
+        "13.5㎚",
+        "2㎚"
+      ],
+      "keywords": [
+        "TSMC",
+        "하이-NA EUV",
+        "반도체",
+        "초미세공정",
+        "파운드리"
+      ],
+      "stated_outlook": "TSMC는 A10 혹은 A11 공정에 하이-NA EUV를 적용할 것으로 예상되며, 글로벌 반도체 기업 간 기술 경쟁이 더 치열해질 전망이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "반도체 공정 노드가 미세화됨에 따라 EUV 장비를 이용한 패터닝 기술이 미세 공정의 핵심으로 부상하고 있다."
     },
     {
       "id": "26863d7f0775",
@@ -16733,7 +16753,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-16 21:16 KST",
+  "manual_updated_at": "2026-09-16 21:17 KST",
   "favorite_items": [
     {
       "id": "04ff189b408a",
