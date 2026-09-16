@@ -886,13 +886,31 @@
       "collected": "2026-09-14",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xWC1sNmNZcW83U21JbFlfeWNtZlBCSDR1Z3BMaGJaMXFnUWs4LTl0VF9lSl9zMmE2Tm9GZmllYldrM3RmWktSS21aWXhKYnlwdE5zdzBn?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "파나소닉이 올해 4분기부터 전고체 배터리 샘플을 출하할 계획이다. 이번 샘플은 기존 제품보다 높은 150°C의 최대 작동 온도를 구현하여 의료 기기 살균 등 다양한 분야로의 적용이 기대된다. 파나소닉은 샘플 출하 후 1~2년 내 양산을 목표로 하고 있으며, 초기에는 산업용 기계와 차량 센서 시장을 우선 공략할 방침이다. 또한, 파나소닉은 로봇 시장을 겨냥하여 휴머노이드의 제한적이고 둥근 공간에 적합한 원통형 배터리 개발에도 박차를 가하고 있다. 이번 행보는 기술 고도화와 함께 신규 시장 수요에 최적화된 제품 라인업을 강화하려는 전략으로 풀이된다.",
+      "key_points": [
+        "파나소닉이 올해 4분기 전고체 배터리 샘플을 생산하고 출하할 예정임",
+        "전고체 배터리 샘플의 최대 작동 온도를 기존 125°C에서 150°C로 상향함",
+        "전고체 배터리 양산 초기 목표 시장으로 산업용 기계 및 차량 센서를 설정함",
+        "휴머노이드 로봇 시장 공략을 위해 원통형 배터리 개발을 가속화함"
+      ],
+      "numbers": [
+        "4분기",
+        "125°C",
+        "150°C",
+        "1~2년"
+      ],
+      "keywords": [
+        "파나소닉",
+        "전고체 배터리",
+        "원통형 배터리",
+        "휴머노이드",
+        "배터리"
+      ],
+      "stated_outlook": "샘플 출하 후 1~2년 내 양산에 돌입하는 것을 목표로 하며, 양산 초기에는 산업용 기계와 차량 센서 등을 주 공략 시장으로 설정함.",
+      "summary_source": "pasted_text",
+      "industry_context": "전고체 배터리는 리튬이온배터리보다 고온 환경에서 사용이 용이한 특성이 있으며, 휴머노이드 로봇은 구조상 배터리 탑재 공간이 둥글고 제한적이라는 특성이 있음."
     },
     {
       "id": "3650d8901571",
@@ -16825,7 +16843,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-16 21:27 KST",
+  "manual_updated_at": "2026-09-16 21:28 KST",
   "favorite_items": [
     {
       "id": "cba25ffaf775",
