@@ -346,13 +346,33 @@
       "collected": "2026-09-15",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE01SnFFcXJhUFBGUENRRGdaVjBWYWRKU3dqLUw5MVNmYTExUU9XU0REckp2YUVvcjQySEYwTlNaSDNJTE1VQWtGWnM0bVBIMVhCN0d0UVJ2MHlrQVJ1?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "다올투자증권은 포스코퓨처엠의 3분기 실적이 시장 기대치를 하회할 것으로 예상했으나, 하반기부터 양극재 출하량이 회복될 것으로 내다봤다. 주요 고객사의 북미 생산능력 확대에 따른 물량 정상화와 리튬인산철(LFP) 양극재 사업 진출이 중장기 성장을 견인할 전망이다. 특히 미국의 대중국 수출 통제 강화로 인해 비중국산 배터리 소재에 대한 수요가 증가하고 있어, 공급망 재편 과정에서 수혜가 기대된다. 포스코퓨처엠은 삼원계 라인의 LFP 전환을 완료했으며, 연내 신규 수주 가능성이 주목받고 있다.",
+      "key_points": [
+        "포스코퓨처엠의 3분기 매출액은 7409억원, 영업이익은 245억원으로 전년 동기 대비 감소 추정",
+        "연간 양극재 출하량은 올해 4.8만톤에서 내년 7.2만톤으로 증가 전망",
+        "포스코퓨처엠은 2029~2030년까지 LFP 양극재 생산능력을 약 7만톤까지 확대할 계획",
+        "비중국산 LFP 공급 부족분 250GWh 가정 시 약 44만톤의 추가 양극재 수요 발생 가능"
+      ],
+      "numbers": [
+        "2026년 9월 15일",
+        "7409억원",
+        "245억원",
+        "4.8만톤",
+        "7.2만톤",
+        "7만톤"
+      ],
+      "keywords": [
+        "포스코퓨처엠",
+        "양극재",
+        "LFP",
+        "북미 생산능력",
+        "비중국산 공급망"
+      ],
+      "stated_outlook": "하반기 양극재 출하량 회복 및 연내 LFP 양극재 신규 수주 가능성 제시, 2029~2030년 LFP 생산능력 7만톤 달성 목표",
+      "summary_source": "pasted_text",
+      "industry_context": "미국의 대중국 수출 통제 강화로 인해 비중국산 LFP 양극재 공급망 확보의 필요성이 커지고 있으며, 국내 배터리 소재 업체들이 북미 생산능력을 전기차(EV)용에서 에너지저장장치(ESS)용으로 전환하며 LFP 시장 진입을 본격화하고 있다."
     },
     {
       "id": "d50a272fe37b",
@@ -16914,7 +16934,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-16 22:30 KST",
+  "manual_updated_at": "2026-09-16 22:31 KST",
   "favorite_items": [
     {
       "id": "b989638e2d4d",
