@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-16 09:22 KST",
-  "last_automatic_update_at": "2026-09-16 09:22 KST",
-  "automatic_cycle_started_at": "2026-09-16 09:21 KST",
+  "updated_at": "2026-09-16 10:28 KST",
+  "last_automatic_update_at": "2026-09-16 10:28 KST",
+  "automatic_cycle_started_at": "2026-09-16 10:26 KST",
   "publication_window": {
-    "from": "2026-09-15 09:21 KST",
-    "to": "2026-09-16 09:21 KST"
+    "from": "2026-09-15 10:26 KST",
+    "to": "2026-09-16 10:26 KST"
   },
-  "today_verified_count": 13,
+  "today_verified_count": 1,
   "current_items": [
     {
       "id": "45c47325caa0",
@@ -328,6 +328,26 @@
       "published": "2026-09-16 08:16",
       "collected": "2026-09-16",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5jV0V3aXF4bHZ1TzJ5Nm4zM0t4VTAzeHByaVdjZk1XYzhtalB1aVlaTUFqMElyU0tUMWVBVGgzaHA5cGFLa19nWTBuT243YmpBRDBkZ044NkdVSXNpVzFXRtIBeEFVX3lxTE4yRW93YzJwd2VEUi1HRVU2TzUyaWVYMVFuZllUZmhUQmxhYzl5bnVySUJUdkVpV1prclhMcDNVc0dnTFNUYTQtRzhmeGFCWGdGLXZiRkh5cjVZZEJXcl9VVWdIZkRoU3NfdHVYVDYxUXlvcTlWWmVzWQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "92ad1923bbff",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "디와이덕양, 선박용 ESS 사업화…\"1.02MWh 실증·인증 완료\"",
+      "source": "뉴스핌",
+      "source_type": "통신사 보도",
+      "published": "2026-09-16 09:56",
+      "collected": "2026-09-16",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ud0xGZnAxVEpHX3o0aGdQVm9QZnlVWjY4SnJRSU5uTU5MUUVYekd6VF9TeFJXRUkyWXpoaHYzcUg2X282Z01SYUtWUkQzT2NwTk50X0ZEOGlXdk9F?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
