@@ -16893,8 +16893,29 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-16 21:30 KST",
+  "manual_updated_at": "2026-09-16 21:31 KST",
   "favorite_items": [
+    {
+      "id": "6d3d31f507d5",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "[르포] 1분마다 ESS 75개 신호 읽는 AI…화재 전조 잡고 미래 위험까지 예측",
+      "source": "전자신문",
+      "source_type": "산업 전문언론",
+      "published": "2026-09-09 11:20",
+      "collected": "2026-09-10",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Hb3JTTmlwSDkxQVVkMnVacUNqSXMwS3BlejlxcWpGWG52UGZUR1M1ck9nbm1rdDZ6cmNjUmRwOVIzdDA0YWoybUlpYnZPZw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "favorited_at": "2026-09-16 21:31 KST"
+    },
     {
       "id": "35bac1caba7a",
       "sector": "battery",
