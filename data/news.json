@@ -243,26 +243,6 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": ""
-    },
-    {
-      "id": "92ad1923bbff",
-      "sector": "battery",
-      "region": "domestic",
-      "category": "산업",
-      "title": "디와이덕양, 선박용 ESS 사업화…\"1.02MWh 실증·인증 완료\"",
-      "source": "뉴스핌",
-      "source_type": "통신사 보도",
-      "published": "2026-09-16 09:56",
-      "collected": "2026-09-16",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ud0xGZnAxVEpHX3o0aGdQVm9QZnlVWjY4SnJRSU5uTU5MUUVYekd6VF9TeFJXRUkyWXpoaHYzcUg2X282Z01SYUtWUkQzT2NwTk50X0ZEOGlXdk9F?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
     }
   ],
   "archive_items": [
@@ -16684,7 +16664,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-16 21:02 KST",
+  "manual_updated_at": "2026-09-16 21:03 KST",
   "favorite_items": [
     {
       "id": "467b63ad99b2",
@@ -20330,6 +20310,7 @@
     "81c0b65baffb",
     "8f799d3cc4e5",
     "9216d7f403e2",
+    "92ad1923bbff",
     "93e511a72c8d",
     "941d6d17518c",
     "9706db6c1718",
@@ -20369,6 +20350,7 @@
     "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9nN0R5U3Rpc05RVkw4X200ZnpwdkhyTU56MnlodUg5dFVkVHdWRjVVRXZCU1VLUWhvZVp0RXBjdm93MjZBdUdCaFZuRGVScmlMSWFwVG1jeldDZw?oc=5",
     "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3cGtIejBsaDgwMndkS0dIQ2s0TDdIblctd2dtUlE5OXVZY2o5U2l3cU1WNERQUFVQUDRNSEJmdUI2YnJfWTZHYmxxazVLYzY0QXdyNmhkS2xQdw?oc=5",
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HU1NJRzB2VXM3LUdVcGRQcDZ1WWRDaDlDVXFtTFBMdDlINDUwa21UOUl3bTh2Z1JjdHVXV0gzUzBvdXUydFFndkVZd1NkWFdIai0zQzJqSnQ3c1FO?oc=5",
+    "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ud0xGZnAxVEpHX3o0aGdQVm9QZnlVWjY4SnJRSU5uTU5MUUVYekd6VF9TeFJXRUkyWXpoaHYzcUg2X282Z01SYUtWUkQzT2NwTk50X0ZEOGlXdk9F?oc=5",
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE91WmlkVHl0YjVUOVJTWTZKVG9WVDF1OWJULUMyc0N1ZUxiOEtSUUVWdGN6YmFqV3ExeWRSeG9UaDZjS0pWY1MtM1lrRU15WWVDcjhPMHdIRkJxNTJ4?oc=5",
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9LR2NQWU5MMFhJal9PYzdIMzV5WW9NMS1jMVNGZ01ndG9sWGQ0VkxBTG1ZSnV6bkNyck9qV1ZMWnB2YkkzN09MeWFmMUpZYTk2SDhES1R2VVU0U2J6?oc=5",
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NMlVYZXdWQ2hYRGplNUNNUVhOaVllc1BPUVhVZE9mZ1hNWnFQNFBaZEYxZlk0Z0JmUmNjcGhDZl81RVE3S1BEWW5pd3lPR3RkUUFxQVQ3TzY3S1R2?oc=5",
