@@ -99,13 +99,33 @@
       "collected": "2026-09-16",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWenlDNE5QYU5SdGRJa0ZwTjN4ZE9iZlpYODdRVWU4ODBVdW5DNThJdmVfcG1NdGtaV21hdWpMNjZVc2pqdk13a2pjZzNiU2FYM3VieUlQTDhkUk3SAWBBVV95cUxNVnhBQzV2UGVnQllvS1BHc3Utd2JoRXdFeXJSeGpBUWRkZlp3RDNPYVByZm0tWFJENlZ0SGNuR2xFdnJfRW1Pa2RZbzhaT0ZGRlVvYnFFU215ckFBMi0xQWY?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "정부가 2027년도 정보통신기술(ICT) 연구개발(R&D) 예산을 역대 최대 규모인 2조 755억 원으로 편성하며 기술 투자 강화에 나선다. 이는 올해보다 23.6% 증가한 규모로, 인공지능(AI)과 피지컬 AI, AI 반도체 등 5대 분야에 집중 투자할 계획이다. 특히 자동차, 건설, 제조 등 주력 산업과 연계한 기술 고도화에 주력하고 차세대 통신 및 양자 기술 분야도 지원한다. 또한, 연구 효율성을 높이기 위해 연구행정에 특화된 AI 에이전트를 도입하여 과제 기획부터 정산까지 전주기를 지원할 방침이다. 과기정통부는 기획위원회 운영과 공청회를 거쳐 연말까지 내년도 신규 과제를 최종 확정할 예정이다.",
+      "key_points": [
+        "2027년도 ICT R&D 예산이 전년 대비 23.6% 증가한 2조 755억 원으로 편성됨.",
+        "피지컬 AI, AI 반도체, AI 데이터센터 등 3대 메가프로젝트 분야에 총 6천 621억 원 배정.",
+        "연구자의 업무 효율화를 위해 보안이 강화된 온프레미스 기반의 AI 연구행정 에이전트 도입.",
+        "전북·경남·광주·대구 등 4대 권역에서 지역 주력산업과 AI를 연계한 실증 사업 추진."
+      ],
+      "numbers": [
+        "2조 755억 원",
+        "23.6%",
+        "6천 621억 원",
+        "3천 849억 원",
+        "1천 617억 원",
+        "1천 155억 원"
+      ],
+      "keywords": [
+        "ICT R&D",
+        "피지컬 AI",
+        "AI 반도체",
+        "연구행정 AI 에이전트",
+        "차세대 통신"
+      ],
+      "stated_outlook": "과기정통부는 9월부터 기획위원회를 운영하고 공청회를 거쳐 연말까지 내년도 신규 과제를 확정할 계획임.",
+      "summary_source": "pasted_text",
+      "industry_context": "자동차·건설·제조 등 국내 주력산업의 기술 경쟁력 확보와 지역 산업의 AI 전환(AX) 확산이 핵심 과제로 부상함."
     },
     {
       "id": "467b63ad99b2",
@@ -16785,7 +16805,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-16 21:24 KST",
+  "manual_updated_at": "2026-09-16 21:26 KST",
   "favorite_items": [
     {
       "id": "cba25ffaf775",
