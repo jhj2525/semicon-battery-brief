@@ -906,13 +906,33 @@
       "collected": "2026-09-14",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE03V1R6SzMtdkkwVTFwZFJQQlFJUVp6TUFldzlaMWJmaUlSaGI1QktzNEV6QWVnNzNET2VSRHh3N05MN3FOTlBXZUVzb0RKcUhwSElFV19xMTRGS3hFTmpMUHNLekk?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "국내 배터리 제조사들이 북미 ESS 시장 성장과 유럽 전기차 판매 회복에 힘입어 생산시설 가동률을 높이며 부진에서 벗어나고 있다. 그러나 신규 공장 건설보다는 기존 전기차용 생산라인을 ESS용으로 전환하는 전략을 취하고 있어 소재 및 장비업계로의 투자 확산은 더딘 상황이다. 배터리 셀 업체들은 테슬라 등 대형 고객사를 겨냥해 파우치형에서 각형 LFP 배터리로 제품군을 확대하며 대응하고 있다. 미국 내 중국산 배터리 규제 강화도 국내 업계에는 현지 생산능력을 확대할 기회로 작용 중이다. 그럼에도 불구하고 설비 개조 위주의 전략은 대규모 장비 발주 감소로 이어져, 장비업계는 여전히 실적 회복을 체감하지 못하고 있다.",
+      "key_points": [
+        "LG에너지솔루션, SK온, 삼성SDI 등 배터리 3사가 전기차용 생산라인을 ESS용 LFP 배터리 생산라인으로 전환하고 있다.",
+        "테슬라의 ESS 메가팩 수주를 위해 배터리 업체들이 각형 LFP 배터리 생산을 준비하거나 공급 계약을 체결 중이다.",
+        "신규 공장 건설이 아닌 기존 설비 전환 전략으로 인해 배터리 장비업계로의 신규 발주가 제한적이다.",
+        "미국의 금지외국기관(PFE) 관련 규제 강화로 인해 비중국산 배터리 공급망 수요가 증가하고 있다."
+      ],
+      "numbers": [
+        "2026-09-13",
+        "2027년",
+        "2031년",
+        "9GWh",
+        "40GWh",
+        "50GWh"
+      ],
+      "keywords": [
+        "K-배터리",
+        "ESS",
+        "LFP배터리",
+        "테슬라",
+        "생산라인전환"
+      ],
+      "stated_outlook": "삼성SDI는 GM이 보유한 시너지셀즈 지분을 인수하여 단독 운영할 예정이며, ESS용 LFP 생산능력 확보를 위해 추가 설비 투자가 예상된다.",
+      "summary_source": "pasted_text",
+      "industry_context": "AI 데이터센터 확대, 재생에너지 발전 증가, 전력망 노후화로 인해 ESS 시장이 전기차 부진을 보완할 새로운 성장축으로 부상하고 있다."
     },
     {
       "id": "35bac1caba7a",
@@ -16805,7 +16825,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-16 21:26 KST",
+  "manual_updated_at": "2026-09-16 21:27 KST",
   "favorite_items": [
     {
       "id": "cba25ffaf775",
