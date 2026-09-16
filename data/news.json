@@ -767,13 +767,32 @@
       "collected": "2026-09-14",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5OcWJPRm1nRWR6bUdMWnhOWnB3OWtOYkZmSlg5Y1pLSEJVckxBbUE5c2gxaWwzRW5vb25IcWNxazJqUElzU2VBUHJSa0dwempGN3JENjdPZ0FwWDhJdVJ4NdIBeEFVX3lxTE43YTB1UGtBWjJjN1J5dVl2MDZtNDNsaDFUZXJ1NTdpR2p2VWI3dElYUW1TcG50VWFKSHZxcG1SQWI5LWhjRWJMMXA1cGJGT082NTl2MjZTZEtKdFM2amRsT0xXVzVFaXI0Zl82UkxmbGlYb2hyTVdmbg?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "스마트 모빌리티 기업 알톤이 전기자전거 보급 확대에 따른 폐배터리 회수 및 재활용 신사업을 검토하고 있다. 이를 위해 알톤은 지난 2024년 1월 이차전지 재활용 전문기업 디알티에 전략적 투자를 단행하여 2대 주주가 되었다. 현재는 자사 전기자전거의 배터리 수거와 리사이클링 연계 체계 구축을 우선적으로 검토 중이다. 중장기적으로는 이녹스리튬 등 그룹 내 계열사와 협력하여 친환경 자원순환 밸류체인 구축에 기여할 계획이다. 궁극적으로는 배터리 생애주기 관리(BaaS) 체계를 통해 경쟁력을 확보하겠다는 구상이다.",
+      "key_points": [
+        "알톤이 폐배터리 회수 및 재활용 신사업 추진을 위해 관련 기회를 다각도로 검토 중이다.",
+        "2024년 1월 이차전지 재활용 기업 디알티에 지분 8.7%를 투자하여 2대 주주 지위를 확보했다.",
+        "디알티는 최근 새만금국가산업단지에 연간 전기차 2만 4천 대 분량의 폐배터리를 처리할 수 있는 전처리 설비를 구축했다.",
+        "알톤은 그룹 계열사와 협력하여 BaaS(배터리 생애주기 관리) 체계를 구체화할 방침이다."
+      ],
+      "numbers": [
+        "2026.09.14",
+        "2024년 1월",
+        "8.7%",
+        "2만 4000대"
+      ],
+      "keywords": [
+        "알톤",
+        "폐배터리",
+        "디알티",
+        "전기자전거",
+        "BaaS",
+        "자원순환"
+      ],
+      "stated_outlook": "배터리 생애주기 관리 체계를 단계적으로 구체화하여 시장 내 차별화된 경쟁력을 확보하고, 그룹사 간 시너지를 극대화하는 방향으로 신사업을 추진할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "전기자전거 보급이 확대됨에 따라 사용 후 배터리의 회수 및 재활용 수요가 증가하고 있다."
     },
     {
       "id": "da5bd9d4b40e",
@@ -16785,7 +16804,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-16 21:18 KST",
+  "manual_updated_at": "2026-09-16 21:19 KST",
   "favorite_items": [
     {
       "id": "04ff189b408a",
