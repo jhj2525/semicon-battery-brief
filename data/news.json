@@ -926,13 +926,34 @@
       "collected": "2026-09-14",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42b3BqNUdZZWNGN3JuT0VlZTNyTk5GRWZoYVEyZFBRSDVCNkRLcHF6TWRjVmt3aUYxRE9sZ1lPeGtNQ2IzaFZzTFljVVdJTlVsUVlIcy01ZDM5QQ?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "글로벌 전기차 수요 정체로 어려움을 겪던 국내 배터리 업계가 AI 데이터센터 확산에 따른 에너지저장장치(ESS) 시장을 통해 돌파구를 마련하고 있다. 테슬라의 대규모 메가팩 증설로 LG에너지솔루션과 삼성SDI는 북미 시장에서 조 단위 수주를 확보하며 입지를 강화하는 중이다. 양사는 기존 전기차 배터리 생산라인을 ESS용으로 전환하는 등 사업 포트폴리오를 전면 재편하고 있다. 이는 전기차 배터리 수요 둔화와 중국의 저가 공세라는 위기 상황 속에서 새로운 수익 창출 구조로 자리 잡고 있다. 향후 북미 ESS 시장은 국내 배터리 기업의 핵심 성장축이 될 전망이다.",
+      "key_points": [
+        "테슬라는 미국 텍사스주 브룩셔 메가팩 공장 가동으로 북미 생산능력을 90GWh로 확대했다.",
+        "LG에너지솔루션은 테슬라와 6조원 규모의 ESS 배터리 공급 계약을 체결했으며 북미 생산 거점을 5곳으로 늘렸다.",
+        "삼성SDI는 미국 주요 고객사와 메가팩 관련 계약을 맺고, 기존 전기차 배터리 라인을 ESS용으로 전환하여 2028년까지 72GWh의 생산능력을 확보할 계획이다.",
+        "증권가 분석에 따르면 오는 4분기부터 약 23GWh 규모의 물량이 국내 업체를 통해 테슬라 브룩셔 공장으로 공급될 예정이다."
+      ],
+      "numbers": [
+        "2026.09.13",
+        "90GWh",
+        "23GWh",
+        "6조원",
+        "50GWh",
+        "72GWh"
+      ],
+      "keywords": [
+        "테슬라",
+        "메가팩",
+        "LG에너지솔루션",
+        "삼성SDI",
+        "ESS",
+        "데이터센터"
+      ],
+      "stated_outlook": "테슬라의 ESS 출하량이 올해 80GWh에서 2028년 120GWh로 급증할 것으로 예상되며, 북미 시장은 국내 배터리 업계의 확실한 새로운 성장축으로 자리 잡을 전망이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "AI 컴퓨팅 인프라 확장으로 인해 데이터센터의 전력 공급 안정성이 중요해지면서 전력망용 ESS 시장이 폭발적인 성장세를 보이고 있다."
     },
     {
       "id": "920cb3377e9f",
