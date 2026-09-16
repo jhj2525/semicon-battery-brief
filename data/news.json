@@ -366,13 +366,34 @@
       "collected": "2026-09-15",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xa2xEeTlLREdwNGNpSWVxWXYxdGI4R0lJOHpHTHJnV0dndEZXZDNTd09HOHBLMGlxOHhzckoyNi1LUVdYZl9fcUYxNGlKUzVkN0YzNWJsUTk0cjhL?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "LG에너지솔루션은 하반기 에너지저장장치(ESS) 분야의 대규모 수주와 유럽 공장 가동률 회복을 통해 실적 개선을 가속화할 전망이다. NH투자증권은 LG에너지솔루션에 대해 투자의견 매수와 목표주가 48만원을 유지했다. 테슬라의 완전자율주행(FSD)이 유럽에서 승인될 경우 소형전지 실적의 추가 상승이 기대된다. 3분기 실적은 시장 컨센서스를 상회할 것으로 예상되며 원화 강세에도 전기차 물량 보상금이 수익성을 뒷받침할 것으로 분석된다.",
+      "key_points": [
+        "LG에너지솔루션의 올해 ESS 수주 목표 90GWh 중 상당 부분이 하반기에 집중되어 있음",
+        "유럽 폴란드 공장 가동률이 2분기 50%대에서 3분기 60%대로 회복 중",
+        "NH투자증권은 LG에너지솔루션의 3분기 매출 9조1510억원, 영업이익 3361억원을 전망함",
+        "테슬라 FSD의 유럽 승인 시 소형전지 실적 추정치 상향 가능성 제기"
+      ],
+      "numbers": [
+        "2026년 09월 15일",
+        "90GWh",
+        "48만원",
+        "60%",
+        "9조1510억원",
+        "3361억원"
+      ],
+      "keywords": [
+        "LG에너지솔루션",
+        "ESS",
+        "테슬라",
+        "FSD",
+        "유럽공장",
+        "NH투자증권"
+      ],
+      "stated_outlook": "LG에너지솔루션의 ESS 매출은 지난해 2조7330억원에서 올해 11조2180억원으로 증가하고 내년에는 18조1600억원에 달할 것으로 예상된다.",
+      "summary_source": "pasted_text",
+      "industry_context": "유럽 전기차 시장의 고객사 페이스리프트 모델 판매 본격화와 함께 ESS 사업의 외형 성장이 가파르게 진행 중이다."
     },
     {
       "id": "04ff189b408a",
@@ -16893,7 +16914,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-16 21:32 KST",
+  "manual_updated_at": "2026-09-16 22:30 KST",
   "favorite_items": [
     {
       "id": "b989638e2d4d",
