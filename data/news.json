@@ -16736,6 +16736,27 @@
   "manual_updated_at": "2026-09-16 21:16 KST",
   "favorite_items": [
     {
+      "id": "04ff189b408a",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "TSMC, 하이-NA EUV 2030년부터 양산 본격화 ..'초미세공정' 경쟁 가속화",
+      "source": "파이낸셜뉴스",
+      "source_type": "경제지 보도",
+      "published": "2026-09-15 06:29",
+      "collected": "2026-09-15",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16UGJWNEo2bWl5R1RRZjlLdDNJaUhaQXU2ZV9TbDFZVi0tb1Q1T3lUVlVSekl5STYxREE2MGY3bnp6eHk5Y0FOc1lzQjZXQWRhakI1bmZ6Y2VzZw?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": "",
+      "favorited_at": "2026-09-16 21:16 KST"
+    },
+    {
       "id": "467b63ad99b2",
       "sector": "battery",
       "region": "domestic",
