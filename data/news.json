@@ -866,13 +866,32 @@
       "collected": "2026-09-14",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1EV1Zha2Q0VUZHZEtNSWdOU0ZZZktTb0g0bjBwMlFSX0NOQ09laGtZRHJkaEZWVnhhcGFDVUVJR2dyYWlqV1UzRnBTRkR3Zw?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "인공지능 데이터센터의 확산으로 미국 내 에너지저장장치(ESS) 시장 수요가 급증하고 있습니다. 특히 데이터센터의 안정적인 전력 확보를 위해 10시간 이상 공급 가능한 장주기 저장장치에 대한 관심이 높아지고 있습니다. 이에 대응해 국내 배터리 3사는 생산능력 확대와 공급 계약 체결 등 북미 사업을 강화하고 있습니다. 또한 미국 내 현지 생산 인센티브와 중국계 공급망 규제 강화는 국내 기업에 기회 요인으로 작용하고 있습니다. 국내 업체들은 LFP 배터리를 중심으로 소듐이온 배터리 등 차세대 기술 개발을 통해 시장 요구에 발 빠르게 대응하고 있습니다.",
+      "key_points": [
+        "미국 상업·산업용 ESS 설치량이 2분기 1.8GWh로 분기 최대치를 기록함.",
+        "LG에너지솔루션, 삼성SDI, SK온 등 국내 배터리 3사가 북미 ESS 사업을 확대하고 있음.",
+        "미국 내 중국계 공급망 규제 강화로 비중국계 배터리 조달이 중요해짐.",
+        "장주기 ESS 수요에 대응하기 위해 소듐이온 배터리 등 차세대 기술 개발이 추진 중임."
+      ],
+      "numbers": [
+        "2026-09-13",
+        "2분기 1.8GWh",
+        "하반기 6GWh",
+        "2030년까지 6~15GW",
+        "2027년부터 5년간 9GWh"
+      ],
+      "keywords": [
+        "ESS",
+        "AI 데이터센터",
+        "K배터리",
+        "장주기 저장장치",
+        "LFP 배터리"
+      ],
+      "stated_outlook": "하반기 미국 ESS 시장은 약 6GWh가 추가 설치될 전망이며, 미국 에너지부는 2030년까지 6~15GW 규모의 장주기 ESS 설치가 가능할 것으로 보고 있습니다.",
+      "summary_source": "pasted_text",
+      "industry_context": "미국 상업·산업용(C&I) ESS 시장은 AI 데이터센터 확산과 전력 수요 증가로 인해 빠르게 성장 중이며, 미국 정부는 장주기 ESS 상용화와 현지 생산 인센티브 정책을 추진하고 있습니다."
     },
     {
       "id": "ae2af7f49af2",
