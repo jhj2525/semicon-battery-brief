@@ -690,13 +690,32 @@
       "collected": "2026-09-14",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpSGNXZEdyN3ZqVEhGMkNQd2YtRWFWNWxpRTFuczkzWEVyeVl6b1B3WmFxWkJ0cnFSeWIzNzZFeVNLcnZrSEJlRzQzVUlGejFNUklKSGhR?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "에코프로에이치엔이 인공지능 시장 확대와 반도체 설비 투자 증가에 힘입어 올해 누적 수주액 1900억원을 돌파했다. 이는 지난해 연간 매출액 대비 136%에 해당하는 규모로, 해외 수주 비중 또한 급격히 증가하고 있다. 회사는 반도체 온실가스 저감 설비와 발전소용 환경설비 공급을 중심으로 사업을 확장 중이다. 또한 설비 납품 이후의 유지보수 사업을 강화해 안정적인 수익 구조를 구축하고 있다. 향후 환경 설비 외에도 첨단 소재와 에너지 분야 등으로 사업 영역을 다변화할 계획이다.",
+      "key_points": [
+        "올해 공시 기준 누적 수주액 1914억원 기록",
+        "해외 수주 비중 41%로 3년 전 대비 19%포인트 상승",
+        "삼성E&A, 호프만, 마이크론 등을 고객사로 확보",
+        "온실가스 저감 설비의 설계, 시공, 유지보수를 통합 제공하는 전략 추진"
+      ],
+      "numbers": [
+        "1914억원",
+        "1411억원",
+        "41%",
+        "2030년",
+        "750~800도"
+      ],
+      "keywords": [
+        "에코프로에이치엔",
+        "반도체",
+        "온실가스저감",
+        "환경설비",
+        "수주"
+      ],
+      "stated_outlook": "2030년까지 유지보수 등 운영 매출 비중을 전체의 절반 이상으로 확대하고, 환경 사업 외에도 반도체·배터리 관련 첨단소재 및 에너지 분야로 사업을 다변화할 계획이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "AI 시장 확대에 따른 반도체 공장 증설로 온실가스 저감 설비 수요가 증가하고 있으며, 반도체 제조 과정에서 발생하는 과불화화합물(PFCs) 등 온실가스 처리 기술이 중요해지고 있다."
     },
     {
       "id": "3bd445d6b19e",
