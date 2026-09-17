@@ -427,13 +427,33 @@
       "collected": "2026-09-17",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vSzBXNWZ0QjFDTnJTSFU1TGRaLW9LQkh3MHVlNjlCbjg5M1NkNWE2ejNfS1R6QTBUcXJHMExxR19pa1gtcDVqQVRqT19DQ2NULXk1THdwQmc5aEVk?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "글로벌 이차전지 시장이 성장세로 전환되었음에도 국내 배터리 기업들의 수익성 회복은 제한적일 것으로 분석된다. 시장의 중심이 하이니켈 삼원계에서 리튬인산철(LFP) 배터리로 빠르게 이동하면서 국내 기업들의 제품 포트폴리오와 불일치가 발생하고 있기 때문이다. 특히 중국 기업들이 축적된 생산 경험과 수직계열화된 공급망을 통해 높은 원가 경쟁력을 확보하며 시장 지배력을 강화하고 있다. 이에 따라 국내 배터리 셀 업체들은 북미 시장을 중심으로 ESS용 배터리 전환을 통해 돌파구를 모색하고 있다. 다만 소재업체들은 기존 사업의 수익성 회복이 더딘 가운데 신규 투자를 병행해야 하는 이중고를 겪고 있다.",
+      "key_points": [
+        "NICE신용평가는 국내 배터리 기업의 주력인 하이니켈 삼원계와 시장 주도 제품인 LFP 간의 포트폴리오 불일치를 수익성 제약 요인으로 지목했다.",
+        "중국 업체들은 수직계열화와 원가 경쟁력을 바탕으로 시장 지배력을 확대하며 국내 소재업체들에 큰 부담이 되고 있다.",
+        "LG에너지솔루션, 삼성SDI, SK온 등 국내 배터리 셀 3사는 북미 시장 내 ESS용 생산 라인 전환 및 확대를 추진 중이다."
+      ],
+      "numbers": [
+        "2026.09.16",
+        "80%",
+        "140GWh",
+        "20GWh",
+        "50GWh",
+        "30GWh"
+      ],
+      "keywords": [
+        "LFP",
+        "배터리",
+        "수익성",
+        "ESS",
+        "하이니켈",
+        "북미시장"
+      ],
+      "stated_outlook": "NICE신용평가는 국내 배터리 업체의 수익성 회복이 당분간 제한적일 것으로 내다봤으며, 특히 소재업체는 외부 자금 조달을 통한 신규 투자 부담이 가중될 것으로 전망했다.",
+      "summary_source": "pasted_text",
+      "industry_context": "미국 내 전기차용 배터리 시장은 역성장했으나, ESS용 배터리 시장은 AI 데이터센터 투자 확대 등에 힘입어 전년 동기 대비 약 80% 성장하며 LFP 수요를 견인하고 있다. 유럽 전기차 시장 역시 대중차 중심으로 재편되면서 가격 경쟁력이 높은 LFP 배터리의 비중이 확대되는 추세다."
     }
   ],
   "archive_items": [
