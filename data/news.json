@@ -269,13 +269,33 @@
       "collected": "2026-09-17",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBkMVRFd05kRHlCWUxjUFpsY0t1TjhVT0pnVHZHYTl3aFlwRWF4eFg5bExmQy0zcjJEa1FHMWNfMjVoanUwZTJtRUpsRHdpQQ?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "영남대학교 화학과 강미숙 교수 연구팀이 차세대 배터리 상용화를 위한 계면공학 기반의 원천기술을 개발했다. 연구팀은 전고체전지와 실리콘 음극재의 근본적 한계를 소재 교체가 아닌 계면 재구성을 통해 해결하는 기술 플랫폼을 제시했다. 첫 번째 연구는 전고체전지의 고온 소결 및 고압 구동 문제를 해결하는 고체전해질 플랫폼을 다루며, 두 번째 연구는 실리콘 음극의 부피팽창과 계면 붕괴를 극복하는 탄소 재구성 기술을 제안했다. 이번 성과는 이온 이동과 기계적 안정성을 동시에 향상시켜 차세대 이차전지의 산업화 가능성을 높였다는 점에서 학술적·산업적 의미가 크다. 관련 논문 2편은 10월 1일 국제 학술지 '케미칼 엔지니어링 저널(CEJ)'에 게재될 예정이다.",
+      "key_points": [
+        "영남대 강미숙 교수팀, 전고체전지 및 실리콘 음극 산업화 난제 해결 기술 개발",
+        "LZLOS 다상 헤테로구조 필러를 활용해 고체전해질의 결정성을 억제하고 이온 전도 경로 형성",
+        "폐실리콘 태양광 패널 업사이클링을 위한 실리콘 표면의 '계면 탄소 재구성' 기술 확보",
+        "핵심 연구 성과 2건에 대한 특허 출원 완료"
+      ],
+      "numbers": [
+        "2026-09-16",
+        "10월 1일",
+        "2편",
+        "110℃",
+        "100MPa",
+        "300%"
+      ],
+      "keywords": [
+        "영남대학교",
+        "전고체전지",
+        "실리콘 음극",
+        "계면공학",
+        "이차전지"
+      ],
+      "stated_outlook": "강미숙 교수는 향후 계면공학을 기반으로 전고체전지, 실리콘 음극, 고에너지 양극재 등 차세대 이차전지 분야에서 산업화 가능한 원천기술을 지속적으로 개발하고 특허 및 기술이전을 통해 국가 배터리 산업 경쟁력 향상에 기여하겠다고 밝혔다.",
+      "summary_source": "pasted_text",
+      "industry_context": "차세대 배터리의 성능과 수명은 계면의 물리적·화학적 특성에 의해 결정되며, 이를 최적화하는 계면공학은 산업화의 핵심 난제이자 필수 기술로 평가받음."
     },
     {
       "id": "adc0fd50293c",
@@ -17741,7 +17761,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-17 13:11 KST",
+  "manual_updated_at": "2026-09-17 13:13 KST",
   "favorite_items": [
     {
       "id": "b989638e2d4d",
