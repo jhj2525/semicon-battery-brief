@@ -351,13 +351,31 @@
       "collected": "2026-09-17",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9JQ1NiOG8xcFBPSmF4UmhOR1ZzdXhOWUlvS3N5ZU1rN21fZnYtSlNXM19aemcwR250VWpwVVhBWUdwSUVnV1duOGFRUnJudw?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "충북 최대 규모의 인공지능(AI) 및 디지털 융합 축제인 'AI 대전환 페스타 2026'이 9월 16일 청주오스코에서 개막했다. 이번 행사는 충북도, 과학기술정보통신부, 청주시가 공동 주최하여 지역 주력산업의 인공지능 전환(AX) 확산을 촉진하기 위해 마련되었다. 행사 기간 동안 기업과 연구기관의 최신 기술 전시, AX 포럼, 세미나, 시민 참여형 체험 프로그램이 진행된다. 특히 반도체, 바이오, 이차전지 등 충북 핵심 산업에 AI를 접목한 사례가 집중 소개되어 산업 현장의 생산성 향상과 공정 혁신을 모색한다. 이번 행사는 단순 전시를 넘어 지역 기업과 AI 공급기업, 연구기관을 연결하는 협력 플랫폼으로 활용될 예정이다.",
+      "key_points": [
+        "9월 16일부터 18일까지 3일간 청주오스코에서 'AI 대전환 페스타 2026' 개최",
+        "LG AI연구원, 셀트리온제약, SK키파운드리 등 주요 기업 및 연구기관 참여",
+        "디지털혁신거점관, 혁신네트워크관, 충북과학기술혁신원관, 미래사업관 등 4개 주제관 운영",
+        "AI 기술 전시와 더불어 기업 간 기술 교류 및 일반 시민 대상 체험 프로그램 운영"
+      ],
+      "numbers": [
+        "2026-09-16",
+        "62개 기업·기관",
+        "약 5000명 관람객 예상"
+      ],
+      "keywords": [
+        "AI 대전환 페스타 2026",
+        "충북",
+        "인공지능",
+        "산업 전환",
+        "반도체",
+        "바이오"
+      ],
+      "stated_outlook": "충북도는 이번 행사를 통해 지역 중소·중견기업의 AI 도입을 확대하고 관련 기업과 인재를 유치하여 충북형 AI 산업 생태계 구축에 속도를 낼 방침이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "충북도는 반도체, 바이오, 이차전지를 주력 산업으로 육성하고 있으며, 도내 기업의 생산성 향상과 공정 혁신을 위해 산업 현장에 AI를 접목하는 디지털 전환을 추진 중이다."
     },
     {
       "id": "d623e210f884",
