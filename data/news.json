@@ -191,13 +191,31 @@
       "collected": "2026-09-17",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9haGMtY0ZuaTBRcjMxaGhrdVZJazJqcENqVjN1VTNjbWJvSHNoUGpBMVZTX2NrcTlwRi1xSjd4dkxCa25mMF9WQTNvRDdYVDJlZG9YcEdhVjR6cWhYUFhZU2I5X0M0Uy1ETGZFVC1qLWZoVm9r0gF0QVVfeXFMT2FoYy1jRm5pMFFyMzFoaGt1VklrMmpwQ2pWM3VVM2NtYm9Ic2hQakExVlNfY2txOXBGLXFKN3h2TEJrbmYwX1ZBM29EN1hUMmVkb1hwR2FWNHpxaFhQWFlTYjlfQzRTLURMZkVULWotZmhWb2s?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "SK하이닉스가 인텔이 미국 오하이오주에 건설 중인 반도체 공장을 임차해 메모리 반도체를 생산하는 방안을 논의 중이다. 양사는 메모리 공급을 원하는 주요 클라우드 기업과 3자 합작법인을 설립하는 가능성도 검토하고 있다. 다만 이번 논의는 초기 단계로 구체적인 계획이나 생산 품목은 확정되지 않았다. 인텔은 경영난으로 인해 공장 완공 시점을 2030년과 2031년으로 연기한 상태로, SK하이닉스의 시설 임차를 통해 자금 부담을 완화할 수 있다. 향후 기술 해외 이전 관련 정부 심사와 높은 미국 현지 생산 비용 등이 주요 변수로 작용할 전망이다.",
+      "key_points": [
+        "SK하이닉스가 인텔의 오하이오 반도체 공장 일부를 임차하는 방안을 검토 중이다.",
+        "양사는 주요 클라우드 기업과 3자 합작법인을 설립하는 안도 거론하고 있다.",
+        "국가핵심기술에 해당하는 고대역폭메모리(HBM)나 첨단 D램 기술 이전 시 정부 심사가 필요하다.",
+        "미국 현지의 높은 인건비, 건설비, 반도체 공급망 문제로 인한 생산비 증가가 과제로 꼽힌다."
+      ],
+      "numbers": [
+        "2026-09-16",
+        "2030년",
+        "2031년",
+        "1000억달러"
+      ],
+      "keywords": [
+        "SK하이닉스",
+        "인텔",
+        "반도체",
+        "공장 임대",
+        "오하이오"
+      ],
+      "stated_outlook": "SK하이닉스는 생산 거점 확충을 위해 여러 방안을 검토 중이나 확정된 사안은 없다는 입장이다.",
+      "summary_source": "pasted_text",
+      "industry_context": "미국 정부는 반도체 기업에 현지 생산 확대를 요구하며, 이를 이행하지 않을 경우 관세를 부과하겠다는 압박을 가하고 있다. 한편, 한국 정부는 국내 생산 기반 확충을 추진하는 동시에 기업의 대미 투자를 양국 간 협상 수단으로 활용하고 있다."
     },
     {
       "id": "326ea0ed7fcd",
@@ -17723,7 +17741,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-17 12:55 KST",
+  "manual_updated_at": "2026-09-17 13:11 KST",
   "favorite_items": [
     {
       "id": "b989638e2d4d",
