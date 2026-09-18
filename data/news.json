@@ -11927,6 +11927,48 @@
   "semi_archive_items": [],
   "manual_items": [
     {
+      "id": "a127c784eb0c",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "에코프로비엠, K-양극재 최초 中 CATL 뚫는다 - 디일렉(THE ELEC)",
+      "source": "디일렉",
+      "source_type": "직접 선택",
+      "published": "2026-09-19 01:54",
+      "collected": "2026-09-18",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=62506",
+      "requested_link": "https://www.thelec.kr/news/articleView.html?idxno=62506",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "b88d7569ee00",
+      "sector": "battery",
+      "region": "global",
+      "category": "산업",
+      "title": "구광모 AI 전략 “빠른 속도·집요한 실행력”",
+      "source": "n.news.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-18 20:16",
+      "collected": "2026-09-18",
+      "link": "https://n.news.naver.com/article/016/0002698696?lfrom=kakao",
+      "requested_link": "https://n.news.naver.com/article/016/0002698696?lfrom=kakao",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
       "id": "761a7c15d492",
       "sector": "battery",
       "region": "global",
@@ -18077,7 +18119,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-17 13:13 KST",
+  "manual_updated_at": "2026-09-18 20:16 KST",
   "favorite_items": [
     {
       "id": "b989638e2d4d",
