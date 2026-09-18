@@ -11948,6 +11948,85 @@
       "stated_outlook": ""
     },
     {
+      "id": "cbcbd3b673b1",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "中 AI반도체 'HBM 병목'…삼성·SK, 공급자 우위 부각",
+      "source": "metroseoul.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-09-18 20:20",
+      "collected": "2026-09-18",
+      "link": "https://www.metroseoul.co.kr/article/20260913500337",
+      "requested_link": "https://www.metroseoul.co.kr/article/20260913500337",
+      "rss_description": "",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "글로벌 AI 데이터센터 투자 확대로 고대역폭메모리(HBM) 수요가 급증하면서, 공급 부족 현상이 심화되어 완제품 시장까지 영향을 미치고 있습니다. 중국 AI 반도체 업체들은 HBM 조달 비용 상승으로 인해 차세대 AI 가속기 가격을 20~50%가량 인상하는 등 가격 부담이 커진 상황입니다. 이로 인해 메모리 공급 업체인 삼성전자와 SK하이닉스의 공급 및 가격 협상력이 더욱 강화되고 있습니다. HBM 생산능력 확충에는 시간이 필요한 만큼, 두 기업을 중심으로 한 공급자 우위 시장이 당분간 지속될 전망입니다.",
+      "industry_context": "삼성전자와 SK하이닉스는 글로벌 HBM 시장을 주도하는 한국의 주요 반도체 기업으로, 첨단 메모리 기술력을 바탕으로 시장 점유율 83%를 차지하고 있습니다. 마이크론이 생산능력을 확대하며 추격하고 있으나, 두 한국 기업은 차세대 제품인 HBM4 공급을 본격화하며 시장 내 지배력을 유지하고 있습니다.",
+      "key_points": [
+        "중국 AI 반도체 업체들의 HBM 조달 비용 상승으로 AI 가속기 가격이 대폭 인상됨",
+        "삼성전자와 SK하이닉스의 글로벌 HBM 시장 합산 점유율은 83%에 달함",
+        "HBM 공급 부족 현상은 2030년 말까지 이어질 것으로 예상됨",
+        "삼성전자와 SK하이닉스는 하반기 HBM4 공급 확대를 추진 중임"
+      ],
+      "numbers": [
+        "2026년 09월 13일",
+        "삼성·SK 합산 점유율 83%",
+        "SK하이닉스 점유율 50%, 삼성전자 33%",
+        "2030년 말까지 공급 부족 전망"
+      ],
+      "keywords": [
+        "HBM",
+        "AI반도체",
+        "삼성전자",
+        "SK하이닉스",
+        "HBM4",
+        "공급자우위"
+      ],
+      "stated_outlook": "곽노정 SK하이닉스 대표는 메모리 공급 부족이 2030년 말까지 이어질 것으로 진단했습니다. 또한 삼성전자와 SK하이닉스는 하반기 HBM4 공급 확대를 계획하고 있으며, 마이크론은 올해 말까지 HBM 생산능력을 월 10만 장 수준으로 늘릴 계획입니다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "531021344678",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "SK하이닉스, 장비 공급망 선점…2년 후 수요까지 확보",
+      "source": "dealsite.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-09-18 20:20",
+      "collected": "2026-09-18",
+      "link": "https://dealsite.co.kr/articles/168916",
+      "requested_link": "https://dealsite.co.kr/articles/168916",
+      "rss_description": "",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "SK하이닉스가 인공지능(AI) 수요 급증에 대응하기 위해 반도체 장비 및 핵심 부품의 공급망 관리(SCM)를 장기 체제로 전환한다. 기존에는 6개월에서 1년 단위로 공유하던 투자 계획을 내후년 수요까지 확대하여 협력사들이 생산능력과 부품 조달을 미리 준비하도록 했다. 이는 용인 반도체 클러스터 등 대규모 증설 과정에서 발생할 수 있는 병목 현상을 방지하기 위한 조치다. 특히 고대역폭메모리(HBM) 양산에 필요한 후공정 및 검사 장비 수요가 늘면서, 장비 공급 지연이 생산 차질로 이어지지 않도록 선제적으로 대응하는 것이다.",
+      "industry_context": "SK하이닉스는 대한민국에 본사를 둔 세계적인 메모리 반도체 제조 기업으로, HBM을 비롯한 고부가 제품군에서 기술 경쟁력을 보유하고 있다. 반도체 생산은 전공정 및 후공정 장비와 그에 필요한 핵심 부품들의 정교한 공급망 결합을 통해 이루어진다.",
+      "key_points": [
+        "SK하이닉스가 내후년까지의 장비 및 부품 수요를 협력사에 선제적으로 공유하는 장기 SCM 체제를 도입함",
+        "AI 투자 확대 및 HBM 양산 본격화로 인해 전공정 및 후공정 장비 수요가 크게 증가함",
+        "장비 업체들의 생산 병목 현상이 생산능력 확대의 걸림돌이 되지 않도록 미리 대비하는 전략임"
+      ],
+      "numbers": [
+        "2026-09-14",
+        "1659억달러(약 222조원)",
+        "23.2%",
+        "2295억달러(약 308조원)",
+        "2028년"
+      ],
+      "keywords": [
+        "SK하이닉스",
+        "반도체 장비",
+        "공급망 관리",
+        "HBM",
+        "AI"
+      ],
+      "stated_outlook": "국제반도체장비재료협회(SEMI)는 올해 글로벌 반도체 제조장비 매출이 전년 대비 23.2% 증가한 1659억달러를 기록하고, 2028년에는 2295억달러에 달할 것으로 전망했다.",
+      "summary_status": "summarized"
+    },
+    {
       "id": "b88d7569ee00",
       "sector": "battery",
       "region": "global",
@@ -11959,6 +12038,66 @@
       "collected": "2026-09-18",
       "link": "https://n.news.naver.com/article/016/0002698696?lfrom=kakao",
       "requested_link": "https://n.news.naver.com/article/016/0002698696?lfrom=kakao",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "b711ff7036f3",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "\"TSMC, 내년 첨단공정 대대적 증산\"…매출 신기록 전망",
+      "source": "biz.sbs.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-09-14 20:29",
+      "collected": "2026-09-18",
+      "link": "https://biz.sbs.co.kr/article/20000334456",
+      "requested_link": "https://biz.sbs.co.kr/article/20000334456",
+      "rss_description": "\"TSMC, 내년 첨단공정 대대적 증산\"…매출 신기록 전망",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "대만 TSMC가 글로벌 인공지능(AI) 칩 수요 급증에 대응하기 위해 내년부터 첨단 공정의 대대적인 증산을 추진합니다. 2나노와 3나노 공정 제품의 생산 능력을 대폭 확대하여 시장 수요를 맞추고 매출 신기록을 경신할 것으로 전망됩니다. 이를 위해 대만과 미국, 일본 등에 공장을 추가 건설하고 있으며, 일부 5나노 장비 라인을 3나노로 전환하는 작업도 병행하고 있습니다. 또한 옹스트롬급 A16 공정 개발 성공에 이어 차세대 기술 개발에도 박차를 가하고 있습니다.",
+      "industry_context": "TSMC는 대만에 본사를 둔 세계 최대 규모의 반도체 위탁생산(파운드리) 기업입니다. 최첨단 미세공정 기술력을 바탕으로 글로벌 반도체 공급망의 핵심 역할을 수행하고 있으며, 네덜란드의 노광장비 업체 ASML과 긴밀히 협력하고 있습니다.",
+      "key_points": [
+        "TSMC가 AI 칩 수요 증가에 맞춰 2나노 및 3나노 공정의 대대적 증산을 계획함",
+        "2나노 공정 월 생산량은 내년 중반 11만 장으로 올해 말 대비 약 22% 증가 예정",
+        "3나노 공정 월 생산량은 내년 중반 21만 장을 목표로 하며, 2025년 말부터 1년 6개월간 약 70% 증대 기대",
+        "자본지출 확대 및 첨단 공정 수요 강세로 내년도 매출 역대 최고치 경신 전망"
+      ],
+      "numbers": [
+        "2나노 월 생산량: 올해 말 9만 장 → 내년 중반 11만 장",
+        "3나노 월 생산량: 올해 말 18만 장 → 내년 중반 21만 장",
+        "3나노 증산 폭: 2025년 말~2027년 중반 약 70%"
+      ],
+      "keywords": [
+        "TSMC",
+        "반도체 파운드리",
+        "AI 칩",
+        "2나노 공정",
+        "3나노 공정",
+        "공급망"
+      ],
+      "stated_outlook": "첨단 공정용 AI 칩 수요가 매우 강해 2029년부터 2030년까지 이미 수주 가시성이 확보된 상태이며, 내년 매출이 역대 최고치를 경신할 것으로 전망됨.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "55308bf0df53",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "삼성전자·퀄컴, 5년 전 ‘트라우마’ 극복하나… 2나노 파운드리 수주 가능성은",
+      "source": "biz.chosun.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-11 15:27",
+      "collected": "2026-09-18",
+      "link": "https://biz.chosun.com/it-science/ict/2026/09/13/RNOZIFPSPRAPDB3KTS4BBJQQ2Y",
+      "requested_link": "https://biz.chosun.com/it-science/ict/2026/09/13/RNOZIFPSPRAPDB3KTS4BBJQQ2Y",
       "manual_added": true,
       "verified_source": false,
       "summary_status": "link_only",
@@ -18161,7 +18300,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-09-18 20:18 KST",
+  "manual_updated_at": "2026-09-18 20:20 KST",
   "favorite_items": [
     {
       "id": "b989638e2d4d",
