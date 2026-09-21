@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-21 09:19 KST",
-  "last_automatic_update_at": "2026-09-21 09:19 KST",
-  "automatic_cycle_started_at": "2026-09-21 09:16 KST",
+  "updated_at": "2026-09-21 10:08 KST",
+  "last_automatic_update_at": "2026-09-21 10:08 KST",
+  "automatic_cycle_started_at": "2026-09-21 10:07 KST",
   "publication_window": {
-    "from": "2026-09-20 09:16 KST",
-    "to": "2026-09-21 09:16 KST"
+    "from": "2026-09-20 10:07 KST",
+    "to": "2026-09-21 10:07 KST"
   },
-  "today_verified_count": 13,
+  "today_verified_count": 1,
   "current_items": [
     {
       "id": "e5dea620f44f",
@@ -315,6 +315,26 @@
       "published": "2026-09-21 08:33",
       "collected": "2026-09-21",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE90OGF5c0U5cGQ0RHRoY2NBV2V2YVA4emdjY19pYVpvRkF3a282ZE9hSmIyWVpnTzN6X3JLVGlMRVhUREdrVUstLWlQdkFrWTdjRUJrRDI5b0J6S1Va?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "5fbc78c495fb",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "경제인협회 \"반도체 공장 가동 앞두고 도로·용수 아직\"",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-09-21 06:00",
+      "collected": "2026-09-21",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wVEdhNVRVWm9jZ0wwTFBjRGFTd0lQVTlJT2gxZUNyQ0RndmdDWGJaS1B1b1prNFZGNmtSN1lKNVUyX0hZWVlQYXVpMFM5LWVDVENkaUFucmRSVTF6TzA5aNIBYEFVX3lxTE0wVEdhNVRVWm9jZ0wwTFBjRGFTd0lQVTlJT2gxZUNyQ0RndmdDWGJaS1B1b1prNFZGNmtSN1lKNVUyX0hZWVlQYXVpMFM5LWVDVENkaUFucmRSVTF6TzA5aA?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
