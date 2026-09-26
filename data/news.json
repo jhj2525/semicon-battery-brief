@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-26 09:39 KST",
-  "last_automatic_update_at": "2026-09-26 09:39 KST",
-  "automatic_cycle_started_at": "2026-09-26 09:37 KST",
+  "updated_at": "2026-09-26 10:37 KST",
+  "last_automatic_update_at": "2026-09-26 10:37 KST",
+  "automatic_cycle_started_at": "2026-09-26 10:35 KST",
   "publication_window": {
-    "from": "2026-09-25 09:37 KST",
-    "to": "2026-09-26 09:37 KST"
+    "from": "2026-09-25 10:35 KST",
+    "to": "2026-09-26 10:35 KST"
   },
-  "today_verified_count": 6,
+  "today_verified_count": 1,
   "current_items": [
     {
       "id": "6f5d21ba5716",
@@ -135,6 +135,26 @@
       "published": "2026-09-26 06:28",
       "collected": "2026-09-26",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xUzR4azN1Z2stMXhIODVVOTJrLVdsc2Q3SmpXUGtDbkhkNUtUVTVQTWZvLXROTE1kMGRoVmw0UllzQVMtNWEwZXpLaW1KMVl4S3liV3lB?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "b90f8132e869",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "日 알박, 후공정용 첨단 패키지 장비 개발 돌입…2028년 AI 반도체 시장 겨냥",
+      "source": "전자신문",
+      "source_type": "산업 전문언론",
+      "published": "2026-09-25 11:23",
+      "collected": "2026-09-26",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5pSUV0dUFUS0lNQllXNU9HNVlQdkgzc2JwR05Ta3d4YV9adnpqai1IWjlWVEJsWmRVcVJiRzNaYWNhbVdQX3NCcUtSUDJNdw?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
