@@ -107,26 +107,6 @@
       "stated_outlook": ""
     },
     {
-      "id": "0dcd2f382c27",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "산업",
-      "title": "대구시, 제2회 추경예산으로 시스템 반도체 설계·검증 지원 및 인력양성 확대 추진",
-      "source": "전자신문",
-      "source_type": "산업 전문언론",
-      "published": "2026-09-26 17:07",
-      "collected": "2026-09-27",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1JU25tRkM0aTQzWWE2NkFmZ2hidGF6aFZXWTIwYTJqajFzYmI5dm11RzBQb0RJcnNUeGxuWmhYZFNkMFk4WWJBNDBrRlE1UQ?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
       "id": "8ca8159fe0d2",
       "sector": "semiconductor",
       "region": "domestic",
@@ -25106,6 +25086,7 @@
   ],
   "deleted_article_ids": [
     "00234587452c",
+    "0dcd2f382c27",
     "1647e5fed510",
     "1a161823e43b",
     "1cee10507fff",
@@ -25155,6 +25136,7 @@
   "deleted_article_urls": [
     "https://blog.naver.com/semi_blog/224297670263",
     "https://news.google.com/rss/articles/CBMi3AhBVV95cUxPMWJxY2swY25JN2VTLTNPYUNRaFJsdDZaZVRxdzhSX1ZjSE13ZlRHUkctNVE0aDV0WURTcElBcW9SY2N0dnc5cTdmV0dfLWxDOFBFeF9vNVNkNXMtQUlSZFZJNUlaUDE2NkJBMzdpNVJyMlFxU1M4eUNrQmZsLS13a3hZSHJNWXg1aFBWeklnLV94Y0c0T2ltczNhZndHSzROZl90RGhEblJQVGREV3lIaDE5SldYQ3pCUm9BRHFvZDc4Z3FHU1o1bXNSZjR6aWdMb0RLLWtXaTJFWVppZjkyNVdMbkU5ZkMyakdzSWsyRUZLa0lrWXl3Nm12TjRab2V5cWhMT21iYjRwQ2VXTzJCS1ZfcUlvckEyTHUyV0s5aFp3a1JYUWt5N2Jwb1BTVFczb2Q1TzZHQVFyZDN3TENpbk5zRlhpR0FzTjZyNFlmTEduelg5a2x3TWpMNDRpcm14NGNPQ01CSWNtN0JKZXN2T0swM09UT05abW04ZTBWQ3ZnU1ZRYjNpejl6U0dJWFhtUU5aN2dEN3h5MmlYVkdUQnhzOWx5SkNHQWpvQ2ctbHRETnRLaUVTLW1UaTEzVjhmLThTOUVaQmdyZWQxOWszLVJoekhYbXkyTzlpa2wtRTdZWHZRSDZFRE9EanV5Ump6V2RmWnpuVkFxZWxZcXZmTnBMd2NrZ3p5TjZxTUNfQWZRSy04clAybXB2UXhPcXdxbVpmcDNQLXFfaUhxSE1jTFYxaHRPb3NGSUNJcUVpOG5lRl80enVwV0FCV1FWdC1aQlZFbEt2ejEyek5HVTlia0pnVlhzWFJTMzBJVkVPOVBxbElGRDdUWU45MFJWdEg1Nl9ZekFpWFRQanNLTDIzRUJMaHlhQ1NaMUlVZTNnWWlBcHR5X2JhbW05Wm1tVFN6eUN6V3MyUXdBVDJPSjBvLXlXMlpVZWNENkhkejd6YzBVZXlfcHR2eWI0MThabDQ4dGJaZUpJNXphUFFFZVNUZU43SnFHelNSUVpJbmoxdHg5SFh2RjEzLTZId2NQR0JxOHk3T3lfWWYzc19namkzZ0ZlMWRmYkRuQXI0Q2xlSTVFZmZxRW1HY1NEdDVuWUE1Vm1QZXlwMWFhS0JqQndzUUVmRmwwZzhDaFFKaC1EcVNia05GUWE5ZDF1STc1SEhRcXhqR2h5TktBd3Blcm14TGpRaFRKU1N1a2ZIZDRfbERrdzNKUUt6OGNHdlVjanAycEFmRWtXb2hBUFExbnlBR1lEaVZpbnRSN1d5WkFJSEFPOU4yb0t0Y2lZcWczUWI0bHlzRHE4NmxFcllBd2FjTFFyVmV2czAwRHJBOG54M2RjalFodDBGb0c2WEYzRjdaSXZPRUV3TFZualJkbXpNeGRvNWlRb2MyVGRIWDF2NDRlakt2T1JmdkxVM3Y0enFyRm5SVXZ0V0dyblJsSm5ER19CLWFSNm5sV2RULXQyZFd6SXpxdXQ0SEs4REE?oc=5",
+    "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1JU25tRkM0aTQzWWE2NkFmZ2hidGF6aFZXWTIwYTJqajFzYmI5dm11RzBQb0RJcnNUeGxuWmhYZFNkMFk4WWJBNDBrRlE1UQ?oc=5",
     "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1rZm9vOXNFMVlkbkJiQ1NFT3VtTHJFLVI1MnVzdjJXYmZEa0NORG9ObUoyYXlzcGtjdlV4aTVWNElFWFdmMExzaHBkVF8zUQ?oc=5",
     "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9mM2FEV3RFWG9YNlN4SHdqWFU2N0ZFOHdld3pjRTVZbDZvNXhyRnd2ZlRYUUdObVBudDNWMUE0T0dpV214Q3BDV3g4MEdLUQ?oc=5",
     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1CaDBfVUlWelNTNjZoYnVxb3l2OXZ1TVRFTXFFUjJ3SXR1T1I1VFFVclVHLXRwLXlFdlJpZ3dvZjlNcjBRSlZxRDV3eHJnWnZoaWc?oc=5",
