@@ -16490,6 +16490,267 @@
   "semi_archive_items": [],
   "manual_items": [
     {
+      "id": "fc80908beb3d",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "中 HBM의 추격… \"韓과 기술격차 2년뿐\"[반도체 호황의 그림자]",
+      "source": "v.daum.net",
+      "source_type": "직접 선택",
+      "published": "2026-10-04 16:37",
+      "collected": "2026-10-04",
+      "link": "https://v.daum.net/v/20260927181447505",
+      "requested_link": "https://v.daum.net/v/20260927181447505",
+      "rss_description": "中 HBM의 추격… \"韓과 기술격차 2년뿐\"[반도체 호황의 그림자]",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "중국 반도체 산업이 고대역폭메모리(HBM) 및 범용 D램 분야에서 한국을 빠르게 추격하며 기술 격차를 좁히고 있습니다. 전문가들은 HBM 기술 격차를 최소 2년으로 진단하며, 중국이 범용 D램에서 쌓은 경험과 자금을 바탕으로 첨단 기술 분야로 보폭을 넓히고 있다고 분석합니다. 비록 양산 수율과 생태계 측면에서 한국 기업들이 여전히 우위를 점하고 있으나, 과거처럼 안심할 수 없는 상황입니다. 이에 따라 한국 반도체 업계는 차세대 공정과 양산 기술에 대한 지속적인 투자를 통해 방어벽을 구축해야 한다는 지적이 제기되었습니다.",
+      "industry_context": "삼성전자와 SK하이닉스는 한국을 대표하는 글로벌 메모리 반도체 기업으로, 고대역폭메모리(HBM) 시장에서 높은 점유율과 기술적 우위를 확보하고 있습니다. 중국의 창신메모리테크놀로지(CXMT)는 범용 D램을 중심으로 점유율을 확대하며 확보한 수익을 바탕으로 HBM 연구개발 및 공장 증설에 공격적인 행보를 보이고 있습니다.",
+      "key_points": [
+        "한중 간 HBM 기술 격차는 전문가 의견에 따라 2년에서 6년으로 평가됨",
+        "중국은 범용 D램에서 확보한 생산 경험과 자금력을 바탕으로 첨단 반도체 추격 속도를 높이는 중",
+        "실질적인 생태계 격차는 양산 수율, 열관리, 고객 공동설계 등을 포함할 경우 4~5년으로 분석됨",
+        "한국 기업들이 우위를 유지하려면 차세대 공정 투자와 양산 기술 확보가 필수적임"
+      ],
+      "numbers": [
+        "2년",
+        "3년",
+        "4~5년",
+        "6년",
+        "2030년",
+        "2032~2034년"
+      ],
+      "keywords": [
+        "HBM",
+        "반도체",
+        "D램",
+        "기술격차",
+        "CXMT",
+        "양산수율"
+      ],
+      "stated_outlook": "중국이 한국의 현재 기술 수준에 도달하는 시점은 2030년으로 예상되며, 최첨단 HBM 제품에서 한국을 따라잡는 시점은 빨라도 2032~2034년 이후가 될 것으로 전망됩니다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "8b2a16003e2b",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "투자·양산",
+      "title": "“가전 소재에서 AI 핵심으로”… 몸값 치솟는 CCL '증설 전쟁'",
+      "source": "v.daum.net",
+      "source_type": "직접 선택",
+      "published": "2026-10-04 16:35",
+      "collected": "2026-10-04",
+      "link": "https://v.daum.net/v/20260926180313959",
+      "requested_link": "https://v.daum.net/v/20260926180313959",
+      "rss_description": "“가전 소재에서 AI 핵심으로”… 몸값 치솟는 CCL ‘증설 전쟁’",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "전자제품의 기초 소재인 동박적층판(CCL)이 AI 데이터센터와 첨단 반도체 핵심 소재로 주목받으며 산업적 위상이 변화하고 있다. 기존의 가전 및 스마트폰용 수요를 넘어 AI 가속기, 네트워크 스위치 등 고속·고주파 신호 처리가 필수적인 분야로 적용 범위가 급격히 확대 중이다. 데이터센터의 대형화와 첨단 패키징 기술 도입으로 인해 하이엔드 CCL 수요가 폭증하며 관련 기업들의 증설 경쟁이 본격화되었다. 이에 따라 국내외 주요 기업들은 생산 능력 확대를 위해 대규모 투자를 단행하며 시장 선점에 나서고 있다.",
+      "industry_context": "CCL은 부품 간 전자 신호를 전달하는 인쇄회로기판(PCB)의 핵심 소재로, 국내 기업인 ㈜두산 전자BG와 LG화학, 코오롱인더스트리 등이 공급망에서 중요한 위치를 차지하고 있다. 해외에서는 일본의 파나소닉과 대만의 엘리트머터리얼(EMC) 등이 생산 기반을 확대하며 글로벌 시장 경쟁을 주도하고 있다.",
+      "key_points": [
+        "AI 산업 발달로 반도체 및 AI 가속기용 하이엔드 CCL 수요가 급증함",
+        "㈜두산 전자BG는 역대 최대 규모인 9700억원을 투자해 생산라인 증설 계획을 공시함",
+        "LG화학은 비메모리 반도체 패키징용 CCL 분야에, 코오롱인더스트리는 신호 손실 저감 화학 소재인 mPPO 생산에 집중함"
+      ],
+      "numbers": [
+        "2024년 ㈜두산 전자BG 매출 1조원 달성",
+        "2026년 2분기 ㈜두산 전자BG 매출 6760억원 (전년 동기 대비 약 42% 증가)",
+        "㈜두산 전자BG 투자금 9700억원",
+        "2028년 중국 및 태국 공장 가동 예정",
+        "파나소닉 75억엔(약 647억원) 투자",
+        "엘리트머터리얼(EMC) 약 15억 위안(약 3030억원) 투자"
+      ],
+      "keywords": [
+        "동박적층판",
+        "CCL",
+        "인공지능",
+        "데이터센터",
+        "인쇄회로기판",
+        "하이엔드 소재"
+      ],
+      "stated_outlook": "㈜두산은 국내외 증설을 통해 2028년부터 신규 공장을 가동할 예정이며, 엘리트머터리얼(EMC)은 2027년까지 월 945만 장 규모의 생산 능력을 확보할 계획이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "e18ecc8bcd8a",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "28일 뉴욕서 만나는 젠슨 황·이재용·최태원…HBM·AI 협력 주목",
+      "source": "news1.kr",
+      "source_type": "직접 선택",
+      "published": "2026-10-04 16:35",
+      "collected": "2026-10-04",
+      "link": "https://www.news1.kr/industry/general-industry/6302263",
+      "requested_link": "https://www.news1.kr/industry/general-industry/6302263",
+      "rss_description": "",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "글로벌 AI 반도체 공급망의 핵심인 엔비디아의 젠슨 황 CEO가 삼성전자 이재용 회장, SK그룹 최태원 회장과 뉴욕에서 회동한다. 이번 만남은 미중 정상회담 직후 이뤄지는 만큼 글로벌 공급망 내에서의 협력 체계가 더욱 주목받고 있다. 양사는 AI 가속기에 탑재되는 고대역폭메모리(HBM)를 중심으로 AI 인프라 전반의 파트너십을 논의할 전망이다. 엔비디아의 차세대 AI 반도체 로드맵에 따른 메모리 공급 전략과 AI 팩토리 구축 등이 핵심 의제로 거론된다. 한국 기업들은 차세대 HBM 제품군에 대한 장기적 협력을 강화하며 AI 생태계 내 입지를 다지고 있다.",
+      "industry_context": "엔비디아는 글로벌 AI 가속기 및 AI 인프라 생태계를 주도하는 핵심 기업이며, 삼성전자와 SK하이닉스는 고성능 AI 메모리인 HBM을 공급하는 엔비디아의 주요 파트너사다. 특히 SK그룹은 엔비디아와 AI 팩토리 구축 및 차세대 메모리 개발을 포함한 포괄적 파트너십을 추진하고 있다.",
+      "key_points": [
+        "젠슨 황 엔비디아 CEO와 이재용 삼성전자 회장, 최태원 SK그룹 회장이 28일 뉴욕에서 회동한다.",
+        "차세대 HBM(HBM4E, HBM5 등) 공급 및 AI 인프라 협력이 주요 의제로 주목된다.",
+        "SK그룹은 엔비디아와 AI 팩토리 구축 등 AI 전반에 걸친 포괄적 파트너십을 추진 중이다."
+      ],
+      "numbers": [
+        "28일",
+        "2기가와트(GW)"
+      ],
+      "keywords": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스",
+        "HBM",
+        "AI 인프라",
+        "젠슨황"
+      ],
+      "stated_outlook": "엔비디아의 차세대 AI 반도체 로드맵에 맞춘 메모리 공급 전략과 AI 인프라 협력 방향에 대한 의견 교환이 예상된다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "031f21bb0892",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "기술·공정",
+      "title": "日 알박, 후공정용 첨단 패키지 장비 개발 돌입…2028년 AI 반도체 시장 겨냥",
+      "source": "v.daum.net",
+      "source_type": "직접 선택",
+      "published": "2026-10-04 16:34",
+      "collected": "2026-10-04",
+      "link": "https://v.daum.net/v/20260925112537312",
+      "requested_link": "https://v.daum.net/v/20260925112537312",
+      "rss_description": "日 알박, 후공정용 첨단 패키지 장비 개발 돌입…2028년 AI 반도체 시장 겨냥",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "일본의 진공장비 기업 알박(ULVAC)이 AI 반도체 수요에 대응하기 위해 후공정용 첨단 패키지 장비 개발에 착수했다. 알박은 AI용 그래픽칩과 고대역폭 메모리(HBM) 제조 시 미세공정 한계를 극복하기 위한 차세대 대형 각형 기판용 제조장치를 개발할 계획이다. 이는 여러 칩을 가까이 배치할 때 발생하는 휨이나 불량 문제를 해결하기 위한 조치로, 2028년 양산 대응을 목표로 한다. 이번 결정은 AI 반도체 및 전자 디바이스의 중요성이 커지는 시장 변화에 발맞춘 성장 전략의 일환이다.",
+      "industry_context": "알박은 1952년 설립된 일본의 대표적인 진공 장비 기업으로, 스퍼터, 애싱, 에칭, 이온주입 장비 등을 주력으로 생산한다. 디스플레이 분야에서 쌓은 대형 기판 처리 기술과 반도체 후공정 장비 노하우를 보유하고 있으며, 이를 바탕으로 차세대 패키징 시장을 공략하고 있다.",
+      "key_points": [
+        "알박이 AI 반도체 후공정용 첨단 패키지 장비 개발을 공식화함",
+        "2028년 시점에 맞춰 차세대 대형 각형 기판용 제조장치를 공급할 계획",
+        "선폭 미세화의 한계를 극복하기 위해 패키징 단계에서의 대형 기판 공정 기술이 중요해짐"
+      ],
+      "numbers": [
+        "2028년",
+        "1952년",
+        "300mm"
+      ],
+      "keywords": [
+        "알박",
+        "ULVAC",
+        "AI 반도체",
+        "첨단 패키징",
+        "진공 장비",
+        "각형 기판"
+      ],
+      "stated_outlook": "차세대 대형 각형 기판용 제조장치를 2028년 시점에 맞춰 대응하겠다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "b86d921023c0",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "AI 서버발 MLCC 수요 급증…삼성전기·무라타 고부가 제품 확대 [반도체레이다]",
+      "source": "디지털데일리",
+      "source_type": "직접 선택",
+      "published": "2026-10-04 16:34",
+      "collected": "2026-10-04",
+      "link": "https://www.ddaily.co.kr/page/view/2026092313310699525",
+      "requested_link": "https://www.ddaily.co.kr/page/view/2026092313310699525",
+      "rss_description": "",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "인공지능(AI) 서버 시장의 급격한 성장으로 인해 고용량·고신뢰성 적층세라믹캐패시터(MLCC)에 대한 수요가 폭발하고 있다. AI 가속기의 소비전력이 높아지면서 안정적인 전류 공급을 위한 고성능 MLCC의 중요성이 커짐에 따라 관련 기업들이 대규모 장기공급계약을 체결하며 대응에 나서고 있다. 특히 GPU뿐 아니라 클라우드서비스사업자(CSP)가 자체 개발한 ASIC까지 고사양 제품 채택을 늘리면서 AI 서버가 핵심 수요처로 부상했다. 이에 따라 삼성전기와 무라타 등 주요 부품 업체들은 고부가 제품 생산 비중을 확대하는 등 시장 변화에 적극적으로 대응하고 있다.",
+      "industry_context": "삼성전기는 한국의 대표적인 전력·전자부품 기업으로, MLCC와 패키지기판을 주력으로 생산하며 글로벌 공급망의 핵심 위치를 차지하고 있다. 일본의 무라타와 타이요유덴, 교세라는 세계 MLCC 시장에서 강력한 점유율과 기술력을 보유한 주요 경쟁사들이다. 이들 기업은 고도의 생산 난도를 요구하는 고용량 MLCC 분야에서 글로벌 AI 인프라 투자 확대에 발맞춰 증산 및 신규 공장 건설을 추진하고 있다.",
+      "key_points": [
+        "AI 가속기의 높은 소비전력과 전압 변동을 관리하기 위한 고성능 MLCC 수요가 급증함",
+        "삼성전기는 최근 AI 서버용 MLCC 대규모 장기공급계약(LTA)을 잇달아 체결하며 공급을 확대 중임",
+        "글로벌 빅테크의 자체 AI 가속기(ASIC) 생산 증가가 고부가 MLCC 시장 성장을 견인하고 있음"
+      ],
+      "numbers": [
+        "7000억원",
+        "4조원",
+        "1조722억원",
+        "2027년",
+        "2040년",
+        "15조원"
+      ],
+      "keywords": [
+        "MLCC",
+        "AI 서버",
+        "삼성전기",
+        "무라타",
+        "고부가 제품",
+        "장기공급계약"
+      ],
+      "stated_outlook": "삼성전기는 부산사업장을 AI 데이터센터 및 서버용 고부가 MLCC와 패키지기판의 핵심 생산거점으로 육성하기 위해 2040년까지 약 15조원을 투자할 계획이다. 무라타는 신규 이즈모 공장을 구축해 2027년부터 가동할 예정이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "9ca776693a9c",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "SK는",
+      "source": "stock.mk.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-10-04 16:34",
+      "collected": "2026-10-04",
+      "link": "https://stock.mk.co.kr/news/view/1164985",
+      "requested_link": "https://stock.mk.co.kr/news/view/1164985",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "b8033efef79b",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "SK hynix and Dell showcase AI memory for next-gen infrastructure",
+      "source": "datacenters.economictimes.indiatimes.com",
+      "source_type": "직접 선택",
+      "published": "2026-10-04 16:34",
+      "collected": "2026-10-04",
+      "link": "https://datacenters.economictimes.indiatimes.com/news/ai-compute-infrastructure/sk-hynix-and-dell-showcase-ai-memory-for-next-gen-infrastructure/134475368",
+      "requested_link": "https://datacenters.economictimes.indiatimes.com/news/ai-compute-infrastructure/sk-hynix-and-dell-showcase-ai-memory-for-next-gen-infrastructure/134475368",
+      "rss_description": "SK hynix and Dell showcase AI memory for next-gen infrastructure",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "SK하이닉스가 '델 테크놀로지스 포럼 2026'에서 차세대 AI 인프라를 위한 최첨단 메모리 솔루션 라인업을 공개하며 델과의 협력을 강화했다. 이번 전시를 통해 고대역폭 메모리인 HBM3E, HBM4, HBM4E를 비롯해 효율성을 극대화한 SOCAMM2 등 차세대 AI 서버용 제품군이 대거 소개되었다. 또한 데이터센터의 전력 및 공간 효율을 높이는 eSSD와 고성능 컴퓨팅을 지원하는 서버용 DRAM 솔루션이 포함되었다. 이는 개인용 컴퓨팅부터 대규모 데이터센터까지 아우르는 '풀스택 AI 메모리' 공급자로서의 입지를 확고히 하려는 전략적 행보이다. 이번 협력을 통해 고도화된 메모리 기술이 향후 AI 성능을 결정짓는 핵심 엔진 역할을 할 것으로 기대된다.",
+      "industry_context": "SK하이닉스는 대한민국에 본사를 둔 세계적인 메모리 반도체 제조 기업으로, HBM과 고성능 서버용 DRAM 시장에서 핵심 공급망 위치를 차지하고 있다. 델 테크놀로지스는 미국에 본사를 둔 글로벌 IT 인프라 솔루션 기업으로, 데이터센터와 엔터프라이즈 컴퓨팅 환경 구축을 주력 사업으로 영위한다. 두 기업은 AI 인프라 성능 최적화를 위해 지속적인 파트너십을 이어오고 있다.",
+      "key_points": [
+        "SK하이닉스가 델 테크놀로지스 포럼 2026에서 차세대 AI 메모리 라인업을 전시함",
+        "HBM3E, HBM4, HBM4E 등 고대역폭 메모리와 전력 효율을 개선한 SOCAMM2 등을 선보임",
+        "서버용 DRAM과 액체 냉각을 지원하는 eSSD 등 데이터센터 효율화를 위한 제품군 공개"
+      ],
+      "numbers": [
+        "2026",
+        "2023",
+        "256GB",
+        "128GB",
+        "64GB",
+        "192GB"
+      ],
+      "keywords": [
+        "SK하이닉스",
+        "델 테크놀로지스",
+        "AI 메모리",
+        "HBM",
+        "데이터센터",
+        "인프라"
+      ],
+      "stated_outlook": "SK하이닉스는 AI 메모리 시장에서의 선도적 위치를 강화하기 위해 주요 글로벌 빅테크 기업들과 전략적 파트너십을 지속적으로 확대할 계획이다.",
+      "summary_status": "summarized"
+    },
+    {
       "id": "46f4b2ecb7f1",
       "sector": "semiconductor",
       "region": "global",
@@ -16764,6 +17025,244 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": ""
+    },
+    {
+      "id": "4a6774025e8d",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "미중 회담서 빠진 반도체 합의…K메모리 '안도 반 긴장 반'",
+      "source": "www3.edaily.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-09-28 02:11",
+      "collected": "2026-10-04",
+      "link": "https://www3.edaily.co.kr/News/Read?newsId=01856486645584384&mediaCodeNo=257",
+      "requested_link": "https://www3.edaily.co.kr/News/Read?newsId=01856486645584384&mediaCodeNo=257",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "08e91c9dedbf",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "당초 계획 두 배 쏟아붓는 SKC… 글라스기판 양산 속도전",
+      "source": "asiatoday.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-09-28 01:50",
+      "collected": "2026-10-04",
+      "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260928010009409",
+      "requested_link": "https://www.asiatoday.co.kr/kn/view.php?key=20260928010009409",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "1d6324a16488",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "기술·공정",
+      "title": "인텔 하이-NA 선제 가동… 삼성·SK·TSMC 차세대 양산 시표 조율",
+      "source": "g-enews.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-26 17:14",
+      "collected": "2026-10-04",
+      "link": "https://www.g-enews.com/article/Global-Biz/2026/09/202609260802245218fbbec65dfb_1",
+      "requested_link": "https://www.g-enews.com/article/Global-Biz/2026/09/202609260802245218fbbec65dfb_1",
+      "rss_description": "인텔 하이-NA 선제 가동… 삼성·SK·TSMC 차세대 양산 시표 조율 - 글로벌이코노믹",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "인텔이 2026년 7월 차세대 노광 장비인 하이-NA EUV를 일부 레이어에 적용한 팬서 레이크 생산을 공식화하며 미세 공정 경쟁에서 앞서 나갔습니다. 이번 도입은 기존 0.33NA 장비와 0.55NA 하이-NA 장비를 병행하는 방식으로 초기 공정 위험을 분산시켰습니다. 삼성전자와 SK하이닉스는 2028년 디램 공정 도입을 목표로 하는 반면, TSMC는 2030년 로직 반도체 양산을 계획하며 신중한 행보를 보입니다. 또한 반도체 업계는 기존 6인치 포토마스크를 12인치로 전환하는 방안을 추진 중이며, 이는 향후 공정 효율과 원가 경쟁력에 큰 영향을 미칠 전망입니다.",
+      "industry_context": "인텔은 미국에 본사를 둔 글로벌 반도체 제조사로 파운드리 및 자체 칩 설계를 병행하며, ASML은 네덜란드 기업으로서 하이-NA EUV를 비롯한 핵심 노광 장비를 독점 공급하는 반도체 생태계의 최상위 공급망에 위치합니다. 한국의 삼성전자와 SK하이닉스는 메모리 반도체 세계 선두 기업으로서 첨단 디램 미세화 공정을 주도하고 있으며, 대만의 TSMC는 세계 최대 파운드리 업체로서 로직 칩 생산에 주력하고 있습니다.",
+      "key_points": [
+        "인텔이 2026년 7월 하이-NA EUV 장비를 적용한 팬서 레이크 양산을 공식 발표함",
+        "삼성전자와 SK하이닉스는 2028년 디램 공정에 하이-NA 장비를 투입할 계획임",
+        "TSMC는 2030년부터 하이-NA 장비를 로직 반도체 대규모 양산에 사용할 예정임",
+        "생산성 향상을 위한 12인치 포토마스크 규격 전환이 업계의 주요 현안으로 논의됨"
+      ],
+      "numbers": [
+        "2026년 7월",
+        "2028년",
+        "2030년",
+        "2031년",
+        "2033년",
+        "0.33NA"
+      ],
+      "keywords": [
+        "하이-NA EUV",
+        "인텔",
+        "삼성전자",
+        "SK하이닉스",
+        "TSMC",
+        "반도체 미세 공정"
+      ],
+      "stated_outlook": "반도체 업계는 장비 공급 안정성과 제조 원가 검증 결과를 바탕으로 미래 경쟁력을 확보할 것이며, 기존 0.33NA 장비 공정의 단가 경쟁력이 유지될 경우 2028년 디램 양산 일정은 조정될 가능성이 있습니다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "7b90270be3a8",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "네덜란드 총리 “ASML 추가 수출 규제 막겠다”…미국과 합의 가능성 시사",
+      "source": "전자신문",
+      "source_type": "직접 선택",
+      "published": "2026-09-25 20:24",
+      "collected": "2026-10-04",
+      "link": "https://www.etnews.com/20260925000018",
+      "requested_link": "https://www.etnews.com/20260925000018",
+      "rss_description": "네덜란드 총리 “ASML 추가 수출 규제 막겠다”…미국과 합의 가능성 시사",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "미국이 추진하는 MATCH 법안으로 인해 반도체 장비 수출 통제 수위가 높아질 가능성이 커지면서 산업계의 긴장감이 고조되고 있습니다. 해당 법안은 기존 극자외선(EUV) 노광장비 외에도 액침 심자외선(DUV) 장비의 대중국 수출과 유지보수까지 규제 범위를 넓히는 내용을 담고 있습니다. 이에 롭 예텐 네덜란드 총리는 미국 정부와 원만한 합의를 이끌어내어 ASML에 대한 과도한 추가 수출 규제를 방어하겠다는 의지를 밝혔습니다. 만약 규제가 현실화될 경우 글로벌 반도체 공급망 전반에 걸쳐 장비 수출 및 유지보수 사업 환경이 크게 위축될 것으로 보입니다. 이번 논의는 동맹국 간의 기술 통제 공조와 자국 산업 보호 사이의 균형점을 찾는 중요한 분기점이 될 전망입니다.",
+      "industry_context": "ASML은 네덜란드에 본사를 둔 세계적인 기업으로, AI 반도체 생산에 필수적인 극자외선(EUV) 노광장비를 독점적으로 공급하며 글로벌 반도체 공급망의 핵심 위치를 점하고 있습니다. 유럽 내 시가총액 1위 기업인 ASML은 기술 통제 흐름 속에서 중국 시장 비중을 관리하며 미국을 포함한 주요국과 복잡한 이해관계를 맺고 있습니다.",
+      "key_points": [
+        "롭 예텐 네덜란드 총리가 미국의 ASML 추가 수출 규제를 막기 위해 미국 측과 대화를 진행 중이라고 밝힘",
+        "MATCH 법안은 기존 규제 장비 외에 액침 DUV 장비의 대중국 수출과 유지보수까지 금지하는 내용을 포함함",
+        "ASML의 2분기 매출에서 중국이 차지하는 비중은 14%로 직전 분기 대비 감소함"
+      ],
+      "numbers": [
+        "2026-09-25",
+        "2026년 4월",
+        "2분기 14%",
+        "직전 분기 19%"
+      ],
+      "keywords": [
+        "ASML",
+        "수출규제",
+        "반도체장비",
+        "MATCH법안",
+        "공급망",
+        "네덜란드"
+      ],
+      "stated_outlook": "롭 예텐 총리는 미국 대통령 및 의원들과의 대화를 통해 모두에게 작동하는 합의에 이를 자신이 있다고 언급함.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "6f5d21ba5716",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "기술·공정",
+      "title": "TSMC 파운드리 3~6% 인상 전망…삼성·인텔·후공정도 영향권",
+      "source": "전자신문",
+      "source_type": "직접 선택",
+      "published": "2026-09-25 19:16",
+      "collected": "2026-10-04",
+      "link": "https://www.etnews.com/20260925000007",
+      "requested_link": "https://www.etnews.com/20260925000007",
+      "rss_description": "TSMC 파운드리 3~6% 인상 전망…삼성·인텔·후공정도 영향권",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "세계 최대 파운드리 기업 TSMC가 2027년 1월부터 웨이퍼 출하 가격을 공정별로 3~6% 인상할 전망이다. 이번 가격 조정은 첨단 공정인 2나노·3나노 분야에서 더욱 두드러질 것으로 보인다. 이는 AI 수요 확산에 따른 첨단 패키징 및 웨이퍼 공급 부족과 미국 공장 건설비 부담 등이 복합적으로 작용한 결과다. 가격 인상이 현실화될 경우 엔비디아, 애플 등 주요 고객사의 칩 원가 상승이 불가피하며, 삼성 파운드리와 인텔 등 경쟁사를 포함한 반도체 생태계 전반의 가격 동조화 현상을 유발할 가능성이 크다.",
+      "industry_context": "대만에 본사를 둔 TSMC는 글로벌 순수 파운드리 시장에서 70%대 중반의 압도적인 점유율을 차지하고 있다. 이 기업은 선단 공정 제조와 첨단 패키징(CoWoS) 기술을 핵심 역량으로 보유하며 글로벌 반도체 공급망의 중추적 역할을 담당한다.",
+      "key_points": [
+        "TSMC가 2027년 1월부터 웨이퍼 출하 가격을 3~6% 인상할 예정임",
+        "첨단 패키징 및 웨이퍼 공급 부족과 AI 수요 확산이 가격 인상의 주요 배경으로 꼽힘",
+        "삼성 파운드리, 인텔 등 경쟁사와 후공정 업체의 가격 인상 가능성 제기"
+      ],
+      "numbers": [
+        "2027년 1월",
+        "3~6%",
+        "70%대 중반"
+      ],
+      "keywords": [
+        "TSMC",
+        "파운드리",
+        "웨이퍼",
+        "첨단 패키징",
+        "반도체 가격"
+      ],
+      "stated_outlook": "TSMC는 2027년 1월부터 웨이퍼 출하 가격을 공정별로 3~6% 인상 조정할 계획임",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "5e8d84bbb185",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "기술·공정",
+      "title": "More than 10 Applied Materials tools were built in Singapore. Now its advanced packaging lab is expanding",
+      "source": "techwireasia.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-25 18:54",
+      "collected": "2026-10-04",
+      "link": "https://techwireasia.com/2026/09/singapore-advanced-packaging-applied-materials-astar-sg-semiconductor",
+      "requested_link": "https://techwireasia.com/2026/09/singapore-advanced-packaging-applied-materials-astar-sg-semiconductor",
+      "rss_description": "More than 10 Applied Materials tools were built in Singapore. Now its advanced packaging lab is expanding",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "Applied Materials는 싱가포르 과학기술청(A*STAR)과의 첨단 패키징 공동 연구소를 확장하기로 결정했으며, 이는 자사의 싱가포르 R&D 투자 중 가장 큰 규모 중 하나가 될 전망이다. 이번 협력의 4단계 확장을 통해 연구소의 인프라, 장비 및 인력이 크게 보강되며, 특히 AI와 첨단 컴퓨팅을 위한 패키징 기술 연구가 심화될 예정이다. 또한, 이번 발표와 함께 KLA, STATS ChipPAC, GlobalFoundries 등 주요 기업들과의 신규 파트너십이 체결되어 실리콘 포토닉스 및 공정 제어 분야의 생태계가 강화된다. 이러한 움직임은 싱가포르의 반도체 역량을 결집하는 국가 브랜드 'SG Semiconductor' 출범과 맞물려 글로벌 시장 내 싱가포르의 전략적 입지를 더욱 공고히 할 것으로 보인다.",
+      "industry_context": "Applied Materials는 미국에 본사를 둔 세계적인 반도체 장비 기업으로, 싱가포르에서 2011년부터 A*STAR와 협력하여 다수의 핵심 제조 툴을 개발해왔다. 싱가포르는 전 세계 반도체 생산량의 약 10%, 반도체 제조 장비 생산의 약 20%를 담당하는 핵심 공급망 요충지이다.",
+      "key_points": [
+        "Applied Materials와 A*STAR가 첨단 패키징 공동 연구소의 4단계 협력을 시작하며 대규모 R&D 투자를 단행함",
+        "KLA는 싱가포르 내 공정 제어 연구소를 신설하고, STATS ChipPAC은 공동 패키징 광학 기술 개발에 협력함",
+        "싱가포르 정부는 반도체 생태계의 글로벌 가시성을 높이기 위해 'SG Semiconductor' 브랜드를 공식 출범함"
+      ],
+      "numbers": [
+        "2026년 9월 25일",
+        "10개 이상 (개발된 반도체 제조 툴)",
+        "S$4600만 (최근 5년간 R&D 펀딩)",
+        "US$2억 (KLA의 싱가포르 운영 확장 규모)",
+        "S$8억 (2026~2030년 RIE Flagship 반도체 예산)"
+      ],
+      "keywords": [
+        "첨단 패키징",
+        "A*STAR",
+        "Applied Materials",
+        "반도체 장비",
+        "SG Semiconductor",
+        "AI 인프라"
+      ],
+      "stated_outlook": "싱가포르는 차세대 반도체 기술(첨단 패키징, 실리콘 포토닉스, 전력 전자, 무선 주파수 질화 갈륨, 피에조 MEMS, 평면 광학, 집적 회로 설계)을 7대 우선 기술 분야로 선정하고 2030년까지 집중 육성할 계획이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "922fcc236364",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "ASML says it sold 'absolutely nothing' in Europe in 2026 — lithography giant calls on EU to help create demand",
+      "source": "tomshardware.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-24 21:10",
+      "collected": "2026-10-04",
+      "link": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
+      "requested_link": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
+      "rss_description": "ASML says it sold",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "네덜란드의 노광 장비 기업 ASML이 2026년 유럽 시장에서 자사 장비 매출이 전무하다고 밝혔다. 이는 유럽 내 반도체 공장 신축 부족과 투자 부진에 따른 결과로, ASML은 현재 유럽의 반도체 수요가 거의 없다고 진단했다. 현재 유럽에 건설 중인 공장들은 최첨단 EUV나 High-NA EUV 노광 공정을 필요로 하지 않는 성숙 노드 위주로 운영되고 있어, 고가의 첨단 장비 수요가 발생하지 않는 구조적 한계가 있다. 이에 ASML은 유럽 당국이 반도체 공급 측면의 보조금 지원을 넘어, 유럽 내 반도체 수요 창출을 위한 공동의 노력이 필요하다고 강조했다.",
+      "industry_context": "ASML은 EUV(극자외선) 노광 장비를 독점 공급하는 세계 최대 반도체 장비 기업으로 본사는 네덜란드에 위치한다. 반도체 제조 공급망의 최상단에서 최첨단 공정 구현을 가능하게 하는 핵심 역할을 수행하고 있다.",
+      "key_points": [
+        "2026년 상반기 기준 ASML의 유럽 매출 비중은 0%를 기록함",
+        "유럽 내 신규 반도체 공장들은 대부분 고가의 EUV 장비가 필요 없는 성숙 공정 위주임",
+        "ASML은 유럽 정부에 단순한 공급 측면 지원을 넘어 반도체 수요 창출을 위한 협력을 촉구함"
+      ],
+      "numbers": [
+        "2026년 유럽 매출 비중 0%",
+        "2025년 유럽 매출 비중 1%",
+        "2024년 유럽 매출 비중 5%",
+        "6600억 달러(ASML 시가총액)"
+      ],
+      "keywords": [
+        "ASML",
+        "노광 장비",
+        "반도체 공급망",
+        "EUV",
+        "유럽 반도체 산업"
+      ],
+      "stated_outlook": "유럽 당국이 시장 영향력을 활용해 유럽 내에서 생산된 칩을 선호하도록 수요를 조직화하고 보장함으로써, 제조사들이 유럽에 공장을 건설할 경제적 명분을 만들어야 한다고 주장함.",
+      "summary_status": "summarized"
     },
     {
       "id": "e4da77278ee3",
@@ -24673,7 +25172,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-10-04 16:32 KST",
+  "manual_updated_at": "2026-10-04 16:37 KST",
   "favorite_items": [
     {
       "id": "b989638e2d4d",
