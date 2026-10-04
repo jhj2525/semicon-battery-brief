@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-04 09:41 KST",
-  "last_automatic_update_at": "2026-10-04 09:41 KST",
-  "automatic_cycle_started_at": "2026-10-04 09:38 KST",
+  "updated_at": "2026-10-04 11:44 KST",
+  "last_automatic_update_at": "2026-10-04 11:44 KST",
+  "automatic_cycle_started_at": "2026-10-04 11:41 KST",
   "publication_window": {
-    "from": "2026-10-03 09:38 KST",
-    "to": "2026-10-04 09:38 KST"
+    "from": "2026-10-03 11:41 KST",
+    "to": "2026-10-04 11:41 KST"
   },
-  "today_verified_count": 6,
+  "today_verified_count": 2,
   "current_items": [
     {
       "id": "2b72cc772989",
@@ -129,6 +129,26 @@
       "stated_outlook": ""
     },
     {
+      "id": "139bf1e30bf0",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "HBM에 호남까지 갈길 바쁜 SK하이닉스…솔리다임 자금조달 고심",
+      "source": "매일경제",
+      "source_type": "경제지 보도",
+      "published": "2026-10-04 06:15",
+      "collected": "2026-10-04",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1veXZZR2RaekFEVWxNTGM5OEZndnJucEVLZXNXSU10T1ZZaDRMQUU4MndQYUhidVpJVUZadzVhMGJ4VzNwZGY5eDhfVFkyem95NlE?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
       "id": "750e2d77453a",
       "sector": "battery",
       "region": "domestic",
@@ -166,6 +186,26 @@
         "데이터센터"
       ],
       "stated_outlook": "씨케이솔루션은 삼성전자 평택 P5 후속 공사 참여를 확대하고 용인 반도체 클러스터 등 신규 생산시설 공략을 추진할 계획이다. 또한 올해 확정된 주요 프로젝트들이 2027~2028년에 걸쳐 순차적으로 매출로 인식되면서 실적이 증가할 것으로 전망된다."
+    },
+    {
+      "id": "c2dbcc451605",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "전기차 라인을 에너지저장장치로 전환…배터리 시험대",
+      "source": "연합뉴스",
+      "source_type": "통신사 보도",
+      "published": "2026-10-04 10:22",
+      "collected": "2026-10-04",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MRDNEaElGMGtJS2ttejllQnpaMEhvRWxpYUJ2eUFXN3BZNnhLcTNnTEdIb3FEcHpIVHhZNnlXb0ZOQTVWVmlFNWRVdEo2Zl9mdGlCZ1V3Vm5CYVc1am1La3dRclNZNDQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
     }
   ],
   "archive_items": [
