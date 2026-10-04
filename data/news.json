@@ -16490,6 +16490,225 @@
   "semi_archive_items": [],
   "manual_items": [
     {
+      "id": "9e219d95f15e",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "기술·공정",
+      "title": "전북대, 첨단 케미컬 테스트베드 구축…소재 개발부터 공정 검증·사업화까지 지원",
+      "source": "v.daum.net",
+      "source_type": "직접 선택",
+      "published": "2026-10-04 16:42",
+      "collected": "2026-10-04",
+      "link": "https://v.daum.net/v/20260928113356100",
+      "requested_link": "https://v.daum.net/v/20260928113356100",
+      "rss_description": "전북대, 첨단 케미컬 테스트베드 구축…소재 개발부터 공정 검증·사업화까지 지원",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "전북특별자치도가 642억원 규모의 반도체 소재·케미컬 특화단지로 선정됨에 따라 전북대학교 반도체공동연구소가 핵심 실증 거점으로 역할을 확대한다. 기존 반도체 소재 기술 개발에 그치지 않고, 기업이 개발한 소재의 실제 공정 적합성과 성능을 검증하는 테스트베드 역할을 수행한다. 이를 통해 소재 개발부터 성능평가, 신뢰성 검증, 양산 연계까지 이어지는 일관된 지원 체계가 구축될 전망이다. 또한, 지역 내 산학연 협력을 통해 첨단 케미컬 공급망을 강화하고 전문 인력을 양성할 계획이다. 이러한 변화는 그동안 반도체 공급망의 핵심 공백으로 지적된 첨단 케미컬 분야의 국산화와 기술 경쟁력을 높이는 데 기여할 것으로 기대된다.",
+      "industry_context": "전북 지역은 동우화인켐, OCI, PKC, 한솔케미칼 등 반도체 소재·케미컬 분야의 주요 기업들이 생산 기반을 갖추고 있다. 이들은 주로 초고순도 세정, 증착, 식각 소재를 다루며 반도체 제조 공급망의 중요한 일익을 담당하고 있다.",
+      "key_points": [
+        "전북특별자치도, 642억원 규모 반도체 소재·케미컬 특화단지 선정",
+        "전북대 반도체공동연구소 내 첨단 케미컬 테스트베드 구축 및 실증 장비 8종 도입",
+        "2031년까지 소재·케미컬 분야 전문 인력 2,050명 양성 목표"
+      ],
+      "numbers": [
+        "642억원",
+        "2027년~2031년",
+        "8종",
+        "2031년",
+        "2,050명"
+      ],
+      "keywords": [
+        "반도체",
+        "케미컬",
+        "전북대",
+        "특화단지",
+        "테스트베드",
+        "소재국산화"
+      ],
+      "stated_outlook": "2027년부터 2031년까지 반도체 첨단 케미컬 테스트베드를 구축하고, 차세대 반도체 공정용 소재 국산화와 인력 양성을 통해 전북을 대한민국 반도체 소재·케미컬 공급망의 핵심 거점으로 육성할 계획이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "ae8fcb44f9a0",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "투자·양산",
+      "title": "HBM3E 만든 CXMT, 7조원 투자…HBM4 정조준",
+      "source": "v.daum.net",
+      "source_type": "직접 선택",
+      "published": "2026-10-04 16:42",
+      "collected": "2026-10-04",
+      "link": "https://v.daum.net/v/20260929090640553",
+      "requested_link": "https://v.daum.net/v/20260929090640553",
+      "rss_description": "HBM3E 만든 CXMT, 7조원 투자…HBM4 정조준",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "중국의 최대 D램 업체인 CXMT가 HBM 경쟁력 강화를 위해 약 7조 원 규모의 대규모 투자를 단행한다. 이번 투자는 기술 연구개발과 후공정 테스트기지 건설에 집중되어 차세대 고성능 메모리 시장을 정조준하고 있다. 특히 장비 구입에 전체 개발비의 90% 이상을 투입하며 공정 기술의 세대교체와 양산 능력 확보에 속도를 낼 전망이다. 이러한 움직임은 현재 개발 중인 HBM3E를 넘어 향후 HBM4 시장까지 대비하기 위한 전략적 행보로 해석된다.",
+      "industry_context": "CXMT(창신커지)는 중국을 대표하는 D램 제조 기업으로, 차세대 메모리 기술 확보를 통해 글로벌 공급망 내 영향력 확대를 꾀하고 있다. 최근 HBM3E 개발 단계에 진입하여 중국 내 AI 반도체 설계 업체들과 협력하며 퀄테스트를 진행 중이다.",
+      "key_points": [
+        "CXMT가 총 349억 위안(약 7조 원) 규모의 신규 투자 계획을 공시함",
+        "투자액의 대부분은 기술 연구개발 장비 도입과 자체 후공정 테스트 역량 강화에 사용됨",
+        "현재 CXMT는 HBM3E를 소량 생산하여 퀄테스트를 진행하고 있으며 HBM4 시장을 겨냥 중임"
+      ],
+      "numbers": [
+        "2026년 9월 29일",
+        "349억 위안(약 7조 원)",
+        "241억 위안(연구개발)",
+        "108억 위안(후공정 테스트)",
+        "2027년(출시 검토 시점)"
+      ],
+      "keywords": [
+        "CXMT",
+        "HBM3E",
+        "HBM4",
+        "D램",
+        "반도체 공정",
+        "후공정"
+      ],
+      "stated_outlook": "제품 및 공정 기술의 세대교체를 통해 메모리 밀도와 전력 효율, 성능을 높일 계획이며, 퀄테스트 통과 시 이르면 2027년 출시 제품에 CXMT의 HBM이 탑재될 가능성이 있음",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "2beb8e54163a",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "OCI, 전북 반도체 초고순도 화학소재 특화단지 앵커기업 참여… 반도체 소재 사업 확대 속도 낸다",
+      "source": "oci.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-10-04 16:42",
+      "collected": "2026-10-04",
+      "link": "https://www.oci.co.kr/newsroom/news/59",
+      "requested_link": "https://www.oci.co.kr/newsroom/news/59",
+      "rss_description": "OCI 주식회사",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "산업통상자원부가 전북 군산·익산·완주를 제3기 소재·부품·장비산업 특화단지(반도체 화학소재 분야)로 지정함에 따라 OCI가 핵심 앵커기업으로 참여한다. 이번 지정으로 OCI는 반도체용 폴리실리콘, 인산, 과산화수소 등 핵심 소재의 생산 역량을 강화하고 국내 공급망 안정화에 기여할 방침이다. 또한 인산 생산 설비 증설과 함께 스페셜티 에천트 개발 및 반도체 패키징용 웨이퍼 재생 사업을 추진한다. 이를 통해 기존 소재 중심의 사업 구조를 넘어 반도체 밸류체인 전반으로 영역을 확장할 계획이다. 이번 민·관 협력을 통해 첨단 소재 기업으로서의 체질 개선이 가속화될 전망이다.",
+      "industry_context": "OCI는 대한민국을 거점으로 폴리실리콘, 과산화수소, 인산 등 반도체 제조 공정에 필수적인 화학 소재를 공급하는 주요 기업이다. 특히 군산과 익산에 생산 거점을 두고 국내 반도체 소재 공급망의 핵심적인 역할을 수행하고 있다.",
+      "key_points": [
+        "군산·익산·완주 지역이 제3기 반도체 화학소재 특화단지로 지정됨",
+        "OCI는 인산 생산능력을 연간 2만 5천톤에서 3만톤으로 증설 중",
+        "기존 반도체 소재 사업을 넘어 반도체 패키징용 웨이퍼 재생 사업 등 포트폴리오를 다각화함"
+      ],
+      "numbers": [
+        "450억원(정부 지원 예정)",
+        "8,300억원(민간 투자 예정)",
+        "4,700톤(반도체용 폴리실리콘 연간 생산능력)",
+        "2만 5천톤(현재 인산 생산능력)",
+        "3만톤(목표 인산 생산능력)"
+      ],
+      "keywords": [
+        "OCI",
+        "반도체 소재",
+        "소부장 특화단지",
+        "공급망",
+        "앵커기업"
+      ],
+      "stated_outlook": "기존 반도체 소재 생산 및 품질 경쟁력을 강화하고, 스페셜티 에천트 개발 및 반도체 패키징용 웨이퍼 재생 사업을 통해 반도체 밸류체인 전반으로 사업 영역을 확대하여 새로운 성장동력을 확보할 계획이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "4f2102d26553",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "“신뢰로 함께 걸어온 25년, 다음 25년의 가능성을 열다”… SK하이닉스, ‘2026 파트너스데이’서 협력사와 ‘원팀(One-Team)’ 결속력 재확인",
+      "source": "news.skhynix.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-10-04 16:42",
+      "collected": "2026-10-04",
+      "link": "https://news.skhynix.co.kr/2026-partners-day",
+      "requested_link": "https://news.skhynix.co.kr/2026-partners-day",
+      "rss_description": "",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "SK하이닉스가 동반성장협의회 25주년을 맞아 ‘2026 파트너스데이’를 개최하고 협력사와 기술 경쟁력 강화를 위한 상생 모델을 제시했다. 협력사의 성장 주기를 기술 개발부터 판매까지 4단계로 구분하여 맞춤형 지원 프로그램을 운영한다. 특히 'R&D 도전 보상제'를 신설하고 '트리니티 팹'을 조성하여 협력사의 기술 검증 및 양산 역량 확보를 돕는다. 이러한 노력은 급변하는 글로벌 반도체 시장 환경 속에서 공급망의 생존 전략을 수립하고 지속가능한 반도체 생태계를 완성하기 위한 조치이다.",
+      "industry_context": "SK하이닉스는 대한민국의 글로벌 반도체 기업으로 메모리 반도체를 주력으로 생산한다. 동반성장협의회는 우수 소재·부품·장비 협력사들과의 파트너십 강화를 위해 운영되는 협의체로, 2001년 출범하여 기술 개발, 정보 공유, 자금 지원, 인재 육성 등을 통해 반도체 공급망을 견고히 하는 역할을 수행한다.",
+      "key_points": [
+        "동반성장협의회 출범 25주년을 맞아 협력사와의 '원팀(One-Team)' 결속력 재확인",
+        "협력사 성장 주기(기술 개발·테스트·양산·판매)별 맞춤형 상생 지원 모델 구축",
+        "R&D 도전 보상제 신설 및 2027년 개소 목표의 '트리니티 팹' 조성 추진"
+      ],
+      "numbers": [
+        "25년",
+        "100개 기업",
+        "1억 2,000만 원",
+        "2만 3,125명",
+        "3,300㎡",
+        "1,000억 원"
+      ],
+      "keywords": [
+        "SK하이닉스",
+        "동반성장",
+        "파트너스데이",
+        "공급망",
+        "상생협력",
+        "반도체 생태계"
+      ],
+      "stated_outlook": "협력사들과 쌓아온 신뢰를 바탕으로 미래를 함께 개척하며 더 크게 도약하는 새로운 25년을 열어가고, 성장 주기 맞춤형 상생 모델을 통해 지속가능한 국내 반도체 생태계를 완성할 계획이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "209f2c2bcb0b",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "움직임의 흐름 읽는 AI 반도체 개발…웨어러블 기기 활용 기대",
+      "source": "news.kaist.ac.kr",
+      "source_type": "직접 선택",
+      "published": "2026-10-04 16:42",
+      "collected": "2026-10-04",
+      "link": "https://news.kaist.ac.kr/news/html/news?mode=V&mng_no=67670",
+      "requested_link": "https://news.kaist.ac.kr/news/html/news?mode=V&mng_no=67670",
+      "rss_description": "움직임의 흐름 읽는 AI 반도체 개발…웨어러블 기기 활용 기대",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "KAIST 권지민 교수 연구팀이 이온의 움직임을 활용해 반응 속도가 서로 다른 반도체 소자를 3차원으로 적층하는 기술을 개발했다. 이 반도체는 앞서 들어온 신호의 흔적을 기억하는 이온의 동역학적 특성을 이용해, 방금 일어난 변화와 이전의 변화를 동시에 분석할 수 있다. 이를 통해 시간에 따라 달라지는 신호를 실시간으로 처리할 수 있어 향후 스마트워치 등 웨어러블 기기의 정보 처리 효율성을 높일 것으로 기대된다. 연구팀은 4인치 웨이퍼 크기로 소자를 제작하고 휘어지는 기판에서도 구동 가능함을 확인했다.",
+      "industry_context": "KAIST(한국과학기술원), UNIST(울산과학기술원), POSTECH(포항공과대학교)은 한국의 주요 과학기술 연구 기관으로, 이번 연구는 AI 반도체 및 웨어러블 소자 분야의 차세대 기술을 확보하는 데 중점을 두고 있다. 반도체 산업계에서는 저전력으로 복잡한 데이터를 처리하기 위한 신소재 기반 트랜지스터 연구가 활발히 진행되고 있다.",
+      "key_points": [
+        "반응 속도가 다른 반도체 소자를 3차원으로 쌓아 다중 시간 스케일 신호 처리 구현",
+        "이온의 이동 시간을 활용하여 과거 신호의 흔적을 기억하는 레저부아(reservoir) 구조 적용",
+        "움직이는 숫자 영상 판별 시스템 테스트에서 90% 이상의 정확도 달성"
+      ],
+      "numbers": [
+        "90%",
+        "4인치",
+        "55개월",
+        "6월 30일"
+      ],
+      "keywords": [
+        "AI 반도체",
+        "웨어러블",
+        "이온",
+        "트랜지스터",
+        "3차원 집적"
+      ],
+      "stated_outlook": "향후 스마트워치처럼 전력을 적게 써야 하는 기기에서 움직임과 몸의 신호를 읽는 AI 반도체로 발전할 수 있을 것이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "bb804e8ebae2",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "삼성전자, 양자컴 메모리도",
+      "source": "n.news.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-10-04 16:41",
+      "collected": "2026-10-04",
+      "link": "https://n.news.naver.com/mnews/article/030/0003470090",
+      "requested_link": "https://n.news.naver.com/mnews/article/030/0003470090",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
       "id": "fc80908beb3d",
       "sector": "semiconductor",
       "region": "global",
@@ -17022,6 +17241,425 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": ""
+    },
+    {
+      "id": "912020459e6d",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "Samsung AI Forum 2026",
+      "source": "semiconductor.samsung.com",
+      "source_type": "직접 선택",
+      "published": "2026-10-01 10:11",
+      "collected": "2026-10-04",
+      "link": "https://semiconductor.samsung.com/kr/events/ai-forum/2026",
+      "requested_link": "https://semiconductor.samsung.com/kr/events/ai-forum/2026",
+      "rss_description": "Samsung AI Forum 2026 | 삼성반도체",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "삼성전자가 주최하는 'Samsung AI Forum 2026'은 인공지능(AI)과 반도체 기술의 현재와 미래를 조망하는 행사로, 올해는 '에이전틱 워크플로우(Agentic Workflow)'를 핵심 주제로 다룬다. 단순히 대화형 AI인 챗봇을 넘어, 스스로 판단하고 실행하여 실질적인 임팩트를 창출하는 AI 에이전트 기술의 발전을 집중적으로 논의한다. 이번 포럼에서는 물리 세계와 AI의 융합, 지속 학습을 통한 전문 에이전트의 발전 방향, 기업의 실질적인 AI 적용 사례가 다루어진다. 이를 통해 DX 및 DS 부문의 기술 전략을 공유하며 AI 기술이 산업 전반에 미치는 영향력을 심도 있게 살펴본다.",
+      "industry_context": "삼성전자는 대한민국에 본사를 둔 글로벌 종합 반도체 및 전자 기업으로, 메모리 반도체, 시스템 반도체, 디스플레이, 스마트폰 등 다양한 하드웨어 포트폴리오를 보유하고 있다. 최근 AI 산업의 급격한 성장에 대응하여 AI 기반의 차세대 반도체 솔루션과 혁신적인 사용자 경험을 위한 AI 기술 연구에 주력하고 있다.",
+      "key_points": [
+        "2026년 9월 30일 서울 서초사옥에서 AI 기술과 미래 방향을 논의하는 포럼 개최",
+        "챗봇 단계에서 에이전틱(Agentic) 단계로의 AI 진화 및 실제 산업 적용 사례 공유",
+        "물리 기반 AI, 지속 학습(Continual Learning), AI 네이티브 인프라 구축 등 기술 트랙 세분화"
+      ],
+      "numbers": [
+        "2026. 9. 30."
+      ],
+      "keywords": [
+        "AI 에이전트",
+        "에이전틱 워크플로우",
+        "물리 AI",
+        "지속 학습",
+        "삼성전자"
+      ],
+      "stated_outlook": "",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "7710cebd6bf3",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "코오롱생명과학, 반도체 소재 PPO 생산능력 확대",
+      "source": "디일렉",
+      "source_type": "직접 선택",
+      "published": "2026-10-01 03:27",
+      "collected": "2026-10-04",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=63045",
+      "requested_link": "https://www.thelec.kr/news/articleView.html?idxno=63045",
+      "rss_description": "코오롱생명과학, 반도체 소재 PPO 생산능력 확대 - 디일렉(THE ELEC)",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "코오롱생명과학이 경북 김천공장의 폴리페닐렌옥사이드(PPO) 연간 생산능력을 5400톤 규모로 확대한다고 밝혔다. 이번 증설은 원료를 PPO로 전환하는 반응기를 신규 도입하고 기존 설비를 보강하는 방식으로 진행된다. PPO는 AI 반도체와 6G 통신기기에 필수적인 저유전 플라스틱 소재로, 전자소재 시장 성장에 따라 수요가 증가하고 있다. 이번 투자로 코오롱그룹 내 전자소재 사업의 공급 안정성과 생산 유연성이 강화될 전망이다. 신규 설비는 2027년 상반기부터 본격 가동될 예정이다.",
+      "industry_context": "코오롱생명과학은 코오롱그룹의 계열사로 전자소재용 원료 사업 등을 영위하고 있다. PPO는 인쇄회로기판의 핵심 소재인 동박적층판(CCL)에 쓰이는 변성 폴리페닐렌옥사이드(mPPO)의 핵심 원료로, 고성능 전자제품의 절연 성능을 높이는 데 기여한다.",
+      "key_points": [
+        "코오롱생명과학이 김천공장 PPO 연간 생산능력을 5400톤 규모로 증설함",
+        "반응기 신규 도입 및 설비 보강을 통해 2027년 상반기 가동 목표",
+        "PPO는 AI 반도체 및 6G 통신기기용 저유전 플라스틱 소재로 활용됨"
+      ],
+      "numbers": [
+        "5400톤",
+        "2027년 상반기"
+      ],
+      "keywords": [
+        "코오롱생명과학",
+        "PPO",
+        "반도체 소재",
+        "AI 반도체",
+        "6G",
+        "동박적층판"
+      ],
+      "stated_outlook": "2027년 상반기부터 증설 설비를 가동하여 고객사의 다양한 수요에 대응하고 전자소재 분야 경쟁력을 높일 계획이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "af2dc630a5e4",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "투자·양산",
+      "title": "LB세미콘, 경북도와 구미에 전력반도체 후공정 라인 증설 투자 협약",
+      "source": "전자신문",
+      "source_type": "직접 선택",
+      "published": "2026-10-01 00:57",
+      "collected": "2026-10-04",
+      "link": "https://www.etnews.com/20260930000402",
+      "requested_link": "https://www.etnews.com/20260930000402",
+      "rss_description": "LB세미콘, 경북도와 구미에 전력반도체 후공정 라인 증설 투자 협약",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "LB세미콘이 경상북도 구미시에 전력반도체 후공정 라인을 증설하기로 결정하며 투자양해각서(MOU)를 체결했다. 이번 투자를 통해 회사는 웨이퍼를 임시 접합했다가 가공 후 분리하는 TBDB(Temporary Bonding & Debonding) 등 첨단 기술 공정을 확대한다. 이는 AI 시대의 고부가가치 반도체 수요에 대응하고 글로벌 공급망 내 파트너십을 강화하기 위한 전략적 행보다. 이번 증설은 구미 반도체 특화단지의 후공정 경쟁력을 높이고 지역 내 일자리 창출과 산업 생태계 고도화에도 기여할 것으로 전망된다.",
+      "industry_context": "LB세미콘은 2000년에 설립된 대한민국 반도체 후공정 전문 기업이다. 주력 사업으로 범핑, 테스트, 웨이퍼 레벨 패키징(WLCSP) 등을 제공하며 디스플레이 구동칩, 이미지센서, 전력관리반도체 등을 다룬다.",
+      "key_points": [
+        "LB세미콘, 경북도, 구미시가 구미 내 전력반도체 후공정 라인 증설을 위한 투자양해각서를 체결함",
+        "TBDB 등 차세대 후공정 기술을 도입하여 고부가가치 반도체 시장 선점 및 공급망 안정화 도모",
+        "구미 반도체 특화단지 내 후공정 역량 강화 및 첨단 기술 고도화 기대"
+      ],
+      "numbers": [
+        "2026-09-30",
+        "2000년"
+      ],
+      "keywords": [
+        "LB세미콘",
+        "전력반도체",
+        "후공정",
+        "TBDB",
+        "구미산단",
+        "반도체패키징"
+      ],
+      "stated_outlook": "이번 투자를 통해 AI 시대 고부가가치 반도체 시장을 선점하고 글로벌 공급망 핵심 파트너로서의 위상을 확고히 할 계획이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "78a51562e42b",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "어플라이드-키옥시아, 에픽 센터 참여…차세대 메모리 공동개발",
+      "source": "디일렉",
+      "source_type": "직접 선택",
+      "published": "2026-09-30 21:12",
+      "collected": "2026-10-04",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=63007",
+      "requested_link": "https://www.thelec.kr/news/articleView.html?idxno=63007",
+      "rss_description": "어플라이드-키옥시아, 에픽 센터 참여…차세대 메모리 공동개발 - 디일렉(THE ELEC)",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "어플라이드머티어리얼즈와 키옥시아가 차세대 메모리 기술 개발을 위해 에픽(EPIC) 센터에서 협력하기로 했다. 에픽 센터는 반도체 연구개발부터 양산까지의 상용화 기간을 단축하기 위해 설립된 공동 R&D 시설이다. 양사는 AI 시대에 맞춘 고용량 메모리용 첨단 셀 구조와 차세대 메모리 멀티 칩 적층 기술을 공동 연구한다. 또한, 첨단 패키징을 위한 배선 연결 기술과 대규모 양산이 가능한 차세대 메모리 소재 개발에도 집중할 계획이다. 이번 협력을 통해 어플라이드는 공정 파악 및 투자 방향 수립을 강화하고, 키옥시아는 최신 R&D 설비에 접근하여 메모리 혁신을 가속화할 전망이다.",
+      "industry_context": "어플라이드머티어리얼즈는 반도체 제조 장비 및 재료공학 분야의 글로벌 선도 기업이다. 일본의 키옥시아는 낸드플래시를 주력으로 하는 메모리 반도체 전문 기업이다. 에픽 센터는 미국 실리콘밸리에 조성된 R&D 시설로 삼성전자, SK하이닉스, 마이크론 등 주요 반도체 기업들이 참여하고 있다.",
+      "key_points": [
+        "키옥시아가 미국 에픽 센터의 혁신 협력사로 합류",
+        "양사가 AI용 차세대 메모리 구조 및 소재 공동 개발",
+        "멀티 칩 적층, 첨단 패키징, 소재공학 분야 협력"
+      ],
+      "numbers": [
+        "10월 12일",
+        "50억달러"
+      ],
+      "keywords": [
+        "어플라이드머티어리얼즈",
+        "키옥시아",
+        "에픽센터",
+        "차세대메모리",
+        "첨단패키징"
+      ],
+      "stated_outlook": "에픽 센터 제막식을 10월 12일에 개최할 예정이며, 향후 50억달러 규모의 투자가 점진적으로 이뤄질 계획이다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "d83cbd78063c",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "ASM, PECVD 신기술 '플로어블 카본' 공개...CMP 생략 가능",
+      "source": "디일렉",
+      "source_type": "직접 선택",
+      "published": "2026-09-30 16:31",
+      "collected": "2026-10-04",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=62979",
+      "requested_link": "https://www.thelec.kr/news/articleView.html?idxno=62979",
+      "rss_description": "ASM, PECVD 신기술",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "반도체 장비 기업 ASM이 플라즈마화학기상증착(PECVD) 공정용 신기술 '플로어블 카본'을 공개했다. 이 기술은 액체처럼 유동성이 있는 탄소막을 사용하여 고종횡비 구조물의 내부를 빈틈없이 채우고 자가 평탄화를 구현한다. 이로 인해 화학·기계적 연마(CMP)나 식각(Etch-back)과 같은 추가 보완 공정을 생략할 수 있게 되어 제조 공정의 복잡도를 낮춘다. 해당 기술은 3D 로직 및 메모리 반도체 생산의 불량을 줄이는 데 기여하며, 현재 반도체 기업의 생산라인에 적용되어 초기 양산 단계에 있다.",
+      "industry_context": "ASM은 네덜란드에 본사를 둔 세계적인 반도체 증착 장비 전문 기업이다. 주력 사업은 반도체 미세 공정에 필수적인 원자층증착(ALD) 및 PECVD 장비 공급이며, 글로벌 반도체 공급망에서 핵심적인 위치를 차지하고 있다.",
+      "key_points": [
+        "플로어블 카본은 고종횡비 구조물의 내부를 바닥부터 균일하게 채우는 신기술이다.",
+        "자가 평탄화 특성으로 인해 CMP나 식각 등 후속 공정 생략이 가능하다.",
+        "영역 선택적 증착(ASD) 기능을 갖춘 XP8 베토스 장비를 통해 차세대 3D 반도체 공정을 지원한다."
+      ],
+      "numbers": [
+        "2026.09.29",
+        "1조5000억달러"
+      ],
+      "keywords": [
+        "ASM",
+        "PECVD",
+        "플로어블 카본",
+        "반도체 공정",
+        "증착",
+        "CMP"
+      ],
+      "stated_outlook": "미국 반도체산업협회(SIA)는 올해 글로벌 반도체 시장 규모를 1조5000억달러로 전망했다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "eb44aee4950a",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "단독 SK하이닉스, 윈팩에 패키징 외주 다시 맡긴다",
+      "source": "디일렉",
+      "source_type": "직접 선택",
+      "published": "2026-09-30 01:44",
+      "collected": "2026-10-04",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=62922",
+      "requested_link": "https://www.thelec.kr/news/articleView.html?idxno=62922",
+      "rss_description": "SK하이닉스, 윈팩에 패키징 외주 다시 맡긴다 - 디일렉(THE ELEC)",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "SK하이닉스가 메모리 반도체 패키징 외주 파트너사로 윈팩을 다시 선정하며 4년 만에 거래를 재개했다. 최근 메모리 분야 시황 개선으로 외주 물량 수요가 급증함에 따라 SK하이닉스는 기존 에이팩트 외에 윈팩에도 DDR4 및 DDR5 D램 패키징 물량을 배정했다. 윈팩은 설비 효율화와 자금 확보 등 구조조정을 거쳐 올해 3월부터 흑자 전환에 성공하며 다시 공급망에 합류했다. 이번 결정으로 윈팩은 국내 양대 메모리 제조사를 모두 고객사로 확보하게 되었으며, 후공정 업계 내 생산능력과 수주 경쟁력을 강화하는 계기가 될 전망이다.",
+      "industry_context": "윈팩은 2002년 설립 이후 SK하이닉스의 반도체 후공정 물량을 주력으로 성장해 온 OSAT(외주반도체패키지테스트) 기업이다. 반도체 패키징은 칩을 기판에 연결하고 테스트하는 공정으로, 특히 플립칩 방식은 기존 와이어 본딩 대비 데이터 전송 효율과 소형화 측면에서 우수한 성능을 제공한다.",
+      "key_points": [
+        "SK하이닉스가 윈팩에 4년 만에 DDR4·DDR5 D램 패키징 외주 물량을 재배정함",
+        "윈팩은 설비 매각 및 부채 상환 등 구조조정을 통해 재무 건전성을 확보하고 올해 3월 흑자 전환함",
+        "윈팩의 패키징 생산능력은 월 4400만대에서 5000만대로 증가함"
+      ],
+      "numbers": [
+        "4년 만(거래 재개 기간)",
+        "월 5000만대(현재 패키징 생산능력)",
+        "1100억원 이상(올해 예상 매출)"
+      ],
+      "keywords": [
+        "SK하이닉스",
+        "윈팩",
+        "패키징",
+        "OSAT",
+        "플립칩",
+        "메모리반도체"
+      ],
+      "stated_outlook": "업계에서는 윈팩의 올해 매출이 전년 대비 50% 가까이 상승한 1100억원 이상을 기록할 것으로 전망하며, 향후 테스트 및 해외 고객사 물량 확대 시 1500억원 이상의 매출도 가능할 것으로 보고 있다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "cca803190330",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "삼성전자 “내년 HBM, 글로벌 D램 웨이퍼 30% 육박”…범용 D램 공급 더 조인다",
+      "source": "joongangenews.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-30 01:01",
+      "collected": "2026-10-04",
+      "link": "https://www.joongangenews.com/news/articleView.html?idxno=551324",
+      "requested_link": "https://www.joongangenews.com/news/articleView.html?idxno=551324",
+      "rss_description": "삼성전자 “내년 HBM, 글로벌 D램 웨이퍼 30% 육박”…범용 D램 공급 더 조인다 - 중앙이코노미뉴스",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "인공지능(AI)용 고대역폭메모리(HBM) 생산이 급증하면서 글로벌 D램 시장의 공급 구조가 근본적으로 변화하고 있습니다. HBM은 여러 D램 다이를 적층하는 특성상 제조 과정에서 일반 D램보다 더 많은 웨이퍼 자원을 소모합니다. 삼성전자는 내년 HBM 생산에 투입되는 웨이퍼 비중이 글로벌 D램 업계 전체의 30%에 육박할 것으로 전망했습니다. 이에 따라 서버, PC, 모바일용 범용 D램에 할당될 웨이퍼 생산능력이 잠식되는 '크라우딩 아웃' 현상이 뚜렷해지고 있습니다. 결과적으로 메모리 업체들의 생산 배분이 AI 제품 중심으로 재편되면서 일반 D램의 공급 제약과 수급 불안정이 심화될 것으로 보입니다.",
+      "industry_context": "삼성전자와 SK하이닉스는 대한민국을 대표하는 글로벌 메모리 반도체 기업으로, 전 세계 HBM 시장을 주도하며 차세대 AI 반도체 공급망의 핵심 위치를 차지하고 있습니다. 두 기업은 HBM4 등 차세대 제품의 양산을 본격화하며 생산능력을 확대하고 있으나, 신규 팹 투자의 장기적 성격으로 인해 기존 생산라인에서 HBM과 범용 D램 간의 생산 배분을 조절하는 전략을 취하고 있습니다.",
+      "key_points": [
+        "내년 HBM 생산에 투입되는 웨이퍼가 글로벌 D램 전체 생산능력의 약 30%에 달할 전망",
+        "HBM 생산 확대가 서버·PC·모바일용 범용 D램의 공급 제약 요인으로 작용",
+        "HBM은 다이 면적과 제조 부담이 커 실제 웨이퍼 투입 대비 공급 가능한 메모리 용량이 일반 D램보다 적음"
+      ],
+      "numbers": [
+        "2026.09.29",
+        "30%",
+        "2027년"
+      ],
+      "keywords": [
+        "HBM",
+        "삼성전자",
+        "SK하이닉스",
+        "D램",
+        "웨이퍼",
+        "반도체 공급망"
+      ],
+      "stated_outlook": "2027년 HBM4와 차세대 HBM 수요가 본격화하면 글로벌 D램 시장의 공급 구조가 AI 중심으로 더욱 강하게 재편될 것으로 예상됨.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "35a995673620",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "기술·공정",
+      "title": "TEL, 전년 比 영업익 60% 성장 목표 제시…“반도체 장비 도입 단축”",
+      "source": "전자신문",
+      "source_type": "직접 선택",
+      "published": "2026-09-29 19:42",
+      "collected": "2026-10-04",
+      "link": "https://www.etnews.com/20260929000124",
+      "requested_link": "https://www.etnews.com/20260929000124",
+      "rss_description": "TEL, 전년 比 영업익 60% 성장 목표 제시…“반도체 장비 도입 단축”",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "글로벌 반도체 장비사 도쿄일렉트론(TEL)이 AI 인프라 투자 확대에 따른 수요 급증에 대응해 전년 대비 60% 이상 높은 영업이익 목표를 제시하며 전략 수정에 나섰다. 장비 공급난과 납기 지연을 해소하기 위해 반도체 제조사의 장비 도입 속도를 높이는 체질 개선을 최우선 과제로 삼았다. 특히 셋업 시간을 기존 대비 50% 단축하는 '원 터치 스타트업' 기술을 도입하여 공정을 간소화하고 운영 위험을 줄일 계획이다. 이러한 전략은 고부가가치 차세대 장비 공급과 결합해 수익성을 극대화하려는 의도로 풀이된다.",
+      "industry_context": "일본에 본사를 둔 도쿄일렉트론(TEL)은 글로벌 4대 반도체 장비 기업 중 하나로, 반도체 제조 공정의 핵심 설비를 공급하는 기업이다. 반도체 공급망 내에서 장비의 적기 공급과 성능은 제조사의 수율 및 가동률에 직결되는 중요한 위치를 차지하고 있다.",
+      "key_points": [
+        "회계연도 2027년 매출 3조엔, 영업이익 1조엔 이상 달성 목표",
+        "장비 셋업 시간 50% 단축을 위한 '원 터치 스타트업' 전략 추진",
+        "AI 인프라 투자 확대로 인한 반도체 장비 수요 급증에 선제적 대응"
+      ],
+      "numbers": [
+        "영업이익 목표 전년 대비 60% 성장",
+        "회계연도 2027년 매출 3조엔",
+        "회계연도 2026년 매출 2조4435억엔",
+        "회계연도 2026년 영업이익 6249억엔",
+        "영업이익률 35%"
+      ],
+      "keywords": [
+        "도쿄일렉트론",
+        "반도체 장비",
+        "AI 인프라",
+        "원 터치 스타트업",
+        "공정 자동화"
+      ],
+      "stated_outlook": "회계연도 2027년(2026년 3월~2027년 3월) 매출 3조엔, 영업이익 1조엔 이상, 영업이익률 35% 달성 목표",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "47dfb06b68d3",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "삼성전자 \"2029년에 파운드리 고객사 4배·고성능컴퓨팅은 66%\" | 연합뉴스",
+      "source": "연합뉴스",
+      "source_type": "직접 선택",
+      "published": "2026-09-29 19:32",
+      "collected": "2026-10-04",
+      "link": "https://www.yna.co.kr/view/AKR20260929065800003",
+      "requested_link": "https://www.yna.co.kr/view/AKR20260929065800003",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "연합뉴스 이용 조건에 따라 제목과 원문 링크만 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "a2210b99b555",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "ASML(ASML.N) 2027년까지 예약 완료..차기 성장 동력 구체화",
+      "source": "alphabiz.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-09-29 17:58",
+      "collected": "2026-10-04",
+      "link": "https://www.alphabiz.co.kr/news/articleView.html?idxno=190670",
+      "requested_link": "https://www.alphabiz.co.kr/news/articleView.html?idxno=190670",
+      "rss_description": "ASML(ASML.N) 2027년까지 예약 완료..차기 성장 동력 구체화 - 알파경제",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "반도체 필수 공정인 노광 장비를 공급하는 ASML이 2027년까지의 물량 예약을 완료하며 견고한 시장 지배력을 입증했다. 주요 메모리 및 비메모리 반도체 업체들의 CAPEX 확대 기조에 힘입어 ASML은 업계 내에서 가장 우수한 이익 가시성을 확보했다. 공급이 수요를 따라가지 못하는 상황에 대응하여 ASML은 2027년부터 2028년까지 매년 생산 능력을 30%씩 확대할 계획이다. 또한, 차기 성장 동력인 High-NA EUV 도입 계획이 구체화되면서 기술적 전환점이 마련되고 있다. 인텔, 삼성전자, SK하이닉스, TSMC 등 주요 기업들이 해당 장비 도입 로드맵을 발표하며 차세대 공정 경쟁이 가속화될 전망이다.",
+      "industry_context": "네덜란드에 본사를 둔 ASML은 반도체 미세 공정에 필수적인 노광 장비를 독점적으로 공급하는 글로벌 기업이다. 반도체 전공정 핵심 장비 공급망의 최상단에서 전 세계 주요 파운드리 및 메모리 제조사들을 고객사로 두고 있다.",
+      "key_points": [
+        "ASML의 EUV 장비 주문이 2027년까지 마감되었으며 DUV 장비 역시 마감 임박 상태임",
+        "2027년부터 2028년까지 매년 생산 능력을 30%씩 늘리고 판가 인상을 단행할 예정",
+        "High-NA EUV 도입이 인텔을 시작으로 삼성전자, SK하이닉스, TSMC 등 주요 반도체 기업에서 구체화되고 있음"
+      ],
+      "numbers": [
+        "2027년",
+        "2028년",
+        "30%",
+        "2030년",
+        "31배"
+      ],
+      "keywords": [
+        "ASML",
+        "EUV",
+        "노광장비",
+        "High-NA EUV",
+        "반도체공정",
+        "CAPEX"
+      ],
+      "stated_outlook": "2027년과 2028년 생산 능력을 매년 30%씩 확대하고 판가 인상을 진행할 계획임.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "081434913c85",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "SK하이닉스, TSMC 행사서 AI 메모리 공개…2년 연속 파트너상 | 연합뉴스",
+      "source": "연합뉴스",
+      "source_type": "직접 선택",
+      "published": "2026-09-29 00:05",
+      "collected": "2026-10-04",
+      "link": "https://www.yna.co.kr/view/AKR20260928104700003",
+      "requested_link": "https://www.yna.co.kr/view/AKR20260928104700003",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "연합뉴스 이용 조건에 따라 제목과 원문 링크만 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "101a9e05757f",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "[스냅드래곤 서밋] 퀄컴, 삼성 2나노 공정 사전 평가…파운드리 협력 '솔솔'",
+      "source": "디일렉",
+      "source_type": "직접 선택",
+      "published": "2026-09-28 16:32",
+      "collected": "2026-10-04",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=62790",
+      "requested_link": "https://www.thelec.kr/news/articleView.html?idxno=62790",
+      "rss_description": "[스냅드래곤 서밋] 퀄컴, 삼성 2나노 공정 사전 평가…파운드리 협력",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "퀄컴이 차세대 애플리케이션 프로세서(AP) 생산을 위해 삼성전자의 2나노 파운드리 공정을 사전 평가하고 있다. 이번 평가는 삼성전자의 제조 공정을 이해하고 차세대 칩셋의 생산 가능성을 검토하는 단계로, 아직 확정된 위탁생산 계획은 없다. 에이전틱 AI 도입으로 스마트폰 성능 활용도가 높아짐에 따라 고성능 칩셋 수요가 증가하는 추세다. 이에 따라 퀄컴과 삼성전자는 장기적인 협력 관계를 강화하며 차세대 플랫폼에서의 협업 가능성을 열어두고 있다.",
+      "industry_context": "퀄컴은 미국에 본사를 둔 세계적인 모바일 AP 설계 기업으로, 스마트폰 시장의 핵심 칩셋인 스냅드래곤 시리즈를 주력으로 공급한다. 삼성전자는 한국의 종합 반도체 기업으로, 파운드리 사업에서 글로벌 공급망의 주요한 위치를 차지하고 있다. 양사는 과거 스냅드래곤 8 1세대 등에서 협력한 바 있으며, 현재도 퀄컴 칩셋이 탑재된 갤럭시 시리즈 출시와 차세대 D램 규격 협력 등 긴밀한 파트너십을 유지하고 있다.",
+      "key_points": [
+        "퀄컴이 삼성전자 파운드리 2나노 공정의 사전 평가 및 검토를 진행 중임",
+        "에이전틱 AI 등 고성능 기능을 지원하는 스마트폰 교체 수요 확대 기대",
+        "퀄컴은 스냅드래곤 8 엘리트 6세대 모델을 익스트림과 기본형으로 이원화하여 시장 대응"
+      ],
+      "numbers": [
+        "2026.09.28",
+        "10.7Gbps",
+        "16GB",
+        "18MB",
+        "12MB"
+      ],
+      "keywords": [
+        "퀄컴",
+        "삼성전자",
+        "파운드리",
+        "2나노",
+        "스냅드래곤",
+        "에이전틱AI"
+      ],
+      "stated_outlook": "에이전틱 AI 시스템의 가치가 확산되면 소비자들이 더 높은 사양의 기기를 구매하거나 교체 주기를 단축하는 등 프리미엄 스마트폰 시장의 투자가 이어질 것으로 전망함.",
+      "summary_status": "summarized"
     },
     {
       "id": "4a6774025e8d",
@@ -25198,7 +25836,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-10-04 16:39 KST",
+  "manual_updated_at": "2026-10-04 16:43 KST",
   "favorite_items": [
     {
       "id": "b989638e2d4d",
