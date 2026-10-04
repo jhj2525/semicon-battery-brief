@@ -16490,6 +16490,65 @@
   "semi_archive_items": [],
   "manual_items": [
     {
+      "id": "46f4b2ecb7f1",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "AI 업고 eSSD 질주… 삼성·SK",
+      "source": "n.news.naver.com",
+      "source_type": "직접 선택",
+      "published": "2026-10-04 16:32",
+      "collected": "2026-10-04",
+      "link": "https://n.news.naver.com/mnews/article/008/0005417620",
+      "requested_link": "https://n.news.naver.com/mnews/article/008/0005417620",
+      "manual_added": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "49b49417dae8",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "기술·공정",
+      "title": "中 CXMT, 5세대 D램 양산…범용부터 韓 메모리 아성 흔드나",
+      "source": "v.daum.net",
+      "source_type": "직접 선택",
+      "published": "2026-10-04 16:32",
+      "collected": "2026-10-04",
+      "link": "https://v.daum.net/v/20260922071450938",
+      "requested_link": "https://v.daum.net/v/20260922071450938",
+      "rss_description": "中 CXMT, 5세대 D램 양산…범용부터 韓 메모리 아성 흔드나",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "중국 메모리 기업 창신메모리테크놀로지(CXMT)가 5세대 D램 양산을 발표하며 한국 반도체 업계를 빠르게 추격하고 있다. CXMT는 극자외선(EUV) 장비 없이 자기정렬 4중 패터닝(SAQP) 기술을 활용해 11.95나노미터급 공정을 구현했다. 이를 통해 이전 세대 대비 웨이퍼당 총 다이 수(DPW)를 50% 이상 늘리며 생산 효율성을 높였다. 이러한 행보는 범용 및 모바일 D램 시장의 공급 구조와 가격 결정력에 변화를 줄 수 있다. 다만, 기술적 격차와 실제 양산 수율 등은 한국 기업과 직접 비교하기에는 여전히 확인이 필요한 단계이다.",
+      "industry_context": "창신메모리테크놀로지(CXMT)는 중국 정부와 지방정부의 지원을 받는 중국 메모리 반도체 기업으로, 2019년 첫 D램 양산을 시작했다. 한국의 삼성전자와 SK하이닉스는 고대역폭메모리(HBM)와 같은 고부가 제품 투자를 확대하며 글로벌 메모리 시장에서 기술 우위를 점하고 있다.",
+      "key_points": [
+        "CXMT가 5세대(G5) D램 기술 플랫폼 양산 진입을 공식 발표함",
+        "자기정렬 4중 패터닝(SAQP) 기술로 11.95㎚급 미세 회로를 구현함",
+        "범용 및 모바일 D램 생산 능력 확대가 한국 반도체 기업의 입지에 영향을 줄 가능성 존재"
+      ],
+      "numbers": [
+        "2026년 9월 22일",
+        "11.95나노미터(㎚)",
+        "50% 이상(DPW 증가분)"
+      ],
+      "keywords": [
+        "CXMT",
+        "D램",
+        "반도체",
+        "미세공정",
+        "범용메모리",
+        "메모리반도체"
+      ],
+      "stated_outlook": "범용 및 모바일 D램 시장에서 생산량을 늘려 글로벌 시장 존재감을 키울 계획이다.",
+      "summary_status": "summarized"
+    },
+    {
       "id": "505bfd5afecd",
       "sector": "semiconductor",
       "region": "global",
@@ -16705,6 +16764,205 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": ""
+    },
+    {
+      "id": "e4da77278ee3",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "Samsung, SK hynix Race to Expand HBM Output as Supply Remains Tight",
+      "source": "businesskorea.co.kr",
+      "source_type": "직접 선택",
+      "published": "2026-09-23 18:43",
+      "collected": "2026-10-04",
+      "link": "https://www.businesskorea.co.kr/news/articleView.html?idxno=277595",
+      "requested_link": "https://www.businesskorea.co.kr/news/articleView.html?idxno=277595",
+      "rss_description": "Samsung, SK hynix Race to Expand HBM Output as Supply Remains Tight",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "인공지능(AI) 데이터 센터 수요가 공급을 앞지르면서 삼성전자와 SK하이닉스가 HBM 생산 능력을 공격적으로 확대하고 있습니다. 삼성전자는 HBM4 및 차세대 제품 생산량을 대폭 늘리기 위해 웨이퍼 투입량을 40% 증대하고, HBM4 수율을 약 80%까지 끌어올리며 점유율 확대에 박차를 가하고 있습니다. SK하이닉스 역시 청주 M15X 공장 증설과 용인 반도체 클러스터 가동을 앞당겨 시장 주도권 방어에 나섰습니다. 이러한 대규모 증설 경쟁에도 불구하고 AI 가속기 수요 증가로 내년 HBM 공급 부족 현상은 지속될 것으로 전망됩니다. 한편, 한국 제조사들이 HBM에 생산 역량을 집중하면서 일반 DRAM 공급이 타이트해지는 영향도 나타나고 있습니다.",
+      "industry_context": "삼성전자와 SK하이닉스는 대한민국을 대표하는 글로벌 메모리 반도체 기업입니다. 두 기업은 메모리 시장뿐만 아니라 파운드리, 첨단 패키징 기술 등 수직 계열화된 구조를 통해 HBM 공급망의 핵심 위치를 점하고 있으며, AI 반도체 산업의 성장에 따라 생산 능력과 기술 리더십 확보를 위한 치열한 경쟁을 벌이고 있습니다.",
+      "key_points": [
+        "삼성전자와 SK하이닉스가 AI 데이터 센터 수요 대응을 위해 HBM 생산 능력을 공격적으로 확대 중임",
+        "삼성전자의 HBM4 수율이 약 80%로 개선되었으며, HBM 시장 점유율 격차가 1분기 37%p에서 2분기 17%p로 좁혀짐",
+        "내년 HBM 수요 증가율은 56%, 공급 증가율은 50%로 예상되어 공급 부족 현상이 지속될 전망임"
+      ],
+      "numbers": [
+        "2026.09.23",
+        "40%",
+        "80%",
+        "21%",
+        "33%",
+        "58%"
+      ],
+      "keywords": [
+        "HBM",
+        "삼성전자",
+        "SK하이닉스",
+        "AI 반도체",
+        "메모리",
+        "데이터 센터"
+      ],
+      "stated_outlook": "내년 HBM4 가격이 올해보다 약 65% 높을 것으로 예상되며, 한국 반도체 기업들은 생산 능력 확대와 기술 리더십 강화를 통해 AI 사이클에서의 선도적 위치를 유지할 것으로 보임.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "920a377d05b1",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "Samsung LPDDR6: Advancing Low-Power Memory for AI with Industry-First Validation on Qualcomm Technologies' New Snapdragon® Platform",
+      "source": "semiconductor.samsung.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-23 16:48",
+      "collected": "2026-10-04",
+      "link": "https://semiconductor.samsung.com/news-events/tech-blog/samsung-lpddr6-advancing-low-power-memory-for-ai-with-industry-first-validation-on-qualcomm-technologies-new-snapdragon-platform",
+      "requested_link": "https://semiconductor.samsung.com/news-events/tech-blog/samsung-lpddr6-advancing-low-power-memory-for-ai-with-industry-first-validation-on-qualcomm-technologies-new-snapdragon-platform",
+      "rss_description": "Samsung LPDDR6: Advancing Low-Power Memory for AI with Industry-First Validation on Qualcomm Technologies",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "삼성전자가 차세대 AI 모바일 환경을 지원하기 위해 개발한 LPDDR6 메모리의 산업계 최초 검증을 완료했습니다. 이번 제품은 기존 LPDDR5X 대비 최대 21% 향상된 전력 효율성을 제공하며, 실시간 전력 관리 기술을 통해 모바일 기기에서의 AI 연산 효율을 최적화합니다. 특히 퀄컴의 차세대 모바일 플랫폼인 Snapdragon 8 Elite Extreme Gen 6에서 검증을 마쳐 고성능 온디바이스 AI 구동을 위한 핵심 동력을 확보했습니다. 이러한 변화는 스마트폰 등 모바일 기기가 더 복잡한 멀티모달 인터랙션과 AI 에이전트 기능을 안정적으로 수행하는 데 기여할 것으로 기대됩니다.",
+      "industry_context": "삼성전자는 대한민국에 본사를 둔 글로벌 종합 반도체 기업으로, 메모리 반도체 시장의 선도적 지위를 보유하고 있습니다. 퀄컴은 미국에 본사를 둔 세계적인 통신 및 모바일 프로세서 설계 기업으로, 스마트폰용 SoC 시장에서 강력한 영향력을 미치고 있습니다. 양사는 모바일 AI 성능 극대화를 위해 메모리와 프로세서 아키텍처를 통합 설계하고 검증하는 긴밀한 협력 관계를 유지하고 있습니다.",
+      "key_points": [
+        "삼성 LPDDR6, 퀄컴 Snapdragon 8 Elite Extreme Gen 6 플랫폼에서 산업계 최초 검증 성공",
+        "최대 114GB/s의 메모리 대역폭을 제공하여 AI 데이터 처리 병목 현상 완화",
+        "DVFS 및 DEM 기술을 적용해 전 세대 LPDDR5X 대비 전력 효율 21% 개선",
+        "PRAC 기술을 도입하여 반복적인 메모리 행 활성화로 인한 데이터 간섭 관리 및 안정성 강화"
+      ],
+      "numbers": [
+        "최대 114GB/s 대역폭",
+        "최대 21% 전력 효율 향상",
+        "16GB LPDDR6 제품",
+        "최대 10.7Gbps I/O 속도"
+      ],
+      "keywords": [
+        "LPDDR6",
+        "온디바이스 AI",
+        "삼성전자",
+        "퀄컴",
+        "모바일 반도체",
+        "DRAM"
+      ],
+      "stated_outlook": "삼성전자는 퀄컴과의 협력을 통해 고성능 저전력 메모리 솔루션을 지속적으로 발전시켜 차세대 AI 기기 구현을 지원할 계획이며, 상세 내용은 Snapdragon Summit 2026에서 공유될 예정입니다.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "ffb97dae3326",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "Europe's Most Valuable Firm ASML Sold No Machines at Home",
+      "source": "en.sedaily.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-23 14:45",
+      "collected": "2026-10-04",
+      "link": "https://en.sedaily.com/international/2026/09/23/europes-most-valuable-firm-asml-sold-no-machines-at-home",
+      "requested_link": "https://en.sedaily.com/international/2026/09/23/europes-most-valuable-firm-asml-sold-no-machines-at-home",
+      "rss_description": "Europe's Most Valuable Firm ASML Sold No Machines at Home",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "유럽에서 가장 가치 있는 기업인 ASML이 본국인 유럽 지역에서 최신 반도체 장비 판매 실적을 전혀 내지 못하고 있습니다. 이는 유럽 내 반도체 공장 건설 투자 부진이 주된 원인으로 지목되며, 유럽이 글로벌 반도체 시장에서 뒤처질 수 있다는 경고로 해석됩니다. 반면 미국, 중국, 인도 등 주요국은 자국 내 반도체 산업 육성을 위해 ASML 유치에 사활을 걸고 있습니다. ASML은 생산 능력을 확대하기 위해 네덜란드 외 지역으로 생산 거점을 확장하겠다는 계획을 밝혔습니다.",
+      "industry_context": "ASML은 극자외선(EUV) 노광 장비를 독점 생산하는 네덜란드 기업으로, 최첨단 반도체 제조 공정의 핵심 공급망 역할을 합니다. TSMC와 삼성전자 등 주요 반도체 제조사는 ASML의 장비를 사용하여 초미세 회로를 구현하며 AI 산업의 발전을 뒷받침하고 있습니다.",
+      "key_points": [
+        "ASML의 2분기 유럽 지역 순시스템 매출은 0%를 기록함",
+        "유럽의 반도체 투자 부진으로 인해 신규 공장 건설이 부족한 상황임",
+        "ASML은 해외 생산 확대를 공식화했으며, 인도와 미국 등에서 생산 및 연구 협력을 강화하고 있음"
+      ],
+      "numbers": [
+        "2026.09.23",
+        "2분기 0%",
+        "2030년",
+        "3나노미터",
+        "5나노미터"
+      ],
+      "keywords": [
+        "ASML",
+        "EUV",
+        "반도체",
+        "유럽연합",
+        "공급망"
+      ],
+      "stated_outlook": "ASML은 네덜란드에만 의존하지 않고 전 세계적으로 생산 능력을 늘릴 계획이며, 특히 유럽이 반도체 산업에서 뒤처지지 않도록 투자를 강화해야 한다고 강조함",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "3618e5f1320c",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "LCD TV용 반도체 가격, 메모리 대란에 패널값 처음으로 넘었다",
+      "source": "전자신문",
+      "source_type": "직접 선택",
+      "published": "2026-09-23 01:00",
+      "collected": "2026-10-04",
+      "link": "https://www.etnews.com/20260921000346",
+      "requested_link": "https://www.etnews.com/20260921000346",
+      "rss_description": "LCD TV용 반도체 가격, 메모리 대란에 패널값 처음으로 넘었다",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "인공지능 인프라 투자 확대에 따른 메모리 반도체 품귀 현상으로 인해 LCD TV 제조 원가 구조가 변화하고 있습니다. TV 부품 원가 중 가장 높은 비중을 차지하던 디스플레이 패널 가격을 반도체 가격이 추월하는 역전 현상이 사상 최초로 발생했습니다. 이는 소형 및 중형 TV 제조사에 상당한 수익성 압박으로 작용하고 있으며, 가격 민감도가 높은 저가형 라인업에서 특히 큰 어려움을 겪고 있습니다. 삼성전자와 LG전자 등 주요 TV 제조사는 공급망 다변화와 비용 효율화를 통해 대응하고 있으나, 원가 부담은 당분간 지속될 전망입니다.",
+      "industry_context": "삼성전자와 LG전자는 한국에 본사를 둔 글로벌 대표 TV 및 가전 제조사로, 전 세계 TV 시장에서 높은 점유율을 차지하고 있습니다. 이들은 수직 계열화된 공급망과 고도화된 제조 기술을 바탕으로 하드웨어 중심의 사업을 영위하고 있습니다.",
+      "key_points": [
+        "LCD TV 제조 원가에서 반도체 가격이 패널 가격을 최초로 추월함",
+        "메모리 반도체 공급 부족으로 인해 TV 메인보드 원가가 1년 만에 4배 이상 상승함",
+        "삼성전자와 LG전자는 공급망 다변화 및 제품 사양 최적화로 수익성 방어 계획"
+      ],
+      "numbers": [
+        "2026-09-22",
+        "32인치 TV 비디오·오디오 처리 보드 비중: 10% 초반에서 40% 후반으로 폭등",
+        "범용 D램 가격: 25달러(1년 전 대비 4.4배 상승)",
+        "낸드플래시 가격: 30.5달러(1년 전 대비 8.9배 상승)",
+        "55인치 UHD 메인보드 가격: 118.2달러(전년 동기 대비 3.5배 상승)"
+      ],
+      "keywords": [
+        "LCD TV",
+        "메모리 반도체",
+        "TV 원가",
+        "삼성전자",
+        "LG전자",
+        "디스플레이 패널"
+      ],
+      "stated_outlook": "메모리 가격 상승세는 최소 내년까지 이어질 것으로 예상되며, TV 제조사들은 공급망 다변화, 제품 사양 최적화, 콘텐츠·플랫폼 사업 확장을 통해 수익성을 방어할 방침임.",
+      "summary_status": "summarized"
+    },
+    {
+      "id": "c714c58423c8",
+      "sector": "semiconductor",
+      "region": "global",
+      "category": "산업",
+      "title": "동진쎄미켐 美 신너 생산 본격화…삼성 테일러팹 가동 채비 속도 [비즈360]",
+      "source": "biz.heraldcorp.com",
+      "source_type": "직접 선택",
+      "published": "2026-09-22 19:58",
+      "collected": "2026-10-04",
+      "link": "https://biz.heraldcorp.com/article/10881815",
+      "requested_link": "https://biz.heraldcorp.com/article/10881815",
+      "rss_description": "동진쎄미켐 美 신너 생산 본격화…삼성 테일러팹 가동 채비 속도 [비즈360]",
+      "manual_added": true,
+      "verified_source": true,
+      "overview": "삼성전자의 반도체 소재 공급사인 동진쎄미켐이 미국 텍사스주 킬린 공장에서 반도체용 신너 생산을 위한 활동 신고를 마치며 현지 생산 체제를 본격화한다. 이는 삼성전자가 미국 테일러 파운드리 공장의 가동을 앞두고 소재 공급망을 구축하는 과정의 일환이다. 삼성전자의 테일러팹은 이르면 다음 달 시범 가동을 거쳐 내년 대량생산에 들어갈 예정이다. 이러한 현지 공급망 안정화 조치는 테일러팹의 성공적인 양산과 최선단 2나노 공정 운영을 뒷받침할 것으로 평가된다.",
+      "industry_context": "동진쎄미켐은 한국에 본사를 둔 반도체 소재 기업으로, 웨이퍼 회로 공정에 필수적인 신너 및 포토레지스트 등을 주력으로 생산한다. 삼성전자는 글로벌 파운드리 시장의 주요 기업으로, 미국 텍사스주에 최선단 2나노 공정 중심의 테일러 파운드리 생산거점을 구축하고 있다.",
+      "key_points": [
+        "동진쎄미켐 텍사스(DST)가 미 상무부 외국무역지대위원회에 신너 생산활동 신고를 제출함",
+        "동진쎄미켐은 킬린 공장에 약 2600억원을 투자하여 현지 생산시설을 구축함",
+        "삼성전자 테일러팹은 다음 달 시범 가동을 거쳐 내년 대량생산에 나설 계획임"
+      ],
+      "numbers": [
+        "2022년 6월 (미국법인 설립)",
+        "2600억원 (투자 금액)",
+        "2026년 하반기 (신너 공장 양산 예정)",
+        "80%대 (2나노 공정 수율)"
+      ],
+      "keywords": [
+        "동진쎄미켐",
+        "삼성전자",
+        "테일러팹",
+        "반도체 소재",
+        "신너",
+        "파운드리"
+      ],
+      "stated_outlook": "테일러팹1은 올해 가동을 목표로 준비 중이며, 테일러팹2는 2030년 양산을 목표로 올해 말 공사 착수를 준비하고 있다.",
+      "summary_status": "summarized"
     },
     {
       "id": "8af72d557507",
@@ -24415,7 +24673,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-10-04 16:19 KST",
+  "manual_updated_at": "2026-10-04 16:32 KST",
   "favorite_items": [
     {
       "id": "b989638e2d4d",
