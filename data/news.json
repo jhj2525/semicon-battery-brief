@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-09 11:15 KST",
-  "last_automatic_update_at": "2026-10-09 11:15 KST",
-  "automatic_cycle_started_at": "2026-10-09 11:11 KST",
+  "updated_at": "2026-10-09 11:57 KST",
+  "last_automatic_update_at": "2026-10-09 11:57 KST",
+  "automatic_cycle_started_at": "2026-10-09 11:56 KST",
   "publication_window": {
-    "from": "2026-10-08 11:11 KST",
-    "to": "2026-10-09 11:11 KST"
+    "from": "2026-10-08 11:56 KST",
+    "to": "2026-10-09 11:56 KST"
   },
-  "today_verified_count": 12,
+  "today_verified_count": 0,
   "current_items": [
     {
       "id": "899a60928786",
