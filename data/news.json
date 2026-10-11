@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-11 10:01 KST",
-  "last_automatic_update_at": "2026-10-11 10:01 KST",
-  "automatic_cycle_started_at": "2026-10-11 10:00 KST",
+  "updated_at": "2026-10-11 10:55 KST",
+  "last_automatic_update_at": "2026-10-11 10:55 KST",
+  "automatic_cycle_started_at": "2026-10-11 10:55 KST",
   "publication_window": {
-    "from": "2026-10-10 10:00 KST",
-    "to": "2026-10-11 10:00 KST"
+    "from": "2026-10-10 10:55 KST",
+    "to": "2026-10-11 10:55 KST"
   },
-  "today_verified_count": 5,
+  "today_verified_count": 3,
   "current_items": [
     {
       "id": "db8deca0eb18",
@@ -109,6 +109,26 @@
       "stated_outlook": ""
     },
     {
+      "id": "33a687e89d9b",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "로봇용 D램 수요, 2030년 20배로…삼성·SK 새 먹거리 부상",
+      "source": "매일경제",
+      "source_type": "경제지 보도",
+      "published": "2026-10-11 10:02",
+      "collected": "2026-10-11",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1GU3g3WTZLbVU5YzUxZk9FektfbHZCUGgyQVB0RW5Ud1ctZzMtSXZnN2UzdmZpQ25uVUpteGFYVHZDWGY0cFBBYm9pOEd6Zi1hWHc?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
       "id": "55213874d55f",
       "sector": "battery",
       "region": "domestic",
@@ -119,6 +139,63 @@
       "published": "2026-10-10 14:37",
       "collected": "2026-10-11",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5uY2xQWWRUaVhDcTRhM3ZhNlozU1ZNcUNiNVJIdW9vTlhvU3pLTjVwODdlRUdvUTV3d3dvSmZNM0JxVW5PYTYwWFg0cmlQNm1FSHoyS0EwaENWTDM4Z0lIUEtORkRpdjJwS1Y0?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "0d78b6f290a4",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "솔랩, 달 탐사 핵심부품 공급…5면 태양전지판·배터리리스 전력계 개발",
+      "source": "전자신문",
+      "published": "2026-10-11 10:00",
+      "collected": "2026-10-11",
+      "link": "https://www.etnews.com/20261008000103",
+      "rss_description": "우주 전력시스템 전문기업 솔랩(대표 김정식)이 국제 달 탐사 프로젝트에 다단 전개형 태양전지판과 배터리 없는 전력시스템 등 핵심 우주 부품을 공급한다. 솔랩은 달 표면 과학탐사 임무에 적용할 태양전지판(Solar Array Unit), 배터리리스(Battery-less) 전력시스템, 우주인이 직접 조작할 수 있는 수동형 HDRM(Hold-Down and Release Mechanism) 등 핵심 부품과 시스템을 개발해 공급을 준비하고 있다고 밝",
+      "score": 5,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "우주 전력시스템 전문기업 솔랩이 국제 달 탐사 프로젝트에 공급할 핵심 우주 부품을 개발하고 있다. 이번에 개발하는 부품은 5면 다단 전개형 태양전지판, 배터리리스 전력시스템, 수동형 HDRM 등이다. 솔랩은 오는 12월 말 엔지니어링 모델을 공급하고, 내년 4월 말 비행모델을 납품할 예정이다.",
+      "key_points": [
+        "솔랩이 달 표면 과학탐사 임무를 위한 태양전지판, 배터리리스 전력시스템, 수동형 HDRM을 개발 중이다.",
+        "배터리리스 전력시스템은 태양전지판에서 생산한 전력을 배터리 없이 장비에 직접 공급하는 방식으로, 세계 최초 사례이다.",
+        "5면 다단 전개형 태양전지판은 발사 시 접혀 있다가 임무 지역에서 펼쳐지는 구조로 설계되었다.",
+        "수동형 HDRM은 화약류를 사용하지 않고 우주비행사가 직접 전개할 수 있도록 설계되었다."
+      ],
+      "numbers": [
+        "12월 말",
+        "내년 4월 말",
+        "5면"
+      ],
+      "keywords": [
+        "솔랩",
+        "달 탐사",
+        "태양전지판",
+        "배터리리스",
+        "HDRM",
+        "우주 부품"
+      ],
+      "stated_outlook": "내년 관련 제품 상용화와 국내외 우주 임무 적용을 추진할 계획이다."
+    },
+    {
+      "id": "9d0cf2012909",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "북미는 LFP·유럽은 하이니켈…K-양극재 전략 재편 [위클리배터리]",
+      "source": "디지털데일리",
+      "source_type": "산업 전문언론",
+      "published": "2026-10-11 10:00",
+      "collected": "2026-10-11",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB4ck9VaV9xdUllOHBfdFg2NG40cHQ0VVRXWjR6UW5fbXJPR1BvWE1qNk9kUVVRd1V6REYzZnptcGRDXzJzWElWTDJTQXZDUzJaUW5GVkpLQUdwS3lneE5QMzAydFM?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
