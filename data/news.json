@@ -140,13 +140,33 @@
       "collected": "2026-10-14",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQM1pQZWZoRm85Q2lvemVYS2c3aHVtMVZvNmxUdTJ4N3dLVndZTDYwTVZ2UkV1QVJDb0ZOTGFfZ2hYa2F6b29RMkdCdHlzWDBNRm5la3NoOE9kZDBDWEJyMThLbFhmRmdzdEVPYkhsMHFla0VEYTM3UWFCVzZ3Um1YWQ?oc=5",
       "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
+      "verified_source": true,
+      "summary_status": "summarized",
+      "overview": "코스닥 상장사 제이케이시냅스는 올해 상반기 반도체 공정 소재 부문 누적 매출액 50억 3118만 원을 기록했다고 발표했다. 이는 지난해 연간 총매출의 70%를 상회하는 수준이며, 특히 2분기 매출은 전년 동기 대비 약 90% 급증한 30억 828만 원을 기록했다. 이러한 성장은 반도체 공급망 내재화 추세와 식각액 및 박리액 수요 증가가 견인했다. 제이케이시냅스는 전자소재 사업을 반도체와 디스플레이 부문으로 전문화한 전략이 실적으로 이어졌다고 평가했다. 회사는 향후 생산 인프라와 고객사 네트워크를 바탕으로 하반기 물량 확대 및 사상 최대 실적 달성을 목표로 하고 있다.",
+      "key_points": [
+        "제이케이시냅스 올해 상반기 반도체 공정 소재 매출 50억 3118만 원 달성",
+        "2분기 매출은 전년 동기 대비 약 90% 증가한 30억 828만 원 기록",
+        "반도체 웨이퍼 가공 및 설비 부품 세정에 쓰이는 식각액과 박리액 공급량 급증",
+        "전자소재 사업을 반도체와 디스플레이 부문으로 전문화·세분화하는 전략 추진"
+      ],
+      "numbers": [
+        "2026.10.14",
+        "50억 3118만 원",
+        "69억 1000만 원",
+        "15억 8527만 원",
+        "30억 828만 원",
+        "90%"
+      ],
+      "keywords": [
+        "제이케이시냅스",
+        "반도체 공정 소재",
+        "식각액",
+        "박리액",
+        "실적"
+      ],
+      "stated_outlook": "글로벌 반도체 시장 반등과 주요 고객사의 라인 가동률 회복에 따라 핵심 소재 공급 규모가 확대될 전망이며, 하반기 물량 극대화를 통해 해당 부문 사상 최대 실적 달성 및 차세대 공정 소재 R&D 강화를 계획함.",
+      "summary_source": "pasted_text",
+      "industry_context": "글로벌 반도체 업황 회복, 반도체 핵심 공정 소재의 공급망 내재화 흐름, 주요 고객사의 라인 가동률 회복."
     },
     {
       "id": "43e0cd3cf461",
@@ -29675,7 +29695,7 @@
       "manual_added_at": "2026-08-04T20:48:22.582309+09:00"
     }
   ],
-  "manual_updated_at": "2026-10-04 17:00 KST",
+  "manual_updated_at": "2026-10-14 12:36 KST",
   "favorite_items": [
     {
       "id": "b989638e2d4d",
