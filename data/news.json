@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-18 09:05 KST",
-  "last_automatic_update_at": "2026-10-18 09:05 KST",
-  "automatic_cycle_started_at": "2026-10-18 09:03 KST",
+  "updated_at": "2026-10-18 10:05 KST",
+  "last_automatic_update_at": "2026-10-18 10:05 KST",
+  "automatic_cycle_started_at": "2026-10-18 10:03 KST",
   "publication_window": {
-    "from": "2026-10-17 09:03 KST",
-    "to": "2026-10-18 09:03 KST"
+    "from": "2026-10-17 10:03 KST",
+    "to": "2026-10-18 10:03 KST"
   },
-  "today_verified_count": 10,
+  "today_verified_count": 1,
   "current_items": [
     {
       "id": "8a5de12823bc",
@@ -212,6 +212,26 @@
       "published": "2026-10-18 08:46",
       "collected": "2026-10-18",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SSkNfXzdobU1YNzAyQkpTVzJGRGlBdldwQXc5MXFhbHFUa3JncUIwVEdsSDNqdmVkSmpJTU04X0otUzhnVzJVZ1FvSlU3S2VMYm9SdmxMMk1WZ0RPQWhuQjhGczU?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "e8e46b8a30ef",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "삼원계에서 LFP로…ESS 열풍에 K배터리 전략 대전환",
+      "source": "아시아경제",
+      "source_type": "경제지 보도",
+      "published": "2026-10-18 08:00",
+      "collected": "2026-10-18",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85Sl9xNWFQbER2S3hGYmVTX0tnVk9iY1kyOUZNTFI0UkJPbFBOdzdud3ZmakgxY0hMOXhnenFMa1lJMFRNclFwN3J1ZmFlblpyRUpTYUZRQ0N0Zi1SbE1qOQ?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
