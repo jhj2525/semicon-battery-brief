@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-20 10:13 KST",
-  "last_automatic_update_at": "2026-10-20 10:13 KST",
-  "automatic_cycle_started_at": "2026-10-20 10:05 KST",
+  "updated_at": "2026-10-20 10:51 KST",
+  "last_automatic_update_at": "2026-10-20 10:51 KST",
+  "automatic_cycle_started_at": "2026-10-20 10:50 KST",
   "publication_window": {
-    "from": "2026-10-19 10:05 KST",
-    "to": "2026-10-20 10:05 KST"
+    "from": "2026-10-19 10:50 KST",
+    "to": "2026-10-20 10:50 KST"
   },
-  "today_verified_count": 13,
+  "today_verified_count": 0,
   "current_items": [
     {
       "id": "22ed976a1c25",
@@ -230,43 +230,6 @@
       "stated_outlook": ""
     },
     {
-      "id": "23b5bcf14ef7",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "HBM을 GPU 밑으로…장비업체 신도기연의 3D 수직적층 구조 제안",
-      "source": "디일렉",
-      "published": "2026-10-20 00:59",
-      "collected": "2026-10-20",
-      "link": "https://www.thelec.kr/news/articleView.html?idxno=63906",
-      "rss_description": "디스플레이 접합장비 업체 신도기연이 그래픽처리장치(GPU)와 고대역폭메모리(HBM) 사이에 글라스세라믹 인터포저를 끼워 두 칩을 위아래로 쌓는 패키지 구조를 지난 15일(현지시간) 미국 샌프란시스코에서 열린 세미콘 웨스트 2026에서 공개했다.두께 약 200마이크로미터(μm) 글라스세라믹 인터포저를 가운데 두고 위에 GPU, 아래에 HBM을 붙인 구조다. 두 칩은 인터포저에 뚫은 수직 전극을 통해 연결된다. GPU 위와 HBM 아래에는 각각 수랭 모듈을 붙여 두 칩의 열을 반대 방향으로 뺀다. 전력은 맨 아래 인쇄회로기판(PCB)에",
-      "score": 36,
-      "source_type": "산업 전문언론",
-      "source_rank": 5,
-      "verified_source": true,
-      "overview": "디스플레이 장비업체 신도기연이 지난 15일(현지시간) 세미콘 웨스트 2026에서 GPU와 HBM을 수직으로 쌓는 새로운 3D 패키지 구조를 공개했다. 이 구조는 열팽창 조절이 가능한 글라스세라믹 인터포저를 활용하며, 양 칩의 열을 위아래로 분산 배출하는 방식이다. 신도기연은 이번 기술에 대해 특허를 출원하고 약 10개 기업과 기술 협의를 진행 중이다.",
-      "key_points": [
-        "GPU와 HBM 사이에 글라스세라믹 인터포저를 배치하여 수직으로 적층하는 구조를 제안함",
-        "인터포저에는 지난 9월 공개한 수직 전극 연결 기술인 TGCV가 적용됨",
-        "GPU와 HBM 각각의 위아래에 수랭 모듈을 부착하여 열 문제를 해결하고자 함",
-        "신도기연은 이번 구조를 위해 특허를 출원했으며 OSAT 기업 등과 적용 방안을 논의 중임"
-      ],
-      "numbers": [
-        "2026.10.15",
-        "200",
-        "9"
-      ],
-      "keywords": [
-        "신도기연",
-        "GPU",
-        "HBM",
-        "TGCV",
-        "3D 적층",
-        "인터포저"
-      ],
-      "stated_outlook": "반도체 후공정 전문기업(OSAT)에 해당 구조를 제시하고 실제 적용 방안을 논의할 계획임."
-    },
-    {
       "id": "013ede71dc62",
       "sector": "battery",
       "region": "domestic",
@@ -385,6 +348,43 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": ""
+    },
+    {
+      "id": "23b5bcf14ef7",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "HBM을 GPU 밑으로…장비업체 신도기연의 3D 수직적층 구조 제안",
+      "source": "디일렉",
+      "published": "2026-10-20 00:59",
+      "collected": "2026-10-20",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=63906",
+      "rss_description": "디스플레이 접합장비 업체 신도기연이 그래픽처리장치(GPU)와 고대역폭메모리(HBM) 사이에 글라스세라믹 인터포저를 끼워 두 칩을 위아래로 쌓는 패키지 구조를 지난 15일(현지시간) 미국 샌프란시스코에서 열린 세미콘 웨스트 2026에서 공개했다.두께 약 200마이크로미터(μm) 글라스세라믹 인터포저를 가운데 두고 위에 GPU, 아래에 HBM을 붙인 구조다. 두 칩은 인터포저에 뚫은 수직 전극을 통해 연결된다. GPU 위와 HBM 아래에는 각각 수랭 모듈을 붙여 두 칩의 열을 반대 방향으로 뺀다. 전력은 맨 아래 인쇄회로기판(PCB)에",
+      "score": 36,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "디스플레이 장비업체 신도기연이 지난 15일(현지시간) 세미콘 웨스트 2026에서 GPU와 HBM을 수직으로 쌓는 새로운 3D 패키지 구조를 공개했다. 이 구조는 열팽창 조절이 가능한 글라스세라믹 인터포저를 활용하며, 양 칩의 열을 위아래로 분산 배출하는 방식이다. 신도기연은 이번 기술에 대해 특허를 출원하고 약 10개 기업과 기술 협의를 진행 중이다.",
+      "key_points": [
+        "GPU와 HBM 사이에 글라스세라믹 인터포저를 배치하여 수직으로 적층하는 구조를 제안함",
+        "인터포저에는 지난 9월 공개한 수직 전극 연결 기술인 TGCV가 적용됨",
+        "GPU와 HBM 각각의 위아래에 수랭 모듈을 부착하여 열 문제를 해결하고자 함",
+        "신도기연은 이번 구조를 위해 특허를 출원했으며 OSAT 기업 등과 적용 방안을 논의 중임"
+      ],
+      "numbers": [
+        "2026.10.15",
+        "200",
+        "9"
+      ],
+      "keywords": [
+        "신도기연",
+        "GPU",
+        "HBM",
+        "TGCV",
+        "3D 적층",
+        "인터포저"
+      ],
+      "stated_outlook": "반도체 후공정 전문기업(OSAT)에 해당 구조를 제시하고 실제 적용 방안을 논의할 계획임."
     }
   ],
   "archive_items": [
