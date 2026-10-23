@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-23 09:46 KST",
-  "last_automatic_update_at": "2026-10-23 09:46 KST",
-  "automatic_cycle_started_at": "2026-10-23 09:40 KST",
+  "updated_at": "2026-10-23 10:33 KST",
+  "last_automatic_update_at": "2026-10-23 10:33 KST",
+  "automatic_cycle_started_at": "2026-10-23 10:32 KST",
   "publication_window": {
-    "from": "2026-10-22 09:40 KST",
-    "to": "2026-10-23 09:40 KST"
+    "from": "2026-10-22 10:32 KST",
+    "to": "2026-10-23 10:32 KST"
   },
-  "today_verified_count": 13,
+  "today_verified_count": 1,
   "current_items": [
     {
       "id": "b2686741762e",
@@ -188,26 +188,6 @@
       "stated_outlook": "대규모 수주 물량이 매출로 반영되면서 분기 매출 회복이 예상되며, 내년 매출은 지난해 대비 약 2배 수준으로 증가할 전망이다."
     },
     {
-      "id": "6f06de0d5e54",
-      "sector": "semiconductor",
-      "region": "domestic",
-      "category": "기술·공정",
-      "title": "SM국일, ESS 장비업체 대진기계 인수 우선협상대상자 선정",
-      "source": "파이낸셜뉴스",
-      "source_type": "경제지 보도",
-      "published": "2026-10-23 09:26",
-      "collected": "2026-10-23",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91OXNMdldQdllIQ0RaV2ZyXzAxOEMtR1FGQW1CcUhoWjBIVUNXcTNldXBKUHdWUDhLQU42T2h1dFBVUUNuY05YVm5vN1lRMzF6djEzVEI0RmFwdw?oc=5",
-      "trusted_headline": true,
-      "verified_source": false,
-      "summary_status": "link_only",
-      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
-      "key_points": [],
-      "numbers": [],
-      "keywords": [],
-      "stated_outlook": ""
-    },
-    {
       "id": "83e95bc24e09",
       "sector": "battery",
       "region": "domestic",
@@ -306,6 +286,45 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": ""
+    },
+    {
+      "id": "0a1559ff15a4",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "“中 딥시크, 20조원 투자 유치 막바지…CATL·텐센트 '큰손' 참여”",
+      "source": "전자신문",
+      "published": "2026-10-22 15:15",
+      "collected": "2026-10-23",
+      "link": "https://www.etnews.com/20261022000358",
+      "rss_description": "중국의 인공지능(AI) 스타트업 딥시크가 1000억위안(약 20조원)의 투자 유치를 마무리하고 있는 것으로 전해졌다. 로이터 통신은 22일(현지시간) 익명을 요구한 복수의 소식통을 인용해 이같이 보도하고 기존 투자자인 세계 최대 배터리 제조업체 닝더스다이(CATL)와 위챗 운영사인 텐센트가 이번 투자 라운드에서 큰 손으로 참여했다고 전했다. 한 관계자는 “투자 유치는 며칠 안에 최종 마무리될 예정이지만 재정적인 세부 내용은 완전히 확정되지 않아",
+      "score": 22,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "중국의 인공지능 스타트업 딥시크가 약 20조원 규모의 투자 유치를 마무리하는 단계에 있다. 이번 투자에는 세계 최대 배터리 제조업체 닝더스다이(CATL)와 텐센트가 주요 투자자로 참여했다. 딥시크는 이번 대규모 자금 조달을 통해 AI 패권 경쟁력을 강화하고 상하이 증권거래소 과창판 상장을 준비하고 있다.",
+      "key_points": [
+        "딥시크가 1000억위안(약 20조원) 규모의 투자 유치를 마무리하고 있다.",
+        "CATL과 텐센트가 이번 투자 라운드에 주요 투자자로 참여했다.",
+        "딥시크는 상하이 증권거래소 과창판 기업공개(IPO)를 준비하고 있다."
+      ],
+      "numbers": [
+        "1000억위안",
+        "20조원",
+        "2026-10-22",
+        "150억달러",
+        "500억위안",
+        "6월"
+      ],
+      "keywords": [
+        "딥시크",
+        "CATL",
+        "텐센트",
+        "투자 유치",
+        "과창판",
+        "인공지능"
+      ],
+      "stated_outlook": "투자 유치는 며칠 안에 최종 마무리될 예정이며, 이번 투자 유치는 딥시크의 IPO가 임박했음을 보여주는 것으로 해석된다."
     }
   ],
   "archive_items": [
