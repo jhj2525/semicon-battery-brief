@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-24 09:49 KST",
-  "last_automatic_update_at": "2026-10-24 09:49 KST",
-  "automatic_cycle_started_at": "2026-10-24 09:43 KST",
+  "updated_at": "2026-10-24 10:36 KST",
+  "last_automatic_update_at": "2026-10-24 10:36 KST",
+  "automatic_cycle_started_at": "2026-10-24 10:35 KST",
   "publication_window": {
-    "from": "2026-10-23 09:43 KST",
-    "to": "2026-10-24 09:43 KST"
+    "from": "2026-10-23 10:35 KST",
+    "to": "2026-10-24 10:35 KST"
   },
-  "today_verified_count": 12,
+  "today_verified_count": 1,
   "current_items": [
     {
       "id": "7ffff2653548",
@@ -286,6 +286,26 @@
         "GM포워드"
       ],
       "stated_outlook": "주요 차급에 합리적인 가격의 전기차 여러 종을 투입할 계획이다."
+    },
+    {
+      "id": "02f307cf9b10",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "국회 기후노동위, 제주 가상발전소 점검… AI 전력입찰·ESS 운영 확인",
+      "source": "파이낸셜뉴스",
+      "source_type": "경제지 보도",
+      "published": "2026-10-23 16:00",
+      "collected": "2026-10-24",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1dkRzSE5GTGhlWlV5UlZrWUEzOUdFb25OOGV0NHBnMnVHN2g4ZGdlUjNyc0pOcktpZm1CLTNOcGNDbmtNTnhjNXg3SVp0SkhxUExuaFp1Qmt3UQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
     }
   ],
   "archive_items": [
