@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-12 12:02 KST",
-  "last_automatic_update_at": "2026-11-12 12:02 KST",
-  "automatic_cycle_started_at": "2026-11-12 11:59 KST",
+  "updated_at": "2026-11-12 12:50 KST",
+  "last_automatic_update_at": "2026-11-12 12:50 KST",
+  "automatic_cycle_started_at": "2026-11-12 12:49 KST",
   "publication_window": {
-    "from": "2026-11-11 11:59 KST",
-    "to": "2026-11-12 11:59 KST"
+    "from": "2026-11-11 12:49 KST",
+    "to": "2026-11-12 12:49 KST"
   },
-  "today_verified_count": 13,
+  "today_verified_count": 1,
   "current_items": [
     {
       "id": "7b8421309b59",
@@ -347,6 +347,26 @@
         "배터리"
       ],
       "stated_outlook": "경쟁사들의 공격적인 생산능력 확대와 LG화학 등 기업들의 시장 진입으로 인해 향후 LFP 양극재 관련 수주전이 더욱 격화될 전망입니다."
+    },
+    {
+      "id": "ccbaa3336264",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "삼성, 넉달만에 4조 늘려 충청 144조 투자…AI칩·OLED·배터리 확장",
+      "source": "서울경제",
+      "source_type": "경제지 보도",
+      "published": "2026-11-12 11:18",
+      "collected": "2026-11-12",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94NXN1LUV6Ny1PSlhzbkMzbWRYbVRRcXExUlpESUFJekxCWDJmLXZNcXV2c0doc05uVjdETG5sbjlScUVkaWZtMF9LVUpWamw2TVHSAVNBVV95cUxOMTZtTzJxZmdnazJQVzgySzM4OTNTRzZfQldwMWtONnZKc0dqb1JXLWNEbE9ESFFNMzkzcS1fTTk3bC1xTlIwYmhubzI2OFItV2lpVQ?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
     }
   ],
   "archive_items": [
