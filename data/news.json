@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-15 10:57 KST",
-  "last_automatic_update_at": "2026-11-15 10:57 KST",
-  "automatic_cycle_started_at": "2026-11-15 10:56 KST",
+  "updated_at": "2026-11-15 11:41 KST",
+  "last_automatic_update_at": "2026-11-15 11:41 KST",
+  "automatic_cycle_started_at": "2026-11-15 11:40 KST",
   "publication_window": {
-    "from": "2026-11-14 10:56 KST",
-    "to": "2026-11-15 10:56 KST"
+    "from": "2026-11-14 11:40 KST",
+    "to": "2026-11-15 11:40 KST"
   },
-  "today_verified_count": 9,
+  "today_verified_count": 3,
   "current_items": [
     {
       "id": "8fcd8ae01e45",
@@ -149,6 +149,46 @@
       "stated_outlook": "반도체 장비 수주가 매출로 반영되는 4분기 이후 실적 개선을 기대하며, 자회사 SFA반도체의 신규 생산라인 가동이 연결 실적에 긍정적인 영향을 줄 것으로 전망함."
     },
     {
+      "id": "b8f7e22ab1fe",
+      "sector": "semiconductor",
+      "region": "domestic",
+      "category": "산업",
+      "title": "AI 반도체 호황에 ICT 수출 증가율 첫 200% 돌파",
+      "source": "ZDNet Korea",
+      "source_type": "산업 전문언론",
+      "official_source": false,
+      "published": "2026-11-15 00:00",
+      "collected": "2026-11-15",
+      "link": "https://zdnet.co.kr/view/?no=20261115004601",
+      "rss_description": " AI 반도체 호황에 ICT 수출 증가율 첫 200% 돌파 AI 반도체 수요 증가로 10월 우리나라 ICT 수출이 1년 전의 세 배를 넘어섰다. 월간 수출 증가율이 사상 처음 200%를 넘었고, 반도체 수출이 전체 ICT 수출의 80%... 2026.11.15 AM 11:00 박수형 기자 <a href=\"/view/?no=",
+      "score": 21,
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "2026년 10월 우리나라 ICT 수출액이 전년 동월 대비 202.0% 증가한 703억 5000만 달러를 기록하며 사상 처음으로 월간 수출 증가율 200%를 돌파했습니다. AI 반도체 수요가 이어지는 가운데 반도체 수출이 전체 ICT 수출의 80% 이상을 차지하며 성장을 견인했습니다. 또한, 미국을 비롯한 주요 시장에서의 수출이 일제히 증가하며 국가 전체 수출액 중 ICT 비중 61.0%를 유지했습니다.",
+      "key_points": [
+        "10월 ICT 수출액은 703억 5000만 달러로 전년 동월 대비 202.0% 증가함",
+        "반도체 수출은 564억 7000만 달러로 전체 ICT 수출의 80.3% 비중을 차지함",
+        "미국으로의 ICT 수출은 522.4% 폭증하며 높은 성장세를 기록함",
+        "컴퓨터·주변기기 부문에서는 데이터센터 투자 확대로 인해 SSD 수출이 584.3% 급증함"
+      ],
+      "numbers": [
+        "2026년 10월",
+        "703억 5000만 달러",
+        "202.0%",
+        "564억 7000만 달러",
+        "80.3%",
+        "522.4%"
+      ],
+      "keywords": [
+        "ICT 수출",
+        "반도체",
+        "AI",
+        "SSD",
+        "수출 증가율"
+      ],
+      "stated_outlook": ""
+    },
+    {
       "id": "46e81ef3410d",
       "sector": "battery",
       "region": "domestic",
@@ -199,6 +239,46 @@
       "published": "2026-11-15 06:45",
       "collected": "2026-11-15",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1XelEzMFBjVXRkZU4zczNKNXp6eFhWYmlSdmZqbi05cmZndUFqYzBJUy1udHZKaDhqWUVCNzQzUURnbzdqQUVQSjlTM2FucDEybXc?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "9e97472a1f1f",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "에코프로, 국제배터리엑스포서 차세대 소재 기술력 선봬",
+      "source": "이데일리",
+      "source_type": "경제지 보도",
+      "published": "2026-11-15 10:53",
+      "collected": "2026-11-15",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYzRmNldVaVlSaktySWxUS09xVjJWczFSb2I3d201XzR2bld3SU5LYlZ5YmxjcXpFbGVIUk9oWW9jck83UXpmUzJBUkVlcXhUMWpKcnRUTDI2NXBiSUtCR0JxUUtiNERMS2s5U1lldmFXUXdoQkRqSDdoTllkNG9IYg?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "5fa2a182c7ba",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "헝가리發 규제 리스크에 K배터리 비상…10兆 투자 흔들리나",
+      "source": "파이낸셜뉴스",
+      "source_type": "경제지 보도",
+      "published": "2026-11-15 11:13",
+      "collected": "2026-11-15",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4Qmx5NkpQS0ZKSkZicjZNd3Rra2d4cExtV0szU1JKT0RteEhvaWVLd0J5Z3dYR1NuNUlYVl8tVGhEZG00VnJad1ZqbG9jekFXSGd5dHpVbEZfQQ?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
