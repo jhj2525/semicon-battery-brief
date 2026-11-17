@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-17 13:31 KST",
-  "last_automatic_update_at": "2026-11-17 13:31 KST",
-  "automatic_cycle_started_at": "2026-11-17 13:28 KST",
+  "updated_at": "2026-11-17 14:05 KST",
+  "last_automatic_update_at": "2026-11-17 14:05 KST",
+  "automatic_cycle_started_at": "2026-11-17 14:05 KST",
   "publication_window": {
-    "from": "2026-11-16 13:28 KST",
-    "to": "2026-11-17 13:28 KST"
+    "from": "2026-11-16 14:05 KST",
+    "to": "2026-11-17 14:05 KST"
   },
-  "today_verified_count": 8,
+  "today_verified_count": 2,
   "current_items": [
     {
       "id": "b1ae3843f297",
@@ -192,6 +192,66 @@
       "published": "2026-11-16 17:51",
       "collected": "2026-11-17",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYMUhSTTRKVG5kVmczTHZrVHFtY25peVRzQzdBUDlkbS1WdTd5Sk94NVFobkFlZG1IV042dGo0UkpSNGpwVDB5bWtJMTZBM055N0pXQ2wyMmtEbHZIRWstUHkzTGk5UnRT?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "7066dfae8c68",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "투자·양산",
+      "title": "나인테크, 3분기 흑자전환...ESS 전환 장비 수요 확대",
+      "source": "디일렉",
+      "published": "2026-11-16 22:57",
+      "collected": "2026-11-17",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=65473",
+      "rss_description": "나인테크가 전기차 배터리 생산라인의 에너지저장장치(ESS) 전환 수요에 힘입어 올해 3분기 누적 영업이익 흑자를 기록했다나인테크는 올해 1~3분기 연결기준 누적 매출 488억원, 영업이익 15억원을 기록했다고 16일 밝혔다. 매출은 전년 동기 대비 26% 감소했지만 영업이익은 지난해 같은 기간 19억원 적자에서 흑자로 돌아섰다.3분기 매출은 163억원, 영업이익은 5억원을 기록했다. 방산용 배터리 자회사 탈로스 등은 매출 43억원과 영업이익 3억원을 기여했다.나인테크는 글로벌 배터리 제조사들이 전기차용 생산라인을 ESS용으로 전환하",
+      "score": 51,
+      "source_type": "산업 전문언론",
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "나인테크가 전기차 배터리 생산라인의 에너지저장장치(ESS) 전환 수요 증가에 힘입어 올해 3분기 누적 영업이익 흑자 전환을 달성했다. 연결기준 1~3분기 누적 매출 488억원, 영업이익 15억원을 기록했다. 회사는 향후 ESS, 디스플레이 장비, AI 냉각 솔루션을 중심으로 사업을 확대할 계획이다.",
+      "key_points": [
+        "나인테크의 올해 1~3분기 연결기준 누적 매출은 488억원, 영업이익은 15억원으로 흑자를 기록했다.",
+        "글로벌 배터리 제조사들의 전기차 생산라인을 ESS용으로 전환하는 수요가 늘며 관련 장비 매출이 확대되었다.",
+        "자회사 탈로스는 3분기 매출 43억원과 영업이익 3억원을 기록하며 실적에 기여했다.",
+        "열전소자 기반 AI 서버 냉각 시스템 'HTRC'로 CES 2027 혁신상을 수상하였다."
+      ],
+      "numbers": [
+        "2026년 3분기",
+        "누적 매출 488억원",
+        "누적 영업이익 15억원",
+        "전년 동기 대비 매출 26% 감소",
+        "전년 19억원 적자",
+        "3분기 매출 163억원"
+      ],
+      "keywords": [
+        "나인테크",
+        "ESS",
+        "배터리",
+        "흑자전환",
+        "AI 냉각 솔루션",
+        "CES 2027"
+      ],
+      "stated_outlook": "ESS와 디스플레이 장비, AI 냉각 솔루션을 중심으로 사업을 확대할 계획이다."
+    },
+    {
+      "id": "b9566af1b5ae",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "美 ESS시장 뚫은 삼성SDI … 3년동안 수조원 규모 공급",
+      "source": "매일경제",
+      "source_type": "경제지 보도",
+      "published": "2026-11-16 17:26",
+      "collected": "2026-11-17",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94cVlOb2VLbFY0WjZiTGJia09sTGtjMENtc0U2bXdGOUNuY2lWSEdiRWlHN2JUZS1QZm41Mi05OUFicmtIN2N0Nkt5RlJEV2RKMWNVWERB?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
