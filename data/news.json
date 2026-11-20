@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-20 12:18 KST",
-  "last_automatic_update_at": "2026-11-20 12:18 KST",
-  "automatic_cycle_started_at": "2026-11-20 12:16 KST",
+  "updated_at": "2026-11-20 12:59 KST",
+  "last_automatic_update_at": "2026-11-20 12:59 KST",
+  "automatic_cycle_started_at": "2026-11-20 12:59 KST",
   "publication_window": {
-    "from": "2026-11-19 12:16 KST",
-    "to": "2026-11-20 12:16 KST"
+    "from": "2026-11-19 12:59 KST",
+    "to": "2026-11-20 12:59 KST"
   },
-  "today_verified_count": 7,
+  "today_verified_count": 5,
   "current_items": [
     {
       "id": "0cbef3370c70",
@@ -201,6 +201,142 @@
       "numbers": [],
       "keywords": [],
       "stated_outlook": ""
+    },
+    {
+      "id": "04106953d369",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "기술·공정",
+      "title": "엘앤에프, 1515억 CB 발행…LFP 양산 확대",
+      "source": "블로터",
+      "source_type": "산업 전문언론",
+      "published": "2026-11-19 17:48",
+      "collected": "2026-11-20",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBzTWdMdjRKSFpRaEVSVDBQYW9FdjJtbW1zSEtQVU1MczhDeTl0Qmx4UTVKTjNCQjZHV0xaeTBEbDBld2F6NHE1dGxTU0FoSm1LRk90dFY1S3phdThRejRFNmFsT3E4ZXpO0gFsQVVfeXFMT095Tl9xV1hVeEpyR2V2UFZHWjJtZ04wbTNPSE1falU0WmgtMGZFbVpNRUoweVRCY0RsazZZNkc3clB4RmlkVUhHX05mNmRNbXBldW1IQzAzSVpUdWt2bjFGT1RkTXZUcUZka0w0?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "77e84759d4ab",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "LG엔솔, 캐즘 돌파 인재 전면에…ESS·HEV로 사업구조 전환 가속",
+      "source": "블로터",
+      "source_type": "산업 전문언론",
+      "published": "2026-11-19 17:15",
+      "collected": "2026-11-20",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQODE5dXJWeWZjaEUzTVRkd2ZnSjlBMGxRekQ2VnZwRWR2TC1vS1lCUERVYU1Xd0pUVWp1QWJYUk9aenhTeC0xNWoxX2VGZ3NBWDByNUxhbGJlSlVtSGpOTkZ6NUNQSGFB0gFsQVVfeXFMUGkxcGpUVDVmSXUwd1lvUjR6NEE0S0J0dDJUdFAtM2xPNlZRalhicVRIVHFtSk9OeG1Xa1o4MXhZeFUxaXZfX0NZMXFFem5RZjdDVERwRXpjSXNUd1ltZHFMMklCaVROQzVvTEc2?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "7572a277ff6d",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "[모닝 리포트] \"엘앤에프, LFP 성장 위한 자금조달 가시화\"",
+      "source": "뉴스핌",
+      "source_type": "통신사 보도",
+      "published": "2026-11-20 08:54",
+      "collected": "2026-11-20",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4X3hLNjRadnJjb0k2aDdOblFBV0FsN2M4cW9XYVhzUWM2NGJpT0g0TVduTlowb0hLWGp6aGl5aWJTZVk0T1ZIWVA0Vm9kYVp2Mk9KQzRFOW03Z0s2?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "85b19b34123f",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "배터리 넘어 폐배터리까지…유럽 공급망 빈틈 파고드는 중국",
+      "source": "ZDNet Korea",
+      "source_type": "산업 전문언론",
+      "official_source": false,
+      "published": "2026-11-19 00:00",
+      "collected": "2026-11-20",
+      "link": "https://zdnet.co.kr/view/?no=20261119182405",
+      "rss_description": "ay-bg\"> 비타민B12로 만든 충전식 배터리 나왔다 이정현 미디어연구소 배터리 넘어 폐배터리까지…유럽 공급망 빈틈 파고드는 중국 배터리 넘어 폐배터",
+      "score": 15,
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "중국 배터리 기업 CATL이 유럽의 폐배터리를 자국에서 처리하고 회수한 금속을 돌려주는 방안을 제안하며 유럽 공급망 공략에 나섰다. CATL은 유럽 현지에 재활용 시설을 구축하는 것보다 비용 효율적인 기존 중국 설비 활용을 주장하고 있다. 반면 유럽연합(EU)은 역내 폐배터리 처리 역량과 원료 공급 기반을 스스로 확보하려는 입장이어서 정책 방향의 차이를 보이고 있다.",
+      "key_points": [
+        "쩡위췬 CATL 회장은 유럽 폐배터리를 중국으로 가져와 처리한 뒤 회수 금속을 돌려주는 방안을 유럽 당국과 일부 완성차 업체에 제안했다.",
+        "EU는 블랙매스 등 폐배터리 재활용 원료의 역외 유출을 제한하며 자체 공급망 구축을 추진 중이다.",
+        "CATL은 유럽이 자체 시설을 구축하는 과정에서 막대한 비용 부담과 경쟁력 확보의 어려움이 발생할 것이라고 주장한다.",
+        "유럽은 현지 재활용 시설 구축을 위해 노력 중이나 아직 충분한 처리 역량과 원료 물량을 확보하지 못한 상태다."
+      ],
+      "numbers": [
+        "2026/11/19"
+      ],
+      "keywords": [
+        "CATL",
+        "폐배터리",
+        "유럽연합",
+        "공급망",
+        "블랙매스",
+        "재활용"
+      ],
+      "stated_outlook": "EU 집행위원회는 지난 9월 배터리 재활용 효율과 소재 회수 목표를 검토한 뒤 현행 목표를 유지하기로 했으며, 국내 폐배터리 재활용 기업들에게는 유럽의 규제와 현지 처리 수요 변화가 주요 사업 변수로 작용할 전망이다."
+    },
+    {
+      "id": "9b76258384ae",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "\"소듐 배터리, ESS 더 유리\"…LFP와 경쟁 본격화",
+      "source": "ZDNet Korea",
+      "source_type": "산업 전문언론",
+      "official_source": false,
+      "published": "2026-11-19 00:00",
+      "collected": "2026-11-20",
+      "link": "https://zdnet.co.kr/view/?no=20261119145503",
+      "rss_description": " \"소듐 배터리, ESS 더 유리\"…LFP와 경쟁 본격화 소듐(나트륨) 배터리가 에너지저장장치(ESS) 시장에서 리튬인산철(LFP) 배터리의 대안으로 떠오르고 있다. 아직 초기 도입 비용에서는 LFP에 밀리지만 장기 운영 비용과 저온... 2026.11.19 PM 04:17 김윤희 기자 <a href=\"/view/?no=202611191",
+      "score": 10,
+      "source_rank": 5,
+      "verified_source": true,
+      "overview": "소듐 배터리가 에너지저장장치(ESS) 시장에서 리튬인산철(LFP) 배터리의 대안으로 주목받고 있다. 초기 도입 비용은 LFP보다 높으나 장기 운영 시 비용 절감 및 저온 성능 면에서 경쟁 우위를 가진다는 분석이다. 현재 중국 기업이 시장을 주도하는 가운데 국내 배터리 기업들도 양산 및 테스트를 준비하고 있다.",
+      "key_points": [
+        "우드맥켄지 분석 결과, 20년 장기 ESS 프로젝트 기준 소듐 배터리 총비용이 LFP 대비 21% 저렴하다.",
+        "중국 기업인 CATL과 BYD가 소듐 배터리 관련 양산 및 솔루션 공급을 주도하고 있다.",
+        "국내에서는 LG에너지솔루션이 ESS용 샘플 생산 및 북미 테스트를, 삼성SDI가 울산 사업장에 무정전전원장치(UPS)용 생산라인 구축을 준비 중이다."
+      ],
+      "numbers": [
+        "2030년",
+        "229달러",
+        "200달러",
+        "21%",
+        "20년",
+        "2024년"
+      ],
+      "keywords": [
+        "소듐 배터리",
+        "ESS",
+        "LFP",
+        "우드맥켄지",
+        "CATL",
+        "LG에너지솔루션"
+      ],
+      "stated_outlook": "향후 10년간 ESS 시장에서 LFP와 소듐 배터리 간 경쟁이 본격화될 것으로 전망되며, 2030년 이후 모듈 및 ESS 시스템 단위에서 두 배터리의 가격이 비슷해질 것으로 예상된다."
     }
   ],
   "archive_items": [
