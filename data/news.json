@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-23 11:49 KST",
-  "last_automatic_update_at": "2026-11-23 11:49 KST",
-  "automatic_cycle_started_at": "2026-11-23 11:45 KST",
+  "updated_at": "2026-11-23 12:44 KST",
+  "last_automatic_update_at": "2026-11-23 12:44 KST",
+  "automatic_cycle_started_at": "2026-11-23 12:43 KST",
   "publication_window": {
-    "from": "2026-11-22 11:45 KST",
-    "to": "2026-11-23 11:45 KST"
+    "from": "2026-11-22 12:43 KST",
+    "to": "2026-11-23 12:43 KST"
   },
-  "today_verified_count": 10,
+  "today_verified_count": 1,
   "current_items": [
     {
       "id": "76ce347a22d9",
@@ -237,6 +237,26 @@
       "published": "2026-11-23 10:39",
       "collected": "2026-11-23",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAxdFNhWkJ6c1BLb083UmQ2ZUVucWhad05kdzFScU80VFk5VXc0cFFWV0NVelNyTXUtdVUzOW14Zk1MUjBZOWR3TmpKakRfa1NfVElzQ2lZc3ZJV0doN1EzTlBTMU8waTlV0gFsQVVfeXFMTWlZNW1jSndDTWdQZ2pXanJPOVdXZ3l2M3JIYnJYRWdHUEVQM3R3TkM0aEhVVFd6ckxiS1JjT3YtUzNOR2twMGM3eWVfVzczR2ljYXV3R2p4WjB2ZEtjY0cxZGZidkNva2FrcGZa?oc=5",
+      "trusted_headline": true,
+      "verified_source": false,
+      "summary_status": "link_only",
+      "overview": "원문 자동접근이 제한되어 제목과 원문 링크를 표시합니다.",
+      "key_points": [],
+      "numbers": [],
+      "keywords": [],
+      "stated_outlook": ""
+    },
+    {
+      "id": "3df8e33d9191",
+      "sector": "battery",
+      "region": "domestic",
+      "category": "산업",
+      "title": "전원 꺼도 불났다…ESS 성장의 조건 ＇안전＇ 또 ＇안전＇ [ESS 대전환 ③]",
+      "source": "한국경제",
+      "source_type": "경제지 보도",
+      "published": "2026-11-22 21:11",
+      "collected": "2026-11-23",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVaUg1V0U5b1ZldjZDMGJlXzlfMC1QN2gxZ3dYOGU4b3FDcXBPb3cyWHctNzBkRjg4Y1dpY3U3OG9CNHllcWVpMTU4cmdTYl9wRHVNLWNUSV9sYWswazZoMzItamE0MXU5VHY3NE01OVZGU3k3OWNZ?oc=5",
       "trusted_headline": true,
       "verified_source": false,
       "summary_status": "link_only",
